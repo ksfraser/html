@@ -1,0 +1,13 @@
+{
+    "name": "ksfraser/html-project",
+    "description": "HTML project for Ksfraser",
+    "require": {
+        "php": ">=7.4",
+        "repositories": {
+            "origin": {
+                "type": "vcs",
+                "url": "https://github.com/ksfraser/origin"
+            }
+        }
+    }
+}

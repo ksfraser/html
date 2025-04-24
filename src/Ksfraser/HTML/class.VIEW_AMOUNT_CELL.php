@@ -1,10 +1,13 @@
 <?php
 
-require_once( 'class.VIEW_CELL.php' );
+namespace Ksfraser\HTML;
+
+use Ksfraser\Origin\origin;
 
 
 class VIEW_AMOUNT_CELL extends VIEW_CELL
 {
+	protected $amount;
 	function __construct( $f1 = "" )
 	{
 		parent::__construct();
@@ -16,5 +19,19 @@ class VIEW_AMOUNT_CELL extends VIEW_CELL
 				$this->get( "f1" ),
 			);
 	}
+    /**
+     * Set the amount with validation.
+     *
+     * @param float $amount The amount to set.
+     * @throws InvalidArgumentException If the amount is not a valid number.
+     */
+    public function set_amount($amount)
+    {
+        if (!is_numeric($amount) || $amount < 0) {
+            throw new InvalidArgumentException("Amount must be a non-negative number.");
+        }
+
+        $this->amount = $amount;
+    }
 }
 

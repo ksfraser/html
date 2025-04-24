@@ -1,9 +1,12 @@
 <?php
 
-require_once( 'class.VIEW_CELL.php' );
+namespace Ksfraser\HTML;
+
+use Ksfraser\Origin\origin;
 
 class VIEW_DATE_CELL extends VIEW_CELL
 {
+	protected $date;
 	function __construct()
 	{
 		parent::__construct();
@@ -18,4 +21,19 @@ class VIEW_DATE_CELL extends VIEW_CELL
 				$this->get( "f4" )
 			);
 	}
+
+    /**
+     * Set the date with validation.
+     *
+     * @param string $date The date to set.
+     * @throws InvalidArgumentException If the date is not in a valid format.
+     */
+    public function set_date($date)
+    {
+        if (!strtotime($date)) {
+            throw new InvalidArgumentException("Invalid date format.");
+        }
+
+        $this->date = $date;
+    }
 }

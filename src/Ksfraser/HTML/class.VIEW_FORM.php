@@ -1,6 +1,8 @@
 <?php
 
-require_once( 'class.origin.php' );
+namespace Ksfraser\HTML;
+
+use Ksfraser\Origin\origin;
 
 class VIEW_FORM extends origin
 {
@@ -27,4 +29,18 @@ class VIEW_FORM extends origin
 	{
 		end_form();
 	}
+    /**
+     * Add an item to the form with validation.
+     *
+     * @param object $item The item to add.
+     * @throws InvalidArgumentException If the item is not an object.
+     */
+    public function add_item($item)
+    {
+        if (!is_object($item)) {
+            throw new InvalidArgumentException("Item must be an object.");
+        }
+
+        $this->form_item_array[] = $item;
+    }
 }
