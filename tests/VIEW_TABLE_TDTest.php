@@ -1,6 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
+use Ksfraser\HTML\VIEW_TABLE_TD;
 
 class VIEW_TABLE_TDTest extends TestCase
 {

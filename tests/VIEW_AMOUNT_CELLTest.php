@@ -1,6 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
+use Ksfraser\HTML\VIEW_AMOUNT_CELL;
 
 class VIEW_AMOUNT_CELLTest extends TestCase
 {

@@ -1,6 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
+use Ksfraser\HTML\VIEW_DIV;
 
 class VIEW_DIVTest extends TestCase
 {

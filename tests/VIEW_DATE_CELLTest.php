@@ -1,6 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
+use Ksfraser\HTML\VIEW_DATE_CELL;
 
 class VIEW_DATE_CELLTest extends TestCase
 {

@@ -1,6 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
+use Ksfraser\HTML\VIEW_CELL;
 
 class VIEW_CELLTest extends TestCase
 {

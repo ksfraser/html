@@ -1,6 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
+use Ksfraser\HTML\VIEW_ROW;
 
 class VIEW_ROWTest extends TestCase
 {
