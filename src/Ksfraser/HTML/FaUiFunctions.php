@@ -187,6 +187,7 @@ class FaUiFunctions {
         }
     }
 
+
     public static function submit($name, $value, $echo=true, $title=false, $atype=false, $icon=false)
     {
         if (function_exists('\\submit')) {
@@ -638,6 +639,17 @@ class FaUiFunctions {
         }
     }
 
+    public static function qty_cells($label, $name, $init=null, $params=null, $post_label=null, $dec=null)
+    {
+        if (function_exists('\\qty_cells')) {
+            call_user_func('\\qty_cells', $label, $name, $init, $params, $post_label, $dec);
+        } else {
+            // OOP implementation
+            $dec = $dec ?? 2; // Simplified default
+            self::amount_cells($label, $name, $init, $params, $post_label, $dec);
+        }
+    }
+
     public static function qty_row($label, $name, $init=null, $params=null, $post_label=null, $dec=null)
     {
         if (function_exists('\\qty_row')) {
@@ -648,6 +660,17 @@ class FaUiFunctions {
             self::start_row();
             self::amount_cells($label, $name, $init, $params, $post_label, $dec);
             self::end_row();
+        }
+    }
+
+    public static function small_qty_cells($label, $name, $init=null, $params=null, $post_label=null, $dec=null)
+    {
+        if (function_exists('\\small_qty_cells')) {
+            call_user_func('\\small_qty_cells', $label, $name, $init, $params, $post_label, $dec);
+        } else {
+            // OOP implementation
+            $dec = $dec ?? 2; // Simplified default
+            self::small_amount_cells($label, $name, $init, $params, $post_label, $dec);
         }
     }
 
@@ -853,6 +876,106 @@ class FaUiFunctions {
         } else {
             // OOP implementation
             echo "<tr><td colspan='$colspan' class='tableheader'>$msg</td></tr>\n";
+        }
+    }
+
+    public static function inactive_control_cell($id, $value, $table, $key)
+    {
+        if (function_exists('\\inactive_control_cell')) {
+            call_user_func('\\inactive_control_cell', $id, $value, $table, $key);
+        } else {
+            // OOP implementation - simplified
+            // This is a complex function that checks database for inactive status
+            // Simplified version just displays the value
+            $cell = new \Ksfraser\HTML\Elements\FaCell($value);
+            $cell->toHtml();
+        }
+    }
+
+    public static function inactive_control_row($th)
+    {
+        if (function_exists('\\inactive_control_row')) {
+            call_user_func('\\inactive_control_row', $th);
+        } else {
+            // OOP implementation - simplified
+            echo "<tr><td class='label'>$th</td><td>";
+            // This would normally have controls to activate/deactivate
+            echo "</td></tr>\n";
+        }
+    }
+
+    public static function inactive_control_column(&$th)
+    {
+        if (function_exists('\\inactive_control_column')) {
+            call_user_func('\\inactive_control_column', $th);
+        } else {
+            // OOP implementation - simplified
+            // This modifies the table header for inactive controls
+            $th .= "<th>Inactive</th>";
+        }
+    }
+
+    public static function customer_credit_row($customer, $credit, $parms='')
+    {
+        if (function_exists('\\customer_credit_row')) {
+            call_user_func('\\customer_credit_row', $customer, $credit, $parms);
+        } else {
+            // OOP implementation - simplified
+            self::start_row();
+            self::label_cell("Customer Credit", "class='label'");
+            self::label_cell("$" . number_format($credit, 2), $parms);
+            self::end_row();
+        }
+    }
+
+    public static function supplier_credit_row($supplier, $credit, $parms='')
+    {
+        if (function_exists('\\supplier_credit_row')) {
+            call_user_func('\\supplier_credit_row', $supplier, $credit, $parms);
+        } else {
+            // OOP implementation - simplified
+            self::start_row();
+            self::label_cell("Supplier Credit", "class='label'");
+            self::label_cell("$" . number_format($credit, 2), $parms);
+            self::end_row();
+        }
+    }
+
+    public static function bank_balance_row($bank_acc, $parms='')
+    {
+        if (function_exists('\\bank_balance_row')) {
+            call_user_func('\\bank_balance_row', $bank_acc, $parms);
+        } else {
+            // OOP implementation - simplified
+            self::start_row();
+            self::label_cell("Bank Balance", "class='label'");
+            self::label_cell("$" . number_format($bank_acc, 2), $parms);
+            self::end_row();
+        }
+    }
+
+    public static function ahref($label, $href, $target="", $onclick="")
+    {
+        if (function_exists('\\ahref')) {
+            call_user_func('\\ahref', $label, $href, $target, $onclick);
+        } else {
+            // OOP implementation
+            $target_attr = $target ? " target='$target'" : '';
+            $onclick_attr = $onclick ? " onclick='$onclick'" : '';
+            echo "<a href='$href'$target_attr$onclick_attr>$label</a>";
+        }
+    }
+
+    public static function ahref_cell($label, $href, $target="", $onclick="")
+    {
+        if (function_exists('\\ahref_cell')) {
+            call_user_func('\\ahref_cell', $label, $href, $target, $onclick);
+        } else {
+            // OOP implementation
+            $target_attr = $target ? " target='$target'" : '';
+            $onclick_attr = $onclick ? " onclick='$onclick'" : '';
+            $cell = new \Ksfraser\HTML\Elements\FaCell("<a href='$href'$target_attr$onclick_attr>$label</a>");
+            $cell->toHtml();
         }
     }
 }
