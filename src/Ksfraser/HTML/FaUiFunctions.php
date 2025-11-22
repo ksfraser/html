@@ -115,6 +115,25 @@ class FaUiFunctions {
         }
     }
 
+    public static function hidden($name, $value=null, $echo=true)
+    {
+        if (function_exists('\\hidden')) {
+            call_user_func('\\hidden', $name, $value, $echo);
+        } else {
+            // OOP implementation
+            $input = "<input type='hidden' name='$name'";
+            if (isset($value)) {
+                $input .= " value='$value'";
+            }
+            $input .= ">";
+            if ($echo) {
+                echo $input;
+            } else {
+                return $input;
+            }
+        }
+    }
+
     public static function number_list_cells($label, $name, $selected, $from, $to, $no_option=false)
     {
         if (function_exists('\\number_list_cells')) {
@@ -165,6 +184,101 @@ class FaUiFunctions {
             }
             $cell = new \Ksfraser\HTML\Elements\FaCell($checkHtml, $params);
             $cell->toHtml();
+        }
+    }
+
+    public static function submit($name, $value, $echo=true, $title=false, $atype=false, $icon=false)
+    {
+        if (function_exists('\\submit')) {
+            call_user_func('\\submit', $name, $value, $echo, $title, $atype, $icon);
+        } else {
+            // OOP implementation
+            $input = "<input type='submit' name='$name' value='$value'";
+            if ($title) {
+                $input .= " title='$title'";
+            }
+            $input .= ">";
+            if ($echo) {
+                echo $input;
+            } else {
+                return $input;
+            }
+        }
+    }
+
+    public static function button($name, $value, $title=false, $icon=false, $aspect='')
+    {
+        if (function_exists('\\button')) {
+            call_user_func('\\button', $name, $value, $title, $icon, $aspect);
+        } else {
+            // OOP implementation
+            $input = "<input type='button' name='$name' value='$value'";
+            if ($title) {
+                $input .= " title='$title'";
+            }
+            if ($aspect) {
+                $input .= " $aspect";
+            }
+            $input .= ">";
+            echo $input;
+        }
+    }
+
+    public static function button_cell($name, $value, $title=false, $icon=false, $aspect='')
+    {
+        if (function_exists('\\button_cell')) {
+            call_user_func('\\button_cell', $name, $value, $title, $icon, $aspect);
+        } else {
+            // OOP implementation
+            // Get the button HTML
+            $buttonHtml = '';
+            if (function_exists('\\button')) {
+                ob_start();
+                call_user_func('\\button', $name, $value, $title, $icon, $aspect);
+                $buttonHtml = ob_get_clean();
+            } else {
+                // Fallback: simple button
+                $buttonHtml = "<input type='button' name='$name' value='$value'";
+                if ($title) {
+                    $buttonHtml .= " title='$title'";
+                }
+                if ($aspect) {
+                    $buttonHtml .= " $aspect";
+                }
+                $buttonHtml .= ">";
+            }
+            $cell = new \Ksfraser\HTML\Elements\FaCell($buttonHtml);
+            $cell->toHtml();
+        }
+    }
+
+    public static function delete_button_cell($name, $value, $title=false)
+    {
+        if (function_exists('\\delete_button_cell')) {
+            call_user_func('\\delete_button_cell', $name, $value, $title);
+        } else {
+            // OOP implementation
+            self::button_cell($name, $value, $title, false, 'aspect="danger"');
+        }
+    }
+
+    public static function edit_button_cell($name, $value, $title=false)
+    {
+        if (function_exists('\\edit_button_cell')) {
+            call_user_func('\\edit_button_cell', $name, $value, $title);
+        } else {
+            // OOP implementation
+            self::button_cell($name, $value, $title, false, 'aspect="primary"');
+        }
+    }
+
+    public static function select_button_cell($name, $value, $title=false)
+    {
+        if (function_exists('\\select_button_cell')) {
+            call_user_func('\\select_button_cell', $name, $value, $title);
+        } else {
+            // OOP implementation
+            self::button_cell($name, $value, $title, false, 'aspect="success"');
         }
     }
 
