@@ -26,6 +26,15 @@ class Form {
     }
     
     /**
+     * Get the underlying HtmlForm element
+     * 
+     * @return HtmlForm The wrapped HTML element
+     */
+    public function getHtmlElement(): HtmlForm {
+        return $this->element;
+    }
+    
+    /**
      * Set the form method attribute (GET or POST)
      * 
      * @param string $method HTTP method (get, post)
@@ -84,6 +93,8 @@ class Form {
         foreach ($elements as $element) {
             if ($element instanceof HtmlElementInterface) {
                 $this->element->addNested($element);
+            } elseif (method_exists($element, 'getHtmlElement')) {
+                $this->element->addNested($element->getHtmlElement());
             }
         }
         return $this;

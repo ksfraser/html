@@ -26,6 +26,15 @@ class TableRow {
     }
     
     /**
+     * Get the underlying HtmlTableRow element
+     * 
+     * @return HtmlTableRow The wrapped HTML element
+     */
+    public function getHtmlElement(): HtmlTableRow {
+        return $this->element;
+    }
+    
+    /**
      * Add a CSS class to the row
      * 
      * @param string $class CSS class name
@@ -51,6 +60,8 @@ class TableRow {
         foreach ($elements as $element) {
             if ($element instanceof HtmlElementInterface) {
                 $this->element->addNested($element);
+            } elseif (method_exists($element, 'getHtmlElement')) {
+                $this->element->addNested($element->getHtmlElement());
             }
         }
         return $this;

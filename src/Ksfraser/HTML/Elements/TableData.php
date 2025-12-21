@@ -26,6 +26,15 @@ class TableData {
     }
     
     /**
+     * Get the underlying HtmlTableRowCell element
+     * 
+     * @return HtmlTableRowCell The wrapped HTML element
+     */
+    public function getHtmlElement(): HtmlTableRowCell {
+        return $this->element;
+    }
+    
+    /**
      * Set the text content of the cell
      * 
      * @param string $text The cell text
@@ -70,6 +79,8 @@ class TableData {
         foreach ($elements as $element) {
             if ($element instanceof HtmlElementInterface) {
                 $this->element->addNested($element);
+            } elseif (method_exists($element, 'getHtmlElement')) {
+                $this->element->addNested($element->getHtmlElement());
             }
         }
         return $this;

@@ -28,6 +28,15 @@ class Input {
     }
     
     /**
+     * Get the underlying HtmlInput element
+     * 
+     * @return HtmlInput The wrapped HTML element
+     */
+    public function getHtmlElement(): HtmlInput {
+        return $this->element;
+    }
+    
+    /**
      * Set the input type attribute
      * 
      * @param string $type Input type (text, email, password, hidden, checkbox, radio, etc.)

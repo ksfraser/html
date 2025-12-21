@@ -26,6 +26,15 @@ class TableHeader {
     }
     
     /**
+     * Get the underlying HtmlTableHeaderCell element
+     * 
+     * @return HtmlTableHeaderCell The wrapped HTML element
+     */
+    public function getHtmlElement(): HtmlTableHeaderCell {
+        return $this->element;
+    }
+    
+    /**
      * Set the text content of the header cell
      * 
      * @param string $text The header text

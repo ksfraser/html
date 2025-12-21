@@ -35,6 +35,15 @@ class Heading {
     }
     
     /**
+     * Get the underlying HtmlHeading element
+     * 
+     * @return HtmlHeading The wrapped HTML element
+     */
+    public function getHtmlElement(): HtmlHeading {
+        return $this->element;
+    }
+    
+    /**
      * Set the text content of the heading
      * 
      * @param string $text The heading text

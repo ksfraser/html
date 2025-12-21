@@ -27,6 +27,15 @@ class Table {
     }
     
     /**
+     * Get the underlying HtmlTable element
+     * 
+     * @return HtmlTable The wrapped HTML element
+     */
+    public function getHtmlElement(): HtmlTable {
+        return $this->element;
+    }
+    
+    /**
      * Add a CSS class to the table
      * 
      * @param string $class CSS class name
@@ -52,6 +61,8 @@ class Table {
         foreach ($elements as $element) {
             if ($element instanceof HtmlElementInterface) {
                 $this->element->addNested($element);
+            } elseif (method_exists($element, 'getHtmlElement')) {
+                $this->element->addNested($element->getHtmlElement());
             }
         }
         return $this;
@@ -67,15 +78,6 @@ class Table {
     public function setAttribute(string $name, string $value): self {
         $this->element->addAttribute(new HtmlAttribute($name, $value));
         return $this;
-    }
-    
-    /**
-     * Get the underlying HTML element
-     * 
-     * @return HtmlTable The HTML table element
-     */
-    public function getElement(): HtmlTable {
-        return $this->element;
     }
     
     /**
@@ -96,3 +98,4 @@ class Table {
         return $this->getHtml();
     }
 }
+

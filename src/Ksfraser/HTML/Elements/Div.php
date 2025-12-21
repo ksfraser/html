@@ -26,6 +26,15 @@ class Div {
     }
     
     /**
+     * Get the underlying HtmlDiv element
+     * 
+     * @return HtmlDiv The wrapped HTML element
+     */
+    public function getHtmlElement(): HtmlDiv {
+        return $this->element;
+    }
+    
+    /**
      * Set the text content of the div
      * 
      * @param string $text The div text
@@ -70,6 +79,8 @@ class Div {
         foreach ($elements as $element) {
             if ($element instanceof HtmlElementInterface) {
                 $this->element->addNested($element);
+            } elseif (method_exists($element, 'getHtmlElement')) {
+                $this->element->addNested($element->getHtmlElement());
             }
         }
         return $this;

@@ -26,6 +26,15 @@ class Button {
     }
     
     /**
+     * Get the underlying HtmlButton element
+     * 
+     * @return HtmlButton The wrapped HTML element
+     */
+    public function getHtmlElement(): HtmlButton {
+        return $this->element;
+    }
+    
+    /**
      * Set the text content of the button
      * 
      * @param string $text The button text
