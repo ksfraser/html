@@ -2,6 +2,7 @@
 namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlAttribute;
+use Ksfraser\HTML\HtmlEmptyElement;
 
 /**
  * Input - Factory/convenience wrapper for HTML input element
@@ -19,20 +20,27 @@ class Input {
     /**
      * Create a new input element
      * 
-     * @param string $type Input type (text, email, password, hidden, etc., default: text)
+     * @param string $type Optional input type (text, email, password, hidden, etc.)
+     *                      If provided, automatically sets the type attribute
      */
-    public function __construct(string $type = 'text') {
-        $this->element = new HtmlInput();
+    public function __construct(string $type = '') {
+        // Create a basic HtmlEmptyElement for input instead of HtmlInput
+        // to avoid HtmlInput's automatic type="text" addition
+        $this->element = new HtmlEmptyElement();
         $this->element->setTag('input');
-        $this->element->addAttribute(new HtmlAttribute('type', $type));
+        
+        // Only add type if explicitly provided
+        if ($type) {
+            $this->element->addAttribute(new HtmlAttribute('type', $type));
+        }
     }
     
     /**
-     * Get the underlying HtmlInput element
+     * Get the underlying HTML element
      * 
-     * @return HtmlInput The wrapped HTML element
+     * @return HtmlEmptyElement The wrapped HTML element
      */
-    public function getHtmlElement(): HtmlInput {
+    public function getHtmlElement(): HtmlEmptyElement {
         return $this->element;
     }
     
@@ -167,3 +175,4 @@ class Input {
         return $this->getHtml();
     }
 }
+
