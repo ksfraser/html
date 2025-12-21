@@ -1,16 +1,84 @@
 <?php
 namespace Ksfraser\HTML\Elements;
 
+use Ksfraser\HTML\HtmlAttribute;
+
 /**
- * TableRow - Convenience wrapper for HTML table row element
+ * TableRow - Factory/convenience wrapper for HTML table row elements
  * 
- * Extends HtmlTableRow to provide render() convenience method.
+ * Provides fluent interface for building table rows.
+ * 
+ * Usage:
+ * - (new TableRow())->addClass('header')->append($td1, $td2)->render()
  * 
  * @package Ksfraser\HTML\Elements
  */
-class TableRow extends HtmlTableRow {
+class TableRow {
+    private $element;
+    private $classes = [];
+    
     /**
-     * Get HTML representation as string (alias for getHtml)
+     * Create a new table row
+     */
+    public function __construct() {
+        $this->element = new HtmlTableRow(new HtmlString(''));
+        $this->element->setTag('tr');
+    }
+    
+    /**
+     * Add a CSS class to the row
+     * 
+     * @param string $class CSS class name
+     * @return self Fluent interface
+     */
+    public function addClass(string $class): self {
+        if (!in_array($class, $this->classes)) {
+            $this->classes[] = $class;
+        }
+        if (!empty($this->classes)) {
+            $this->element->addAttribute(new HtmlAttribute('class', implode(' ', $this->classes)));
+        }
+        return $this;
+    }
+    
+    /**
+     * Append child elements (cells) to the row
+     * 
+     * @param mixed ...$elements Variable number of elements to append
+     * @return self Fluent interface
+     */
+    public function append(...$elements): self {
+        foreach ($elements as $element) {
+            if ($element instanceof HtmlElementInterface) {
+                $this->element->addNested($element);
+            }
+        }
+        return $this;
+    }
+    
+    /**
+     * Add an HTML attribute
+     * 
+     * @param string $name Attribute name
+     * @param string $value Attribute value
+     * @return self Fluent interface
+     */
+    public function setAttribute(string $name, string $value): self {
+        $this->element->addAttribute(new HtmlAttribute($name, $value));
+        return $this;
+    }
+    
+    /**
+     * Get HTML representation as string
+     * 
+     * @return string The complete HTML table row element
+     */
+    public function getHtml(): string {
+        return $this->element->getHtml();
+    }
+    
+    /**
+     * Render the row to HTML string
      * 
      * @return string The complete HTML table row element
      */

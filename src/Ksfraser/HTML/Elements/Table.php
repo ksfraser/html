@@ -1,17 +1,94 @@
 <?php
 namespace Ksfraser\HTML\Elements;
 
+use Ksfraser\HTML\HtmlAttribute;
+
 /**
- * Table - Convenience wrapper for HTML table elements
+ * Table - Factory/convenience wrapper for HTML table elements
  * 
- * Extends HtmlTable to provide convenience methods for building tables
- * with the fluent builder pattern.
+ * Provides fluent interface for building tables with clean API.
+ * Wraps HtmlTable with methods like addClass(), append(), etc.
+ * 
+ * Usage:
+ * - (new Table())->addClass('my-table')->append($row1, $row2)->render()
  * 
  * @package Ksfraser\HTML\Elements
  */
-class Table extends HtmlTable {
+class Table {
+    private $element;
+    private $classes = [];
+    
     /**
-     * Get HTML representation as string (alias for getHtml)
+     * Create a new table
+     */
+    public function __construct() {
+        $this->element = new HtmlTable(new HtmlString(''));
+        $this->element->setTag('table');
+    }
+    
+    /**
+     * Add a CSS class to the table
+     * 
+     * @param string $class CSS class name
+     * @return self Fluent interface
+     */
+    public function addClass(string $class): self {
+        if (!in_array($class, $this->classes)) {
+            $this->classes[] = $class;
+        }
+        if (!empty($this->classes)) {
+            $this->element->addAttribute(new HtmlAttribute('class', implode(' ', $this->classes)));
+        }
+        return $this;
+    }
+    
+    /**
+     * Append child elements (rows) to the table
+     * 
+     * @param mixed ...$elements Variable number of elements to append
+     * @return self Fluent interface
+     */
+    public function append(...$elements): self {
+        foreach ($elements as $element) {
+            if ($element instanceof HtmlElementInterface) {
+                $this->element->addNested($element);
+            }
+        }
+        return $this;
+    }
+    
+    /**
+     * Add an HTML attribute
+     * 
+     * @param string $name Attribute name
+     * @param string $value Attribute value
+     * @return self Fluent interface
+     */
+    public function setAttribute(string $name, string $value): self {
+        $this->element->addAttribute(new HtmlAttribute($name, $value));
+        return $this;
+    }
+    
+    /**
+     * Get the underlying HTML element
+     * 
+     * @return HtmlTable The HTML table element
+     */
+    public function getElement(): HtmlTable {
+        return $this->element;
+    }
+    
+    /**
+     * Get HTML representation as string
+     * 
+     * @return string The complete HTML table element
+     */
+    public function getHtml(): string {
+        return $this->element->getHtml();
+    }
+    
+    /**
+     * Render the table to HTML string
      * 
      * @return string The complete HTML table element
      */
