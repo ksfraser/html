@@ -5,12 +5,15 @@ use Ksfraser\HTML\Elements\TableRow;
 use Ksfraser\HTML\Elements\TableData;
 use Ksfraser\HTML\Elements\Button;
 use Ksfraser\HTML\Elements\Div;
+use Ksfraser\HTML\Cells\IdTableCell;
+use Ksfraser\HTML\Cells\NameTableCell;
+use Ksfraser\HTML\Cells\DescriptionTableCell;
 
 /**
  * InterestFreqTableRow - Builds interest frequency table rows
  * 
  * SRP: Single responsibility of building an interest frequency row from frequency data.
- * Handles: ID, Name, Description, Edit/Delete actions.
+ * Handles: Row structure and action buttons. Uses cell classes for content cells.
  * 
  * @package Ksfraser\HTML\Rows
  */
@@ -24,23 +27,10 @@ class InterestFreqTableRow extends BaseTableRow {
     public function build(object $freq): TableRow {
         $row = (new TableRow())->addClass('data-row');
         
-        // ID cell
-        $row->append((new TableData())
-            ->addClass('id-cell')
-            ->setText((string)($freq->id ?? 'N/A'))
-        );
-        
-        // Name cell
-        $row->append((new TableData())
-            ->addClass('name-cell')
-            ->setText(htmlspecialchars($freq->name ?? ''))
-        );
-        
-        // Description cell
-        $row->append((new TableData())
-            ->addClass('description-cell')
-            ->setText(htmlspecialchars($freq->description ?? ''))
-        );
+        // Content cells built by dedicated cell classes
+        $row->append((new IdTableCell())->build($freq->id ?? null));
+        $row->append((new NameTableCell())->build($freq->name ?? null));
+        $row->append((new DescriptionTableCell())->build($freq->description ?? null));
         
         // Actions cell
         $actionsCell = (new TableData())->addClass('actions-cell');

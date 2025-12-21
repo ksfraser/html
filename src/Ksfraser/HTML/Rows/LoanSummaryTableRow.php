@@ -5,12 +5,16 @@ use Ksfraser\HTML\Elements\TableRow;
 use Ksfraser\HTML\Elements\TableData;
 use Ksfraser\HTML\Elements\Button;
 use Ksfraser\HTML\Elements\Div;
+use Ksfraser\HTML\Cells\IdTableCell;
+use Ksfraser\HTML\Cells\BorrowerTableCell;
+use Ksfraser\HTML\Cells\AmountTableCell;
+use Ksfraser\HTML\Cells\StatusTableCell;
 
 /**
  * LoanSummaryTableRow - Builds loan summary table rows
  * 
  * SRP: Single responsibility of building a loan summary row from loan data.
- * Handles: ID, Borrower, Amount, Status with color coding, View/Edit actions.
+ * Handles: Row structure and action buttons. Uses cell classes for content cells.
  * 
  * @package Ksfraser\HTML\Rows
  */
@@ -24,34 +28,11 @@ class LoanSummaryTableRow extends BaseTableRow {
     public function build(object $loan): TableRow {
         $row = (new TableRow())->addClass('data-row');
         
-        // ID cell
-        $row->append((new TableData())
-            ->addClass('id-cell')
-            ->setText((string)($loan->id ?? 'N/A'))
-        );
-        
-        // Borrower cell
-        $row->append((new TableData())
-            ->addClass('borrower-cell')
-            ->setText(htmlspecialchars($loan->borrower ?? ''))
-        );
-        
-        // Amount cell
-        $amountText = isset($loan->amount) 
-            ? '$' . number_format((float)$loan->amount, 2)
-            : 'N/A';
-        $row->append((new TableData())
-            ->addClass('amount-cell')
-            ->setText($amountText)
-        );
-        
-        // Status cell with color coding
-        $status = htmlspecialchars($loan->status ?? 'Unknown');
-        $statusClass = 'status-' . strtolower(str_replace(' ', '-', $status));
-        $row->append((new TableData())
-            ->addClass('status-cell ' . $statusClass)
-            ->setText($status)
-        );
+        // Content cells built by dedicated cell classes
+        $row->append((new IdTableCell())->build($loan->id ?? null));
+        $row->append((new BorrowerTableCell())->build($loan->borrower ?? null));
+        $row->append((new AmountTableCell())->build($loan->amount ?? null));
+        $row->append((new StatusTableCell())->build($loan->status ?? null));
         
         // Actions cell
         $actionsCell = (new TableData())->addClass('actions-cell');
