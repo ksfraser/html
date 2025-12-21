@@ -35,10 +35,13 @@ class CancelButton extends ActionButton
     /**
      * Constructor
      * 
-     * @param HtmlElementInterface $label The button label (default: "Cancel")
+     * @param HtmlElementInterface|null $label The button label (default: "Cancel")
      */
-    public function __construct(HtmlElementInterface $label)
+    public function __construct(HtmlElementInterface $label = null)
     {
+        if ($label === null) {
+            $label = new HtmlString('Cancel');
+        }
         parent::__construct('cancel', $label);
     }
 

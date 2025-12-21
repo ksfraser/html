@@ -3,6 +3,7 @@
 namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlElementInterface;
+use Ksfraser\HTML\HtmlAttribute;
 
 /**
  * Delete Action Button Class
@@ -87,7 +88,7 @@ class DeleteButton extends ActionButton
     public function noConfirmation()
     {
         $this->confirmationMessage = '';
-        $this->addAttribute('onclick', ''); // Clear onclick
+        $this->addAttribute(new HtmlAttribute('onclick', '')); // Clear onclick
         return $this;
     }
 }

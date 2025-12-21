@@ -4,6 +4,7 @@ namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\Elements\HtmlInputButton;
 use Ksfraser\HTML\HtmlElementInterface;
+use Ksfraser\HTML\HtmlAttribute;
 
 /**
  * HTML Generic Button Input Class

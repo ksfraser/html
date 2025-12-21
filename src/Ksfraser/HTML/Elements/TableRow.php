@@ -51,6 +51,22 @@ class TableRow {
     }
     
     /**
+     * Add headers from an array of labels
+     * 
+     * Creates TableHeader elements from an array of label strings.
+     * Useful for building header rows with a simple array of column names.
+     * 
+     * @param array $labels Array of header label strings
+     * @return self Fluent interface
+     */
+    public function addHeadersFromArray(array $labels): self {
+        foreach ($labels as $label) {
+            $this->append(new TableHeader($label));
+        }
+        return $this;
+    }
+    
+    /**
      * Append child elements (cells) to the row
      * 
      * @param mixed ...$elements Variable number of elements to append
