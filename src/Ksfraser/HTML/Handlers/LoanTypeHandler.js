@@ -134,6 +134,17 @@ class LoanTypeHandler extends BaseHandler {
             console.error('Update failed:', error);
         }
     }
+
+    /**
+     * Get the endpoint for field updates on loan types
+     * @param {number} id - Loan type ID
+     * @param {string} fieldName - Field being updated
+     * @return {string} API endpoint
+     * @protected
+     */
+    getUpdateFieldEndpoint(id, fieldName) {
+        return `/${id}`;
+    }
 }
 
 // Create global singleton instance

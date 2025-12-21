@@ -19,8 +19,10 @@ class NameTableCell extends BaseTableCell {
      * @return TableData
      */
     public function build($name): TableData {
-        return (new TableData())
+        $cell = (new TableData())
             ->addClass('name-cell')
             ->setText(htmlspecialchars($name ?? ''));
+        
+        return $this->applyAttributes($cell);
     }
 }

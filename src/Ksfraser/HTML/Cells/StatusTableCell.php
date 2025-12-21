@@ -22,8 +22,10 @@ class StatusTableCell extends BaseTableCell {
         $statusText = htmlspecialchars($status ?? 'Unknown');
         $statusClass = 'status-' . strtolower(str_replace(' ', '-', $statusText));
         
-        return (new TableData())
+        $cell = (new TableData())
             ->addClass('status-cell ' . $statusClass)
             ->setText($statusText);
+        
+        return $this->applyAttributes($cell);
     }
 }

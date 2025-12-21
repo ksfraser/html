@@ -135,6 +135,17 @@ class InterestFreqHandler extends BaseHandler {
             console.error('Update failed:', error);
         }
     }
+
+    /**
+     * Get the endpoint for field updates on interest frequencies
+     * @param {number} id - Frequency ID
+     * @param {string} fieldName - Field being updated
+     * @return {string} API endpoint
+     * @protected
+     */
+    getUpdateFieldEndpoint(id, fieldName) {
+        return `/${id}`;
+    }
 }
 
 // Create global singleton instance

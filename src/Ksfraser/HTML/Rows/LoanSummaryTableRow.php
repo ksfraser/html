@@ -3,12 +3,13 @@ namespace Ksfraser\HTML\Rows;
 
 use Ksfraser\HTML\Elements\TableRow;
 use Ksfraser\HTML\Elements\TableData;
-use Ksfraser\HTML\Elements\Button;
 use Ksfraser\HTML\Elements\Div;
-use Ksfraser\HTML\Cells\IdTableCell;
-use Ksfraser\HTML\Cells\BorrowerTableCell;
-use Ksfraser\HTML\Cells\AmountTableCell;
-use Ksfraser\HTML\Cells\StatusTableCell;
+use Ksfraser\HTML\Cells\IdLoanTableCell;
+use Ksfraser\HTML\Cells\EditableLoanBorrowerCell;
+use Ksfraser\HTML\Cells\EditableLoanAmountCell;
+use Ksfraser\HTML\Cells\EditableLoanStatusCell;
+use Ksfraser\HTML\Buttons\ViewLoanActionButton;
+use Ksfraser\HTML\Buttons\EditLoanActionButton;
 
 /**
  * LoanSummaryTableRow - Builds loan summary table rows
@@ -28,29 +29,24 @@ class LoanSummaryTableRow extends BaseTableRow {
     public function build(object $loan): TableRow {
         $row = (new TableRow())->addClass('data-row');
         
-        // Content cells built by dedicated cell classes
-        $row->append((new IdTableCell())->build($loan->id ?? null));
-        $row->append((new BorrowerTableCell())->build($loan->borrower ?? null));
-        $row->append((new AmountTableCell())->build($loan->amount ?? null));
-        $row->append((new StatusTableCell())->build($loan->status ?? null));
+        $loanId = $loan->id ?? null;
+        $rowPrefix = $this->rowId ?: "loan-{$loanId}";
+        
+        // ID cell - configuration encapsulated in specific cell class
+        $row->append((new IdLoanTableCell())->build($loanId, $rowPrefix));
+        
+        // Editable cells - configuration encapsulated in specific cell classes
+        $row->append((new EditableLoanBorrowerCell())->buildEditable($loan->borrower ?? null, $loanId, $rowPrefix));
+        $row->append((new EditableLoanAmountCell())->buildEditable($loan->amount ?? null, $loanId, $rowPrefix));
+        $row->append((new EditableLoanStatusCell())->buildEditable($loan->status ?? null, $loanId, $rowPrefix));
         
         // Actions cell
         $actionsCell = (new TableData())->addClass('actions-cell');
         $actionsDiv = (new Div())->addClass('action-buttons');
         
-        $viewBtn = (new Button())
-            ->setType('button')
-            ->addClass('btn-small btn-view')
-            ->setText('View')
-            ->setAttribute('onclick', 'window.loanHandler && window.loanHandler.view(' . intval($loan->id ?? 0) . ')');
-        $actionsDiv->append($viewBtn);
-        
-        $editBtn = (new Button())
-            ->setType('button')
-            ->addClass('btn-small btn-edit')
-            ->setText('Edit')
-            ->setAttribute('onclick', 'window.loanHandler && window.loanHandler.edit(' . intval($loan->id ?? 0) . ')');
-        $actionsDiv->append($editBtn);
+        // Action buttons - configuration encapsulated in specific button classes
+        $actionsDiv->append((new ViewLoanActionButton())->build($loanId));
+        $actionsDiv->append((new EditLoanActionButton())->build($loanId));
         
         $actionsCell->append($actionsDiv);
         $row->append($actionsCell);

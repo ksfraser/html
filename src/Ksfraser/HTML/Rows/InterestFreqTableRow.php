@@ -3,11 +3,12 @@ namespace Ksfraser\HTML\Rows;
 
 use Ksfraser\HTML\Elements\TableRow;
 use Ksfraser\HTML\Elements\TableData;
-use Ksfraser\HTML\Elements\Button;
 use Ksfraser\HTML\Elements\Div;
-use Ksfraser\HTML\Cells\IdTableCell;
-use Ksfraser\HTML\Cells\NameTableCell;
-use Ksfraser\HTML\Cells\DescriptionTableCell;
+use Ksfraser\HTML\Cells\IdFrequencyTableCell;
+use Ksfraser\HTML\Cells\EditableFrequencyNameCell;
+use Ksfraser\HTML\Cells\EditableFrequencyDescriptionCell;
+use Ksfraser\HTML\Buttons\EditFrequencyActionButton;
+use Ksfraser\HTML\Buttons\DeleteFrequencyActionButton;
 
 /**
  * InterestFreqTableRow - Builds interest frequency table rows
@@ -27,28 +28,23 @@ class InterestFreqTableRow extends BaseTableRow {
     public function build(object $freq): TableRow {
         $row = (new TableRow())->addClass('data-row');
         
-        // Content cells built by dedicated cell classes
-        $row->append((new IdTableCell())->build($freq->id ?? null));
-        $row->append((new NameTableCell())->build($freq->name ?? null));
-        $row->append((new DescriptionTableCell())->build($freq->description ?? null));
+        $freqId = $freq->id ?? null;
+        $rowPrefix = $this->rowId ?: "freq-{$freqId}";
+        
+        // ID cell - configuration encapsulated in specific cell class
+        $row->append((new IdFrequencyTableCell())->build($freqId, $rowPrefix));
+        
+        // Editable cells - configuration encapsulated in specific cell classes
+        $row->append((new EditableFrequencyNameCell())->buildEditable($freq->name ?? null, $freqId, $rowPrefix));
+        $row->append((new EditableFrequencyDescriptionCell())->buildEditable($freq->description ?? null, $freqId, $rowPrefix));
         
         // Actions cell
         $actionsCell = (new TableData())->addClass('actions-cell');
         $actionsDiv = (new Div())->addClass('action-buttons');
         
-        $editBtn = (new Button())
-            ->setType('button')
-            ->addClass('btn-small btn-edit')
-            ->setText('Edit')
-            ->setAttribute('onclick', 'window.interestFreqHandler && window.interestFreqHandler.edit(' . intval($freq->id ?? 0) . ')');
-        $actionsDiv->append($editBtn);
-        
-        $deleteBtn = (new Button())
-            ->setType('button')
-            ->addClass('btn-small btn-delete')
-            ->setText('Delete')
-            ->setAttribute('onclick', 'window.interestFreqHandler && window.interestFreqHandler.delete(' . intval($freq->id ?? 0) . ')');
-        $actionsDiv->append($deleteBtn);
+        // Action buttons - configuration encapsulated in specific button classes
+        $actionsDiv->append((new EditFrequencyActionButton())->build($freqId));
+        $actionsDiv->append((new DeleteFrequencyActionButton())->build($freqId));
         
         $actionsCell->append($actionsDiv);
         $row->append($actionsCell);

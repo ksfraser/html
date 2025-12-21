@@ -146,6 +146,17 @@ class LoanHandler extends BaseHandler {
         
         document.dispatchEvent(event);
     }
+
+    /**
+     * Get the endpoint for field updates on loans
+     * @param {number} id - Loan ID
+     * @param {string} fieldName - Field being updated
+     * @return {string} API endpoint
+     * @protected
+     */
+    getUpdateFieldEndpoint(id, fieldName) {
+        return `/${id}`;
+    }
 }
 
 // Create global singleton instance

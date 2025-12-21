@@ -13,6 +13,22 @@ use Ksfraser\HTML\Elements\TableRow;
  */
 abstract class BaseTableRow {
     /**
+     * @var string|null Optional row ID for cell referencing
+     */
+    protected ?string $rowId = null;
+    
+    /**
+     * Set row ID for automatic cell ID generation
+     * 
+     * @param string $rowId The row ID (e.g., "loan-123")
+     * @return self
+     */
+    public function setRowId(string $rowId): self {
+        $this->rowId = $rowId;
+        return $this;
+    }
+    
+    /**
      * Build a table row from a domain object
      * 
      * @param object $data Domain object (Loan, LoanType, etc)

@@ -19,8 +19,10 @@ class BorrowerTableCell extends BaseTableCell {
      * @return TableData
      */
     public function build($borrower): TableData {
-        return (new TableData())
+        $cell = (new TableData())
             ->addClass('borrower-cell')
             ->setText(htmlspecialchars($borrower ?? ''));
+        
+        return $this->applyAttributes($cell);
     }
 }

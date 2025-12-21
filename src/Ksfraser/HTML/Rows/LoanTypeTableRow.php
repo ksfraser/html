@@ -3,11 +3,12 @@ namespace Ksfraser\HTML\Rows;
 
 use Ksfraser\HTML\Elements\TableRow;
 use Ksfraser\HTML\Elements\TableData;
-use Ksfraser\HTML\Elements\Button;
 use Ksfraser\HTML\Elements\Div;
-use Ksfraser\HTML\Cells\IdTableCell;
-use Ksfraser\HTML\Cells\NameTableCell;
-use Ksfraser\HTML\Cells\DescriptionTableCell;
+use Ksfraser\HTML\Cells\IdTypeTableCell;
+use Ksfraser\HTML\Cells\EditableTypeNameCell;
+use Ksfraser\HTML\Cells\EditableTypeDescriptionCell;
+use Ksfraser\HTML\Buttons\EditTypeActionButton;
+use Ksfraser\HTML\Buttons\DeleteTypeActionButton;
 
 /**
  * LoanTypeTableRow - Builds loan type table rows
@@ -27,28 +28,23 @@ class LoanTypeTableRow extends BaseTableRow {
     public function build(object $type): TableRow {
         $row = (new TableRow())->addClass('data-row');
         
-        // Content cells built by dedicated cell classes
-        $row->append((new IdTableCell())->build($type->id ?? null));
-        $row->append((new NameTableCell())->build($type->name ?? null));
-        $row->append((new DescriptionTableCell())->build($type->description ?? null));
+        $typeId = $type->id ?? null;
+        $rowPrefix = $this->rowId ?: "type-{$typeId}";
+        
+        // ID cell - configuration encapsulated in specific cell class
+        $row->append((new IdTypeTableCell())->build($typeId, $rowPrefix));
+        
+        // Editable cells - configuration encapsulated in specific cell classes
+        $row->append((new EditableTypeNameCell())->buildEditable($type->name ?? null, $typeId, $rowPrefix));
+        $row->append((new EditableTypeDescriptionCell())->buildEditable($type->description ?? null, $typeId, $rowPrefix));
         
         // Actions cell
         $actionsCell = (new TableData())->addClass('actions-cell');
         $actionsDiv = (new Div())->addClass('action-buttons');
         
-        $editBtn = (new Button())
-            ->setType('button')
-            ->addClass('btn-small btn-edit')
-            ->setText('Edit')
-            ->setAttribute('onclick', 'window.loanTypeHandler && window.loanTypeHandler.edit(' . intval($type->id ?? 0) . ')');
-        $actionsDiv->append($editBtn);
-        
-        $deleteBtn = (new Button())
-            ->setType('button')
-            ->addClass('btn-small btn-delete')
-            ->setText('Delete')
-            ->setAttribute('onclick', 'window.loanTypeHandler && window.loanTypeHandler.delete(' . intval($type->id ?? 0) . ')');
-        $actionsDiv->append($deleteBtn);
+        // Action buttons - configuration encapsulated in specific button classes
+        $actionsDiv->append((new EditTypeActionButton())->build($typeId));
+        $actionsDiv->append((new DeleteTypeActionButton())->build($typeId));
         
         $actionsCell->append($actionsDiv);
         $row->append($actionsCell);

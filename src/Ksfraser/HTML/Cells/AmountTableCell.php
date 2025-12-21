@@ -23,8 +23,10 @@ class AmountTableCell extends BaseTableCell {
             ? '$' . number_format((float)$amount, 2)
             : 'N/A';
             
-        return (new TableData())
+        $cell = (new TableData())
             ->addClass('amount-cell')
             ->setText($amountText);
+        
+        return $this->applyAttributes($cell);
     }
 }

@@ -19,8 +19,10 @@ class IdTableCell extends BaseTableCell {
      * @return TableData
      */
     public function build($id): TableData {
-        return (new TableData())
+        $cell = (new TableData())
             ->addClass('id-cell')
             ->setText((string)($id ?? 'N/A'));
+        
+        return $this->applyAttributes($cell);
     }
 }

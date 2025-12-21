@@ -19,8 +19,10 @@ class DescriptionTableCell extends BaseTableCell {
      * @return TableData
      */
     public function build($description): TableData {
-        return (new TableData())
+        $cell = (new TableData())
             ->addClass('description-cell')
             ->setText(htmlspecialchars($description ?? ''));
+        
+        return $this->applyAttributes($cell);
     }
 }
