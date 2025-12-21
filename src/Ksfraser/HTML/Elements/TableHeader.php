@@ -2,10 +2,19 @@
 namespace Ksfraser\HTML\Elements;
 
 /**
- * TableHeader - Wrapper for HTML table header cell element
+ * TableHeader - Convenience wrapper for HTML table header cell element
+ * 
+ * Extends HtmlTableHeaderCell to provide render() convenience method.
  * 
  * @package Ksfraser\HTML\Elements
  */
 class TableHeader extends HtmlTableHeaderCell {
-    // Inherits all functionality from HtmlTableHeaderCell
+    /**
+     * Get HTML representation as string (alias for getHtml)
+     * 
+     * @return string The complete HTML table header cell element
+     */
+    public function render(): string {
+        return $this->getHtml();
+    }
 }

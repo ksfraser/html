@@ -2,10 +2,19 @@
 namespace Ksfraser\HTML\Elements;
 
 /**
- * Div - Wrapper for HTML div element
+ * Div - Convenience wrapper for HTML div element
+ * 
+ * Extends HtmlDiv to provide render() convenience method.
  * 
  * @package Ksfraser\HTML\Elements
  */
 class Div extends HtmlDiv {
-    // Inherits all functionality from HtmlDiv
+    /**
+     * Get HTML representation as string (alias for getHtml)
+     * 
+     * @return string The complete HTML div element
+     */
+    public function render(): string {
+        return $this->getHtml();
+    }
 }

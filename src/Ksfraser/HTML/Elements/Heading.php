@@ -42,6 +42,15 @@ class Heading {
      * @return string HTML representation
      */
     public function render(): string {
-        return $this->element->render();
+        return $this->element->getHtml();
+    }
+    
+    /**
+     * Get HTML representation as string
+     * 
+     * @return string HTML representation
+     */
+    public function getHtml(): string {
+        return $this->element->getHtml();
     }
 }

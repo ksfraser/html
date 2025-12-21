@@ -2,12 +2,20 @@
 namespace Ksfraser\HTML\Elements;
 
 /**
- * Table - Factory/Wrapper for HTML table elements
+ * Table - Convenience wrapper for HTML table elements
  * 
- * Provides convenient table building via the HTML builder pattern.
+ * Extends HtmlTable to provide convenience methods for building tables
+ * with the fluent builder pattern.
  * 
  * @package Ksfraser\HTML\Elements
  */
 class Table extends HtmlTable {
-    // Inherits all functionality from HtmlTable
+    /**
+     * Get HTML representation as string (alias for getHtml)
+     * 
+     * @return string The complete HTML table element
+     */
+    public function render(): string {
+        return $this->getHtml();
+    }
 }

@@ -2,10 +2,19 @@
 namespace Ksfraser\HTML\Elements;
 
 /**
- * TableRow - Wrapper for HTML table row element
+ * TableRow - Convenience wrapper for HTML table row element
+ * 
+ * Extends HtmlTableRow to provide render() convenience method.
  * 
  * @package Ksfraser\HTML\Elements
  */
 class TableRow extends HtmlTableRow {
-    // Inherits all functionality from HtmlTableRow
+    /**
+     * Get HTML representation as string (alias for getHtml)
+     * 
+     * @return string The complete HTML table row element
+     */
+    public function render(): string {
+        return $this->getHtml();
+    }
 }
