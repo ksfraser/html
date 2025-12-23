@@ -3,6 +3,7 @@
 namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlElement;
+use Ksfraser\HTML\HtmlFragment;
 
 /**
  * SelectEditJSHandler - Selector Edit JavaScript Handler
@@ -85,7 +86,7 @@ class SelectEditJSHandler extends HtmlElement
      */
     public function __construct()
     {
-        parent::__construct();
+        parent::__construct(new HtmlFragment([]));
     }
 
     /**
@@ -162,7 +163,7 @@ class SelectEditJSHandler extends HtmlElement
      * 
      * @return string
      */
-    public function getHtml()
+    public function getHtml(): string
     {
         $script = new HtmlScript('text/javascript', $this->generateJSFunction());
         return $script->getHtml();
