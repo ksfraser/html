@@ -6,6 +6,8 @@ use Ksfraser\HTML\HtmlElement;
 
 use Ksfraser\HTML\HtmlElementInterface;
 
+use Ksfraser\HTML\HtmlAttribute;
+
 /**//****************************
 * Links 
 *
@@ -23,15 +25,20 @@ class HtmlLink extends HtmlElement
 	{
 		if( is_object( $text ) )
 		{
+			// If text is an object, use it as nested content
+			$this->nested = array();
+			$this->addNested( $text );
 		}
 		else
 		if( is_string( $text) AND strlen( $text ) > 0 )
 		{
-			$this->data = new HtmlString( $text );
+			// If text is a non-empty string, create HtmlString and nest it
+			$this->nested = array();
+			$this->addNested( new HtmlString( $text ) );
 		}
 		else
 		{
-			throw new Exception( "An invalid HREF was passed in!" );
+			throw new \Exception( "An invalid HREF was passed in!" );
 		}
 		$this->addAttribute( new HtmlAttribute( "href", $url ) );
 	}
@@ -47,7 +54,7 @@ class HtmlLink extends HtmlElement
 				$this->addAttribute( new HtmlAttribute( "target", $target ) );
 				break;
 			default:
-				throw new Exception( "Target type not recognized: $target" );
+				throw new \Exception( "Target type not recognized: $target" );
 		}
 		return;
 	}
