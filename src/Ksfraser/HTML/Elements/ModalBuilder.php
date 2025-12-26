@@ -106,9 +106,11 @@ class ModalBuilder {
     /**
      * Get stylesheet link element for modal CSS
      * 
-     * @return string
+     * @return Stylesheet
      */
-    public static function getStylesheetLink(): string {
-        return '<link rel="stylesheet" href="' . Modal::getStylesheetPath() . '">';
+    public static function getStylesheet(): Stylesheet {
+        return (new Stylesheet())
+            ->setHref(Modal::getStylesheetPath())
+            ->setRel('stylesheet');
     }
 }
