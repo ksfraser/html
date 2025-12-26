@@ -19,21 +19,11 @@ class ModalContent extends Div {
     }
     
     /**
-     * Get CSS for modal content styling
+     * Get stylesheet path for modal content styling
      * 
      * @return string
      */
-    public static function getStyles(): string {
-        return <<<'CSS'
-.modal-content {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    max-width: 90%;
-    max-height: 90%;
-    overflow: auto;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-}
-CSS;
+    public static function getStylesheetPath(): string {
+        return '/css/modal.css';
     }
 }

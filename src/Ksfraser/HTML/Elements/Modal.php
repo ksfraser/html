@@ -65,24 +65,11 @@ class Modal extends Div {
     }
     
     /**
-     * Get CSS for modal styling
+     * Get stylesheet path for modal styling
      * 
      * @return string
      */
-    public static function getStyles(): string {
-        return <<<'CSS'
-.modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 9999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-CSS;
+    public static function getStylesheetPath(): string {
+        return '/css/modal.css';
     }
 }

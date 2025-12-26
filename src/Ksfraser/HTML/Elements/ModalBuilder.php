@@ -106,17 +106,11 @@ class ModalBuilder {
     }
     
     /**
-     * Get all required CSS for modal
+     * Get stylesheet link element for modal CSS
      * 
      * @return string
      */
-    public static function getStyles(): string {
-        return Modal::getStyles() . "\n" . ModalContent::getStyles() . "\n" . <<<'CSS'
-.modal-close-btn {
-    margin-top: 15px;
-    padding: 8px 16px;
-    cursor: pointer;
-}
-CSS;
+    public static function getStylesheetLink(): string {
+        return '<link rel="stylesheet" href="' . Modal::getStylesheetPath() . '">';
     }
 }
