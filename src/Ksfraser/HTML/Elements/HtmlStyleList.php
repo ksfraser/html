@@ -31,7 +31,7 @@ class HtmlStyleList implements HtmlElementInterface
                 echo $this->getHtml();
         }
  
-	function getHtml()
+	function getHtml(): string
 	{
 		if( count( $this->styleArray ) > 0 )
 		{

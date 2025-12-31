@@ -20,7 +20,7 @@ use Ksfraser\HTML\HtmlElementInterface;
 */
 class HtmlStyle extends HtmlAttribute
 {
-	function getHtml()
+	function getHtml(): string
 	{
 		$html = $this->attribute . ':' . $this->value . ';';
 		return $html;

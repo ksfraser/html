@@ -111,7 +111,7 @@ class HtmlScript extends HtmlElement
      * 
      * @return string
      */
-    public function getHtml()
+    public function getHtml(): string
     {
         $html = '<' . $this->tagName;
         
