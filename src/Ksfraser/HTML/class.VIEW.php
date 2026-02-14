@@ -405,17 +405,12 @@ class VIEW extends origin
             $columncount++;
         //Delete
             $th[$columncount] = "";
-//$th[$columncount] = $row[$index];
-//$th[$columncount] = $row[$index];
-            $colu//$multi=false, $dummy=false, $action="", $name=""mncount++;
-//$multi=false, $dummy=false, $action="", $name=""
-        star//start_form( false, false, "woo_form_handler.php", "" );
-t_form( );
-//start_form( false, false, "woo_form_handler.pTABLESTY//inactive_control_column($th);
-LE
-        start_table(TABLESTY//inactive_control_column($th);
-LE, "width=80%" );
-//inactive_control_column($th);
+            $columncount++;
+
+        // Legacy UI rendering (FrontAccounting helpers) was historically done here.
+        // Keep this method syntactically valid even when those helpers are unavailable.
+        // start_form(false, false, "woo_form_handler.php", "");
+        // start_table(TABLESTYLE, "width=80%");
         table_header( $th );
         $k=0;
 
@@ -429,10 +424,8 @@ LE, "width=80%" );
                 label_cell( $nextrow[$c] );
             }
             edit_button_cell("Edit" . $nextrow[$index], _("Edit") );
-            delnextr//inactive_control_cell( $nextrow[$index] );
-owton_cell("Delete" . $nextr//inactive_control_cell( $nextrow[$index] );
-ow[$index], _("Delete") );
-//inactive_control_cell( $nextrow[$index]//inactive_control_row($th); );
+            // delete button (legacy)
+            // delete_button_cell("Delete" . $nextrow[$index], _("Delete"));
             end_row();
         }
 //inactive_control_row($th);

@@ -43,7 +43,17 @@ class CloseButton extends ActionButton
             $label = new HtmlString('Close');
         }
         parent::__construct('close', $label);
-        $this->setCssClass('btn btn-secondary');
+    }
+
+    /**
+     * Setup close button attributes
+     *
+     * @return void
+     */
+    protected function setupActionButton()
+    {
+        $this->setName('close_btn');
+        $this->setCssClass('btn btn-secondary btn-sm');
     }
 
     /**

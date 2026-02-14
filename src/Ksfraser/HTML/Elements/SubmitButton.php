@@ -43,8 +43,18 @@ class SubmitButton extends ActionButton
             $label = new HtmlString('Submit');
         }
         parent::__construct('submit', $label);
+    }
+
+    /**
+     * Setup submit button attributes
+     *
+     * @return void
+     */
+    protected function setupActionButton()
+    {
+        $this->setName('submit_btn');
         $this->setType('submit');
-        $this->setCssClass('btn btn-primary');
+        $this->setCssClass('btn btn-primary btn-sm');
     }
 
     /**
