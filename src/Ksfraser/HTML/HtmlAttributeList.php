@@ -29,6 +29,46 @@ class HtmlAttributeList implements HtmlElementInterface
 	{
 		$this->attributeArray[] = $attribute;
 	}
+
+	/**
+	 * Set (replace) an attribute in the list.
+	 *
+	 * If an attribute with the same name already exists, it is replaced.
+	 *
+	 * @param HtmlAttribute $attribute
+	 * @return void
+	 */
+	public function setAttribute( HtmlAttribute $attribute ): void
+	{
+		$name = $attribute->getName();
+		foreach( $this->attributeArray as $idx => $existing )
+		{
+			if( method_exists( $existing, 'getName' ) && $existing->getName() === $name )
+			{
+				$this->attributeArray[$idx] = $attribute;
+				return;
+			}
+		}
+		$this->attributeArray[] = $attribute;
+	}
+
+	/**
+	 * Get an attribute value by name.
+	 *
+	 * @param string $name
+	 * @return string|null
+	 */
+	public function getAttributeValue( string $name ): ?string
+	{
+		foreach( $this->attributeArray as $existing )
+		{
+			if( method_exists( $existing, 'getName' ) && $existing->getName() === $name )
+			{
+				return method_exists( $existing, 'getValue' ) ? $existing->getValue() : null;
+			}
+		}
+		return null;
+	}
 	
 	/**
 	 * Output HTML representation

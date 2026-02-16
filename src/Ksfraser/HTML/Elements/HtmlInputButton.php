@@ -64,7 +64,20 @@ class HtmlInputButton extends HtmlEmptyElement
 		$this->empty = true;
 		$this->tag = "input";
 		$this->newAttributeList();
-		$this->addAttribute( new HtmlAttribute( "type", $type ) );
+		$this->setAttribute( "type", $type );
+	}
+
+	/**
+	 * Set the input type attribute
+	 *
+	 * @param string $type
+	 * @return self
+	 */
+	public function setType( string $type ): self
+	{
+		$this->buttonType = $type;
+		$this->setAttribute( 'type', $type );
+		return $this;
 	}
 
 	/**
@@ -75,7 +88,7 @@ class HtmlInputButton extends HtmlEmptyElement
 	 */
 	public function setName( string $name ): self
 	{
-		$this->addAttribute( new HtmlAttribute( "name", $name ) );
+		$this->setAttribute( "name", $name );
 		return $this;
 	}
 
@@ -87,7 +100,7 @@ class HtmlInputButton extends HtmlEmptyElement
 	 */
 	public function setId( string $id ): self
 	{
-		$this->addAttribute( new HtmlAttribute( "id", $id ) );
+		$this->setAttribute( "id", $id );
 		return $this;
 	}
 
@@ -99,7 +112,7 @@ class HtmlInputButton extends HtmlEmptyElement
 	 */
 	public function setClass( string $class ): self
 	{
-		$this->addAttribute( new HtmlAttribute( "class", $class ) );
+		$this->setAttribute( "class", $class );
 		return $this;
 	}
 
@@ -110,7 +123,7 @@ class HtmlInputButton extends HtmlEmptyElement
 	 */
 	public function setDisabled(): self
 	{
-		$this->addAttribute( new HtmlAttribute( "disabled", "disabled" ) );
+		$this->setAttribute( "disabled", "disabled" );
 		return $this;
 	}
 
@@ -123,7 +136,7 @@ class HtmlInputButton extends HtmlEmptyElement
 	{
 		// Set the value attribute from the label (already escaped by HtmlString)
 		$labelText = $this->label->getHtml();
-		$this->addAttribute( new HtmlAttribute( "value", $labelText ) );
+		$this->setAttribute( "value", $labelText );
 
 		// Build the input tag
 		$html = "<" . $this->tag;

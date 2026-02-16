@@ -133,6 +133,44 @@ class VIEW extends origin
     {
         display_notification(_( $msg ) );
     }
+    /**
+     * Test-safe logger hook.
+     *
+     * In a full FrontAccounting environment this would integrate with the
+     * application logging/eventloop; for library tests it is a no-op.
+     */
+    function notify( $msg = '', $level = 'DEBUG' )
+    {
+        return;
+    }
+
+    /**
+     * Override set_var to allow arbitrary key/value storage for unit tests.
+     *
+     * Origin::set_var enforces native class vars; legacy VIEW usage often treats
+     * it like a generic container.
+     */
+    function set_var( $var, $value )
+    {
+        if( property_exists( $this, $var ) )
+        {
+            return parent::set_var( $var, $value );
+        }
+        $this->container_arr[$var] = $value;
+        return true;
+    }
+
+    /**
+     * Override get to fall back to container values.
+     */
+    function get( $field )
+    {
+        if( is_array( $this->container_arr ) && array_key_exists( $field, $this->container_arr ) )
+        {
+            return $this->container_arr[$field];
+        }
+        return parent::get( $field );
+    }
     function set_focus( $field )
     {	
         set_focus( $field );

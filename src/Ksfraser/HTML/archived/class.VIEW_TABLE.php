@@ -9,13 +9,15 @@ class VIEW_TABLE extends origin
 	protected $table_headers;
 	protected $table_rows;
 	protected $table_class;
+	protected $table_width;
+	protected $table_style;
 	function __construct()
 	{
 		parent::__construct();
 		$this->table_rows = array();
 		$this->table_headers = array();
-		$this->set_var( "table_width", "70" );
-		$this->set( "table_style", TABLESTYLE );
+		$this->table_width = "70";
+		$this->table_style = TABLESTYLE;
 	}
 	function __toString()
 	{

@@ -77,7 +77,8 @@ class ModalBuilder {
     public function addCloseButton(string $text = 'Close', string $onclickHandler = 'closeModal()'): self {
         $button = new CloseButton(new HtmlString($text));
         $button->setOnclickFunction($onclickHandler);
-        $button->addClass('modal-close-btn');
+		$existing = $button->getAttributeValue('class') ?? '';
+		$button->setClass(trim('modal-close-btn ' . $existing));
         $this->content->append($button);
         return $this;
     }

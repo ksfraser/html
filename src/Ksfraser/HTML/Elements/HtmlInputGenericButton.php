@@ -62,7 +62,7 @@ class HtmlInputGenericButton extends HtmlInputButton
      */
     public function setOnclick(string $javascript): self
     {
-        $this->addAttribute(new HtmlAttribute("onclick", $javascript));
+		$this->setAttribute("onclick", $javascript);
         return $this;
     }
 }

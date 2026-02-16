@@ -8,10 +8,11 @@ class VIEW_TABLE_TD extends origin
 {
 	protected $td_content;
 	protected $td_class;
+	protected $td_item;
 	function __construct( $value = "" )
 	{
 		parent::__construct();
-		$this->set( "td_item", $value );
+		$this->td_item = $value;
 	}
 	function __toString()
 	{

@@ -6,6 +6,8 @@ use Ksfraser\HTML\HtmlElement;
 
 use Ksfraser\HTML\HtmlElementInterface;
 
+use Ksfraser\HTML\HtmlAttribute;
+
 /**//****************************
 * Links 
 *
@@ -14,26 +16,61 @@ use Ksfraser\HTML\HtmlElementInterface;
 class HtmlLink extends HtmlElement
 {
 	//can have styles, title
-	function __construct( HtmlElementInterface $data )
+	function __construct( ?HtmlElementInterface $data = null )
 	{
-		parent::__construct( $data );
+		parent::__construct( $data ?? new HtmlString( "" ) );
 		$this->tag = "a";
+	}
+
+	/**
+	 * Set href attribute
+	 *
+	 * @param string $url
+	 * @return self
+	 */
+	public function setHref( string $url ): self
+	{
+		$this->setAttribute( 'href', $url );
+		return $this;
+	}
+
+	/**
+	 * Set link text (replaces nested content)
+	 *
+	 * @param string $text
+	 * @return self
+	 */
+	public function setText( string $text ): self
+	{
+		$this->nested = array( new HtmlString( $text ) );
+		return $this;
+	}
+
+	/**
+	 * Set link content (replaces nested content)
+	 *
+	 * @param HtmlElementInterface $content
+	 * @return self
+	 */
+	public function setContent( HtmlElementInterface $content ): self
+	{
+		$this->nested = array( $content );
+		return $this;
 	}
 	function addHref( $url, $text = "" )
 	{
-		if( is_object( $text ) )
+		$this->setHref( (string)$url );
+		if( $text instanceof HtmlElementInterface )
 		{
+			$this->setContent( $text );
+			return;
 		}
-		else
-		if( is_string( $text) AND strlen( $text ) > 0 )
+		if( is_string( $text ) && strlen( $text ) > 0 )
 		{
-			$this->data = new HtmlString( $text );
+			$this->setText( $text );
+			return;
 		}
-		else
-		{
-			throw new Exception( "An invalid HREF was passed in!" );
-		}
-		$this->addAttribute( new HtmlAttribute( "href", $url ) );
+		throw new \InvalidArgumentException( "An invalid HREF was passed in!" );
 	}
 	function setTarget( $target )
 	{
@@ -44,12 +81,12 @@ class HtmlLink extends HtmlElement
 			case '_blank':
 			case '_parent':
 			case '_top':
-				$this->addAttribute( new HtmlAttribute( "target", $target ) );
+				$this->setAttribute( "target", (string)$target );
 				break;
 			default:
-				throw new Exception( "Target type not recognized: $target" );
+				throw new \InvalidArgumentException( "Target type not recognized: $target" );
 		}
-		return;
+		return $this;
 	}
 
 }

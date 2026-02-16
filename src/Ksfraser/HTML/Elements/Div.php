@@ -2,6 +2,7 @@
 namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlAttribute;
+use Ksfraser\HTML\HtmlElementInterface;
 
 /**
  * Div - Factory/convenience wrapper for HTML div element
@@ -47,7 +48,7 @@ class Div {
         
         // Re-apply classes
         if (!empty($this->classes)) {
-            $this->element->addAttribute(new HtmlAttribute('class', implode(' ', $this->classes)));
+			$this->element->setAttribute('class', implode(' ', $this->classes));
         }
         
         return $this;
@@ -64,9 +65,19 @@ class Div {
             $this->classes[] = $class;
         }
         if (!empty($this->classes)) {
-            $this->element->addAttribute(new HtmlAttribute('class', implode(' ', $this->classes)));
+            $this->element->setAttribute('class', implode(' ', $this->classes));
         }
         return $this;
+    }
+
+    /**
+     * Set the id attribute
+     *
+     * @param string $id
+     * @return self
+     */
+    public function setId(string $id): self {
+        return $this->setAttribute('id', $id);
     }
     
     /**
@@ -94,7 +105,7 @@ class Div {
      * @return self Fluent interface
      */
     public function setAttribute(string $name, string $value): self {
-        $this->element->addAttribute(new HtmlAttribute($name, $value));
+		$this->element->setAttribute($name, $value);
         return $this;
     }
     
