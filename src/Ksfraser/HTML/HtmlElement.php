@@ -63,22 +63,24 @@ class HtmlElement implements HtmlElementInterface {
      * Add a nested child element
      * 
      * @param HtmlElementInterface $element Element to nest
-     * @return void
+     * @return self (Fluent interface)
      */
-    function addNested(HtmlElementInterface $element): void
+    function addNested(HtmlElementInterface $element): self
     {
         $this->nested[] = $element;
+	return $this;
     }
     
     /**
      * Add an HTML attribute
      * 
      * @param HtmlAttribute $attribute Attribute to add
-     * @return void
+     * @return self (Fluent interface)
      */
-    function addAttribute(HtmlAttribute $attribute): void
+    function addAttribute(HtmlAttribute $attribute): self
     {
         $this->attributeList->addAttribute($attribute);
+	return $this;
     }
 
     /**
@@ -119,7 +121,7 @@ class HtmlElement implements HtmlElementInterface {
      * Add a CSS class without clobbering existing class attribute.
      *
      * @param string $class
-     * @return self
+     * @return self (Fluent interface)
      */
     public function addClass(string $class): self
     {
@@ -139,22 +141,24 @@ class HtmlElement implements HtmlElementInterface {
      * Set the entire attribute list
      * 
      * @param HtmlAttributeList $list New attribute list
-     * @return void
+     * @return self (Fluent interface)
      */
-    function setAttributeList(HtmlAttributeList $list): void
+    function setAttributeList(HtmlAttributeList $list): self
     {
         $this->attributeList = $list;
+	    return $this;
     }
     
     /**
      * Set the HTML tag name
      * 
      * @param string $tag Tag name (lowercase for XHTML compliance)
-     * @return void
+     * @return self (Fluent interface)
      */
-    function setTag(string $tag): void
+    function setTag(string $tag): self
     {
         $this->tag = strtolower($tag); // XHTML requires lowercase
+	    return $this;
     }
 
     /**

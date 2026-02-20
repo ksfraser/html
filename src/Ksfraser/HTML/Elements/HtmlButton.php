@@ -19,7 +19,7 @@ class HtmlButton extends HtmlElement
 		parent::__construct( $data );
 		$this->tag = "button";
 	}
-	function setOnclick( HtnlAttribute $onclick )
+	function setOnclick( HtmlAttribute $onclick )
 	{
 			//onclick="document.location='default.asp'"
 		$this->addAttribute( new HtmlAttribute( "onclick", $onclick ) );

@@ -32,6 +32,7 @@ use Ksfraser\HTML\HtmlElementInterface;
  */
 class CloseButton extends ActionButton
 {
+    
     /**
      * Constructor
      * 
@@ -65,6 +66,17 @@ class CloseButton extends ActionButton
     public function setOnclickFunction(string $function): self
     {
         $this->setAttribute('onclick', $function);
+        return $this;
+    }
+
+    /**
+     * Add a CSS class to the button
+     * @param string $class
+     * @return self
+     */
+    public function addClass(string $class): self
+    {
+        $this->addCssClass($class);
         return $this;
     }
 }

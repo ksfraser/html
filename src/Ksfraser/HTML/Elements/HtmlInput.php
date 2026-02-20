@@ -52,7 +52,7 @@ class HtmlInput extends HtmlEmptyElement
 	function __construct( string $type = "text" )
 	{
 		parent::__construct();
-		$this->tag = "input";
+		$this->setTag("input");
 		$this->type = $type;
 		$this->addAttribute( new HtmlAttribute( "type", $type ) );
 	}
@@ -73,7 +73,7 @@ class HtmlInput extends HtmlEmptyElement
 	 * Set the value attribute
 	 *
 	 * @param string $value The value attribute
-	 * @return self Fluent interface
+	 * @return self (Fluent interface)
 	 */
 	public function setValue( string $value ): self
 	{

@@ -28,10 +28,11 @@ class HtmlAttributeList implements HtmlElementInterface
 	function addAttribute( HtmlAttribute $attribute ): void
 	{
 		$this->attributeArray[] = $attribute;
+		return;
 	}
 
 	/**
-	 * Set (replace) an attribute in the list.
+	 * Set (add or replace) an attribute in the list.
 	 *
 	 * If an attribute with the same name already exists, it is replaced.
 	 *
@@ -49,7 +50,8 @@ class HtmlAttributeList implements HtmlElementInterface
 				return;
 			}
 		}
-		$this->attributeArray[] = $attribute;
+		$this->addAttribute( $attribute );
+		return;
 	}
 
 	/**
