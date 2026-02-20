@@ -1,6 +1,6 @@
 <?php
 
-namespace Ksfraser\HTML\Elements;
+namespace Ksfraser\HTML\Buttons;
 
 use Ksfraser\HTML\HtmlElementInterface;
 
@@ -59,17 +59,6 @@ class CancelButton extends ActionButton
         $this->setCssClass('btn btn-secondary btn-sm');
     }
 
-    /**
-     * Set onclick JavaScript function
-     * 
-     * @param string $jsFunction JavaScript function call
-     * @return self Fluent interface
-     */
-    public function setOnclickFunction($jsFunction)
-    {
-        $this->setOnclick($jsFunction);
-        return $this;
-    }
 
     /**
      * Set cancel to go back in history

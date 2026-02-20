@@ -1,7 +1,8 @@
 <?php
 
-namespace Ksfraser\HTML\Elements;
+namespace Ksfraser\HTML\Buttons;
 
+use Ksfraser\HTML\Elements\HtmlString;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
@@ -57,17 +58,6 @@ class CloseButton extends ActionButton
         $this->setCssClass('btn btn-secondary btn-sm');
     }
 
-    /**
-     * Set onclick function for close action
-     * 
-     * @param string $function JavaScript function to call
-     * @return self
-     */
-    public function setOnclickFunction(string $function): self
-    {
-        $this->setAttribute('onclick', $function);
-        return $this;
-    }
 
     /**
      * Add a CSS class to the button

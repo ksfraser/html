@@ -13,15 +13,18 @@ use Ksfraser\HTML\Elements\HtmlA;
  * @package Ksfraser\HTML\Factory
  */
 class DeleteLink extends ActionLink {
-        public function setConfirmMessage(string $message): self {
-            $this->confirmMessage = $message;
-            $this->setAttribute('onclick', 'return confirm("' . addslashes($this->confirmMessage) . '");');
-            return $this;
-        }
+    public static function make($id, ?string $text = null, array $params = []): self {
+        return new static($id, $text, $params);
+    }
+    public function setConfirmMessage(string $message): self {
+        $this->confirmMessage = $message;
+        $this->setAttribute('onclick', 'return confirm("' . addslashes($this->confirmMessage) . '");');
+        return $this;
+    }
 
-        public function getConfirmMessage(): string {
-            return $this->confirmMessage;
-        }
+    public function getConfirmMessage(): string {
+        return $this->confirmMessage;
+    }
     protected string $label = 'Delete';
     protected string $confirmMessage = 'Are you sure you want to delete this item?';
     public function __construct($id, ?string $text = null, array $params = []) {

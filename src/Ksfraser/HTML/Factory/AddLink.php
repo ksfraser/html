@@ -13,6 +13,9 @@ use Ksfraser\HTML\Elements\HtmlA;
  * @package Ksfraser\HTML\Factory
  */
 class AddLink extends ActionLink {
+        public static function make(?string $text = null, array $params = []): self {
+            return new static($text, $params);
+        }
     /**
      * @var string Default label for add links
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ksfraser\HTML\Elements;
+namespace Ksfraser\HTML\Buttons;
 
 use Ksfraser\HTML\HtmlElementInterface;
 

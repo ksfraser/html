@@ -1,6 +1,6 @@
 <?php
 
-namespace Ksfraser\HTML\Elements;
+namespace Ksfraser\HTML\Buttons;
 
 use Ksfraser\HTML\HtmlElementInterface;
 
@@ -73,16 +73,4 @@ class EditButton extends ActionButton
         $this->setCssClass('btn btn-primary btn-sm');
     }
 
-    /**
-     * Set the onclick JavaScript function
-     * 
-     * @param string $jsFunction JavaScript function call
-     * @return self Fluent interface
-     */
-    public function setOnclickFunction($jsFunction)
-    {
-        $this->onclickFunction = $jsFunction;
-        $this->setOnclick($jsFunction);
-        return $this;
-    }
 }

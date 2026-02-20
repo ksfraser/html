@@ -1,8 +1,8 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\Elements\CloseButton;
-use Ksfraser\HTML\Elements\SubmitButton;
+use Ksfraser\HTML\Buttons\CloseButton;
+use Ksfraser\HTML\Buttons\SubmitButton;
 use Ksfraser\HTML\Elements\HtmlString;
 
 class ButtonsTest extends TestCase

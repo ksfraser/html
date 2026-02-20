@@ -1,8 +1,9 @@
 <?php
 
-namespace Ksfraser\HTML\Elements;
+namespace Ksfraser\HTML\Buttons;
 
 use Ksfraser\HTML\HtmlElementInterface;
+use Ksfraser\HTML\Elements\HtmlString;
 
 /**
  * Submit Action Button Class
@@ -57,15 +58,4 @@ class SubmitButton extends ActionButton
         $this->setCssClass('btn btn-primary btn-sm');
     }
 
-    /**
-     * Set onclick function for validation
-     * 
-     * @param string $function JavaScript function to call (should return boolean)
-     * @return self
-     */
-    public function setOnclickFunction(string $function): self
-    {
-        $this->setAttribute('onclick', $function);
-        return $this;
-    }
 }

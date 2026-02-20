@@ -12,6 +12,9 @@ use Ksfraser\HTML\Elements\HtmlA;
  * @package Ksfraser\HTML\Factory
  */
 class ListLink extends ActionLink {
+        public static function make(?string $text = null, array $params = []): self {
+            return new static($text, $params);
+        }
     protected string $label = 'List';
     public function __construct(?string $text = null, array $params = []) {
         parent::__construct();

@@ -1,7 +1,8 @@
 <?php
 
-namespace Ksfraser\HTML\Elements;
+namespace Ksfraser\HTML\Buttons;
 
+use Ksfraser\HTML\Elements\HtmlInputGenericButton;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
@@ -29,6 +30,11 @@ use Ksfraser\HTML\HtmlElementInterface;
  */
 abstract class ActionButton extends HtmlInputGenericButton
 {
+    /**
+     * @var string The JavaScript function call for the onclick handler
+     */
+    protected $onclickFunction = '';
+
     /**
      * @var string The action identifier (id, row id, etc.)
      */
@@ -103,4 +109,18 @@ abstract class ActionButton extends HtmlInputGenericButton
     {
         return $this->setClass($cssClass);
     }
+    /**
+     * Set onclick function for the button
+     *
+     * @param string $function JavaScript function to call (should return boolean)
+     * @return self
+     */
+    public function setOnclickFunction(string $function): self
+    {
+        $this->onclickFunction = $function;
+        $this->setAttribute('onclick', $function);
+        return $this;
+    }
+
+
 }

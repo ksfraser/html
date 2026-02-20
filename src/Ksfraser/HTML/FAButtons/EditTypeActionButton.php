@@ -1,5 +1,5 @@
 <?php
-namespace Ksfraser\HTML\Buttons;
+namespace Ksfraser\HTML\FAButtons;
 
 use Ksfraser\HTML\Elements\Button;
 
