@@ -1,5 +1,7 @@
 <?php
-namespace Ksfraser\HTML\Elements;
+namespace Ksfraser\HTML\Factory;
+
+use Ksfraser\HTML\Elements\HtmlA;
 
 /**
  * ActionLink - Specialized link for action-based URLs
@@ -123,5 +125,24 @@ class ActionLink extends HtmlA {
         return (new self())
             ->setAction($action, $params)
             ->setText($text);
+    }
+    /**
+     * Set the label for this add link
+     * 
+     * @param string $label
+     * @return self
+     */
+    public function setLabel(string $label): self {
+        $this->label = $label;
+        $this->setText($label);
+        return $this;
+    }
+    /**
+     * Get the current label
+     * 
+     * @return string
+     */
+    public function getLabel(): string {
+        return $this->label;
     }
 }

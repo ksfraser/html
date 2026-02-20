@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\Elements\ActionLink;
+use Ksfraser\HTML\Factory\ActionLink;
 
 class ActionLinkTest extends TestCase
 {

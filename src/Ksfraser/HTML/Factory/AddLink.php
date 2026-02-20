@@ -1,15 +1,18 @@
 <?php
-namespace Ksfraser\HTML\Elements;
+namespace Ksfraser\HTML\Factory;
+
+use Ksfraser\HTML\Factory\ActionLink;
+use Ksfraser\HTML\Elements\HtmlA;
 
 /**
- * AddActionLink - Specialized link for add actions
+ * AddLink - Specialized link for add actions
  * 
  * Extends ActionLink with defaults for add operations.
  * Similar to Create but uses "add" action name.
  * 
- * @package Ksfraser\HTML\Elements
+ * @package Ksfraser\HTML\Factory
  */
-class AddActionLink extends ActionLink {
+class AddLink extends ActionLink {
     /**
      * @var string Default label for add links
      */
@@ -25,26 +28,5 @@ class AddActionLink extends ActionLink {
         parent::__construct();
         $this->setAction('add', $params);
         $this->setText($text ?? $this->label);
-    }
-    
-    /**
-     * Set the label for this add link
-     * 
-     * @param string $label
-     * @return self
-     */
-    public function setLabel(string $label): self {
-        $this->label = $label;
-        $this->setText($label);
-        return $this;
-    }
-    
-    /**
-     * Get the current label
-     * 
-     * @return string
-     */
-    public function getLabel(): string {
-        return $this->label;
     }
 }
