@@ -67,7 +67,7 @@ class HtmlElement implements HtmlElementInterface {
      */
     function newAttributeList(): void
     {
-        $this->attributeList = new HtmlAttributeList(new HtmlAttribute("", ""));
+        $this->attributeList = new HtmlAttributeList();
     }
     
     /**

@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 use Ksfraser\HTML\Elements\HtmlForm;
-use Ksfraser\HTML\HtmlString;
+use Ksfraser\HTML\Elements\HtmlString;
 
 class HtmlFormValidationTest extends TestCase
 {

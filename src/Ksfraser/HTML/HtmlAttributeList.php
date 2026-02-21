@@ -10,13 +10,10 @@ class HtmlAttributeList implements HtmlElementInterface
 	
 	/**
 	 * Constructor
-	 * 
-	 * @param HtmlAttribute $attribute Initial attribute
 	 */
-	function __construct( HtmlAttribute $attribute )
+	function __construct()
 	{
 		$this->attributeArray = array(); // Initialize array
-		$this->addAttribute( $attribute );
 	}
 	
 	/**
