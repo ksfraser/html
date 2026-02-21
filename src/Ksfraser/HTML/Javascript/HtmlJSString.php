@@ -12,15 +12,5 @@ use Ksfraser\HTML\HtmlScriptLanguage;
  */
 class HtmlJSString extends HtmlScriptLanguage
 {
-    protected $string;
-
-    public function __construct($string)
-    {
-        $this->string = $string;
-    }
-
-    public function getHtml(): string
-    {
-        return htmlspecialchars($this->string, ENT_QUOTES, 'UTF-8');
-    }
+    // No additional implementation; semantic distinction only.
 }

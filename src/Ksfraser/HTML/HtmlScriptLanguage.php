@@ -1,14 +1,21 @@
 <?php
 namespace Ksfraser\HTML;
 
+use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
+use Ksfraser\HTML\Elements\HtmlString;
 
 /**
  * HtmlScriptLanguage
  *
  * Abstract base for valid script language wrappers (e.g., JS, JSON, TypeScript, VBScript).
- * Use this as a type hint for script content in HtmlScript.
+ * Extends HtmlElement for consistent element behavior.
  */
-abstract class HtmlScriptLanguage implements HtmlElementInterface {
-    // No implementation; serves as a semantic base for script language wrappers.
+abstract class HtmlScriptLanguage extends HtmlElement implements HtmlElementInterface {
+    public function __construct(HtmlElementInterface $content) {
+        if (!$content instanceof HtmlString) {
+            throw new \InvalidArgumentException('HtmlScriptLanguage content must be an instance of HtmlString');
+        }
+        parent::__construct($content);
+    }
 }

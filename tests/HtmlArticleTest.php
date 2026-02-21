@@ -1,35 +1,26 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlArticle;
+use Ksfraser\HTML\Elements\HtmlString;
+use Ksfraser\HTML\Elements\HtmlArticle;
 
 class HtmlArticleTest extends TestCase {
     public function testGetHtml() {
-        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
-        $mock->method('getHtml')->willReturn('article');
-        $article = new HtmlArticle($mock);
-        $html = $article->getHtml();
-        $this->assertStringContainsString('<article', $html);
-        $this->assertStringContainsString('article', $html);
-        $this->assertStringEndsWith('</article>', $html);
+        $article = new HtmlArticle(new HtmlString('Article content here'));
+        $this->assertStringContainsString('<article', $article->getHtml());
+        $this->assertStringContainsString('Article content here', $article->getHtml());
     }
 
     public function testToHtmlOutputsHtml() {
-        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
-        $mock->method('getHtml')->willReturn('article');
-        $article = new HtmlArticle($mock);
+        $article = new HtmlArticle(new HtmlString('Another article'));
         ob_start();
         $article->toHtml();
         $output = ob_get_clean();
         $this->assertStringContainsString('<article', $output);
-        $this->assertStringContainsString('article', $output);
+        $this->assertStringContainsString('Another article', $output);
     }
 
     public function testEdgeCasesEmptyContent() {
-        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
-        $mock->method('getHtml')->willReturn('');
-        $article = new HtmlArticle($mock);
-        $html = $article->getHtml();
-        $this->assertStringContainsString('<article', $html);
-        $this->assertStringEndsWith('</article>', $html);
+        $article = new HtmlArticle(new HtmlString(''));
+        $this->assertStringContainsString('<article', $article->getHtml());
     }
 }

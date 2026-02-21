@@ -10,11 +10,5 @@ use Ksfraser\HTML\HtmlScriptLanguage;
  * Extends HtmlScriptLanguage for clarity: use this when representing inline VBScript content.
  */
 class HtmlVBScriptString extends HtmlScriptLanguage {
-    protected $string;
-    public function __construct($string) {
-        $this->string = $string;
-    }
-    public function getHtml(): string {
-        return htmlspecialchars($this->string, ENT_QUOTES, 'UTF-8');
-    }
+    // No additional implementation; semantic distinction only.
 }
