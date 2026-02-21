@@ -4,6 +4,14 @@ namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlElementInterface;
 
+/**
+ * HtmlString
+ *
+ * This class is a simple wrapper for a string to implement the HtmlElementInterface.
+ *
+ * NOTE: HtmlNameValue extends this class because their implementations are currently identical.
+ * If HtmlString is refactored or its implementation changes, HtmlNameValue should be re-examined for correctness.
+ */
 class HtmlString implements HtmlElementInterface
 {
 
@@ -35,4 +43,3 @@ class HtmlString implements HtmlElementInterface
                 return htmlspecialchars($this->string, ENT_QUOTES, 'UTF-8');
         }
 }
-// This class is a simple wrapper for a string to implement the HtmlElementInterface.

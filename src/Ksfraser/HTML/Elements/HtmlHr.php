@@ -8,9 +8,9 @@ use Ksfraser\HTML\HtmlElementInterface;
 
 class HtmlHr extends HtmlEmptyElement
 {
-	function __construct( $data = "" )
-	{
-		parent::__construct( "" );
-		$this->tag = "hr";
-	}
+	       function __construct( HtmlElementInterface $data )
+	       {
+		       parent::__construct( $data );
+		       $this->tag = "hr";
+	       }
 }

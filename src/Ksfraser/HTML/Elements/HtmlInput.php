@@ -47,11 +47,12 @@ class HtmlInput extends HtmlEmptyElement
 	/**
 	 * Constructor for HtmlInput
 	 *
+	 * @param HtmlElementInterface $data (ignored, for consistency)
 	 * @param string $type The input type (text, password, email, etc.)
 	 */
-	function __construct( string $type = "text" )
+	function __construct( HtmlElementInterface $data = null, string $type = "text" )
 	{
-		parent::__construct();
+		parent::__construct($data);
 		$this->setTag("input");
 		$this->type = $type;
 		$this->addAttribute( new HtmlAttribute( "type", $type ) );

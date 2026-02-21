@@ -56,9 +56,9 @@ use Ksfraser\HTML\HtmlAttributeList;
 class HtmlSelect implements HtmlElementInterface
 {
     /**
-     * @var string The select element name
-     */
-    private string $name;
+    * @var HtmlElementInterface The select element name (as a value object)
+    */
+    private HtmlElementInterface $name;
 
     /**
      * @var HtmlOption[] Array of option elements
@@ -73,19 +73,19 @@ class HtmlSelect implements HtmlElementInterface
     /**
      * Constructor
      *
-     * @param string $name The select element name
+    * @param HtmlElementInterface $name The select element name (value object)
      *
      * @since 20251020
      */
-    public function __construct(string $name)
+    public function __construct(HtmlElementInterface $name)
     {
         $this->name = $name;
         $this->options = [];
-        $this->attributes = new HtmlAttributeList(new HtmlAttribute("", ""));
+        $this->attributes = new HtmlAttributeList();
     }
 
     /**
-     * Get the select name
+     * Get the select name (as string)
      *
      * @return string The select name
      *
@@ -93,7 +93,7 @@ class HtmlSelect implements HtmlElementInterface
      */
     public function getName(): string
     {
-        return $this->name;
+        return $this->name->getHtml();
     }
 
     /**
@@ -275,7 +275,7 @@ class HtmlSelect implements HtmlElementInterface
      */
     public function getHtml(): string
     {
-        $escapedName = htmlspecialchars($this->name, ENT_QUOTES, 'UTF-8');
+        $escapedName = $this->name->getHtml();
 
         $html = '<select name="' . $escapedName . '"';
 

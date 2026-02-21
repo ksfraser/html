@@ -8,13 +8,17 @@ class HtmlAttributeList implements HtmlElementInterface
 {
 	protected $attributeArray;
 	
-	/**
-	 * Constructor
-	 */
-	function __construct()
-	{
-		$this->attributeArray = array(); // Initialize array
-	}
+	       /**
+		* Constructor
+		* @param HtmlAttribute|null $attribute Optional attribute to add on creation
+		*/
+		       function __construct($attribute = null)
+		       {
+			       $this->attributeArray = array(); // Initialize array
+			       if ($attribute !== null) {
+				       $this->addAttribute($attribute);
+			       }
+		       }
 	
 	/**
 	 * Add an attribute to the list
@@ -22,11 +26,14 @@ class HtmlAttributeList implements HtmlElementInterface
 	 * @param HtmlAttribute $attribute Attribute to add
 	 * @return void
 	 */
-	function addAttribute( HtmlAttribute $attribute ): void
-	{
-		$this->attributeArray[] = $attribute;
-		return;
-	}
+	       function addAttribute($attribute): void
+	       {
+		       if (!($attribute instanceof HtmlAttribute)) {
+			       throw new \InvalidArgumentException("HtmlAttributeList only accepts HtmlAttribute objects.");
+		       }
+		       $this->attributeArray[] = $attribute;
+		       return;
+	       }
 
 	/**
 	 * Set (add or replace) an attribute in the list.

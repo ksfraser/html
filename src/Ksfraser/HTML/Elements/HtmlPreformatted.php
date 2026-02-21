@@ -8,9 +8,9 @@ use Ksfraser\HTML\HtmlElementInterface;
 
 class HtmlPreformatted extends HtmlElement
 {
-	function __construct( $data )
-	{
-		parent::__construct( $data );
-		$this->tag = "pre";
-	}
+	       function __construct( HtmlElementInterface $data )
+	       {
+		       parent::__construct( $data );
+		       $this->tag = "pre";
+	       }
 }

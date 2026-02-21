@@ -34,10 +34,11 @@ class HtmlImage extends HtmlElement
 	}
 	function setSize( int $width, int $height )
 	{
-		$w = new HtmlStyle( "width", $width . "px" );
-		$h = new HtmlStyle( "height", $height . "px" );
-		$s = new HtmlStyleList( $w );
-		$s->addAttribute( $h );
-		$this->addAttribute( 'style', $s );
+			   $w = new HtmlStyle( "width", $width . "px" );
+			   $h = new HtmlStyle( "height", $height . "px" );
+			   $s = new HtmlStyleList();
+			   $s->addStyle( $w );
+			   $s->addStyle( $h );
+			   $this->addAttribute( 'style', $s );
 	}
 }

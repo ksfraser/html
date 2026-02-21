@@ -3,6 +3,7 @@
 namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlElementInterface;
+use Ksfraser\HTML\Formatting\HtmlFormatting;
 
 class HtmlDeleted extends HtmlFormatting
 {

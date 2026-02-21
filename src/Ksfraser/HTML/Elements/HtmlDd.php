@@ -1,6 +1,6 @@
 <?php
 
-namespace Ksfraser\HTML\HTMLAtomic;
+namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlElementInterface;
 
