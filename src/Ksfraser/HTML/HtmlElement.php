@@ -22,6 +22,17 @@ require_once( 'HtmlAttributeList.php' );
  * @version 20250119
  */
 class HtmlElement implements HtmlElementInterface {
+        /**
+         * Deprecated: Use addCSSClass instead.
+         * Backward compatibility: addClass wraps addCSSClass
+         * @param string $class
+         * @return self
+         */
+        public function addClass(string $class): self
+        {
+            // Deprecated: Use addCSSClass()
+            return $this->addCSSClass($class);
+        }
     /** @var string HTML tag name */
     protected $tag;
     
@@ -117,13 +128,20 @@ class HtmlElement implements HtmlElementInterface {
         return null;
     }
 
+
+    /**
+     * CSS Classes for this element
+     * @var array
+     */
+    protected $CSSClasses = [];
+
     /**
      * Add a CSS class without clobbering existing class attribute.
      *
      * @param string $class
      * @return self (Fluent interface)
      */
-    public function addClass(string $class): self
+    public function addCSSClass(string $class): self
     {
         $existing = $this->getAttributeValue('class');
         if ($existing === null || trim($existing) === '') {

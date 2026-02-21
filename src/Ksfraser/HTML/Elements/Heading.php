@@ -5,7 +5,7 @@ use Ksfraser\HTML\Elements\HtmlString;
 use Ksfraser\HTML\HtmlAttribute;
 
 /**
- * Heading - Factory class for HTML heading elements
+ * Heading - Factory for HTML heading elements
  * 
  * Provides a convenient, fluent interface for creating heading elements (H1-H6).
  * Wraps HtmlHeading1-6 classes with a clean API.

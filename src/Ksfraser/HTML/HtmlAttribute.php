@@ -19,6 +19,10 @@ class HtmlAttribute implements HtmlElementInterface
 	protected $value;	//Value
 	function __construct( $attribute, $value )
 	{
+		// Valid HTML attribute name: must start with a letter and contain only letters, digits, hyphens, or underscores
+		if (!preg_match('/^[A-Za-z][A-Za-z0-9_-]*$/', $attribute)) {
+			throw new \InvalidArgumentException("Invalid attribute name: must start with a letter and contain only letters, digits, hyphens, or underscores.");
+		}
 		$this->attribute = $attribute;
 		$this->value = $value;
 	}
