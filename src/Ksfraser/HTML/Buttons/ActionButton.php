@@ -105,9 +105,9 @@ abstract class ActionButton extends HtmlInputGenericButton
      * @param string $cssClass CSS class to add
      * @return self Fluent interface
      */
-    public function addCssClass($cssClass)
+    public function addCssClass(string $class): self
     {
-        return $this->setClass($cssClass);
+        return $this->addCSSClass($class);
     }
     /**
      * Set onclick function for the button

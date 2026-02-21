@@ -4,9 +4,38 @@ use Ksfraser\HTML\Formatting\HtmlInserted;
 
 class HtmlInsertedTest extends TestCase {
     public function testInstance() {
-        $ins = new HtmlInserted('inserted text');
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+        $ins = new HtmlInserted($mock);
         $this->assertInstanceOf(HtmlInserted::class, $ins);
     }
 
-    // Add more tests for all public methods and edge cases
+    public function testGetHtml() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+        $mock->method('getHtml')->willReturn('ins');
+        $ins = new HtmlInserted($mock);
+        $html = $ins->getHtml();
+        $this->assertStringContainsString('<ins', $html);
+        $this->assertStringContainsString('ins', $html);
+        $this->assertStringEndsWith('</ins>', $html);
+    }
+
+    public function testToHtmlOutputsHtml() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+        $mock->method('getHtml')->willReturn('ins');
+        $ins = new HtmlInserted($mock);
+        ob_start();
+        $ins->toHtml();
+        $output = ob_get_clean();
+        $this->assertStringContainsString('<ins', $output);
+        $this->assertStringContainsString('ins', $output);
+    }
+
+    public function testEdgeCasesEmptyContent() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+        $mock->method('getHtml')->willReturn('');
+        $ins = new HtmlInserted($mock);
+        $html = $ins->getHtml();
+        $this->assertStringContainsString('<ins', $html);
+        $this->assertStringEndsWith('</ins>', $html);
+    }
 }

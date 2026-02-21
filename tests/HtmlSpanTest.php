@@ -8,5 +8,33 @@ class HtmlSpanTest extends TestCase {
         $this->assertInstanceOf(HtmlSpan::class, $span);
     }
 
-    // Add more tests for all public methods and edge cases
+    public function testGetHtml() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+        $mock->method('getHtml')->willReturn('span');
+        $span = new HtmlSpan($mock);
+        $html = $span->getHtml();
+        $this->assertStringContainsString('<span', $html);
+        $this->assertStringContainsString('span', $html);
+        $this->assertStringEndsWith('</span>', $html);
+    }
+
+    public function testToHtmlOutputsHtml() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+        $mock->method('getHtml')->willReturn('span');
+        $span = new HtmlSpan($mock);
+        ob_start();
+        $span->toHtml();
+        $output = ob_get_clean();
+        $this->assertStringContainsString('<span', $output);
+        $this->assertStringContainsString('span', $output);
+    }
+
+    public function testEdgeCasesEmptyContent() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+        $mock->method('getHtml')->willReturn('');
+        $span = new HtmlSpan($mock);
+        $html = $span->getHtml();
+        $this->assertStringContainsString('<span', $html);
+        $this->assertStringEndsWith('</span>', $html);
+    }
 }

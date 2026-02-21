@@ -3,6 +3,7 @@
 namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlElement;
+use Ksfraser\HTML\HtmlScriptLanguage;
 
 /**
  * HtmlScript - Script Tag Container
@@ -33,106 +34,42 @@ use Ksfraser\HTML\HtmlElement;
  * @example
  * ```php
  * // Inline script
- * $script = (new HtmlScript())
- *     ->setContent("console.log('Hello, World!');")
- *     ->addAttribute('type', 'text/javascript');
+ * $script = new HtmlScript(null, new \Ksfraser\HTML\Javascript\HtmlJSString("console.log('Hello, World!');"));
  * echo $script->getHtml();
  * // Output: <script type="text/javascript">console.log('Hello, World!');</script>
  * 
  * // External script reference
- * $script = (new HtmlScript())
- *     ->setAttribute('src', '/path/to/script.js')
- *     ->setAttribute('async', 'async');
+ * $script = new HtmlScript();
+ * $script->setAttribute('src', '/path/to/script.js');
+ * $script->setAttribute('async', 'async');
  * echo $script->getHtml();
  * // Output: <script src="/path/to/script.js" async></script>
  * 
- * // With type parameter
- * $script = (new HtmlScript('text/javascript', 'alert("Hi");'));
- * echo $script->getHtml();
- * // Output: <script type="text/javascript">alert("Hi");</script>
+ * // With JSON content
+ * $jsonScript = new HtmlScript('application/json', new \Ksfraser\HTML\Json\HtmlJsonString('{"key": "value"}'));
+ * echo $jsonScript->getHtml();
+ * // Output: <script type="application/json">{"key": "value"}</script>
  * ```
  */
 class HtmlScript extends HtmlElement
 {
     /**
-     * Script content (inline JavaScript)
-     * 
-     * @var string|null
-     */
-    protected $content = null;
-
-    /**
      * Constructor
-     * 
+     *
      * @param string|null $type    Optional script type (defaults to 'text/javascript')
-     * @param string|null $content Optional inline script content
+     * @param HtmlScriptLanguage|null $content Optional script content (must be a valid script language wrapper)
      */
-    public function __construct($type = null, $content = null)
+    public function __construct($type = null, ?\Ksfraser\HTML\HtmlScriptLanguage $content = null)
     {
         parent::__construct();
-        
         $this->tagName = 'script';
-        
         if ($type) {
             $this->setAttribute('type', $type);
         } else {
             $this->setAttribute('type', 'text/javascript');
         }
-        
         if ($content) {
-            $this->content = $content;
+            $this->addNested($content);
         }
-    }
-
-    /**
-     * Set inline script content
-     * 
-     * @param string $content The JavaScript code to include
-     * @return HtmlScript Fluent interface
-     */
-    public function setContent($content)
-    {
-        $this->content = $content;
-        return $this;
-    }
-
-    /**
-     * Get inline script content
-     * 
-     * @return string|null
-     */
-    public function getContent()
-    {
-        return $this->content;
-    }
-
-    /**
-     * Generate the HTML representation
-     * 
-     * @return string
-     */
-    public function getHtml(): string
-    {
-        $html = '<' . $this->tagName;
-        
-        // Add all attributes
-        foreach ($this->attributes as $key => $value) {
-            if ($value === null || $value === '') {
-                $html .= ' ' . $key;
-            } else {
-                $html .= ' ' . $key . '="' . htmlspecialchars($value, ENT_QUOTES, 'UTF-8') . '"';
-            }
-        }
-        
-        $html .= '>';
-        
-        // Add inline content if present
-        if ($this->content !== null) {
-            $html .= "\n" . $this->content . "\n";
-        }
-        
-        $html .= '</' . $this->tagName . '>';
-        
-        return $html;
     }
 }

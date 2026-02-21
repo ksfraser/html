@@ -16,5 +16,29 @@ class HtmlFragmentTest extends TestCase {
         $this->assertSame($fragment, $result);
     }
 
-    // Add more tests for all public methods and edge cases
+    public function testGetHtmlWithChild() {
+        $fragment = new HtmlFragment();
+        $mock = $this->getMockBuilder(HtmlElementInterface::class)->getMock();
+        $mock->method('getHtml')->willReturn('<span>child</span>');
+        $fragment->addChild($mock);
+        $html = $fragment->getHtml();
+        $this->assertStringContainsString('<span>child</span>', $html);
+    }
+
+    public function testToHtmlOutputsHtml() {
+        $fragment = new HtmlFragment();
+        $mock = $this->getMockBuilder(HtmlElementInterface::class)->getMock();
+        $mock->method('getHtml')->willReturn('<div>frag</div>');
+        $fragment->addChild($mock);
+        ob_start();
+        $fragment->toHtml();
+        $output = ob_get_clean();
+        $this->assertStringContainsString('<div>frag</div>', $output);
+    }
+
+    public function testEdgeCasesEmptyFragment() {
+        $fragment = new HtmlFragment();
+        $html = $fragment->getHtml();
+        $this->assertEquals('', $html);
+    }
 }

@@ -221,7 +221,7 @@ use Ksfraser\HTML\Elements\HtmlForm;
         use Ksfraser\HTML\Elements\HtmlScript;
         use Ksfraser\HTML\Elements\HtmlStyle;
         $script = new HtmlScript(null, 'console.log("Hello from HtmlScript!");');
-        $style = new HtmlStyle(new HtmlString('body { background: #f9f9f9; }'));
+        $style = new HtmlStyle('test', 'body { background: #f9f9f9; }');
         echo $script->getHtml();
         echo $style->getHtml();
         ?>
@@ -242,9 +242,11 @@ use Ksfraser\HTML\Elements\HtmlForm;
         <h2>Attribute Value Objects</h2>
         <?php
         use Ksfraser\HTML\Attributes\HtmlStyleList;
-        $styleList = new HtmlStyleList(['color' => 'red', 'font-weight' => 'bold']);
-        $divStyled = new HtmlDiv(new HtmlString('Styled with HtmlStyleList'));
-        $divStyled->setAttribute('style', $styleList->__toString());
+        $styleList = new HtmlStyleList();
+        $styleList->addAttribute(new Ksfraser\HTML\Elements\HtmlStyle('color', 'red'));
+        $styleList->addAttribute(new Ksfraser\HTML\Elements\HtmlStyle('font-weight', 'bold'));
+        $divStyled = new Ksfraser\HTML\Elements\HtmlDiv(new Ksfraser\HTML\Elements\HtmlString('Styled with daisy-chained HtmlStyleList'));
+        $divStyled->setAttribute('style', $styleList->getAttributeValueString());
         echo $divStyled->getHtml();
         ?>
 

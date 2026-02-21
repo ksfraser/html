@@ -11,6 +11,8 @@ use Ksfraser\HTML\HtmlElementInterface;
  *
  * NOTE: HtmlNameValue extends this class because their implementations are currently identical.
  * If HtmlString is refactored or its implementation changes, HtmlNameValue should be re-examined for correctness.
+ *
+ * NOTE: For semantic clarity, use HtmlJSString when representing JavaScript content in HTML elements (e.g., <script> tags).
  */
 class HtmlString implements HtmlElementInterface
 {

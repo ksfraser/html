@@ -8,5 +8,33 @@ class HtmlPreformattedTest extends TestCase {
         $this->assertInstanceOf(HtmlPreformatted::class, $pre);
     }
 
-    // Add more tests for all public methods and edge cases
+    public function testGetHtml() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+        $mock->method('getHtml')->willReturn('preformatted');
+        $preformatted = new HtmlPreformatted($mock);
+        $html = $preformatted->getHtml();
+        $this->assertStringContainsString('<pre', $html);
+        $this->assertStringContainsString('preformatted', $html);
+        $this->assertStringEndsWith('</pre>', $html);
+    }
+
+    public function testToHtmlOutputsHtml() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+        $mock->method('getHtml')->willReturn('preformatted');
+        $preformatted = new HtmlPreformatted($mock);
+        ob_start();
+        $preformatted->toHtml();
+        $output = ob_get_clean();
+        $this->assertStringContainsString('<pre', $output);
+        $this->assertStringContainsString('preformatted', $output);
+    }
+
+    public function testEdgeCasesEmptyContent() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+        $mock->method('getHtml')->willReturn('');
+        $preformatted = new HtmlPreformatted($mock);
+        $html = $preformatted->getHtml();
+        $this->assertStringContainsString('<pre', $html);
+        $this->assertStringEndsWith('</pre>', $html);
+    }
 }

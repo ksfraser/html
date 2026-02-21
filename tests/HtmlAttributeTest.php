@@ -9,6 +9,30 @@ class HtmlAttributeTest extends TestCase
     {
         $attr = new HtmlAttribute('data-test', 'value');
         $this->assertEquals('data-test', $attr->getName());
+        $this->assertEquals('value', $attr->getValue());
+    }
+
+    public function testGetHtml()
+    {
+        $attr = new HtmlAttribute('id', 'foo');
+        $html = $attr->getHtml();
+        $this->assertEquals('id="foo"', $html);
+    }
+
+    public function testToHtmlOutputsHtml()
+    {
+        $attr = new HtmlAttribute('class', 'bar');
+        ob_start();
+        $attr->toHtml();
+        $output = ob_get_clean();
+        $this->assertEquals('class="bar"', $output);
+    }
+
+    public function testEdgeCasesEmptyValue()
+    {
+        $attr = new HtmlAttribute('data-empty', '');
+        $html = $attr->getHtml();
+        $this->assertEquals('data-empty=""', $html);
     }
 
     public function testInvalidAttributeNameThrows()

@@ -4,7 +4,8 @@ use Ksfraser\HTML\Elements\HtmlButton;
 
 class HtmlButtonTest extends TestCase {
     public function testInstance() {
-        $button = new HtmlButton('Click me');
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+        $button = new HtmlButton($mock);
         $this->assertInstanceOf(HtmlButton::class, $button);
     }
 

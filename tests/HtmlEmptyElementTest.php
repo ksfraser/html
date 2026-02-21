@@ -9,5 +9,27 @@ class HtmlEmptyElementTest extends TestCase {
         $this->assertInstanceOf(HtmlElement::class, $empty);
     }
 
-    // Add more tests for all public methods and edge cases
+    public function testGetHtmlEmptyTag() {
+        $empty = new HtmlEmptyElement();
+        $empty->setTag('hr');
+        $html = $empty->getHtml();
+        $this->assertStringStartsWith('<hr', $html);
+        $this->assertStringEndsWith('>', $html);
+        $this->assertStringNotContainsString('</hr>', $html);
+    }
+
+    public function testToHtmlOutputsHtml() {
+        $empty = new HtmlEmptyElement();
+        $empty->setTag('img');
+        ob_start();
+        $empty->toHtml();
+        $output = ob_get_clean();
+        $this->assertStringStartsWith('<img', $output);
+    }
+
+    public function testEdgeCasesNoTag() {
+        $empty = new HtmlEmptyElement();
+        $html = $empty->getHtml();
+        $this->assertStringStartsWith('<', $html);
+    }
 }
