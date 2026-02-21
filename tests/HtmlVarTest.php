@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlVar;
+use Ksfraser\HTML\Elements\HtmlVar;
 
 class HtmlVarTest extends TestCase {
     public function testGetHtml() {

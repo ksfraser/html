@@ -45,7 +45,7 @@ class TableRow {
             $this->classes[] = $class;
         }
         if (!empty($this->classes)) {
-            $this->element->addAttribute(new HtmlAttribute('class', implode(' ', $this->classes)));
+            $this->element->addAttributeObject(new HtmlAttribute('class', implode(' ', $this->classes)));
         }
         return $this;
     }
@@ -61,7 +61,9 @@ class TableRow {
      */
     public function addHeadersFromArray(array $labels): self {
         foreach ($labels as $label) {
-            $this->append(new TableHeader($label));
+            $header = new TableHeader();
+            $header->setText($label);
+            $this->append($header);
         }
         return $this;
     }
@@ -90,8 +92,8 @@ class TableRow {
      * @param string $value Attribute value
      * @return self Fluent interface
      */
-    public function setAttribute(string $name, string $value): self {
-        $this->element->addAttribute(new HtmlAttribute($name, $value));
+    public function setAttribute(string $name, $value): self {
+        $this->element->addAttributeObject(new HtmlAttribute($name, $value));
         return $this;
     }
     

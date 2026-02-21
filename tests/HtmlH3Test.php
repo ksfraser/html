@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlH3;
+use Ksfraser\HTML\Elements\HtmlH3;
 
 class HtmlH3Test extends TestCase {
     public function testGetHtml() {

@@ -53,22 +53,20 @@ use Ksfraser\HTML\HtmlAttributeList;
  * @since      20251020
  * @version    1.0.0
  */
-class HtmlSelect implements HtmlElementInterface
+use Ksfraser\HTML\HtmlElement;
+
+class HtmlSelect extends HtmlElement
 {
     /**
     * @var HtmlElementInterface The select element name (as a value object)
     */
-    private HtmlElementInterface $name;
+    private $name;
 
     /**
      * @var HtmlOption[] Array of option elements
      */
-    private array $options;
+    private $options;
 
-    /**
-     * @var HtmlAttributeList List of HTML attributes
-     */
-    private HtmlAttributeList $attributes;
 
     /**
      * Constructor
@@ -79,9 +77,11 @@ class HtmlSelect implements HtmlElementInterface
      */
     public function __construct(HtmlElementInterface $name)
     {
+        parent::__construct();
         $this->name = $name;
         $this->options = [];
-        $this->attributes = new HtmlAttributeList();
+        $this->setTag('select');
+        $this->addAttribute('id', 'select');
     }
 
     /**
@@ -165,7 +165,7 @@ class HtmlSelect implements HtmlElementInterface
      */
     public function setId(string $id): self
     {
-        $this->attributes->addAttribute(new HtmlAttribute('id', $id));
+        $this->attributeList->addAttributeObject(new HtmlAttribute('id', $id));
         return $this;
     }
 
@@ -180,7 +180,7 @@ class HtmlSelect implements HtmlElementInterface
      */
     public function setClass(string $class): self
     {
-        $this->attributes->addAttribute(new HtmlAttribute('class', $class));
+        $this->attributeList->addAttributeObject(new HtmlAttribute('class', $class));
         return $this;
     }
 
@@ -196,7 +196,7 @@ class HtmlSelect implements HtmlElementInterface
     public function setMultiple(bool $multiple): self
     {
         if ($multiple) {
-            $this->attributes->addAttribute(new HtmlAttribute('multiple', 'multiple'));
+            $this->attributeList->addAttributeObject(new HtmlAttribute('multiple', 'multiple'));
         }
         return $this;
     }
@@ -212,7 +212,7 @@ class HtmlSelect implements HtmlElementInterface
      */
     public function setSize(int $size): self
     {
-        $this->attributes->addAttribute(new HtmlAttribute('size', (string)$size));
+        $this->attributeList->addAttributeObject(new HtmlAttribute('size', (string)$size));
         return $this;
     }
 
@@ -228,7 +228,7 @@ class HtmlSelect implements HtmlElementInterface
     public function setDisabled(bool $disabled): self
     {
         if ($disabled) {
-            $this->attributes->addAttribute(new HtmlAttribute('disabled', 'disabled'));
+            $this->attributeList->addAttributeObject(new HtmlAttribute('disabled', 'disabled'));
         }
         return $this;
     }
@@ -245,7 +245,7 @@ class HtmlSelect implements HtmlElementInterface
     public function setRequired(bool $required): self
     {
         if ($required) {
-            $this->attributes->addAttribute(new HtmlAttribute('required', 'required'));
+            $this->attributeList->addAttributeObject(new HtmlAttribute('required', 'required'));
         }
         return $this;
     }
@@ -260,11 +260,7 @@ class HtmlSelect implements HtmlElementInterface
      *
      * @since 20251020
      */
-    public function setAttribute(string $name, string $value): self
-    {
-        $this->attributes->addAttribute(new HtmlAttribute($name, $value));
-        return $this;
-    }
+    // setAttribute removed because of Trait
 
     /**
      * Generate the HTML for this select element
@@ -280,7 +276,7 @@ class HtmlSelect implements HtmlElementInterface
         $html = '<select name="' . $escapedName . '"';
 
         // Add custom attributes
-        $attributesHtml = $this->attributes->getHtml();
+        $attributesHtml = $this->attributeList->getHtml();
         if ($attributesHtml !== '') {
             $html .= ' ' . $attributesHtml;
         }

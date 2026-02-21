@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlQ;
+use Ksfraser\HTML\Elements\HtmlQ;
 
 class HtmlQTest extends TestCase {
     public function testGetHtml() {

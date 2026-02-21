@@ -38,11 +38,16 @@ class HtmlAttribute implements HtmlElementInterface
 	 * @return string The attribute in format: name="value"
 	 */
 	public function getHtml(): string {
-		if( strlen( $this->attribute ) > 0 )
-		{
-			$html = $this->attribute . '="' . $this->value . '"';
+		if (strlen($this->attribute) > 0) {
+			$value = $this->value;
+			if (is_object($value) && method_exists($value, 'getHtml')) {
+				$value = $value->getHtml();
+			} else {
+				$value = (string)$value;
+			}
+			$html = $this->attribute . '="' . $value . '"';
 			return $html;
-		}	
+		}
 		return "";
 	}
 
@@ -53,6 +58,10 @@ class HtmlAttribute implements HtmlElementInterface
 
     public function getValue(): string
     {
-        return $this->value;
+		$value = $this->value;
+		if (is_object($value) && method_exists($value, 'getHtml')) {
+			return $value->getHtml();
+		}
+		return (string)$value;
     }
 }

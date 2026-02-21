@@ -55,7 +55,7 @@ class HtmlInput extends HtmlEmptyElement
 		parent::__construct($data);
 		$this->setTag("input");
 		$this->type = $type;
-		$this->addAttribute( new HtmlAttribute( "type", $type ) );
+		$this->addAttributeObject( new HtmlAttribute( "type", $type ) );
 	}
 
 	/**
@@ -66,7 +66,7 @@ class HtmlInput extends HtmlEmptyElement
 	 */
 	public function setName( string $name ): self
 	{
-		$this->addAttribute( new HtmlAttribute( "name", $name ) );
+		$this->addAttributeObject( new HtmlAttribute( "name", $name ) );
 		return $this;
 	}
 
@@ -78,7 +78,7 @@ class HtmlInput extends HtmlEmptyElement
 	 */
 	public function setValue( string $value ): self
 	{
-		$this->addAttribute( new HtmlAttribute( "value", htmlspecialchars( $value, ENT_QUOTES, 'UTF-8' ) ) );
+		$this->addAttributeObject( new HtmlAttribute( "value", htmlspecialchars( $value, ENT_QUOTES, 'UTF-8' ) ) );
 		return $this;
 	}
 
@@ -90,7 +90,7 @@ class HtmlInput extends HtmlEmptyElement
 	 */
 	public function setPlaceholder( string $placeholder ): self
 	{
-		$this->addAttribute( new HtmlAttribute( "placeholder", htmlspecialchars( $placeholder, ENT_QUOTES, 'UTF-8' ) ) );
+		$this->addAttributeObject( new HtmlAttribute( "placeholder", htmlspecialchars( $placeholder, ENT_QUOTES, 'UTF-8' ) ) );
 		return $this;
 	}
 }

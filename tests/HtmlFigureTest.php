@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlFigure;
+use Ksfraser\HTML\Elements\HtmlFigure;
 
 class HtmlFigureTest extends TestCase {
     public function testGetHtml() {

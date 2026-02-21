@@ -18,8 +18,22 @@ use Ksfraser\HTML\Attributes\HtmlAttributeValueObject;
 class HtmlStyleList extends HtmlAttributeValueObject
 {
     /**
+     * Returns the CSS string for the style attribute
+     */
+    public function getStyleString(): string
+    {
+        if (count($this->attributeArray) === 0) {
+            return '';
+        }
+        $value = '';
+        foreach ($this->attributeArray as $style) {
+            $value .= $style->getHtml();
+        }
+        return $value;
+    }
+    /**
      * Constructor
-     * @param HtmlStyle|null $style Optional style to add on creation
+    * @param \Ksfraser\HTML\Elements\HtmlStyle|null $style Optional style to add on creation
      */
     public function __construct(?\Ksfraser\HTML\Elements\HtmlStyle $style = null)
     {
@@ -33,17 +47,17 @@ class HtmlStyleList extends HtmlAttributeValueObject
     /**
      * Add a style to the list (type safe)
      */
-    public function addAttribute(\Ksfraser\HTML\Elements\HtmlStyle $style): void
+    public function addAttribute($style): void
     {
-        parent::addAttribute($style);
+        parent::addAttributeValueObject($style);
     }
 
     /**
      * Set (add or replace) a style in the list by property name (type safe)
      */
-    public function setAttribute(\Ksfraser\HTML\Elements\HtmlStyle $style): void
+    public function setAttribute($style): void
     {
-        parent::setAttribute($style);
+        $this->addAttribute($style);
     }
 
     protected function getAttributeValueString(): string

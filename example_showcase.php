@@ -6,67 +6,110 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlAttribute;
 use Ksfraser\HTML\Elements\HtmlString;
 use Ksfraser\HTML\Elements\HtmlForm;
-
-?><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>HTML Library Showcase</title>
-    <link rel="stylesheet" href="assets/css/modal.css">
-    <style>
-        body { font-family: Arial, sans-serif; margin: 2em; }
-        .showcase-table { border-collapse: collapse; width: 60%; margin-bottom: 2em; }
-        .showcase-table th, .showcase-table td { border: 1px solid #888; padding: 0.5em 1em; }
-        .showcase-table th { background: #eee; }
-        .btn { padding: 0.5em 1em; border: none; border-radius: 3px; cursor: pointer; }
-        .btn-primary { background: #007bff; color: #fff; }
-        .btn-secondary { background: #6c757d; color: #fff; }
-    </style>
-    <script src="assets/js/report-viewer.js"></script>
-    <script>
-        function showAlert(msg) { alert(msg); }
-    </script>
-</head>
-<body>
-    <h1>HTML Library Showcase</h1>
-
-    <h2>Headers</h2>
-    <?php
+use Ksfraser\HTML\Elements\HtmlScriptJS;
+use Ksfraser\HTML\Elements\HtmlScriptJSON;
+use Ksfraser\HTML\Elements\HtmlScriptVBScript;
+use Ksfraser\HTML\Elements\HtmlScriptTypeScript;
+use Ksfraser\HTML\Json\HtmlJsonString;
+use Ksfraser\HTML\Typescript\HtmlTypeScriptString;
+use Ksfraser\HTML\VBScript\HtmlVBScriptString;
+use Ksfraser\HTML\Elements\HtmlStyle;
     use Ksfraser\HTML\Elements\HtmlHeading1;
     use Ksfraser\HTML\Elements\HtmlHeading2;
     use Ksfraser\HTML\Elements\HtmlHeading3;
     use Ksfraser\HTML\Elements\HtmlHeading4;
     use Ksfraser\HTML\Elements\HtmlHeading5;
     use Ksfraser\HTML\Elements\HtmlHeading6;
-    echo (new HtmlHeading1(new HtmlString('Header Level 1 (HtmlHeading1)')))->getHtml();
-    echo (new HtmlHeading2(new HtmlString('Header Level 2 (HtmlHeading2)')))->getHtml();
-    echo (new HtmlHeading3(new HtmlString('Header Level 3 (HtmlHeading3)')))->getHtml();
-    echo (new HtmlHeading4(new HtmlString('Header Level 4 (HtmlHeading4)')))->getHtml();
-    echo (new HtmlHeading5(new HtmlString('Header Level 5 (HtmlHeading5)')))->getHtml();
-    echo (new HtmlHeading6(new HtmlString('Header Level 6 (HtmlHeading6)')))->getHtml();
-    ?>
-
-
-    <h2>Buttons</h2>
-    <?php
-    use Ksfraser\HTML\Elements\HtmlButton;
+        use Ksfraser\HTML\Button\HtmlButton;
     use Ksfraser\HTML\Elements\HtmlInputButton;
-    $button1 = new HtmlButton(new HtmlString('Primary Button'));
-    $button1->addCSSClass('btn')->addCSSClass('btn-primary')->setAttribute('onclick', 'showAlert(\'Primary Button Clicked!\')');
-    echo $button1->getHtml();
-
-    $button2 = new HtmlInputButton('button', new HtmlString('Secondary InputButton'));
-    $button2->addCSSClass('btn')->addCSSClass('btn-secondary')->setAttribute('onclick', 'showAlert(\'Secondary InputButton Clicked!\')');
-    echo $button2->getHtml();
-    ?>
-
-
-    <h2>Table</h2>
-    <?php
+        use Ksfraser\HTML\FAButtons\ViewLoanActionButton;
+    use Ksfraser\HTML\FAButtons\EditTypeActionButton;
+    use Ksfraser\HTML\FAButtons\EditLoanActionButton;
+    use Ksfraser\HTML\FAButtons\EditFrequencyActionButton;
+    use Ksfraser\HTML\FAButtons\DeleteTypeActionButton;
+    use Ksfraser\HTML\FAButtons\DeleteFrequencyActionButton;
     use Ksfraser\HTML\Elements\HtmlTable;
     use Ksfraser\HTML\Elements\HtmlTableRow;
     use Ksfraser\HTML\Elements\HtmlTableHeaderCell;
     use Ksfraser\HTML\Elements\HtmlTableRowCell;
+    use Ksfraser\HTML\Elements\HtmlInput;
+    use Ksfraser\HTML\Elements\HtmlSelect;
+    use Ksfraser\HTML\Attributes\HtmlNameValue;
+    use Ksfraser\HTML\Elements\HtmlOption;
+
+
+
+// Generate opening structure
+$head = new Ksfraser\HTML\Elements\HtmlHead(new HtmlString(''));
+$body = new Ksfraser\HTML\Elements\HtmlBody(new HtmlString(''));
+$html = new Ksfraser\HTML\Elements\HtmlHtml(new HtmlString(''));
+$html->addNested($head)->addNested($body);
+
+$meta = new Ksfraser\HTML\Elements\HtmlMeta(new HtmlString(''));
+$meta->setAttribute('charset', 'UTF-8');
+$title = new Ksfraser\HTML\Elements\HtmlTitle(new HtmlString('HTML Library Showcase'));
+$link = new Ksfraser\HTML\Elements\HtmlExternalCSS();
+$link->setHref('assets/css/modal.css');
+$scriptInline = new HtmlScriptJS(new \Ksfraser\HTML\Javascript\HtmlJSString(new HtmlString('function showAlert(msg) { alert(msg); }')));
+$scriptExternal = new HtmlScriptJS(new HtmlString(''));
+$scriptExternal->setAttribute('src', 'assets/js/report-viewer.js');
+
+$styleBody = new HtmlStyle('body', 'body { font-family: Arial, sans-serif; margin: 2em; }');
+$styleTable = new HtmlStyle('table', '.showcase-table { border-collapse: collapse; width: 60%; margin-bottom: 2em; } .showcase-table th, .showcase-table td { border: 1px solid #888; padding: 0.5em 1em; } .showcase-table th { background: #eee; }');
+$styleBtn = new HtmlStyle('btn', '.btn { padding: 0.5em 1em; border: none; border-radius: 3px; cursor: pointer; } .btn-primary { background: #007bff; color: #fff; } .btn-secondary { background: #6c757d; color: #fff; }');
+$head->addNested($meta)
+     ->addNested($title)
+     ->addNested($link)
+     ->addNested($styleBody)
+     ->addNested($styleTable)
+     ->addNested($styleBtn)
+     ->addNested($scriptExternal)
+     ->addNested($scriptInline);
+
+?><!DOCTYPE html>
+<html lang="en">
+    <?php echo $head->getHtml(); ?>
+
+    <?
+    $h1_1 = new HtmlHeading1(new HtmlString('HTML Library Showcase'));
+    $body->addNested($h1_1);
+
+    $h2_1 = new HtmlHeading2(new HtmlString('Headers'));
+    $body->addNested($h2_1);
+    $h1_2 = new HtmlHeading1(new HtmlString('Header Level 1 (HtmlHeading1)'));
+    $body->addNested($h1_2);
+    $h2_2 = new HtmlHeading2(new HtmlString('Header Level 2 (HtmlHeading2)'));
+    $body->addNested($h2_2);
+    $h3_2 = new HtmlHeading3(new HtmlString('Header Level 3 (HtmlHeading3)'));
+    $body->addNested($h3_2);
+    $h4_2 = new HtmlHeading4(new HtmlString('Header Level 4 (HtmlHeading4)'));
+    $body->addNested($h4_2);
+    $h5_2 = new HtmlHeading5(new HtmlString('Header Level 5 (HtmlHeading5)'));
+    $body->addNested($h5_2);
+    $h6_2 = new HtmlHeading6(new HtmlString('Header Level 6 (HtmlHeading6)'));
+    $body->addNested($h6_2);
+
+    $h2_3 = new HtmlHeading2(new HtmlString('Buttons'));
+    $body->addNested($h2_3);
+    $button1 = new HtmlButton(new HtmlString('Primary Button'));
+    $button1->addCSSClass('btn')->addCSSClass('btn-primary')->setAttribute('onclick', 'showAlert(\'Primary Button Clicked!\')');
+    $body->addNested($button1);
+
+    $button2 = new HtmlInputButton('button', new HtmlString('Secondary InputButton'));
+    $button2->addCSSClass('btn')->addCSSClass('btn-secondary')->setAttribute('onclick', 'showAlert(\'Secondary InputButton Clicked!\')');
+    $body->addNested($button2);
+    // FA Buttons
+
+    $body->addNested(new ViewLoanActionButton('View'));
+    $body->addNested(new EditTypeActionButton('Edit Type'));
+    $body->addNested(new EditLoanActionButton('Edit Loan'));
+    $body->addNested(new EditFrequencyActionButton('Edit Frequency'));
+    $body->addNested(new DeleteTypeActionButton('Delete Type'));
+    $body->addNested(new DeleteFrequencyActionButton('Delete Frequency'));
+    
+
+    $h2_4 = new HtmlHeading2(new HtmlString('Table'));
+    $body->addNested($h2_4);
     $row1 = new HtmlTableRow(new HtmlString(''));
     $row1->addNested(new HtmlTableHeaderCell(new HtmlString('Name')))->addNested(new HtmlTableHeaderCell(new HtmlString('Value')));
     $row2 = new HtmlTableRow(new HtmlString(''));
@@ -75,16 +118,10 @@ use Ksfraser\HTML\Elements\HtmlForm;
     $row3->addNested(new HtmlTableRowCell(new HtmlString('Row 2')))->addNested(new HtmlTableRowCell(new HtmlString('Value 2')));
     $table = new HtmlTable(new HtmlString(''));
     $table->addNested($row1)->addNested($row2)->addNested($row3)->addCSSClass('showcase-table');
-    echo $table->getHtml();
-    ?>
+    $body->addNested($table);
 
-
-    <h2>Form</h2>
-    <?php
-    use Ksfraser\HTML\Elements\HtmlInput;
-    use Ksfraser\HTML\Elements\HtmlSelect;
-    use Ksfraser\HTML\Attributes\HtmlNameValue;
-    use Ksfraser\HTML\Elements\HtmlOption;
+    $h2_5 = new HtmlHeading2(new HtmlString('Form'));
+    $body->addNested($h2_5);
     $form = new HtmlForm(new HtmlString(''));
     $form->setMethod('post')->setAction('/submit')->setId('demoForm')->addCSSClass('showcase-form');
     $input = new HtmlInput(new HtmlString(''), 'text');
@@ -94,32 +131,44 @@ use Ksfraser\HTML\Elements\HtmlForm;
     $submit = new HtmlButton(new HtmlString('Submit'));
     $submit->addCSSClass('btn')->addCSSClass('btn-primary')->setAttribute('type', 'submit');
     $form->append($input, $select, $submit);
-    echo $form->getHtml();
-    ?>
+    $body->addNested($form);
 
 
-    <h2>Custom CSS, Div, and JS</h2>
-    <?php
+
+    $h2_6 = new HtmlHeading2(new HtmlString('Custom CSS, Div, and JS'));
+    $body->addNested($h2_6);
     use Ksfraser\HTML\Elements\HtmlDiv;
     $div1 = new HtmlDiv(new HtmlString('This is a div with custom CSS.'));
     $div1->addCSSClass('btn-primary')->setAttribute('style', 'padding:1em; color:white; background:#007bff; margin-bottom:1em;');
-    echo $div1->getHtml();
+    $body->addNested($div1);
     $div2 = new HtmlDiv(new HtmlString('This is a secondary styled div.'));
     $div2->addCSSClass('btn-secondary')->setAttribute('style', 'padding:1em; color:white; background:#6c757d;');
-    echo $div2->getHtml();
-    ?>
-    <p>This page uses <code>modal.css</code> and <code>report-viewer.js</code> from the assets directory.</p>
-</p>
+    $body->addNested($div2);
+    $p = new HtmlParagraph(new HtmlString('This page uses <code>modal.css</code> and <code>report-viewer.js</code> from the assets directory.'));
+    $body->addNested($p);
 
-    <h2>Links</h2>
-    <?php
+    $h2_7 = new HtmlHeading2(new HtmlString('Links & Action Links'));
+    $body->addNested($h2_7);
     use Ksfraser\HTML\Elements\HtmlA;
     use Ksfraser\HTML\Elements\HtmlEmail;
-    $link = new HtmlA(new HtmlString('Visit Example'), 'https://example.com');
+    $link = new HtmlA(new HtmlString('Visit Example'));
     $link->addCSSClass('btn')->addCSSClass('btn-primary');
-    echo $link->getHtml();
-    $email = new HtmlEmail(new HtmlString('Email Us'), 'info@example.com');
-    echo $email->getHtml();
+    $body->addNested($link);
+    $email = new HtmlEmail(new HtmlString('Email Us'));
+    $body->addNested($email);
+    // Action Links
+    use Ksfraser\HTML\Factory\ViewLink;
+    use Ksfraser\HTML\Factory\ListLink;
+    use Ksfraser\HTML\Factory\EditLink;
+    use Ksfraser\HTML\Factory\DeleteLink;
+    use Ksfraser\HTML\Factory\CreateLink;
+    use Ksfraser\HTML\Factory\AddLink;
+    $body->addNested((new ViewLink('View'))->getHtml());
+    $body->addNested((new ListLink('List'))->getHtml());
+    $body->addNested((new EditLink('Edit'))->getHtml());
+    $body->addNested((new DeleteLink('Delete'))->getHtml());
+    $body->addNested((new CreateLink('Create'))->getHtml());
+    $body->addNested((new AddLink('Add'))->getHtml());
     ?>
 
     <h2>Formatting</h2>
@@ -155,10 +204,23 @@ use Ksfraser\HTML\Elements\HtmlForm;
     echo $ol->getHtml();
     ?>
 
+    <h2>Table Rows</h2>
+    <?php
+    use Ksfraser\HTML\Rows\LoanTypeTableRow;
+    use Ksfraser\HTML\Rows\LoanSummaryTableRow;
+    use Ksfraser\HTML\Rows\InterestFreqTableRow;
+    // Provide sample data objects for each row builder
+    $loanType = (object)[ 'id' => 1, 'name' => 'Fixed', 'description' => 'Fixed Rate Loan' ];
+    $loanSummary = (object)[ 'id' => 101, 'summary' => 'Loan Summary', 'details' => 'Details about the loan' ];
+    $interestFreq = (object)[ 'id' => 201, 'frequency' => 'Monthly' ];
+    echo (new LoanTypeTableRow())->build($loanType)->getHtml();
+    echo (new LoanSummaryTableRow())->build($loanSummary)->getHtml();
+    echo (new InterestFreqTableRow())->build($interestFreq)->getHtml();
+    ?>
     <h2>Images</h2>
     <?php
     use Ksfraser\HTML\Elements\HtmlImg;
-    $img = new HtmlImg(new HtmlString(''), 'https://via.placeholder.com/100');
+    $img = new HtmlImg(new HtmlString(''));
     $img->setAttribute('alt', 'Placeholder Image')->setAttribute('style', 'margin:1em 0;');
     echo $img->getHtml();
     ?>
@@ -220,10 +282,17 @@ use Ksfraser\HTML\Elements\HtmlForm;
         <?php
         use Ksfraser\HTML\Elements\HtmlScript;
         use Ksfraser\HTML\Elements\HtmlStyle;
-        $script = new HtmlScript(null, 'console.log("Hello from HtmlScript!");');
+        $script = new HtmlScript(null, new \Ksfraser\HTML\Javascript\HtmlJSString(new \Ksfraser\HTML\Elements\HtmlString('console.log("Hello from HtmlScript!");')));
         $style = new HtmlStyle('test', 'body { background: #f9f9f9; }');
         echo $script->getHtml();
         echo $style->getHtml();
+        // Script Language Examples
+        use Ksfraser\HTML\Json\HtmlJsonString;
+        use Ksfraser\HTML\Typescript\HtmlTypeScriptString;
+        use Ksfraser\HTML\VBScript\HtmlVBScriptString;
+        echo (new HtmlScript(null, new HtmlJsonString(new HtmlString('{"key": "value"}'))))->getHtml();
+        echo (new HtmlScript(null, new HtmlTypeScriptString(new HtmlString('let x: number = 5;'))))->getHtml();
+        echo (new HtmlScript(null, new HtmlVBScriptString(new HtmlString('MsgBox "Hello VBScript!"'))))->getHtml();
         ?>
 
         <h2>Span, Paragraph, and Raw HTML</h2>
@@ -242,11 +311,11 @@ use Ksfraser\HTML\Elements\HtmlForm;
         <h2>Attribute Value Objects</h2>
         <?php
         use Ksfraser\HTML\Attributes\HtmlStyleList;
-        $styleList = new HtmlStyleList();
+        $styleList = new Ksfraser\HTML\Attributes\HtmlStyleList();
         $styleList->addAttribute(new Ksfraser\HTML\Elements\HtmlStyle('color', 'red'));
         $styleList->addAttribute(new Ksfraser\HTML\Elements\HtmlStyle('font-weight', 'bold'));
         $divStyled = new Ksfraser\HTML\Elements\HtmlDiv(new Ksfraser\HTML\Elements\HtmlString('Styled with daisy-chained HtmlStyleList'));
-        $divStyled->setAttribute('style', $styleList->getAttributeValueString());
+        $divStyled->setAttribute('style', $styleList->getStyleString());
         echo $divStyled->getHtml();
         ?>
 

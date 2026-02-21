@@ -104,7 +104,7 @@ class Div {
      * @param string $value Attribute value
      * @return self Fluent interface
      */
-    public function setAttribute(string $name, string $value): self {
+    public function setAttribute(string $name, $value): self {
 		$this->element->setAttribute($name, $value);
         return $this;
     }

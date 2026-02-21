@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlFigcaption;
+use Ksfraser\HTML\Elements\HtmlFigcaption;
 
 class HtmlFigcaptionTest extends TestCase {
     public function testGetHtml() {

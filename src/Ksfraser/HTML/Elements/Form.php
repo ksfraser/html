@@ -12,6 +12,7 @@ use Ksfraser\HTML\HtmlAttribute;
  * - (new Form())->setMethod('post')->setAction('/submit')->append($field1, $field2)->render()
  * 
  * @package Ksfraser\HTML\Elements
+ */ 
 class Form {
     private $form;
 
@@ -35,11 +36,6 @@ class Form {
         return $this->form->getHtml();
     }
 
-    public function render(): string {
-        return $this->getHtml();
-    }
-}
-    }
     
     /**
      * Render the form to HTML string

@@ -1,7 +1,7 @@
 <?php
 namespace Ksfraser\HTML\FAButtons;
 
-use Ksfraser\HTML\Elements\Button;
+use Ksfraser\HTML\Button\Button;
 
 /**
  * DeleteTypeActionButton - Encapsulates delete button for loan type rows
@@ -24,5 +24,6 @@ class DeleteTypeActionButton extends Button {
             ->addClass('btn-small btn-delete')
             ->setText('Delete')
             ->setAttribute('onclick', 'window.loanTypeHandler && window.loanTypeHandler.delete(' . intval($typeId ?? 0) . ')');
+            return $this;
     }
 }

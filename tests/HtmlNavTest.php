@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlNav;
+use Ksfraser\HTML\Elements\HtmlNav;
 
 class HtmlNavTest extends TestCase {
     public function testGetHtml() {

@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlSpanFormatting;
+use Ksfraser\HTML\Formatting\HtmlSpanFormatting;
 
 class HtmlSpanFormattingTest extends TestCase {
     public function testGetHtml() {

@@ -21,8 +21,6 @@ abstract class BaseTableCell {
     /**
      * @var array Custom attributes (data-*, aria-*, etc)
      */
-    protected $attributes = [];
-    
     /**
      * @var string Optional ondblclick handler for spreadsheet editing
      */
@@ -51,7 +49,7 @@ abstract class BaseTableCell {
      * @param string $value Attribute value
      * @return self
      */
-    public function setAttribute(string $name, string $value): self {
+    public function setAttribute(string $name, $value): self {
         $this->attributes[$name] = $value;
         return $this;
     }

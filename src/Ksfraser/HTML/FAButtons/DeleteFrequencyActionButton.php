@@ -1,7 +1,7 @@
 <?php
 namespace Ksfraser\HTML\FAButtons;
 
-use Ksfraser\HTML\Elements\Button;
+use Ksfraser\HTML\Button\Button;
 
 /**
  * DeleteFrequencyActionButton - Encapsulates delete button for frequency rows
@@ -24,5 +24,6 @@ class DeleteFrequencyActionButton extends Button {
             ->addClass('btn-small btn-delete')
             ->setText('Delete')
             ->setAttribute('onclick', 'window.interestFreqHandler && window.interestFreqHandler.delete(' . intval($freqId ?? 0) . ')');
+            return $this;
     }
 }

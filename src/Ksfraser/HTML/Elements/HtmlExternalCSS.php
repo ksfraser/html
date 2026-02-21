@@ -16,7 +16,7 @@ use Ksfraser\HTML\HtmlString;
  * 
  * @package Ksfraser\HTML\Elements
  */
-class Stylesheet extends HtmlElement
+class HtmlExternalCSS extends HtmlLink
 {
     /**
      * Constructor
@@ -25,10 +25,7 @@ class Stylesheet extends HtmlElement
      */
     public function __construct()
     {
-        // Initialize with empty HtmlString (link element has no content)
-        parent::__construct(new HtmlString(''));
-        $this->tag = 'link';
-        $this->empty = true;  // <link> is self-closing
+        parent::__construct();
     }
     
     /**
@@ -43,7 +40,7 @@ class Stylesheet extends HtmlElement
     {
         // Encode URL for HTML attribute context
         $encodedUrl = htmlspecialchars($url, ENT_QUOTES, 'UTF-8');
-        $this->addAttribute(new HtmlAttribute('href', $encodedUrl));
+        $this->addAttributeObject(new HtmlAttribute('href', $encodedUrl));
         return $this;
     }
     
@@ -55,6 +52,6 @@ class Stylesheet extends HtmlElement
      */
     public function setRel(string $rel = 'stylesheet'): self
     {
-        $this->addAttribute(new HtmlAttribute('rel', $rel));
-        return $this;
+        return parent::setRel($rel);
     }
+}

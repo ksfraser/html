@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlFooter;
+use Ksfraser\HTML\Elements\HtmlFooter;
 
 class HtmlFooterTest extends TestCase {
     public function testGetHtml() {

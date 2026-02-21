@@ -18,4 +18,16 @@ abstract class HtmlScriptLanguage extends HtmlElement implements HtmlElementInte
         }
         parent::__construct($content);
     }
+    
+        /**
+         * Returns the concatenated HTML of all nested elements.
+         */
+        public function getHtml(): string
+        {
+            $html = '';
+            foreach ($this->nested as $child) {
+                $html .= $child->getHtml();
+            }
+            return $html;
+        }
 }

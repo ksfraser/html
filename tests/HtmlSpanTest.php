@@ -4,7 +4,7 @@ use Ksfraser\HTML\Elements\HtmlSpan;
 
 class HtmlSpanTest extends TestCase {
     public function testInstance() {
-        $span = new HtmlSpan('content');
+        $span = new HtmlSpan(new \Ksfraser\HTML\Elements\HtmlString('content'));
         $this->assertInstanceOf(HtmlSpan::class, $span);
     }
 

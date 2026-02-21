@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlTime;
+use Ksfraser\HTML\Elements\HtmlTime;
 
 class HtmlTimeTest extends TestCase {
     public function testGetHtml() {

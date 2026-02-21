@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlCite;
+use Ksfraser\HTML\Formatting\HtmlCite;
 
 class HtmlCiteTest extends TestCase {
     public function testGetHtml() {

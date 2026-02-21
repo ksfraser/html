@@ -58,12 +58,11 @@ class TableBuilder
      */
     public static function createHeaderRow(array $headers)
     {
-        $row = new HtmlTableRow();
+        $row = new HtmlTableRow(new HtmlString(''));
         
         foreach ($headers as $headerText) {
-            $cell = (new HtmlTableHeaderCell())
-                ->setText((string)$headerText);
-            $row->appendChild($cell);
+            $cell = new HtmlTableHeaderCell(new HtmlString($headerText));
+            $row->append($cell);
         }
         
         return $row;
@@ -87,12 +86,11 @@ class TableBuilder
      */
     public static function createDataRow(array $cells)
     {
-        $row = new HtmlTableRow();
+        $row = new HtmlTableRow(new HtmlString(''));
         
         foreach ($cells as $cellValue) {
-            $cell = (new HtmlTableRowCell())
-                ->setText((string)$cellValue);
-            $row->appendChild($cell);
+            $cell = new HtmlTableRowCell(new HtmlString($cellValue));
+            $row->append($cell);
         }
         
         return $row;
@@ -111,23 +109,14 @@ class TableBuilder
      */
     public function buildHeaderRow(array $headers, $escapeHtml = true, $headerClass = null)
     {
-        $row = new HtmlTableRow();
+        $row = new HtmlTableRow(new HtmlString(''));
         
         foreach ($headers as $headerText) {
-            $cell = (new HtmlTableHeaderCell());
-            
-            if ($escapeHtml) {
-                $cell->setText((string)$headerText);
-            } else {
-                // For HTML content, use raw text
-                $cell->setText((string)$headerText);
-            }
-            
+            $cell = new HtmlTableHeaderCell(new HtmlString($headerText));
             if ($headerClass) {
                 $cell->addAttribute('class', $headerClass);
             }
-            
-            $row->appendChild($cell);
+            $row->append($cell);
         }
         
         return $row;
@@ -146,23 +135,14 @@ class TableBuilder
      */
     public function buildDataRow(array $cells, $escapeHtml = true, $cellClass = null)
     {
-        $row = new HtmlTableRow();
+        $row = new HtmlTableRow(new HtmlString(''));
         
         foreach ($cells as $cellValue) {
-            $cell = (new HtmlTableRowCell());
-            
-            if ($escapeHtml) {
-                $cell->setText((string)$cellValue);
-            } else {
-                // For HTML content
-                $cell->setText((string)$cellValue);
-            }
-            
+            $cell = new HtmlTableRowCell(new HtmlString($cellValue));
             if ($cellClass) {
                 $cell->addAttribute('class', $cellClass);
             }
-            
-            $row->appendChild($cell);
+            $row->append($cell);
         }
         
         return $row;
@@ -187,18 +167,14 @@ class TableBuilder
      */
     public function buildStyledHeaderRow(array $headers, array $cellAttrs = [])
     {
-        $row = new HtmlTableRow();
+        $row = new HtmlTableRow(new HtmlString(''));
         
         foreach ($headers as $headerText) {
-            $cell = (new HtmlTableHeaderCell())
-                ->setText((string)$headerText);
-            
-            // Apply cell attributes
+            $cell = new HtmlTableHeaderCell(new HtmlString($headerText));
             foreach ($cellAttrs as $attrName => $attrValue) {
                 $cell->addAttribute($attrName, $attrValue);
             }
-            
-            $row->appendChild($cell);
+            $row->append($cell);
         }
         
         return $row;

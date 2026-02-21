@@ -12,5 +12,5 @@ use Ksfraser\HTML\HtmlScriptLanguage;
  */
 class HtmlJSString extends HtmlScriptLanguage
 {
-    // No additional implementation; semantic distinction only.
+    // Inherits getHtml() from HtmlScriptLanguage
 }

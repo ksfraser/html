@@ -3,7 +3,7 @@
 namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlElement;
-use Ksfraser\HTML\Elements\HtmlElementInterface;
+use Ksfraser\HTML\HtmlElementInterface;
 
 /**
  * HtmlAside

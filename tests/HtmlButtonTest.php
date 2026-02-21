@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\Elements\HtmlButton;
+use Ksfraser\HTML\Button\HtmlButton;
 
 class HtmlButtonTest extends TestCase {
     public function testInstance() {

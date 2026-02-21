@@ -7,8 +7,8 @@ use Ksfraser\HTML\Elements\Div;
 use Ksfraser\HTML\Cells\IdTypeTableCell;
 use Ksfraser\HTML\Cells\EditableTypeNameCell;
 use Ksfraser\HTML\Cells\EditableTypeDescriptionCell;
-use Ksfraser\HTML\Buttons\EditTypeActionButton;
-use Ksfraser\HTML\Buttons\DeleteTypeActionButton;
+use Ksfraser\HTML\FAButtons\EditTypeActionButton;
+use Ksfraser\HTML\FAButtons\DeleteTypeActionButton;
 
 /**
  * LoanTypeTableRow - Builds loan type table rows

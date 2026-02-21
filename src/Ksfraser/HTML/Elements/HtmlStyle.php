@@ -23,7 +23,11 @@ class HtmlStyle extends HtmlAttribute
 {
 	function getHtml(): string
 	{
-		$html = $this->attribute . ':' . $this->value . ';';
-		return $html;
+		// If value already contains quotes, avoid double quoting
+		if (strpos($this->value, '"') !== false || strpos($this->value, 'style=') !== false) {
+			return parent::getHtml();
+		}
+		// Otherwise, render as CSS property:value;
+		return $this->attribute . ':' . $this->value . ';';
 	}
 }

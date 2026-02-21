@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlDd;
+use Ksfraser\HTML\Elements\HtmlDd;
 
 class HtmlDdTest extends TestCase {
     public function testGetHtml() {

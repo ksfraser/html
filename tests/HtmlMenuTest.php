@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlMenu;
+use Ksfraser\HTML\Elements\HtmlMenu;
 
 class HtmlMenuTest extends TestCase {
     public function testGetHtml() {

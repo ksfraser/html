@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlParagraphFormatting;
+use Ksfraser\HTML\Formatting\HtmlParagraphFormatting;
 
 class HtmlParagraphFormattingTest extends TestCase {
     public function testGetHtml() {

@@ -7,8 +7,8 @@ use Ksfraser\HTML\Elements\Div;
 use Ksfraser\HTML\Cells\IdFrequencyTableCell;
 use Ksfraser\HTML\Cells\EditableFrequencyNameCell;
 use Ksfraser\HTML\Cells\EditableFrequencyDescriptionCell;
-use Ksfraser\HTML\Buttons\EditFrequencyActionButton;
-use Ksfraser\HTML\Buttons\DeleteFrequencyActionButton;
+use Ksfraser\HTML\FAButtons\EditFrequencyActionButton;
+use Ksfraser\HTML\FAButtons\DeleteFrequencyActionButton;
 
 /**
  * InterestFreqTableRow - Builds interest frequency table rows

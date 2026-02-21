@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlBlock;
+use Ksfraser\HTML\Elements\HtmlBlock;
 
 class HtmlBlockTest extends TestCase {
     public function testGetHtml() {

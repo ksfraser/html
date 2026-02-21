@@ -11,7 +11,7 @@ class HtmlMarkTest extends TestCase {
 
     public function testTagIsMark() {
         $mark = new HtmlMark(new HtmlString('marked text'));
-        $this->assertEquals('mark', $mark->tag);
+        $this->assertEquals('mark', $mark->getTag());
     }
 
     public function testToStringReturnsExpectedHtml() {

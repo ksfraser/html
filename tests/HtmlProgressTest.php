@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlProgress;
+use Ksfraser\HTML\Elements\HtmlProgress;
 
 class HtmlProgressTest extends TestCase {
     public function testGetHtml() {

@@ -15,78 +15,59 @@ use Ksfraser\HTML\HtmlAttribute;
 */
 class HtmlLink extends HtmlElement
 {
-	//can have styles, title
-	function __construct( ?HtmlElementInterface $data = null )
+	/**
+	 * HtmlLink: Represents a <link> tag for external resources (CSS, icons, etc.)
+	 * Generates: <link rel="..." href="...">
+	 */
+	public function __construct()
 	{
-		parent::__construct( $data ?? new HtmlString( "" ) );
-		$this->tag = "a";
+		parent::__construct(new HtmlString(''));
+		$this->tag = 'link';
+		$this->empty = true; // <link> is self-closing
 	}
 
 	/**
 	 * Set href attribute
-	 *
 	 * @param string $url
 	 * @return self
 	 */
-	public function setHref( string $url ): self
+	public function setHref(string $url): self
 	{
-		$this->setAttribute( 'href', $url );
+		$encodedUrl = htmlspecialchars($url, ENT_QUOTES, 'UTF-8');
+		$this->addAttributeObject(new HtmlAttribute('href', $encodedUrl));
 		return $this;
 	}
 
 	/**
-	 * Set link text (replaces nested content)
-	 *
-	 * @param string $text
+	 * Set rel attribute
+	 * @param string $rel
 	 * @return self
 	 */
-	public function setText( string $text ): self
+	public function setRel(string $rel): self
 	{
-		$this->nested = array( new HtmlString( $text ) );
+		$this->addAttributeObject(new HtmlAttribute('rel', $rel));
 		return $this;
 	}
 
 	/**
-	 * Set link content (replaces nested content)
-	 *
-	 * @param HtmlElementInterface $content
+	 * Set type attribute
+	 * @param string $type
 	 * @return self
 	 */
-	public function setContent( HtmlElementInterface $content ): self
+	public function setType(string $type): self
 	{
-		$this->nested = array( $content );
-		return $this;
-	}
-	function addHref( $url, $text = "" )
-	{
-		$this->setHref( (string)$url );
-		if( $text instanceof HtmlElementInterface )
-		{
-			$this->setContent( $text );
-			return;
-		}
-		if( is_string( $text ) && strlen( $text ) > 0 )
-		{
-			$this->setText( $text );
-			return;
-		}
-		throw new \InvalidArgumentException( "An invalid HREF was passed in!" );
-	}
-	function setTarget( $target )
-	{
-		//Target can be _self, _blank, _parent, _top
-		switch( $target )
-		{
-			case '_self':
-			case '_blank':
-			case '_parent':
-			case '_top':
-				$this->setAttribute( "target", (string)$target );
-				break;
-			default:
-				throw new \InvalidArgumentException( "Target type not recognized: $target" );
-		}
+		$this->addAttributeObject(new HtmlAttribute('type', $type));
 		return $this;
 	}
 
+	/**
+	 * Set media attribute
+	 * @param string $media
+	 * @return self
+	 */
+	public function setMedia(string $media): self
+	{
+		$this->addAttributeObject(new HtmlAttribute('media', $media));
+		return $this;
+	}
 }

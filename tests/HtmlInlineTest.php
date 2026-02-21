@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlInline;
+use Ksfraser\HTML\Elements\HtmlInline;
 use Ksfraser\HTML\HtmlElementInterface;
 
 class HtmlInlineTest extends TestCase {

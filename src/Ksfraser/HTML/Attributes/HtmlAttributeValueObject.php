@@ -37,7 +37,7 @@ abstract class HtmlAttributeValueObject implements HtmlElementInterface
      * @param object $item
      * @return void
      */
-    public function addAttribute($item): void
+    public function addAttributeValueObject(object $item): void
     {
         $this->attributeArray[] = $item;
     }
@@ -47,19 +47,16 @@ abstract class HtmlAttributeValueObject implements HtmlElementInterface
      * @param object $item
      * @return void
      */
-    public function setAttribute($item): void
+    public function setAttributeValueObject(object $item): void
     {
-        if (!method_exists($item, 'getName')) {
-            throw new \InvalidArgumentException("Item must have getName() method.");
-        }
         $name = $item->getName();
         foreach ($this->attributeArray as $idx => $existing) {
-            if (method_exists($existing, 'getName') && $existing->getName() === $name) {
+            if ($existing->getName() === $name) {
                 $this->attributeArray[$idx] = $item;
                 return;
             }
         }
-        $this->addAttribute($item);
+        $this->addAttributeValueObject($item);
     }
 
     /**

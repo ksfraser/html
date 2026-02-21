@@ -6,7 +6,7 @@ namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlElementInterface;
 use Ksfraser\HTML\HtmlAttribute;
-use Ksfraser\HTML\HtmlAttributeList;
+use Ksfraser\HTML\HtmlElement;
 
 /**
  * HtmlOption
@@ -47,60 +47,46 @@ use Ksfraser\HTML\HtmlAttributeList;
  * @since      20251020
  * @version    1.0.0
  */
-class HtmlOption implements HtmlElementInterface
+class HtmlOption extends HtmlElement
 {
     /**
      * @var string The option value
      */
-    private string $value;
+    private $value;
 
     /**
      * @var string The option label (visible text)
      */
-    private string $label;
+    private $label;
 
     /**
      * @var bool Whether this option is selected
      */
-    private bool $selected;
+    private $selected;
 
     /**
      * @var HtmlAttributeList List of HTML attributes
      */
-    private HtmlAttributeList $attributes;
 
     /**
      * Constructor
      *
-     * @param string $value    The option value
-     * @param string $label    The option label (visible text)
+     * @param HtmlElementInterface|string $value    The option value
+     * @param HtmlElementInterface|string $label    The option label (visible text)
      * @param bool   $selected Whether this option is selected (default: false)
      *
      * @since 20251020
      */
-    public function __construct(string $value, string $label, bool $selected = false)
+    public function __construct($value, $label, bool $selected = false)
     {
-        $this->value = $value;
-        $this->label = $label;
+        parent::__construct();
+        $this->value = $value instanceof HtmlElementInterface ? $value->getHtml() : (string)$value;
+        $this->label = $label instanceof HtmlElementInterface ? $label->getHtml() : (string)$label;
         $this->selected = $selected;
-        $this->attributes = new HtmlAttributeList();
+        $this->setTag('option');
     }
 
-    /**
-     * Add an HTML attribute
-     *
-     * @param string $name  Attribute name
-     * @param string $value Attribute value
-     *
-     * @return self For fluent interface
-     *
-     * @since 20251020
-     */
-    public function setAttribute(string $name, string $value): self
-    {
-        $this->attributes->addAttribute(new HtmlAttribute($name, $value));
-        return $this;
-    }
+    // ...existing code...
 
     /**
      * Get the option value
@@ -173,7 +159,7 @@ class HtmlOption implements HtmlElementInterface
         }
 
         // Add custom attributes
-        $attributesHtml = $this->attributes->getHtml();
+        $attributesHtml = $this->attributeList->getHtml();
         if ($attributesHtml !== '') {
             $html .= ' ' . $attributesHtml;
         }

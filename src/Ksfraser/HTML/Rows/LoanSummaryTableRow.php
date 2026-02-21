@@ -8,8 +8,8 @@ use Ksfraser\HTML\Cells\IdLoanTableCell;
 use Ksfraser\HTML\Cells\EditableLoanBorrowerCell;
 use Ksfraser\HTML\Cells\EditableLoanAmountCell;
 use Ksfraser\HTML\Cells\EditableLoanStatusCell;
-use Ksfraser\HTML\Buttons\ViewLoanActionButton;
-use Ksfraser\HTML\Buttons\EditLoanActionButton;
+use Ksfraser\HTML\FAButtons\ViewLoanActionButton;
+use Ksfraser\HTML\FAButtons\EditLoanActionButton;
 
 /**
  * LoanSummaryTableRow - Builds loan summary table rows

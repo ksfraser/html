@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlBlockquote;
+use Ksfraser\HTML\Elements\HtmlBlockquote;
 
 class HtmlBlockquoteTest extends TestCase {
     public function testGetHtml() {

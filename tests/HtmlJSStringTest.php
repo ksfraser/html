@@ -4,7 +4,7 @@ use Ksfraser\HTML\Javascript\HtmlJSString;
 
 class HtmlJSStringTest extends TestCase {
     public function testHtmlJSStringEscapesContent() {
-        $js = new HtmlJSString('console.log("<script>");');
+        $js = new HtmlJSString(new \Ksfraser\HTML\Elements\HtmlString('console.log("<script>");'));
         $html = $js->getHtml();
         $this->assertStringContainsString('console.log', $html);
         $this->assertStringNotContainsString('<script>', $html); // Should be escaped

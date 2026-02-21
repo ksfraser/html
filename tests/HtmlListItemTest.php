@@ -27,7 +27,7 @@ class HtmlListItemTest extends TestCase {
     public function testTagIsLi() {
         $dummy = new DummyElement();
         $li = new HtmlListItem($dummy);
-        $this->assertEquals('li', $li->tag);
+        $this->assertEquals('li', $li->getTag());
     }
 
     public function testToStringReturnsExpectedHtml() {

@@ -1,10 +1,10 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\Elements\HtmlP;
+use Ksfraser\HTML\Formatting\HtmlP;
 
 class HtmlPTest extends TestCase {
     public function testInstance() {
-        $p = new HtmlP('paragraph text');
+        $p = new HtmlP(new \Ksfraser\HTML\Elements\HtmlString('paragraph text'));
         $this->assertInstanceOf(HtmlP::class, $p);
     }
 

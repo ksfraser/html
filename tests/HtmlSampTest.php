@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlSamp;
+use Ksfraser\HTML\Elements\HtmlSamp;
 
 class HtmlSampTest extends TestCase {
     public function testGetHtml() {

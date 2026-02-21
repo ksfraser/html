@@ -12,7 +12,7 @@ class HtmlAttributeListTest extends TestCase {
     public function testAddAndGetAttributes() {
         $list = new HtmlAttributeList();
         $attr = new \Ksfraser\HTML\HtmlAttribute('foo', 'bar');
-        $list->addAttribute($attr);
+        $list->addAttributeObject($attr);
         // Access protected property for test
         $reflection = new \ReflectionClass($list);
         $property = $reflection->getProperty('attributeArray');
@@ -25,8 +25,8 @@ class HtmlAttributeListTest extends TestCase {
         $list = new HtmlAttributeList();
         $attr1 = new \Ksfraser\HTML\HtmlAttribute('id', 'foo');
         $attr2 = new \Ksfraser\HTML\HtmlAttribute('class', 'bar');
-        $list->addAttribute($attr1);
-        $list->addAttribute($attr2);
+        $list->addAttributeObject($attr1);
+        $list->addAttributeObject($attr2);
         $html = $list->getHtml();
         $this->assertStringContainsString('id="foo"', $html);
         $this->assertStringContainsString('class="bar"', $html);
@@ -35,7 +35,7 @@ class HtmlAttributeListTest extends TestCase {
     public function testToHtmlOutputsAttributes() {
         $list = new HtmlAttributeList();
         $attr = new \Ksfraser\HTML\HtmlAttribute('data-x', 'y');
-        $list->addAttribute($attr);
+        $list->addAttributeObject($attr);
         ob_start();
         $list->toHtml();
         $output = ob_get_clean();
@@ -46,7 +46,7 @@ class HtmlAttributeListTest extends TestCase {
         $list = new HtmlAttributeList();
         $attr1 = new \Ksfraser\HTML\HtmlAttribute('id', 'foo');
         $attr2 = new \Ksfraser\HTML\HtmlAttribute('id', 'bar');
-        $list->addAttribute($attr1);
+        $list->addAttributeObject($attr1);
         $list->setAttribute($attr2);
         $reflection = new \ReflectionClass($list);
         $property = $reflection->getProperty('attributeArray');
@@ -59,7 +59,7 @@ class HtmlAttributeListTest extends TestCase {
     public function testGetAttributeValue() {
         $list = new HtmlAttributeList();
         $attr = new \Ksfraser\HTML\HtmlAttribute('data', 'val');
-        $list->addAttribute($attr);
+        $list->addAttributeObject($attr);
         $this->assertEquals('val', $list->getAttributeValue('data'));
         $this->assertNull($list->getAttributeValue('missing'));
     }

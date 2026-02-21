@@ -45,7 +45,7 @@ class Stylesheet extends HtmlEmptyElement
     {
         // Encode URL for HTML attribute context
         $encodedUrl = htmlspecialchars($url, ENT_QUOTES, 'UTF-8');
-        $this->addAttribute(new HtmlAttribute('href', $encodedUrl));
+        $this->addAttributeObject(new HtmlAttribute('href', $encodedUrl));
         return $this;
     }
 
@@ -57,7 +57,7 @@ class Stylesheet extends HtmlEmptyElement
      */
     public function setRel(string $rel = 'stylesheet'): self
     {
-        $this->addAttribute(new HtmlAttribute('rel', $rel));
+        $this->addAttributeObject(new HtmlAttribute('rel', $rel));
         return $this;
     }
 }

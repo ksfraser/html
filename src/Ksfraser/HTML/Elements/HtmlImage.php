@@ -17,30 +17,30 @@ class HtmlImage extends HtmlElement
 	}
 	function setSrc( $src )
 	{
-		$this->addAttribute( new HtmlAttribute( "src", $src ) );
+		$this->addAttributeObject( new \Ksfraser\HTML\HtmlAttribute( "src", $src ) );
 	}
 	function setAlt( $alt )
 	{
-		$this->addAttribute( new HtmlAttribute( "alt", $alt ) );
+		$this->addAttributeObject( new \Ksfraser\HTML\HtmlAttribute( "alt", $alt ) );
 	}
 	// Either attributes or STYLE can be used to set the size
 	//	However stylesheets can be used to change the size
 	//	except when we use STYLE (see set size below)
 	function setHeight( $height )
 	{
-		$this->addAttribute( new HtmlAttribute( "height", $height ) );
+		$this->addAttributeObject( new \Ksfraser\HTML\HtmlAttribute( "height", $height ) );
 	}
 	function setWidth( $width )
 	{
-		$this->addAttribute( new HtmlAttribute( "width", $width ) );
+		$this->addAttributeObject( new \Ksfraser\HTML\HtmlAttribute( "width", $width ) );
 	}
 	function setSize( int $width, int $height )
 	{
 			   $w = new HtmlStyle( "width", $width . "px" );
 			   $h = new HtmlStyle( "height", $height . "px" );
-			   $s = new HtmlStyleList();
+			   $s = new \Ksfraser\HTML\HtmlStyleList();
 			   $s->addStyle( $w );
 			   $s->addStyle( $h );
-			   $this->addAttribute( 'style', $s );
+			  $this->addAttribute('style', $s);
 	}
 }

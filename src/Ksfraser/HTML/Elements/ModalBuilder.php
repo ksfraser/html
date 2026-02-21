@@ -13,12 +13,12 @@ class ModalBuilder {
     /**
      * @var Modal The modal being built
      */
-    protected Modal $modal;
+    protected $modal;
     
     /**
      * @var ModalContent The modal content
      */
-    protected ModalContent $content;
+    protected $content;
     
     /**
      * Constructor
@@ -51,7 +51,7 @@ class ModalBuilder {
      * @return self
      */
     public function addParagraph(string $text): self {
-        $p = new HtmlParagraph(new HtmlString($text));
+        $p = new \Ksfraser\HTML\Formatting\HtmlParagraph(new HtmlString($text));
         $this->content->append($p);
         return $this;
     }
@@ -75,7 +75,7 @@ class ModalBuilder {
      * @return self
      */
     public function addCloseButton(string $text = 'Close', string $onclickHandler = 'closeModal()'): self {
-        $button = new CloseButton(new HtmlString($text));
+        $button = new \Ksfraser\HTML\Button\CloseButton(new HtmlString($text));
         $button->setOnclickFunction($onclickHandler);
 		$existing = $button->getAttributeValue('class') ?? '';
 		$button->setClass(trim('modal-close-btn ' . $existing));

@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlH1;
+use Ksfraser\HTML\Elements\HtmlH1;
 
 class HtmlH1Test extends TestCase {
     public function testGetHtml() {

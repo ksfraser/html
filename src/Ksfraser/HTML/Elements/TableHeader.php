@@ -47,7 +47,7 @@ class TableHeader {
         
         // Re-apply classes
         if (!empty($this->classes)) {
-            $this->element->addAttribute(new HtmlAttribute('class', implode(' ', $this->classes)));
+            $this->element->addAttribute('class', implode(' ', $this->classes));
         }
         
         return $this;
@@ -64,7 +64,7 @@ class TableHeader {
             $this->classes[] = $class;
         }
         if (!empty($this->classes)) {
-            $this->element->addAttribute(new HtmlAttribute('class', implode(' ', $this->classes)));
+            $this->element->addAttribute('class', implode(' ', $this->classes));
         }
         return $this;
     }
@@ -91,8 +91,8 @@ class TableHeader {
      * @param string $value Attribute value
      * @return self Fluent interface
      */
-    public function setAttribute(string $name, string $value): self {
-        $this->element->addAttribute(new HtmlAttribute($name, $value));
+    public function setAttribute(string $name, $value): self {
+        $this->element->addAttribute($name, $value);
         return $this;
     }
     

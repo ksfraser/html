@@ -10,5 +10,5 @@ use Ksfraser\HTML\HtmlScriptLanguage;
  * Extends HtmlScriptLanguage for clarity: use this when representing inline TypeScript content.
  */
 class HtmlTypeScriptString extends HtmlScriptLanguage {
-    // No additional implementation; semantic distinction only.
+    // Inherits getHtml() from HtmlScriptLanguage
 }

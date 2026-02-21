@@ -1,7 +1,7 @@
 <?php
 namespace Ksfraser\HTML\FAButtons;
 
-use Ksfraser\HTML\Elements\Button;
+use Ksfraser\HTML\Button\Button;
 
 /**
  * EditFrequencyActionButton - Encapsulates edit button for frequency rows
@@ -24,5 +24,6 @@ class EditFrequencyActionButton extends Button {
             ->addClass('btn-small btn-edit')
             ->setText('Edit')
             ->setAttribute('onclick', 'window.interestFreqHandler && window.interestFreqHandler.edit(' . intval($freqId ?? 0) . ')');
+            return $this;
     }
 }

@@ -1,7 +1,7 @@
 <?php
 namespace Ksfraser\HTML\FAButtons;
 
-use Ksfraser\HTML\Elements\Button;
+use Ksfraser\HTML\Button\Button;
 
 /**
  * EditTypeActionButton - Encapsulates edit button for loan type rows
@@ -24,5 +24,6 @@ class EditTypeActionButton extends Button {
             ->addClass('btn-small btn-edit')
             ->setText('Edit')
             ->setAttribute('onclick', 'window.loanTypeHandler && window.loanTypeHandler.edit(' . intval($typeId ?? 0) . ')');
+            return $this;
     }
 }

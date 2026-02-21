@@ -31,7 +31,7 @@ class Input {
         
         // Only add type if explicitly provided
         if ($type) {
-            $this->element->addAttribute(new HtmlAttribute('type', $type));
+            $this->element->addAttributeObject(new HtmlAttribute('type', $type));
         }
     }
     
@@ -51,7 +51,7 @@ class Input {
      * @return self Fluent interface
      */
     public function setType(string $type): self {
-        $this->element->addAttribute(new HtmlAttribute('type', $type));
+        $this->element->addAttributeObject(new HtmlAttribute('type', $type));
         return $this;
     }
     
@@ -62,7 +62,7 @@ class Input {
      * @return self Fluent interface
      */
     public function setName(string $name): self {
-        $this->element->addAttribute(new HtmlAttribute('name', $name));
+        $this->element->addAttributeObject(new HtmlAttribute('name', $name));
         return $this;
     }
     
@@ -73,7 +73,7 @@ class Input {
      * @return self Fluent interface
      */
     public function setValue(string $value): self {
-        $this->element->addAttribute(new HtmlAttribute('value', htmlspecialchars($value)));
+        $this->element->addAttributeObject(new HtmlAttribute('value', htmlspecialchars($value)));
         return $this;
     }
     
@@ -84,7 +84,7 @@ class Input {
      * @return self Fluent interface
      */
     public function setId(string $id): self {
-        $this->element->addAttribute(new HtmlAttribute('id', $id));
+        $this->element->addAttributeObject(new HtmlAttribute('id', $id));
         return $this;
     }
     
@@ -95,7 +95,7 @@ class Input {
      * @return self Fluent interface
      */
     public function setPlaceholder(string $placeholder): self {
-        $this->element->addAttribute(new HtmlAttribute('placeholder', htmlspecialchars($placeholder)));
+        $this->element->addAttributeObject(new HtmlAttribute('placeholder', htmlspecialchars($placeholder)));
         return $this;
     }
     
@@ -107,7 +107,7 @@ class Input {
      */
     public function setRequired(bool $required = true): self {
         if ($required) {
-            $this->element->addAttribute(new HtmlAttribute('required', 'required'));
+            $this->element->addAttributeObject(new HtmlAttribute('required', 'required'));
         }
         return $this;
     }
@@ -119,7 +119,7 @@ class Input {
      * @return self Fluent interface
      */
     public function setStep(string $step): self {
-        $this->element->addAttribute(new HtmlAttribute('step', $step));
+        $this->element->addAttributeObject(new HtmlAttribute('step', $step));
         return $this;
     }
     
@@ -130,7 +130,7 @@ class Input {
      * @return self Fluent interface
      */
     public function setMin(string $min): self {
-        $this->element->addAttribute(new HtmlAttribute('min', $min));
+        $this->element->addAttributeObject(new HtmlAttribute('min', $min));
         return $this;
     }
     
@@ -141,7 +141,7 @@ class Input {
      * @return self Fluent interface
      */
     public function setMax(string $max): self {
-        $this->element->addAttribute(new HtmlAttribute('max', $max));
+        $this->element->addAttributeObject(new HtmlAttribute('max', $max));
         return $this;
     }
     
@@ -152,8 +152,8 @@ class Input {
      * @param string $value Attribute value
      * @return self Fluent interface
      */
-    public function setAttribute(string $name, string $value): self {
-        $this->element->addAttribute(new HtmlAttribute($name, $value));
+    public function setAttribute(string $name, $value): self {
+        $this->element->addAttributeObject(new HtmlAttribute($name, $value));
         return $this;
     }
     

@@ -1,8 +1,8 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\Buttons\CloseButton;
-use Ksfraser\HTML\Buttons\SubmitButton;
+use Ksfraser\HTML\Button\CloseButton;
+use Ksfraser\HTML\Button\SubmitButton;
 use Ksfraser\HTML\Elements\HtmlString;
 
 class ButtonsTest extends TestCase
@@ -27,7 +27,7 @@ class ButtonsTest extends TestCase
     public function testCloseButtonSetOnclickFunction()
     {
         $button = new CloseButton();
-        $button->setOnclickFunction('closeMyModal()');
+        $button->setOnclick(new \Ksfraser\HTML\HtmlAttribute('onclick', 'closeMyModal()'));
         
         $html = $button->getHtml();
         $this->assertStringContainsString('onclick="closeMyModal()"', $html);
@@ -54,7 +54,7 @@ class ButtonsTest extends TestCase
     public function testSubmitButtonSetOnclickFunction()
     {
         $button = new SubmitButton();
-        $button->setOnclickFunction('return validateForm()');
+        $button->setOnclick(new \Ksfraser\HTML\HtmlAttribute('onclick', 'return validateForm()'));
         
         $html = $button->getHtml();
         $this->assertStringContainsString('onclick="return validateForm()"', $html);

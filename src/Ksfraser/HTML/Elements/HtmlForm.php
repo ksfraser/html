@@ -72,7 +72,7 @@ class HtmlForm extends HtmlElement
 		if (!in_array($methodLower, $valid, true)) {
 			throw new \InvalidArgumentException("Invalid form method: '$method'. Only 'get' and 'post' are allowed.");
 		}
-		$this->addAttribute(new \Ksfraser\HTML\HtmlAttribute('method', $methodLower));
+		$this->addAttributeObject(new \Ksfraser\HTML\HtmlAttribute('method', $methodLower));
 		return $this;
 	}
 
@@ -88,7 +88,7 @@ class HtmlForm extends HtmlElement
 		if (trim($action) === '') {
 			throw new \InvalidArgumentException("Invalid form action: must be a non-empty string.");
 		}
-		$this->addAttribute(new \Ksfraser\HTML\HtmlAttribute('action', htmlspecialchars($action)));
+		$this->addAttributeObject(new \Ksfraser\HTML\HtmlAttribute('action', htmlspecialchars($action)));
 		return $this;
 	}
 
@@ -104,7 +104,7 @@ class HtmlForm extends HtmlElement
 		if (!preg_match('/^[A-Za-z][A-Za-z0-9_-]*$/', $id)) {
 			throw new \InvalidArgumentException("Invalid form id: must start with a letter and contain only letters, digits, hyphens, or underscores.");
 		}
-		$this->addAttribute(new \Ksfraser\HTML\HtmlAttribute('id', $id));
+		$this->addAttributeObject(new \Ksfraser\HTML\HtmlAttribute('id', $id));
 		return $this;
 	}
 
@@ -122,18 +122,6 @@ class HtmlForm extends HtmlElement
 				$this->addNested($element->getHtmlElement());
 			}
 		}
-		return $this;
-	}
-
-	/**
-	 * Add an HTML attribute
-	 *
-	 * @param string $name Attribute name
-	 * @param string $value Attribute value
-	 * @return self Fluent interface
-	 */
-	public function setAttribute(string $name, string $value): self {
-		$this->addAttribute(new \Ksfraser\HTML\HtmlAttribute($name, $value));
 		return $this;
 	}
 

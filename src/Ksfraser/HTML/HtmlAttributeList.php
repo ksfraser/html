@@ -16,7 +16,7 @@ class HtmlAttributeList implements HtmlElementInterface
 		       {
 			       $this->attributeArray = array(); // Initialize array
 			       if ($attribute !== null) {
-				       $this->addAttribute($attribute);
+					   $this->addAttributeObject($attribute);
 			       }
 		       }
 	
@@ -26,7 +26,7 @@ class HtmlAttributeList implements HtmlElementInterface
 	 * @param HtmlAttribute $attribute Attribute to add
 	 * @return void
 	 */
-	       function addAttribute($attribute): void
+		function addAttributeObject($attribute): void
 	       {
 		       if (!($attribute instanceof HtmlAttribute)) {
 			       throw new \InvalidArgumentException("HtmlAttributeList only accepts HtmlAttribute objects.");
@@ -54,7 +54,7 @@ class HtmlAttributeList implements HtmlElementInterface
 				return;
 			}
 		}
-		$this->addAttribute( $attribute );
+		$this->addAttributeObject( $attribute );
 		return;
 	}
 

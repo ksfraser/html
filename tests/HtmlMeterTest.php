@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlMeter;
+use Ksfraser\HTML\Elements\HtmlMeter;
 
 class HtmlMeterTest extends TestCase {
     public function testGetHtml() {

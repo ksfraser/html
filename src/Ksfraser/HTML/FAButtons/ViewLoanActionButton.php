@@ -1,7 +1,7 @@
 <?php
 namespace Ksfraser\HTML\FAButtons;
 
-use Ksfraser\HTML\Elements\Button;
+use Ksfraser\HTML\Button\Button;
 
 /**
  * ViewLoanActionButton - Encapsulates view button for loan rows
@@ -24,5 +24,6 @@ class ViewLoanActionButton extends Button {
             ->addClass('btn-small btn-view')
             ->setText('View')
             ->setAttribute('onclick', 'window.loanHandler && window.loanHandler.view(' . intval($loanId ?? 0) . ')');
+            return $this;
     }
 }

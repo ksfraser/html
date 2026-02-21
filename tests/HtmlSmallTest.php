@@ -4,7 +4,7 @@ use Ksfraser\HTML\Elements\HtmlSmall;
 
 class HtmlSmallTest extends TestCase {
     public function testInstance() {
-        $small = new HtmlSmall('small text');
+        $small = new HtmlSmall(new \Ksfraser\HTML\Elements\HtmlString('small text'));
         $this->assertInstanceOf(HtmlSmall::class, $small);
     }
 

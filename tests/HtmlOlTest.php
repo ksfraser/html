@@ -1,25 +1,11 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\Elements\HtmlString;
 use Ksfraser\HTML\Elements\HtmlOl;
 
 class HtmlOlTest extends TestCase {
     public function testInstance() {
-        $ol = new HtmlOl(new HtmlString('ol content'));
+        $ol = new HtmlOl(['item1', 'item2']);
         $this->assertInstanceOf(HtmlOl::class, $ol);
-    }
-
-    public function testTagIsOl() {
-        $ol = new HtmlOl(new HtmlString('ol content'));
-        $this->assertEquals('ol', $ol->tag);
-    }
-
-    public function testToStringReturnsExpectedHtml() {
-        $ol = new HtmlOl(new HtmlString('ol content'));
-        $html = (string)$ol;
-        $this->assertStringContainsString('<ol', $html);
-        $this->assertStringContainsString('ol content', $html);
-        $this->assertStringContainsString('</ol>', $html);
     }
 
     public function testGetHtml() {

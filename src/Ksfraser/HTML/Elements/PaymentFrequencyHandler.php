@@ -196,7 +196,7 @@ class PaymentFrequencyHandler extends HtmlElement
      */
     public function getHtml(): string
     {
-        $script = new HtmlScript('text/javascript', $this->generateJSFunction());
+        $script = new HtmlScript('text/javascript', new \Ksfraser\HTML\HtmlScriptLanguage($this->generateJSFunction()));
         return $script->getHtml();
     }
 }

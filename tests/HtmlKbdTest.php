@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlKbd;
+use Ksfraser\HTML\Elements\HtmlKbd;
 
 class HtmlKbdTest extends TestCase {
     public function testGetHtml() {

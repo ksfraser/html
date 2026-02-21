@@ -4,7 +4,7 @@ use Ksfraser\HTML\Elements\HtmlPreformatted;
 
 class HtmlPreformattedTest extends TestCase {
     public function testInstance() {
-        $pre = new HtmlPreformatted('preformatted text');
+        $pre = new HtmlPreformatted(new \Ksfraser\HTML\Elements\HtmlString('preformatted text'));
         $this->assertInstanceOf(HtmlPreformatted::class, $pre);
     }
 

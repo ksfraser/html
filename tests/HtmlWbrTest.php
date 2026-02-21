@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlWbr;
+use Ksfraser\HTML\Elements\HtmlWbr;
 
 class HtmlWbrTest extends TestCase {
     public function testGetHtml() {
