@@ -6,5 +6,9 @@ use Ksfraser\HTML\HtmlElement;
 
 class HtmlFormatting extends HtmlElement
 {
-    // Base for formatting tags (b, i, strong, em, sub, sup, etc.)
+    public function __construct($content)
+    {
+        parent::__construct($content);
+        $this->setTag('span');
+    }
 }

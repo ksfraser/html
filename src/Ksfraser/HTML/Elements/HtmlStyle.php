@@ -1,33 +1,49 @@
 <?php
 
+
 namespace Ksfraser\HTML\Elements;
 
+use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
-use Ksfraser\HTML\HtmlAttribute;
 
-/**//**
-* A Style is an attribute with KEY Style and value param:setting
-*
-*	https://www.w3schools.com/html/html_styles.asp
-*
-*	Examples
-*		background-color
-*		color
-*		font-family
-*		font-size
-*		text-align
-*
-*	This is INLINE CSS.  There is also Internial CSS
-*/
-class HtmlStyle extends HtmlAttribute
+
+/**
+ * HtmlStyle represents a <style> block element for internal CSS.
+ * For inline styles, use StyleAttribute.
+ */
+
+class HtmlStyle extends HtmlElement
 {
-	function getHtml(): string
+	/**
+	 * Prevent adding children to <style> elements.
+	 */
+	public function addNested(HtmlElementInterface $element): self
 	{
-		// If value already contains quotes, avoid double quoting
-		if (strpos($this->value, '"') !== false || strpos($this->value, 'style=') !== false) {
-			return parent::getHtml();
+		throw new \InvalidArgumentException('HtmlStyle does not support child elements. Only raw CSS content is allowed. For attributes, use addAttributeObject.');
+	}
+
+	/**
+	 * Prevent adding attributes to <style> elements except StyleAttribute.
+	 */
+	public function addAttributeObject(\Ksfraser\HTML\HtmlAttribute $attribute): self
+	{
+		if (!($attribute instanceof StyleAttribute)) {
+			throw new \InvalidArgumentException('HtmlStyle only accepts StyleAttribute objects as attributes.');
 		}
-		// Otherwise, render as CSS property:value;
-		return $this->attribute . ':' . $this->value . ';';
+		return parent::addAttributeObject($attribute);
+	}
+
+	protected $cssContent;
+
+	public function __construct(HtmlString $css)
+	{
+		parent::__construct(); // No child element
+		$this->setTag('style');
+		$this->cssContent = $css;
+	}
+
+	public function getHtml(): string
+	{
+		return '<style>' . $this->cssContent->getHtml() . '</style>';
 	}
 }

@@ -2,7 +2,7 @@
 
 namespace Ksfraser\HTML\Elements;
 
-use Ksfraser\HTML\HtmlScriptLanguage;
+use Ksfraser\HTML\Elements\HtmlScript;
 use Ksfraser\HTML\Typescript\HtmlTypeScriptString;
 
 /**
@@ -10,12 +10,10 @@ use Ksfraser\HTML\Typescript\HtmlTypeScriptString;
  *
  * Generates: <script type="application/typescript">...</script>
  */
-class HtmlScriptTypeScript extends HtmlScriptLanguage
+class HtmlScriptTypeScript extends HtmlScript
 {
     public function __construct(HtmlTypeScriptString $content)
     {
-        parent::__construct($content);
-        $this->tag = 'script';
-        $this->setAttribute('type', 'application/typescript');
+        parent::__construct('application/typescript', $content);
     }
 }

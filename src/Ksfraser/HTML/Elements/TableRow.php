@@ -13,7 +13,7 @@ use Ksfraser\HTML\HtmlAttribute;
  * 
  * @package Ksfraser\HTML\Elements
  */
-class TableRow {
+class TableRow implements \Ksfraser\HTML\HtmlElementInterface {
     private $element;
     private $classes = [];
     
@@ -113,5 +113,12 @@ class TableRow {
      */
     public function render(): string {
         return $this->getHtml();
+    }
+    
+    /**
+     * Satisfy HtmlElementInterface: echo HTML string
+     */
+    public function toHtml(): void {
+        echo $this->getHtml();
     }
 }

@@ -1,0 +1,21 @@
+<?php
+use PHPUnit\Framework\TestCase;
+use Ksfraser\HTML\Elements\HtmlMeta;
+use Ksfraser\HTML\Elements\HtmlString;
+
+class HtmlMetaTest extends TestCase {
+    public function testMetaTagRendersCorrectly() {
+        $meta = new HtmlMeta(new HtmlString(''));
+        $meta->setAttribute('charset', 'UTF-8');
+        $html = $meta->getHtml();
+        $this->assertStringContainsString('<meta', $html);
+        $this->assertStringContainsString('charset="UTF-8"', $html);
+        $this->assertStringEndsWith(' />', $html);
+    }
+
+    public function testMetaTagWithoutAttributes() {
+        $meta = new HtmlMeta(new HtmlString(''));
+        $html = $meta->getHtml();
+        $this->assertEquals('<meta />', $html);
+    }
+}

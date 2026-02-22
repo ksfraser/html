@@ -10,6 +10,5 @@ use Ksfraser\HTML\HtmlElementInterface;
 * @since 20250517
 */
 /**
- * @deprecated Use HtmlH4 instead.
  */
 class HtmlHeading4 extends HtmlH4 {}

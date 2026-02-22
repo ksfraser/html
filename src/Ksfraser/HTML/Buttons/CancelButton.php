@@ -43,7 +43,7 @@ class CancelButton extends ActionButton
     public function __construct($label = null)
     {
         if ($label === null) {
-            $label = new HtmlString('Cancel');
+            $label = new \Ksfraser\HTML\Elements\HtmlString('Cancel');
         }
         parent::__construct('cancel', $label);
     }
