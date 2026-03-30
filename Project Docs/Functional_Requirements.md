@@ -159,72 +159,113 @@
   - Query attributes by name
   - Filter nested elements by criteria
 
-## FR-011: HTML Validation and Nesting Rules (Future Enhancement)
+## FR-011: Form Elements & Validation UI (Phase 2 ✅)
 
-- Description: Validate HTML element nesting to prevent invalid structures
-- Inputs: Child element to nest
-- Outputs: Validation result or exception
+- Description: Convenience methods and classes for building HTML form elements with validation UI support
+- Inputs: Form field configuration, validation states, error messages
+- Outputs: Form elements (form, input, textarea, select, label) with proper attributes and validation styling
 - Rules/constraints:
-  - Define element-specific allowed children (e.g., <p> cannot contain <div>)
-  - Warn or prevent invalid nesting patterns
-  - Support content model validation per HTML5 spec
-  - ConfigurabIe validation strictness (warn vs error)
-- Error handling: Invalid nesting throws HtmlNestingException or logs warning
-- Acceptance tests (high level):
-  - Prevent <div> inside <p>
-  - Prevent <tr> outside <table>
-  - Allow valid nesting combinations
-  - Configurable validation modes
+  - Factory methods for form(), input(), textarea(), select(), label(), button(), fieldset(), legend()
+  - Support input types: text, password, email, number, checkbox, radio, file, etc.
+  - Validation feedback rendering with validation-feedback/valid-feedback classes
+  - Support for required, disabled, readonly states
+  - Instance configuration methods: setRequired(), setDisabled(), setInputValue()
+  - Bootstrap CSS class integration for form styling
+- Error handling: Invalid input types logged; invalid field configurations handled gracefully
+- Acceptance tests (70+ tests):
+  - Create all form element types
+  - Add validation feedback (valid/invalid states)
+  - Configure required/disabled/readonly states
+  - Render complete forms with proper nesting
+  - Chain form element methods
+- Status: ✅ COMPLETE - Implemented in FormElementsTrait (FR-011)
+- Implementation: src/Ksfraser/HTML/Traits/FormElementsTrait.php (~500 lines, 70+ tests)
 
-## FR-012: Element Cloning (Future Enhancement)
+## FR-012: Component Factory Pattern (Phase 2 ✅)
 
-- Description: Create deep copies of elements with all attributes and nested content
-- Inputs: Source element
-- Outputs: Clone with identical structure and attributes
+- Description: Factory methods for creating Bootstrap-styled components with consistent patterns
+- Inputs: Component configuration options
+- Outputs: Fully styled HTML component elements ready to render
 - Rules/constraints:
-  - clone() or cloneElement() method
-  - Deep copy of nested elements
-  - Preserve all attributes
-  - Support for element templates/reuse
-- Error handling: Graceful handling of non-cloneable nested objects
-- Acceptance tests (high level):
-  - Clone simple element
-  - Clone element with nested children
-  - Modify clone without affecting original
-  - Template reuse via cloning
+  - 100+ static factory methods organized by component type
+  - Button variants: primary, success, danger, warning, info, secondary (6 methods)
+  - Card components: card, cardHeader, cardBody, cardFooter, cardImage (8 methods)
+  - Alerts: alertPrimary, alertSuccess, alertWarning, alertDanger, alertInfo (5 methods)
+  - Badges: 6 variants with optional pill support (6 methods)
+  - Modals: modal, modalDialog, modalContent, modalHeader, modalBody, modalFooter, modalSizes (7 methods)
+  - Navbars: navbar, navbarBrand, navbarNav, navbarLink, navbarToggler, navbarCollapse, navbarDivider (9 methods)
+  - Pagination: pagination, paginationList, paginationItem, paginationLink with states (8 methods)
+  - Automatic Bootstrap class application (btn, btn-primary, card, alert, etc.)
+  - Support for sizing, states, and configuration options
+  - Fluent chaining for further customization
+- Error handling: Invalid component options logged; defaults applied safely
+- Acceptance tests (60+ tests):
+  - Create each component type with various configurations
+  - Verify Bootstrap CSS classes applied correctly
+  - Test sizing, states, disabled/active variants
+  - Chain additional attributes and classes
+  - Test dismissible alerts
+  - Test modal sizing (sm, lg, xl)
+- Status: ✅ COMPLETE - Implemented in ComponentFactoryTrait (FR-012)
+- Implementation: src/Ksfraser/HTML/Traits/ComponentFactoryTrait.php (~400 lines, 60+ tests)
 
-## FR-013: Conditional Rendering (Future Enhancement)
+## FR-013: Responsive Layout Utilities (Phase 2 ✅)
 
-- Description: Helper methods for rendering content conditionally
-- Inputs: Boolean condition and content
-- Outputs: Element with content, or empty element
+- Description: Utility methods for responsive design and layout management without manual CSS class strings
+- Inputs: Layout configuration (display, size, spacing, flex properties, etc.)
+- Outputs: Element with applied Bootstrap utility classes
 - Rules/constraints:
-  - renderIf($condition) method
-  - renderUnless($condition) method
-  - Alternative: nested conditionals in template
-  - Could support ternary-like syntax
-- Error handling: Invalid conditions handled gracefully
-- Acceptance tests (high level):
-  - Show element when condition is true
-  - Hide element when condition is false
-  - Chain conditional methods
+  - Display utilities: d-none, d-block, d-inline, d-flex, d-grid (5 methods)
+  - Sizing: w-25, w-50, w-75, w-100, h-100 (5 methods)
+  - Spacing: margin and padding all directions and combinations (20+ methods)
+  - Flexbox: alignItems, justifyContent, flexDirection, flexWrap, flexGrow (8 methods)
+  - Grid: gridCols, gap, with responsive breakpoints (4 methods)
+  - Visibility: visible, invisible (2 methods)
+  - Typography: textCenter, textStart, textEnd, textWrap, textBreak (5 methods)
+  - Borders: border, rounded, roundedTop, roundedBottom, roundedStart, roundedEnd (8 methods)
+  - All methods return $this for fluent chaining
+  - Bootstrap utility class names auto-applied
+- Error handling: Invalid sizing/spacing values ignored; defaults used
+- Acceptance tests (80+ tests):
+  - Verify all display utilities apply correct classes
+  - Test sizing combinations and responsiveness
+  - Test all spacing variants (margin/padding, all directions)
+  - Test flexbox property combinations
+  - Test visibility utilities
+  - Test text alignment and breaking
+  - Test border and rounded corner utilities
+- Status: ✅ COMPLETE - Implemented in ResponsiveLayoutTrait (FR-013)
+- Implementation: src/Ksfraser/HTML/Traits/ResponsiveLayoutTrait.php (~300 lines, 80+ tests)
 
-## FR-014: List/Iterator Rendering (Future Enhancement)
+## FR-014: HTML5 Semantic Elements (Phase 2 ✅)
 
-- Description: Helper for rendering collections of items
-- Inputs: Array of items, callback to create elements
-- Outputs: Multiple nested elements, one per item
+- Description: Factory methods for comprehensive HTML5 semantic elements organized by content category
+- Inputs: Optional text content and element configuration
+- Outputs: Properly structured semantic HTML5 elements
 - Rules/constraints:
-  - renderList($items, $callback) or similar
-  - Callback receives item and index
-  - Returns HtmlElementInterface from callback
-  - Supports filtering and transformation
-- Error handling: Empty lists render no content
-- Acceptance tests (high level):
-  - Render list items from array
-  - Access item and index in callback
-  - Filter items during rendering
-  - Transform items in rendering
+  - Structural elements: header(), nav(), main(), section(), article(), aside(), footer() (7 methods)
+  - Content elements: heading($level), paragraph(), strong(), em(), mark(), code(), pre(), small(), blockquote(), cite(), address(), time() (17 methods)
+  - Media elements: figure(), figcaption(), image(), imageResponsive(), imageThumbnail(), picture(), audio(), video(), source() (9 methods)
+  - Interactive elements: details(), summary(), dialog() (3 methods)
+  - Progress elements: progress($value, $max), meter($value, $low, $high) (2 methods)
+  - List elements: unorderedList(), orderedList(), listItem(), definitionList(), definitionTerm(), definitionDescription() (6 methods)
+  - Table elements: table(), tableHead(), tableBody(), tableFoot(), tableRow(), tableData(), tableHeader(), tableCaption(), tableColumn(), tableColumnGroup() (10 methods)
+  - Form grouping: fieldset(), legend() (2 methods)
+  - All methods support text content parameter with HTML escaping
+  - Support for semantic attributes (role, aria-*, data-*, etc.)
+  - Accessibility-first design following HTML5 spec
+- Error handling: Invalid heading levels (not 1-6) logged; heading() defaults to h1
+- Acceptance tests (100+ tests):
+  - Create each semantic element type
+  - Test with text content and nested elements
+  - Verify proper tag rendering
+  - Test image variants and picture sources
+  - Test table structure and cells
+  - Test media elements with attributes
+  - Test form grouping elements
+  - Test accessibility combinations
+- Status: ✅ COMPLETE - Implemented in SemanticElementsTrait (FR-014)
+- Implementation: src/Ksfraser/HTML/Traits/SemanticElementsTrait.php (~500 lines, 100+ tests)
 
 ## FR-015: Media Query and Responsive Image Support (Future Enhancement)
 
