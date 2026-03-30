@@ -3,18 +3,11 @@
     "version": "1.0.0",
     "description": "HTML project for Ksfraser",
     "require": {
-        "php": ">=7.3",
-        "ksfraser/origin": "^0.0.1"
+        "php": ">=7.3"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.6"
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../origin"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Ksfraser\\HTML\\": "src/Ksfraser/HTML/"

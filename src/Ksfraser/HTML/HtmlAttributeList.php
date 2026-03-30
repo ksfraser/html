@@ -75,6 +75,24 @@ class HtmlAttributeList implements HtmlElementInterface
 		}
 		return null;
 	}
+
+	/**
+	 * Remove an attribute by name
+	 *
+	 * @param string $name Attribute name to remove
+	 * @return void
+	 */
+	public function removeAttribute( string $name ): void
+	{
+		foreach( $this->attributeArray as $idx => $existing )
+		{
+			if( method_exists( $existing, 'getName' ) && $existing->getName() === $name )
+			{
+				unset( $this->attributeArray[$idx] );
+				return;
+			}
+		}
+	}
 	
 	/**
 	 * Output HTML representation
