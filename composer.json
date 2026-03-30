@@ -1,13 +1,24 @@
 {
-    "name": "ksfraser/html-project",
+    "name": "ksfraser/html",
+    "version": "1.0.0",
     "description": "HTML project for Ksfraser",
     "require": {
-        "php": ">=7.4",
-        "repositories": {
-            "origin": {
-                "type": "vcs",
-                "url": "https://github.com/ksfraser/origin"
-            }
+        "php": ">=7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ksfraser\\HTML\\": "src/Ksfraser/HTML/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ksfraser\\HTML\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "@php vendor/bin/phpunit"
     }
 }
