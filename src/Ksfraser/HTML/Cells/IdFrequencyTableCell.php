@@ -5,11 +5,13 @@ use Ksfraser\HTML\Elements\TableData;
 
 /**
  * IdFrequencyTableCell - Encapsulates interest frequency ID cell configuration
- * 
+ *
  * SRP: Single responsibility of building a frequency ID cell with fixed configuration.
  * Applies: ID format, data-frequency-id attribute, and cell type.
- * 
+ *
+ *
  * @package Ksfraser\HTML\Cells
+ * @since 1.0.1 2026-02-16
  */
 class IdFrequencyTableCell {
     /**
@@ -18,6 +20,7 @@ class IdFrequencyTableCell {
      * @param mixed $frequencyId The frequency ID value
      * @param string $rowPrefix The row prefix for ID generation
      * @return TableData
+ * @since 1.0.1 2026-02-16
      */
     public function build($frequencyId, string $rowPrefix): TableData {
         return (new IdTableCell())

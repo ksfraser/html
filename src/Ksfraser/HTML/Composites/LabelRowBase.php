@@ -8,10 +8,10 @@ use Exception;
 
 /**
  * LabelRowBase - Abstract base class for label/value row display components
- * 
+ *
  * This abstract base class implements the Template Method pattern.
  * Subclasses must set $label and $data properties before calling parent::__construct().
- * 
+ *
  * Example:
  * ```php
  * class TransType extends LabelRowBase {
@@ -22,11 +22,12 @@ use Exception;
  *     }
  * }
  * ```
- * 
+ *
+ *
  * @package Ksfraser\HTML
- * @since 20251019 - Fixed namespace (Html→HTML), fixed missing return, added return type hints
  * @version 20251019.1 - Fixed HtmlRowLabel→HTML_ROW_LABEL, added PHPDoc
  * @version 20251019.2 - Made class abstract (cannot be instantiated directly)
+ * @since 1.0.1 2026-02-16
  */
 abstract class LabelRowBase implements HtmlElementInterface
 {
@@ -55,6 +56,8 @@ abstract class LabelRowBase implements HtmlElementInterface
 	 * 
 	 * @param mixed $bi_lineitem The line item data (parameter kept for backward compatibility)
 	 * @throws Exception If label or data not set by subclass
+ * @return void
+ * @since 1.0.1 2026-02-16
 	 */
 	function __construct( $bi_lineitem )
 	{
@@ -75,6 +78,7 @@ abstract class LabelRowBase implements HtmlElementInterface
 	 * Get the HTML as a string
 	 * 
 	 * @return string The HTML
+ * @since v1.0.0 2026-04-13
 	 */
 	function getHtml(): string
 	{
@@ -85,6 +89,7 @@ abstract class LabelRowBase implements HtmlElementInterface
 	 * Output the HTML directly to screen
 	 * 
 	 * @return void
+ * @since v1.0.0 2026-04-13
 	 */
 	function toHtml(): void
 	{

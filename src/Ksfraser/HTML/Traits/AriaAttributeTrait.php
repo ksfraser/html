@@ -6,22 +6,23 @@ namespace Ksfraser\HTML\Traits;
  * AriaAttributeTrait - FR-009
  * Provides convenient methods for managing ARIA (Accessible Rich Internet Applications) attributes
  *
- * ARIA attributes help make dynamic Web content and advanced user interface controls 
+ * ARIA attributes help make dynamic Web content and advanced user interface controls
  * accessible to people with disabilities.
  *
  * Usage:
  *   $element->setAriaLabel('Close dialog');
  *   $element->setRole('button');
  *   $button->setAriaDisabled(true);
- *   
+ *
  *   $element
  *       ->setAriaLabel('Menu')
  *       ->setRole('navigation')
  *       ->setAriaExpanded(false);
  *
+ *
  * @package Ksfraser\HTML\Traits
  * @link https://www.w3.org/WAI/ARIA/apg/
- * @since 1.0
+ * @since 1.0.5 2026-03-30
  */
 trait AriaAttributeTrait
 {
@@ -40,6 +41,7 @@ trait AriaAttributeTrait
      *
      * @param string $label The label text
      * @return self Returns $this for method chaining
+     * @since 1.0.5 2026-03-30
      */
     public function setAriaLabel(string $label): self
     {
@@ -53,405 +55,85 @@ trait AriaAttributeTrait
      *
      * @param string $role The role name
      * @return self Returns $this for method chaining
+     * @since v1.0.0 2026-04-13
      */
     public function setRole(string $role): self
     {
-        $this->ariaAttributes['role'] = $role;
+        return $this->setAria('role', $role);
+    }
+
+    /**
+     * Generic setter for ARIA attributes (without 'aria-' prefix)
+     *
+     * @param string $name Attribute name without 'aria-' prefix
+     * @param mixed $value Attribute value
+     * @return self
+     * @since v1.0.0 2026-04-13
+     */
+    public function setAria(string $name, $value): self
+    {
+        $this->ariaAttributes[$name] = $value;
         return $this;
     }
 
     /**
-     * Set aria-describedby attribute
+     * Get an ARIA attribute value by name (without 'aria-' prefix)
      *
-     * References an element that provides an extended description.
-     *
-     * @param string $id The ID of the describing element
-     * @return self Returns $this for method chaining
+     * @param string $name Attribute name without 'aria-' prefix
+     * @return mixed|null The attribute value or null if not set
+     * @since 1.0.5 2026-03-30
      */
-    public function setAriaDescribedBy(string $id): self
+    public function getAria(string $name)
     {
-        return $this->setAria('describedby', $id);
-    }
-
-    /**
-     * Set aria-labelledby attribute
-     *
-     * References one or more elements that provide a label for this element.
-     *
-     * @param string $id The ID(s) of the labeling element(s)
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaLabelledBy(string $id): self
-    {
-        return $this->setAria('labelledby', $id);
-    }
-
-    /**
-     * Set aria-hidden attribute
-     *
-     * Hides the element from accessibility tools.
-     *
-     * @param bool $hidden Whether the element is hidden
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaHidden(bool $hidden): self
-    {
-        return $this->setAria('hidden', $hidden ? 'true' : 'false');
-    }
-
-    /**
-     * Set aria-disabled attribute
-     *
-     * Indicates the element is disabled.
-     *
-     * @param bool $disabled Whether the element is disabled
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaDisabled(bool $disabled): self
-    {
-        return $this->setAria('disabled', $disabled ? 'true' : 'false');
-    }
-
-    /**
-     * Set aria-pressed attribute
-     *
-     * Indicates if a toggle button (like a toolbar button) is pressed.
-     * Can be boolean true/false or 'mixed' for indeterminate state.
-     *
-     * @param bool|string $pressed The pressed state: true, false, or 'mixed'
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaPressed(bool|string $pressed): self
-    {
-        $value = is_bool($pressed) ? ($pressed ? 'true' : 'false') : $pressed;
-        return $this->setAria('pressed', $value);
-    }
-
-    /**
-     * Set aria-checked attribute
-     *
-     * Indicates the state of a checkbox, radio button, or similar widget.
-     * Can be true, false, or 'mixed' for indeterminate state.
-     *
-     * @param bool|string $checked The checked state: true, false, or 'mixed'
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaChecked(bool|string $checked): self
-    {
-        $value = is_bool($checked) ? ($checked ? 'true' : 'false') : $checked;
-        return $this->setAria('checked', $value);
-    }
-
-    /**
-     * Set aria-selected attribute
-     *
-     * Indicates the current selected state of a selectable widget.
-     *
-     * @param bool $selected Whether the element is selected
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaSelected(bool $selected): self
-    {
-        return $this->setAria('selected', $selected ? 'true' : 'false');
-    }
-
-    /**
-     * Set aria-expanded attribute
-     *
-     * Indicates whether the element is expanded or collapsed.
-     *
-     * @param bool $expanded Whether the element is expanded
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaExpanded(bool $expanded): self
-    {
-        return $this->setAria('expanded', $expanded ? 'true' : 'false');
-    }
-
-    /**
-     * Set aria-busy attribute
-     *
-     * Indicates that the element is being modified and updates should be expected.
-     *
-     * @param bool $busy Whether the element is busy
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaBusy(bool $busy): self
-    {
-        return $this->setAria('busy', $busy ? 'true' : 'false');
-    }
-
-    /**
-     * Set aria-modal attribute
-     *
-     * Indicates that the element is a modal dialog.
-     *
-     * @param bool $modal Whether the element is modal
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaModal(bool $modal): self
-    {
-        return $this->setAria('modal', $modal ? 'true' : 'false');
-    }
-
-    /**
-     * Set aria-live attribute
-     *
-     * Indicates that an element will be updated and describes the type of update 
-     * ('off', 'polite', 'assertive').
-     *
-     * @param string $live The politeness level: 'off', 'polite', or 'assertive'
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaLive(string $live): self
-    {
-        return $this->setAria('live', $live);
-    }
-
-    /**
-     * Set aria-atomic attribute
-     *
-     * Indicates whether assistive technologies should present all or only changed areas
-     * in a live region.
-     *
-     * @param bool $atomic Whether to treat live region atomically
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaAtomic(bool $atomic): self
-    {
-        return $this->setAria('atomic', $atomic ? 'true' : 'false');
-    }
-
-    /**
-     * Set aria-relevant attribute
-     *
-     * Indicates which notifications are relevant when the element is modified.
-     *
-     * @param string $relevant Space-separated list: 'additions', 'removals', 'text', 'all'
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaRelevant(string $relevant): self
-    {
-        return $this->setAria('relevant', $relevant);
-    }
-
-    /**
-     * Set aria-owns attribute
-     *
-     * Indicates the element owns other elements/IDs in the accessibility tree.
-     *
-     * @param string $ids Space-separated IDs owned by this element
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaOwns(string $ids): self
-    {
-        return $this->setAria('owns', $ids);
-    }
-
-    /**
-     * Set aria-activedescendant attribute
-     *
-     * Identifies the currently active element in a composite widget.
-     *
-     * @param string $id The ID of the active descendant
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaActivedescendant(string $id): self
-    {
-        return $this->setAria('activedescendant', $id);
-    }
-
-    /**
-     * Set aria-flowto attribute
-     *
-     * Identifies the next element or elements to which reading should continue.
-     *
-     * @param string $ids Space-separated IDs of elements reading should flow to
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaFlowto(string $ids): self
-    {
-        return $this->setAria('flowto', $ids);
-    }
-
-    /**
-     * Set aria-valuemin attribute
-     *
-     * Defines the minimum allowed value for a range widget.
-     *
-     * @param int|float $value The minimum value
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaValuemin(int|float $value): self
-    {
-        return $this->setAria('valuemin', (string)$value);
-    }
-
-    /**
-     * Set aria-valuemax attribute
-     *
-     * Defines the maximum allowed value for a range widget.
-     *
-     * @param int|float $value The maximum value
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaValuemax(int|float $value): self
-    {
-        return $this->setAria('valuemax', (string)$value);
-    }
-
-    /**
-     * Set aria-valuenow attribute
-     *
-     * Defines the current value for a range widget.
-     *
-     * @param int|float $value The current value
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaValuenow(int|float $value): self
-    {
-        return $this->setAria('valuenow', (string)$value);
-    }
-
-    /**
-     * Set aria-valuetext attribute
-     *
-     * Provides a human-readable text representation of the aria-valuenow value.
-     *
-     * @param string $text The text representation of the value
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaValuetext(string $text): self
-    {
-        return $this->setAria('valuetext', $text);
-    }
-
-    /**
-     * Set aria-placeholder attribute
-     *
-     * Provides a short hint about the expected value for an input field.
-     *
-     * @param string $placeholder The placeholder text
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaPlaceholder(string $placeholder): self
-    {
-        return $this->setAria('placeholder', $placeholder);
-    }
-
-    /**
-     * Set aria-orientation attribute
-     *
-     * Indicates whether the element's orientation is horizontal or vertical.
-     *
-     * @param string $orientation 'horizontal' or 'vertical'
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaOrientation(string $orientation): self
-    {
-        return $this->setAria('orientation', $orientation);
-    }
-
-    /**
-     * Set aria-multiline attribute
-     *
-     * Indicates that a textbox accepts multiple lines of input.
-     *
-     * @param bool $multiline Whether the textbox is multiline
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaMultiline(bool $multiline): self
-    {
-        return $this->setAria('multiline', $multiline ? 'true' : 'false');
-    }
-
-    /**
-     * Set aria-readonly attribute
-     *
-     * Indicates the element is not editable.
-     *
-     * @param bool $readonly Whether the element is read-only
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaReadonly(bool $readonly): self
-    {
-        return $this->setAria('readonly', $readonly ? 'true' : 'false');
-    }
-
-    /**
-     * Set aria-required attribute
-     *
-     * Indicates that user input is required.
-     *
-     * @param bool $required Whether input is required
-     * @return self Returns $this for method chaining
-     */
-    public function setAriaRequired(bool $required): self
-    {
-        return $this->setAria('required', $required ? 'true' : 'false');
-    }
-
-    /**
-     * Set a generic ARIA attribute
-     *
-     * @param string $name The attribute name (without 'aria-' prefix)
-     * @param string $value The attribute value
-     *
-     * @return self Returns $this for method chaining
-     *
-     * @example
-     *   $element->setAria('custom-attribute', 'value');
-     *   // Renders: aria-custom-attribute="value"
-     */
-    public function setAria(string $name, string $value): self
-    {
-        if (!empty($name)) {
-            $this->ariaAttributes[$name] = $value;
-        }
-        return $this;
-    }
-
-    /**
-     * Get an ARIA attribute value
-     *
-     * @param string $name The attribute name (without 'aria-' prefix)
-     *
-     * @return string|null The attribute value, or null if not found
-     */
-    public function getAria(string $name): ?string
-    {
-        return $this->ariaAttributes[$name] ?? null;
+        $key = strtolower($name);
+        return $this->ariaAttributes[$key] ?? null;
     }
 
     /**
      * Check if an ARIA attribute exists
      *
-     * @param string $name The attribute name (without 'aria-' prefix)
-     *
-     * @return bool True if the attribute exists, false otherwise
+     * @param string $name Attribute name without 'aria-' prefix
+     * @return bool True if attribute exists
+     * @since 1.0.5 2026-03-30
      */
     public function hasAria(string $name): bool
     {
-        return isset($this->ariaAttributes[$name]);
+        $key = strtolower($name);
+        return array_key_exists($key, $this->ariaAttributes);
+    }
+
+    /**
+     * Get all ARIA attributes as an associative array (without 'aria-' prefix)
+     *
+     * @since 1.0.5 2026-03-30
+ * @return array
+     */
+    public function getAllAria(): array
+    {
+        return $this->ariaAttributes;
     }
 
     /**
      * Remove an ARIA attribute
      *
-     * @param string $name The attribute name (without 'aria-' prefix)
-     *
-     * @return self Returns $this for method chaining
+     * @param string $name Attribute name without 'aria-' prefix
+     * @return self
+     * @since 1.0.5 2026-03-30
      */
     public function removeAria(string $name): self
     {
-        unset($this->ariaAttributes[$name]);
+        $key = strtolower($name);
+        if (isset($this->ariaAttributes[$key])) {
+            unset($this->ariaAttributes[$key]);
+        }
         return $this;
     }
 
     /**
-     * Remove all ARIA attributes
+     * Clear all ARIA attributes
      *
-     * @return self Returns $this for method chaining
+     * @return self
+     * @since 1.0.5 2026-03-30
      */
     public function clearAria(): self
     {
@@ -460,60 +142,238 @@ trait AriaAttributeTrait
     }
 
     /**
-     * Get all ARIA attributes as an associative array
+     * Render ARIA attributes and role attribute as a string for inclusion in HTML
      *
-     * @return array All ARIA attributes without 'aria-' prefix
+        * @return string Rendered attributes (e.g. 'role="button" aria-hidden="true"')
+        * @since 1.0.5 2026-03-30
      */
-    public function getAllAria(): array
-    {
-        return $this->ariaAttributes;
-    }
-
-    /**
-     * Render ARIA attributes as HTML attribute string
-     *
-     * Internal method called from HtmlElement::getAttributes().
-     * Transforms stored ARIA attributes into HTML-safe attribute format.
-     * Role attribute is rendered as role="..." instead of aria-role="..."
-     *
-     * Special handling:
-     * - 'role' renders as role="..." (not aria-role="...")
-     * - Other ARIA attributes render as aria-name="..."
-     * - All values are HTML-escaped for security
-     *
-     * @return string HTML attribute string, empty string if no ARIA attributes
-     *
-     * @internal Called from HtmlElement::getAttributes()
-     */
-    protected function renderAriaAttributes(): string
+    public function renderAriaAttributes(): string
     {
         if (empty($this->ariaAttributes)) {
             return '';
         }
 
-        $attributes = [];
-
-        foreach ($this->ariaAttributes as $name => $value) {
-            // Check for empty string specifically (0 is valid, empty string is not)
-            if ($value === '' || $value === null) {
-                continue;
-            }
-
-            // Special handling for 'role' attribute
-            if ($name === 'role') {
-                $attributeName = 'role';
+        $parts = [];
+        foreach ($this->ariaAttributes as $key => $value) {
+            if ($key === 'role') {
+                $attrName = 'role';
             } else {
-                $attributeName = 'aria-' . $name;
+                $attrName = 'aria-' . $key;
             }
 
-            $escaped = htmlspecialchars((string)$value, ENT_QUOTES | ENT_HTML5, 'UTF-8');
-            $attributes[] = "{$attributeName}=\"{$escaped}\"";
+            if (is_bool($value)) {
+                $val = $value ? 'true' : 'false';
+            } elseif ($value === null) {
+                continue;
+            } else {
+                $val = (string)$value;
+            }
+
+            $parts[] = $attrName . '="' . htmlspecialchars($val, ENT_QUOTES, 'UTF-8') . '"';
         }
 
-        if (empty($attributes)) {
-            return '';
-        }
-
-        return ' ' . implode(' ', $attributes);
+        return implode(' ', $parts);
     }
+
+    /**
+     * Convenience setters used across tests and callers.
+     * Each maps to {@see setAria()} with the attribute name (without 'aria-' prefix).
+     *
+     * @since 1.0.5 2026-03-30
+ * @return self
+ * @param string $id
+     */
+    public function setAriaDescribedBy(string $id): self { return $this->setAria('describedby', $id); }
+/**
+ * setAriaDisabled
+ *
+ * @since 1.0.5 2026-03-30
+ * @param bool $v
+ * @return self
+ */
+    public function setAriaDisabled(bool $v): self { return $this->setAria('disabled', $v); }
+/**
+ * setAriaPressed
+ *
+ * @since 1.0.5 2026-03-30
+ * @param mixed $v
+ * @return self
+ */
+    public function setAriaPressed($v): self { return $this->setAria('pressed', $v); }
+/**
+ * setAriaChecked
+ *
+ * @since 1.0.5 2026-03-30
+ * @param mixed $v
+ * @return self
+ */
+    public function setAriaChecked($v): self { return $this->setAria('checked', $v); }
+/**
+ * setAriaSelected
+ *
+ * @since 1.0.5 2026-03-30
+ * @param mixed $v
+ * @return self
+ */
+    public function setAriaSelected($v): self { return $this->setAria('selected', $v); }
+/**
+ * setAriaExpanded
+ *
+ * @since 1.0.5 2026-03-30
+ * @param mixed $v
+ * @return self
+ */
+    public function setAriaExpanded($v): self { return $this->setAria('expanded', $v); }
+/**
+ * setAriaBusy
+ *
+ * @since 1.0.5 2026-03-30
+ * @param mixed $v
+ * @return self
+ */
+    public function setAriaBusy($v): self { return $this->setAria('busy', $v); }
+/**
+ * setAriaModal
+ *
+ * @since 1.0.5 2026-03-30
+ * @param mixed $v
+ * @return self
+ */
+    public function setAriaModal($v): self { return $this->setAria('modal', $v); }
+/**
+ * setAriaLive
+ *
+ * @since 1.0.5 2026-03-30
+ * @param string $v
+ * @return self
+ */
+    public function setAriaLive(string $v): self { return $this->setAria('live', $v); }
+/**
+ * setAriaAtomic
+ *
+ * @since 1.0.5 2026-03-30
+ * @param mixed $v
+ * @return self
+ */
+    public function setAriaAtomic($v): self { return $this->setAria('atomic', $v); }
+/**
+ * setAriaRelevant
+ *
+ * @since 1.0.5 2026-03-30
+ * @param string $v
+ * @return self
+ */
+    public function setAriaRelevant(string $v): self { return $this->setAria('relevant', $v); }
+/**
+ * setAriaLabelledBy
+ *
+ * @since 1.0.5 2026-03-30
+ * @param string $v
+ * @return self
+ */
+    public function setAriaLabelledBy(string $v): self { return $this->setAria('labelledby', $v); }
+/**
+ * setAriaOwns
+ *
+ * @since 1.0.5 2026-03-30
+ * @param string $v
+ * @return self
+ */
+    public function setAriaOwns(string $v): self { return $this->setAria('owns', $v); }
+/**
+ * setAriaActivedescendant
+ *
+ * @since 1.0.5 2026-03-30
+ * @param string $v
+ * @return self
+ */
+    public function setAriaActivedescendant(string $v): self { return $this->setAria('activedescendant', $v); }
+/**
+ * setAriaFlowto
+ *
+ * @since 1.0.5 2026-03-30
+ * @param string $v
+ * @return self
+ */
+    public function setAriaFlowto(string $v): self { return $this->setAria('flowto', $v); }
+/**
+ * setAriaValuemin
+ *
+ * @since 1.0.5 2026-03-30
+ * @param mixed $v
+ * @return self
+ */
+    public function setAriaValuemin($v): self { return $this->setAria('valuemin', $v); }
+/**
+ * setAriaValuemax
+ *
+ * @since 1.0.5 2026-03-30
+ * @param mixed $v
+ * @return self
+ */
+    public function setAriaValuemax($v): self { return $this->setAria('valuemax', $v); }
+/**
+ * setAriaValuenow
+ *
+ * @since 1.0.5 2026-03-30
+ * @param mixed $v
+ * @return self
+ */
+    public function setAriaValuenow($v): self { return $this->setAria('valuenow', $v); }
+/**
+ * setAriaValuetext
+ *
+ * @since 1.0.5 2026-03-30
+ * @param string $v
+ * @return self
+ */
+    public function setAriaValuetext(string $v): self { return $this->setAria('valuetext', $v); }
+/**
+ * setAriaPlaceholder
+ *
+ * @since 1.0.5 2026-03-30
+ * @param string $v
+ * @return self
+ */
+    public function setAriaPlaceholder(string $v): self { return $this->setAria('placeholder', $v); }
+/**
+ * setAriaOrientation
+ *
+ * @since 1.0.5 2026-03-30
+ * @param string $v
+ * @return self
+ */
+    public function setAriaOrientation(string $v): self { return $this->setAria('orientation', $v); }
+/**
+ * setAriaMultiline
+ *
+ * @since 1.0.5 2026-03-30
+ * @param mixed $v
+ * @return self
+ */
+    public function setAriaMultiline($v): self { return $this->setAria('multiline', $v); }
+/**
+ * setAriaReadonly
+ *
+ * @since 1.0.5 2026-03-30
+ * @param mixed $v
+ * @return self
+ */
+    public function setAriaReadonly($v): self { return $this->setAria('readonly', $v); }
+/**
+ * setAriaRequired
+ *
+ * @since 1.0.5 2026-03-30
+ * @param mixed $v
+ * @return self
+ */
+    public function setAriaRequired($v): self { return $this->setAria('required', $v); }
+/**
+ * setAriaHidden
+ *
+ * @since 1.0.5 2026-03-30
+ * @param mixed $v
+ * @return self
+ */
+    public function setAriaHidden($v): self { return $this->setAria('hidden', $v); }
 }

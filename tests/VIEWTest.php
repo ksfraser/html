@@ -2,10 +2,17 @@
 
 use PHPUnit\Framework\TestCase;
 
+/**
+ * class VIEWTest
+ *
+ * @since 1.0.1 2026-02-16
+ */
 class VIEWTest extends TestCase
 {
     /**
      * Test the constructor of the VIEW class.
+ * @return void
+ * @since 1.0.1 2026-02-16
      */
     public function testConstructor()
     {
@@ -15,6 +22,8 @@ class VIEWTest extends TestCase
 
     /**
      * Test the set_var and get methods of the VIEW class.
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetVar()
     {
@@ -25,6 +34,8 @@ class VIEWTest extends TestCase
 
     /**
      * Test the display_table_with_edit method.
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testDisplayTableWithEdit()
     {

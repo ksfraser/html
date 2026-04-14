@@ -1,0 +1,66 @@
+<?php
+
+namespace Ksfraser\HTML\Elements;
+
+use Ksfraser\HTML\HtmlElement;
+
+/**
+ * HtmlSource represents a <source> void element used inside <audio>/<video>/<picture>
+ *
+ *
+ * @since v2.0.1 2026-04-14
+ */
+class HtmlSource extends HtmlElement
+{
+    /**
+ * @param ?string $src
+ * @param ?string $type
+ * @return void
+ * @since v2.0.1 2026-04-14
+     */
+    public function __construct(?string $src = null, ?string $type = null)
+    {
+        parent::__construct();
+        $this->setTag('source');
+        // source is a void element — mark as empty to avoid closing tag
+        $ref = new \ReflectionClass($this);
+        if ($ref->hasProperty('empty')) {
+            $prop = $ref->getProperty('empty');
+            $prop->setAccessible(true);
+            $prop->setValue($this, true);
+        }
+
+        if ($src !== null) {
+            $this->addAttribute('src', $src);
+        }
+        if ($type !== null) {
+            $this->addAttribute('type', $type);
+        }
+    }
+
+/**
+ * setSrc
+ *
+ * @since v1.0.5 2026-04-14
+ * @param string $src
+ * @return self
+ */
+    public function setSrc(string $src): self
+    {
+        $this->addAttribute('src', $src);
+        return $this;
+    }
+
+/**
+ * setType
+ *
+ * @since v1.0.5 2026-04-14
+ * @param string $type
+ * @return self
+ */
+    public function setType(string $type): self
+    {
+        $this->addAttribute('type', $type);
+        return $this;
+    }
+}

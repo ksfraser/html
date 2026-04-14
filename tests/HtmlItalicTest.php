@@ -2,13 +2,30 @@
 use PHPUnit\Framework\TestCase;
 use Ksfraser\HTML\Formatting\HtmlItalic;
 
+/**
+ * class HtmlItalicTest
+ *
+ * @since 1.0.3 2026-02-21
+ */
 class HtmlItalicTest extends TestCase {
+/**
+ * testInstance
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     public function testInstance() {
         $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
         $italic = new HtmlItalic($mock);
         $this->assertInstanceOf(HtmlItalic::class, $italic);
     }
 
+/**
+ * testGetHtml
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testGetHtml() {
         $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
         $mock->method('getHtml')->willReturn('italic');
@@ -19,6 +36,12 @@ class HtmlItalicTest extends TestCase {
         $this->assertStringEndsWith('</i>', $html);
     }
 
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testToHtmlOutputsHtml() {
         $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
         $mock->method('getHtml')->willReturn('italic');
@@ -30,6 +53,12 @@ class HtmlItalicTest extends TestCase {
         $this->assertStringContainsString('italic', $output);
     }
 
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testEdgeCasesEmptyContent() {
         $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
         $mock->method('getHtml')->willReturn('');

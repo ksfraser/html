@@ -5,6 +5,8 @@ namespace Ksfraser\HTML\CSS;
 /**
  * CSSManager - Centralized CSS management with dependency injection support
  * Supports themes/skins and provides injectable CSS providers
+ *
+ * @since v1.0.0 2025-09-08
  */
 class CSSManager {
     private static $currentTheme = 'default';
@@ -13,28 +15,40 @@ class CSSManager {
     
     /**
      * Register a CSS provider for dependency injection
-     */
-    public static function registerProvider($name, $provider) {
+ * @return void
+ * @param mixed $name
+ * @param mixed $provider
+ * @since v1.0.0 2025-09-08
+ */
+public static function registerProvider($name, $provider) {
         self::$cssProviders[$name] = $provider;
     }
     
     /**
      * Get a registered CSS provider
-     */
-    public static function getProvider($name) {
+ * @return void
+ * @param mixed $name
+ * @since v1.0.5 2026-04-14
+ */
+public static function getProvider($name) {
         return self::$cssProviders[$name] ?? null;
     }
     
     /**
      * Set the current theme
-     */
-    public static function setTheme($theme = 'default') {
+ * @return void
+ * @param mixed $theme
+ * @since v1.0.5 2026-04-14
+ */
+public static function setTheme($theme = 'default') {
         self::$currentTheme = $theme;
         self::$cssCache = []; // Clear cache when theme changes
     }
     
     /**
      * Get the current theme
+ * @return void
+ * @since v1.0.0 2026-04-13
      */
     public static function getCurrentTheme() {
         return self::$currentTheme;
@@ -42,6 +56,8 @@ class CSSManager {
     
     /**
      * Get all CSS for the application (includes NavigationManager CSS)
+ * @return void
+ * @since v1.0.0 2026-04-13
      */
     public static function getAllCSS() {
         $cacheKey = 'all_css_' . self::$currentTheme;
@@ -79,6 +95,8 @@ class CSSManager {
     
     /**
      * Get base/reset CSS
+ * @return void
+ * @since v1.0.0 2026-04-13
      */
     public static function getBaseCSS() {
         return '
@@ -107,6 +125,8 @@ class CSSManager {
     
     /**
      * Get navigation CSS
+ * @return void
+ * @since v1.0.0 2026-04-13
      */
     public static function getNavigationCSS() {
         return '
@@ -159,6 +179,8 @@ class CSSManager {
     
     /**
      * Get form CSS
+ * @return void
+ * @since v1.0.0 2026-04-13
      */
     public static function getFormCSS() {
         return '
@@ -202,6 +224,8 @@ class CSSManager {
     
     /**
      * Get table CSS
+ * @return void
+ * @since v1.0.0 2026-04-13
      */
     public static function getTableCSS() {
         return '
@@ -232,6 +256,8 @@ class CSSManager {
     
     /**
      * Get card/section CSS
+ * @return void
+ * @since v1.0.0 2026-04-13
      */
     public static function getCardCSS() {
         return '
@@ -273,6 +299,8 @@ class CSSManager {
     
     /**
      * Get utility CSS (buttons, alerts, etc.)
+ * @return void
+ * @since v1.0.0 2026-04-13
      */
     public static function getUtilityCSS() {
         return '
@@ -361,6 +389,8 @@ class CSSManager {
     
     /**
      * Get theme-specific CSS
+ * @return void
+ * @since v1.0.0 2026-04-13
      */
     public static function getThemeCSS() {
         switch (self::$currentTheme) {
@@ -375,6 +405,8 @@ class CSSManager {
     
     /**
      * Get dark theme CSS
+ * @return void
+ * @since v1.0.0 2026-04-13
      */
     private static function getDarkThemeCSS() {
         return '
@@ -401,6 +433,8 @@ class CSSManager {
     
     /**
      * Get light theme CSS
+ * @return void
+ * @since v1.0.0 2026-04-13
      */
     private static function getLightThemeCSS() {
         return '
@@ -418,6 +452,8 @@ class CSSManager {
     
     /**
      * Render CSS in a style tag
+ * @return void
+ * @since v1.0.0 2026-04-13
      */
     public static function renderCSS() {
         echo '<style>' . self::getAllCSS() . '</style>';
@@ -425,8 +461,11 @@ class CSSManager {
     
     /**
      * Get CSS as a string (for inline use)
+ * @return void
+ * @since v1.0.0 2026-04-13
      */
     public static function getCSS() {
         return self::getAllCSS();
     }
 }
+

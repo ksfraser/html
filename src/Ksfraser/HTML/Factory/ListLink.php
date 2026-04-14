@@ -6,18 +6,36 @@ use Ksfraser\HTML\Elements\HtmlA;
 
 /**
  * ListLink - Specialized link for list/index actions
- * 
+ *
  * Extends ActionLink with defaults for list operations.
- * 
+ *
+ *
  * @package Ksfraser\HTML\Factory
+ * @since 1.0.2 2026-02-20
  */
 class ListLink extends ActionLink {
+/**
+ * make
+ *
+ * @since v1.0.0 2026-04-13
+ * @param ?string $text
+ * @param array $params
+ * @return self
+ */
         public static function make(?string $text = null, array $params = []): self {
             return new static($text, $params);
         }
     protected string $label = 'List';
+/**
+ * __construct
+ *
+ * @since 1.0.2 2026-02-20
+ * @param ?string $text
+ * @param array $params
+ * @return void
+ */
     public function __construct(?string $text = null, array $params = []) {
-        parent::__construct();
+        parent::__construct(new \Ksfraser\HTML\Elements\HtmlString(''));
         $this->setAction('list', $params);
         $this->setText($text ?? $this->label);
     }

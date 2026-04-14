@@ -1,0 +1,154 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^php \\.\\\\vendor\\\\bin\\\\phpunit tests/integration/DuplicateStagingTableTest\\.php --no-coverage --colors=never --verbose$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\.\\\\vendor\\\\bin\\\\phpunit tests/integration/DuplicateStagingTableTest\\.php --no-coverage --colors=never$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php vendor/bin/phpunit tests/unit/Services/Review/DuplicateReviewServiceTest\\.php --colors=never --no-coverage$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\.\\\\vendor\\\\bin\\\\phpunit tests/unit/Services/Posting/PostingOrchestratorServiceTest\\.php --colors=never$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\.\\\\vendor\\\\bin\\\\phpunit tests/unit/Services/Posting/PostingOrchestratorServiceTest\\.php --colors=never 2>&1 \\| head -50$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\.\\\\vendor\\\\bin\\\\phpunit tests/unit/Services/Posting/PostingOrchestratorServiceTest\\.php --colors=never 2>&1 \\| Select-Object -First 30$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit tests/unit/DTOs/DuplicateReviewDisplayTest\\.php --no-coverage$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit tests/unit/DTOs/ --colors=never$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit tests/unit/Services/AdminReviewServiceTest\\.php --colors=never 2>&1 \\| head -50$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit tests/unit/Services/AdminReviewServiceTest\\.php --colors=never$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit tests/unit/Services/AdminReviewServiceTest\\.php --colors=never 2>&1 \\| Select-Object -First 30$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit tests/unit/Services/AdminReviewServiceTest\\.php --colors=never 2>&1 \\| Select-Object -First 50$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit tests/unit/Services/AdminReviewServiceTest\\.php --colors=never 2>&1 \\| Select-Object -First 80$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit tests/unit/Services/AdminReviewServiceTest\\.php --colors=never 2>&1 \\| Select-Object -First 100$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit tests/unit/Services/AdminReviewServiceTest\\.php --colors=never 2>&1 \\| Select-Object -First 150$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit tests/unit/Services/AdminReviewServiceTest\\.php --colors=never 2>&1 \\| Select-Object -First 200$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit tests/unit/Controllers/AdminReviewControllerTest\\.php --colors=never 2>&1 \\| Select-Object -First 50$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit tests/unit/Controllers/AdminReviewControllerTest\\.php --colors=never 2>&1 \\| Select-Object -First 80$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit tests/unit/Controllers/AdminReviewControllerTest\\.php --colors=never$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\.\\\\vendor\\\\bin\\\\phpunit tests/unit/Controllers/AdminReviewControllerTest\\.php --colors=never$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit tests/integration/AdminReviewDashboardIntegrationTest\\.php --colors=never$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php -l tests/integration/AdminReviewDashboardIntegrationTest\\.php$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit tests/integration/AdminReviewDashboardIntegrationTest\\.php 2>&1 \\| head -50$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit tests/integration/AdminReviewDashboardIntegrationTest\\.php --bootstrap=bootstrap\\.php 2>&1$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit --configuration phpunit\\.xml tests/integration/AdminReviewDashboardIntegrationTest\\.php --colors=never 2>&1$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit --configuration phpunit\\.xml tests/integration/AdminReviewDashboardIntegrationTest\\.php --colors=never$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit --configuration phpunit\\.xml tests/integration/ --filter AdminReview --colors=never$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit --configuration phpunit\\.xml --testsuite \"Integration \\(Legacy\\)\" --colors=never$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit tests/unit/Services/ArchiveServiceTest\\.php --colors=never$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit tests/unit/Services/ArchiveServiceTest\\.php --no-coverage 2>&1 \\| Select-String -Pattern \"OK\\|FAILED\\|Tests\\|✔\\|✘\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit tests/unit/Services/ --colors=never 2>&1 \\| tail -20$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php \\./vendor/bin/phpunit tests/unit/Services/ --colors=never$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "Legacy": true,
+        "/^php \\.\\\\vendor\\\\bin\\\\phpunit tests/unit/SubmitButtonRowTest\\.php tests/unit/ProcessTransactionButtonRowTest\\.php tests/unit/UnsetTransButtonRowTest\\.php --colors=never --no-coverage$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php scripts/test_percent\\.php$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "gci": true,
+        "/^php -l src\\\\Ksfraser\\\\HTML\\\\Elements\\\\HtmlDfn\\.php$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php vendor\\\\bin\\\\phpunit --filter AriaAttributeTraitTest::testSetAriaHidden --verbose$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^php -d memory_limit=512M vendor\\\\bin\\\\phpunit tests/OtherElementsTest\\.php --verbose$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

@@ -10,8 +10,10 @@ use Ksfraser\HTML\Elements\HtmlString;
  * Tests for DataAttributeTrait - FR-008
  * Comprehensive test suite for data-* attribute management
  *
+ *
  * @group FR-008
  * @group data-attributes
+ * @since 1.0.5 2026-03-30
  */
 class DataAttributeTraitTest extends TestCase
 {
@@ -20,9 +22,21 @@ class DataAttributeTraitTest extends TestCase
      */
     private HtmlElement $element;
 
+/**
+ * setUp
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     protected function setUp(): void
     {
         $this->element = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -36,6 +50,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group happy-path
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetSingleDataAttribute()
     {
@@ -48,6 +64,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group happy-path
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetMultipleDataAttributes()
     {
@@ -64,6 +82,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group happy-path
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetDataAttributeWithBatch()
     {
@@ -83,6 +103,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group happy-path
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testGetAllDataAttributes()
     {
@@ -101,6 +123,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group happy-path
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testDataAttributeInHtmlOutput()
     {
@@ -116,6 +140,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group data-types
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetDataWithStringValue()
     {
@@ -127,6 +153,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group data-types
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetDataWithIntegerValue()
     {
@@ -139,6 +167,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group data-types
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetDataWithBooleanValue()
     {
@@ -154,6 +184,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group data-types
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetDataWithArrayValue()
     {
@@ -168,6 +200,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group data-types
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetDataWithJsonSerializableObject()
     {
@@ -184,6 +218,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group data-types
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetDataWithFloatValue()
     {
@@ -196,6 +232,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group data-types
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetDataWithEmptyString()
     {
@@ -207,6 +245,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group data-types
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetDataWithNull()
     {
@@ -222,6 +262,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group escaping
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testDataAttributeEscapesDoubleQuotes()
     {
@@ -235,6 +277,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group escaping
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testDataAttributeEscapesLessThan()
     {
@@ -247,6 +291,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group escaping
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testDataAttributeEscapesGreaterThan()
     {
@@ -259,6 +305,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group escaping
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testDataAttributeEscapesAmpersand()
     {
@@ -271,6 +319,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group escaping
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testDataAttributeEscapesSingleQuote()
     {
@@ -284,6 +334,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group escaping
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testDataAttributeEscapesJsonWithSpecialChars()
     {
@@ -299,6 +351,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group removal
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testRemoveDataAttribute()
     {
@@ -313,6 +367,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group removal
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testRemoveNonExistentDataAttribute()
     {
@@ -325,6 +381,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group removal
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testClearAllDataAttributes()
     {
@@ -343,6 +401,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group removal
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testRemoveDataRemovedFromHtml()
     {
@@ -359,6 +419,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group updates
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testUpdateExistingDataAttribute()
     {
@@ -373,6 +435,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group updates
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testUpdateExistingDataAttributeChangeType()
     {
@@ -387,6 +451,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group updates
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testBatchUpdateMergesWithExisting()
     {
@@ -407,6 +473,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group updates
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testBatchUpdateOverwritesExisting()
     {
@@ -422,6 +490,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group naming
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testDataAttributeRendersWithDataPrefix()
     {
@@ -435,6 +505,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group naming
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testDataAttributeWithCamelCaseConvertsToKebabCase()
     {
@@ -450,6 +522,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group naming
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testDataAttributeWithKebabCaseFormat()
     {
@@ -462,6 +536,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group naming
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testDataAttributeWithComplexName()
     {
@@ -474,6 +550,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group naming
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testDataAttributeWithNumbersInName()
     {
@@ -488,6 +566,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group chaining
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetDataReturnsSelf()
     {
@@ -499,6 +579,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group chaining
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testChainMultipleSetDataCalls()
     {
@@ -515,6 +597,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group chaining
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testChainDataAttributesWithOtherMethods()
     {
@@ -533,6 +617,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group chaining
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testChainDataAttributesWithCssClasses()
     {
@@ -550,6 +636,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group chaining
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testRemoveDataReturnsSelf()
     {
@@ -562,6 +650,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group chaining
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testClearDataReturnsSelf()
     {
@@ -575,6 +665,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetDataWithVeryLongValue()
     {
@@ -587,6 +679,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetDataWithUnicodeCharacters()
     {
@@ -598,6 +692,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetDataWithEmojiCharacters()
     {
@@ -609,6 +705,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testGetDataNonExistentKey()
     {
@@ -620,6 +718,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testGetDataWithEmptyKey()
     {
@@ -631,6 +731,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetDataWithSpacesInName()
     {
@@ -648,6 +750,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testGetAllDataReturnsEmptyArray()
     {
@@ -662,10 +766,18 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group integration
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testDataAttributesWithNestedElements()
     {
         $parent = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -673,6 +785,12 @@ class DataAttributeTraitTest extends TestCase
         };
 
         $child = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'span';
@@ -693,6 +811,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group integration
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testDataAttributesRespectOtherAttributes()
     {
@@ -711,6 +831,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group integration
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testDataAttributesWithContent()
     {
@@ -729,6 +851,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group real-world
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testBootstrapDataAttributePattern()
     {
@@ -746,6 +870,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group real-world
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testAjaxDataAttributes()
     {
@@ -764,6 +890,8 @@ class DataAttributeTraitTest extends TestCase
      * @test
      * @group data-attributes
      * @group real-world
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testCustomDataAttributePattern()
     {

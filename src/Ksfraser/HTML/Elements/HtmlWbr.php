@@ -1,11 +1,23 @@
 <?php
 namespace Ksfraser\HTML\Elements;
 
-use Ksfraser\HTML\HtmlElement;
+use Ksfraser\HTML\HtmlEmptyElement;
 
-class HtmlWbr extends HtmlElement {
-	public function __construct(\Ksfraser\HTML\HtmlElementInterface $content) {
-		parent::__construct($content);
+/**
+ * class HtmlWbr
+ *
+ * @since v1.0.0 2026-04-11
+ */
+class HtmlWbr extends HtmlEmptyElement {
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-13
+ * @param mixed $data
+ * @return void
+ */
+	public function __construct($data = null) {
+		parent::__construct($data);
 		$this->setTag('wbr');
 	}
 }

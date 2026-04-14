@@ -15,7 +15,7 @@ namespace Ksfraser\HTML\Traits;
 
 /**
  * Trait for managing CSS classes with convenience methods
- * 
+ *
  * Methods:
  * - addCSSClass(string, bool?) - Add single class with optional condition
  * - addCSSClasses(array) - Add multiple classes at once
@@ -23,8 +23,10 @@ namespace Ksfraser\HTML\Traits;
  * - toggleCSSClass(string, bool?) - Toggle class on/off
  * - hasCSSClass(string) - Check if class exists
  * - getCSSClasses() - Get all classes as array
- * 
+ *
+ *
  * @package Ksfraser\HTML\Traits
+ * @since 1.0.5 2026-03-30
  */
 trait CSSManagementTrait
 {
@@ -51,6 +53,7 @@ trait CSSManagementTrait
      * @example
      * $div->addCSSClass('btn');
      * $div->addCSSClass('active', $isActive);
+ * @since 1.0.5 2026-03-30
      */
     public function addCSSClass(string $class, bool $condition = true): self
     {
@@ -95,20 +98,31 @@ trait CSSManagementTrait
      * 
      * @example
      * $button->addCSSClasses(['btn', 'btn-primary', 'btn-lg']);
+ * @since v1.0.0 2026-04-13
      */
     public function addCSSClasses(array $classes): self
     {
+        $existing = $this->getCSSClasses();
+
         foreach ($classes as $class) {
-            // Skip empty classes but validate non-empty ones
-            if (empty(trim($class))) {
+            $class = trim($class);
+            if ($class === '') {
                 continue;
             }
-            
-            // This will throw if invalid
-            $this->addCSSClass($class, true);
+
+            if (!preg_match(self::CSS_CLASS_PATTERN, $class)) {
+                throw new \InvalidArgumentException(
+                    "Invalid CSS class name: '{$class}'. " .
+                    "Classes must contain only letters, digits, hyphens, and underscores."
+                );
+            }
+
+            if (!in_array($class, $existing, true)) {
+                $existing[] = $class;
+            }
         }
 
-        return $this;
+        return $this->setClassAttribute($existing);
     }
 
     /**
@@ -123,6 +137,7 @@ trait CSSManagementTrait
      * 
      * @example
      * $div->removeCSSClass('hidden');
+ * @since v1.0.0 2026-04-13
      */
     public function removeCSSClass(string $class): self
     {
@@ -153,17 +168,18 @@ trait CSSManagementTrait
      * Optional force parameter can force add (true) or remove (false).
      * Returns $this for method chaining.
      * 
-     * @param string $class Class name to toggle
-     * @param bool|null $force Optional: force add (true) or remove (false)
      * @return self
      * @throws \InvalidArgumentException if class name is invalid
      * 
-     * @example
-     * $element->toggleCSSClass('active');
-     * $element->toggleCSSClass('highlight', true); // Force add
-     * $element->toggleCSSClass('pending', false);  // Force remove
-     */
-    public function toggleCSSClass(string $class, ?bool $force = null): self
+         * @example
+         * $element->toggleCSSClass('active');
+         * $element->toggleCSSClass('highlight', true); // Force add
+         * $element->toggleCSSClass('pending', false);  // Force remove
+         * @param string $class
+         * @param ?bool $force
+ * @since v1.0.5 2026-04-14
+         */
+        public function toggleCSSClass(string $class, ?bool $force = null): self
     {
         $class = trim($class);
 
@@ -210,6 +226,7 @@ trait CSSManagementTrait
      * 
      * @example
      * if ($div->hasCSSClass('active')) { ... }
+ * @since v1.0.0 2026-04-13
      */
     public function hasCSSClass(string $class): bool
     {
@@ -233,6 +250,7 @@ trait CSSManagementTrait
      * @example
      * $classes = $div->getCSSClasses();
      * // ['btn', 'btn-primary', 'btn-lg']
+ * @since v1.0.0 2026-04-13
      */
     public function getCSSClasses(): array
     {
@@ -262,6 +280,7 @@ trait CSSManagementTrait
      * @param array $classes Array of class names
      * @return self
      * @access protected
+ * @since v1.0.0 2026-04-13
      */
     protected function setClassAttribute(array $classes): self
     {
@@ -298,8 +317,9 @@ trait CSSManagementTrait
      * It's called by getCSSClasses() to retrieve the current class attribute.
      * 
      * @param string $name Attribute name
-     * @return string|null Attribute value or null if not found
      * @access protected
+     * @return ?string
+ * @since v1.0.5 2026-04-14
      */
     abstract protected function getAttributeValue(string $name): ?string;
 
@@ -313,6 +333,7 @@ trait CSSManagementTrait
      * @param mixed $value Attribute value
      * @return self
      * @access public
+ * @since v1.0.0 2026-04-13
      */
     abstract public function setAttribute(string $name, $value): self;
 }

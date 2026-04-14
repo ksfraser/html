@@ -2,15 +2,17 @@
 
 namespace Ksfraser\HTML\Javascript;
 
-use Ksfraser\HTML\Elements\HtmlString;
+use Ksfraser\HTML\HtmlScriptLanguage;
 
 /**
  * HtmlJSString
  *
  * Semantic wrapper for JavaScript code as an HTML element.
- * Extends HtmlString for clarity: use this when representing inline JS content.
+ * Uses HtmlScriptLanguage so script content is emitted unescaped inside <script> tags.
+ *
+ * @since 1.0.5 2026-02-22
  */
-class HtmlJSString extends HtmlString
+class HtmlJSString extends HtmlScriptLanguage
 {
-    // Inherits getHtml() from HtmlString
+    // Inherits getHtml() from HtmlScriptLanguage (unescaped output)
 }

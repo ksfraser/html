@@ -6,37 +6,38 @@ use Ksfraser\HTML\HtmlElement;
 
 /**
  * TableBuilder - Fluent Table Construction Helper
- * 
+ *
  * Provides convenient methods for building HTML tables with reduced boilerplate.
  * Simplifies table header and row creation from arrays.
- * 
+ *
  * Design Pattern: Builder Pattern
  * - Fluent interface for building complex tables
  * - Encapsulates table construction logic
  * - Reduces code duplication
- * 
+ *
  * SOLID Principles:
  * - Single Responsibility: Only builds table elements
  * - Open/Closed: Can be extended for different table types
  * - Liskov Substitution: Can replace HtmlElement
  * - Interface Segregation: Simple, focused interface
  * - Dependency Inversion: Composes with HTML elements
- * 
+ *
  * Usage:
  * ```php
  * $headers = ['ID', 'Name', 'Email', 'Actions'];
  * $headerRow = TableBuilder::createHeaderRow($headers);
  * $table->appendChild($headerRow);
- * 
+ *
  * // Or with more control:
  * $builder = new TableBuilder();
  * $row = $builder->buildHeaderRow(['Col1', 'Col2', 'Col3']);
  * ```
- * 
+ *
+ *
  * @package    Ksfraser\HTML
  * @author     Kevin Fraser / GitHub Copilot
- * @since      20251220
  * @version    1.0.0
+ * @since 1.0.1 2026-02-16
  */
 class TableBuilder
 {
@@ -55,6 +56,7 @@ class TableBuilder
      * $headerRow = TableBuilder::createHeaderRow($headers);
      * $table->appendChild($headerRow);
      * ```
+ * @since 1.0.1 2026-02-16
      */
     public static function createHeaderRow(array $headers)
     {
@@ -83,6 +85,7 @@ class TableBuilder
      * $dataRow = TableBuilder::createDataRow($data);
      * $table->appendChild($dataRow);
      * ```
+ * @since v1.0.0 2026-04-13
      */
     public static function createDataRow(array $cells)
     {
@@ -101,13 +104,14 @@ class TableBuilder
      * 
      * Instance method for more complex header scenarios.
      * 
-     * @param array  $headers        Array of header text values
-     * @param bool   $escapeHtml     Whether to escape HTML (default: true)
-     * @param string $headerClass    Optional CSS class for header cells
      * 
      * @return HtmlTableRow Table row containing header cells
-     */
-    public function buildHeaderRow(array $headers, $escapeHtml = true, $headerClass = null)
+ * @param array $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @since v1.0.5 2026-04-14
+ */
+public function buildHeaderRow(array $headers, $escapeHtml = true, $headerClass = null)
     {
         $row = new HtmlTableRow(new HtmlString(''));
         
@@ -127,13 +131,14 @@ class TableBuilder
      * 
      * Instance method for more complex row scenarios.
      * 
-     * @param array  $cells         Array of cell text values
-     * @param bool   $escapeHtml    Whether to escape HTML (default: true)
-     * @param string $cellClass     Optional CSS class for data cells
      * 
      * @return HtmlTableRow Table row containing data cells
-     */
-    public function buildDataRow(array $cells, $escapeHtml = true, $cellClass = null)
+ * @param array $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @since v1.0.5 2026-04-14
+ */
+public function buildDataRow(array $cells, $escapeHtml = true, $cellClass = null)
     {
         $row = new HtmlTableRow(new HtmlString(''));
         
@@ -164,6 +169,7 @@ class TableBuilder
      * $attrs = ['class' => 'bg-dark text-white'];
      * $headerRow = (new TableBuilder())->buildStyledHeaderRow($headers, $attrs);
      * ```
+ * @since v1.0.0 2026-04-13
      */
     public function buildStyledHeaderRow(array $headers, array $cellAttrs = [])
     {
@@ -180,3 +186,4 @@ class TableBuilder
         return $row;
     }
 }
+

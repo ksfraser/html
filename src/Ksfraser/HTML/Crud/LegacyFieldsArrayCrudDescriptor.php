@@ -7,6 +7,8 @@ namespace Ksfraser\HTML\Crud;
  * into a CRUD descriptor usable by modern view/builders.
  *
  * Goal: reuse existing schema/field arrays without forcing a rewrite.
+ *
+ * @since 1.0.1 2026-02-16
  */
 class LegacyFieldsArrayCrudDescriptor
 {
@@ -20,13 +22,13 @@ class LegacyFieldsArrayCrudDescriptor
     private $options;
 
     /**
-     * @param array $tableDetails Legacy table_details
-     * @param array $fieldsArray Legacy fields_array
-     * @param array $options Optional overrides:
-     *   - title (string)
-     *   - listColumns (string[])
-     *   - formFields (string[])
-     *   - foreignKeys (array fieldName => foreignKeySpec)
+     * Constructor
+     *
+     * @param array $tableDetails
+     * @param array $fieldsArray
+     * @param array $options
+     * @since 1.0.1 2026-02-16
+ * @return void
      */
     public function __construct(array $tableDetails, array $fieldsArray, array $options = array())
     {
@@ -36,11 +38,12 @@ class LegacyFieldsArrayCrudDescriptor
     }
 
     /**
-     * Build a descriptor from a legacy table_interface-style object.
+     * Create descriptor from legacy object/array
      *
-     * @param object $legacy
+     * @param mixed $legacy
      * @param array $options
      * @return self
+     * @since v1.0.0 2026-04-13
      */
     public static function fromLegacy($legacy, array $options = array())
     {
@@ -54,13 +57,25 @@ class LegacyFieldsArrayCrudDescriptor
             if (isset($legacy->fields_array) && is_array($legacy->fields_array)) {
                 $fieldsArray = $legacy->fields_array;
             }
+        } elseif (is_array($legacy)) {
+            if (isset($legacy['table_details']) && is_array($legacy['table_details'])) {
+                $tableDetails = $legacy['table_details'];
+            }
+            if (isset($legacy['fields_array']) && is_array($legacy['fields_array'])) {
+                $fieldsArray = $legacy['fields_array'];
+            }
         }
 
         return new self($tableDetails, $fieldsArray, $options);
     }
 
-    /** @return string */
-    public function getTitle()
+    /**
+     * Get the descriptor title
+     *
+     * @return string
+     * @since v1.0.0 2026-04-13
+     */
+    public function getTitle(): string
     {
         if (isset($this->options['title']) && $this->options['title'] !== '') {
             return (string) $this->options['title'];
@@ -74,8 +89,13 @@ class LegacyFieldsArrayCrudDescriptor
         return 'CRUD';
     }
 
-    /** @return string */
-    public function getTableName()
+    /**
+     * Get table name
+     *
+     * @return string
+     * @since v1.0.0 2026-04-13
+     */
+    public function getTableName(): string
     {
         if (isset($this->tableDetails['tablename'])) {
             return (string) $this->tableDetails['tablename'];
@@ -86,8 +106,13 @@ class LegacyFieldsArrayCrudDescriptor
         return '';
     }
 
-    /** @return string|null */
-    public function getPrimaryKey()
+    /**
+     * Get primary key name
+     *
+     * @since v1.0.0 2026-04-13
+ * @return ?string
+     */
+    public function getPrimaryKey(): ?string
     {
         if (isset($this->tableDetails['primarykey']) && $this->tableDetails['primarykey'] !== '') {
             return (string) $this->tableDetails['primarykey'];
@@ -98,9 +123,10 @@ class LegacyFieldsArrayCrudDescriptor
     /**
      * Returns field descriptors suitable for building a form.
      *
-     * @return CrudField[]
+     * @since v1.0.0 2026-04-13
+ * @return array
      */
-    public function getFields()
+    public function getFields(): array
     {
         $foreignKeys = isset($this->options['foreignKeys']) && is_array($this->options['foreignKeys'])
             ? $this->options['foreignKeys']
@@ -151,15 +177,17 @@ class LegacyFieldsArrayCrudDescriptor
     }
 
     /**
-     * @return string[]
+     * Get list columns for display
+     *
+     * @since v1.0.0 2026-04-13
+ * @return array
      */
-    public function getListColumns()
+    public function getListColumns(): array
     {
         if (isset($this->options['listColumns']) && is_array($this->options['listColumns'])) {
             return array_values($this->options['listColumns']);
         }
 
-        // Reasonable default: primary key + first few non-text columns.
         $cols = array();
 
         $pk = $this->getPrimaryKey();
@@ -194,14 +222,15 @@ class LegacyFieldsArrayCrudDescriptor
     /**
      * Best-effort inference for HTML input widgets.
      *
-     * @param string $name
-     * @param string $sqlType
-     * @return string One of: text, textarea, number, checkbox, date, datetime, select
+     * @param mixed $name
+     * @param mixed $sqlType
+     * @return string
+ * @since v1.0.5 2026-04-14
      */
-    private function inferInputType($name, $sqlType)
+    private function inferInputType($name, $sqlType): string
     {
-        $nameLower = strtolower($name);
-        $typeLower = strtolower($sqlType);
+        $nameLower = strtolower((string) $name);
+        $typeLower = strtolower((string) $sqlType);
 
         if ($nameLower === 'inactive') {
             return 'checkbox';
@@ -220,8 +249,6 @@ class LegacyFieldsArrayCrudDescriptor
         }
 
         if (preg_match('/\b(int|smallint|bigint)\b/', $typeLower)) {
-            // Heuristic: *_id often means FK and should be a select, but we require explicit FK mapping
-            // to avoid guessing wrong. Keep it number by default.
             return 'number';
         }
 
@@ -237,12 +264,13 @@ class LegacyFieldsArrayCrudDescriptor
     }
 
     /**
-     * @param string $sqlTypeLower
+     * @param mixed $sqlTypeLower
      * @return bool
+ * @since v1.0.5 2026-04-14
      */
-    private function isProbablyLargeText($sqlTypeLower)
+    private function isProbablyLargeText($sqlTypeLower): bool
     {
-        $t = strtolower($sqlTypeLower);
+        $t = strtolower((string) $sqlTypeLower);
         return (strpos($t, 'text') !== false || strpos($t, 'blob') !== false);
     }
 }

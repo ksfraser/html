@@ -5,24 +5,26 @@ use Ksfraser\HTML\Elements\Stylesheet;
 
 /**
  * AbstractStylesheetManager - Generic stylesheet loading with caching and security
- * 
+ *
  * Provides reusable functionality for managing CSS asset loading across any module.
  * Handles stylesheet element rendering, caching for performance, and security.
- * 
+ *
  * Uses the Stylesheet element (extends HtmlElement) to generate properly formatted
  * <link rel="stylesheet"> tags via the HTML builder pattern.
- * 
+ *
  * Subclasses implement the specific stylesheet configuration via:
  * - $commonSheets: Array of common stylesheet names (cached, shared across views)
  * - $viewSheets: Associative array mapping view names to their specific stylesheets
- * 
+ *
  * Compatible with platform-specific asset resolution via asset_url() function:
  * - FrontAccounting: Searches user skin → module → default paths
  * - WordPress: Uses theme/plugin asset paths
  * - SuiteCRM: Uses theme structure
  * - Standalone: Simple path-based resolution
- * 
+ *
+ *
  * @package Ksfraser\HTML
+ * @since 1.0.1 2026-02-16
  */
 abstract class AbstractStylesheetManager {
     /**
@@ -52,6 +54,7 @@ abstract class AbstractStylesheetManager {
      * This is efficient for pages with multiple components of the same module.
      * 
      * @return string HTML rendering of common stylesheet link elements
+ * @since 1.0.1 2026-02-16
      */
     final public static function getCommonStylesheets(): string {
         // Return cached result on subsequent calls
@@ -83,6 +86,7 @@ abstract class AbstractStylesheetManager {
      * 
      * @param string $viewName View identifier (e.g., 'loan-types', 'reporting')
      * @return string HTML rendering of view-specific stylesheet link elements
+ * @since v1.0.0 2026-04-13
      */
     final public static function getViewStylesheets(string $viewName): string {
         if (!function_exists('asset_url')) {
@@ -107,6 +111,7 @@ abstract class AbstractStylesheetManager {
      * 
      * @param string $viewName View identifier
      * @return string HTML rendering of all stylesheet link elements
+ * @since v1.0.0 2026-04-13
      */
     final public static function getStylesheets(string $viewName): string {
         return self::getCommonStylesheets() . self::getViewStylesheets($viewName);
@@ -120,6 +125,7 @@ abstract class AbstractStylesheetManager {
      * 
      * @param string $sheetName Stylesheet name (without .css extension)
      * @return string HTML rendering of <link rel="stylesheet"> element
+ * @since v1.0.0 2026-04-13
      */
     final protected static function buildStylesheetLink(string $sheetName): string
     {
@@ -140,6 +146,7 @@ abstract class AbstractStylesheetManager {
      * Useful for testing or if stylesheets change during execution.
      * 
      * @return void
+ * @since v1.0.0 2026-04-13
      */
     final public static function clearCache(): void {
         self::$commonStylesheetsCache = null;
@@ -148,7 +155,8 @@ abstract class AbstractStylesheetManager {
     /**
      * Get stylesheet loading info (for debugging/documentation)
      * 
-     * @return array<string, mixed> Information about common and view-specific sheets
+     * @return array
+ * @since v1.0.5 2026-04-14
      */
     final public static function getInfo(): array {
         return [

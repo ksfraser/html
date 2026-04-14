@@ -10,23 +10,24 @@ use Exception;
 
 /**
  * HTML_TABLE - Backward-compatible wrapper for table rendering
- * 
+ *
  * This class provides backward compatibility with legacy code that uses HTML_TABLE.
  * It wraps the modern HtmlTable class and maintains the old interface:
  * - appendRow($row) accepts HTML_ROW objects or strings
  * - toHtml() outputs directly to screen (legacy behavior)
  * - getHtml() returns HTML string (modern approach)
- * 
+ *
  * The original HTML_TABLE used FrontAccounting's start_table() and end_table()
  * functions. This wrapper maintains that behavior while using modern OOP.
- * 
- * @deprecated This class exists for backward compatibility only.
+ *
  *             New code should use HtmlTable directly with composition.
+ *
+ *
+ * @deprecated This class exists for backward compatibility only.
  * @see \Ksfraser\HTML\HtmlTable
- * 
  * @package Ksfraser\HTML
- * @since 20251019 - Converted to wrapper
  * @version 20251019.1 - Fixed $rows bug from original (line 127 used $rows instead of $this->rows)
+ * @since v1.0.0 2025-10-31
  */
 class HTML_TABLE implements HtmlElementInterface
 {
@@ -51,10 +52,12 @@ class HTML_TABLE implements HtmlElementInterface
     /**
      * Create a new table
      * 
-     * @param int|null $style FrontAccounting table style (default TABLESTYLE2 = 2, null = 2)
-     * @param int $width Width percentage (default 100)
-     */
-    public function __construct(?int $style = null, int $width = 100)
+ * @param ?int $style
+ * @param int $width
+ * @return void
+ * @since v1.0.0 2025-10-31
+ */
+public function __construct(?int $style = null, int $width = 100)
     {
         $this->style = $style ?? 2;  // null becomes 2
         $this->width = $width;
@@ -67,11 +70,12 @@ class HTML_TABLE implements HtmlElementInterface
      * Accepts either an HTML_ROW object, HtmlElementInterface, or a string.
      * If a string is passed, it will be wrapped in an HTML_ROW automatically.
      * 
-     * @param HTML_ROW|HtmlElementInterface|string $row The row to append
      * @throws Exception If parameter is neither HTML_ROW, HtmlElementInterface, nor string
      * @return void
-     */
-    public function appendRow($row): void
+ * @param mixed $row
+ * @since v1.0.5 2026-04-14
+ */
+public function appendRow($row): void
     {
         if (is_object($row)) {
             if (is_a($row, HTML_ROW::class)) {
@@ -96,6 +100,7 @@ class HTML_TABLE implements HtmlElementInterface
      * Generates standard HTML table tags without relying on global functions.
      * 
      * @return void
+ * @since v1.0.0 2026-04-13
      */
     public function toHtml(): void
     {
@@ -118,6 +123,7 @@ class HTML_TABLE implements HtmlElementInterface
      * This allows for better testability and composition.
      * 
      * @return string The table HTML
+ * @since v1.0.0 2026-04-13
      */
     public function getHtml(): string
     {
@@ -126,3 +132,4 @@ class HTML_TABLE implements HtmlElementInterface
         return ob_get_clean();
     }
 }
+

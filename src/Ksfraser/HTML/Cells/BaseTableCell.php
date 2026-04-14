@@ -5,12 +5,14 @@ use Ksfraser\HTML\Elements\TableData;
 
 /**
  * BaseTableCell - Abstract base for reusable table cells
- * 
+ *
  * SRP: Single responsibility of building specific cell types.
  * Each cell class handles formatting, styling, and content for its domain.
  * Supports fluent interface for optional attributes, IDs, and event handlers.
- * 
+ *
+ *
  * @package Ksfraser\HTML\Cells
+ * @since 1.0.1 2026-02-16
  */
 abstract class BaseTableCell {
     /**
@@ -36,6 +38,7 @@ abstract class BaseTableCell {
      * 
      * @param string $id HTML id attribute
      * @return self
+ * @since 1.0.1 2026-02-16
      */
     public function setId(string $id): self {
         $this->id = $id;
@@ -45,11 +48,12 @@ abstract class BaseTableCell {
     /**
      * Set custom attribute (data-*, aria-*, etc)
      * 
-     * @param string $name Attribute name
-     * @param string $value Attribute value
      * @return self
-     */
-    public function setAttribute(string $name, $value): self {
+ * @param string $name
+ * @param mixed $value
+ * @since v1.0.5 2026-04-14
+ */
+public function setAttribute(string $name, $value): self {
         $this->attributes[$name] = $value;
         return $this;
     }
@@ -59,6 +63,7 @@ abstract class BaseTableCell {
      * 
      * @param string $handler JavaScript function call (e.g., 'editCell(this)')
      * @return self
+ * @since v1.0.0 2026-04-13
      */
     public function setDblClickHandler(string $handler): self {
         $this->dblClickHandler = $handler;
@@ -70,6 +75,7 @@ abstract class BaseTableCell {
      * 
      * @param bool $editable Whether cell should be contenteditable
      * @return self
+ * @since v1.0.0 2026-04-13
      */
     public function setEditable(bool $editable = true): self {
         $this->isEditable = $editable;
@@ -81,6 +87,7 @@ abstract class BaseTableCell {
      * 
      * @param mixed $value The value to display in the cell
      * @return TableData
+ * @since v1.0.0 2026-04-13
      */
     abstract public function build($value): TableData;
 
@@ -90,6 +97,7 @@ abstract class BaseTableCell {
      * @param TableData $cell The cell to configure
      * @return TableData
      * @protected
+ * @since v1.0.0 2026-04-13
      */
     protected function applyAttributes(TableData $cell): TableData {
         if ($this->id) {
@@ -111,3 +119,4 @@ abstract class BaseTableCell {
         return $cell;
     }
 }
+

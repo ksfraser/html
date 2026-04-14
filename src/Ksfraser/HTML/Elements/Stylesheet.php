@@ -6,10 +6,10 @@ use Ksfraser\HTML\HtmlAttribute;
 
 /**
  * Stylesheet - HTML link element for CSS stylesheets
- * 
+ *
  * Extends HtmlEmptyElement to generate properly formatted <link rel="stylesheet"> tags.
  * Provides fluent interface for setting href and rel attributes with security encoding.
- * 
+ *
  * Usage:
  * ```php
  * $stylesheet = (new Stylesheet())
@@ -18,13 +18,17 @@ use Ksfraser\HTML\HtmlAttribute;
  * echo $stylesheet->getHtml();
  * // Output: <link rel="stylesheet" href="https://example.com/styles.css" />
  * ```
- * 
+ *
+ *
  * @package Ksfraser\HTML\Elements
+ * @since v1.0.0 2026-04-11
  */
 class Stylesheet extends HtmlEmptyElement
 {
     /**
      * Constructor - Initialize as self-closing link element
+ * @return void
+ * @since v1.0.0 2026-04-11
      */
     public function __construct()
     {
@@ -40,6 +44,7 @@ class Stylesheet extends HtmlEmptyElement
      * 
      * @param string $url The URL to the stylesheet file
      * @return self Fluent interface for chaining
+ * @since v1.0.0 2026-04-13
      */
     public function setHref(string $url): self
     {
@@ -54,6 +59,7 @@ class Stylesheet extends HtmlEmptyElement
      * 
      * @param string $rel The rel value (default: "stylesheet")
      * @return self Fluent interface for chaining
+ * @since v1.0.0 2026-04-13
      */
     public function setRel(string $rel = 'stylesheet'): self
     {

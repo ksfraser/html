@@ -10,10 +10,14 @@ namespace Ksfraser\HTML;
 /**
  * Interface for HTML elements
  * Provides methods for both direct output and string return of HTML
+ *
+ * @since 1.0.1 2026-02-16
  */
 interface HtmlElementInterface {
     /**
      * Returns HTML string representation
+ * @return string
+ * @since 1.0.1 2026-02-16
      */
     public function getHtml(): string;
 
@@ -28,6 +32,7 @@ interface HtmlElementInterface {
      * rather than returning it.
      *
      * @return void
+ * @since 1.0.1 2026-02-16
      */
     public function toHtml(): void;
 }

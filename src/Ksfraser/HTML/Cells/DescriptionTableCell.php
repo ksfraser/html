@@ -5,11 +5,13 @@ use Ksfraser\HTML\Elements\TableData;
 
 /**
  * DescriptionTableCell - Builds reusable Description cells for any table
- * 
+ *
  * SRP: Single responsibility of formatting Description cells consistently.
  * Handles: Description cell styling, HTML escaping, N/A fallback.
- * 
+ *
+ *
  * @package Ksfraser\HTML\Cells
+ * @since 1.0.1 2026-02-16
  */
 class DescriptionTableCell extends BaseTableCell {
     /**
@@ -17,6 +19,7 @@ class DescriptionTableCell extends BaseTableCell {
      * 
      * @param mixed $description The description value
      * @return TableData
+ * @since 1.0.1 2026-02-16
      */
     public function build($description): TableData {
         $cell = (new TableData())

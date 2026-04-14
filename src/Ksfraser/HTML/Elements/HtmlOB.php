@@ -6,10 +6,10 @@ use Ksfraser\HTML\HtmlElementInterface;
 
 /**
  * HtmlOB - HTML Output Buffer Wrapper
- * 
+ *
  * Captures echoed output from legacy methods and wraps it as HtmlElementInterface.
  * Extends HtmlRaw to avoid HTML entity escaping.
- * 
+ *
  * Usage:
  * ```php
  * // Constructor with callback
@@ -17,13 +17,13 @@ use Ksfraser\HTML\HtmlElementInterface;
  *     $this->displaySomethingThatEchoes();
  * });
  * echo $html->getHtml();
- * 
+ *
  * // Or static capture method
  * $html = HtmlOB::capture(function() {
  *     $this->displaySomethingThatEchoes();
  * });
  * echo $html->getHtml();
- * 
+ *
  * // Or manual start/end
  * $ob = new HtmlOB();
  * $ob->start();
@@ -31,9 +31,10 @@ use Ksfraser\HTML\HtmlElementInterface;
  * $ob->end();
  * echo $ob->getHtml();
  * ```
- * 
+ *
+ *
  * @package HTML
- * @since 20251021
+ * @since v1.0.0 2026-04-11
  */
 class HtmlOB extends HtmlRaw
 {
@@ -42,6 +43,7 @@ class HtmlOB extends HtmlRaw
 	 * 
 	 * @param callable $callback The function that echoes HTML
 	 * @return HtmlOB Instance containing the captured output
+ * @since v1.0.0 2026-04-11
 	 */
 	public static function capture(callable $callback): HtmlOB
 	{
@@ -51,9 +53,11 @@ class HtmlOB extends HtmlRaw
 	/**
 	 * Constructor - captures output from callable or accepts pre-captured string
 	 * 
-	 * @param callable|string|null $input Callable to capture, pre-captured string, or null for manual start/end
-	 */
-	public function __construct($input = null)
+ * @param mixed $input
+ * @return void
+ * @since v1.0.5 2026-04-14
+ */
+public function __construct($input = null)
 	{
 		if (is_callable($input)) {
 			// Capture output from callable
@@ -75,6 +79,7 @@ class HtmlOB extends HtmlRaw
 	 * Call this, then do your echoes, then call end()
 	 * 
 	 * @return void
+ * @since v1.0.0 2026-04-13
 	 */
 	public function start(): void
 	{
@@ -85,6 +90,7 @@ class HtmlOB extends HtmlRaw
 	 * End output buffering and capture the output
 	 * 
 	 * @return string The captured HTML
+ * @since v1.0.0 2026-04-13
 	 */
 	public function end(): string
 	{
@@ -92,3 +98,4 @@ class HtmlOB extends HtmlRaw
 		return $this->html;
 	}
 }
+

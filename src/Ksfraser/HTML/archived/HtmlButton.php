@@ -4,19 +4,34 @@ namespace Ksfraser\HTML\HTMLAtomic;
 
 use Ksfraser\HTML\HtmlElementInterface;
 
-/**//****************************************
-* Buttons use Javascript
-*
-* @since 20250517
-*/
+/**
+ * Buttons use Javascript
+ *
+ *
+ * @since 1.0.1 2026-02-16
+ */
 class HtmlButton extends HtmlElement
 {
 	//can have style, alt.  MUST HAVE src
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @param HtmlElementInterface $data
+ * @return void
+ */
 	function __construct( HtmlElementInterface $data )
 	{
 		parent::__construct( $data );
 		$this->tag = "button";
 	}
+/**
+ * setOnclick
+ *
+ * @since 1.0.1 2026-02-16
+ * @param HtnlAttribute $onclick
+ * @return void
+ */
 	function setOnclick( HtnlAttribute $onclick )
 	{
 			//onclick="document.location='default.asp'"

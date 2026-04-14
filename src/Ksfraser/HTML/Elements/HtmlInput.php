@@ -9,8 +9,6 @@ use Ksfraser\HTML\HtmlAttribute;
 /**
  * Base class for generating HTML <input> elements
  *
- * @link https://www.w3schools.com/tags/tag_input.asp
- * @since 20251019
  *
  * Input elements can have the following attributes:
  * - accept (FILE ONLY)
@@ -34,7 +32,10 @@ use Ksfraser\HTML\HtmlAttribute;
  * - type (text, password, submit, reset, button, etc.)
  * - value
  *
+ *
+ * @link https://www.w3schools.com/tags/tag_input.asp
  * @package Ksfraser\HTML
+ * @since v1.0.0 2026-04-11
  */
 class HtmlInput extends HtmlEmptyElement
 {
@@ -49,6 +50,8 @@ class HtmlInput extends HtmlEmptyElement
 	 *
 	 * @param HtmlElementInterface $data (ignored, for consistency)
 	 * @param string $type The input type (text, password, email, etc.)
+ * @return void
+ * @since v1.0.0 2026-04-11
 	 */
 	function __construct( HtmlElementInterface $data = null, string $type = "text" )
 	{
@@ -63,6 +66,7 @@ class HtmlInput extends HtmlEmptyElement
 	 *
 	 * @param string $name The name attribute value
 	 * @return self Fluent interface
+ * @since v1.0.0 2026-04-13
 	 */
 	public function setName( string $name ): self
 	{
@@ -75,6 +79,7 @@ class HtmlInput extends HtmlEmptyElement
 	 *
 	 * @param string $value The value attribute
 	 * @return self (Fluent interface)
+ * @since v1.0.0 2026-04-13
 	 */
 	public function setValue( string $value ): self
 	{
@@ -87,6 +92,7 @@ class HtmlInput extends HtmlEmptyElement
 	 *
 	 * @param string $placeholder The placeholder text
 	 * @return self Fluent interface
+ * @since v1.0.0 2026-04-13
 	 */
 	public function setPlaceholder( string $placeholder ): self
 	{

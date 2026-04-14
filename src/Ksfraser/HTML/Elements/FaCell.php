@@ -11,6 +11,8 @@ use Ksfraser\HTML\Elements\HtmlString;
  *
  * Generates HTML table cell (td) with FA-specific functionality,
  * matching the output of label_cells and similar functions.
+ *
+ * @since v1.0.0 2026-04-11
  */
 class FaCell extends HtmlTd
 {
@@ -19,10 +21,12 @@ class FaCell extends HtmlTd
     /**
      * Constructor
      *
-     * @param string $content Cell content
-     * @param string $extra Additional attributes
-     */
-    public function __construct($content = "", $extra = "")
+ * @param mixed $content
+ * @param mixed $extra
+ * @return void
+ * @since v1.0.0 2026-04-11
+ */
+public function __construct($content = "", $extra = "")
     {
         parent::__construct(new HtmlString($content));
         $this->extra = $extra;
@@ -33,6 +37,8 @@ class FaCell extends HtmlTd
 
     /**
      * Set cell attributes based on extra parameter
+ * @return void
+ * @since v1.0.0 2026-04-13
      */
     private function setCellAttributes()
     {
@@ -43,6 +49,8 @@ class FaCell extends HtmlTd
 
     /**
      * Parse extra attributes string
+ * @return void
+ * @since v1.0.0 2026-04-13
      */
     private function parseExtraAttributes()
     {

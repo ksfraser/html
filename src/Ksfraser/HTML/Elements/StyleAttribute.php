@@ -19,9 +19,18 @@ use Ksfraser\HTML\HtmlAttribute;
  *     text-align
  *
  *   This is INLINE CSS. There is also Internal CSS (see HtmlStyle).
+ *
+ * @since v1.0.0 2026-04-11
  */
 class StyleAttribute extends HtmlAttribute
 {
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-13
+ * @param string $value
+ * @return void
+ */
     public function __construct(string $value)
     {
         parent::__construct('style', $value);

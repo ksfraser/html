@@ -5,11 +5,13 @@ use Ksfraser\HTML\Elements\TableData;
 
 /**
  * AmountTableCell - Builds Amount cells for loan tables
- * 
+ *
  * SRP: Single responsibility of formatting Amount cells consistently.
  * Handles: Currency formatting, cell styling, N/A fallback.
- * 
+ *
+ *
  * @package Ksfraser\HTML\Cells
+ * @since 1.0.1 2026-02-16
  */
 class AmountTableCell extends BaseTableCell {
     /**
@@ -17,6 +19,7 @@ class AmountTableCell extends BaseTableCell {
      * 
      * @param mixed $amount The amount value
      * @return TableData
+ * @since 1.0.1 2026-02-16
      */
     public function build($amount): TableData {
         $amountText = isset($amount) 

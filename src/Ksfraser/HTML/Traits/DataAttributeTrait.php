@@ -10,13 +10,14 @@ namespace Ksfraser\HTML\Traits;
  *   $element->setData('userId', '123');
  *   $element->setData('config', ['key' => 'value']);
  *   echo $element->getData('userId'); // "123"
- *   
+ *
  *   $element
  *       ->setData('type', 'widget')
  *       ->setData('version', '2.0');
  *
+ *
  * @package Ksfraser\HTML\Traits
- * @since 1.0
+ * @since 1.0.5 2026-03-30
  */
 trait DataAttributeTrait
 {
@@ -44,6 +45,7 @@ trait DataAttributeTrait
      *   $element->setData('userId', '123');
      *   $element->setData('config', ['key' => 'value']);
      *   $element->setData('active', true);
+ * @since 1.0.5 2026-03-30
      */
     public function setData(string $key, mixed $value): self
     {
@@ -64,6 +66,7 @@ trait DataAttributeTrait
      *
      * @example
      *   $value = $element->getData('userId'); // "123"
+ * @since v1.0.0 2026-04-13
      */
     public function getData(string $key): mixed
     {
@@ -81,6 +84,7 @@ trait DataAttributeTrait
      *   if ($element->hasData('userId')) {
      *       echo $element->getData('userId');
      *   }
+ * @since v1.0.0 2026-04-13
      */
     public function hasData(string $key): bool
     {
@@ -99,6 +103,7 @@ trait DataAttributeTrait
      * @example
      *   $element->removeData('userId');
      *   $element->removeData('nonexistent'); // No error
+ * @since v1.0.0 2026-04-13
      */
     public function removeData(string $key): self
     {
@@ -113,6 +118,7 @@ trait DataAttributeTrait
      *
      * @example
      *   $element->clearData();
+ * @since v1.0.0 2026-04-13
      */
     public function clearData(): self
     {
@@ -137,6 +143,7 @@ trait DataAttributeTrait
      *       'userName' => 'John',
      *       'role' => 'admin'
      *   ]);
+ * @since v1.0.0 2026-04-13
      */
     public function setDataAttributes(array $data): self
     {
@@ -156,6 +163,7 @@ trait DataAttributeTrait
      * @example
      *   $all = $element->getAllData();
      *   // ['userId' => '123', 'userName' => 'John']
+ * @since v1.0.0 2026-04-13
      */
     public function getAllData(): array
     {
@@ -186,6 +194,7 @@ trait DataAttributeTrait
      * @example
      *   $html = $element->renderDataAttributes();
      *   // ' data-userId="123" data-active="true"'
+ * @since v1.0.0 2026-04-13
      */
     protected function renderDataAttributes(): string
     {
@@ -226,6 +235,7 @@ trait DataAttributeTrait
      * @param mixed $value The value to convert
      *
      * @return string The string representation
+ * @since v1.0.0 2026-04-13
      */
     private function convertDataValueToString(mixed $value): string
     {

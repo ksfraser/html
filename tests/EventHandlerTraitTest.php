@@ -15,18 +15,35 @@ namespace Ksfraser\HTML\Tests;
 use PHPUnit\Framework\TestCase;
 
 // Simple test element class
+/**
+ * class EventTestElement
+ *
+ * @since 1.0.5 2026-03-30
+ */
 class EventTestElement {
     use \Ksfraser\HTML\Traits\EventHandlerTrait;
     use \Ksfraser\HTML\Traits\CSSManagementTrait;
     
-    protected $tag = 'div';
+    public $tag = 'div';
     protected $nested = [];
     protected $attributeList;
     
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     public function __construct() {
         $this->attributeList = new \Ksfraser\HTML\HtmlAttributeList();
     }
     
+/**
+ * getHtml
+ *
+ * @since 1.0.5 2026-03-30
+ * @return string
+ */
     public function getHtml(): string {
         $html = '<' . $this->tag;
         $html .= ' ' . $this->attributeList->getHtml();
@@ -35,25 +52,57 @@ class EventTestElement {
         return $html;
     }
     
+/**
+ * __toString
+ *
+ * @since 1.0.5 2026-03-30
+ * @return string
+ */
     public function __toString(): string {
         return $this->getHtml();
     }
     
+/**
+ * setAttribute
+ *
+ * @since 1.0.5 2026-03-30
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
     public function setAttribute(string $name, $value): self {
         $attr = new \Ksfraser\HTML\HtmlAttribute($name, new \Ksfraser\HTML\Elements\HtmlString($value));
         $this->attributeList->setAttribute($attr);
         return $this;
     }
     
+/**
+ * getAttributeValue
+ *
+ * @since 1.0.5 2026-03-30
+ * @param string $name
+ * @return ?string
+ */
     public function getAttributeValue(string $name): ?string {
         return $this->attributeList->getAttributeValue($name);
     }
 }
 
+/**
+ * class EventHandlerTraitTest
+ *
+ * @since 1.0.5 2026-03-30
+ */
 class EventHandlerTraitTest extends TestCase
 {
     private EventTestElement $element;
 
+/**
+ * setUp
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     protected function setUp(): void
     {
         $this->element = new EventTestElement();
@@ -65,6 +114,8 @@ class EventHandlerTraitTest extends TestCase
      * @test
      * @group FR-007
      * @group event-handlers
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testOnClickAddsClickHandler(): void
     {
@@ -77,6 +128,8 @@ class EventHandlerTraitTest extends TestCase
      * @test
      * @group FR-007
      * @group event-handlers
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testOnClickReturnsElement(): void
     {
@@ -88,6 +141,8 @@ class EventHandlerTraitTest extends TestCase
      * @test
      * @group FR-007
      * @group event-handlers
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testOnClickRendersCorrectly(): void
     {
@@ -103,6 +158,8 @@ class EventHandlerTraitTest extends TestCase
      * @test
      * @group FR-007
      * @group event-handlers
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testOnChangeAddsChangeHandler(): void
     {
@@ -115,6 +172,8 @@ class EventHandlerTraitTest extends TestCase
      * @test
      * @group FR-007
      * @group event-handlers
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testOnSubmitAddsSubmitHandler(): void
     {
@@ -127,6 +186,8 @@ class EventHandlerTraitTest extends TestCase
      * @test
      * @group FR-007
      * @group event-handlers
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testOnFocusAddsFocusHandler(): void
     {
@@ -139,6 +200,8 @@ class EventHandlerTraitTest extends TestCase
      * @test
      * @group FR-007
      * @group event-handlers
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testOnBlurAddsBlurHandler(): void
     {
@@ -151,6 +214,8 @@ class EventHandlerTraitTest extends TestCase
      * @test
      * @group FR-007
      * @group event-handlers
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testOnKeyPressAddsKeyPressHandler(): void
     {
@@ -163,6 +228,8 @@ class EventHandlerTraitTest extends TestCase
      * @test
      * @group FR-007
      * @group event-handlers
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testOnKeyDownAddsKeyDownHandler(): void
     {
@@ -175,6 +242,8 @@ class EventHandlerTraitTest extends TestCase
      * @test
      * @group FR-007
      * @group event-handlers
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testOnKeyUpAddsKeyUpHandler(): void
     {
@@ -187,6 +256,8 @@ class EventHandlerTraitTest extends TestCase
      * @test
      * @group FR-007
      * @group event-handlers
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testOnMouseEnterAddsMouseEnterHandler(): void
     {
@@ -199,6 +270,8 @@ class EventHandlerTraitTest extends TestCase
      * @test
      * @group FR-007
      * @group event-handlers
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testOnMouseLeaveAddsMouseLeaveHandler(): void
     {
@@ -211,6 +284,8 @@ class EventHandlerTraitTest extends TestCase
      * @test
      * @group FR-007
      * @group event-handlers
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testOnMouseOverAddsMouseOverHandler(): void
     {
@@ -223,6 +298,8 @@ class EventHandlerTraitTest extends TestCase
      * @test
      * @group FR-007
      * @group event-handlers
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testOnMouseOutAddsMouseOutHandler(): void
     {
@@ -235,6 +312,8 @@ class EventHandlerTraitTest extends TestCase
      * @test
      * @group FR-007
      * @group event-handlers
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testOnDoubleClickAddsDoubleClickHandler(): void
     {
@@ -247,6 +326,8 @@ class EventHandlerTraitTest extends TestCase
      * @test
      * @group FR-007
      * @group event-handlers
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testOnLoadAddsLoadHandler(): void
     {
@@ -259,6 +340,8 @@ class EventHandlerTraitTest extends TestCase
      * @test
      * @group FR-007
      * @group event-handlers
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testOnErrorAddsErrorHandler(): void
     {
@@ -271,6 +354,8 @@ class EventHandlerTraitTest extends TestCase
      * @test
      * @group FR-007
      * @group event-handlers
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testOnInputAddsInputHandler(): void
     {
@@ -283,6 +368,8 @@ class EventHandlerTraitTest extends TestCase
      * @test
      * @group FR-007
      * @group event-handlers
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testOnScrollAddsScrollHandler(): void
     {
@@ -295,6 +382,8 @@ class EventHandlerTraitTest extends TestCase
      * @test
      * @group FR-007
      * @group event-handlers
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testOnWheelAddsWheelHandler(): void
     {
@@ -310,6 +399,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group escaping
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testEventHandlerCodeEscapesQuotes(): void
     {
@@ -319,7 +410,7 @@ class EventHandlerTraitTest extends TestCase
         // Should be properly escaped in HTML attribute
         $this->assertStringContainsString('onclick=', $html);
         // Quotes should be escaped or enclosed properly
-        $this->assertNotContainsString("It's working", $html);
+        $this->assertStringNotContainsString("It's working", $html);
     }
 
     /**
@@ -327,6 +418,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group escaping
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testEventHandlerCodeEscapesDoubleQuotes(): void
     {
@@ -343,6 +436,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group escaping
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testEventHandlerCodeEscapesLessThan(): void
     {
@@ -359,6 +454,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group escaping
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testEventHandlerCodeEscapesGreaterThan(): void
     {
@@ -375,6 +472,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group escaping
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testEventHandlerCodeEscapesAmpersand(): void
     {
@@ -391,6 +490,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group multiple
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testMultipleClickHandlersReplaced(): void
     {
@@ -408,6 +509,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group multiple
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testDifferentEventHandlers(): void
     {
@@ -428,6 +531,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group chaining
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testEventHandlersChainWithCSSClasses(): void
     {
@@ -450,6 +555,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group chaining
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testEventChainMultipleHandlers(): void
     {
@@ -472,6 +579,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group chaining
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testEventChainWithAttributes(): void
     {
@@ -496,6 +605,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testEmptyEventHandlerCode(): void
     {
@@ -510,6 +621,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testWhitespaceOnlyEventHandlerCode(): void
     {
@@ -524,6 +637,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testComplexJavaScriptCode(): void
     {
@@ -544,6 +659,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testVeryLongEventHandlerCode(): void
     {
@@ -558,6 +675,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testEventHandlerWithNewlines(): void
     {
@@ -574,6 +693,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group integration
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testEventHandlerWithButtonElement(): void
     {
@@ -598,6 +719,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group integration
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testEventHandlerWithFormElement(): void
     {
@@ -619,6 +742,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group integration
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testEventHandlerWithInputElement(): void
     {
@@ -642,6 +767,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group integration
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testEventHandlerWithMouseInteractionChain(): void
     {
@@ -665,6 +792,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group integration
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testEventHandlerPreservesOtherAttributes(): void
     {
@@ -692,6 +821,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group regression
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testExistingSetAttributeStillWorks(): void
     {
@@ -705,6 +836,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group regression
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testEventHandlerDoesNotBreakCSSClasses(): void
     {
@@ -723,6 +856,8 @@ class EventHandlerTraitTest extends TestCase
      * @group FR-007
      * @group event-handlers
      * @group regression
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testEventHandlerDoesNotBreakAttributes(): void
     {

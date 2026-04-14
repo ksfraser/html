@@ -12,11 +12,13 @@ use Ksfraser\HTML\FAButtons\DeleteTypeActionButton;
 
 /**
  * LoanTypeTableRow - Builds loan type table rows
- * 
+ *
  * SRP: Single responsibility of building a loan type row from loan type data.
  * Handles: Row structure and action buttons. Uses cell classes for content cells.
- * 
+ *
+ *
  * @package Ksfraser\HTML\Rows
+ * @since 1.0.1 2026-02-16
  */
 class LoanTypeTableRow extends BaseTableRow {
     /**
@@ -24,6 +26,7 @@ class LoanTypeTableRow extends BaseTableRow {
      * 
      * @param object $type Loan type object with id, name, description
      * @return TableRow
+ * @since 1.0.1 2026-02-16
      */
     public function build(object $type): TableRow {
         $row = (new TableRow())->addClass('data-row');

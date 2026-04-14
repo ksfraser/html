@@ -8,16 +8,20 @@ use Ksfraser\HTML\JS\HtmlJsEventTrait;
 
 /**
  * HtmlButton - HTML <button> element abstraction
- * @since 20250517
+ *
+ * @since 1.0.4 2026-02-21
  */
 class HtmlButton extends HtmlElement {
     use \Ksfraser\HTML\JS\HtmlJsEventTrait;
 
     /**
      * Constructor
-     * @param HtmlElementInterface|null $data Optional content
+     *
+     * @param string|HtmlElementInterface|null $data Optional initial content or nested element
+ * @return void
+ * @since 1.0.4 2026-02-21
      */
-    public function __construct(HtmlElementInterface $data = null) {
+    public function __construct(string|HtmlElementInterface|null $data = null) {
         parent::__construct($data);
         $this->setTag('button');
     }

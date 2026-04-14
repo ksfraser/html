@@ -5,6 +5,11 @@ namespace Ksfraser\HTML;
 use Ksfraser\HTML\HtmlElementInterface;
 
 
+/**
+ * class HtmlAttribute
+ *
+ * @since 1.0.1 2026-02-16
+ */
 class HtmlAttribute implements HtmlElementInterface
 {
 	/**********
@@ -17,6 +22,14 @@ class HtmlAttribute implements HtmlElementInterface
 	*/
 	protected $attribute;	//Key
 	protected $value;	//Value
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-13
+ * @param mixed $attribute
+ * @param mixed $value
+ * @return void
+ */
 	function __construct( $attribute, $value )
 	{
 		// Valid HTML attribute name: must start with a letter and contain only letters, digits, hyphens, or underscores
@@ -29,6 +42,7 @@ class HtmlAttribute implements HtmlElementInterface
 	/**
 	 * Output the HTML string directly
 	 * @return void
+ * @since v1.0.0 2026-04-13
 	 */
 	public function toHtml(): void {
 		echo $this->getHtml();
@@ -36,6 +50,7 @@ class HtmlAttribute implements HtmlElementInterface
 	/**
 	 * Get the HTML string for this attribute
 	 * @return string The attribute in format: name="value"
+ * @since v1.0.0 2026-04-13
 	 */
 	public function getHtml(): string {
 		if (strlen($this->attribute) > 0) {
@@ -51,11 +66,23 @@ class HtmlAttribute implements HtmlElementInterface
 		return "";
 	}
 
+/**
+ * getName
+ *
+ * @since 1.0.1 2026-02-16
+ * @return string
+ */
     public function getName(): string
     {
         return $this->attribute;
     }
 
+/**
+ * getValue
+ *
+ * @since 1.0.1 2026-02-16
+ * @return string
+ */
     public function getValue(): string
     {
 		$value = $this->value;

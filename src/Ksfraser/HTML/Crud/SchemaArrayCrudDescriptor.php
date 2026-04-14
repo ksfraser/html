@@ -5,8 +5,9 @@ namespace Ksfraser\HTML\Crud;
 /**
  * CRUD descriptor adapter for a single schema array.
  *
- * This is the "one file truth" path: a single schema descriptor contains
- * column + UI hints; this class normalizes it into CrudField objects.
+ * Normalizes schema descriptors into CrudField objects.
+ *
+ * @since 1.0.1 2026-02-16
  */
 class SchemaArrayCrudDescriptor
 {
@@ -14,15 +15,24 @@ class SchemaArrayCrudDescriptor
     private $schema;
 
     /**
-     * @param array $schema A schema descriptor array (see fa_classes schema examples)
+     * Constructor
+     *
+     * @param array $schema
+     * @since 1.0.1 2026-02-16
+ * @return void
      */
     public function __construct(array $schema)
     {
         $this->schema = $schema;
     }
 
-    /** @return string */
-    public function getTitle()
+    /**
+     * Get the title for the schema
+     *
+     * @return string
+     * @since v1.0.0 2026-04-13
+     */
+    public function getTitle(): string
     {
         if (isset($this->schema['ui']['title']) && $this->schema['ui']['title'] !== '') {
             return (string) $this->schema['ui']['title'];
@@ -33,14 +43,24 @@ class SchemaArrayCrudDescriptor
         return 'CRUD';
     }
 
-    /** @return string */
-    public function getTable()
+    /**
+     * Get table name
+     *
+     * @return string
+     * @since v1.0.0 2026-04-13
+     */
+    public function getTable(): string
     {
         return isset($this->schema['table']) ? (string) $this->schema['table'] : '';
     }
 
-    /** @return string|null */
-    public function getPrimaryKey()
+    /**
+     * Get primary key name
+     *
+     * @since v1.0.0 2026-04-13
+ * @return ?string
+     */
+    public function getPrimaryKey(): ?string
     {
         if (isset($this->schema['primaryKey']) && $this->schema['primaryKey'] !== '') {
             return (string) $this->schema['primaryKey'];
@@ -49,9 +69,12 @@ class SchemaArrayCrudDescriptor
     }
 
     /**
-     * @return CrudField[]
+     * Get field descriptors
+     *
+     * @since v1.0.0 2026-04-13
+ * @return array
      */
-    public function getFields()
+    public function getFields(): array
     {
         $fields = array();
 
@@ -111,9 +134,12 @@ class SchemaArrayCrudDescriptor
     }
 
     /**
-     * @return string[]
+     * Get list columns
+     *
+     * @since v1.0.0 2026-04-13
+ * @return array
      */
-    public function getListColumns()
+    public function getListColumns(): array
     {
         if (isset($this->schema['ui']['listColumns']) && is_array($this->schema['ui']['listColumns'])) {
             return array_values($this->schema['ui']['listColumns']);
@@ -145,14 +171,17 @@ class SchemaArrayCrudDescriptor
     }
 
     /**
-     * @param string $name
-     * @param string $sqlType
+     * Infer input widget
+     *
+     * @param mixed $name
+     * @param mixed $sqlType
      * @return string
+ * @since v1.0.5 2026-04-14
      */
-    private function inferInputType($name, $sqlType)
+    private function inferInputType($name, $sqlType): string
     {
-        $nameLower = strtolower($name);
-        $typeLower = strtolower($sqlType);
+        $nameLower = strtolower((string) $name);
+        $typeLower = strtolower((string) $sqlType);
 
         if ($nameLower === 'inactive') {
             return 'checkbox';

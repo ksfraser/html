@@ -3,12 +3,29 @@ use PHPUnit\Framework\TestCase;
 use Ksfraser\HTML\HtmlFragment;
 use Ksfraser\HTML\HtmlElementInterface;
 
+/**
+ * class HtmlFragmentTest
+ *
+ * @since 1.0.3 2026-02-21
+ */
 class HtmlFragmentTest extends TestCase {
+/**
+ * testImplementsInterface
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     public function testImplementsInterface() {
         $fragment = new HtmlFragment();
         $this->assertInstanceOf(HtmlElementInterface::class, $fragment);
     }
 
+/**
+ * testAddChildReturnsSelf
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testAddChildReturnsSelf() {
         $fragment = new HtmlFragment();
         $child = $this->getMockBuilder(HtmlElementInterface::class)->getMock();
@@ -16,6 +33,12 @@ class HtmlFragmentTest extends TestCase {
         $this->assertSame($fragment, $result);
     }
 
+/**
+ * testGetHtmlWithChild
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testGetHtmlWithChild() {
         $fragment = new HtmlFragment();
         $mock = $this->getMockBuilder(HtmlElementInterface::class)->getMock();
@@ -25,6 +48,12 @@ class HtmlFragmentTest extends TestCase {
         $this->assertStringContainsString('<span>child</span>', $html);
     }
 
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testToHtmlOutputsHtml() {
         $fragment = new HtmlFragment();
         $mock = $this->getMockBuilder(HtmlElementInterface::class)->getMock();
@@ -36,6 +65,12 @@ class HtmlFragmentTest extends TestCase {
         $this->assertStringContainsString('<div>frag</div>', $output);
     }
 
+/**
+ * testEdgeCasesEmptyFragment
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testEdgeCasesEmptyFragment() {
         $fragment = new HtmlFragment();
         $html = $fragment->getHtml();

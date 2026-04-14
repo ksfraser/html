@@ -7,19 +7,31 @@ use Ksfraser\HTML\HtmlScriptLanguage;
 
 /**
  * Abstract HtmlScript - Template for script tag subclasses
- * 
+ *
  * Provides common logic for script tags. Subclasses should specify script type and content.
- * 
+ *
+ *
+ *
  * @package Ksfraser\HTML
+ * @since v1.0.0 2026-04-11
  */
-abstract class HtmlScript extends HtmlElement
+class HtmlScript extends HtmlElement
 {
     /**
-     * Protected constructor for script tag subclasses
-     */
-    protected function __construct()
+     * Constructor for script elements
+     *
+ * @param ?string $type
+ * @param mixed $content
+ * @return void
+ * @since v1.0.0 2026-04-11
+ */
+public function __construct(?string $type = null, $content = null)
     {
-        parent::__construct();
+        parent::__construct($content);
         $this->tag = 'script';
+        if ($type !== null) {
+            $this->setAttribute('type', $type);
+        }
     }
 }
+

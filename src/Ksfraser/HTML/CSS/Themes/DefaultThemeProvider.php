@@ -7,17 +7,38 @@ use Ksfraser\HTML\CSS\CSSProviderInterface;
 /**
  * DefaultThemeProvider - Default application theme CSS provider
  * Provides the standard look and feel for the application
+ *
+ * @since v1.0.0 2025-09-08
  */
 class DefaultThemeProvider implements CSSProviderInterface {
     
+/**
+ * getName
+ *
+ * @since v1.0.0 2026-04-13
+ * @return void
+ */
     public function getName() {
         return 'default';
     }
     
+/**
+ * supportsTheme
+ *
+ * @since v1.0.0 2025-09-08
+ * @param mixed $theme
+ * @return void
+ */
     public function supportsTheme($theme) {
         return $theme === 'default' || $theme === 'light';
     }
     
+/**
+ * getCSS
+ *
+ * @since v1.0.0 2025-09-08
+ * @return void
+ */
     public function getCSS() {
         return '
         /* Default Theme Enhancements */

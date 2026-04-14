@@ -4,9 +4,20 @@ namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlElementInterface;
 
+/**
+ * class HtmlInternalCSSList
+ *
+ * @since v1.0.0 2026-04-11
+ */
 class HtmlInternalCSSList extends HtmlStyleList 
 {
  
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-13
+ * @return void
+ */
 	function getHtml()
 	{
 		if( count( $this->styleArray ) > 0 )

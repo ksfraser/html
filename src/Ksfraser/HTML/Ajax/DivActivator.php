@@ -6,6 +6,8 @@ namespace Ksfraser\HTML\Ajax;
 
 /**
  * SRP utility for activating FrontAccounting Ajax targets by DIV id.
+ *
+ * @since 1.0.1 2026-02-20
  */
 final class DivActivator
 {
@@ -14,6 +16,7 @@ final class DivActivator
      *
      * @param string $divId
      * @return bool True when activation was attempted successfully.
+ * @since 1.0.1 2026-02-20
      */
     public static function activate(string $divId): bool
     {
@@ -34,6 +37,7 @@ final class DivActivator
      * Convenience method for the common bank import target.
      *
      * @return bool
+ * @since v1.0.0 2026-04-13
      */
     public static function activateDocTable(): bool
     {

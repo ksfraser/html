@@ -13,21 +13,35 @@ use Ksfraser\HTML\HtmlElementInterface;
  * If HtmlString is refactored or its implementation changes, HtmlNameValue should be re-examined for correctness.
  *
  * NOTE: For semantic clarity, use HtmlJSString when representing JavaScript content in HTML elements (e.g., <script> tags).
+ *
+ * @since v1.0.0 2026-04-11
  */
 class HtmlString implements HtmlElementInterface
 {
 
         protected $string;
 
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-13
+ * @param mixed $string
+ * @return void
+ */
         public function __construct( $string )
         {
-                $this->string = $string;
+                if ($string instanceof \Ksfraser\HTML\HtmlElementInterface) {
+                    $this->string = $string->getHtml();
+                } else {
+                    $this->string = (string)$string;
+                }
         }
         /**
          * Renders the object in HTML.
          * The Html is echoed directly into the output.
          * 
          * @return void
+ * @since v1.0.0 2026-04-13
          */
         public function toHtml(): void {
                 echo $this->getHtml();
@@ -37,6 +51,7 @@ class HtmlString implements HtmlElementInterface
          * Get HTML representation as string
          * 
          * @return string HTML-escaped string
+ * @since v1.0.0 2026-04-13
          */
         public function getHtml(): string
         {

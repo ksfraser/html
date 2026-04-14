@@ -3,7 +3,18 @@ use PHPUnit\Framework\TestCase;
 use Ksfraser\HTML\Elements\HtmlMeta;
 use Ksfraser\HTML\Elements\HtmlString;
 
+/**
+ * class HtmlMetaTest
+ *
+ * @since 1.0.5 2026-02-22
+ */
 class HtmlMetaTest extends TestCase {
+/**
+ * testMetaTagRendersCorrectly
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     public function testMetaTagRendersCorrectly() {
         $meta = new HtmlMeta(new HtmlString(''));
         $meta->setAttribute('charset', 'UTF-8');
@@ -13,6 +24,12 @@ class HtmlMetaTest extends TestCase {
         $this->assertStringEndsWith(' />', $html);
     }
 
+/**
+ * testMetaTagWithoutAttributes
+ *
+ * @since 1.0.5 2026-02-22
+ * @return void
+ */
     public function testMetaTagWithoutAttributes() {
         $meta = new HtmlMeta(new HtmlString(''));
         $html = $meta->getHtml();

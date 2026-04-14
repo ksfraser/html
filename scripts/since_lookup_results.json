@@ -1,0 +1,801 @@
+{
+  "summary": {
+    "totalChecked": 113,
+    "creation": 0,
+    "earliestTagged": 78,
+    "fallback": 35
+  },
+  "results": [
+    {
+      "file": "src/Ksfraser/HTML/Ajax/DivActivator.php",
+      "method": "earliestTaggedCommit",
+      "commit": "725b0eca51503856a6d85f956a9babb3f1bdf603",
+      "date": "2026-02-20",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/class.VIEW_AMOUNT_CELL.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/class.VIEW_CELL.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/class.VIEW_DATE_CELL.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/class.VIEW_DIV.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/class.VIEW_FORM.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/class.VIEW_ROW.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/class.VIEW_SUBMIT_CELL.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/class.VIEW_TABLE.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/class.VIEW_TABLE_TD.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/class.VIEW_TABLE_TH.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlA.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlB.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlBody.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlBold.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlBr.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlDd.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlDel.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlDeleted.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlDescriptionDescription.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlDescriptionList.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlDescriptionTerm.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlDiv.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlDl.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlDt.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlEm.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlEmail.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlEmphasize.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlExternalCSS.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlHead.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlHeading.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlHr.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlHtml.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlI.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlImage.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlImg.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlIns.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlInserted.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlInternalCSS.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlInternalCSSList.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlInternalCSSListList.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlItalic.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlLi.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlLink.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlListItem.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlMark.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlOl.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlOrderedList.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlP.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlParagraph.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlPre.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlPreformatted.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlSmall.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlSpan.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlString.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlStrong.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlStyle.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlStyleList.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlSub.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlSubscript.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlSup.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlSuperscript.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlTable.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlTableBody.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlTableCaption.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlTableCol.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlTableColGroup.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlTableFoot.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlTableHead.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlTableHeaderCell.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlTableRow.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlTableRowCell.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlTd.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlTh.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlTitle.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlUl.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/archived/HtmlUnorderedList.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/class.VIEW.php",
+      "method": "earliestTaggedCommit",
+      "commit": "b8faa8eac93d298eac886dfe036a41b66e631718",
+      "date": "2026-02-14",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/CSS/Examples/test_css_manager.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/Badge.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlAudio.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlB.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlBold.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlButton.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlCaption.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlCite.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlCode.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlCol.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlColgroup.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlDetails.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlDf.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlDialog.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlDoc.php",
+      "method": "earliestTaggedCommit",
+      "commit": "3c7a7a18e74d13108b8c26b7d666e6598c4c9042",
+      "date": "2026-02-20",
+      "tag": "1.0.3"
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlFieldset.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlH.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlLabel.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlLegend.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlParagraph.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlPicture.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlSource.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlSummary.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlTbody.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlTextarea.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlTfoot.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlThead.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlTr.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Elements/HtmlVideo.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/HtmlAttributesTrait.php",
+      "method": "earliestTaggedCommit",
+      "commit": "95d21f896601aeb2e098a13d7942b3df49072ace",
+      "date": "2026-02-16",
+      "tag": "1.0.1"
+    },
+    {
+      "file": "src/Ksfraser/HTML/HtmlButton.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/HtmlDiv.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/HtmlSpan.php",
+      "method": "fallback",
+      "commit": null,
+      "date": null,
+      "tag": null
+    },
+    {
+      "file": "src/Ksfraser/HTML/Typescript/HtmlTypeScriptString.php",
+      "method": "earliestTaggedCommit",
+      "commit": "3f1a1feccafbb941186f5732e160deb71ada537d",
+      "date": "2026-02-20",
+      "tag": "1.0.3"
+    },
+    {
+      "file": "src/Ksfraser/HTML/VBScript/HtmlVBScriptString.php",
+      "method": "earliestTaggedCommit",
+      "commit": "3f1a1feccafbb941186f5732e160deb71ada537d",
+      "date": "2026-02-20",
+      "tag": "1.0.3"
+    }
+  ]
+}

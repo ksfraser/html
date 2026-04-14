@@ -9,32 +9,27 @@ use Ksfraser\HTML\HtmlAttribute;
 
 /**
  * HTML Label Row Class
- * 
+ *
  * Represents a table row with two cells: a label cell and a content cell.
  * Commonly used in forms to display field labels alongside their values.
- * 
+ *
  * Structure: <tr><td class="label" width="25%">Label:</td><td>Content</td></tr>
- * 
+ *
  * Uses proper composition with HtmlTd instead of hardcoding HTML.
  * This follows the Composite pattern - each component recursively renders itself.
- * 
+ *
  * Design Patterns:
  * - **Composite Pattern**: Composes HtmlTd cells that recursively render
  * - **Builder Pattern**: Fluent interface for setting attributes
- * 
+ *
  * SOLID Principles:
  * - Single Responsibility: Renders label/content row pairs only
  * - Open/Closed: Can be extended for custom row types
  * - Liskov Substitution: Implements HtmlElementInterface
  * - Interface Segregation: Uses HtmlElementInterface appropriately
  * - Dependency Inversion: Depends on HtmlElementInterface abstraction
- * 
- * @package Ksfraser\HTML
- * @author Kevin Fraser
- * @since 20251019
- * @version 20251019.1
- * 
- * @example
+ *
+ *
  * ```php
  * $label = new HtmlString('Username:');
  * $content = new HtmlString('jdoe');
@@ -43,6 +38,12 @@ use Ksfraser\HTML\HtmlAttribute;
  * echo $row->getHtml();
  * // Output: <tr><td class="form-label" width="30%">Username:</td><td>jdoe</td></tr>
  * ```
+ *
+ * @package Ksfraser\HTML
+ * @author Kevin Fraser
+ * @version 20251019.1
+ * @example
+ * @since v1.0.0 2025-10-31
  */
 class HtmlLabelRow implements HtmlElementInterface
 {
@@ -61,10 +62,12 @@ class HtmlLabelRow implements HtmlElementInterface
     /**
      * Constructor
      * 
-     * @param HtmlElementInterface $label The label content (left cell)
-     * @param HtmlElementInterface $content The content (right cell)
-     */
-    public function __construct(HtmlElementInterface $label, HtmlElementInterface $content)
+ * @param mixed $label
+ * @param mixed $content
+ * @return void
+ * @since v1.0.0 2025-10-31
+ */
+public function __construct($label = null, $content = null)
     {
         // Create the label cell (left) with default class and width
         $this->labelCell = new HtmlTd($label);
@@ -80,6 +83,7 @@ class HtmlLabelRow implements HtmlElementInterface
      * 
      * @param int $width Width as percentage (e.g., 25 for 25%)
      * @return self Fluent interface
+ * @since v1.0.0 2026-04-13
      */
     public function setLabelWidth(int $width): self
     {
@@ -93,6 +97,7 @@ class HtmlLabelRow implements HtmlElementInterface
      * 
      * @param string $class The CSS class name
      * @return self Fluent interface
+ * @since v1.0.0 2026-04-13
      */
     public function setLabelClass(string $class): self
     {
@@ -107,6 +112,7 @@ class HtmlLabelRow implements HtmlElementInterface
      * @param string $attributes HTML attributes (e.g., 'colspan="2" class="value"')
      * @return self Fluent interface
      * @deprecated This method parses string attributes. Better to use addContentCellAttribute()
+ * @since v1.0.0 2026-04-13
      */
     public function setContentCellAttributes(string $attributes): self
     {
@@ -126,6 +132,7 @@ class HtmlLabelRow implements HtmlElementInterface
      * @param string $name Attribute name
      * @param string $value Attribute value
      * @return self Fluent interface
+ * @since v1.0.0 2026-04-13
      */
     public function addContentCellAttribute(string $name, string $value): self
     {
@@ -140,6 +147,7 @@ class HtmlLabelRow implements HtmlElementInterface
      * No hardcoded HTML tags - each component renders itself!
      * 
      * @return string The complete HTML table row
+ * @since v1.0.0 2026-04-13
      */
     public function getHtml(): string
     {
@@ -156,9 +164,11 @@ class HtmlLabelRow implements HtmlElementInterface
      * Render the HTML to output
      * 
      * @return void
+ * @since v1.0.0 2026-04-13
      */
     public function toHtml(): void
     {
         echo $this->getHtml();
     }
 }
+

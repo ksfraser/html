@@ -5,6 +5,12 @@ namespace Ksfraser\HTML;
 use Ksfraser\Origin\origin;
 
 require_once( 'class.VIEW_CELL.php' );
+/**
+ * VIEW_SUBMIT_CELL.
+ *
+ *
+ * @since v1.0.0 2025-04-23
+ */
 class VIEW_SUBMIT_CELL extends VIEW_CELL
 {
 //aspect='default'  name="RefreshInquiry"  id="RefreshInquiry" value="Search" title='Refresh Inquiry'
@@ -15,10 +21,21 @@ class VIEW_SUBMIT_CELL extends VIEW_CELL
 	protected $aspect;
 	protected $submit_label;
 	protected $submit_action;
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
 	function __construct()
 	{
-		parent::__construct();
 	}
+/**
+ * __toString
+ *
+ * @since v1.0.0 2025-04-23
+ * @return void
+ */
 	function __toString()	
 	{
 		submit_cells( 
@@ -31,8 +48,10 @@ class VIEW_SUBMIT_CELL extends VIEW_CELL
     /**
      * Set the submit label with validation.
      *
-     * @param string $label The label to set.
      * @throws InvalidArgumentException If the label is not a string.
+ * @param mixed $label
+ * @return void
+ * @since v2.0.1 2026-04-14
      */
     public function set_submit_label($label)
     {

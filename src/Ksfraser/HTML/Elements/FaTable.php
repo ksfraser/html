@@ -11,6 +11,8 @@ use Ksfraser\HTML\Elements\HtmlString;
  *
  * Generates HTML table with FA-specific styling and attributes,
  * matching the output of start_table() function.
+ *
+ * @since v1.0.0 2026-04-11
  */
 class FaTable extends HtmlTable
 {
@@ -20,10 +22,12 @@ class FaTable extends HtmlTable
     /**
      * Constructor
      *
-     * @param int $class FA table style constant (TABLESTYLE, TABLESTYLE2, etc.)
-     * @param string $extra Additional attributes
-     */
-    public function __construct($class = 2, $extra = "")
+ * @param mixed $class
+ * @param mixed $extra
+ * @return void
+ * @since v1.0.0 2026-04-11
+ */
+public function __construct($class = 2, $extra = "")
     {
         parent::__construct(new HtmlString("")); // Empty content initially
         $this->faClass = $class;
@@ -35,6 +39,8 @@ class FaTable extends HtmlTable
 
     /**
      * Set table attributes based on FA style
+ * @return void
+ * @since v1.0.0 2026-04-13
      */
     private function setTableAttributes()
     {
@@ -56,6 +62,8 @@ class FaTable extends HtmlTable
 
     /**
      * Get CSS class name based on FA constant
+ * @return void
+ * @since v1.0.0 2026-04-13
      */
     private function getClassName()
     {
@@ -69,6 +77,8 @@ class FaTable extends HtmlTable
 
     /**
      * Parse extra attributes string
+ * @return void
+ * @since v1.0.0 2026-04-13
      */
     private function parseExtraAttributes()
     {
@@ -85,6 +95,8 @@ class FaTable extends HtmlTable
 
     /**
      * Override toHtml to wrap in center tags for FA compatibility
+ * @return void
+ * @since v1.0.0 2026-04-13
      */
     public function toHtml(): void
     {

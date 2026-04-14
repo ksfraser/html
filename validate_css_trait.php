@@ -16,14 +16,37 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\Elements\HtmlString;
 
 // Create a simple test class extending HtmlElement
+/**
+ * class TestDiv
+ *
+ * @since 1.0.5 2026-03-30
+ */
 class TestDiv extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     public function __construct() {
         parent::__construct();
         $this->tag = 'div';
     }
 }
 
+/**
+ * class TestButton
+ *
+ * @since 1.0.5 2026-03-30
+ */
 class TestButton extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
     public function __construct($content = null) {
         if ($content !== null && !($content instanceof \Ksfraser\HTML\HtmlElementInterface)) {
             $content = new HtmlString($content);

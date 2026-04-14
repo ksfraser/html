@@ -14,12 +14,13 @@ use Ksfraser\HTML\HtmlElementInterface;
  *   $buttons = $container->findByTag('button');
  *   $required = $form->findByAttribute('required', 'required');
  *   $dialog = $parent->findById('dialog-id');
- *   
+ *
  *   $allInputs = $form->getAllNested();
  *   if ($container->containsNested($element)) { ... }
  *
+ *
  * @package Ksfraser\HTML\Traits
- * @since 1.0
+ * @since 1.0.5 2026-03-30
  */
 trait ElementIntrospectionTrait
 {
@@ -34,6 +35,7 @@ trait ElementIntrospectionTrait
      *   foreach ($children as $child) {
      *       echo $child->getTag();
      *   }
+ * @since 1.0.5 2026-03-30
      */
     public function getChildren(): array
     {
@@ -44,7 +46,7 @@ trait ElementIntrospectionTrait
         }
 
         foreach ($this->nested as $item) {
-            if ($item instanceof HtmlElementInterface) {
+            if (is_object($item) && method_exists($item, 'getTag')) {
                 $children[] = $item;
             }
         }
@@ -62,6 +64,7 @@ trait ElementIntrospectionTrait
      * @example
      *   $all = $container->getAllNested();
      *   echo count($all); // 42 elements total
+ * @since v1.0.0 2026-04-13
      */
     public function getAllNested(): array
     {
@@ -92,6 +95,7 @@ trait ElementIntrospectionTrait
      * @example
      *   $buttons = $form->findByTag('button');
      *   $inputs = $form->findByTag('input');
+ * @since v1.0.0 2026-04-13
      */
     public function findByTag(string $tag): array
     {
@@ -120,6 +124,7 @@ trait ElementIntrospectionTrait
      * @example
      *   $required = $form->findByAttribute('required', 'required');
      *   $textInputs = $form->findByAttribute('type', 'text');
+ * @since v1.0.0 2026-04-13
      */
     public function findByAttribute(string $name, string $value): array
     {
@@ -147,6 +152,7 @@ trait ElementIntrospectionTrait
      * @example
      *   $buttons = $container->findByClass('btn');
      *   $primary = $container->findByClass('btn-primary');
+ * @since v1.0.0 2026-04-13
      */
     public function findByClass(string $class): array
     {
@@ -174,6 +180,7 @@ trait ElementIntrospectionTrait
      * @example
      *   $required = $form->findByAttributeExists('required');
      *   $dataElements = $container->findByAttributeExists('data-config');
+ * @since v1.0.0 2026-04-13
      */
     public function findByAttributeExists(string $name): array
     {
@@ -197,13 +204,14 @@ trait ElementIntrospectionTrait
      *
      * @param string $id The element ID
      *
-     * @return HtmlElementInterface|null The matching element, or null if not found
      *
      * @example
      *   $dialog = $page->findById('modal-dialog');
      *   if ($dialog) { ... }
-     */
-    public function findById(string $id): ?HtmlElementInterface
+ * @return ?HtmlElementInterface
+ * @since v1.0.5 2026-04-14
+ */
+public function findById(string $id): ?HtmlElementInterface
     {
         $all = $this->getAllNested();
 
@@ -223,13 +231,14 @@ trait ElementIntrospectionTrait
      *
      * @param string $name The attribute name
      *
-     * @return string|null The attribute value, or null
      *
      * @example
      *   $type = $input->getAttributeValue('type');
      *   $role = $div->getAttributeValue('role');
-     */
-    public function getAttributeValue(string $name): ?string
+ * @return ?string
+ * @since v1.0.5 2026-04-14
+ */
+public function getAttributeValue(string $name): ?string
     {
         return $this->attributeList?->getAttributeValue($name);
     }
@@ -247,6 +256,7 @@ trait ElementIntrospectionTrait
      * @example
      *   $attr = $element->getAttribute('class');
      *   if ($attr) { ... }
+ * @since v1.0.0 2026-04-13
      */
     public function getAttribute(string $name)
     {
@@ -259,13 +269,14 @@ trait ElementIntrospectionTrait
     /**
      * Get the tag name of this element
      *
-     * @return string|null The tag name (e.g., 'div', 'button', 'input')
      *
      * @example
      *   $tag = $element->getTag();
      *   if ($tag === 'button') { ... }
-     */
-    public function getTag(): ?string
+ * @return ?string
+ * @since v1.0.5 2026-04-14
+ */
+public function getTag(): ?string
     {
         return $this->tag ?? null;
     }
@@ -279,6 +290,7 @@ trait ElementIntrospectionTrait
      *   if ($container->hasChildren()) {
      *       // has children
      *   }
+ * @since v1.0.0 2026-04-13
      */
     public function hasChildren(): bool
     {
@@ -294,6 +306,7 @@ trait ElementIntrospectionTrait
      *
      * @example
      *   $count = $parent->getChildCount();
+ * @since v1.0.0 2026-04-13
      */
     public function getChildCount(): int
     {
@@ -309,6 +322,7 @@ trait ElementIntrospectionTrait
      *
      * @example
      *   $total = $root->getNestedCount();
+ * @since v1.0.0 2026-04-13
      */
     public function getNestedCount(): int
     {
@@ -326,6 +340,7 @@ trait ElementIntrospectionTrait
      *
      * @example
      *   if ($parent->containsChild($element)) { ... }
+ * @since v1.0.0 2026-04-13
      */
     public function containsChild(HtmlElementInterface $child): bool
     {
@@ -344,6 +359,7 @@ trait ElementIntrospectionTrait
      *
      * @example
      *   if ($root->containsNested($deepElement)) { ... }
+ * @since v1.0.0 2026-04-13
      */
     public function containsNested(HtmlElementInterface $element): bool
     {
@@ -351,3 +367,4 @@ trait ElementIntrospectionTrait
         return in_array($element, $nested, true);
     }
 }
+

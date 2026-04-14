@@ -16,10 +16,21 @@ use Ksfraser\HTML\HtmlDiv;
 use Ksfraser\HTML\HtmlButton;
 use Ksfraser\HTML\HtmlSpan;
 
+/**
+ * class CSSManagementTraitTest
+ *
+ * @since 1.0.5 2026-03-30
+ */
 class CSSManagementTraitTest extends TestCase
 {
     private HtmlDiv $element;
 
+/**
+ * setUp
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     protected function setUp(): void
     {
         $this->element = new HtmlDiv();
@@ -31,6 +42,8 @@ class CSSManagementTraitTest extends TestCase
      * @test
      * @group FR-006
      * @group css-management
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testAddSingleCSSClassReturnsElement(): void
     {
@@ -42,6 +55,8 @@ class CSSManagementTraitTest extends TestCase
      * @test
      * @group FR-006
      * @group css-management
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testAddSingleCSSClassRendersCorrectly(): void
     {
@@ -53,6 +68,8 @@ class CSSManagementTraitTest extends TestCase
      * @test
      * @group FR-006
      * @group css-management
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testAddMultipleCSSClassesIndividually(): void
     {
@@ -70,6 +87,8 @@ class CSSManagementTraitTest extends TestCase
      * @test
      * @group FR-006
      * @group css-management
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testAddCSSClassesBatchOperation(): void
     {
@@ -86,6 +105,8 @@ class CSSManagementTraitTest extends TestCase
      * @test
      * @group FR-006
      * @group css-management
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testAddCSSClassesBatchReturnsElement(): void
     {
@@ -97,6 +118,8 @@ class CSSManagementTraitTest extends TestCase
      * @test
      * @group FR-006
      * @group css-management
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testConditionalCSSClassWithTrueCondition(): void
     {
@@ -108,6 +131,8 @@ class CSSManagementTraitTest extends TestCase
      * @test
      * @group FR-006
      * @group css-management
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testConditionalCSSClassWithFalseCondition(): void
     {
@@ -119,6 +144,8 @@ class CSSManagementTraitTest extends TestCase
      * @test
      * @group FR-006
      * @group css-management
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testConditionalCSSClassWithExpressionTrue(): void
     {
@@ -131,6 +158,8 @@ class CSSManagementTraitTest extends TestCase
      * @test
      * @group FR-006
      * @group css-management
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testConditionalCSSClassWithExpressionFalse(): void
     {
@@ -143,6 +172,8 @@ class CSSManagementTraitTest extends TestCase
      * @test
      * @group FR-006
      * @group css-management
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testRemoveCSSClassRemovesPresent(): void
     {
@@ -158,6 +189,8 @@ class CSSManagementTraitTest extends TestCase
      * @test
      * @group FR-006
      * @group css-management
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testRemoveCSSClassReturnsElement(): void
     {
@@ -170,6 +203,8 @@ class CSSManagementTraitTest extends TestCase
      * @test
      * @group FR-006
      * @group css-management
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testRemoveNonExistentCSSClassDoesNotError(): void
     {
@@ -182,6 +217,8 @@ class CSSManagementTraitTest extends TestCase
      * @test
      * @group FR-006
      * @group css-management
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testToggleCSSClassOnAdds(): void
     {
@@ -193,6 +230,8 @@ class CSSManagementTraitTest extends TestCase
      * @test
      * @group FR-006
      * @group css-management
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testToggleCSSClassOnRemoves(): void
     {
@@ -205,6 +244,8 @@ class CSSManagementTraitTest extends TestCase
      * @test
      * @group FR-006
      * @group css-management
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testToggleCSSClassWithForceTrue(): void
     {
@@ -216,6 +257,8 @@ class CSSManagementTraitTest extends TestCase
      * @test
      * @group FR-006
      * @group css-management
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testToggleCSSClassWithForceFalse(): void
     {
@@ -228,6 +271,8 @@ class CSSManagementTraitTest extends TestCase
      * @test
      * @group FR-006
      * @group css-management
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testToggleCSSClassReturnsElement(): void
     {
@@ -239,6 +284,8 @@ class CSSManagementTraitTest extends TestCase
      * @test
      * @group FR-006
      * @group css-management
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testHasCSSClassReturnsTrueWhenPresent(): void
     {
@@ -250,6 +297,8 @@ class CSSManagementTraitTest extends TestCase
      * @test
      * @group FR-006
      * @group css-management
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testHasCSSClassReturnsFalseWhenAbsent(): void
     {
@@ -261,6 +310,8 @@ class CSSManagementTraitTest extends TestCase
      * @test
      * @group FR-006
      * @group css-management
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testGetCSSClassesReturnsArray(): void
     {
@@ -278,6 +329,8 @@ class CSSManagementTraitTest extends TestCase
      * @test
      * @group FR-006
      * @group css-management
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testGetCSSClassesEmpty(): void
     {
@@ -293,6 +346,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group deduplication
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testAddDuplicateCSSClassDeduplicated(): void
     {
@@ -310,6 +365,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group deduplication
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testBatchAddWithDuplicatesDeduplicated(): void
     {
@@ -326,6 +383,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group deduplication
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testExistingAndNewClassDeduplicated(): void
     {
@@ -343,6 +402,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testAddEmptyStringIgnored(): void
     {
@@ -356,6 +417,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testAddWhitespaceOnlyIgnored(): void
     {
@@ -369,6 +432,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testAddCSSClassWithLeadingTrailingWhitespace(): void
     {
@@ -384,6 +449,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testAddValidCSSClassWithHyphens(): void
     {
@@ -396,6 +463,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testAddValidCSSClassWithNumbers(): void
     {
@@ -408,6 +477,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testAddValidCSSClassWithUnderscores(): void
     {
@@ -420,6 +491,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testBatchAddWithEmptyStrings(): void
     {
@@ -436,6 +509,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testLongCSSClassNameAccepted(): void
     {
@@ -449,6 +524,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testManyClassesPerformance(): void
     {
@@ -472,6 +549,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group error-conditions
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testAddInvalidCSSClassWithSpaceThrowsException(): void
     {
@@ -484,6 +563,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group error-conditions
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testAddInvalidCSSClassWithCommaThrowsException(): void
     {
@@ -496,6 +577,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group error-conditions
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testAddInvalidCSSClassWithSpecialCharacterThrowsException(): void
     {
@@ -508,6 +591,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group error-conditions
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testAddInvalidCSSClassWithSemicolonThrowsException(): void
     {
@@ -520,6 +605,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group error-conditions
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testBatchAddWithInvalidClassesThrowsException(): void
     {
@@ -534,6 +621,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group integration
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testCSSPreservedWithOtherAttributes(): void
     {
@@ -554,6 +643,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group integration
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testMultipleCSSOperationsChained(): void
     {
@@ -579,6 +670,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group integration
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testCSSWithNestedElements(): void
     {
@@ -599,6 +692,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group integration
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testCSSWithBootstrapPattern(): void
     {
@@ -618,6 +713,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group integration
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testCSSWithTailwindPattern(): void
     {
@@ -639,6 +736,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group integration
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testConditionalCSSInComplexScenario(): void
     {
@@ -666,6 +765,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group regression
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testExistingSetAttributeStillWorks(): void
     {
@@ -678,6 +779,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group regression
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testExistingAddAttributeStillWorks(): void
     {
@@ -690,6 +793,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group regression
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testExistingAddCSSClassStillWorks(): void
     {
@@ -702,6 +807,8 @@ class CSSManagementTraitTest extends TestCase
      * @group FR-006
      * @group css-management
      * @group regression
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testBackwardCompatibilityWithSetAttributeClass(): void
     {

@@ -8,6 +8,8 @@ use Ksfraser\HTML\HtmlElementInterface;
 
 /**
  * Trait for unified attribute handling (setAttribute, addAttribute)
+ *
+ * @since 1.0.4 2026-02-21
  */
 trait HtmlAttributeTrait {
     /**
@@ -17,6 +19,8 @@ trait HtmlAttributeTrait {
 
     /**
      * Initialize attribute list
+ * @return void
+ * @since 1.0.4 2026-02-21
      */
     protected function initAttributeList(): void {
         $this->attributeList = new \Ksfraser\HTML\HtmlAttributeList();
@@ -25,6 +29,7 @@ trait HtmlAttributeTrait {
      * Add an HTML attribute object (HtmlAttribute or subclass)
      * @param HtmlAttribute $attribute
      * @return self
+ * @since v1.0.0 2026-04-13
      */
     public function addAttributeObject(HtmlAttribute $attribute): self {
         if (!isset($this->attributeList)) {
@@ -35,11 +40,12 @@ trait HtmlAttributeTrait {
     }
     /**
      * Add an HTML attribute by name and value (wraps setAttribute)
-     * @param string $name
-     * @param string|HtmlElementInterface $value
      * @return self
-     */
-    public function addAttribute($name, $value): self {
+ * @param mixed $name
+ * @param mixed $value
+ * @since v1.0.5 2026-04-14
+ */
+public function addAttribute($name, $value): self {
         return $this->setAttribute($name, $value);
     }
 
@@ -47,11 +53,12 @@ trait HtmlAttributeTrait {
      * Convenience setter for an attribute by name/value.
      * Accepts string or HtmlElementInterface for value.
      * Converts string to HtmlString for storage.
-     * @param string $name
-     * @param string|HtmlElementInterface $value
      * @return self
-     */
-    public function setAttribute(string $name, $value): self {
+ * @param string $name
+ * @param mixed $value
+ * @since v1.0.5 2026-04-14
+ */
+public function setAttribute(string $name, $value): self {
         if (!$value instanceof HtmlString) {
             $value = new HtmlString($value);
         }
@@ -64,3 +71,4 @@ trait HtmlAttributeTrait {
         return $this;
     }
 }
+

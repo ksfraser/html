@@ -1,7 +1,18 @@
 <?php
 use PHPUnit\Framework\TestCase;
 
+/**
+ * class HtmlRowBuildersIntegrationTest
+ *
+ * @since 1.0.4 2026-02-21
+ */
 class HtmlRowBuildersIntegrationTest extends TestCase {
+/**
+ * testLoanTypeTableRowBuildAndRender
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     public function testLoanTypeTableRowBuildAndRender() {
         $rowBuilder = new \Ksfraser\HTML\Rows\LoanTypeTableRow();
         $data = (object)[
@@ -16,6 +27,12 @@ class HtmlRowBuildersIntegrationTest extends TestCase {
         $this->assertStringContainsString('Delete', $html);
     }
 
+/**
+ * testLoanSummaryTableRowBuildAndRender
+ *
+ * @since 1.0.4 2026-02-21
+ * @return void
+ */
     public function testLoanSummaryTableRowBuildAndRender() {
         $rowBuilder = new \Ksfraser\HTML\Rows\LoanSummaryTableRow();
         $data = (object)[
@@ -31,6 +48,12 @@ class HtmlRowBuildersIntegrationTest extends TestCase {
         $this->assertStringContainsString('View', $html);
     }
 
+/**
+ * testInterestFreqTableRowBuildAndRender
+ *
+ * @since 1.0.4 2026-02-21
+ * @return void
+ */
     public function testInterestFreqTableRowBuildAndRender() {
         $rowBuilder = new \Ksfraser\HTML\Rows\InterestFreqTableRow();
         $data = (object)[

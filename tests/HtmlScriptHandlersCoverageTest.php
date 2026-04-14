@@ -1,7 +1,18 @@
 <?php
 use PHPUnit\Framework\TestCase;
 
+/**
+ * class HtmlScriptHandlersCoverageTest
+ *
+ * @since 1.0.3 2026-02-21
+ */
 class HtmlScriptHandlersCoverageTest extends TestCase {
+/**
+ * testScriptHandlersClassesExist
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     public function testScriptHandlersClassesExist() {
         $classes = [
             'Ksfraser\\HTML\\ScriptHandlers\\BaseScriptHandler',

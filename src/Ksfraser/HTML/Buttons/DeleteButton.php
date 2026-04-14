@@ -7,25 +7,21 @@ use Ksfraser\HTML\HtmlAttribute;
 
 /**
  * Delete Action Button Class
- * 
+ *
  * Specialized button for delete actions in tables/forms.
  * Encapsulates the deletion button styling and onclick behavior.
- * 
+ *
  * Features:
  * - Automatic confirmation dialog option
  * - Danger styling by default (red background)
  * - JavaScript function call support for custom delete handlers
  * - Form submission support for server-side deletion
- * 
+ *
  * SOLID Principles:
  * - Single Responsibility: Only handles delete button generation
  * - Open/Closed: Can be extended for custom delete behaviors
- * 
- * @package Ksfraser\HTML
- * @author Kevin Fraser
- * @since 20251220
- * 
- * @example
+ *
+ *
  * ```php
  * $deleteBtn = new DeleteButton(
  *     new HtmlString('Delete'),
@@ -34,6 +30,11 @@ use Ksfraser\HTML\HtmlAttribute;
  * $deleteBtn->setConfirmation("Are you sure you want to delete this item?");
  * echo $deleteBtn->getHtml();
  * ```
+ *
+ * @package Ksfraser\HTML
+ * @author Kevin Fraser
+ * @example
+ * @since 1.0.1 2026-02-16
  */
 class DeleteButton extends ActionButton
 {
@@ -45,10 +46,12 @@ class DeleteButton extends ActionButton
     /**
      * Constructor
      * 
-     * @param HtmlElementInterface $label The button label (default: "Delete")
-     * @param string $actionId The record/row ID to delete
-     */
-    public function __construct(HtmlElementInterface $label, $actionId = '')
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @return void
+ * @since 1.0.1 2026-02-16
+ */
+public function __construct(HtmlElementInterface $label, $actionId = '')
     {
         parent::__construct('delete', $label, $actionId);
     }
@@ -57,6 +60,7 @@ class DeleteButton extends ActionButton
      * Setup delete button attributes
      * 
      * @return void
+ * @since v1.0.0 2026-04-13
      */
     protected function setupActionButton()
     {
@@ -70,10 +74,11 @@ class DeleteButton extends ActionButton
     /**
      * Set custom confirmation message
      * 
-     * @param string $message Confirmation message to display
      * @return self Fluent interface
-     */
-    public function setConfirmation($message)
+ * @param mixed $message
+ * @since v1.0.5 2026-04-14
+ */
+public function setConfirmation($message)
     {
         $this->confirmationMessage = $message;
         $this->setOnclick("return confirm('" . addslashes($message) . "');");
@@ -84,6 +89,7 @@ class DeleteButton extends ActionButton
      * Disable confirmation dialog
      * 
      * @return self Fluent interface
+ * @since v1.0.0 2026-04-13
      */
     public function noConfirmation()
     {
@@ -92,3 +98,4 @@ class DeleteButton extends ActionButton
         return $this;
     }
 }
+

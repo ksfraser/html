@@ -9,6 +9,14 @@ $passed = 0;
 $failed = 0;
 
 // Helper function to test
+/**
+ * test_introspection
+ *
+ * @since 1.0.5 2026-03-30
+ * @param mixed $name
+ * @param mixed $callback
+ * @return void
+ */
 function test_introspection($name, $callback) {
     global $passed, $failed;
     try {

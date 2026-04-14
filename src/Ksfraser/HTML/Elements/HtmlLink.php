@@ -8,16 +8,20 @@ use Ksfraser\HTML\HtmlElementInterface;
 
 use Ksfraser\HTML\HtmlAttribute;
 
-/**//****************************
-* Links 
-*
-* <a href="URL">TEXT</a>
-*/
+/**
+ * Links
+ *
+ * <a href="URL">TEXT</a>
+ *
+ * @since v1.0.0 2026-04-11
+ */
 class HtmlLink extends HtmlElement
 {
 	/**
 	 * HtmlLink: Represents a <link> tag for external resources (CSS, icons, etc.)
 	 * Generates: <link rel="..." href="...">
+ * @return void
+ * @since v1.0.0 2026-04-11
 	 */
 	public function __construct()
 	{
@@ -30,6 +34,7 @@ class HtmlLink extends HtmlElement
 	 * Set href attribute
 	 * @param string $url
 	 * @return self
+ * @since v1.0.0 2026-04-13
 	 */
 	public function setHref(string $url): self
 	{
@@ -42,6 +47,7 @@ class HtmlLink extends HtmlElement
 	 * Set rel attribute
 	 * @param string $rel
 	 * @return self
+ * @since v1.0.0 2026-04-13
 	 */
 	public function setRel(string $rel): self
 	{
@@ -53,6 +59,7 @@ class HtmlLink extends HtmlElement
 	 * Set type attribute
 	 * @param string $type
 	 * @return self
+ * @since v1.0.0 2026-04-13
 	 */
 	public function setType(string $type): self
 	{
@@ -64,6 +71,7 @@ class HtmlLink extends HtmlElement
 	 * Set media attribute
 	 * @param string $media
 	 * @return self
+ * @since v1.0.0 2026-04-13
 	 */
 	public function setMedia(string $media): self
 	{

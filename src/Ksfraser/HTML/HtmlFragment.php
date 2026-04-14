@@ -6,15 +6,15 @@ use Ksfraser\HTML\HtmlElementInterface;
 
 /**
  * HTML Fragment - Container for Multiple Elements Without Wrapper Tag
- * 
+ *
  * Represents a collection of HTML elements that should be rendered together
  * but without wrapping them in a parent tag (like <div> or <span>).
- * 
+ *
  * This is useful for:
  * - Multiple hidden input fields that need to be grouped logically
  * - Returning multiple elements from a method without echo
  * - Building complex HTML structures compositionally
- * 
+ *
  * Example:
  * ```php
  * $fragment = new HtmlFragment();
@@ -22,17 +22,18 @@ use Ksfraser\HTML\HtmlElementInterface;
  * $fragment->addChild(new HtmlHidden('type', 'SP'));
  * return $fragment->getHtml(); // <input type="hidden"...><input type="hidden"...>
  * ```
- * 
+ *
  * Benefits:
  * - Composite Pattern: Treats multiple elements as single unit
  * - No echo: Returns string for composition or testing
  * - Type-safe: Implements HtmlElementInterface
  * - Recursive: Children can be fragments too
- * 
+ *
+ *
  * @package Ksfraser\HTML
  * @author Kevin Fraser / GitHub Copilot
- * @since 2025-10-25
  * @see HtmlElementInterface
+ * @since v1.0.0 2025-10-31
  */
 class HtmlFragment implements HtmlElementInterface
 {
@@ -44,7 +45,9 @@ class HtmlFragment implements HtmlElementInterface
     /**
      * Constructor - optionally accepts initial children
      * 
-     * @param HtmlElementInterface[] $children Initial child elements
+     * @param array $children
+     * @return void
+ * @since v1.0.0 2025-10-31
      */
     public function __construct(array $children = [])
     {
@@ -58,6 +61,7 @@ class HtmlFragment implements HtmlElementInterface
      * 
      * @param HtmlElementInterface $child Element to add
      * @return self For fluent interface
+ * @since v1.0.0 2026-04-13
      */
     public function addChild(HtmlElementInterface $child): self
     {
@@ -72,6 +76,7 @@ class HtmlFragment implements HtmlElementInterface
      * This is the key difference from HtmlElement - no wrapper.
      * 
      * @return string HTML string of all children concatenated
+ * @since v1.0.0 2026-04-13
      */
     public function getHtml(): string
     {
@@ -89,6 +94,7 @@ class HtmlFragment implements HtmlElementInterface
      * or use getHtml() for composition/testing.
      * 
      * @return void
+ * @since v1.0.0 2026-04-13
      */
     public function toHtml(): void
     {
@@ -99,6 +105,7 @@ class HtmlFragment implements HtmlElementInterface
      * Get number of children in this fragment
      * 
      * @return int Number of child elements
+ * @since v1.0.0 2026-04-13
      */
     public function getChildCount(): int
     {
@@ -109,6 +116,7 @@ class HtmlFragment implements HtmlElementInterface
      * Check if fragment is empty
      * 
      * @return bool True if no children, false otherwise
+ * @since v1.0.0 2026-04-13
      */
     public function isEmpty(): bool
     {

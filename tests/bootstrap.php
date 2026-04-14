@@ -19,6 +19,10 @@ $stubsDir = __DIR__ . '/stubs';
 set_include_path($stubsDir . PATH_SEPARATOR . get_include_path());
 
 // Load the main VIEW class
+// Ensure legacy origin stub is available for old VIEW classes
+require_once __DIR__ . '/stubs/class.origin.php';
+
+// Load the main VIEW class
 require_once __DIR__ . '/../src/Ksfraser/HTML/class.VIEW.php';
 
 // Load archived VIEW_* classes for testing
@@ -48,6 +52,13 @@ if (!defined('KSF_FIELD_NOT_SET')) {
 }
 
 if (!function_exists('_')) {
+/**
+ * _
+ *
+ * @since 1.0.1 2026-02-16
+ * @param mixed $s
+ * @return void
+ */
     function _($s) { return $s; }
 }
 
@@ -91,18 +102,55 @@ foreach ([
 
 // Minimal DB API stubs used by VIEW::display_table_with_edit()
 if (!function_exists('db_prepare')) {
+/**
+ * db_prepare
+ *
+ * @since 1.0.1 2026-02-16
+ * @param mixed $sql
+ * @return void
+ */
     function db_prepare($sql) { return ['sql' => $sql]; }
 }
 if (!function_exists('db_execute')) {
+/**
+ * db_execute
+ *
+ * @since 1.0.1 2026-02-16
+ * @param mixed $stmt
+ * @return void
+ */
     function db_execute($stmt) { return true; }
 }
 if (!function_exists('db_fetch')) {
+/**
+ * db_fetch
+ *
+ * @since 1.0.1 2026-02-16
+ * @param mixed $stmt
+ * @return void
+ */
     function db_fetch($stmt) { return false; }
 }
 if (!function_exists('db_fetch_assoc')) {
+/**
+ * db_fetch_assoc
+ *
+ * @since 1.0.1 2026-02-16
+ * @param mixed $stmt
+ * @return void
+ */
     function db_fetch_assoc($stmt) { return false; }
 }
 if (!function_exists('db_bind_param')) {
+/**
+ * db_bind_param
+ *
+ * @since 1.0.1 2026-02-16
+ * @param mixed $stmt
+ * @param mixed $position
+ * @param mixed $value
+ * @return void
+ */
     function db_bind_param($stmt, $position, $value) { return true; }
 }
 
@@ -123,6 +171,7 @@ $aliases = [
     'VIEW_FORM' => 'Ksfraser\\HTML\\VIEW_FORM',
     'VIEW_TABLE_TD' => 'Ksfraser\\HTML\\VIEW_TABLE_TD',
     'VIEW_TABLE_TH' => 'Ksfraser\\HTML\\VIEW_TABLE_TH',
+    'HtmlDf' => 'Ksfraser\\HTML\\Elements\\HtmlDf',
 ];
 
 foreach ($aliases as $global => $fqcn) {
@@ -130,3 +179,22 @@ foreach ($aliases as $global => $fqcn) {
         class_alias($fqcn, $global);
     }
 }
+
+// Back-compat: map moved element classes under Elements\ to Button\ or top-level namespaces
+spl_autoload_register(function ($class) {
+    $prefix = 'Ksfraser\\HTML\\Elements\\';
+    if (str_starts_with($class, $prefix)) {
+        $short = substr($class, strlen($prefix));
+        $alt1 = 'Ksfraser\\HTML\\Button\\' . $short;
+        $alt2 = 'Ksfraser\\HTML\\' . $short;
+        if (class_exists($alt1)) {
+            class_alias($alt1, $class);
+            return true;
+        }
+        if (class_exists($alt2)) {
+            class_alias($alt2, $class);
+            return true;
+        }
+    }
+    return false;
+});

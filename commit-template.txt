@@ -1,0 +1,11 @@
+Short summary (50 chars or less)
+
+Longer description (wrap at 72 chars). Explain what changed and why.
+
+Checklist (delete lines that don't apply):
+- [ ] Tests added or updated
+- [ ] Docs updated
+- [ ] `@since` docblock added for all changed/added public symbols (format: @since vX.Y.Z YYYY-MM-DD)
+- [ ] CI passing
+
+Related: ISSUE-123

@@ -42,10 +42,11 @@ use Ksfraser\HTML\HtmlElement;
  *     ->setAttribute('class', 'premium');
  * ```
  *
+ *
  * @package    Ksfraser\HTML
  * @author     Claude AI Assistant
- * @since      20251020
  * @version    1.0.0
+ * @since v1.0.0 2026-04-11
  */
 class HtmlOption extends HtmlElement
 {
@@ -71,11 +72,12 @@ class HtmlOption extends HtmlElement
     /**
      * Constructor
      *
-     * @param HtmlElementInterface|string $value    The option value
-     * @param HtmlElementInterface|string $label    The option label (visible text)
-     * @param bool   $selected Whether this option is selected (default: false)
      *
      * @since 20251020
+ * @param mixed $value
+ * @param mixed $label
+ * @param bool $selected
+ * @return void
      */
     public function __construct($value, $label, bool $selected = false)
     {

@@ -3,7 +3,18 @@ use PHPUnit\Framework\TestCase;
 use Ksfraser\HTML\Elements\HtmlString;
 use Ksfraser\HTML\Elements\HtmlAbbr;
 
+/**
+ * class HtmlAbbrTest
+ *
+ * @since 1.0.3 2026-02-21
+ */
 class HtmlAbbrTest extends TestCase {
+/**
+ * testGetHtml
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     public function testGetHtml() {
     $abbr = new HtmlAbbr(new HtmlString('WHO'));
        $abbr->addAttribute('title', 'World Health Organization');
@@ -12,6 +23,12 @@ class HtmlAbbrTest extends TestCase {
            $this->assertStringContainsString('title="World Health Organization"', $abbr->getHtml());
     }
 
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testToHtmlOutputsHtml() {
     $abbr = new HtmlAbbr(new HtmlString('HTML'));
        $abbr->addAttribute('title', 'HyperText Markup Language');
@@ -22,6 +39,12 @@ class HtmlAbbrTest extends TestCase {
            $this->assertStringContainsString('HTML', $output);
     }
 
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testEdgeCasesEmptyContent() {
     $abbr = new HtmlAbbr(new HtmlString(''));
        $abbr->addAttribute('title', 'Empty');

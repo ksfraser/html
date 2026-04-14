@@ -3,8 +3,19 @@
 use PHPUnit\Framework\TestCase;
 use Ksfraser\HTML\HtmlAttribute;
 
+/**
+ * class HtmlAttributeTest
+ *
+ * @since 1.0.3 2026-02-21
+ */
 class HtmlAttributeTest extends TestCase
 {
+/**
+ * testValidAttributeName
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     public function testValidAttributeName()
     {
         $attr = new HtmlAttribute('data-test', 'value');
@@ -12,6 +23,12 @@ class HtmlAttributeTest extends TestCase
         $this->assertEquals('value', $attr->getValue());
     }
 
+/**
+ * testGetHtml
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testGetHtml()
     {
         $attr = new HtmlAttribute('id', 'foo');
@@ -19,6 +36,12 @@ class HtmlAttributeTest extends TestCase
         $this->assertEquals('id="foo"', $html);
     }
 
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testToHtmlOutputsHtml()
     {
         $attr = new HtmlAttribute('class', 'bar');
@@ -28,6 +51,12 @@ class HtmlAttributeTest extends TestCase
         $this->assertEquals('class="bar"', $output);
     }
 
+/**
+ * testEdgeCasesEmptyValue
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testEdgeCasesEmptyValue()
     {
         $attr = new HtmlAttribute('data-empty', '');
@@ -35,6 +64,12 @@ class HtmlAttributeTest extends TestCase
         $this->assertEquals('data-empty=""', $html);
     }
 
+/**
+ * testInvalidAttributeNameThrows
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testInvalidAttributeNameThrows()
     {
         $this->expectException(InvalidArgumentException::class);

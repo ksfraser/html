@@ -5,13 +5,15 @@ use Ksfraser\HTML\HtmlAttribute;
 
 /**
  * TableData - Factory/convenience wrapper for HTML table data cell element
- * 
+ *
  * Provides fluent interface for building table cells (td).
- * 
+ *
  * Usage:
  * - (new TableData())->addClass('col1')->setText('Value')->render()
- * 
+ *
+ *
  * @package Ksfraser\HTML\Elements
+ * @since 1.0.1 2026-02-16
  */
 class TableData {
     private $element;
@@ -19,6 +21,8 @@ class TableData {
     
     /**
      * Create a new table data cell (td)
+ * @return void
+ * @since 1.0.1 2026-02-16
      */
     public function __construct() {
         $this->element = new HtmlTableRowCell(new HtmlString(''));
@@ -29,6 +33,7 @@ class TableData {
      * Get the underlying HtmlTableRowCell element
      * 
      * @return HtmlTableRowCell The wrapped HTML element
+ * @since v1.0.0 2026-04-13
      */
     public function getHtmlElement(): HtmlTableRowCell {
         return $this->element;
@@ -39,6 +44,7 @@ class TableData {
      * 
      * @param string $text The cell text
      * @return self Fluent interface
+ * @since v1.0.0 2026-04-13
      */
     public function setText(string $text): self {
         // Replace the first nested element with new text
@@ -58,6 +64,7 @@ class TableData {
      * 
      * @param string $class CSS class name
      * @return self Fluent interface
+ * @since v1.0.0 2026-04-13
      */
     public function addClass(string $class): self {
         if (!in_array($class, $this->classes)) {
@@ -72,10 +79,11 @@ class TableData {
     /**
      * Append child elements to the cell
      * 
-     * @param mixed ...$elements Variable number of elements to append
      * @return self Fluent interface
-     */
-    public function append(...$elements): self {
+ * @param mixed $elements
+ * @since v1.0.5 2026-04-14
+ */
+public function append(...$elements): self {
         foreach ($elements as $element) {
             if ($element instanceof HtmlElementInterface) {
                 $this->element->addNested($element);
@@ -89,11 +97,12 @@ class TableData {
     /**
      * Add an HTML attribute
      * 
-     * @param string $name Attribute name
-     * @param string $value Attribute value
      * @return self Fluent interface
-     */
-    public function setAttribute(string $name, $value): self {
+ * @param string $name
+ * @param mixed $value
+ * @since v1.0.5 2026-04-14
+ */
+public function setAttribute(string $name, $value): self {
         $this->element->addAttributeObject(new HtmlAttribute($name, $value));
         return $this;
     }
@@ -102,6 +111,7 @@ class TableData {
      * Get HTML representation as string
      * 
      * @return string The complete HTML table cell element
+ * @since v1.0.0 2026-04-13
      */
     public function getHtml(): string {
         return $this->element->getHtml();
@@ -111,8 +121,10 @@ class TableData {
      * Render the cell to HTML string
      * 
      * @return string The complete HTML table cell element
+ * @since v1.0.0 2026-04-13
      */
     public function render(): string {
         return $this->getHtml();
     }
 }
+

@@ -1,0 +1,2972 @@
+[
+    {
+        "file": "check_location.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "debug_methods.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "debug_methods2.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "example_showcase.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/AbstractStylesheetManager.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Ajax\/DivActivator.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Attributes\/HtmlAttributeValueObject.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Attributes\/HtmlNameValue.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Attributes\/HtmlStyleList.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Button\/Button.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Button\/CloseButton.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Button\/HtmlButton.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Button\/SubmitButton.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Buttons\/ActionButton.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-20",
+        "suggestion": "@since v1.0.0 2025-12-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Buttons\/AddButton.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-20",
+        "suggestion": "@since v1.0.0 2025-12-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Buttons\/CancelButton.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-20",
+        "suggestion": "@since v1.0.0 2025-12-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Buttons\/CloseButton.php",
+        "tag": "1.0.5",
+        "date": "2025-12-26",
+        "suggestion": "@since 1.0.5 2025-12-26"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Buttons\/DeleteButton.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-20",
+        "suggestion": "@since v1.0.0 2025-12-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Buttons\/EditButton.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-20",
+        "suggestion": "@since v1.0.0 2025-12-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Buttons\/SubmitButton.php",
+        "tag": "1.0.5",
+        "date": "2025-12-26",
+        "suggestion": "@since 1.0.5 2025-12-26"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/CSS\/CSSManager.php",
+        "tag": "v1.0.0",
+        "date": "2025-09-08",
+        "suggestion": "@since v1.0.0 2025-09-08"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/CSS\/CSSProviderInterface.php",
+        "tag": "v1.0.0",
+        "date": "2025-09-08",
+        "suggestion": "@since v1.0.0 2025-09-08"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/CSS\/Examples\/test_css_manager.php",
+        "tag": "v1.0.0",
+        "date": "2025-09-08",
+        "suggestion": "@since v1.0.0 2025-09-08"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/CSS\/Themes\/DefaultThemeProvider.php",
+        "tag": "v1.0.0",
+        "date": "2025-09-08",
+        "suggestion": "@since v1.0.0 2025-09-08"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Cells\/AmountTableCell.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Cells\/BaseTableCell.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Cells\/BorrowerTableCell.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Cells\/DescriptionTableCell.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Cells\/EditableFrequencyDescriptionCell.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Cells\/EditableFrequencyNameCell.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Cells\/EditableLoanAmountCell.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Cells\/EditableLoanBorrowerCell.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Cells\/EditableLoanStatusCell.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Cells\/EditableTypeDescriptionCell.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Cells\/EditableTypeNameCell.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Cells\/IdFrequencyTableCell.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Cells\/IdLoanTableCell.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Cells\/IdTableCell.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Cells\/IdTypeTableCell.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Cells\/NameTableCell.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Cells\/StatusTableCell.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Composites\/HTML_ROW.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Composites\/HTML_ROW_LABEL.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Composites\/HTML_ROW_LABELDecorator.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Composites\/HTML_TABLE.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Composites\/HtmlLabelRow.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Composites\/LabelRowBase.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Crud\/CrudField.php",
+        "tag": "1.0.5",
+        "date": "2026-02-10",
+        "suggestion": "@since 1.0.5 2026-02-10"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Crud\/LegacyFieldsArrayCrudDescriptor.php",
+        "tag": "1.0.5",
+        "date": "2026-02-10",
+        "suggestion": "@since 1.0.5 2026-02-10"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Crud\/SchemaArrayCrudDescriptor.php",
+        "tag": "1.0.5",
+        "date": "2026-02-10",
+        "suggestion": "@since 1.0.5 2026-02-10"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/AjaxSelectPopulator.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-20",
+        "suggestion": "@since v1.0.0 2025-12-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/Div.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/FaCell.php",
+        "tag": "v1.0.0",
+        "date": "2025-11-21",
+        "suggestion": "@since v1.0.0 2025-11-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/FaTable.php",
+        "tag": "v1.0.0",
+        "date": "2025-11-21",
+        "suggestion": "@since v1.0.0 2025-11-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/Form.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/Heading.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/Hidden.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-20",
+        "suggestion": "@since v1.0.0 2025-12-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlA.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlAbbr.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlAbbreviation.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlAddress.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlArticle.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlAside.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlB.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlBlock.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlBlockquote.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlBody.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlBold.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlBr.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlButton.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlComment.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlData.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlDd.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlDel.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlDeleted.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlDescriptionDescription.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlDescriptionList.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlDescriptionTerm.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlDfn.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlDiv.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlDl.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlDoc.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlDt.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlEm.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlEmail.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlEmphasize.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlExternalCSS.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlFigcaption.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlFigure.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlFooter.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlForm.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlH1.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlH2.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlH3.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlH4.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlH5.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlH6.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlHead.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlHeader.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlHeading.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlHeading1.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlHeading2.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlHeading3.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlHeading4.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlHeading5.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlHeading6.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlHidden.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlHr.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlHtml.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlI.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlImage.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlImg.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlInline.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlInput.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlInputButton.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlInputGenericButton.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlInputReset.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlIns.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlInserted.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlInternalCSS.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlInternalCSSList.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlInternalCSSListList.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlItalic.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlJSString.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlKbd.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlLi.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlLink.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlListItem.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlMain.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlMark.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlMenu.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlMeta.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlMeter.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlNav.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlOB.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-22",
+        "suggestion": "@since v1.0.0 2025-10-22"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlOl.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlOption.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlOrderedList.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlOutput.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlP.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlParagraph.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlPre.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlPreformatted.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlProgress.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlQ.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlRaw.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlSamp.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlScript.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-20",
+        "suggestion": "@since v1.0.0 2025-12-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlScriptJS.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlScriptJSON.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlScriptTypeScript.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlScriptVBScript.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlSection.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlSelect.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlSmall.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlSpan.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlString.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlStrong.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlStyle.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlStyleList.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlSub.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlSubmit.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlSubscript.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlSup.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlSuperscript.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlTable.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlTableBody.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlTableCaption.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlTableCol.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlTableColGroup.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlTableFoot.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlTableHead.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlTableHeaderCell.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlTableRow.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlTableRowCell.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlTd.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlTh.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlTime.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlTitle.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlUl.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlUnorderedList.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlVar.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/HtmlWbr.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/Input.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/Modal.php",
+        "tag": "1.0.5",
+        "date": "2025-12-26",
+        "suggestion": "@since 1.0.5 2025-12-26"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/ModalBuilder.php",
+        "tag": "1.0.5",
+        "date": "2025-12-26",
+        "suggestion": "@since 1.0.5 2025-12-26"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/ModalContent.php",
+        "tag": "1.0.5",
+        "date": "2025-12-26",
+        "suggestion": "@since 1.0.5 2025-12-26"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/PaymentFrequencyHandler.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-20",
+        "suggestion": "@since v1.0.0 2025-12-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/Select.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-20",
+        "suggestion": "@since v1.0.0 2025-12-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/SelectEditJSHandler.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-20",
+        "suggestion": "@since v1.0.0 2025-12-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/StyleAttribute.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/Stylesheet.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/Table.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/TableBuilder.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-20",
+        "suggestion": "@since v1.0.0 2025-12-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/TableData.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/TableHeader.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Elements\/TableRow.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/FAButtons\/DeleteFrequencyActionButton.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/FAButtons\/DeleteTypeActionButton.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/FAButtons\/EditFrequencyActionButton.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/FAButtons\/EditLoanActionButton.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/FAButtons\/EditTypeActionButton.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/FAButtons\/ViewLoanActionButton.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/FaUiFunctions.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Factory\/ActionLink.php",
+        "tag": "1.0.5",
+        "date": "2025-12-26",
+        "suggestion": "@since 1.0.5 2025-12-26"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Factory\/AddLink.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Factory\/CreateLink.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Factory\/DeleteLink.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Factory\/EditLink.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Factory\/ListLink.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Factory\/ViewLink.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Formatting\/HtmlB.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Formatting\/HtmlBlockquote.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Formatting\/HtmlBold.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Formatting\/HtmlCite.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Formatting\/HtmlCode.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Formatting\/HtmlDeleted.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Formatting\/HtmlEm.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Formatting\/HtmlFormatting.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Formatting\/HtmlInserted.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Formatting\/HtmlItalic.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Formatting\/HtmlP.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Formatting\/HtmlParagraph.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Formatting\/HtmlParagraphFormatting.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Formatting\/HtmlSpanFormatting.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Formatting\/HtmlStrong.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Formatting\/HtmlSub.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Formatting\/HtmlSup.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/HTMLChildrenTrait.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/HtmlAttribute.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/HtmlAttributeList.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/HtmlDoc.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/HtmlElement.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/HtmlElementInterface.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/HtmlEmptyElement.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/HtmlFragment.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/HtmlScriptLanguage.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Javascript\/HtmlJSString.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Json\/HtmlJsonString.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Rows\/BaseTableRow.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Rows\/InterestFreqTableRow.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Rows\/LoanSummaryTableRow.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Rows\/LoanTypeTableRow.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/ScriptHandlers\/BaseScriptHandler.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/ScriptHandlers\/InterestFreqScriptHandler.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/ScriptHandlers\/LoanScriptHandler.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/ScriptHandlers\/LoanTypeScriptHandler.php",
+        "tag": "v1.0.0",
+        "date": "2025-12-21",
+        "suggestion": "@since v1.0.0 2025-12-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/ScriptHandlers\/ReportScriptHandler.php",
+        "tag": "1.0.5",
+        "date": "2025-12-26",
+        "suggestion": "@since 1.0.5 2025-12-26"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Traits\/AriaAttributeTrait.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Traits\/CSSManagementTrait.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Traits\/ComponentFactoryTrait.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Traits\/DataAttributeTrait.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Traits\/ElementIntrospectionTrait.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Traits\/EventHandlerTrait.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Traits\/FormElementsTrait.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Traits\/HtmlAttributeTrait.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Traits\/ResponsiveLayoutTrait.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Traits\/SemanticElementsTrait.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/Typescript\/HtmlTypeScriptString.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/VBScript\/HtmlVBScriptString.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlA.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlB.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlBody.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlBold.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlBr.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlButton.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlDd.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlDel.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlDeleted.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlDescriptionDescription.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlDescriptionList.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlDescriptionTerm.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlDiv.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlDl.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlDt.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlEm.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlEmail.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlEmphasize.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlExternalCSS.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlFormatting.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlHead.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlHeading.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlHeading1.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlHeading2.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlHeading3.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlHeading4.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlHeading5.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlHeading6.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlHr.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlHtml.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlI.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlImage.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlImg.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlIns.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlInserted.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlInternalCSS.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlInternalCSSList.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlInternalCSSListList.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlItalic.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlLi.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlLink.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlListItem.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlMark.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlOl.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlOrderedList.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlP.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlParagraph.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlPre.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlPreformatted.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlSmall.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlSpan.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlString.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlStrong.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlStyle.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlStyleList.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlSub.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlSubscript.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlSup.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlSuperscript.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlTable.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlTableBody.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlTableCaption.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlTableCol.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlTableColGroup.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlTableFoot.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlTableHead.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlTableHeaderCell.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlTableRow.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlTableRowCell.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlTd.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlTh.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlTitle.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlUl.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/HtmlUnorderedList.php",
+        "tag": "v1.0.0",
+        "date": "2025-05-20",
+        "suggestion": "@since v1.0.0 2025-05-20"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/class.VIEW_AMOUNT_CELL.php",
+        "tag": "v1.0.0",
+        "date": "2025-04-23",
+        "suggestion": "@since v1.0.0 2025-04-23"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/class.VIEW_CELL.php",
+        "tag": "v1.0.0",
+        "date": "2025-04-23",
+        "suggestion": "@since v1.0.0 2025-04-23"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/class.VIEW_DATE_CELL.php",
+        "tag": "v1.0.0",
+        "date": "2025-04-23",
+        "suggestion": "@since v1.0.0 2025-04-23"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/class.VIEW_DIV.php",
+        "tag": "v1.0.0",
+        "date": "2025-04-23",
+        "suggestion": "@since v1.0.0 2025-04-23"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/class.VIEW_FORM.php",
+        "tag": "v1.0.0",
+        "date": "2025-04-23",
+        "suggestion": "@since v1.0.0 2025-04-23"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/class.VIEW_ROW.php",
+        "tag": "v1.0.0",
+        "date": "2025-04-23",
+        "suggestion": "@since v1.0.0 2025-04-23"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/class.VIEW_SUBMIT_CELL.php",
+        "tag": "v1.0.0",
+        "date": "2025-04-23",
+        "suggestion": "@since v1.0.0 2025-04-23"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/class.VIEW_TABLE.php",
+        "tag": "v1.0.0",
+        "date": "2025-04-23",
+        "suggestion": "@since v1.0.0 2025-04-23"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/class.VIEW_TABLE_TD.php",
+        "tag": "v1.0.0",
+        "date": "2025-04-23",
+        "suggestion": "@since v1.0.0 2025-04-23"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/archived\/class.VIEW_TABLE_TH.php",
+        "tag": "v1.0.0",
+        "date": "2025-04-23",
+        "suggestion": "@since v1.0.0 2025-04-23"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/class.VIEW.php",
+        "tag": "v1.0.0",
+        "date": "2025-04-23",
+        "suggestion": "@since v1.0.0 2025-04-23"
+    },
+    {
+        "file": "src\/Ksfraser\/HTML\/js\/HtmlJsEventTrait.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "test_fr011_simple.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "test_minimal.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "tests\/ActionButtonTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "tests\/ActionLinkTest.php",
+        "tag": "1.0.5",
+        "date": "2025-12-26",
+        "suggestion": "@since 1.0.5 2025-12-26"
+    },
+    {
+        "file": "tests\/AddButtonTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "tests\/AriaAttributeTraitTest.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "tests\/ButtonsTest.php",
+        "tag": "1.0.5",
+        "date": "2025-12-26",
+        "suggestion": "@since 1.0.5 2025-12-26"
+    },
+    {
+        "file": "tests\/CSSManagementTraitTest.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "tests\/CancelButtonTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "tests\/CloseButtonTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "tests\/ComponentFactoryTraitTest.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "tests\/DataAttributeTraitTest.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "tests\/DeleteButtonTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "tests\/EditButtonTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "tests\/ElementIntrospectionTraitTest.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "tests\/EventHandlerTraitTest.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "tests\/FAButtonsTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/FormElementsTraitTest.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "tests\/HTMLChildrenTraitTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlA_Test.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlAbbrTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlAddressTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlArticleTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlAsideTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlAttributeListTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlAttributeTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlAttributeTraitTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "tests\/HtmlAttributeValueObjectTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlAttributesCoverageTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlAttributesTraitTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlBTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlBlockFormattingTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlBlockTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlBlockquoteTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlBoldTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlBrTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlButtonTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlButtonsCoverageTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlCellsCoverageTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlCiteTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlCodeTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlCompositesCoverageTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlCrudCoverageTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlDataTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlDdTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlDeletedTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlDfTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlDivTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlDlTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlDtTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlElementInterfaceCoverageTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlElementInterfaceTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlElementTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlElementsCoverageTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlEmTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlEmailTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "tests\/HtmlEmptyElementTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlFAButtonsCoverageTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlFactoryCoverageTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlFigcaptionTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlFigureTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlFooterTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlFormValidationTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlFormattingCoverageTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlFormattingTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlFragmentTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlH1Test.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlH2Test.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlH3Test.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlH4Test.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlH5Test.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlH6Test.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlHeaderTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlHrTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlInlineTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlInsertedTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlItalicTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlJSStringTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlKbdTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlLiTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlListItemTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlMainTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlMarkTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlMenuTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlMetaTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "tests\/HtmlMeterTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlNameValueTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlNavTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlOlTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlOptionTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlOrderedListTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlOutputTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlPTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlParagraphFormattingTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlParagraphTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlPreTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlPreformattedTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlProgressTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlQTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlRawTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlRowBuildersIntegrationTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "tests\/HtmlRowsCoverageTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlSampTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlScriptHandlersCoverageTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlScriptJSONTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "tests\/HtmlScriptJSTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "tests\/HtmlScriptTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlScriptTypeScriptTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "tests\/HtmlScriptVBScriptTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "tests\/HtmlSectionTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlSelectTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlSmallTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlSpanFormattingTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlSpanTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlStrongTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlStyleListTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlSubTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlSupTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlTimeTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlTraitCoverageTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlUlTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlVarTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/HtmlWbrTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-20",
+        "suggestion": "@since 1.0.5 2026-02-20"
+    },
+    {
+        "file": "tests\/ModalBuilderTest.php",
+        "tag": "1.0.5",
+        "date": "2025-12-26",
+        "suggestion": "@since 1.0.5 2025-12-26"
+    },
+    {
+        "file": "tests\/ModalTest.php",
+        "tag": "1.0.5",
+        "date": "2025-12-26",
+        "suggestion": "@since 1.0.5 2025-12-26"
+    },
+    {
+        "file": "tests\/ResponsiveLayoutTraitTest.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "tests\/SemanticElementsTraitTest.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "tests\/SpecializedActionLinksTest.php",
+        "tag": "1.0.5",
+        "date": "2025-12-26",
+        "suggestion": "@since 1.0.5 2025-12-26"
+    },
+    {
+        "file": "tests\/SubmitButtonTest.php",
+        "tag": "1.0.5",
+        "date": "2026-02-21",
+        "suggestion": "@since 1.0.5 2026-02-21"
+    },
+    {
+        "file": "tests\/VIEWTest.php",
+        "tag": "v1.0.0",
+        "date": "2025-04-23",
+        "suggestion": "@since v1.0.0 2025-04-23"
+    },
+    {
+        "file": "tests\/VIEW_AMOUNT_CELLTest.php",
+        "tag": "v1.0.0",
+        "date": "2025-04-23",
+        "suggestion": "@since v1.0.0 2025-04-23"
+    },
+    {
+        "file": "tests\/VIEW_CELLTest.php",
+        "tag": "v1.0.0",
+        "date": "2025-04-23",
+        "suggestion": "@since v1.0.0 2025-04-23"
+    },
+    {
+        "file": "tests\/VIEW_DATE_CELLTest.php",
+        "tag": "v1.0.0",
+        "date": "2025-04-23",
+        "suggestion": "@since v1.0.0 2025-04-23"
+    },
+    {
+        "file": "tests\/VIEW_DIVTest.php",
+        "tag": "v1.0.0",
+        "date": "2025-04-23",
+        "suggestion": "@since v1.0.0 2025-04-23"
+    },
+    {
+        "file": "tests\/VIEW_FORMTest.php",
+        "tag": "v1.0.0",
+        "date": "2025-04-23",
+        "suggestion": "@since v1.0.0 2025-04-23"
+    },
+    {
+        "file": "tests\/VIEW_ROWTest.php",
+        "tag": "v1.0.0",
+        "date": "2025-04-23",
+        "suggestion": "@since v1.0.0 2025-04-23"
+    },
+    {
+        "file": "tests\/VIEW_SUBMIT_CELLTest.php",
+        "tag": "v1.0.0",
+        "date": "2025-04-23",
+        "suggestion": "@since v1.0.0 2025-04-23"
+    },
+    {
+        "file": "tests\/VIEW_TABLETest.php",
+        "tag": "v1.0.0",
+        "date": "2025-04-23",
+        "suggestion": "@since v1.0.0 2025-04-23"
+    },
+    {
+        "file": "tests\/VIEW_TABLE_TDTest.php",
+        "tag": "v1.0.0",
+        "date": "2025-04-23",
+        "suggestion": "@since v1.0.0 2025-04-23"
+    },
+    {
+        "file": "tests\/VIEW_TABLE_THTest.php",
+        "tag": "v1.0.0",
+        "date": "2025-04-23",
+        "suggestion": "@since v1.0.0 2025-04-23"
+    },
+    {
+        "file": "tests\/bootstrap.php",
+        "tag": "v1.0.0",
+        "date": "2025-10-31",
+        "suggestion": "@since v1.0.0 2025-10-31"
+    },
+    {
+        "file": "tests\/stubs\/class.VIEW_CELL.php",
+        "tag": "1.0.5",
+        "date": "2026-02-14",
+        "suggestion": "@since 1.0.5 2026-02-14"
+    },
+    {
+        "file": "tests\/stubs\/class.origin.php",
+        "tag": "1.0.5",
+        "date": "2026-02-14",
+        "suggestion": "@since 1.0.5 2026-02-14"
+    },
+    {
+        "file": "validate_aria_trait.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "validate_css_trait.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "validate_data_trait.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "validate_event_trait.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "validate_introspection_quick.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    },
+    {
+        "file": "validate_introspection_trait.php",
+        "tag": "1.0.5",
+        "date": "2026-03-29",
+        "suggestion": "@since 1.0.5 2026-03-29"
+    }
+]

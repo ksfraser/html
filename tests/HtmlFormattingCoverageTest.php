@@ -1,7 +1,18 @@
 <?php
 use PHPUnit\Framework\TestCase;
 
+/**
+ * class HtmlFormattingCoverageTest
+ *
+ * @since 1.0.3 2026-02-21
+ */
 class HtmlFormattingCoverageTest extends TestCase {
+/**
+ * testFormattingClassesExist
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     public function testFormattingClassesExist() {
         $classes = [
             'Ksfraser\\HTML\\Formatting\\HtmlB',

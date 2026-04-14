@@ -7,6 +7,8 @@ namespace Ksfraser\HTML\Elements;
 use Ksfraser\HTML\HtmlElementInterface;
 use Ksfraser\HTML\HtmlAttribute;
 use Ksfraser\HTML\HtmlAttributeList;
+use Ksfraser\HTML\Elements\HtmlString;
+use Ksfraser\HTML\Elements\HtmlOption;
 
 /**
  * HtmlSelect
@@ -55,6 +57,11 @@ use Ksfraser\HTML\HtmlAttributeList;
  */
 use Ksfraser\HTML\HtmlElement;
 
+/**
+ * class HtmlSelect
+ *
+ * @since v1.0.0 2026-04-11
+ */
 class HtmlSelect extends HtmlElement
 {
     /**
@@ -71,14 +78,19 @@ class HtmlSelect extends HtmlElement
     /**
      * Constructor
      *
-    * @param HtmlElementInterface $name The select element name (value object)
      *
      * @since 20251020
+ * @param mixed $name
+ * @return void
      */
-    public function __construct(HtmlElementInterface $name)
+    public function __construct($name = '')
     {
         parent::__construct();
-        $this->name = $name;
+        if ($name instanceof HtmlElementInterface) {
+            $this->name = $name;
+        } else {
+            $this->name = new HtmlString((string)$name);
+        }
         $this->options = [];
         $this->setTag('select');
         $this->addAttribute('id', 'select');
@@ -99,33 +111,41 @@ class HtmlSelect extends HtmlElement
     /**
      * Add an option to the select
      *
-     * @param HtmlOption $option Option to add
      *
      * @return self For fluent interface
      *
      * @since 20251020
+ * @param mixed $valueOrOption
+ * @param string $text
+ * @param bool $selected
      */
-    public function addOption(HtmlOption $option): self
+    public function addOption($valueOrOption, string $text = '', bool $selected = false): self
     {
+        if ($valueOrOption instanceof HtmlOption) {
+            $option = $valueOrOption;
+        } else {
+            $option = new HtmlOption((string)$valueOrOption, $text !== '' ? $text : (string)$valueOrOption, $selected);
+        }
         $this->options[] = $option;
+        $this->addNested($option);
         return $this;
     }
 
     /**
      * Add multiple options from an associative array
      *
-     * @param array<string, string> $data          Key-value pairs (value => label)
-     * @param string|null           $selectedValue Optional value to mark as selected
      *
      * @return self For fluent interface
      *
      * @since 20251020
+ * @param array $data
+ * @param ?string $selectedValue
      */
     public function addOptionsFromArray(array $data, ?string $selectedValue = null): self
     {
         foreach ($data as $value => $label) {
             $isSelected = ($selectedValue !== null && (string)$value === $selectedValue);
-            $this->addOption(new HtmlOption((string)$value, $label, $isSelected));
+            $this->addOption((string)$value, $label, $isSelected);
         }
         return $this;
     }
@@ -133,9 +153,9 @@ class HtmlSelect extends HtmlElement
     /**
      * Get all options
      *
-     * @return HtmlOption[] Array of options
      *
      * @since 20251020
+ * @return array
      */
     public function getOptions(): array
     {
@@ -221,11 +241,11 @@ class HtmlSelect extends HtmlElement
      *
      * @param bool $disabled Whether the select is disabled
      *
-     * @return self For fluent interface
      *
      * @since 20251020
+ * @return HtmlElement
      */
-    public function setDisabled(bool $disabled): self
+    public function setDisabled(bool $disabled = true): HtmlElement
     {
         if ($disabled) {
             $this->attributeList->addAttributeObject(new HtmlAttribute('disabled', 'disabled'));
@@ -238,11 +258,11 @@ class HtmlSelect extends HtmlElement
      *
      * @param bool $required Whether the select is required
      *
-     * @return self For fluent interface
      *
      * @since 20251020
+ * @return HtmlElement
      */
-    public function setRequired(bool $required): self
+    public function setRequired(bool $required = true): HtmlElement
     {
         if ($required) {
             $this->attributeList->addAttributeObject(new HtmlAttribute('required', 'required'));

@@ -4,6 +4,12 @@ namespace Ksfraser\HTML;
 
 use Ksfraser\Origin\origin;
 
+/**
+ * VIEW_TABLE.
+ *
+ *
+ * @since v1.0.0 2025-04-23
+ */
 class VIEW_TABLE extends origin
 {
 	protected $table_headers;
@@ -11,14 +17,25 @@ class VIEW_TABLE extends origin
 	protected $table_class;
 	protected $table_width;
 	protected $table_style;
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
 	function __construct()
 	{
-		parent::__construct();
 		$this->table_rows = array();
 		$this->table_headers = array();
 		$this->table_width = "70";
 		$this->table_style = TABLESTYLE;
 	}
+/**
+ * __toString
+ *
+ * @since v1.0.0 2025-04-23
+ * @return void
+ */
 	function __toString()
 	{
 		$this->start_table();
@@ -32,24 +49,49 @@ class VIEW_TABLE extends origin
 		}
 		$this->end_table();
 	}
+/**
+ * end_table
+ *
+ * @since v1.0.0 2025-04-23
+ * @return void
+ */
 	function end_table()
 	{
 		end_table();
 	}
-	/**//***********************
+	/*************************
 	* Create a new Table
 	*
 	* Normally would do sanity check on variables but they are set in the constructor.
 	*
-	**************************/
+ * @return void
+ * @since v1.0.5 2026-04-14
+/**
+ * start_table
+ *
+ * @since v1.0.0 2025-04-23
+ * @return void
+ */
 	function start_table()
 	{
 		start_table( $this->get( "table_style" ), "width=" . $this->get( "table_width" ) . "%");
 	}
-	/**//***********************************************************
+	/*************************************************************
 	* Setting with data validation
 	*
-	****************************************************************/
+ * @return void
+ * @param mixed $var
+ * @param mixed $value
+ * @param mixed $enforce
+/**
+ * set
+ *
+ * @since v1.0.0 2025-04-23
+ * @param mixed $var
+ * @param mixed $value
+ * @param mixed $enforce
+ * @return void
+ */
 	function set( $var, $value = null, $enforce = true )
 	{
 		switch( $var )
@@ -80,8 +122,10 @@ class VIEW_TABLE extends origin
     /**
      * Add a row to the table with validation.
      *
-     * @param array $row The row to add.
      * @throws InvalidArgumentException If the row is not an array.
+ * @param mixed $row
+ * @return void
+ * @since v2.0.1 2026-04-14
      */
     public function add_row($row)
     {
@@ -95,6 +139,7 @@ class VIEW_TABLE extends origin
      * Generate the HTML output for the table.
      *
      * @return string The HTML representation of the table.
+ * @since v1.0.5 2026-04-14
      */
     public function toHtml()
     {

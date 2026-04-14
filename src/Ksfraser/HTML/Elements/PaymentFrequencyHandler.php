@@ -6,16 +6,16 @@ use Ksfraser\HTML\HtmlElement;
 
 /**
  * PaymentFrequencyHandler - Payment Frequency to Payments Per Year Converter
- * 
+ *
  * Encapsulates the JavaScript logic for converting payment frequency selections
  * into the number of payments per year. Commonly used in loan/amortization calculations.
- * 
+ *
  * This handler provides an SRP-based approach to frequency handling:
  * - Maps frequency names to annual payment counts
  * - Generates the JavaScript conversion function
  * - Handles hidden field population
  * - Centralizes frequency logic for reusability
- * 
+ *
  * Common Frequencies:
  * - Annual: 1 payment per year
  * - Semi-Annual: 2 payments per year
@@ -23,28 +23,23 @@ use Ksfraser\HTML\HtmlElement;
  * - Semi-Monthly: 24 payments per year
  * - Bi-Weekly: 26 payments per year
  * - Weekly: 52 payments per year
- * 
+ *
  * Design Pattern: Template Method
  * - Encapsulates the frequency function generation
  * - Can be extended with custom frequency mappings
- * 
+ *
  * SOLID Principles:
  * - Single Responsibility: Only handles payment frequency conversion
  * - Open/Closed: Can be extended with custom frequency types
  * - Liskov Substitution: Can replace HtmlElement
  * - Interface Segregation: Simple, focused interface
  * - Dependency Inversion: Depends on HtmlElement abstraction
- * 
+ *
  * Usage Context:
  * Used in loan/amortization forms where payment frequency determines
  * calculation of periodic payment amounts and total interest.
- * 
- * @package    Ksfraser\HTML
- * @author     Kevin Fraser / GitHub Copilot
- * @since      20251220
- * @version    1.0.0
- * 
- * @example
+ *
+ *
  * ```php
  * // Generate the payment frequency handler
  * $handler = (new PaymentFrequencyHandler())
@@ -52,10 +47,16 @@ use Ksfraser\HTML\HtmlElement;
  *     ->setTargetFieldId('payments_per_year')
  *     ->setFunctionName('updatePaymentsPerYear');
  * echo $handler->getHtml();
- * 
+ *
  * // In your select, attach to onchange:
  * $freqSelect->addAttribute('onchange', 'updatePaymentsPerYear()');
  * ```
+ *
+ * @package    Ksfraser\HTML
+ * @author     Kevin Fraser / GitHub Copilot
+ * @version    1.0.0
+ * @example
+ * @since v1.0.0 2026-04-11
  */
 class PaymentFrequencyHandler extends HtmlElement
 {
@@ -96,6 +97,8 @@ class PaymentFrequencyHandler extends HtmlElement
 
     /**
      * Constructor
+ * @return void
+ * @since v1.0.0 2026-04-11
      */
     public function __construct()
     {
@@ -105,10 +108,11 @@ class PaymentFrequencyHandler extends HtmlElement
     /**
      * Set the JavaScript function name
      * 
-     * @param string $name Function name (must be valid JS identifier)
      * @return PaymentFrequencyHandler Fluent interface
-     */
-    public function setFunctionName($name)
+ * @param mixed $name
+ * @since v1.0.5 2026-04-14
+ */
+public function setFunctionName($name)
     {
         $this->functionName = $name;
         return $this;
@@ -117,10 +121,11 @@ class PaymentFrequencyHandler extends HtmlElement
     /**
      * Set the source field ID (frequency select)
      * 
-     * @param string $id HTML element ID
      * @return PaymentFrequencyHandler Fluent interface
-     */
-    public function setSourceFieldId($id)
+ * @param mixed $id
+ * @since v1.0.5 2026-04-14
+ */
+public function setSourceFieldId($id)
     {
         $this->sourceFieldId = $id;
         return $this;
@@ -129,10 +134,11 @@ class PaymentFrequencyHandler extends HtmlElement
     /**
      * Set the target field ID (hidden payments_per_year field)
      * 
-     * @param string $id HTML element ID
      * @return PaymentFrequencyHandler Fluent interface
-     */
-    public function setTargetFieldId($id)
+ * @param mixed $id
+ * @since v1.0.5 2026-04-14
+ */
+public function setTargetFieldId($id)
     {
         $this->targetFieldId = $id;
         return $this;
@@ -145,6 +151,7 @@ class PaymentFrequencyHandler extends HtmlElement
      * 
      * @param array $map Associative array: frequency_name => payments_per_year
      * @return PaymentFrequencyHandler Fluent interface
+ * @since v1.0.0 2026-04-13
      */
     public function setFrequencyMap(array $map)
     {
@@ -155,11 +162,12 @@ class PaymentFrequencyHandler extends HtmlElement
     /**
      * Add a frequency to the mapping
      * 
-     * @param string $frequency Frequency name (must be used in select options)
-     * @param int    $count     Number of payments per year
      * @return PaymentFrequencyHandler Fluent interface
-     */
-    public function addFrequency($frequency, $count)
+ * @param mixed $frequency
+ * @param mixed $count
+ * @since v1.0.5 2026-04-14
+ */
+public function addFrequency($frequency, $count)
     {
         $this->frequencyMap[$frequency] = $count;
         return $this;
@@ -169,6 +177,7 @@ class PaymentFrequencyHandler extends HtmlElement
      * Generate the JavaScript frequency conversion function
      * 
      * @return string The complete JavaScript function
+ * @since v1.0.0 2026-04-13
      */
     protected function generateJSFunction()
     {
@@ -193,6 +202,7 @@ class PaymentFrequencyHandler extends HtmlElement
      * Generate the HTML representation (script tag with function)
      * 
      * @return string
+ * @since v1.0.0 2026-04-13
      */
     public function getHtml(): string
     {
@@ -200,3 +210,4 @@ class PaymentFrequencyHandler extends HtmlElement
         return $script->getHtml();
     }
 }
+

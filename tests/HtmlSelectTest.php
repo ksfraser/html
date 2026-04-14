@@ -4,8 +4,19 @@ use Ksfraser\HTML\Elements\HtmlSelect;
 use Ksfraser\HTML\Elements\HtmlOption;
 use Ksfraser\HTML\Attributes\HtmlNameValue;
 
+/**
+ * class HtmlSelectTest
+ *
+ * @since 1.0.3 2026-02-21
+ */
 class HtmlSelectTest extends TestCase
 {
+/**
+ * testSelectRendersWithName
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     public function testSelectRendersWithName()
     {
         $select = new HtmlSelect(new HtmlNameValue('test_select'));
@@ -13,6 +24,12 @@ class HtmlSelectTest extends TestCase
         $this->assertEquals('test_select', html_entity_decode($html));
     }
 
+/**
+ * testSelectRendersOptions
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testSelectRendersOptions()
     {
         $select = new HtmlSelect(new HtmlNameValue('test_select'));
@@ -24,6 +41,12 @@ class HtmlSelectTest extends TestCase
         $this->assertStringContainsString('<option value="v2" selected>Label 2</option>', $selectHtml);
     }
 
+/**
+ * testNameValueEscaping
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testNameValueEscaping()
     {
         $select = new HtmlSelect(new HtmlNameValue('bad\"name<test>'));

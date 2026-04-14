@@ -7,12 +7,14 @@ use Ksfraser\HTML\HtmlElement;
 
 /**
  * ComponentFactoryTraitTest - FR-012
- * 
+ *
  * Comprehensive test suite for Bootstrap component factory methods
  * Tests component creation, styling, states, and accessibility
- * 
+ *
+ *
  * @group FR-012
  * @group Components
+ * @since 1.0.5 2026-03-30
  */
 class ComponentFactoryTraitTest extends TestCase
 {
@@ -24,6 +26,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group buttons
+ * @return void
+ * @since 1.0.5 2026-03-30
      */
     public function button_primary_creates_button_with_correct_classes()
     {
@@ -38,6 +42,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group buttons
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function button_primary_defaults_to_button_type()
     {
@@ -50,6 +56,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group buttons
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function button_success_creates_button_with_success_class()
     {
@@ -63,6 +71,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group buttons
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function button_danger_creates_button_with_danger_class()
     {
@@ -76,6 +86,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group buttons
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function button_warning_creates_button_with_warning_class()
     {
@@ -89,6 +101,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group buttons
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function button_info_creates_button_with_info_class()
     {
@@ -102,6 +116,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group buttons
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function button_secondary_creates_button_with_secondary_class()
     {
@@ -115,6 +131,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group buttons
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function button_large_adds_size_class()
     {
@@ -128,6 +146,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group buttons
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function button_small_adds_size_class()
     {
@@ -141,6 +161,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group buttons
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function button_submit_type_sets_correct_type_attribute()
     {
@@ -157,6 +179,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group cards
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function card_creates_card_container_with_correct_classes()
     {
@@ -170,6 +194,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group cards
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function card_header_creates_header_element()
     {
@@ -183,6 +209,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group cards
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function card_body_creates_body_element()
     {
@@ -196,6 +224,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group cards
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function card_footer_creates_footer_element()
     {
@@ -209,6 +239,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group cards
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function card_with_image_adds_image_class()
     {
@@ -223,6 +255,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group cards
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function card_text_creates_text_element()
     {
@@ -236,6 +270,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group cards
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function card_title_creates_title_element()
     {
@@ -248,6 +284,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group cards
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function card_subtitle_creates_subtitle_element()
     {
@@ -264,6 +302,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group alerts
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function alert_primary_creates_alert_with_correct_classes()
     {
@@ -278,6 +318,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group alerts
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function alert_success_creates_alert_with_success_class()
     {
@@ -291,6 +333,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group alerts
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function alert_warning_creates_alert_with_warning_class()
     {
@@ -304,6 +348,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group alerts
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function alert_danger_creates_alert_with_danger_class()
     {
@@ -317,6 +363,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group alerts
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function alert_info_creates_alert_with_info_class()
     {
@@ -330,6 +378,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group alerts
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function alert_dismissible_adds_dismissible_class()
     {
@@ -342,6 +392,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group alerts
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function alert_sets_role_attribute()
     {
@@ -358,6 +410,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group badges
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function badge_primary_creates_badge_with_correct_classes()
     {
@@ -372,6 +426,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group badges
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function badge_success_creates_badge_with_success_class()
     {
@@ -385,6 +441,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group badges
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function badge_danger_creates_badge_with_danger_class()
     {
@@ -398,6 +456,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group badges
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function badge_warning_creates_badge_with_warning_class()
     {
@@ -411,6 +471,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group badges
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function badge_info_creates_badge_with_info_class()
     {
@@ -424,6 +486,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group badges
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function badge_secondary_creates_badge_with_secondary_class()
     {
@@ -437,6 +501,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group badges
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function badge_pill_adds_pill_class()
     {
@@ -453,6 +519,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group modals
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function modal_creates_modal_container_with_correct_classes()
     {
@@ -467,6 +535,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group modals
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function modal_sets_role_attribute()
     {
@@ -479,6 +549,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group modals
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function modal_dialog_creates_dialog_wrapper()
     {
@@ -492,6 +564,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group modals
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function modal_content_creates_content_wrapper()
     {
@@ -505,6 +579,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group modals
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function modal_header_creates_header_element()
     {
@@ -518,6 +594,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group modals
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function modal_body_creates_body_element()
     {
@@ -531,6 +609,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group modals
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function modal_footer_creates_footer_element()
     {
@@ -544,6 +624,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group modals
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function modal_xlarge_adds_xlarge_class()
     {
@@ -556,6 +638,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group modals
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function modal_large_adds_large_class()
     {
@@ -568,6 +652,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group modals
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function modal_small_adds_small_class()
     {
@@ -584,6 +670,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group navbars
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function navbar_creates_navbar_with_correct_classes()
     {
@@ -597,6 +685,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group navbars
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function navbar_dark_adds_dark_class()
     {
@@ -609,6 +699,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group navbars
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function navbar_light_adds_light_class()
     {
@@ -621,6 +713,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group navbars
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function navbar_bg_primary_adds_background_class()
     {
@@ -633,6 +727,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group navbars
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function navbar_brand_creates_brand_element()
     {
@@ -646,6 +742,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group navbars
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function navbar_nav_creates_nav_list()
     {
@@ -659,6 +757,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group navbars
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function navbar_item_creates_list_item()
     {
@@ -672,6 +772,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group navbars
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function navbar_link_creates_navigation_link()
     {
@@ -686,6 +788,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group navbars
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function navbar_link_active_adds_active_class()
     {
@@ -698,6 +802,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group navbars
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function navbar_toggler_creates_toggle_button()
     {
@@ -716,6 +822,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group pagination
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function pagination_creates_pagination_element()
     {
@@ -728,6 +836,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group pagination
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function pagination_list_creates_list_element()
     {
@@ -741,6 +851,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group pagination
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function pagination_item_creates_list_item()
     {
@@ -754,6 +866,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group pagination
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function pagination_item_active_adds_active_class()
     {
@@ -766,6 +880,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group pagination
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function pagination_item_disabled_adds_disabled_class()
     {
@@ -778,6 +894,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group pagination
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function pagination_link_creates_link_element()
     {
@@ -792,6 +910,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group pagination
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function pagination_link_previous_creates_previous_link()
     {
@@ -804,6 +924,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group pagination
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function pagination_link_next_creates_next_link()
     {
@@ -816,6 +938,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group pagination
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function pagination_large_adds_size_class()
     {
@@ -828,6 +952,8 @@ class ComponentFactoryTraitTest extends TestCase
      * @test
      * @group components
      * @group pagination
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function pagination_small_adds_size_class()
     {

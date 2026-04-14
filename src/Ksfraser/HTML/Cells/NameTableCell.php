@@ -5,11 +5,13 @@ use Ksfraser\HTML\Elements\TableData;
 
 /**
  * NameTableCell - Builds reusable Name cells for any table
- * 
+ *
  * SRP: Single responsibility of formatting Name cells consistently.
  * Handles: Name cell styling, HTML escaping, N/A fallback.
- * 
+ *
+ *
  * @package Ksfraser\HTML\Cells
+ * @since 1.0.1 2026-02-16
  */
 class NameTableCell extends BaseTableCell {
     /**
@@ -17,6 +19,7 @@ class NameTableCell extends BaseTableCell {
      * 
      * @param mixed $name The name value
      * @return TableData
+ * @since 1.0.1 2026-02-16
      */
     public function build($name): TableData {
         $cell = (new TableData())

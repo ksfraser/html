@@ -5,13 +5,15 @@ use Ksfraser\HTML\HtmlAttribute;
 
 /**
  * TableRow - Factory/convenience wrapper for HTML table row elements
- * 
+ *
  * Provides fluent interface for building table rows.
- * 
+ *
  * Usage:
  * - (new TableRow())->addClass('header')->append($td1, $td2)->render()
- * 
+ *
+ *
  * @package Ksfraser\HTML\Elements
+ * @since 1.0.5 2026-02-22
  */
 class TableRow implements \Ksfraser\HTML\HtmlElementInterface {
     private $element;
@@ -19,6 +21,8 @@ class TableRow implements \Ksfraser\HTML\HtmlElementInterface {
     
     /**
      * Create a new table row
+ * @return void
+ * @since 1.0.1 2026-02-16
      */
     public function __construct() {
         $this->element = new HtmlTableRow(new HtmlString(''));
@@ -29,6 +33,7 @@ class TableRow implements \Ksfraser\HTML\HtmlElementInterface {
      * Get the underlying HtmlTableRow element
      * 
      * @return HtmlTableRow The wrapped HTML element
+ * @since v1.0.0 2026-04-13
      */
     public function getHtmlElement(): HtmlTableRow {
         return $this->element;
@@ -39,6 +44,7 @@ class TableRow implements \Ksfraser\HTML\HtmlElementInterface {
      * 
      * @param string $class CSS class name
      * @return self Fluent interface
+ * @since v1.0.0 2026-04-13
      */
     public function addClass(string $class): self {
         if (!in_array($class, $this->classes)) {
@@ -58,6 +64,7 @@ class TableRow implements \Ksfraser\HTML\HtmlElementInterface {
      * 
      * @param array $labels Array of header label strings
      * @return self Fluent interface
+ * @since v1.0.0 2026-04-13
      */
     public function addHeadersFromArray(array $labels): self {
         foreach ($labels as $label) {
@@ -71,10 +78,11 @@ class TableRow implements \Ksfraser\HTML\HtmlElementInterface {
     /**
      * Append child elements (cells) to the row
      * 
-     * @param mixed ...$elements Variable number of elements to append
      * @return self Fluent interface
-     */
-    public function append(...$elements): self {
+ * @param mixed $elements
+ * @since v1.0.5 2026-04-14
+ */
+public function append(...$elements): self {
         foreach ($elements as $element) {
             if ($element instanceof HtmlElementInterface) {
                 $this->element->addNested($element);
@@ -88,11 +96,12 @@ class TableRow implements \Ksfraser\HTML\HtmlElementInterface {
     /**
      * Add an HTML attribute
      * 
-     * @param string $name Attribute name
-     * @param string $value Attribute value
      * @return self Fluent interface
-     */
-    public function setAttribute(string $name, $value): self {
+ * @param string $name
+ * @param mixed $value
+ * @since v1.0.5 2026-04-14
+ */
+public function setAttribute(string $name, $value): self {
         $this->element->addAttributeObject(new HtmlAttribute($name, $value));
         return $this;
     }
@@ -101,6 +110,7 @@ class TableRow implements \Ksfraser\HTML\HtmlElementInterface {
      * Get HTML representation as string
      * 
      * @return string The complete HTML table row element
+ * @since v1.0.0 2026-04-13
      */
     public function getHtml(): string {
         return $this->element->getHtml();
@@ -110,6 +120,7 @@ class TableRow implements \Ksfraser\HTML\HtmlElementInterface {
      * Render the row to HTML string
      * 
      * @return string The complete HTML table row element
+ * @since v1.0.0 2026-04-13
      */
     public function render(): string {
         return $this->getHtml();
@@ -117,8 +128,11 @@ class TableRow implements \Ksfraser\HTML\HtmlElementInterface {
     
     /**
      * Satisfy HtmlElementInterface: echo HTML string
+ * @return void
+ * @since v1.0.0 2026-04-13
      */
     public function toHtml(): void {
         echo $this->getHtml();
     }
 }
+

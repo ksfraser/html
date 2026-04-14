@@ -7,29 +7,30 @@ use Ksfraser\HTML\HtmlElementInterface;
 
 /**
  * Close Action Button Class
- * 
+ *
  * Specialized button for close actions (modals, dialogs, etc.).
  * Encapsulates close button styling and behavior.
- * 
+ *
  * Features:
  * - Secondary styling by default
  * - JavaScript function call support for custom close handlers
  * - Commonly used for modal/dialog dismissal
- * 
+ *
  * SOLID Principles:
  * - Single Responsibility: Only handles close button generation
  * - Open/Closed: Can be extended for custom close behaviors
- * 
- * @package Ksfraser\HTML
- * @author Kevin Fraser
- * @since 20251226
- * 
- * @example
+ *
+ *
  * ```php
  * $closeBtn = new CloseButton(new HtmlString('Close'));
  * $closeBtn->setOnclickFunction("closeModal();");
  * echo $closeBtn->getHtml();
  * ```
+ *
+ * @package Ksfraser\HTML
+ * @author Kevin Fraser
+ * @example
+ * @since 1.0.1 2026-02-16
  */
 class CloseButton extends ActionButton
 {
@@ -37,9 +38,11 @@ class CloseButton extends ActionButton
     /**
      * Constructor
      * 
-     * @param HtmlElementInterface|null $label The button label (default: "Close")
-     */
-    public function __construct(HtmlElementInterface $label = null)
+ * @param HtmlElementInterface $label
+ * @return void
+ * @since 1.0.1 2026-02-16
+ */
+public function __construct(HtmlElementInterface $label = null)
     {
         if ($label === null) {
             $label = new HtmlString('Close');
@@ -51,6 +54,7 @@ class CloseButton extends ActionButton
      * Setup close button attributes
      *
      * @return void
+ * @since v1.0.0 2026-04-13
      */
     protected function setupActionButton()
     {
@@ -63,6 +67,7 @@ class CloseButton extends ActionButton
      * Add a CSS class to the button
      * @param string $class
      * @return self
+ * @since v1.0.0 2026-04-13
      */
     public function addClass(string $class): self
     {
@@ -70,3 +75,4 @@ class CloseButton extends ActionButton
         return $this;
     }
 }
+

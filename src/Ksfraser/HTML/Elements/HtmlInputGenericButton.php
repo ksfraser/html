@@ -9,38 +9,39 @@ use \Ksfraser\HTML\JS\HtmlJsEventTrait;
 
 /**
  * HTML Generic Button Input Class
- * 
+ *
  * Represents an HTML <input type="button"> element.
  * Used for client-side JavaScript interactions without form submission.
  * Unlike submit/reset buttons, this button has no default behavior.
- * 
+ *
  * Extends HtmlInputButton to inherit common button-type input behavior.
- * 
+ *
  * Design Pattern: Builder Pattern
  * - Fluent interface for setting attributes
- * 
+ *
  * SOLID Principles:
  * - Single Responsibility: Renders generic button only
  * - Open/Closed: Can be extended for custom button types
  * - Liskov Substitution: Can replace HtmlInputButton
  * - Interface Segregation: Uses HtmlElementInterface appropriately
  * - Dependency Inversion: Depends on HtmlElementInterface abstraction
- * 
- * @package Ksfraser\HTML
- * @author Kevin Fraser
- * @since 20251019
- * @version 20251019.0
- * 
- * @example
+ *
+ *
  * ```php
  * $label = new HtmlString('Click Me');
  * $button = new HtmlInputGenericButton($label);
  * $button->setName('my_btn')
  *        ->setOnclick("alert('Hello!')")
  *        ->setClass('btn btn-primary');
- * echo $button->getHtml(); 
+ * echo $button->getHtml();
  * // Output: <input type="button" value="Click Me" name="my_btn" onclick="alert('Hello!')" class="btn btn-primary" />
  * ```
+ *
+ * @package Ksfraser\HTML
+ * @author Kevin Fraser
+ * @version 20251019.0
+ * @example
+ * @since v1.0.0 2026-04-11
  */
 class HtmlInputGenericButton extends HtmlInputButton
 {
@@ -48,6 +49,8 @@ class HtmlInputGenericButton extends HtmlInputButton
      * Constructor
      * 
      * @param HtmlElementInterface $label The button label (will be value attribute)
+ * @return void
+ * @since v1.0.0 2026-04-11
      */
     public function __construct(HtmlElementInterface $label)
     {
@@ -60,6 +63,7 @@ class HtmlInputGenericButton extends HtmlInputButton
      * 
      * @param string $javascript The JavaScript code to execute on click
      * @return self Fluent interface
+ * @since v1.0.0 2026-04-13
      */
     public function setOnclick(string $javascript): self
     {

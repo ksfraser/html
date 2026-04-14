@@ -6,6 +6,8 @@ namespace Ksfraser\HTML\Crud;
  * Simple value object describing a CRUD field.
  *
  * Keep this PHP 7.3-compatible (no typed properties).
+ *
+ * @since 1.0.1 2026-02-16
  */
 class CrudField
 {

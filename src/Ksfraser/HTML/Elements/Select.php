@@ -4,23 +4,18 @@ namespace Ksfraser\HTML\Elements;
 
 /**
  * Select - Convenience Alias for HtmlSelect
- * 
+ *
  * Shorter, cleaner import name for the HtmlSelect class.
  * Allows using `new Select()` instead of `new HtmlSelect()`.
- * 
+ *
  * This is a simple class alias that extends HtmlSelect, providing
  * the same functionality with more concise naming for common usage patterns.
- * 
- * @package    Ksfraser\HTML
- * @author     Kevin Fraser
- * @since      20251220
- * @version    1.0.0
- * 
- * @example
+ *
+ *
  * ```php
  * use Ksfraser\HTML\Elements\Select;
  * use Ksfraser\HTML\Elements\Option;
- * 
+ *
  * // Using the shorter alias
  * $select = (new Select('country'))->addOptionsFromArray([
  *     'ca' => 'Canada',
@@ -28,6 +23,12 @@ namespace Ksfraser\HTML\Elements;
  *     'mx' => 'Mexico'
  * ]);
  * ```
+ *
+ * @package    Ksfraser\HTML
+ * @author     Kevin Fraser
+ * @version    1.0.0
+ * @example
+ * @since 1.0.1 2026-02-16
  */
 class Select extends HtmlSelect
 {

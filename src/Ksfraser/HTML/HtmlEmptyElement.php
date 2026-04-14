@@ -8,12 +8,13 @@ use Ksfraser\HTML\Elements\HtmlString;
 
 /**
  * HTML Empty Element
- * 
+ *
  * Empty elements have no content and no closing tag.
  * Examples: <input>, <br>, <hr>, <img>
- * 
+ *
+ *
  * @package Ksfraser\HTML
- * @since 20251019
+ * @since 1.0.1 2026-02-16
  */
 class HtmlEmptyElement extends HtmlElement
 {
@@ -22,7 +23,9 @@ class HtmlEmptyElement extends HtmlElement
 	 * 
 	 * Empty elements don't have children, so we pass an empty HtmlString
 	 * 
-	 * @param HtmlElementInterface|null $data Optional data (ignored for empty elements)
+	 * @param mixed $data
+	 * @return void
+ * @since 1.0.1 2026-02-16
 	 */
 	function __construct( $data = null )
 	{

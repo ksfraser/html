@@ -7,12 +7,14 @@ use Ksfraser\HTML\HtmlElement;
 
 /**
  * FormElementsTraitTest - FR-011
- * 
+ *
  * Comprehensive test suite for form elements and validation UI
  * Tests form building, validation states, accessibility integration
- * 
+ *
+ *
  * @group FR-011
  * @group Forms
+ * @since 1.0.5 2026-03-30
  */
 class FormElementsTraitTest extends TestCase
 {
@@ -23,6 +25,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-builder
+ * @return void
+ * @since 1.0.5 2026-03-30
      */
     public function form_creates_form_element_with_method()
     {
@@ -36,6 +40,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-builder
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function form_defaults_to_post_method()
     {
@@ -47,6 +53,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-builder
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function form_supports_get_method()
     {
@@ -58,6 +66,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-builder
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function input_creates_input_element()
     {
@@ -71,6 +81,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-builder
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function input_with_value()
     {
@@ -83,6 +95,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-builder
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function input_with_placeholder()
     {
@@ -95,6 +109,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-builder
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function input_types_all_supported()
     {
@@ -109,6 +125,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-builder
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function textarea_creates_textarea_element()
     {
@@ -121,6 +139,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-builder
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function textarea_with_rows_cols()
     {
@@ -135,6 +155,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-builder
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function select_creates_select_element()
     {
@@ -147,6 +169,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-builder
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function select_with_options()
     {
@@ -163,6 +187,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-builder
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function select_with_selected_option()
     {
@@ -177,6 +203,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-builder
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function label_creates_label_element()
     {
@@ -189,6 +217,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-builder
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function button_creates_button_element()
     {
@@ -201,6 +231,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-builder
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function button_defaults_to_button_type()
     {
@@ -216,6 +248,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group validation
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function validation_feedback_element()
     {
@@ -228,6 +262,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group validation
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function validation_feedback_hidden_by_default()
     {
@@ -239,6 +275,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group validation
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function validation_success_feedback()
     {
@@ -250,6 +288,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group validation
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function marked_invalid_shows_feedback()
     {
@@ -263,6 +303,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group validation
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function input_marked_as_invalid()
     {
@@ -275,6 +317,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group validation
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function input_marked_as_valid()
     {
@@ -291,6 +335,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group attributes
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function input_required_attribute()
     {
@@ -303,6 +349,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group attributes
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function input_disabled_attribute()
     {
@@ -315,6 +363,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group attributes
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function input_readonly_attribute()
     {
@@ -327,6 +377,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group attributes
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function input_autocomplete_attribute()
     {
@@ -339,6 +391,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group attributes
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function input_pattern_attribute()
     {
@@ -351,6 +405,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group attributes
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function input_maxlength_attribute()
     {
@@ -363,6 +419,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group attributes
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function input_minlength_attribute()
     {
@@ -379,6 +437,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group accessibility
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function input_with_aria_label()
     {
@@ -391,6 +451,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group accessibility
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function input_with_aria_described_by()
     {
@@ -403,6 +465,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group accessibility
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function form_group_with_label_input_feedback()
     {
@@ -419,6 +483,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group accessibility
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function invalid_input_sets_aria_invalid()
     {
@@ -435,6 +501,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-controls
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function checkbox_input_type()
     {
@@ -448,6 +516,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-controls
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function checkbox_checked_state()
     {
@@ -460,6 +530,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-controls
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function radio_input_type()
     {
@@ -472,6 +544,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-controls
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function radio_group_with_options()
     {
@@ -485,6 +559,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-controls
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function fieldset_with_legend()
     {
@@ -498,6 +574,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-controls
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function input_group_with_addon()
     {
@@ -517,6 +595,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group chaining
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function form_fluent_interface()
     {
@@ -533,6 +613,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group chaining
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function input_full_chain()
     {
@@ -550,6 +632,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group chaining
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function textarea_fluent_setup()
     {
@@ -570,6 +654,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-state
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function form_needs_validation_class()
     {
@@ -582,6 +668,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-state
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function form_prevent_default_on_submit()
     {
@@ -594,6 +682,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group form-state
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function input_empty_state()
     {
@@ -610,6 +700,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group integration
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function complete_login_form()
     {
@@ -645,6 +737,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group integration
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function form_with_all_control_types()
     {
@@ -662,6 +756,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group integration
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function form_traversal_with_introspection()
     {
@@ -681,6 +777,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function empty_form()
     {
@@ -692,6 +790,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function input_name_with_array_notation()
     {
@@ -702,6 +802,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function special_characters_in_placeholder()
     {
@@ -715,6 +817,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function very_long_maxlength()
     {
@@ -727,6 +831,8 @@ class FormElementsTraitTest extends TestCase
     /**
      * @test
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function multiple_validation_states()
     {

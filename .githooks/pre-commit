@@ -1,0 +1,18 @@
+#!/bin/sh
+# Pre-commit hook that runs the PHP @since checker on staged PHP files
+# Should be enabled by running: git config core.hooksPath .githooks
+
+REPO_ROOT=$(git rev-parse --show-toplevel 2>/dev/null)
+if [ -z "$REPO_ROOT" ]; then
+  echo "Could not determine git repo root. Skipping @since checks." >&2
+  exit 0
+fi
+
+php "$REPO_ROOT/scripts/check-since.php"
+EXIT_CODE=$?
+if [ $EXIT_CODE -ne 0 ]; then
+  echo "Pre-commit hook failed: missing or malformed @since tags. Commit aborted." >&2
+  exit $EXIT_CODE
+fi
+
+exit 0

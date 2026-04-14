@@ -8,8 +8,19 @@ use Ksfraser\HTML\Factory\ViewLink;
 use Ksfraser\HTML\Factory\ListLink;
 use Ksfraser\HTML\Factory\AddLink;
 
+/**
+ * class SpecializedActionLinksTest
+ *
+ * @since 1.0.1 2026-02-16
+ */
 class SpecializedActionLinksTest extends TestCase
 {
+/**
+ * testCreateLinkMake
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     public function testCreateLinkMake()
     {
         $link = CreateLink::make('From Factory', ['foo' => 'bar']);
@@ -20,6 +31,12 @@ class SpecializedActionLinksTest extends TestCase
         $this->assertStringContainsString('>From Factory<', $html);
     }
 
+/**
+ * testEditLinkMake
+ *
+ * @since 1.0.2 2026-02-20
+ * @return void
+ */
     public function testEditLinkMake()
     {
         $link = EditLink::make(42, 'Edit Factory', ['baz' => 'qux']);
@@ -31,6 +48,12 @@ class SpecializedActionLinksTest extends TestCase
         $this->assertStringContainsString('>Edit Factory<', $html);
     }
 
+/**
+ * testDeleteLinkMake
+ *
+ * @since 1.0.2 2026-02-20
+ * @return void
+ */
     public function testDeleteLinkMake()
     {
         $link = DeleteLink::make(99, 'Delete Factory', ['x' => 'y']);
@@ -42,6 +65,12 @@ class SpecializedActionLinksTest extends TestCase
         $this->assertStringContainsString('>Delete Factory<', $html);
     }
 
+/**
+ * testViewLinkMake
+ *
+ * @since 1.0.2 2026-02-20
+ * @return void
+ */
     public function testViewLinkMake()
     {
         $link = ViewLink::make(7, 'View Factory', ['foo' => 'bar']);
@@ -53,6 +82,12 @@ class SpecializedActionLinksTest extends TestCase
         $this->assertStringContainsString('>View Factory<', $html);
     }
 
+/**
+ * testListLinkMake
+ *
+ * @since 1.0.2 2026-02-20
+ * @return void
+ */
     public function testListLinkMake()
     {
         $link = ListLink::make('List Factory', ['page' => 2]);
@@ -63,6 +98,12 @@ class SpecializedActionLinksTest extends TestCase
         $this->assertStringContainsString('>List Factory<', $html);
     }
 
+/**
+ * testAddLinkMake
+ *
+ * @since 1.0.2 2026-02-20
+ * @return void
+ */
     public function testAddLinkMake()
     {
         $link = AddLink::make('Add Factory', ['foo' => 'bar']);
@@ -72,6 +113,12 @@ class SpecializedActionLinksTest extends TestCase
         $this->assertStringContainsString('foo=bar', $html);
         $this->assertStringContainsString('>Add Factory<', $html);
     }
+/**
+ * testCreateLinkDefaultLabel
+ *
+ * @since 1.0.2 2026-02-20
+ * @return void
+ */
     public function testCreateLinkDefaultLabel()
     {
         $link = new CreateLink();
@@ -80,6 +127,12 @@ class SpecializedActionLinksTest extends TestCase
         $this->assertStringContainsString('>Create<', $html);
     }
 
+/**
+ * testCreateLinkCustomText
+ *
+ * @since 1.0.2 2026-02-20
+ * @return void
+ */
     public function testCreateLinkCustomText()
     {
         $link = new CreateLink('Add New');
@@ -87,6 +140,12 @@ class SpecializedActionLinksTest extends TestCase
         $this->assertStringContainsString('>Add New<', $html);
     }
 
+/**
+ * testCreateLinkWithParams
+ *
+ * @since 1.0.2 2026-02-20
+ * @return void
+ */
     public function testCreateLinkWithParams()
     {
         $link = new CreateLink(null, ['type' => 'loan']);
@@ -95,6 +154,12 @@ class SpecializedActionLinksTest extends TestCase
         $this->assertStringContainsString('type=loan', $html);
     }
 
+/**
+ * testCreateLinkSetLabel
+ *
+ * @since 1.0.2 2026-02-20
+ * @return void
+ */
     public function testCreateLinkSetLabel()
     {
         $link = new CreateLink();
@@ -104,6 +169,12 @@ class SpecializedActionLinksTest extends TestCase
         $this->assertStringContainsString('>New Item<', $html);
     }
 
+/**
+ * testEditLinkWithId
+ *
+ * @since 1.0.2 2026-02-20
+ * @return void
+ */
     public function testEditLinkWithId()
     {
         $link = new EditLink(123);
@@ -113,6 +184,12 @@ class SpecializedActionLinksTest extends TestCase
         $this->assertStringContainsString('>Edit<', $html);
     }
 
+/**
+ * testEditLinkWithParams
+ *
+ * @since 1.0.2 2026-02-20
+ * @return void
+ */
     public function testEditLinkWithParams()
     {
         $link = new EditLink(456, null, ['section' => 'details']);
@@ -121,6 +198,12 @@ class SpecializedActionLinksTest extends TestCase
         $this->assertStringContainsString('section=details', $html);
     }
 
+/**
+ * testDeleteLinkWithId
+ *
+ * @since 1.0.2 2026-02-20
+ * @return void
+ */
     public function testDeleteLinkWithId()
     {
         $link = new DeleteLink(789);

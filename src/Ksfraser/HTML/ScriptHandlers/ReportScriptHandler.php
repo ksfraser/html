@@ -5,22 +5,26 @@ use Ksfraser\HTML\Elements\HtmlScript;
 
 /**
  * ReportScriptHandler - Script setup for report viewing operations
- * 
+ *
  * SRP: Single responsibility of building report handler scripts.
  * Provides modal viewer for report details and AJAX fetching.
- * 
+ *
+ *
  * @package Ksfraser\HTML\ScriptHandlers
+ * @since 1.0.1 2026-02-16
  */
 class ReportScriptHandler extends BaseScriptHandler {
     /**
      * Build handler scripts
      * 
-     * @return HtmlScript[]
-     */
-    public function build(): array {
+ * @return array
+ * @since 1.0.1 2026-02-16
+ */
+public function build(): array {
         return [
             // Load external report viewer script
             (new HtmlScript())->setAttribute('src', '/js/report-viewer.js')
         ];
     }
 }
+

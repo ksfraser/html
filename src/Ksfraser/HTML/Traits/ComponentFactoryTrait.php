@@ -30,8 +30,9 @@ use Ksfraser\HTML\HtmlElement;
  *       ->addNested(HtmlElement::cardBody('Content'));
  *   $alert = HtmlElement::alertSuccess('Operation successful', true);
  *
+ *
  * @package Ksfraser\HTML\Traits
- * @since 1.0
+ * @since 1.0.5 2026-03-30
  */
 trait ComponentFactoryTrait
 {
@@ -48,13 +49,17 @@ trait ComponentFactoryTrait
      *
      * @example
      *   $btn = HtmlElement::buttonPrimary('Click Me', 'submit');
+ * @since 1.0.5 2026-03-30
      */
     public static function buttonPrimary(string $text = '', string $type = 'button'): HtmlElement
     {
-        $button = new self('button', $text);
-        $button->setAttribute('type', $type);
-        $button->addCSSClass('btn');
-        $button->addCSSClass('btn-primary');
+        if ($type === 'submit') {
+            $button = new \Ksfraser\HTML\Button\SubmitButton($text);
+        } else {
+            $button = new \Ksfraser\HTML\Button\Button($text);
+            $button->setType($type);
+            $button->addClass('btn btn-primary');
+        }
         return $button;
     }
 
@@ -64,13 +69,17 @@ trait ComponentFactoryTrait
      * @param string $text Button text/label
      * @param string $type Button type
      * @return HtmlElement
+ * @since v1.0.0 2026-04-13
      */
     public static function buttonSuccess(string $text = '', string $type = 'button'): HtmlElement
     {
-        $button = new self('button', $text);
-        $button->setAttribute('type', $type);
-        $button->addCSSClass('btn');
-        $button->addCSSClass('btn-success');
+        if ($type === 'submit') {
+            $button = new \Ksfraser\HTML\Button\SubmitButton($text);
+        } else {
+            $button = new \Ksfraser\HTML\Button\Button($text);
+            $button->setType($type);
+            $button->addClass('btn btn-success');
+        }
         return $button;
     }
 
@@ -80,13 +89,17 @@ trait ComponentFactoryTrait
      * @param string $text Button text/label
      * @param string $type Button type
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function buttonDanger(string $text = '', string $type = 'button'): HtmlElement
     {
-        $button = new self('button', $text);
-        $button->setAttribute('type', $type);
-        $button->addCSSClass('btn');
-        $button->addCSSClass('btn-danger');
+        if ($type === 'submit') {
+            $button = new \Ksfraser\HTML\Button\SubmitButton($text);
+        } else {
+            $button = new \Ksfraser\HTML\Button\Button($text);
+            $button->setType($type);
+            $button->addClass('btn btn-danger');
+        }
         return $button;
     }
 
@@ -96,13 +109,17 @@ trait ComponentFactoryTrait
      * @param string $text Button text/label
      * @param string $type Button type
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function buttonWarning(string $text = '', string $type = 'button'): HtmlElement
     {
-        $button = new self('button', $text);
-        $button->setAttribute('type', $type);
-        $button->addCSSClass('btn');
-        $button->addCSSClass('btn-warning');
+        if ($type === 'submit') {
+            $button = new \Ksfraser\HTML\Button\SubmitButton($text);
+        } else {
+            $button = new \Ksfraser\HTML\Button\Button($text);
+            $button->setType($type);
+            $button->addClass('btn btn-warning');
+        }
         return $button;
     }
 
@@ -112,13 +129,17 @@ trait ComponentFactoryTrait
      * @param string $text Button text/label
      * @param string $type Button type
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function buttonInfo(string $text = '', string $type = 'button'): HtmlElement
     {
-        $button = new self('button', $text);
-        $button->setAttribute('type', $type);
-        $button->addCSSClass('btn');
-        $button->addCSSClass('btn-info');
+        if ($type === 'submit') {
+            $button = new \Ksfraser\HTML\Button\SubmitButton($text);
+        } else {
+            $button = new \Ksfraser\HTML\Button\Button($text);
+            $button->setType($type);
+            $button->addClass('btn btn-info');
+        }
         return $button;
     }
 
@@ -128,14 +149,30 @@ trait ComponentFactoryTrait
      * @param string $text Button text/label
      * @param string $type Button type
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function buttonSecondary(string $text = '', string $type = 'button'): HtmlElement
     {
-        $button = new self('button', $text);
-        $button->setAttribute('type', $type);
-        $button->addCSSClass('btn');
-        $button->addCSSClass('btn-secondary');
+        if ($type === 'submit') {
+            $button = new \Ksfraser\HTML\Button\SubmitButton($text);
+        } else {
+            $button = new \Ksfraser\HTML\Button\Button($text);
+            $button->setType($type);
+            $button->addClass('btn btn-secondary');
+        }
         return $button;
+    }
+
+    /**
+     * Create a CloseButton instance
+     *
+     * @return HtmlElement
+ * @param ?string $text
+ * @since v1.0.5 2026-04-14
+ */
+public static function buttonClose(?string $text = null): HtmlElement
+    {
+        return new \Ksfraser\HTML\Button\CloseButton($text);
     }
 
     // ========================================================================
@@ -148,10 +185,11 @@ trait ComponentFactoryTrait
      * @return HtmlElement
      * @example
      *   $card = HtmlElement::card();
+ * @since v1.0.5 2026-04-14
      */
     public static function card(): HtmlElement
     {
-        $card = new self('div');
+        $card = self::element('div');
         $card->addCSSClass('card');
         return $card;
     }
@@ -161,10 +199,11 @@ trait ComponentFactoryTrait
      *
      * @param string $text Header text
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function cardHeader(string $text = ''): HtmlElement
     {
-        $header = new self('div', $text);
+        $header = self::element('div', $text);
         $header->addCSSClass('card-header');
         return $header;
     }
@@ -174,10 +213,11 @@ trait ComponentFactoryTrait
      *
      * @param string $text Body text (optional)
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function cardBody(string $text = ''): HtmlElement
     {
-        $body = new self('div', $text);
+        $body = self::element('div', $text);
         $body->addCSSClass('card-body');
         return $body;
     }
@@ -187,10 +227,11 @@ trait ComponentFactoryTrait
      *
      * @param string $text Footer text (optional)
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function cardFooter(string $text = ''): HtmlElement
     {
-        $footer = new self('div', $text);
+        $footer = self::element('div', $text);
         $footer->addCSSClass('card-footer');
         return $footer;
     }
@@ -201,13 +242,22 @@ trait ComponentFactoryTrait
      * @param string $src Image source
      * @param string $alt Alternative text
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function cardImage(string $src, string $alt = ''): HtmlElement
     {
-        $image = new self('img');
-        $image->setAttribute('src', $src);
+        $image = self::element('img');
+        if (method_exists($image, 'setSrc')) {
+            $image->setSrc($src);
+        } else {
+            $image->setAttribute('src', $src);
+        }
         if ($alt !== '') {
-            $image->setAttribute('alt', $alt);
+            if (method_exists($image, 'setAlt')) {
+                $image->setAlt($alt);
+            } else {
+                $image->setAttribute('alt', $alt);
+            }
         }
         $image->addCSSClass('card-img-top');
         return $image;
@@ -218,10 +268,11 @@ trait ComponentFactoryTrait
      *
      * @param string $text Text content
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function cardText(string $text = ''): HtmlElement
     {
-        $p = new self('p', $text);
+        $p = self::element('p', $text);
         $p->addCSSClass('card-text');
         return $p;
     }
@@ -232,11 +283,12 @@ trait ComponentFactoryTrait
      * @param string $text Title text
      * @param int $level Heading level (1-6)
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function cardTitle(string $text = '', int $level = 5): HtmlElement
     {
         $tag = 'h' . min(max($level, 1), 6);
-        $title = new self($tag, $text);
+        $title = self::element($tag, $text);
         $title->addCSSClass('card-title');
         return $title;
     }
@@ -247,11 +299,12 @@ trait ComponentFactoryTrait
      * @param string $text Subtitle text
      * @param int $level Heading level (1-6)
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function cardSubtitle(string $text = '', int $level = 6): HtmlElement
     {
         $tag = 'h' . min(max($level, 1), 6);
-        $subtitle = new self($tag, $text);
+        $subtitle = self::element($tag, $text);
         $subtitle->addCSSClass('card-subtitle');
         return $subtitle;
     }
@@ -266,11 +319,16 @@ trait ComponentFactoryTrait
      * @param string $message Alert message text
      * @param bool $dismissible Whether alert is dismissible
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function alertPrimary(string $message = '', bool $dismissible = false): HtmlElement
     {
-        $alert = new self('div', $message);
-        $alert->setAttribute('role', 'alert');
+        $alert = self::element('div', $message);
+        if (method_exists($alert, 'setRole')) {
+            $alert->setRole('alert');
+        } else {
+            $alert->setAttribute('role', 'alert');
+        }
         $alert->addCSSClass('alert');
         $alert->addCSSClass('alert-primary');
         if ($dismissible) {
@@ -287,11 +345,16 @@ trait ComponentFactoryTrait
      * @param string $message Alert message text
      * @param bool $dismissible Whether alert is dismissible
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function alertSuccess(string $message = '', bool $dismissible = false): HtmlElement
     {
-        $alert = new self('div', $message);
-        $alert->setAttribute('role', 'alert');
+        $alert = self::element('div', $message);
+        if (method_exists($alert, 'setRole')) {
+            $alert->setRole('alert');
+        } else {
+            $alert->setAttribute('role', 'alert');
+        }
         $alert->addCSSClass('alert');
         $alert->addCSSClass('alert-success');
         if ($dismissible) {
@@ -308,11 +371,16 @@ trait ComponentFactoryTrait
      * @param string $message Alert message text
      * @param bool $dismissible Whether alert is dismissible
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function alertWarning(string $message = '', bool $dismissible = false): HtmlElement
     {
-        $alert = new self('div', $message);
-        $alert->setAttribute('role', 'alert');
+        $alert = self::element('div', $message);
+        if (method_exists($alert, 'setRole')) {
+            $alert->setRole('alert');
+        } else {
+            $alert->setAttribute('role', 'alert');
+        }
         $alert->addCSSClass('alert');
         $alert->addCSSClass('alert-warning');
         if ($dismissible) {
@@ -329,11 +397,16 @@ trait ComponentFactoryTrait
      * @param string $message Alert message text
      * @param bool $dismissible Whether alert is dismissible
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function alertDanger(string $message = '', bool $dismissible = false): HtmlElement
     {
-        $alert = new self('div', $message);
-        $alert->setAttribute('role', 'alert');
+        $alert = self::element('div', $message);
+        if (method_exists($alert, 'setRole')) {
+            $alert->setRole('alert');
+        } else {
+            $alert->setAttribute('role', 'alert');
+        }
         $alert->addCSSClass('alert');
         $alert->addCSSClass('alert-danger');
         if ($dismissible) {
@@ -350,11 +423,16 @@ trait ComponentFactoryTrait
      * @param string $message Alert message text
      * @param bool $dismissible Whether alert is dismissible
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function alertInfo(string $message = '', bool $dismissible = false): HtmlElement
     {
-        $alert = new self('div', $message);
-        $alert->setAttribute('role', 'alert');
+        $alert = self::element('div', $message);
+        if (method_exists($alert, 'setRole')) {
+            $alert->setRole('alert');
+        } else {
+            $alert->setAttribute('role', 'alert');
+        }
         $alert->addCSSClass('alert');
         $alert->addCSSClass('alert-info');
         if ($dismissible) {
@@ -375,10 +453,11 @@ trait ComponentFactoryTrait
      * @param string $text Badge text
      * @param bool $pill Whether badge is pill-shaped
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function badgePrimary(string $text = '', bool $pill = false): HtmlElement
     {
-        $badge = new self('span', $text);
+        $badge = self::element('badge', $text);
         $badge->addCSSClass('badge');
         $badge->addCSSClass('badge-primary');
         if ($pill) {
@@ -393,10 +472,11 @@ trait ComponentFactoryTrait
      * @param string $text Badge text
      * @param bool $pill Whether badge is pill-shaped
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function badgeSuccess(string $text = '', bool $pill = false): HtmlElement
     {
-        $badge = new self('span', $text);
+        $badge = self::element('badge', $text);
         $badge->addCSSClass('badge');
         $badge->addCSSClass('badge-success');
         if ($pill) {
@@ -411,10 +491,11 @@ trait ComponentFactoryTrait
      * @param string $text Badge text
      * @param bool $pill Whether badge is pill-shaped
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function badgeDanger(string $text = '', bool $pill = false): HtmlElement
     {
-        $badge = new self('span', $text);
+        $badge = self::element('badge', $text);
         $badge->addCSSClass('badge');
         $badge->addCSSClass('badge-danger');
         if ($pill) {
@@ -429,10 +510,11 @@ trait ComponentFactoryTrait
      * @param string $text Badge text
      * @param bool $pill Whether badge is pill-shaped
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function badgeWarning(string $text = '', bool $pill = false): HtmlElement
     {
-        $badge = new self('span', $text);
+        $badge = self::element('badge', $text);
         $badge->addCSSClass('badge');
         $badge->addCSSClass('badge-warning');
         if ($pill) {
@@ -447,10 +529,11 @@ trait ComponentFactoryTrait
      * @param string $text Badge text
      * @param bool $pill Whether badge is pill-shaped
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function badgeInfo(string $text = '', bool $pill = false): HtmlElement
     {
-        $badge = new self('span', $text);
+        $badge = self::element('badge', $text);
         $badge->addCSSClass('badge');
         $badge->addCSSClass('badge-info');
         if ($pill) {
@@ -465,10 +548,11 @@ trait ComponentFactoryTrait
      * @param string $text Badge text
      * @param bool $pill Whether badge is pill-shaped
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function badgeSecondary(string $text = '', bool $pill = false): HtmlElement
     {
-        $badge = new self('span', $text);
+        $badge = self::element('badge', $text);
         $badge->addCSSClass('badge');
         $badge->addCSSClass('badge-secondary');
         if ($pill) {
@@ -486,12 +570,22 @@ trait ComponentFactoryTrait
      *
      * @param string $id Modal ID
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function modal(string $id): HtmlElement
     {
-        $modal = new self('div');
-        $modal->setAttribute('id', $id);
-        $modal->setAttribute('role', 'dialog');
+        $modal = self::element('div');
+        if (method_exists($modal, 'setId')) {
+            $modal->setId($id);
+        } else {
+            $modal->setAttribute('id', $id);
+        }
+
+        if (method_exists($modal, 'setRole')) {
+            $modal->setRole('dialog');
+        } else {
+            $modal->setAttribute('role', 'dialog');
+        }
         $modal->addCSSClass('modal');
         return $modal;
     }
@@ -499,12 +593,13 @@ trait ComponentFactoryTrait
     /**
      * Create a modal dialog wrapper
      *
-     * @param string|null $size Modal size (sm, lg, xl)
      * @return HtmlElement
+ * @param ?string $size
+ * @since v2.0.1 2026-04-14
      */
     public static function modalDialog(?string $size = null): HtmlElement
     {
-        $dialog = new self('div');
+        $dialog = self::element('div');
         $dialog->addCSSClass('modal-dialog');
         
         if ($size === 'sm') {
@@ -522,10 +617,11 @@ trait ComponentFactoryTrait
      * Create a modal content wrapper
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function modalContent(): HtmlElement
     {
-        $content = new self('div');
+        $content = self::element('div');
         $content->addCSSClass('modal-content');
         return $content;
     }
@@ -535,14 +631,15 @@ trait ComponentFactoryTrait
      *
      * @param string $title Modal title text
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function modalHeader(string $title = ''): HtmlElement
     {
-        $header = new self('div');
+        $header = self::element('div');
         $header->addCSSClass('modal-header');
         
         if ($title !== '') {
-            $titleEl = new self('h5', $title);
+            $titleEl = self::element('h5', $title);
             $titleEl->addCSSClass('modal-title');
             $header->addNested($titleEl);
         }
@@ -555,10 +652,11 @@ trait ComponentFactoryTrait
      *
      * @param string $text Body text (optional)
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function modalBody(string $text = ''): HtmlElement
     {
-        $body = new self('div', $text);
+        $body = self::element('div', $text);
         $body->addCSSClass('modal-body');
         return $body;
     }
@@ -567,10 +665,11 @@ trait ComponentFactoryTrait
      * Create a modal footer
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function modalFooter(): HtmlElement
     {
-        $footer = new self('div');
+        $footer = self::element('div');
         $footer->addCSSClass('modal-footer');
         return $footer;
     }
@@ -582,13 +681,14 @@ trait ComponentFactoryTrait
     /**
      * Create a navbar container
      *
-     * @param string|null $theme Navbar theme (light, dark)
-     * @param string|null $background Background color (primary, success, etc.)
      * @return HtmlElement
+ * @param ?string $theme
+ * @param ?string $background
+ * @since v2.0.1 2026-04-14
      */
     public static function navbar(?string $theme = null, ?string $background = null): HtmlElement
     {
-        $navbar = new self('nav');
+        $navbar = self::element('nav');
         $navbar->addCSSClass('navbar');
         
         if ($theme === 'dark') {
@@ -609,10 +709,11 @@ trait ComponentFactoryTrait
      *
      * @param string $text Brand text
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function navbarBrand(string $text = ''): HtmlElement
     {
-        $brand = new self('span', $text);
+        $brand = self::element('span', $text);
         $brand->addCSSClass('navbar-brand');
         return $brand;
     }
@@ -621,10 +722,11 @@ trait ComponentFactoryTrait
      * Create a navbar navigation list
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function navbarNav(): HtmlElement
     {
-        $nav = new self('ul');
+        $nav = self::element('ul');
         $nav->addCSSClass('navbar-nav');
         return $nav;
     }
@@ -633,10 +735,11 @@ trait ComponentFactoryTrait
      * Create a navbar item
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function navbarItem(): HtmlElement
     {
-        $item = new self('li');
+        $item = self::element('li');
         $item->addCSSClass('nav-item');
         return $item;
     }
@@ -648,11 +751,16 @@ trait ComponentFactoryTrait
      * @param string $href Link URL
      * @param bool $active Whether link is active
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function navbarLink(string $text = '', string $href = '#', bool $active = false): HtmlElement
     {
-        $link = new self('a', $text);
-        $link->setAttribute('href', $href);
+        $link = self::element('a', $text);
+        if (method_exists($link, 'setHref')) {
+            $link->setHref($href);
+        } else {
+            $link->setAttribute('href', $href);
+        }
         $link->addCSSClass('nav-link');
         
         if ($active) {
@@ -666,11 +774,16 @@ trait ComponentFactoryTrait
      * Create a navbar toggler button
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function navbarToggler(): HtmlElement
     {
-        $toggler = new self('button');
-        $toggler->setAttribute('type', 'button');
+        $toggler = self::element('button');
+        if (method_exists($toggler, 'setType')) {
+            $toggler->setType('button');
+        } else {
+            $toggler->setAttribute('type', 'button');
+        }
         $toggler->addCSSClass('navbar-toggler');
         return $toggler;
     }
@@ -683,22 +796,24 @@ trait ComponentFactoryTrait
      * Create a pagination navigation wrapper
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function pagination(): HtmlElement
     {
-        $nav = new self('nav');
+        $nav = self::element('nav');
         return $nav;
     }
 
     /**
      * Create a pagination list
      *
-     * @param string|null $size Pagination size (sm, lg)
      * @return HtmlElement
+ * @param ?string $size
+ * @since v2.0.1 2026-04-14
      */
     public static function paginationList(?string $size = null): HtmlElement
     {
-        $list = new self('ul');
+        $list = self::element('ul');
         $list->addCSSClass('pagination');
         
         if ($size === 'sm') {
@@ -716,10 +831,11 @@ trait ComponentFactoryTrait
      * @param bool $active Whether item is active
      * @param bool $disabled Whether item is disabled
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function paginationItem(bool $active = false, bool $disabled = false): HtmlElement
     {
-        $item = new self('li');
+        $item = self::element('li');
         $item->addCSSClass('page-item');
         
         if ($active) {
@@ -739,11 +855,16 @@ trait ComponentFactoryTrait
      * @param string $text Link text
      * @param string $href Link URL
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function paginationLink(string $text = '', string $href = '#'): HtmlElement
     {
-        $link = new self('a', $text);
-        $link->setAttribute('href', $href);
+        $link = self::element('a', $text);
+        if (method_exists($link, 'setHref')) {
+            $link->setHref($href);
+        } else {
+            $link->setAttribute('href', $href);
+        }
         $link->addCSSClass('page-link');
         return $link;
     }
@@ -753,14 +874,19 @@ trait ComponentFactoryTrait
      *
      * @param string $href Link URL
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function paginationPrevious(string $href = '#'): HtmlElement
     {
-        $item = new self('li');
+        $item = self::element('li');
         $item->addCSSClass('page-item');
         
-        $link = new self('a', 'Previous');
-        $link->setAttribute('href', $href);
+        $link = self::element('a', 'Previous');
+        if (method_exists($link, 'setHref')) {
+            $link->setHref($href);
+        } else {
+            $link->setAttribute('href', $href);
+        }
         $link->addCSSClass('page-link');
         
         $item->addNested($link);
@@ -772,13 +898,14 @@ trait ComponentFactoryTrait
      *
      * @param string $href Link URL
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function paginationNext(string $href = '#'): HtmlElement
     {
-        $item = new self('li');
+        $item = self::element('li');
         $item->addCSSClass('page-item');
         
-        $link = new self('a', 'Next');
+        $link = self::element('a', 'Next');
         $link->setAttribute('href', $href);
         $link->addCSSClass('page-link');
         
@@ -786,3 +913,4 @@ trait ComponentFactoryTrait
         return $item;
     }
 }
+

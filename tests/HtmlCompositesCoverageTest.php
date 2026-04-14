@@ -1,7 +1,18 @@
 <?php
 use PHPUnit\Framework\TestCase;
 
+/**
+ * class HtmlCompositesCoverageTest
+ *
+ * @since 1.0.3 2026-02-21
+ */
 class HtmlCompositesCoverageTest extends TestCase {
+/**
+ * testCompositesClassesExist
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     public function testCompositesClassesExist() {
         $classes = [
             'Ksfraser\\HTML\\Composites\\HtmlLabelRow',

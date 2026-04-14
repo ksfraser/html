@@ -7,12 +7,14 @@ use Ksfraser\HTML\HtmlElement;
 
 /**
  * ResponsiveLayoutTraitTest - FR-013
- * 
+ *
  * Comprehensive test suite for responsive design and layout utilities
  * Tests grid system, spacing, display, sizing, and responsive classes
- * 
+ *
+ *
  * @group FR-013
  * @group Layout
+ * @since 1.0.5 2026-03-30
  */
 class ResponsiveLayoutTraitTest extends TestCase
 {
@@ -24,6 +26,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group grid
+ * @return void
+ * @since 1.0.5 2026-03-30
      */
     public function container_creates_container_div()
     {
@@ -37,6 +41,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group grid
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function container_fluid_creates_fluid_container()
     {
@@ -50,6 +56,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group grid
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function row_creates_row_div()
     {
@@ -63,6 +71,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group grid
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function column_creates_column_with_width()
     {
@@ -76,6 +86,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group grid
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function column_full_width_default()
     {
@@ -88,6 +100,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group grid
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function column_responsive_creates_breakpoint_classes()
     {
@@ -110,6 +124,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group grid
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function column_offset_adds_offset_class()
     {
@@ -127,6 +143,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group spacing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function margin_all_adds_margin_class()
     {
@@ -140,6 +158,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group spacing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function margin_top_adds_margin_top_class()
     {
@@ -153,6 +173,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group spacing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function margin_bottom_adds_margin_bottom_class()
     {
@@ -166,6 +188,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group spacing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function margin_horizontal_adds_margin_horizontal_class()
     {
@@ -179,6 +203,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group spacing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function margin_vertical_adds_margin_vertical_class()
     {
@@ -192,6 +218,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group spacing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function padding_all_adds_padding_class()
     {
@@ -205,6 +233,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group spacing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function padding_top_adds_padding_top_class()
     {
@@ -218,6 +248,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group spacing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function padding_bottom_adds_padding_bottom_class()
     {
@@ -231,6 +263,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group spacing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function padding_horizontal_adds_padding_horizontal_class()
     {
@@ -244,6 +278,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group spacing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function padding_vertical_adds_padding_vertical_class()
     {
@@ -257,6 +293,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group spacing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function margin_auto_centers_element_horizontally()
     {
@@ -274,6 +312,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group display
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function display_flex_adds_flex_class()
     {
@@ -287,6 +327,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group display
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function display_grid_adds_grid_class()
     {
@@ -300,6 +342,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group display
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function display_none_adds_none_class()
     {
@@ -313,6 +357,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group display
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function display_inline_adds_inline_class()
     {
@@ -326,6 +372,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group display
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function display_inline_block_adds_inline_block_class()
     {
@@ -339,6 +387,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group display
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function hidden_adds_hidden_class()
     {
@@ -352,6 +402,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group display
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function visible_removes_hidden_class()
     {
@@ -366,6 +418,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group display
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function responsive_display_adds_breakpoint_classes()
     {
@@ -389,6 +443,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group sizing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function width_100_adds_full_width_class()
     {
@@ -402,6 +458,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group sizing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function width_75_adds_width_class()
     {
@@ -415,6 +473,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group sizing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function width_50_adds_width_class()
     {
@@ -428,6 +488,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group sizing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function width_25_adds_width_class()
     {
@@ -441,6 +503,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group sizing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function height_100_adds_full_height_class()
     {
@@ -454,6 +518,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group sizing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function max_width_100_adds_max_width_class()
     {
@@ -467,6 +533,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group sizing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function max_height_100_adds_max_height_class()
     {
@@ -484,6 +552,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group flexbox
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function flex_direction_column_adds_flex_column_class()
     {
@@ -497,6 +567,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group flexbox
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function flex_direction_row_adds_flex_row_class()
     {
@@ -510,6 +582,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group flexbox
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function flex_wrap_adds_flex_wrap_class()
     {
@@ -523,6 +597,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group flexbox
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function justify_content_center_adds_justify_center_class()
     {
@@ -536,6 +612,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group flexbox
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function justify_content_between_adds_justify_between_class()
     {
@@ -549,6 +627,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group flexbox
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function align_items_center_adds_align_center_class()
     {
@@ -562,6 +642,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group flexbox
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function align_items_start_adds_align_start_class()
     {
@@ -575,6 +657,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group flexbox
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function flex_grow_adds_flex_grow_class()
     {
@@ -588,6 +672,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group flexbox
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function flex_shrink_adds_flex_shrink_class()
     {
@@ -605,6 +691,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group text
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function text_align_center_adds_text_center_class()
     {
@@ -618,6 +706,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group text
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function text_align_left_adds_text_left_class()
     {
@@ -631,6 +721,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group text
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function text_align_right_adds_text_right_class()
     {
@@ -644,6 +736,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group text
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function text_align_justify_adds_text_justify_class()
     {
@@ -657,6 +751,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group text
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function text_align_responsive_adds_breakpoint_classes()
     {
@@ -680,6 +776,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group overflow
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function overflow_auto_adds_overflow_class()
     {
@@ -693,6 +791,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group overflow
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function overflow_hidden_adds_overflow_hidden_class()
     {
@@ -706,6 +806,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group overflow
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function text_truncate_adds_truncate_class()
     {
@@ -723,6 +825,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group borders
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function border_all_adds_border_class()
     {
@@ -736,6 +840,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group borders
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function border_top_adds_border_top_class()
     {
@@ -749,6 +855,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group borders
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function border_bottom_adds_border_bottom_class()
     {
@@ -762,6 +870,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group borders
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function border_radius_adds_rounded_class()
     {
@@ -775,6 +885,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group borders
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function border_radius_circle_adds_rounded_circle_class()
     {
@@ -788,6 +900,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group shadow
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function shadow_adds_shadow_class()
     {
@@ -801,6 +915,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group shadow
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function shadow_sm_adds_shadow_small_class()
     {
@@ -814,6 +930,8 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group shadow
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function shadow_lg_adds_shadow_large_class()
     {

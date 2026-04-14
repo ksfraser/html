@@ -4,17 +4,36 @@ namespace Ksfraser\HTML;
 
 use Ksfraser\Origin\origin;
 
+/**
+ * VIEW_DIV.
+ *
+ *
+ * @since v1.0.0 2025-04-23
+ */
 class VIEW_DIV extends origin
 {
 	protected $name;
 	protected $div_item_array;
 	protected $content;
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
 	function __construct( $name = "" )
 	{
-		parent::__construct();
+            
 		$this->div_item_array = array();
 		$this->set( "name", $name );
 	}
+/**
+ * __toString
+ *
+ * @since v1.0.0 2025-04-23
+ * @return void
+ */
 	function __toString()
 	{
 		$this->start_div();
@@ -24,10 +43,22 @@ class VIEW_DIV extends origin
 		}
 		$this->end_div();
 	}
+/**
+ * start_div
+ *
+ * @since v1.0.0 2025-04-23
+ * @return void
+ */
 	function start_div()
 	{
 		start_div( $this->get( "name" ) );
 	}
+/**
+ * end_div
+ *
+ * @since v1.0.0 2025-04-23
+ * @return void
+ */
 	function end_div()
 	{
 		end_div();
@@ -35,8 +66,10 @@ class VIEW_DIV extends origin
     /**
      * Add content to the div with validation.
      *
-     * @param string $content The content to add.
      * @throws InvalidArgumentException If the content is not a string.
+ * @param mixed $content
+ * @return void
+ * @since v2.0.1 2026-04-14
      */
     public function add_content($content)
     {
@@ -50,6 +83,7 @@ class VIEW_DIV extends origin
      * Generate the HTML output for the div.
      *
      * @return string The HTML representation of the div.
+ * @since v1.0.5 2026-04-14
      */
     public function toHtml()
     {

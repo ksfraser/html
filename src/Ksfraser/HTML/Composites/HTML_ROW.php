@@ -8,16 +8,17 @@ use Ksfraser\HTML\HtmlElementInterface;
 
 /**
  * HTML_ROW - Wrapper for HtmlTableRow
- * 
+ *
  * Provides backward compatibility with legacy code.
  * This is a simple wrapper that delegates to HtmlTableRow.
- * 
- * @deprecated This class exists for backward compatibility only.
+ *
  *             New code should use HtmlTableRow directly.
+ *
+ *
+ * @deprecated This class exists for backward compatibility only.
  * @see \Ksfraser\HTML\HtmlTableRow
- * 
  * @package Ksfraser\HTML
- * @since 20251019 - Converted to wrapper
+ * @since 1.0.1 2026-02-16
  */
 class HTML_ROW implements HtmlElementInterface
 {
@@ -30,9 +31,11 @@ class HTML_ROW implements HtmlElementInterface
 	/**
 	 * Constructor
 	 * 
-	 * @param string|HtmlElementInterface $data The row content
-	 */
-	function __construct( $data )
+ * @param mixed $data
+ * @return void
+ * @since 1.0.1 2026-02-16
+ */
+function __construct( $data )
 	{
 		$content = is_string($data) ? new HtmlString($data) : $data;
 		$this->row = new HtmlTableRow( $content );
@@ -42,6 +45,7 @@ class HTML_ROW implements HtmlElementInterface
 	 * Render the row to HTML output
 	 * 
 	 * @return void
+ * @since v1.0.0 2026-04-13
 	 */
 	function toHTML(): void
 	{
@@ -52,9 +56,11 @@ class HTML_ROW implements HtmlElementInterface
 	 * Get the HTML string representation
 	 * 
 	 * @return string The HTML
+ * @since v1.0.0 2026-04-13
 	 */
 	public function getHtml(): string
 	{
 		return $this->row->getHtml();
 	}
 }
+

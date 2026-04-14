@@ -13,10 +13,7 @@ use Ksfraser\HTML\HtmlAttribute;
  * These elements share common behavior: they're self-closing, have a value attribute
  * for their label, and support common button attributes.
  *
- * @package Ksfraser\HTML
- * @since 20251019
  *
- * @example
  * ```php
  * $submit = new HtmlInputButton("submit", new HtmlString("Save"));
  * $submit->setName("save_btn")->setClass("btn btn-primary");
@@ -34,6 +31,10 @@ use Ksfraser\HTML\HtmlAttribute;
  * - **Liskov Substitution**: Can be used anywhere HtmlEmptyElement is expected
  * - **Interface Segregation**: Implements HtmlElementInterface appropriately
  * - **Dependency Inversion**: Depends on HtmlElementInterface abstraction
+ *
+ * @package Ksfraser\HTML
+ * @example
+ * @since v1.0.0 2026-04-11
  */
 class HtmlInputButton extends HtmlEmptyElement
 {
@@ -54,6 +55,8 @@ class HtmlInputButton extends HtmlEmptyElement
 	 *
 	 * @param string $type The input type (submit, reset, button)
 	 * @param HtmlElementInterface $label The button label/text
+ * @return void
+ * @since v1.0.0 2026-04-11
 	 */
 	public function __construct( string $type, HtmlElementInterface $label )
 	{
@@ -72,6 +75,7 @@ class HtmlInputButton extends HtmlEmptyElement
 	 *
 	 * @param string $type
 	 * @return self
+ * @since v1.0.0 2026-04-13
 	 */
 	public function setType( string $type ): self
 	{
@@ -85,6 +89,7 @@ class HtmlInputButton extends HtmlEmptyElement
 	 *
 	 * @param string $name The name for form submission
 	 * @return self Fluent interface
+ * @since v1.0.0 2026-04-13
 	 */
 	public function setName( string $name ): self
 	{
@@ -97,6 +102,7 @@ class HtmlInputButton extends HtmlEmptyElement
 	 *
 	 * @param string $id The unique element identifier
 	 * @return self Fluent interface
+ * @since v1.0.0 2026-04-13
 	 */
 	public function setId( string $id ): self
 	{
@@ -109,6 +115,7 @@ class HtmlInputButton extends HtmlEmptyElement
 	 *
 	 * @param string $class CSS class name(s)
 	 * @return self Fluent interface
+ * @since v1.0.0 2026-04-13
 	 */
 	public function setClass( string $class ): self
 	{
@@ -117,13 +124,19 @@ class HtmlInputButton extends HtmlEmptyElement
 	}
 
 	/**
-	 * Set the button as disabled
+	 * Set or unset the disabled attribute
 	 *
+	 * @param bool $disabled Whether to set disabled (true) or remove it (false)
 	 * @return self Fluent interface
+ * @since v1.0.0 2026-04-13
 	 */
-	public function setDisabled(): self
+	public function setDisabled(bool $disabled = true): self
 	{
-		$this->setAttribute( "disabled", "disabled" );
+		if ($disabled) {
+			$this->setAttribute("disabled", "disabled");
+		} else {
+			$this->removeAttribute("disabled");
+		}
 		return $this;
 	}
 
@@ -131,6 +144,7 @@ class HtmlInputButton extends HtmlEmptyElement
 	 * Get the HTML string representation
 	 *
 	 * @return string The complete HTML input tag
+ * @since v1.0.0 2026-04-13
 	 */
 	public function getHtml(): string
 	{

@@ -3,8 +3,19 @@
 use PHPUnit\Framework\TestCase;
 use Ksfraser\HTML\Factory\ActionLink;
 
+/**
+ * class ActionLinkTest
+ *
+ * @since 1.0.1 2026-02-16
+ */
 class ActionLinkTest extends TestCase
 {
+/**
+ * testSetActionWithNoParams
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     public function testSetActionWithNoParams()
     {
         $link = new ActionLink();
@@ -14,6 +25,12 @@ class ActionLinkTest extends TestCase
         $this->assertStringContainsString('href="?action=create"', $html);
     }
     
+/**
+ * testSetActionWithParams
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testSetActionWithParams()
     {
         $link = new ActionLink();
@@ -25,6 +42,12 @@ class ActionLinkTest extends TestCase
         $this->assertStringContainsString('tab=details', $html);
     }
     
+/**
+ * testCreateStaticMethod
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testCreateStaticMethod()
     {
         $link = ActionLink::create();
@@ -34,6 +57,12 @@ class ActionLinkTest extends TestCase
         $this->assertStringContainsString('>Create<', $html);
     }
     
+/**
+ * testCreateWithCustomText
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testCreateWithCustomText()
     {
         $link = ActionLink::create('Add New Item');
@@ -42,6 +71,12 @@ class ActionLinkTest extends TestCase
         $this->assertStringContainsString('>Add New Item<', $html);
     }
     
+/**
+ * testEditStaticMethod
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testEditStaticMethod()
     {
         $link = ActionLink::edit(456);
@@ -52,6 +87,12 @@ class ActionLinkTest extends TestCase
         $this->assertStringContainsString('>Edit<', $html);
     }
     
+/**
+ * testViewStaticMethod
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testViewStaticMethod()
     {
         $link = ActionLink::view(789);
@@ -61,6 +102,12 @@ class ActionLinkTest extends TestCase
         $this->assertStringContainsString('id=789', $html);
     }
     
+/**
+ * testDeleteStaticMethod
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testDeleteStaticMethod()
     {
         $link = ActionLink::delete(101);
@@ -72,6 +119,12 @@ class ActionLinkTest extends TestCase
         $this->assertStringContainsString('confirm', $html);
     }
     
+/**
+ * testListAllStaticMethod
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testListAllStaticMethod()
     {
         $link = ActionLink::listAll();
@@ -80,6 +133,12 @@ class ActionLinkTest extends TestCase
         $this->assertStringContainsString('href="?action=list"', $html);
     }
     
+/**
+ * testAdminStaticMethod
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testAdminStaticMethod()
     {
         $link = ActionLink::admin();
@@ -88,6 +147,12 @@ class ActionLinkTest extends TestCase
         $this->assertStringContainsString('action=admin', $html);
     }
     
+/**
+ * testAdminWithSubAction
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testAdminWithSubAction()
     {
         $link = ActionLink::admin('selectors');
@@ -96,6 +161,12 @@ class ActionLinkTest extends TestCase
         $this->assertStringContainsString('action=admin_selectors', $html);
     }
     
+/**
+ * testCustomStaticMethod
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testCustomStaticMethod()
     {
         $link = ActionLink::custom('export', 'Export Data', ['format' => 'csv']);

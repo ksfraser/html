@@ -18,14 +18,36 @@ require_once 'src/Ksfraser/HTML/HtmlElement.php';
 use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\Elements\HtmlString;
 
+/**
+ * class TestDiv
+ *
+ * @since 1.0.5 2026-03-30
+ */
 class TestDiv extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     public function __construct() {
         parent::__construct();
         $this->tag = 'div';
     }
 }
 
+/**
+ * class TestButton
+ *
+ * @since 1.0.5 2026-03-30
+ */
 class TestButton extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     public function __construct() {
         parent::__construct(new HtmlString('Button'));
         $this->tag = 'button';

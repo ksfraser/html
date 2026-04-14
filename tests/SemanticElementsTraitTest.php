@@ -7,12 +7,14 @@ use Ksfraser\HTML\HtmlElement;
 
 /**
  * SemanticElementsTraitTest - FR-014
- * 
+ *
  * Comprehensive test suite for HTML5 semantic elements
  * Tests creation of semantic markup for improved SEO and accessibility
- * 
+ *
+ *
  * @group FR-014
  * @group Semantic
+ * @since 1.0.5 2026-03-30
  */
 class SemanticElementsTraitTest extends TestCase
 {
@@ -24,6 +26,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group structure
+ * @return void
+ * @since 1.0.5 2026-03-30
      */
     public function header_creates_header_element()
     {
@@ -36,6 +40,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group structure
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function footer_creates_footer_element()
     {
@@ -48,6 +54,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group structure
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function main_creates_main_element()
     {
@@ -60,6 +68,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group structure
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function nav_creates_nav_element()
     {
@@ -72,6 +82,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group structure
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function article_creates_article_element()
     {
@@ -84,6 +96,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group structure
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function section_creates_section_element()
     {
@@ -96,6 +110,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group structure
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function aside_creates_aside_element()
     {
@@ -112,6 +128,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group content
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function figure_creates_figure_element()
     {
@@ -124,6 +142,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group content
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function figcaption_creates_figcaption_element()
     {
@@ -136,6 +156,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group content
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function blockquote_creates_blockquote_element()
     {
@@ -148,6 +170,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group content
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function blockquote_with_cite_adds_cite_attribute()
     {
@@ -160,6 +184,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group content
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function cite_creates_cite_element()
     {
@@ -172,6 +198,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group content
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function code_creates_code_element()
     {
@@ -184,6 +212,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group content
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function pre_creates_pre_element()
     {
@@ -196,6 +226,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group content
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function kbd_creates_kbd_element()
     {
@@ -208,6 +240,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group content
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function samp_creates_samp_element()
     {
@@ -220,6 +254,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group content
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function var_creates_var_element()
     {
@@ -236,6 +272,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group text
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function strong_creates_strong_element()
     {
@@ -248,6 +286,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group text
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function em_creates_em_element()
     {
@@ -260,6 +300,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group text
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function mark_creates_mark_element()
     {
@@ -272,6 +314,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group text
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function small_creates_small_element()
     {
@@ -284,6 +328,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group text
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function del_creates_del_element()
     {
@@ -296,6 +342,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group text
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function ins_creates_ins_element()
     {
@@ -308,6 +356,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group text
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function sub_creates_sub_element()
     {
@@ -320,6 +370,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group text
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function sup_creates_sup_element()
     {
@@ -332,6 +384,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group text
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function abbr_creates_abbr_element()
     {
@@ -349,6 +403,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group metadata
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function time_creates_time_element()
     {
@@ -361,6 +417,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group metadata
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function time_with_datetime_adds_datetime_attribute()
     {
@@ -373,6 +431,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group metadata
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function address_creates_address_element()
     {
@@ -389,6 +449,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group media
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function video_creates_video_element()
     {
@@ -402,6 +464,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group media
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function video_with_controls_adds_controls_attribute()
     {
@@ -414,6 +478,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group media
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function video_with_autoplay_adds_autoplay_attribute()
     {
@@ -426,6 +492,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group media
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function audio_creates_audio_element()
     {
@@ -439,6 +507,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group media
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function audio_with_controls_adds_controls_attribute()
     {
@@ -451,6 +521,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group media
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function source_creates_source_element()
     {
@@ -465,6 +537,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group media
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function track_creates_track_element()
     {
@@ -483,6 +557,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group lists
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function description_list_creates_dl_element()
     {
@@ -495,6 +571,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group lists
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function description_term_creates_dt_element()
     {
@@ -507,6 +585,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group lists
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function description_definition_creates_dd_element()
     {
@@ -523,6 +603,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group interactive
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function details_creates_details_element()
     {
@@ -535,6 +617,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group interactive
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function summary_creates_summary_element()
     {
@@ -547,6 +631,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group interactive
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function dialog_creates_dialog_element()
     {
@@ -559,6 +645,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group interactive
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function dialog_with_open_attribute()
     {
@@ -575,6 +663,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group scripting
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function noscript_creates_noscript_element()
     {
@@ -587,6 +677,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group scripting
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function canvas_creates_canvas_element()
     {
@@ -599,6 +691,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group scripting
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function canvas_with_dimensions()
     {
@@ -612,6 +706,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group scripting
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function svg_creates_svg_element()
     {
@@ -624,6 +720,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group scripting
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function svg_with_viewbox()
     {
@@ -640,6 +738,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group document
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function html_creates_html_element()
     {
@@ -653,6 +753,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group document
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function head_creates_head_element()
     {
@@ -665,6 +767,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group document
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function body_creates_body_element()
     {
@@ -677,6 +781,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group document
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function title_creates_title_element()
     {
@@ -689,6 +795,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group document
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function meta_creates_meta_element()
     {
@@ -703,6 +811,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group document
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function link_creates_link_element()
     {
@@ -717,6 +827,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group document
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function script_creates_script_element()
     {
@@ -730,6 +842,8 @@ class SemanticElementsTraitTest extends TestCase
      * @test
      * @group semantic
      * @group document
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function style_creates_style_element()
     {

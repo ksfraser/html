@@ -5,8 +5,19 @@ use Ksfraser\HTML\Button\CloseButton;
 use Ksfraser\HTML\Button\SubmitButton;
 use Ksfraser\HTML\Elements\HtmlString;
 
+/**
+ * class ButtonsTest
+ *
+ * @since 1.0.1 2026-02-16
+ */
 class ButtonsTest extends TestCase
 {
+/**
+ * testCloseButtonDefaultLabel
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     public function testCloseButtonDefaultLabel()
     {
         $button = new CloseButton();
@@ -16,6 +27,12 @@ class ButtonsTest extends TestCase
         $this->assertStringContainsString('class="btn btn-secondary', $html);
     }
     
+/**
+ * testCloseButtonCustomLabel
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testCloseButtonCustomLabel()
     {
         $button = new CloseButton(new HtmlString('Dismiss'));
@@ -24,6 +41,12 @@ class ButtonsTest extends TestCase
         $this->assertStringContainsString('Dismiss', $html);
     }
     
+/**
+ * testCloseButtonSetOnclickFunction
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testCloseButtonSetOnclickFunction()
     {
         $button = new CloseButton();
@@ -33,6 +56,12 @@ class ButtonsTest extends TestCase
         $this->assertStringContainsString('onclick="closeMyModal()"', $html);
     }
     
+/**
+ * testSubmitButtonDefaultLabel
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testSubmitButtonDefaultLabel()
     {
         $button = new SubmitButton();
@@ -43,6 +72,12 @@ class ButtonsTest extends TestCase
         $this->assertStringContainsString('class="btn btn-primary', $html);
     }
     
+/**
+ * testSubmitButtonCustomLabel
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testSubmitButtonCustomLabel()
     {
         $button = new SubmitButton(new HtmlString('Save'));
@@ -51,6 +86,12 @@ class ButtonsTest extends TestCase
         $this->assertStringContainsString('Save', $html);
     }
     
+/**
+ * testSubmitButtonSetOnclickFunction
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testSubmitButtonSetOnclickFunction()
     {
         $button = new SubmitButton();

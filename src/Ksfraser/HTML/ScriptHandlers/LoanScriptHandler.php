@@ -5,19 +5,22 @@ use Ksfraser\HTML\Elements\HtmlScript;
 
 /**
  * LoanScriptHandler - Script setup for loan operations
- * 
+ *
  * SRP: Single responsibility of building loan handler scripts.
  * Returns handler class loader and event listener setup.
- * 
+ *
+ *
  * @package Ksfraser\HTML\ScriptHandlers
+ * @since 1.0.1 2026-02-16
  */
 class LoanScriptHandler extends BaseScriptHandler {
     /**
      * Build handler scripts
      * 
-     * @return HtmlScript[]
-     */
-    public function build(): array {
+ * @return array
+ * @since 1.0.1 2026-02-16
+ */
+public function build(): array {
         return [
             // Load handler classes
             (new HtmlScript())->setAttribute('src', '/js/handlers/BaseHandler.js'),
@@ -33,6 +36,7 @@ class LoanScriptHandler extends BaseScriptHandler {
      * 
      * @return string
      * @private
+ * @since v1.0.0 2026-04-13
      */
     private function getEventListeners(): string {
         return <<<'JS'
@@ -57,3 +61,4 @@ document.addEventListener('loanUpdated', (e) => {
 JS;
     }
 }
+

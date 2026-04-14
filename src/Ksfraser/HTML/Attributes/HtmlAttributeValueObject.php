@@ -9,14 +9,16 @@ use Ksfraser\HTML\HtmlElementInterface;
  * Provides common getHtml() and toHtml() logic.
  *
  * This class is intentionally separate from HtmlAttribute. HtmlAttribute is for simple, single name-value pairs (e.g., name="value").
- * HtmlAttributeValueObject is for attributes whose value is composed or aggregated from multiple sub-values 
+ * HtmlAttributeValueObject is for attributes whose value is composed or aggregated from multiple sub-values
  *  such as style="color:red;font-size:12px;" or class="btn primary".
  *
- * Use HtmlAttribute for generic name-value pairs. 
+ * Use HtmlAttribute for generic name-value pairs.
  * Use HtmlAttributeValueObject as a base for attributes that aggregate or compose their value from multiple items.
  *
- * Example: HtmlStyleList (for style attribute) or a 
+ * Example: HtmlStyleList (for style attribute) or a
  * future HtmlClassList (for class attribute) would extend this class and implement how the value string is constructed.
+ *
+ * @since 1.0.3 2026-02-21
  */
 abstract class HtmlAttributeValueObject implements HtmlElementInterface
 {
@@ -36,6 +38,7 @@ abstract class HtmlAttributeValueObject implements HtmlElementInterface
      * Add a sub-attribute to the list
      * @param object $item
      * @return void
+ * @since 1.0.4 2026-02-21
      */
     public function addAttributeValueObject(object $item): void
     {
@@ -46,6 +49,7 @@ abstract class HtmlAttributeValueObject implements HtmlElementInterface
      * Set (add or replace) a sub-attribute in the list by name
      * @param object $item
      * @return void
+ * @since v1.0.0 2026-04-13
      */
     public function setAttributeValueObject(object $item): void
     {
@@ -62,7 +66,8 @@ abstract class HtmlAttributeValueObject implements HtmlElementInterface
     /**
      * Get a sub-attribute value by name
      * @param string $name
-     * @return string|null
+     * @return ?string
+ * @since v1.0.5 2026-04-14
      */
     public function getAttributeValue(string $name): ?string
     {
@@ -77,6 +82,7 @@ abstract class HtmlAttributeValueObject implements HtmlElementInterface
     /**
      * Render the attribute as HTML (e.g., style="color:red;")
      * @return string
+ * @since v1.0.0 2026-04-13
      */
     public function getHtml(): string
     {
@@ -90,6 +96,7 @@ abstract class HtmlAttributeValueObject implements HtmlElementInterface
     /**
      * Output the HTML directly
      * @return void
+ * @since v1.0.0 2026-04-13
      */
     public function toHtml(): void
     {
@@ -99,6 +106,7 @@ abstract class HtmlAttributeValueObject implements HtmlElementInterface
     /**
      * Subclasses must implement this to return the value string for the attribute
      * @return string
+ * @since v1.0.0 2026-04-13
      */
     abstract protected function getAttributeValueString(): string;
 }

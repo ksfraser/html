@@ -5,11 +5,13 @@ use Ksfraser\HTML\Elements\TableData;
 
 /**
  * EditableLoanStatusCell - Encapsulates status cell configuration for loan rows
- * 
+ *
  * SRP: Encapsulate the specific configuration for editable status cells in loan summaries.
  * Takes variable parts (loanId, rowPrefix, value) and applies fixed configuration.
- * 
+ *
+ *
  * @package Ksfraser\HTML\Cells
+ * @since 1.0.1 2026-02-16
  */
 class EditableLoanStatusCell extends StatusTableCell {
     /**
@@ -19,6 +21,7 @@ class EditableLoanStatusCell extends StatusTableCell {
      * @param mixed $loanId The loan ID
      * @param string $rowPrefix The row prefix for cell ID generation
      * @return TableData
+ * @since 1.0.1 2026-02-16
      */
     public function buildEditable($value, $loanId, string $rowPrefix): TableData {
         $this->setId("status-cell-{$rowPrefix}")

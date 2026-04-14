@@ -1,0 +1,11 @@
+{
+  "lenient": true,
+  "allow_missing_docblock": false,
+  "allow_missing_since": false,
+  "allow_param_missing": false,
+  "allow_param_count_mismatch": false,
+  "allow_param_name_mismatch": false,
+  "allow_param_type_mismatch": true,
+  "allow_missing_return": true,
+  "allow_type_mismatch": true
+}

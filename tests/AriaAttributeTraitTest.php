@@ -10,8 +10,10 @@ use Ksfraser\HTML\Elements\HtmlString;
  * Tests for AriaAttributeTrait - FR-009
  * Comprehensive test suite for ARIA attribute management
  *
+ *
  * @group FR-009
  * @group aria-attributes
+ * @since 1.0.5 2026-03-30
  */
 class AriaAttributeTraitTest extends TestCase
 {
@@ -20,9 +22,21 @@ class AriaAttributeTraitTest extends TestCase
      */
     private HtmlElement $element;
 
+/**
+ * setUp
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     protected function setUp(): void
     {
         $this->element = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -36,6 +50,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group happy-path
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaLabel()
     {
@@ -48,6 +64,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group happy-path
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaLabelRendersInHtml()
     {
@@ -60,6 +78,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group happy-path
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetRole()
     {
@@ -72,6 +92,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group happy-path
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetRoleRendersInHtml()
     {
@@ -84,6 +106,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group happy-path
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaDescribedBy()
     {
@@ -96,6 +120,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group happy-path
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetMultipleAriaAttributes()
     {
@@ -113,6 +139,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group happy-path
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testGetAllAriaAttributes()
     {
@@ -133,6 +161,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-states
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaHidden()
     {
@@ -149,6 +179,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-states
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaDisabled()
     {
@@ -161,6 +193,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-states
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaPressed()
     {
@@ -177,6 +211,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-states
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaChecked()
     {
@@ -193,6 +229,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-states
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaSelected()
     {
@@ -205,6 +243,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-states
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaExpanded()
     {
@@ -221,6 +261,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-states
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaBusy()
     {
@@ -233,6 +275,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-states
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaModal()
     {
@@ -247,6 +291,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-live
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaLive()
     {
@@ -263,6 +309,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-live
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaAtomic()
     {
@@ -275,6 +323,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-live
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaRelevant()
     {
@@ -289,6 +339,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-relationships
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaLabelledBy()
     {
@@ -301,6 +353,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-relationships
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaOwns()
     {
@@ -313,6 +367,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-relationships
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaActivedescendant()
     {
@@ -325,6 +381,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-relationships
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaFlowto()
     {
@@ -339,6 +397,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-widgets
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaValuemin()
     {
@@ -351,6 +411,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-widgets
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaValuemax()
     {
@@ -363,6 +425,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-widgets
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaValuenow()
     {
@@ -375,6 +439,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-widgets
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaValuetext()
     {
@@ -387,6 +453,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-widgets
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaPlaceholder()
     {
@@ -399,6 +467,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-widgets
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaOrientation()
     {
@@ -415,6 +485,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-widgets
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaMultiline()
     {
@@ -427,6 +499,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-widgets
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaReadonly()
     {
@@ -439,6 +513,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group aria-widgets
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaRequired()
     {
@@ -453,6 +529,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group generic
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testSetAriaWithCustomName()
     {
@@ -465,6 +543,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group generic
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testGetAriaCustomAttribute()
     {
@@ -476,6 +556,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group generic
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testHasAriaCustomAttribute()
     {
@@ -490,6 +572,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group escaping
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testAriaLabelEscapesSpecialCharacters()
     {
@@ -503,6 +587,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group escaping
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testAriaDescriptionEscapesHtmlTags()
     {
@@ -518,6 +604,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group removal
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testRemoveAriaAttribute()
     {
@@ -532,6 +620,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group removal
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testRemoveNonExistentAriaAttribute()
     {
@@ -544,6 +634,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group removal
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testClearAllAriaAttributes()
     {
@@ -564,6 +656,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group chaining
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testAriaMethodsReturnSelf()
     {
@@ -575,6 +669,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group chaining
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testChainMultipleAriaMethodCalls()
     {
@@ -595,6 +691,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group chaining
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testChainAriaWithOtherMethods()
     {
@@ -616,6 +714,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group chaining
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testRemoveAriaReturnsSelf()
     {
@@ -628,6 +728,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group chaining
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testClearAriaReturnsSelf()
     {
@@ -641,10 +743,18 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group patterns
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testButtonAccessibilityPattern()
     {
         $button = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct(new HtmlString('Delete'));
                 $this->tag = 'button';
@@ -664,10 +774,18 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group patterns
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testMenuAccessibilityPattern()
     {
         $menu = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'ul';
@@ -686,10 +804,18 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group patterns
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testProgressBarPattern()
     {
         $progressBar = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -715,10 +841,18 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group patterns
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testLiveRegionPattern()
     {
         $liveRegion = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct(new HtmlString('System updated'));
                 $this->tag = 'div';
@@ -739,10 +873,18 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group patterns
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testModalDialogPattern()
     {
         $modal = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -767,6 +909,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testUpdateAriaAttribute()
     {
@@ -781,6 +925,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testGetNonExistentAriaAttribute()
     {
@@ -792,6 +938,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testAriaAttributeWithEmptyValue()
     {
@@ -805,6 +953,8 @@ class AriaAttributeTraitTest extends TestCase
      * @test
      * @group aria-attributes
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testAriaAttributeWithUnicodeValue()
     {

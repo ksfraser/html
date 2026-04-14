@@ -4,22 +4,39 @@ namespace Ksfraser\HTML\HTMLAtomic;
 
 use Ksfraser\HTML\HtmlElementInterface;
 
-/**//****************************
-* Links 
-*
-* <a href="URL">TEXT</a>
-*/
+/**
+ * Links
+ *
+ * <a href="URL">TEXT</a>
+ *
+ * @since 1.0.1 2026-02-16
+ */
 class HtmlLink extends HtmlElement
 {
 	//can have styles, title
 	protected $baseUrl;
 	protected $params = [];
 	
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @param HtmlElementInterface $data
+ * @return void
+ */
 	function __construct( HtmlElementInterface $data )
 	{
 		parent::__construct( $data );
 		$this->tag = "a";
 	}
+/**
+ * addHref
+ *
+ * @since 1.0.1 2026-02-16
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
 	function addHref( $url, $text = "" )
 	{
 		if( is_object( $text ) )
@@ -42,6 +59,8 @@ class HtmlLink extends HtmlElement
 	 * Add a single query parameter to the URL
 	 * @param string $key Parameter name
 	 * @param string $value Parameter value
+ * @return void
+ * @since v1.0.5 2026-04-14
 	 */
 	function addParam( string $key, string $value )
 	{
@@ -52,6 +71,8 @@ class HtmlLink extends HtmlElement
 	/**
 	 * Set multiple query parameters at once
 	 * @param array $params Associative array of key => value pairs
+ * @return void
+ * @since v1.0.5 2026-04-14
 	 */
 	function setParams( array $params )
 	{
@@ -64,6 +85,8 @@ class HtmlLink extends HtmlElement
 	
 	/**
 	 * Update the href attribute with base URL and parameters
+ * @return void
+ * @since v1.0.5 2026-04-14
 	 */
 	protected function updateHrefAttribute()
 	{
@@ -86,6 +109,9 @@ class HtmlLink extends HtmlElement
 	
 	/**
 	 * Remove an attribute by name (helper for updateHrefAttribute)
+ * @return void
+ * @param string $name
+ * @since v2.0.1 2026-04-14
 	 */
 	protected function removeAttributeByName( string $name )
 	{
@@ -102,6 +128,13 @@ class HtmlLink extends HtmlElement
 		}
 	}
 	
+/**
+ * setTarget
+ *
+ * @since 1.0.1 2026-02-16
+ * @param mixed $target
+ * @return void
+ */
 	function setTarget( $target )
 	{
 		//Target can be _self, _blank, _parent, _top

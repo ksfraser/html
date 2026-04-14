@@ -5,8 +5,19 @@ use Ksfraser\HTML\Elements\Modal;
 use Ksfraser\HTML\Elements\ModalContent;
 use Ksfraser\HTML\Elements\ModalBuilder;
 
+/**
+ * class ModalTest
+ *
+ * @since 1.0.1 2026-02-16
+ */
 class ModalTest extends TestCase
 {
+/**
+ * testModalConstructorSetsId
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     public function testModalConstructorSetsId()
     {
         $modal = new Modal('test-modal');
@@ -16,6 +27,12 @@ class ModalTest extends TestCase
         $this->assertStringContainsString('class="modal-overlay"', $html);
     }
     
+/**
+ * testModalDefaultId
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testModalDefaultId()
     {
         $modal = new Modal();
@@ -24,6 +41,12 @@ class ModalTest extends TestCase
         $this->assertStringContainsString('id="modal"', $html);
     }
     
+/**
+ * testModalSetContent
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testModalSetContent()
     {
         $modal = new Modal();
@@ -34,6 +57,12 @@ class ModalTest extends TestCase
         $this->assertInstanceOf(ModalContent::class, $retrievedContent);
     }
     
+/**
+ * testModalRenderWithContent
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testModalRenderWithContent()
     {
         $modal = new Modal('my-modal');
@@ -45,6 +74,12 @@ class ModalTest extends TestCase
         $this->assertStringContainsString('class="modal-content"', $html);
     }
     
+/**
+ * testModalGetStylesheetPath
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testModalGetStylesheetPath()
     {
         $path = Modal::getStylesheetPath();
@@ -52,6 +87,12 @@ class ModalTest extends TestCase
         $this->assertEquals('/css/modal.css', $path);
     }
     
+/**
+ * testModalContentHasCorrectClass
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testModalContentHasCorrectClass()
     {
         $content = new ModalContent();
@@ -60,6 +101,12 @@ class ModalTest extends TestCase
         $this->assertStringContainsString('class="modal-content"', $html);
     }
     
+/**
+ * testModalContentGetStylesheetPath
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testModalContentGetStylesheetPath()
     {
         $path = ModalContent::getStylesheetPath();

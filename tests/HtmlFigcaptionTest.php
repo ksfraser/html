@@ -2,7 +2,18 @@
 use PHPUnit\Framework\TestCase;
 use Ksfraser\HTML\Elements\HtmlFigcaption;
 
+/**
+ * class HtmlFigcaptionTest
+ *
+ * @since 1.0.3 2026-02-21
+ */
 class HtmlFigcaptionTest extends TestCase {
+/**
+ * testGetHtml
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     public function testGetHtml() {
         $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
         $mock->method('getHtml')->willReturn('figcaption');
@@ -13,6 +24,12 @@ class HtmlFigcaptionTest extends TestCase {
         $this->assertStringEndsWith('</figcaption>', $html);
     }
 
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testToHtmlOutputsHtml() {
         $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
         $mock->method('getHtml')->willReturn('figcaption');
@@ -24,6 +41,12 @@ class HtmlFigcaptionTest extends TestCase {
         $this->assertStringContainsString('figcaption', $output);
     }
 
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testEdgeCasesEmptyContent() {
         $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
         $mock->method('getHtml')->willReturn('');

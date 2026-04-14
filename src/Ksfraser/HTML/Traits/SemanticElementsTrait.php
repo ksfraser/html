@@ -28,16 +28,100 @@ use Ksfraser\HTML\HtmlElement;
  *   $article = HtmlElement::article()
  *       ->addNested(HtmlElement::heading('Article Title', 1))
  *       ->addNested(HtmlElement::paragraph('Content'));
- *   
+ *
  *   $figure = HtmlElement::figure()
  *       ->addNested(HtmlElement::image('photo.jpg', 'Photo'))
  *       ->addNested(HtmlElement::figcaption('Caption'));
  *
+ *
  * @package Ksfraser\HTML\Traits
- * @since 1.0
+ * @since 1.0.5 2026-03-30
  */
 trait SemanticElementsTrait
 {
+    /**
+     * Resolve an element class for a semantic tag and instantiate it if present.
+     * Tries candidate class names under Ksfraser\\HTML\\Elements\\, then falls back to `new static()`.
+     *
+     * @return HtmlElement
+ * @param string $tag
+ * @param mixed $args
+ * @since v2.0.1 2026-04-14
+     */
+    protected static function element(string $tag, ...$args): HtmlElement
+    {
+        $candidates = [];
+        // Common naming patterns
+        $studly = str_replace(' ', '', ucwords(str_replace(['-', '_'], ' ', $tag)));
+        // Prefer classes named Html{Studly} (HtmlDiv, HtmlParagraph)
+        $candidates[] = 'Html' . $studly;
+        // Short forms: HtmlP, HtmlIMG, HtmlUL etc.
+        $candidates[] = 'Html' . strtoupper($tag);
+        // Also try the plain studly name (Badge, Button)
+        $candidates[] = $studly;
+
+        // Explicit common aliases
+        $aliases = [
+            'ul' => ['UnorderedList','Ul','UnorderedList'],
+            'ol' => ['OrderedList','Ol'],
+            'li' => ['Li','ListItem'],
+            'img' => ['Img','Image'],
+            'p' => ['Paragraph','P'],
+            'h1' => ['Heading1','HtmlHeading1'],
+        ];
+        if (isset($aliases[$tag])) {
+            foreach ($aliases[$tag] as $a) {
+                $candidates[] = 'Html' . $a;
+                $candidates[] = $a;
+            }
+        }
+
+        $prefixes = [
+            'Ksfraser\\HTML\\Elements\\',
+            'Ksfraser\\HTML\\',
+            'Ksfraser\\HTML\\Button\\',
+        ];
+
+        // Normalize args: convert strings/scalars to HtmlString instances
+        $normalizedArgs = [];
+        foreach ($args as $a) {
+            if (is_string($a) || is_scalar($a)) {
+                $normalizedArgs[] = new \Ksfraser\HTML\Elements\HtmlString($a);
+            } else {
+                $normalizedArgs[] = $a;
+            }
+        }
+
+        foreach ($candidates as $c) {
+            foreach ($prefixes as $pref) {
+                $fqcn = $pref . $c;
+                if (class_exists($fqcn)) {
+                    try {
+                        $ref = new \ReflectionClass($fqcn);
+                        $ctor = $ref->getConstructor();
+                        // If constructor requires no parameters, instantiate without args
+                        if ($ctor === null || $ctor->getNumberOfRequiredParameters() === 0) {
+                            return $ref->newInstance();
+                        }
+                        // If no normalized args provided, default to empty HtmlString
+                        if (count($normalizedArgs) === 0) {
+                            $normalizedArgs[] = new \Ksfraser\HTML\Elements\HtmlString('');
+                        }
+                        return $ref->newInstanceArgs($normalizedArgs);
+                    } catch (\ReflectionException $e) {
+                        // Fall back to direct instantiation
+                        if (count($normalizedArgs) === 0) {
+                            return new $fqcn(new \Ksfraser\HTML\Elements\HtmlString(''));
+                        }
+                        return new $fqcn(...$normalizedArgs);
+                    }
+                }
+            }
+        }
+
+        // Last resort: preserve previous behaviour but use late static binding
+        return new static($tag, ...$normalizedArgs);
+    }
     // ========================================================================
     // STRUCTURAL SEMANTIC ELEMENTS
     // ========================================================================
@@ -46,43 +130,51 @@ trait SemanticElementsTrait
      * Create a header element (page or section header)
      *
      * @return HtmlElement
+ * @since 1.0.5 2026-03-30
      */
     public static function header(): HtmlElement
     {
-        return new self('header');
+        return self::element('header');
     }
 
     /**
      * Create a nav element (navigation section)
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function nav(): HtmlElement
     {
-        return new self('nav');
+        return self::element('nav');
     }
 
     /**
      * Create a main element (main content area)
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function main(): HtmlElement
     {
-        return new self('main');
+        return self::element('main', '');
     }
 
     /**
      * Create a section element
      *
-     * @param string|null $id Section ID
      * @return HtmlElement
+ * @param ?string $id
+ * @since v2.0.1 2026-04-14
      */
     public static function section(?string $id = null): HtmlElement
     {
-        $section = new self('section');
+        $section = self::element('section', '');
         if ($id !== null) {
-            $section->setAttribute('id', $id);
+            if (method_exists($section, 'setId')) {
+                $section->setId($id);
+            } else {
+                $section->setAttribute('id', $id);
+            }
         }
         return $section;
     }
@@ -91,30 +183,44 @@ trait SemanticElementsTrait
      * Create an article element
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function article(): HtmlElement
     {
-        return new self('article');
+        return self::element('article');
+    }
+
+    /**
+     * Create a generic div element
+     *
+     * @return HtmlElement
+ * @since v1.0.5 2026-04-14
+     */
+    public static function div(): HtmlElement
+    {
+        return self::element('div');
     }
 
     /**
      * Create an aside element (sidebar/supplementary content)
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function aside(): HtmlElement
     {
-        return new self('aside');
+        return self::element('aside');
     }
 
     /**
      * Create a footer element
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function footer(): HtmlElement
     {
-        return new self('footer');
+        return self::element('footer');
     }
 
     // ========================================================================
@@ -127,11 +233,12 @@ trait SemanticElementsTrait
      * @param string $text Heading text
      * @param int $level Heading level (1-6, default 1)
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function heading(string $text = '', int $level = 1): HtmlElement
     {
         $level = min(max($level, 1), 6);
-        return new self('h' . $level, $text);
+        return self::element('h' . $level, $text);
     }
 
     /**
@@ -139,10 +246,11 @@ trait SemanticElementsTrait
      *
      * @param string $text Paragraph text
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function paragraph(string $text = ''): HtmlElement
     {
-        return new self('p', $text);
+        return self::element('p', $text);
     }
 
     /**
@@ -150,10 +258,11 @@ trait SemanticElementsTrait
      *
      * @param string $text Text content
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function strong(string $text = ''): HtmlElement
     {
-        return new self('strong', $text);
+        return self::element('strong', $text);
     }
 
     /**
@@ -161,10 +270,11 @@ trait SemanticElementsTrait
      *
      * @param string $text Text content
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function em(string $text = ''): HtmlElement
     {
-        return new self('em', $text);
+        return self::element('em', $text);
     }
 
     /**
@@ -172,10 +282,92 @@ trait SemanticElementsTrait
      *
      * @param string $text Text content
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function mark(string $text = ''): HtmlElement
     {
-        return new self('mark', $text);
+        return self::element('mark', $text);
+    }
+
+    /**
+     * Create a del element (deleted text)
+     *
+     * @param string $text Text content
+     * @return HtmlElement
+ * @since v1.0.5 2026-04-14
+     */
+    public static function del(string $text = ''): HtmlElement
+    {
+        return self::element('del', $text);
+    }
+
+    /**
+     * Create an ins element (inserted text)
+     *
+     * @param string $text Text content
+     * @return HtmlElement
+ * @since v1.0.5 2026-04-14
+     */
+    public static function ins(string $text = ''): HtmlElement
+    {
+        return self::element('ins', $text);
+    }
+
+    /**
+     * Create a sub element (subscript)
+     *
+     * @param string $text Text content
+     * @return HtmlElement
+ * @since v1.0.5 2026-04-14
+     */
+    public static function sub(string $text = ''): HtmlElement
+    {
+        return self::element('sub', $text);
+    }
+
+    /**
+     * Create a sup element (superscript)
+     *
+     * @param string $text Text content
+     * @return HtmlElement
+ * @since v1.0.5 2026-04-14
+     */
+    public static function sup(string $text = ''): HtmlElement
+    {
+        return self::element('sup', $text);
+    }
+
+    /**
+     * Create an abbr element (abbreviation)
+     *
+     * @param string $text Abbreviation text
+     * @param string $title Title attribute (expanded form)
+     * @return HtmlElement
+ * @since v1.0.5 2026-04-14
+     */
+    public static function abbr(string $text = '', string $title = ''): HtmlElement
+    {
+        $abbr = self::element('abbr', $text);
+        if ($title !== '') {
+            if (method_exists($abbr, 'setTitle')) {
+                $abbr->setTitle($title);
+            } else {
+                $abbr->setAttribute('title', $title);
+            }
+        }
+        return $abbr;
+    }
+
+    /**
+     * Create a kbd element (user input)
+     *
+     * @param string $text
+     * @return HtmlElement
+ * @since v1.0.5 2026-04-14
+     */
+    public static function kbd(string $text = ''): HtmlElement
+    {
+        return self::element('kbd', $text);
     }
 
     /**
@@ -183,26 +375,46 @@ trait SemanticElementsTrait
      *
      * @param string $text Code content
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function code(string $text = ''): HtmlElement
     {
-        return new self('code', $text);
+        return self::element('code', $text);
     }
 
+    /**
+     * Create a samp element (sample output)
+     *
+     * @param string $text Sample text
+     * @return HtmlElement
+ * @since v1.0.5 2026-04-14
+     */
+    public static function samp(string $text = ''): HtmlElement
+    {
+        return self::element('samp', $text);
+    }
+
+    /**
+     * Create a var element (variable name)
+     *
+     * @param string $text Variable name
+     * @return HtmlElement
+ * @since v1.0.5 2026-04-14
+     */
+    public static function var(string $text = ''): HtmlElement
+    {
+        return self::element('var', $text);
+    }
     /**
      * Create a pre element (preformatted text)
      *
      * @param string $text Preformatted content (optional)
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function pre(string $text = ''): HtmlElement
     {
-        $pre = new self('pre');
-        if ($text !== '') {
-            // Store as content for literal rendering
-            $pre->content = $text;
-        }
-        return $pre;
+        return self::element('pre', $text);
     }
 
     /**
@@ -210,24 +422,30 @@ trait SemanticElementsTrait
      *
      * @param string $text Small text
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function small(string $text = ''): HtmlElement
     {
-        return new self('small', $text);
+        return self::element('small', $text);
     }
 
     /**
      * Create a blockquote element
      *
-     * @param string $text Quote text
-     * @param string|null $cite Citation URL
      * @return HtmlElement
+ * @param string $text
+ * @param ?string $cite
+ * @since v2.0.1 2026-04-14
      */
     public static function blockquote(string $text = '', ?string $cite = null): HtmlElement
     {
-        $bq = new self('blockquote', $text);
+        $bq = self::element('blockquote', $text);
         if ($cite !== null) {
-            $bq->setAttribute('cite', $cite);
+            if (method_exists($bq, 'setCite')) {
+                $bq->setCite($cite);
+            } else {
+                $bq->setAttribute('cite', $cite);
+            }
         }
         return $bq;
     }
@@ -237,10 +455,11 @@ trait SemanticElementsTrait
      *
      * @param string $text Citation text
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function cite(string $text = ''): HtmlElement
     {
-        return new self('cite', $text);
+        return self::element('cite', $text);
     }
 
     /**
@@ -248,24 +467,30 @@ trait SemanticElementsTrait
      *
      * @param string $text Address content
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function address(string $text = ''): HtmlElement
     {
-        return new self('address', $text);
+        return self::element('address', $text);
     }
 
     /**
      * Create a time element
      *
-     * @param string $text Display text
-     * @param string|null $datetime date-time string
      * @return HtmlElement
+ * @param string $text
+ * @param ?string $datetime
+ * @since v2.0.1 2026-04-14
      */
     public static function time(string $text = '', ?string $datetime = null): HtmlElement
     {
-        $time = new self('time', $text);
+        $time = self::element('time', $text);
         if ($datetime !== null) {
-            $time->setAttribute('datetime', $datetime);
+            if (method_exists($time, 'setDatetime')) {
+                $time->setDatetime($datetime);
+            } else {
+                $time->setAttribute('datetime', $datetime);
+            }
         }
         return $time;
     }
@@ -278,10 +503,11 @@ trait SemanticElementsTrait
      * Create a figure element
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function figure(): HtmlElement
     {
-        return new self('figure');
+        return self::element('figure', '');
     }
 
     /**
@@ -289,10 +515,11 @@ trait SemanticElementsTrait
      *
      * @param string $text Caption text
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function figcaption(string $text = ''): HtmlElement
     {
-        return new self('figcaption', $text);
+        return self::element('figcaption', $text);
     }
 
     /**
@@ -301,13 +528,22 @@ trait SemanticElementsTrait
      * @param string $src Image source
      * @param string $alt Alternative text
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function image(string $src, string $alt = ''): HtmlElement
     {
-        $img = new self('img');
-        $img->setAttribute('src', $src);
+        $img = self::element('img');
+        if (method_exists($img, 'setSrc')) {
+            $img->setSrc($src);
+        } else {
+            $img->setAttribute('src', $src);
+        }
         if ($alt !== '') {
-            $img->setAttribute('alt', $alt);
+            if (method_exists($img, 'setAlt')) {
+                $img->setAlt($alt);
+            } else {
+                $img->setAttribute('alt', $alt);
+            }
         }
         return $img;
     }
@@ -318,6 +554,7 @@ trait SemanticElementsTrait
      * @param string $src Image source
      * @param string $alt Alternative text
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function imageResponsive(string $src, string $alt = ''): HtmlElement
     {
@@ -332,6 +569,7 @@ trait SemanticElementsTrait
      * @param string $src Image source
      * @param string $alt Alternative text
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function imageThumbnail(string $src, string $alt = ''): HtmlElement
     {
@@ -344,10 +582,11 @@ trait SemanticElementsTrait
      * Create a picture element (for responsive images)
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function picture(): HtmlElement
     {
-        return new self('picture');
+        return self::element('picture');
     }
 
     /**
@@ -356,15 +595,24 @@ trait SemanticElementsTrait
      * @param string $src Audio source
      * @param bool $controls Show audio controls
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function audio(string $src = '', bool $controls = false): HtmlElement
     {
-        $audio = new self('audio');
+        $audio = self::element('audio');
         if ($src !== '') {
-            $audio->setAttribute('src', $src);
+            if (method_exists($audio, 'setSrc')) {
+                $audio->setSrc($src);
+            } else {
+                $audio->setAttribute('src', $src);
+            }
         }
         if ($controls) {
-            $audio->setAttribute('controls', 'controls');
+            if (method_exists($audio, 'setControls')) {
+                $audio->setControls(true);
+            } else {
+                $audio->setAttribute('controls', 'controls');
+            }
         }
         return $audio;
     }
@@ -372,18 +620,35 @@ trait SemanticElementsTrait
     /**
      * Create a video element
      *
-     * @param string $src Video source
-     * @param bool $controls Show video controls
      * @return HtmlElement
+ * @param string $src
+ * @param bool $controls
+ * @param bool $autoplay
+ * @since v2.0.1 2026-04-14
      */
-    public static function video(string $src = '', bool $controls = false): HtmlElement
+    public static function video(string $src = '', bool $controls = false, bool $autoplay = false): HtmlElement
     {
-        $video = new self('video');
+        $video = self::element('video');
         if ($src !== '') {
-            $video->setAttribute('src', $src);
+            if (method_exists($video, 'setSrc')) {
+                $video->setSrc($src);
+            } else {
+                $video->setAttribute('src', $src);
+            }
         }
         if ($controls) {
-            $video->setAttribute('controls', 'controls');
+            if (method_exists($video, 'setControls')) {
+                $video->setControls(true);
+            } else {
+                $video->setAttribute('controls', 'controls');
+            }
+        }
+        if ($autoplay) {
+            if (method_exists($video, 'setAutoplay')) {
+                $video->setAutoplay(true);
+            } else {
+                $video->setAttribute('autoplay', 'autoplay');
+            }
         }
         return $video;
     }
@@ -394,13 +659,50 @@ trait SemanticElementsTrait
      * @param string $src Source URL
      * @param string $type MIME type
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function source(string $src, string $type): HtmlElement
     {
-        $source = new self('source');
-        $source->setAttribute('src', $src);
-        $source->setAttribute('type', $type);
+        $source = self::element('source');
+        if (method_exists($source, 'setSrc')) {
+            $source->setSrc($src);
+        } else {
+            $source->setAttribute('src', $src);
+        }
+        if (method_exists($source, 'setType')) {
+            $source->setType($type);
+        } else {
+            $source->setAttribute('type', $type);
+        }
         return $source;
+    }
+
+    /**
+     * Create a track element (text tracks for media)
+     *
+     * @param string $src Source URL for the track
+     * @param string $kind Kind of track (subtitles, captions, descriptions, chapters, metadata)
+     * @return HtmlElement
+ * @since v1.0.5 2026-04-14
+     */
+    public static function track(string $src = '', string $kind = ''): HtmlElement
+    {
+        $track = self::element('track');
+        if ($src !== '') {
+            if (method_exists($track, 'setSrc')) {
+                $track->setSrc($src);
+            } else {
+                $track->setAttribute('src', $src);
+            }
+        }
+        if ($kind !== '') {
+            if (method_exists($track, 'setKind')) {
+                $track->setKind($kind);
+            } else {
+                $track->setAttribute('kind', $kind);
+            }
+        }
+        return $track;
     }
 
     // ========================================================================
@@ -412,12 +714,17 @@ trait SemanticElementsTrait
      *
      * @param bool $open Initially open
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function details(bool $open = false): HtmlElement
     {
-        $details = new self('details');
+        $details = self::element('details');
         if ($open) {
-            $details->setAttribute('open', 'open');
+            if (method_exists($details, 'setOpen')) {
+                $details->setOpen(true);
+            } else {
+                $details->setAttribute('open', 'open');
+            }
         }
         return $details;
     }
@@ -427,10 +734,11 @@ trait SemanticElementsTrait
      *
      * @param string $text Summary text
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function summary(string $text = ''): HtmlElement
     {
-        return new self('summary', $text);
+        return self::element('summary', $text);
     }
 
     /**
@@ -438,14 +746,223 @@ trait SemanticElementsTrait
      *
      * @param bool $open Initially open
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function dialog(bool $open = false): HtmlElement
     {
-        $dialog = new self('dialog');
+        $dialog = self::element('dialog');
         if ($open) {
-            $dialog->setAttribute('open', 'open');
+            if (method_exists($dialog, 'setOpen')) {
+                $dialog->setOpen(true);
+            } else {
+                $dialog->setAttribute('open', 'open');
+            }
         }
         return $dialog;
+    }
+
+    /**
+     * Create a noscript element
+     *
+     * @param string $text Optional content
+     * @return HtmlElement
+ * @since v1.0.5 2026-04-14
+     */
+    public static function noscript(string $text = ''): HtmlElement
+    {
+        return self::element('noscript', $text);
+    }
+
+    /**
+     * Create a canvas element with optional dimensions
+     *
+     * @return HtmlElement
+ * @param ?int $width
+ * @param ?int $height
+ * @since v2.0.1 2026-04-14
+     */
+    public static function canvas(?int $width = null, ?int $height = null): HtmlElement
+    {
+        $canvas = self::element('canvas');
+        if ($width !== null) {
+            if (method_exists($canvas, 'setWidth')) {
+                $canvas->setWidth($width);
+            } else {
+                $canvas->setAttribute('width', (string)$width);
+            }
+        }
+        if ($height !== null) {
+            if (method_exists($canvas, 'setHeight')) {
+                $canvas->setHeight($height);
+            } else {
+                $canvas->setAttribute('height', (string)$height);
+            }
+        }
+        return $canvas;
+    }
+
+    /**
+     * Create an svg element with optional viewBox dimensions
+     *
+     * @return HtmlElement
+ * @param ?int $width
+ * @param ?int $height
+ * @since v2.0.1 2026-04-14
+     */
+    public static function svg(?int $width = null, ?int $height = null): HtmlElement
+    {
+        $svg = self::element('svg');
+        if ($width !== null && $height !== null) {
+            $view = sprintf('0 0 %d %d', $width, $height);
+            if (method_exists($svg, 'setViewBox')) {
+                $svg->setViewBox($view);
+            } else {
+                $svg->setAttribute('viewBox', $view);
+            }
+        }
+        return $svg;
+    }
+
+    /**
+     * Create the root html element with optional lang attribute
+     *
+     * @return HtmlElement
+ * @param ?string $lang
+ * @since v2.0.1 2026-04-14
+     */
+    public static function htmlElement(?string $lang = null): HtmlElement
+    {
+        $html = self::element('html');
+        if ($lang !== null) {
+            if (method_exists($html, 'setLang')) {
+                $html->setLang($lang);
+            } else {
+                $html->setAttribute('lang', $lang);
+            }
+        }
+        return $html;
+    }
+
+    /**
+     * Create a head element
+     *
+     * @return HtmlElement
+ * @since v1.0.5 2026-04-14
+     */
+    public static function head(): HtmlElement
+    {
+        return self::element('head');
+    }
+
+    /**
+     * Create a body element
+     *
+     * @return HtmlElement
+ * @since v1.0.5 2026-04-14
+     */
+    public static function body(): HtmlElement
+    {
+        return self::element('body');
+    }
+
+    /**
+     * Create a title element
+     *
+     * @param string $text
+     * @return HtmlElement
+ * @since v1.0.5 2026-04-14
+     */
+    public static function title(string $text = ''): HtmlElement
+    {
+        return self::element('title', $text);
+    }
+
+    /**
+     * Create a meta element
+     *
+     * @param string $name
+     * @param string $content
+     * @return HtmlElement
+ * @since v1.0.5 2026-04-14
+     */
+    public static function meta(string $name, string $content): HtmlElement
+    {
+        $meta = self::element('meta');
+        if (method_exists($meta, 'setName')) {
+            $meta->setName($name);
+        } else {
+            $meta->setAttribute('name', $name);
+        }
+        if (method_exists($meta, 'setContent')) {
+            $meta->setContent($content);
+        } else {
+            $meta->setAttribute('content', $content);
+        }
+        return $meta;
+    }
+
+    /**
+     * Create a link element (e.g., stylesheet)
+     *
+     * @param string $rel
+     * @param string $href
+     * @return HtmlElement
+ * @since v1.0.5 2026-04-14
+     */
+    public static function link(string $rel, string $href): HtmlElement
+    {
+        $link = self::element('link');
+        if (method_exists($link, 'setRel')) {
+            $link->setRel($rel);
+        } else {
+            $link->setAttribute('rel', $rel);
+        }
+        if (method_exists($link, 'setHref')) {
+            $link->setHref($href);
+        } else {
+            $link->setAttribute('href', $href);
+        }
+        return $link;
+    }
+
+    /**
+     * Create a script element
+     *
+     * @return HtmlElement
+ * @param string $src
+ * @param ?string $type
+ * @since v2.0.1 2026-04-14
+     */
+    public static function script(string $src = '', ?string $type = null): HtmlElement
+    {
+        $script = self::element('script');
+        if ($src !== '') {
+            if (method_exists($script, 'setSrc')) {
+                $script->setSrc($src);
+            } else {
+                $script->setAttribute('src', $src);
+            }
+        }
+        if ($type !== null) {
+            if (method_exists($script, 'setType')) {
+                $script->setType($type);
+            } else {
+                $script->setAttribute('type', $type);
+            }
+        }
+        return $script;
+    }
+
+    /**
+     * Create a style element with CSS content
+     *
+     * @param string $css
+     * @return HtmlElement
+ * @since v1.0.5 2026-04-14
+     */
+    public static function style(string $css = ''): HtmlElement
+    {
+        return self::element('style', $css);
     }
 
     // ========================================================================
@@ -455,18 +972,27 @@ trait SemanticElementsTrait
     /**
      * Create a progress element
      *
-     * @param int|null $value Current progress value
-     * @param int|null $max Maximum value
      * @return HtmlElement
+ * @param ?int $value
+ * @param ?int $max
+ * @since v2.0.1 2026-04-14
      */
     public static function progress(?int $value = null, ?int $max = null): HtmlElement
     {
-        $progress = new self('progress');
+        $progress = self::element('progress');
         if ($value !== null) {
-            $progress->setAttribute('value', (string)$value);
+            if (method_exists($progress, 'setValue')) {
+                $progress->setValue($value);
+            } else {
+                $progress->setAttribute('value', (string)$value);
+            }
         }
         if ($max !== null) {
-            $progress->setAttribute('max', (string)$max);
+            if (method_exists($progress, 'setMax')) {
+                $progress->setMax($max);
+            } else {
+                $progress->setAttribute('max', (string)$max);
+            }
         }
         return $progress;
     }
@@ -474,30 +1000,51 @@ trait SemanticElementsTrait
     /**
      * Create a meter element
      *
-     * @param int|null $value Current value
-     * @param int|null $min Minimum value
-     * @param int|null $max Maximum value
-     * @param int|null $low Low threshold
-     * @param int|null $high High threshold
      * @return HtmlElement
+ * @param ?int $value
+ * @param ?int $min
+ * @param ?int $max
+ * @param ?int $low
+ * @param ?int $high
+ * @since v2.0.1 2026-04-14
      */
     public static function meter(?int $value = null, ?int $min = null, ?int $max = null, ?int $low = null, ?int $high = null): HtmlElement
     {
-        $meter = new self('meter');
+        $meter = self::element('meter');
         if ($value !== null) {
-            $meter->setAttribute('value', (string)$value);
+            if (method_exists($meter, 'setValue')) {
+                $meter->setValue($value);
+            } else {
+                $meter->setAttribute('value', (string)$value);
+            }
         }
         if ($min !== null) {
-            $meter->setAttribute('min', (string)$min);
+            if (method_exists($meter, 'setMin')) {
+                $meter->setMin($min);
+            } else {
+                $meter->setAttribute('min', (string)$min);
+            }
         }
         if ($max !== null) {
-            $meter->setAttribute('max', (string)$max);
+            if (method_exists($meter, 'setMax')) {
+                $meter->setMax($max);
+            } else {
+                $meter->setAttribute('max', (string)$max);
+            }
         }
         if ($low !== null) {
-            $meter->setAttribute('low', (string)$low);
+            if (method_exists($meter, 'setLow')) {
+                $meter->setLow($low);
+            } else {
+                $meter->setAttribute('low', (string)$low);
+            }
         }
         if ($high !== null) {
-            $meter->setAttribute('high', (string)$high);
+            if (method_exists($meter, 'setHigh')) {
+                $meter->setHigh($high);
+            } else {
+                $meter->setAttribute('high', (string)$high);
+            }
         }
         return $meter;
     }
@@ -510,23 +1057,29 @@ trait SemanticElementsTrait
      * Create an unordered list element
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function unorderedList(): HtmlElement
     {
-        return new self('ul');
+        return self::element('ul');
     }
 
     /**
      * Create an ordered list element
      *
-     * @param int|null $start Starting number
      * @return HtmlElement
+ * @param ?int $start
+ * @since v2.0.1 2026-04-14
      */
     public static function orderedList(?int $start = null): HtmlElement
     {
-        $ol = new self('ol');
+        $ol = self::element('ol');
         if ($start !== null) {
-            $ol->setAttribute('start', (string)$start);
+            if (method_exists($ol, 'setStart')) {
+                $ol->setStart($start);
+            } else {
+                $ol->setAttribute('start', (string)$start);
+            }
         }
         return $ol;
     }
@@ -536,20 +1089,22 @@ trait SemanticElementsTrait
      *
      * @param string $text Item text
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function listItem(string $text = ''): HtmlElement
     {
-        return new self('li', $text);
+        return self::element('li', $text);
     }
 
     /**
      * Create a definition list element
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function definitionList(): HtmlElement
     {
-        return new self('dl');
+        return self::element('dl');
     }
 
     /**
@@ -557,10 +1112,11 @@ trait SemanticElementsTrait
      *
      * @param string $text Term text
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function definitionTerm(string $text = ''): HtmlElement
     {
-        return new self('dt', $text);
+        return self::element('dt', $text);
     }
 
     /**
@@ -568,10 +1124,45 @@ trait SemanticElementsTrait
      *
      * @param string $text Description text
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function definitionDescription(string $text = ''): HtmlElement
     {
-        return new self('dd', $text);
+        return self::element('dd', $text);
+    }
+
+    /**
+     * Backwards-compatible aliases using "description" naming used by tests
+ * @return HtmlElement
+ * @since v1.0.5 2026-04-14
+     */
+    public static function descriptionList(): HtmlElement
+    {
+        return self::definitionList();
+    }
+
+/**
+ * descriptionTerm
+ *
+ * @since v1.0.5 2026-04-14
+ * @param string $text
+ * @return HtmlElement
+ */
+    public static function descriptionTerm(string $text = ''): HtmlElement
+    {
+        return self::definitionTerm($text);
+    }
+
+/**
+ * descriptionDefinition
+ *
+ * @since v1.0.5 2026-04-14
+ * @param string $text
+ * @return HtmlElement
+ */
+    public static function descriptionDefinition(string $text = ''): HtmlElement
+    {
+        return self::definitionDescription($text);
     }
 
     // ========================================================================
@@ -582,50 +1173,55 @@ trait SemanticElementsTrait
      * Create a table element
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function table(): HtmlElement
     {
-        return new self('table');
+        return self::element('table');
     }
 
     /**
      * Create a table head element
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function tableHead(): HtmlElement
     {
-        return new self('thead');
+        return self::element('thead');
     }
 
     /**
      * Create a table body element
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function tableBody(): HtmlElement
     {
-        return new self('tbody');
+        return self::element('tbody');
     }
 
     /**
      * Create a table foot element
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function tableFoot(): HtmlElement
     {
-        return new self('tfoot');
+        return self::element('tfoot');
     }
 
     /**
      * Create a table row element
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function tableRow(): HtmlElement
     {
-        return new self('tr');
+        return self::element('tr');
     }
 
     /**
@@ -633,10 +1229,11 @@ trait SemanticElementsTrait
      *
      * @param string $text Cell content
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function tableData(string $text = ''): HtmlElement
     {
-        return new self('td', $text);
+        return self::element('td', $text);
     }
 
     /**
@@ -644,10 +1241,11 @@ trait SemanticElementsTrait
      *
      * @param string $text Header content
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function tableHeader(string $text = ''): HtmlElement
     {
-        return new self('th', $text);
+        return self::element('th', $text);
     }
 
     /**
@@ -655,30 +1253,33 @@ trait SemanticElementsTrait
      *
      * @param string $text Caption text
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function tableCaption(string $text = ''): HtmlElement
     {
-        return new self('caption', $text);
+        return self::element('caption', $text);
     }
 
     /**
      * Create a table column element
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function tableColumn(): HtmlElement
     {
-        return new self('col');
+        return self::element('col');
     }
 
     /**
      * Create a table column group element
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function tableColumnGroup(): HtmlElement
     {
-        return new self('colgroup');
+        return self::element('colgroup');
     }
 
     // ========================================================================
@@ -689,10 +1290,11 @@ trait SemanticElementsTrait
      * Create a fieldset element
      *
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function fieldset(): HtmlElement
     {
-        return new self('fieldset');
+        return self::element('fieldset');
     }
 
     /**
@@ -700,9 +1302,10 @@ trait SemanticElementsTrait
      *
      * @param string $text Legend text
      * @return HtmlElement
+ * @since v1.0.5 2026-04-14
      */
     public static function legend(string $text = ''): HtmlElement
     {
-        return new self('legend', $text);
+        return self::element('legend', $text);
     }
 }

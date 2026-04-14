@@ -7,15 +7,28 @@ use Ksfraser\HTML\Elements\HtmlA;
 /**
  * HtmlEmail: Anchor tag wrapper for email links
  * <a href="mailto:...">...</a>
+ *
+ * @since v1.0.0 2026-04-11
  */
 class HtmlEmail extends HtmlA
 {
     /**
+     * __construct
+     *
+     * @since v1.0.0 2026-04-13
+ * @return void
+     */
+    public function __construct()
+    {
+        parent::__construct(new \Ksfraser\HTML\Elements\HtmlString(''));
+    }
+    /**
      * Set the email address and link text
      * Stores the address as HtmlString for templating/recursion
-     * @param string $email
-     * @param string|null $text
      * @return self
+     * @since v1.0.0 2026-04-11
+ * @param string $email
+ * @param ?string $text
      */
     public function setAddress(string $email, ?string $text = null): self
     {
@@ -29,6 +42,7 @@ class HtmlEmail extends HtmlA
      * Ensures mailto: is prepended
      * @param string $email
      * @return self
+     * @since v1.0.0 2026-04-11
      */
     public function setHref(string $email): self
     {

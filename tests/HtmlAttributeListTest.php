@@ -3,12 +3,29 @@ use PHPUnit\Framework\TestCase;
 use Ksfraser\HTML\HtmlAttributeList;
 use Ksfraser\HTML\HtmlElementInterface;
 
+/**
+ * class HtmlAttributeListTest
+ *
+ * @since 1.0.3 2026-02-21
+ */
 class HtmlAttributeListTest extends TestCase {
+/**
+ * testImplementsInterface
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     public function testImplementsInterface() {
         $list = new HtmlAttributeList();
         $this->assertInstanceOf(HtmlElementInterface::class, $list);
     }
 
+/**
+ * testAddAndGetAttributes
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testAddAndGetAttributes() {
         $list = new HtmlAttributeList();
         $attr = new \Ksfraser\HTML\HtmlAttribute('foo', 'bar');
@@ -21,6 +38,12 @@ class HtmlAttributeListTest extends TestCase {
         $this->assertContains($attr, $attributes);
     }
 
+/**
+ * testGetHtmlOutputsAttributes
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testGetHtmlOutputsAttributes() {
         $list = new HtmlAttributeList();
         $attr1 = new \Ksfraser\HTML\HtmlAttribute('id', 'foo');
@@ -32,6 +55,12 @@ class HtmlAttributeListTest extends TestCase {
         $this->assertStringContainsString('class="bar"', $html);
     }
 
+/**
+ * testToHtmlOutputsAttributes
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testToHtmlOutputsAttributes() {
         $list = new HtmlAttributeList();
         $attr = new \Ksfraser\HTML\HtmlAttribute('data-x', 'y');
@@ -42,6 +71,12 @@ class HtmlAttributeListTest extends TestCase {
         $this->assertStringContainsString('data-x="y"', $output);
     }
 
+/**
+ * testSetAttributeReplaces
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testSetAttributeReplaces() {
         $list = new HtmlAttributeList();
         $attr1 = new \Ksfraser\HTML\HtmlAttribute('id', 'foo');
@@ -56,6 +91,12 @@ class HtmlAttributeListTest extends TestCase {
         $this->assertEquals('bar', $attributes[0]->getValue());
     }
 
+/**
+ * testGetAttributeValue
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testGetAttributeValue() {
         $list = new HtmlAttributeList();
         $attr = new \Ksfraser\HTML\HtmlAttribute('data', 'val');
@@ -64,6 +105,12 @@ class HtmlAttributeListTest extends TestCase {
         $this->assertNull($list->getAttributeValue('missing'));
     }
 
+/**
+ * testEdgeCasesEmptyList
+ *
+ * @since 1.0.3 2026-02-21
+ * @return void
+ */
     public function testEdgeCasesEmptyList() {
         $list = new HtmlAttributeList();
         $html = $list->getHtml();

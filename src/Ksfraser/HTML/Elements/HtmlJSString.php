@@ -11,6 +11,8 @@ use Ksfraser\HTML\HtmlElementInterface;
  * Extends HtmlString for clarity: use this when representing inline JS content.
  *
  * NOTE: HtmlString and HtmlJSString are functionally identical, but HtmlJSString is used for semantic clarity when representing JavaScript content in HTML elements (e.g., <script> tags).
+ *
+ * @since 1.0.3 2026-02-21
  */
 class HtmlJSString extends HtmlString implements HtmlElementInterface
 {

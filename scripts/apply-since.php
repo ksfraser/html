@@ -1,0 +1,452 @@
+<?php
+// scripts/apply-since.php
+// Inserts or updates @since tags (and param/return tags) in docblocks for tracked PHP files.
+// Usage: php scripts/apply-since.php v2.0.1 2026-04-11
+
+$version = $argv[1] ?? 'v2.0.1';
+$date = $argv[2] ?? date('Y-m-d');
+$root = dirname(__DIR__);
+
+exec('git ls-files "*.php"', $files, $rc);
+if ($rc !== 0) {
+    echo "Failed to list tracked PHP files.\n";
+    exit(1);
+}
+
+/**
+ * parseParamsString
+ *
+ * @since v1.0.5 2026-04-14
+ * @param string $s
+ * @return array
+ */
+function parseParamsString(string $s): array {
+    $params = [];
+    $len = strlen($s);
+    $buf = '';
+    $depth = 0;
+    $inSingle = false; $inDouble = false;
+    for ($i=0;$i<$len;$i++) {
+        $c = $s[$i];
+        if ($c === "'" && !$inDouble) { $inSingle = !$inSingle; $buf .= $c; continue; }
+        if ($c === '"' && !$inSingle) { $inDouble = !$inDouble; $buf .= $c; continue; }
+        if ($inSingle || $inDouble) { $buf .= $c; continue; }
+        if ($c === '(' || $c === '[') { $depth++; $buf .= $c; continue; }
+        if ($c === ')' || $c === ']') { if ($depth>0) $depth--; $buf .= $c; continue; }
+        if ($c === ',' && $depth === 0) { $params[] = trim($buf); $buf = ''; continue; }
+        $buf .= $c;
+    }
+    if (trim($buf) !== '') $params[] = trim($buf);
+    return array_filter($params, fn($x) => $x !== '');
+}
+
+/**
+ * extractParamInfo
+ *
+ * @since v1.0.5 2026-04-14
+ * @param string $p
+ * @return array
+ */
+function extractParamInfo(string $p): array {
+    // remove default value after =
+    $parts = preg_split('/=/', $p, 2);
+    $left = trim($parts[0]);
+    // match type and name
+    // e.g. ?string $name, array $a = [], \Foo\Bar $b, ...$args
+    if (preg_match('/^(.*?)(\.{3})?\s*(\$[A-Za-z0-9_]+)/', $left, $m)) {
+        $type = trim($m[1]);
+        $variadic = !empty($m[2]);
+        $name = $m[3];
+        $type = $type === '' ? null : preg_replace('/\s+$/', '', $type);
+        return ['name'=>$name,'type'=>$type,'variadic'=>$variadic];
+    }
+    return ['name'=>null,'type'=>null,'variadic'=>false];
+}
+
+/**
+ * ensureDocblock
+ *
+ * @since v1.0.5 2026-04-14
+ * @param array $lines
+ * @param int $insertAt
+ * @param array $blockLines
+ * @return array
+ */
+function ensureDocblock(array $lines, int $insertAt, array $blockLines): array {
+    // insert blockLines (array of strings) before line index insertAt
+    $before = array_slice($lines, 0, $insertAt);
+    $after = array_slice($lines, $insertAt);
+    return array_merge($before, $blockLines, $after);
+}
+
+/**
+ * parseDocblock
+ *
+ * @since v1.0.5 2026-04-14
+ * @param array $blockLines
+ * @return array
+ */
+function parseDocblock(array $blockLines): array {
+    $desc = [];
+    $other = [];
+    $params = [];
+    $since = null;
+    $return = null;
+    foreach ($blockLines as $line) {
+        $t = trim($line);
+        // skip /** and */ lines
+        if (strpos($t, '/**') === 0 || strpos($t, '*/') === 0) continue;
+        // strip leading *
+        $t2 = preg_replace('/^\s*\*\s?/', '', $t);
+        if ($t2 === '') { $desc[] = ''; continue; }
+        if (preg_match('/^@param\s+/i', $t2)) {
+            if (preg_match('/@param\s+([^\s]+)\s+(\$[A-Za-z0-9_]+)/i', $t2, $m)) {
+                $params[] = ['type'=>$m[1],'name'=>$m[2],'raw'=>$t2];
+            } else {
+                $params[] = ['type'=>null,'name'=>null,'raw'=>$t2];
+            }
+            continue;
+        }
+        if (preg_match('/^@since\s+/i', $t2)) { $since = $t2; continue; }
+        if (preg_match('/^@return\s+/i', $t2)) { if (preg_match('/@return\s+([^\s]+)/i',$t2,$m)) $return = $m[1]; else $return = $t2; continue; }
+        // keep other tags + description lines
+        if (strpos($t2, '@') === 0) { $other[] = $t2; } else { $desc[] = $t2; }
+    }
+    return ['desc'=>$desc,'other'=>$other,'params'=>$params,'since'=>$since,'return'=>$return];
+}
+
+/**
+ * buildDocblockLines
+ *
+ * @since v1.0.5 2026-04-14
+ * @param array $parsed
+ * @param ?string $sinceTag
+ * @param array $paramTags
+ * @param ?string $returnTag
+ * @return array
+ */
+function buildDocblockLines(array $parsed, ?string $sinceTag, array $paramTags, ?string $returnTag): array {
+    $out = [];
+    $out[] = '/**';
+    // description lines
+    foreach ($parsed['desc'] as $d) {
+        if ($d === '') {
+            $out[] = ' *';
+        } else {
+            $out[] = ' * ' . $d;
+        }
+    }
+    if (count($parsed['desc']) > 0) $out[] = ' *';
+    // other tags that are not param/return/since
+    foreach ($parsed['other'] as $o) {
+        $out[] = ' * ' . $o;
+    }
+    // since
+    if ($sinceTag) $out[] = ' * ' . $sinceTag;
+    // params
+    foreach ($paramTags as $pt) { $out[] = ' * ' . $pt; }
+    // return
+    if ($returnTag) $out[] = ' * @return ' . $returnTag;
+    $out[] = ' */';
+    return $out;
+}
+
+/**
+ * findAdjacentDocblock
+ *
+ * @since v1.0.5 2026-04-14
+ * @param array $lines
+ * @param int $index
+ * @return array
+ */
+function findAdjacentDocblock(array $lines, int $index): array {
+    // Returns [hasDoc (bool), docStart|null, docEnd|null]
+    $k = $index - 1;
+    $total = count($lines);
+    while ($k >= 0 && trim($lines[$k]) === '') $k--;
+    if ($k < 0) return [false, null, null];
+
+    // Case: we found a line that's the end of a docblock
+    if (strpos($lines[$k], '*/') !== false) {
+        $docEnd = $k;
+        $j = $k;
+        while ($j >= 0 && strpos($lines[$j], '/**') === false) $j--;
+        if ($j >= 0) {
+            // ensure only whitespace between docEnd+1 and index-1
+            for ($x = $docEnd + 1; $x < $index; $x++) {
+                if (trim($lines[$x]) !== '') return [false, null, null];
+            }
+            return [true, $j, $docEnd];
+        }
+        return [false, null, null];
+    }
+
+    // Case: we found a line that is the start of a docblock
+    if (strpos(trim($lines[$k]), '/**') === 0) {
+        $docStart = $k;
+        $j = $k;
+        while ($j < $total && strpos($lines[$j], '*/') === false) $j++;
+        if ($j < $total) {
+            for ($x = $j + 1; $x < $index; $x++) {
+                if (trim($lines[$x]) !== '') return [false, null, null];
+            }
+            return [true, $docStart, $j];
+        }
+    }
+    return [false, null, null];
+}
+
+$updated = 0;
+// load per-entity suggestions if present
+$suggestionsPath = $root . DIRECTORY_SEPARATOR . 'since-entities.json';
+$suggestMap = [];
+if (is_file($suggestionsPath)) {
+    $raw = @file_get_contents($suggestionsPath);
+    $j = @json_decode($raw, true) ?: [];
+    foreach ($j as $s) {
+        $f = $s['file'] ?? null; $n = $s['name'] ?? null;
+        if ($f && $n) {
+            if (!isset($suggestMap[$f])) $suggestMap[$f] = [];
+            $suggestMap[$f][$n] = ['tag'=>($s['tag'] ?? null),'date'=>($s['date'] ?? null)];
+        }
+    }
+}
+
+/**
+ * getSinceTagFor
+ *
+ * @since v1.0.5 2026-04-14
+ * @param string $fileRel
+ * @param string $name
+ * @param string $defaultVersion
+ * @param string $defaultDate
+ * @param array $suggestMap
+ * @return string
+ */
+function getSinceTagFor(string $fileRel, string $name, string $defaultVersion, string $defaultDate, array $suggestMap): string {
+    if (isset($suggestMap[$fileRel]) && isset($suggestMap[$fileRel][$name])) {
+        $entry = $suggestMap[$fileRel][$name];
+        $tag = $entry['tag'] ?? $defaultVersion;
+        $date = $entry['date'] ?? $defaultDate;
+        return "@since {$tag} {$date}";
+    }
+    return "@since {$defaultVersion} {$defaultDate}";
+}
+foreach ($files as $fileRel) {
+    $path = $root . DIRECTORY_SEPARATOR . $fileRel;
+    if (!is_file($path)) continue;
+    $content = file_get_contents($path);
+    $lines = preg_split('/\r?\n/', $content);
+    $changed = false;
+
+    // scan lines for class/interface/trait and function tokens
+    $total = count($lines);
+    for ($i=0; $i<$total; $i++) {
+        $line = $lines[$i];
+        // detect docblock immediately above this line (robust)
+        list($hasDoc, $docStart, $docEnd) = findAdjacentDocblock($lines, $i);
+
+        // Class/Interface/Trait
+        if (preg_match('/^\s*(?:abstract\s+|final\s+)?(class|interface|trait)\s+([A-Za-z0-9_]+)/i', $line, $m)) {
+            $entity = $m[1]; $name = $m[2];
+            // decide per-entity since tag
+            $sinceTag = getSinceTagFor($fileRel, $name, $version, $date, $suggestMap);
+            if ($hasDoc) {
+                // parse existing docblock and update only @since if needed
+                $blockLines = array_slice($lines, $docStart, $docEnd-$docStart+1);
+                $parsed = parseDocblock($blockLines);
+                $desiredSince = $sinceTag;
+                $currentSince = $parsed['since'];
+                if (trim((string)$currentSince) !== trim((string)$desiredSince)) {
+                    $newBlock = buildDocblockLines($parsed, $desiredSince, [], null);
+                    array_splice($lines, $docStart, $docEnd-$docStart+1, $newBlock);
+                    $delta = count($newBlock) - ($docEnd-$docStart+1);
+                    $changed = true; $total += $delta; $i += $delta;
+                }
+            } else {
+                // insert a simple docblock above
+                $blk = ["/**"," * {$entity} {$name}"," *"," * {$sinceTag}"," */"];
+                $lines = ensureDocblock($lines, $i, $blk);
+                $changed = true; $total += count($blk); $i += count($blk);
+            }
+            continue;
+        }
+
+        // functions (global or methods)
+        if (preg_match('/^\s*(?:public|protected|private|static|final|abstract|\s)*function\s+&?\s*([A-Za-z0-9_]+)\s*\((.*?)\)\s*(?::\s*([^\{;]+))?/i', $line, $mf)) {
+            $funcName = $mf[1];
+            $paramString = $mf[2];
+            $retType = isset($mf[3]) ? trim($mf[3]) : null;
+            $paramsList = parseParamsString($paramString);
+            $paramInfos = array_map('extractParamInfo', $paramsList);
+
+            // determine class context (if any) by searching backwards for a class declaration line
+            $class = null;
+            for ($bk = $i-1; $bk >= 0; $bk--) {
+                if (preg_match('/^\s*(?:abstract\s+|final\s+)?class\s+([A-Za-z0-9_]+)/i', $lines[$bk], $cm)) { $class = $cm[1]; break; }
+                if (preg_match('/^\s*(?:abstract\s+|final\s+)?(class|interface|trait)\s+([A-Za-z0-9_]+)/i', $lines[$bk], $cm2)) { $class = $cm2[2]; break; }
+            }
+            $fullname = $class ? ($class.'::'.$funcName) : $funcName;
+
+            if ($hasDoc) {
+                // parse existing docblock lines
+                $blockLines = array_slice($lines, $docStart, $docEnd-$docStart+1);
+                $block = implode("\n", $blockLines);
+                $needsWrite = false;
+                if (!preg_match('/@since\s+/i', $block)) {
+                    // decide per-entity since tag (ensure fullname known before use)
+                    $sinceTag = getSinceTagFor($fileRel, $fullname, $version, $date, $suggestMap);
+                    // add @since before closing
+                    array_splice($lines, $docEnd, 0, " * {$sinceTag}");
+                    $changed = true; $needsWrite = true; $total++; $i++;
+                }
+                // ensure @param count matches and names/types updated
+                // extract param tags
+                preg_match_all('/@param\s+([^\s]+)\s+(\$[A-Za-z0-9_]+)/i', $block, $pm, PREG_SET_ORDER);
+                $tagCount = count($pm);
+                if (count($paramInfos) > 0) {
+                    if ($tagCount !== count($paramInfos)) {
+                        // remove existing @param lines and re-add
+                        // remove lines that contain @param
+                        $newBlock = [];
+                        foreach ($blockLines as $bline) {
+                            if (preg_match('/@param\s+/i', $bline)) continue;
+                            $newBlock[] = $bline;
+                        }
+                        // insert new @param lines before closing */
+                        $insertAt = count($newBlock)-1; // before last line
+                        $paramTags = [];
+                        foreach ($paramInfos as $pi) {
+                            $typ = $pi['type'] ?? 'mixed';
+                            $paramTags[] = " * @param {$typ} {$pi['name']}";
+                        }
+                        array_splice($newBlock, $insertAt, 0, $paramTags);
+                        // write back
+                        array_splice($lines, $docStart, $docEnd-$docStart+1, $newBlock);
+                        $delta = count($newBlock) - ($docEnd-$docStart+1);
+                        $changed = true; $total += $delta; $i += $delta; $needsWrite = true;
+                    } else {
+                        // check names and types, replace if mismatch
+                        $existing = [];
+                        foreach ($pm as $r) $existing[] = ['type'=>$r[1],'name'=>$r[2]];
+                        $replaceNeeded = false;
+                        for ($k=0;$k<count($existing);$k++) {
+                            $e = $existing[$k]; $p = $paramInfos[$k];
+                            $expectedType = $p['type'] ?? 'mixed';
+                            if (normalizeType($e['type']) !== normalizeType($expectedType) || $e['name'] !== $p['name']) {
+                                $replaceNeeded = true; break;
+                            }
+                        }
+                        if ($replaceNeeded) {
+                            // remove old @param and re-add in order
+                            $newBlock = [];
+                            foreach ($blockLines as $bline) { if (preg_match('/@param\s+/i', $bline)) continue; $newBlock[] = $bline; }
+                            $insertAt = count($newBlock)-1;
+                            $paramTags = [];
+                            foreach ($paramInfos as $pi) { $typ = $pi['type'] ?? 'mixed'; $paramTags[] = " * @param {$typ} {$pi['name']}"; }
+                            array_splice($newBlock, $insertAt, 0, $paramTags);
+                            array_splice($lines, $docStart, $docEnd-$docStart+1, $newBlock);
+                            $delta = count($newBlock) - ($docEnd-$docStart+1);
+                            $changed = true; $total += $delta; $i += $delta; $needsWrite = true;
+                        }
+                    }
+                }
+                // ensure @return exists and matches signature
+                if (!preg_match('/@return\s+/i', $block)) {
+                    $ret = $retType ? $retType : 'void';
+                    array_splice($lines, $docEnd, 0, " * @return {$ret}");
+                    $changed = true; $total++; $i++; $needsWrite = true;
+                } else {
+                    // if signature return present, compare
+                    if ($retType) {
+                        if (preg_match('/@return\s+([^\s]+)/i', $block, $rm)) {
+                            $tagRet = $rm[1];
+                            if (!compareTypes($retType, $tagRet)) {
+                                // replace @return line
+                                $newBlock = [];
+                                foreach ($blockLines as $bline) {
+                                    if (preg_match('/@return\s+/i', $bline)) continue; $newBlock[] = $bline;
+                                }
+                                array_splice($newBlock, count($newBlock)-1, 0, " * @return {$retType}");
+                                array_splice($lines, $docStart, $docEnd-$docStart+1, $newBlock);
+                                $delta = count($newBlock) - ($docEnd-$docStart+1);
+                                $changed = true; $total += $delta; $i += $delta; $needsWrite = true;
+                            }
+                        }
+                    }
+                }
+
+            } else {
+                // create a docblock above
+                $blk = ["/**"," * {$funcName}"," *"," * " . getSinceTagFor($fileRel, $funcName, $version, $date, $suggestMap)];
+                foreach ($paramInfos as $pi) {
+                    $typ = $pi['type'] ?? 'mixed';
+                    $blk[] = " * @param {$typ} {$pi['name']}";
+                }
+                $ret = $retType ? $retType : 'void';
+                $blk[] = " * @return {$ret}";
+                $blk[] = " */";
+                $lines = ensureDocblock($lines, $i, $blk);
+                $changed = true; $total += count($blk); $i += count($blk);
+            }
+            continue;
+        }
+    }
+
+    if ($changed) {
+        file_put_contents($path, implode("\n", $lines));
+        echo "Updated: {$fileRel}\n";
+        $updated++;
+    }
+}
+
+echo "Done. Updated {$updated} files.\n";
+
+// Helper functions reused from checker
+/**
+ * normalizeType
+ *
+ * @since v1.0.5 2026-04-14
+ * @param ?string $t
+ * @return string
+ */
+function normalizeType(?string $t): string {
+    if ($t === null) return '';
+    $s = trim($t);
+    $s = ltrim($s, '\\');
+    $s = preg_replace('/\s+/', ' ', $s);
+    return strtolower($s);
+}
+
+/**
+ * splitTypes
+ *
+ * @since v1.0.5 2026-04-14
+ * @param string $type
+ * @return array
+ */
+function splitTypes(string $type): array {
+    $parts = preg_split('/\|/', $type);
+    $out = [];
+    foreach ($parts as $p) {
+        $p = trim($p);
+        if ($p === '') continue;
+        $out[] = normalizeType($p);
+    }
+    sort($out);
+    return $out;
+}
+
+/**
+ * compareTypes
+ *
+ * @since v1.0.5 2026-04-14
+ * @param string $sigType
+ * @param string $tagType
+ * @return bool
+ */
+function compareTypes(string $sigType, string $tagType): bool {
+    $sigParts = splitTypes($sigType);
+    $tagParts = splitTypes($tagType);
+    return $sigParts === $tagParts;
+}

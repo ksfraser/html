@@ -6,29 +6,30 @@ use Ksfraser\HTML\HtmlElementInterface;
 
 /**
  * Add Action Button Class
- * 
+ *
  * Specialized button for add/create actions.
  * Encapsulates the add button styling and behavior.
- * 
+ *
  * Features:
  * - Success styling by default (green background)
  * - Form submission support
  * - JavaScript function call support for custom add handlers
- * 
+ *
  * SOLID Principles:
  * - Single Responsibility: Only handles add button generation
  * - Open/Closed: Can be extended for custom add behaviors
- * 
- * @package Ksfraser\HTML
- * @author Kevin Fraser
- * @since 20251220
- * 
- * @example
+ *
+ *
  * ```php
  * $addBtn = new AddButton(new HtmlString('Add New'));
  * $addBtn->setCssClass('btn btn-success btn-lg');
  * echo $addBtn->getHtml();
  * ```
+ *
+ * @package Ksfraser\HTML
+ * @author Kevin Fraser
+ * @example
+ * @since 1.0.1 2026-02-16
  */
 class AddButton extends ActionButton
 {
@@ -36,6 +37,8 @@ class AddButton extends ActionButton
      * Constructor
      * 
      * @param HtmlElementInterface $label The button label (default: "Add")
+ * @return void
+ * @since 1.0.1 2026-02-16
      */
     public function __construct(HtmlElementInterface $label)
     {
@@ -46,6 +49,7 @@ class AddButton extends ActionButton
      * Setup add button attributes
      * 
      * @return void
+ * @since v1.0.0 2026-04-13
      */
     protected function setupActionButton()
     {

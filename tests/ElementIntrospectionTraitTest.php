@@ -10,8 +10,10 @@ use Ksfraser\HTML\Elements\HtmlString;
  * Tests for ElementIntrospectionTrait - FR-010
  * Comprehensive test suite for element introspection and querying
  *
+ *
  * @group FR-010
  * @group element-introspection
+ * @since 1.0.5 2026-03-30
  */
 class ElementIntrospectionTraitTest extends TestCase
 {
@@ -20,9 +22,21 @@ class ElementIntrospectionTraitTest extends TestCase
      */
     private HtmlElement $element;
 
+/**
+ * setUp
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     protected function setUp(): void
     {
         $this->element = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -36,10 +50,18 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group structure
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testGetDirectChildren()
     {
         $child1 = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'span';
@@ -47,6 +69,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $child2 = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'p';
@@ -64,10 +92,18 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group structure
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testGetChildrenReturnsOnlyDirect()
     {
         $parent = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -75,6 +111,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $child = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -82,6 +124,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $grandchild = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'span';
@@ -100,10 +148,18 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group structure
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testGetAllNestedElements()
     {
         $parent = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -111,6 +167,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $child1 = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -118,6 +180,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $child2 = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'span';
@@ -125,6 +193,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $grandchild = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'p';
@@ -143,10 +217,18 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group structure
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function testGetAllNestedElements RecursiveTraversal()
+    public function testGetAllNestedElementsRecursiveTraversal()
     {
         $root = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -154,6 +236,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $level1 = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -161,6 +249,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $level2 = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -168,6 +262,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $level3 = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'p';
@@ -188,10 +288,18 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group queries
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testFindByTagName()
     {
         $parent = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -199,6 +307,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $button1 = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct(new HtmlString('Save'));
                 $this->tag = 'button';
@@ -206,6 +320,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $button2 = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct(new HtmlString('Cancel'));
                 $this->tag = 'button';
@@ -213,6 +333,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $span = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'span';
@@ -231,10 +357,18 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group queries
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testFindByTagReturnsEmpty()
     {
         $parent = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -242,6 +376,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $span = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'span';
@@ -260,10 +400,18 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group queries
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testFindByAttributeValue()
     {
         $parent = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -271,6 +419,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $input1 = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'input';
@@ -280,6 +434,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $input2 = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'input';
@@ -302,10 +462,18 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group queries
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testFindByClass()
     {
         $parent = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -313,6 +481,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $btn1 = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct(new HtmlString('Submit'));
                 $this->tag = 'button';
@@ -322,6 +496,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $btn2 = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct(new HtmlString('Cancel'));
                 $this->tag = 'button';
@@ -331,6 +511,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $span = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'span';
@@ -353,10 +539,18 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group queries
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testFindByAttributeExists()
     {
         $parent = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -364,6 +558,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $required1 = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'input';
@@ -372,6 +572,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $optional = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'input';
@@ -391,10 +597,18 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group queries
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testFindById()
     {
         $parent = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -402,6 +616,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $target = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct(new HtmlString('Target'));
                 $this->tag = 'p';
@@ -410,6 +630,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $other = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct(new HtmlString('Other'));
                 $this->tag = 'p';
@@ -429,10 +655,18 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group queries
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testFindByIdReturnsNull()
     {
         $parent = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -449,6 +683,8 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group attributes
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testGetAttributeValue()
     {
@@ -465,6 +701,8 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group attributes
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testGetAttributeValueNonExistent()
     {
@@ -476,6 +714,8 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group attributes
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testGetAttributeByName()
     {
@@ -491,6 +731,8 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group attributes
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testGetAllAttributes()
     {
@@ -499,7 +741,11 @@ class ElementIntrospectionTraitTest extends TestCase
         $this->element->setAttribute('data-test', 'value');
 
         $attrs = $this->element->getAttributes();
-        $this->assertIsArray($attrs) || $this->assertIsString($attrs);
+        if (is_array($attrs)) {
+            $this->assertIsArray($attrs);
+        } else {
+            $this->assertIsString($attrs);
+        }
     }
 
     // ==================== Element Info ====================
@@ -508,10 +754,18 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group info
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testGetTagName()
     {
         $div = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -519,6 +773,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $button = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'button';
@@ -533,10 +793,18 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group info
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testHasChildren()
     {
         $parent = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -546,6 +814,12 @@ class ElementIntrospectionTraitTest extends TestCase
         $this->assertFalse($parent->hasChildren());
 
         $child = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'span';
@@ -560,10 +834,18 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group info
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testGetChildCount()
     {
         $parent = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -573,6 +855,12 @@ class ElementIntrospectionTraitTest extends TestCase
         $this->assertEquals(0, $parent->getChildCount());
 
         $parent->addChild(new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'span';
@@ -580,6 +868,12 @@ class ElementIntrospectionTraitTest extends TestCase
         });
 
         $parent->addChild(new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'span';
@@ -593,10 +887,18 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group info
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testGetNestedCount()
     {
         $parent = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -604,6 +906,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $child = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -611,6 +919,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $grandchild = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'span';
@@ -629,10 +943,18 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group contains
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testContainsChild()
     {
         $parent = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -640,6 +962,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $child = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'span';
@@ -647,6 +975,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $other = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'span';
@@ -663,10 +997,18 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group contains
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testContainsNestedElement()
     {
         $parent = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -674,6 +1016,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $child = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -681,6 +1029,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $grandchild = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'span';
@@ -688,6 +1042,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $other = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'span';
@@ -707,11 +1067,19 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group complex-queries
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testFindByTagAndClass()
     {
         // This tests combination of criteria
         $parent = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -719,6 +1087,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $btn1 = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct(new HtmlString('Primary'));
                 $this->tag = 'button';
@@ -727,6 +1101,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $btn2 = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct(new HtmlString('Secondary'));
                 $this->tag = 'button';
@@ -735,6 +1115,12 @@ class ElementIntrospectionTraitTest extends TestCase
         };
 
         $link = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct(new HtmlString('Link'));
                 $this->tag = 'a';
@@ -759,11 +1145,19 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group complex-queries
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testFilterElements()
     {
         // Test filtering with closure
         $parent = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -772,6 +1166,12 @@ class ElementIntrospectionTraitTest extends TestCase
 
         for ($i = 1; $i <= 5; $i++) {
             $child = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
                 public function __construct() {
                     parent::__construct();
                     $this->tag = 'div';
@@ -795,10 +1195,18 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testEmptyElementStructure()
     {
         $empty = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -814,10 +1222,18 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testDeeplyNestedStructure()
     {
         $root = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -827,6 +1243,12 @@ class ElementIntrospectionTraitTest extends TestCase
         $current = $root;
         for ($i = 0; $i < 10; $i++) {
             $child = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
                 public function __construct() {
                     parent::__construct();
                     $this->tag = 'div';
@@ -844,10 +1266,18 @@ class ElementIntrospectionTraitTest extends TestCase
      * @test
      * @group element-introspection
      * @group edge-cases
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
     public function testMixedContentTypes()
     {
         $parent = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -856,6 +1286,12 @@ class ElementIntrospectionTraitTest extends TestCase
 
         // Add element child
         $child = new class extends HtmlElement {
+/**
+ * __construct
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
             public function __construct() {
                 parent::__construct();
                 $this->tag = 'p';

@@ -8,19 +8,20 @@ use Ksfraser\HTML\HtmlElementInterface;
 
 /**
  * HTML_ROW_LABEL - Wrapper for HtmlLabelRow
- * 
+ *
  * Provides backward compatibility with legacy code.
  * This wrapper matches the old interface exactly but delegates to HtmlLabelRow.
- * 
+ *
  * The old interface had parameter order: ($data, $label, $width, $class)
  * HtmlLabelRow uses: ($label, $content) with fluent methods
- * 
- * @deprecated This class exists for backward compatibility only.
+ *
  *             New code should use HtmlLabelRow directly.
+ *
+ *
+ * @deprecated This class exists for backward compatibility only.
  * @see \Ksfraser\HTML\HtmlLabelRow
- * 
  * @package Ksfraser\HTML
- * @since 20251019 - Converted to wrapper
+ * @since 1.0.1 2026-02-16
  */
 class HTML_ROW_LABEL implements HtmlElementInterface
 {
@@ -35,12 +36,14 @@ class HTML_ROW_LABEL implements HtmlElementInterface
      * 
      * NOTE: Parameter order matches legacy interface for backward compatibility
      * 
-     * @param string|HtmlElementInterface $data The content (right cell)
-     * @param string $label The label text (left cell)
-     * @param int|null $width The width percentage (default 25, null = 25)
-     * @param string|null $class The CSS class (default 'label', null = 'label')
-     */
-    public function __construct($data, string $label, ?int $width = null, ?string $class = null)
+ * @param mixed $data
+ * @param string $label
+ * @param ?int $width
+ * @param ?string $class
+ * @return void
+ * @since 1.0.1 2026-02-16
+ */
+public function __construct($data, string $label, ?int $width = null, ?string $class = null)
     {
         // Convert string data to HtmlString if needed
         $content = is_string($data) ? new HtmlString($data) : $data;
@@ -66,6 +69,7 @@ class HTML_ROW_LABEL implements HtmlElementInterface
      * This maintains backward compatibility without needing two methods.
      * 
      * @return void
+ * @since v1.0.0 2026-04-13
      */
     public function toHtml(): void
     {
@@ -76,10 +80,12 @@ class HTML_ROW_LABEL implements HtmlElementInterface
      * Get the HTML string representation
      * 
      * @return string The HTML
+ * @since v1.0.0 2026-04-13
      */
     public function getHtml(): string
     {
         return $this->row->getHtml();
     }
 }
+
 

@@ -6,8 +6,19 @@ use Ksfraser\HTML\Elements\Modal;
 use Ksfraser\HTML\Elements\Table;
 use Ksfraser\HTML\Elements\Stylesheet;
 
+/**
+ * class ModalBuilderTest
+ *
+ * @since 1.0.1 2026-02-16
+ */
 class ModalBuilderTest extends TestCase
 {
+/**
+ * testModalBuilderConstructorSetsId
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     public function testModalBuilderConstructorSetsId()
     {
         $builder = new ModalBuilder('custom-modal');
@@ -17,6 +28,12 @@ class ModalBuilderTest extends TestCase
         $this->assertStringContainsString('id="custom-modal"', $html);
     }
     
+/**
+ * testModalBuilderDefaultId
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testModalBuilderDefaultId()
     {
         $builder = new ModalBuilder();
@@ -26,6 +43,12 @@ class ModalBuilderTest extends TestCase
         $this->assertStringContainsString('id="modal"', $html);
     }
     
+/**
+ * testAddHeading
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testAddHeading()
     {
         $builder = new ModalBuilder();
@@ -37,6 +60,12 @@ class ModalBuilderTest extends TestCase
         $this->assertStringContainsString('Test Heading', $html);
     }
     
+/**
+ * testAddParagraph
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testAddParagraph()
     {
         $builder = new ModalBuilder();
@@ -47,6 +76,12 @@ class ModalBuilderTest extends TestCase
         $this->assertStringContainsString('This is a test paragraph.', $html);
     }
     
+/**
+ * testAddTable
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testAddTable()
     {
         $builder = new ModalBuilder();
@@ -58,6 +93,12 @@ class ModalBuilderTest extends TestCase
         $this->assertStringContainsString('<table', $html);
     }
     
+/**
+ * testAddCloseButton
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testAddCloseButton()
     {
         $builder = new ModalBuilder();
@@ -70,6 +111,12 @@ class ModalBuilderTest extends TestCase
         $this->assertStringContainsString('closeModal()', $html);
     }
     
+/**
+ * testAddCloseButtonCustomText
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testAddCloseButtonCustomText()
     {
         $builder = new ModalBuilder();
@@ -80,6 +127,12 @@ class ModalBuilderTest extends TestCase
         $this->assertStringContainsString('Dismiss', $html);
     }
     
+/**
+ * testAddCloseButtonCustomHandler
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testAddCloseButtonCustomHandler()
     {
         $builder = new ModalBuilder();
@@ -90,6 +143,12 @@ class ModalBuilderTest extends TestCase
         $this->assertStringContainsString('customCloseFunction()', $html);
     }
     
+/**
+ * testAddRawHtml
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testAddRawHtml()
     {
         $builder = new ModalBuilder();
@@ -100,6 +159,12 @@ class ModalBuilderTest extends TestCase
         $this->assertStringContainsString('Custom HTML', $html);
     }
     
+/**
+ * testFluentInterface
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testFluentInterface()
     {
         $builder = new ModalBuilder();
@@ -115,6 +180,12 @@ class ModalBuilderTest extends TestCase
         $this->assertStringContainsString('Close', $html);
     }
     
+/**
+ * testGetStylesheet
+ *
+ * @since 1.0.1 2026-02-16
+ * @return void
+ */
     public function testGetStylesheet()
     {
         $stylesheet = ModalBuilder::getStylesheet();

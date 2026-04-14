@@ -20,18 +20,19 @@ require_once( 'HtmlAttributeList.php' );
 
 /**
  * HTML Element Class
- * 
+ *
  * An HTML element is defined by a start tag, some content, and an end tag.
  * Elements can have nested elements and attributes.
- * 
+ *
  * Follows Single Responsibility Principle: Renders HTML elements
  * Uses CSSManagementTrait for enhanced CSS class management (FR-006)
  * Uses EventHandlerTrait for event handler methods (FR-007)
- * 
+ *
+ *
  * @link https://www.w3schools.com/html/html_elements.asp
  * @author Kevin Fraser
- * @since 20250119
  * @version 20250119
+ * @since 1.0.1 2026-02-16
  */
 class HtmlElement implements HtmlElementInterface {
     use CSSManagementTrait;
@@ -45,69 +46,87 @@ class HtmlElement implements HtmlElementInterface {
     use SemanticElementsTrait;
     /**
      * Allow casting to string to return HTML output
+ * @return string
+ * @since 1.0.4 2026-02-21
      */
     public function __toString(): string {
         return $this->getHtml();
     }
-                /**
-                 * Get the tag name
-                 * @return string|null
-                 */
-                public function getTag(): ?string {
-                    return $this->tag ?? null;
-                }
-            protected function initAttributeList(): void {
-                $this->attributeList = new \Ksfraser\HTML\HtmlAttributeList();
-            }
+    /**
+     * Get the tag name
+     *
+     * @return ?string
+ * @since v1.0.5 2026-04-14
+     */
+    public function getTag(): ?string {
+        return $this->tag ?? null;
+    }
 
-            /**
-             * Add an HTML attribute object (HtmlAttribute or subclass)
-             * @param HtmlAttribute $attribute
-             * @return self
-             */
-            public function addAttributeObject(HtmlAttribute $attribute): self {
-                if (!isset($this->attributeList)) {
-                    $this->initAttributeList();
-                }
-                $this->attributeList->addAttributeObject($attribute);
-                return $this;
-            }
+    /**
+     * initAttributeList
+     *
+     * @since 1.0.4 2026-02-21
+     * @return void
+     */
+    protected function initAttributeList(): void {
+        $this->attributeList = new \Ksfraser\HTML\HtmlAttributeList();
+    }
 
-            /**
-             * Add an HTML attribute by name and value (wraps setAttribute)
-             * @param string $name
-             * @param string|HtmlElementInterface $value
-             * @return self
-             */
-            public function addAttribute($name, $value): self {
-                return $this->setAttribute($name, $value);
-            }
+    /**
+     * Add an HTML attribute object (HtmlAttribute or subclass)
+     *
+     * @param HtmlAttribute $attribute
+     * @return self
+     * @since v1.0.0 2026-04-13
+     */
+    public function addAttributeObject(HtmlAttribute $attribute): self {
+        if (!isset($this->attributeList)) {
+            $this->initAttributeList();
+        }
+        $this->attributeList->addAttributeObject($attribute);
+        return $this;
+    }
 
-            /**
-             * Convenience setter for an attribute by name/value.
-             * Accepts string or HtmlElementInterface for value.
-             * Converts string to HtmlString for storage.
-             * @param string $name
-             * @param string|HtmlElementInterface $value
-             * @return self
-             */
-            public function setAttribute(string $name, $value): self {
-                if (!$value instanceof HtmlString) {
-                    $value = new HtmlString($value);
-                }
-                $attr = new HtmlAttribute($name, $value);
-                if (method_exists($this->attributeList, 'setAttribute')) {
-                    $this->attributeList->setAttribute($attr);
-                } else {
-                    $this->addAttributeObject($attr);
-                }
-                return $this;
-            }
+    /**
+     * Add an HTML attribute by name and value (wraps setAttribute)
+     *
+     * @param mixed $name
+     * @param mixed $value
+     * @return self
+ * @since v1.0.5 2026-04-14
+     */
+    public function addAttribute($name, $value): self {
+        return $this->setAttribute($name, $value);
+    }
+
+    /**
+     * Convenience setter for an attribute by name/value.
+     * Accepts string or HtmlElementInterface for value.
+     * Converts string to HtmlString for storage.
+     *
+     * @param string $name
+     * @param mixed $value
+     * @return self
+     * @since v1.0.0 2026-04-13
+     */
+    public function setAttribute(string $name, $value): self {
+        if (!$value instanceof HtmlString) {
+            $value = new HtmlString($value);
+        }
+        $attr = new HtmlAttribute($name, $value);
+        if (method_exists($this->attributeList, 'setAttribute')) {
+            $this->attributeList->setAttribute($attr);
+        } else {
+            $this->addAttributeObject($attr);
+        }
+        return $this;
+    }
         /**
          * Deprecated: Use addCSSClass instead.
          * Backward compatibility: addClass wraps addCSSClass
          * @param string $class
          * @return self
+ * @since v1.0.0 2026-04-13
          */
         public function addClass(string $class): self
         {
@@ -133,9 +152,11 @@ class HtmlElement implements HtmlElementInterface {
      * Constructor
      *
      * @param string|HtmlElementInterface|null $tagOrData Optional tag name or initial nested element
-     * @param string|null $content Optional text content (only used with tag parameter)
+     * @param string|HtmlElementInterface|null $content Optional text content or element (only used with tag parameter)
+ * @return void
+ * @since v1.0.0 2026-04-13
      */
-    public function __construct($tagOrData = null, ?string $content = null)
+    public function __construct(string|HtmlElementInterface|null $tagOrData = null, string|HtmlElementInterface|null $content = null)
     {
         $this->nested = array();
         $this->content = null;  // Initialize content property
@@ -144,9 +165,13 @@ class HtmlElement implements HtmlElementInterface {
         // Handle tag string parameter
         if (is_string($tagOrData)) {
             $this->setTag($tagOrData);
-            // If content provided with tag, add as text
+            // If content provided with tag, add as text or nested element
             if ($content !== null && $content !== '') {
-                $this->content = $content;
+                if ($content instanceof HtmlElementInterface) {
+                    $this->addNested($content);
+                } else {
+                    $this->content = (string)$content;
+                }
             }
         } // Handle HtmlElementInterface parameter
         else if ($tagOrData !== null && $tagOrData instanceof HtmlElementInterface) {
@@ -162,6 +187,7 @@ class HtmlElement implements HtmlElementInterface {
      * Initialize a new attribute list
      * 
      * @return void
+ * @since v1.0.0 2026-04-13
      */
     function newAttributeList(): void
     {
@@ -173,6 +199,7 @@ class HtmlElement implements HtmlElementInterface {
      * 
      * @param HtmlElementInterface $element Element to nest
      * @return self (Fluent interface)
+ * @since v1.0.0 2026-04-13
      */
     function addNested(HtmlElementInterface $element): self
     {
@@ -185,12 +212,30 @@ class HtmlElement implements HtmlElementInterface {
      * Get the current value of an attribute (if present)
      *
      * @param string $name
-     * @return string|null
+     * @return ?string
+ * @since v1.0.5 2026-04-14
      */
     public function getAttributeValue(string $name): ?string
     {
         if (method_exists($this->attributeList, 'getAttributeValue')) {
-            return $this->attributeList->getAttributeValue($name);
+            $val = $this->attributeList->getAttributeValue($name);
+            if ($val !== null) {
+                return $val;
+            }
+        }
+
+        // If attribute not found in attribute list, check ARIA attributes
+        // Support 'role' and 'aria-*' lookups
+        if (property_exists($this, 'ariaAttributes')) {
+            if ($name === 'role' && isset($this->ariaAttributes['role'])) {
+                return $this->ariaAttributes['role'];
+            }
+            if (str_starts_with($name, 'aria-')) {
+                $key = substr($name, 5);
+                if (isset($this->ariaAttributes[$key])) {
+                    return $this->ariaAttributes[$key];
+                }
+            }
         }
         return null;
     }
@@ -200,6 +245,7 @@ class HtmlElement implements HtmlElementInterface {
      *
      * @param string $name Attribute name to remove
      * @return self (Fluent interface)
+ * @since v1.0.0 2026-04-13
      */
     public function removeAttribute(string $name): self
     {
@@ -214,6 +260,7 @@ class HtmlElement implements HtmlElementInterface {
      * 
      * @param HtmlAttributeList $list New attribute list
      * @return self (Fluent interface)
+ * @since v1.0.0 2026-04-13
      */
     function setAttributeList(HtmlAttributeList $list): self
     {
@@ -226,6 +273,7 @@ class HtmlElement implements HtmlElementInterface {
      * 
      * @param string $tag Tag name (lowercase for XHTML compliance)
      * @return self (Fluent interface)
+ * @since v1.0.0 2026-04-13
      */
     function setTag(string $tag): self
     {
@@ -237,6 +285,7 @@ class HtmlElement implements HtmlElementInterface {
      * Renders HTML for all nested children and text content
      * 
      * @return string HTML string of all nested children
+ * @since v1.0.0 2026-04-13
      */
     protected function renderChildrenHtml(): string
     {
@@ -259,6 +308,7 @@ class HtmlElement implements HtmlElementInterface {
      * The HTML is echoed directly into the output.
      * 
      * @return void
+ * @since v1.0.0 2026-04-13
      */
     public function toHtml(): void
     {
@@ -269,18 +319,21 @@ class HtmlElement implements HtmlElementInterface {
      * Get HTML representation as string
      * 
      * @return string Complete HTML element string
+ * @since v1.0.0 2026-04-13
      */
     public function getHtml(): string
     {
         $html = '<' . $this->tag;
-        $html .= $this->getAttributes();
-        $html .= '>';
-        
-        if (!$this->empty) {
-            $html .= $this->renderChildrenHtml();
-            $html .= '</' . $this->tag . '>';
+        $attr = $this->renderAttributesString();
+
+        if ($this->empty) {
+            $html .= $attr . '/>';
+            return $html;
         }
-        
+
+        $html .= $attr . '>';
+        $html .= $this->renderChildrenHtml();
+        $html .= '</' . $this->tag . '>';
         return $html;
     }
     
@@ -291,14 +344,48 @@ class HtmlElement implements HtmlElementInterface {
      * 
      * @return string Formatted attribute string
      */
-    protected function getAttributes(): string
+    /**
+     * Return attribute objects as an array for introspection.
+     * Use `renderAttributesString()` to get the HTML string form.
+     *
+     * @return array Array of attribute objects
+ * @since v1.0.0 2026-04-13
+     */
+    public function getAttributes(): array
     {
-        $html = " ";
-        $html .= $this->attributeList->getHtml();
-        $html .= $this->renderEventHandlers();
-        $html .= $this->renderDataAttributes();
-        $html .= $this->renderAriaAttributes();
-        $html .= " ";
-        return $html;
+        if (method_exists($this->attributeList, 'getAllAttributes')) {
+            return $this->attributeList->getAllAttributes();
+        }
+        return [];
+    }
+
+    /**
+     * Render attributes as string for HTML output (internal use).
+     *
+     * @return string
+ * @since v1.0.0 2026-04-13
+     */
+    protected function renderAttributesString(): string
+    {
+        $parts = [];
+        $attrHtml = $this->attributeList->getHtml();
+        if ($attrHtml !== '') {
+            $parts[] = $attrHtml;
+        }
+        $eh = $this->renderEventHandlers();
+        if ($eh !== '') {
+            $parts[] = $eh;
+        }
+        $da = $this->renderDataAttributes();
+        if ($da !== '') {
+            $parts[] = $da;
+        }
+        $aria = $this->renderAriaAttributes();
+        if ($aria !== '') {
+            $parts[] = $aria;
+        }
+
+        $inner = trim(implode(' ', $parts));
+        return $inner !== '' ? ' ' . $inner : '';
     }
 }

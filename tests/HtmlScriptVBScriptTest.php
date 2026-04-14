@@ -4,8 +4,19 @@ use PHPUnit\Framework\TestCase;
 use Ksfraser\HTML\Elements\HtmlScriptVBScript;
 use Ksfraser\HTML\VBScript\HtmlVBScriptString;
 
+/**
+ * class HtmlScriptVBScriptTest
+ *
+ * @since 1.0.4 2026-02-21
+ */
 class HtmlScriptVBScriptTest extends TestCase
 {
+/**
+ * testVBScriptScriptTag
+ *
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
     public function testVBScriptScriptTag()
     {
         $vb = new HtmlVBScriptString('MsgBox "Hello"');

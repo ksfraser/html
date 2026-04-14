@@ -4,26 +4,30 @@ namespace Ksfraser\HTML\HTMLAtomic;
 
 use Ksfraser\HTML\HtmlElementInterface;
 
-/**//****************************
-* Email Links
-*
-* Creates: <a href="mailto:email@example.com">LINK TEXT</a>
-*
-* Email addresses are validated and automatically prefixed with "mailto:"
-* Extends HtmlA since email links are just specialized anchor tags
-*/
+/**
+ * Email Links
+ *
+ * Creates: <a href="mailto:email@example.com">LINK TEXT</a>
+ *
+ * Email addresses are validated and automatically prefixed with "mailto:"
+ * Extends HtmlA since email links are just specialized anchor tags
+ *
+ * @since 1.0.1 2026-02-16
+ */
 class HtmlEmail extends HtmlA
 {
 	/**
 	 * Create an email link
 	 * 
-	 * @param string $emailAddress The email address (without mailto:)
-	 * @param HtmlElementInterface|string|null $linkContent The content to display. 
 	 *        - HtmlElementInterface: any HTML element (text, image, etc.)
 	 *        - string: will be wrapped in HtmlString
 	 *        - null: email address will be used as link text
-	 * @param bool $validateEmail Whether to validate the email format (default: true)
 	 * @throws \Exception if email is invalid or content type is invalid
+ * @param string $emailAddress
+ * @param mixed $linkContent
+ * @param bool $validateEmail
+ * @return void
+ * @since 1.0.1 2026-02-16
 	 */
 	function __construct( string $emailAddress, $linkContent = null, bool $validateEmail = true )
 	{
