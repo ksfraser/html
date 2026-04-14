@@ -9,6 +9,10 @@ use Ksfraser\HTML\HtmlElementInterface;
  * class HtmlThead
  *
  *
+ *
+ *
+ *
+ *
  * @since v2.0.1 2026-04-14
  */
 class HtmlThead extends HtmlElement

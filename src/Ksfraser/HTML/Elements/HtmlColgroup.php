@@ -9,6 +9,10 @@ use Ksfraser\HTML\HtmlElementInterface;
  * class HtmlColgroup
  *
  *
+ *
+ *
+ *
+ *
  * @since v2.0.1 2026-04-14
  */
 class HtmlColgroup extends HtmlElement

@@ -8,6 +8,10 @@ use Ksfraser\HTML\HtmlElement;
  * Generic heading element. Use as HtmlH(level, content)
  *
  *
+ *
+ *
+ *
+ *
  * @since v2.0.1 2026-04-14
  */
 class HtmlH extends HtmlElement

@@ -8,6 +8,10 @@ use Ksfraser\HTML\HtmlElement;
  * class HtmlDialog
  *
  *
+ *
+ *
+ *
+ *
  * @since v2.0.1 2026-04-14
  */
 class HtmlDialog extends HtmlElement

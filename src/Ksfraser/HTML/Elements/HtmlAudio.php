@@ -9,6 +9,10 @@ use Ksfraser\HTML\HtmlElementInterface;
  * HtmlAudio element — represents an HTML <audio> element.
  *
  *
+ *
+ *
+ *
+ *
  * @since v2.0.1 2026-04-14
  */
 class HtmlAudio extends HtmlElement

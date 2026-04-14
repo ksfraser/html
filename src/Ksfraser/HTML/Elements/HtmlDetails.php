@@ -9,6 +9,10 @@ use Ksfraser\HTML\HtmlElementInterface;
  * class HtmlDetails
  *
  *
+ *
+ *
+ *
+ *
  * @since v2.0.1 2026-04-14
  */
 class HtmlDetails extends HtmlElement

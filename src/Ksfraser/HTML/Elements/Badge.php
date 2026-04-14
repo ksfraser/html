@@ -9,6 +9,10 @@ use Ksfraser\HTML\HtmlElementInterface;
  * Badge element — lightweight wrapper for <span> with badge semantics
  *
  *
+ *
+ *
+ *
+ *
  * @since v2.0.1 2026-04-14
  */
 class Badge extends HtmlElement

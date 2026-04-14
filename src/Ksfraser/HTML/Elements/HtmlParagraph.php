@@ -10,6 +10,10 @@ use Ksfraser\HTML\Formatting\HtmlParagraph;
  *
  *
  *
+ *
+ *
+ *
+ *
  * @since v2.0.1 2026-04-14
  */
 class HtmlP extends HtmlParagraph

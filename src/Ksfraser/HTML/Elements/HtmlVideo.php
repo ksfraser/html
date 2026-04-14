@@ -10,6 +10,10 @@ use Ksfraser\HTML\Elements\HtmlString;
  * class HtmlVideo
  *
  *
+ *
+ *
+ *
+ *
  * @since v2.0.1 2026-04-14
  */
 class HtmlVideo extends HtmlElement

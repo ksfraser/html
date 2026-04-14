@@ -8,6 +8,10 @@ use Ksfraser\HTML\HtmlElement;
  * HtmlSource represents a <source> void element used inside <audio>/<video>/<picture>
  *
  *
+ *
+ *
+ *
+ *
  * @since v2.0.1 2026-04-14
  */
 class HtmlSource extends HtmlElement

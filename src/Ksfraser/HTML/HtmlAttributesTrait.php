@@ -6,6 +6,10 @@ namespace Ksfraser\HTML;
  * `Ksfraser\HTML\HtmlAttributesTrait`.
  *
  *
+ *
+ *
+ *
+ *
  * @since v2.0.1 2026-04-14
  */
 trait HtmlAttributesTrait {
