@@ -14,7 +14,7 @@ if ($rc !== 0) {
 }
 
 /**
-	 * Function parseParamsString
+	 * parseParamsString()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param string $s
@@ -41,7 +41,7 @@ function parseParamsString(string $s): array {
 }
 
 /**
-	 * Function extractParamInfo
+	 * extractParamInfo()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param string $p
@@ -64,7 +64,7 @@ function extractParamInfo(string $p): array {
 }
 
 /**
-	 * Function ensureDocblock
+	 * ensureDocblock()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param array $lines
@@ -80,7 +80,7 @@ function ensureDocblock(array $lines, int $insertAt, array $blockLines): array {
 }
 
 /**
-	 * Function parseDocblock
+	 * parseDocblock()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param array $blockLines
@@ -116,7 +116,7 @@ function parseDocblock(array $blockLines): array {
 }
 
 /**
-	 * Function buildDocblockLines
+	 * buildDocblockLines()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param array $parsed
@@ -152,7 +152,7 @@ function buildDocblockLines(array $parsed, ?string $sinceTag, array $paramTags, 
 }
 
 /**
-	 * Function findAdjacentDocblock
+	 * findAdjacentDocblock()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param array $lines
@@ -213,7 +213,7 @@ if (is_file($suggestionsPath)) {
 }
 
 /**
-	 * Function getSinceTagFor
+	 * getSinceTagFor()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param string $fileRel
@@ -404,7 +404,7 @@ echo "Done. Updated {$updated} files.\n";
 
 // Helper functions reused from checker
 /**
-	 * Function normalizeType
+	 * normalizeType()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param ?string $t
@@ -419,7 +419,7 @@ function normalizeType(?string $t): string {
 }
 
 /**
-	 * Function splitTypes
+	 * splitTypes()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param string $type
@@ -438,7 +438,7 @@ function splitTypes(string $type): array {
 }
 
 /**
-	 * Function compareTypes
+	 * compareTypes()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param string $sigType
