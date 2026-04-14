@@ -13,15 +13,85 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Represents the HTML <aside> element for tangential content.
 
+ * 
+
+ * 
+
+ * 
+
  * Extends HtmlElement for standard element behavior.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  *
 
  * @since v1.0.0 2026-04-11
+
+ * @return void
 
  */
 class HtmlAside extends HtmlElement

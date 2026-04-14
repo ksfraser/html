@@ -14,6 +14,14 @@ use Ksfraser\HTML\JS\HtmlJsEventTrait;
 
  * @since 1.0.4 2026-02-21
 
+ * @return void
+
+ */
+/**
+ * HtmlButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 class HtmlButton extends HtmlElement {
     use \Ksfraser\HTML\JS\HtmlJsEventTrait;
@@ -31,7 +39,14 @@ class HtmlButton extends HtmlElement {
      * @return void
 
      */
-    public function __construct(string|HtmlElementInterface|null $data = null) {
+    public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+function __construct(string|HtmlElementInterface|null $data = null) {
         parent::__construct($data);
         $this->setTag('button');
     }

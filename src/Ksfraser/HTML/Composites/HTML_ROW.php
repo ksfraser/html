@@ -14,13 +14,117 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Provides backward compatibility with legacy code.
+
+ * 
+
+ * 
+
+ * 
 
  * This is a simple wrapper that delegates to HtmlTableRow.
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  *             New code should use HtmlTableRow directly.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -36,6 +140,8 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * @package Ksfraser\HTML
 
+ * @return void
+
  */
 class HTML_ROW implements HtmlElementInterface
 {
@@ -43,6 +149,7 @@ class HTML_ROW implements HtmlElementInterface
 	 * The underlying HtmlTableRow instance
 	 *
 	 * @var HtmlTableRow
+	 * @return void
 	 */
 	protected $row;
 	

@@ -11,15 +11,113 @@ use Ksfraser\HTML\HtmlAttribute;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Provides fluent interface for building tables with clean API.
+
+ * 
+
+ * 
+
+ * 
 
  * Wraps HtmlTable with methods like addClass(), append(), etc.
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Usage:
 
+ * 
+
+ * 
+
+ * 
+
  * - (new Table())->addClass('my-table')->append($row1, $row2)->render()
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -30,6 +128,8 @@ use Ksfraser\HTML\HtmlAttribute;
  * @since 1.0.1 2026-02-16
 
  * @package Ksfraser\HTML\Elements
+
+ * @return void
 
  */
 class Table {

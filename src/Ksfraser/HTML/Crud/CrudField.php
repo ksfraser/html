@@ -10,7 +10,69 @@ namespace Ksfraser\HTML\Crud;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Keep this PHP 7.3-compatible (no typed properties).
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -18,17 +80,34 @@ namespace Ksfraser\HTML\Crud;
 
  * @since 1.0.1 2026-02-16
 
+ * @return void
+
+ */
+/**
+ * CrudField
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CrudField
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 class CrudField
 {
     /**
      *
+     * @return void
      */
     public $name;
 
     /**
 
      *
+
+     * @return void
 
      */
     public $label;
@@ -37,12 +116,16 @@ class CrudField
 
      *
 
+     * @return void
+
      */
     public $inputType;
 
     /**
 
      *
+
+     * @return void
 
      */
     public $required;
@@ -51,12 +134,16 @@ class CrudField
 
      *
 
+     * @return void
+
      */
     public $readOnly;
 
     /**
 
      *
+
+     * @return void
 
      */
     public $defaultValue;
@@ -68,6 +155,8 @@ class CrudField
      *
 
      * @var array|null Foreign key descriptor (optional).
+
+     * @return void
 
      */
     public $foreignKey;
@@ -90,8 +179,36 @@ class CrudField
 
      * @param array|null $foreignKey
 
+     * @return void
+
      */
-    public function __construct(
+    public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+function __construct(
         $name,
         $label,
         $inputType,

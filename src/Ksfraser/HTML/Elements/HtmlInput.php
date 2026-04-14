@@ -16,47 +16,253 @@ use Ksfraser\HTML\HtmlAttribute;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Input elements can have the following attributes:
+
+ * 
+
+ * 
+
+ * 
 
  * - accept (FILE ONLY)
 
+ * 
+
+ * 
+
+ * 
+
  * - alt (text)
+
+ * 
+
+ * 
+
+ * 
 
  * - autocomplete (on/off)
 
+ * 
+
+ * 
+
+ * 
+
  * - autofocus
+
+ * 
+
+ * 
+
+ * 
 
  * - checked (checkbox or RadioButton)
 
+ * 
+
+ * 
+
+ * 
+
  * - dirname
+
+ * 
+
+ * 
+
+ * 
 
  * - disabled
 
+ * 
+
+ * 
+
+ * 
+
  * - form (form_id)
+
+ * 
+
+ * 
+
+ * 
 
  * - formaction (submit or image - URL)
 
+ * 
+
+ * 
+
+ * 
+
  * - formenctype (submit, image):
+
+ * 
+
+ * 
+
+ * 
 
  *   - application/x-www-form-urlencoded
 
+ * 
+
+ * 
+
+ * 
+
  *   - multipart/form-data
+
+ * 
+
+ * 
+
+ * 
 
  *   - text/plain
 
+ * 
+
+ * 
+
+ * 
+
  * - method (dialog, get, post)
+
+ * 
+
+ * 
+
+ * 
 
  * - name
 
+ * 
+
+ * 
+
+ * 
+
  * - novalidate
+
+ * 
+
+ * 
+
+ * 
 
  * - rel (external, help, license, next, nofollow, noopener, noreferrer, opener, prev, search)
 
+ * 
+
+ * 
+
+ * 
+
  * - target (_blank, _self, _parent, _top)
+
+ * 
+
+ * 
+
+ * 
 
  * - type (text, password, submit, reset, button, etc.)
 
+ * 
+
+ * 
+
+ * 
+
  * - value
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -70,6 +276,14 @@ use Ksfraser\HTML\HtmlAttribute;
 
  * @package Ksfraser\HTML
 
+ * @return void
+
+ */
+/**
+ * HtmlInput
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 class HtmlInput extends HtmlEmptyElement
 {
@@ -77,6 +291,7 @@ class HtmlInput extends HtmlEmptyElement
 	 * The type attribute for the input element
 	 *
 	 * @var string
+	 * @return void
 	 */
 	protected $type;
 
@@ -95,7 +310,15 @@ class HtmlInput extends HtmlEmptyElement
  * @return void
 
  */
-	function __construct( HtmlElementInterface $data = null, string $type = "text" )
+	/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $type
+ * @return void
+ */
+function __construct( HtmlElementInterface $data = null, string $type = "text" )
 	{
 		parent::__construct($data);
 		$this->setTag("input");
@@ -116,7 +339,14 @@ class HtmlInput extends HtmlEmptyElement
 	 * @return self Fluent interface
 
 	 */
-	public function setName( string $name ): self
+	public /**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+function setName( string $name ): self
 	{
 		$this->addAttributeObject( new HtmlAttribute( "name", $name ) );
 		return $this;
@@ -135,7 +365,14 @@ class HtmlInput extends HtmlEmptyElement
 	 * @return self (Fluent interface)
 
 	 */
-	public function setValue( string $value ): self
+	public /**
+ * setValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+function setValue( string $value ): self
 	{
 		$this->addAttributeObject( new HtmlAttribute( "value", htmlspecialchars( $value, ENT_QUOTES, 'UTF-8' ) ) );
 		return $this;
@@ -154,7 +391,14 @@ class HtmlInput extends HtmlEmptyElement
 	 * @return self Fluent interface
 
 	 */
-	public function setPlaceholder( string $placeholder ): self
+	public /**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $placeholder
+ * @return self
+ */
+function setPlaceholder( string $placeholder ): self
 	{
 		$this->addAttributeObject( new HtmlAttribute( "placeholder", htmlspecialchars( $placeholder, ENT_QUOTES, 'UTF-8' ) ) );
 		return $this;

@@ -10,33 +10,151 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  *
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Provides common getHtml() and toHtml() logic.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  * This class is intentionally separate from HtmlAttribute. HtmlAttribute is for simple, single name-value pairs (e.g., name="value").
 
+ * 
+
+ * 
+
+ * 
+
  * HtmlAttributeValueObject is for attributes whose value is composed or aggregated from multiple sub-values
+
+ * 
+
+ * 
+
+ * 
 
  *  such as style="color:red;font-size:12px;" or class="btn primary".
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Use HtmlAttribute for generic name-value pairs.
+
+ * 
+
+ * 
+
+ * 
 
  * Use HtmlAttributeValueObject as a base for attributes that aggregate or compose their value from multiple items.
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Example: HtmlStyleList (for style attribute) or a
 
+ * 
+
+ * 
+
+ * 
+
  * future HtmlClassList (for class attribute) would extend this class and implement how the value string is constructed.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  *
 
  * @since 1.0.3 2026-02-21
+
+ * @return void
 
  */
 abstract class HtmlAttributeValueObject implements HtmlElementInterface
@@ -45,6 +163,7 @@ abstract class HtmlAttributeValueObject implements HtmlElementInterface
      * The attribute name (e.g., 'style', 'class', 'data-*')
      *
      * @var string
+     * @return void
      */
     protected $attributeName;
 
@@ -55,6 +174,8 @@ abstract class HtmlAttributeValueObject implements HtmlElementInterface
      *
 
      * @var array
+
+     * @return void
 
      */
     protected $attributeArray = [];

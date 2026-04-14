@@ -13,6 +13,12 @@ use Ksfraser\HTML\FAButtons\ViewLoanActionButton;
  *
  * @since 1.0.2 2026-02-20
  */
+/**
+ * FAButtonsTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class FAButtonsTest extends TestCase
 {
 /**
@@ -21,10 +27,22 @@ class FAButtonsTest extends TestCase
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testDeleteFrequencyActionButton()
+    public /**
+ * testDeleteFrequencyActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testDeleteFrequencyActionButton()
     {
         $btn = new DeleteFrequencyActionButton();
-        $this->assertInstanceOf(DeleteFrequencyActionButton::class, $btn);
+        $this->assertInstanceOf(DeleteFrequencyActionButton::/**
+ * assertStringContainsString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $btn);
         $this->assertStringContainsString('button', $btn->getHtml());
     }
 /**
@@ -33,10 +51,22 @@ class FAButtonsTest extends TestCase
  * @since 1.0.2 2026-02-20
  * @return void
  */
-    public function testDeleteTypeActionButton()
+    public /**
+ * testDeleteTypeActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testDeleteTypeActionButton()
     {
         $btn = new DeleteTypeActionButton();
-        $this->assertInstanceOf(DeleteTypeActionButton::class, $btn);
+        $this->assertInstanceOf(DeleteTypeActionButton::/**
+ * assertStringContainsString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $btn);
         $this->assertStringContainsString('button', $btn->getHtml());
     }
 /**
@@ -45,10 +75,22 @@ class FAButtonsTest extends TestCase
  * @since 1.0.2 2026-02-20
  * @return void
  */
-    public function testEditFrequencyActionButton()
+    public /**
+ * testEditFrequencyActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testEditFrequencyActionButton()
     {
         $btn = new EditFrequencyActionButton();
-        $this->assertInstanceOf(EditFrequencyActionButton::class, $btn);
+        $this->assertInstanceOf(EditFrequencyActionButton::/**
+ * assertStringContainsString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $btn);
         $this->assertStringContainsString('button', $btn->getHtml());
     }
 /**
@@ -57,10 +99,22 @@ class FAButtonsTest extends TestCase
  * @since 1.0.2 2026-02-20
  * @return void
  */
-    public function testEditLoanActionButton()
+    public /**
+ * testEditLoanActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testEditLoanActionButton()
     {
         $btn = new EditLoanActionButton();
-        $this->assertInstanceOf(EditLoanActionButton::class, $btn);
+        $this->assertInstanceOf(EditLoanActionButton::/**
+ * assertStringContainsString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $btn);
         $this->assertStringContainsString('button', $btn->getHtml());
     }
 /**
@@ -69,10 +123,22 @@ class FAButtonsTest extends TestCase
  * @since 1.0.2 2026-02-20
  * @return void
  */
-    public function testEditTypeActionButton()
+    public /**
+ * testEditTypeActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testEditTypeActionButton()
     {
         $btn = new EditTypeActionButton();
-        $this->assertInstanceOf(EditTypeActionButton::class, $btn);
+        $this->assertInstanceOf(EditTypeActionButton::/**
+ * assertStringContainsString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $btn);
         $this->assertStringContainsString('button', $btn->getHtml());
     }
 /**
@@ -81,10 +147,22 @@ class FAButtonsTest extends TestCase
  * @since 1.0.2 2026-02-20
  * @return void
  */
-    public function testViewLoanActionButton()
+    public /**
+ * testViewLoanActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testViewLoanActionButton()
     {
         $btn = new ViewLoanActionButton();
-        $this->assertInstanceOf(ViewLoanActionButton::class, $btn);
+        $this->assertInstanceOf(ViewLoanActionButton::/**
+ * assertStringContainsString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $btn);
         $this->assertStringContainsString('button', $btn->getHtml());
     }
 }

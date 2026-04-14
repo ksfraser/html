@@ -6,8 +6,36 @@
 	 * @param array $argv
 	 * @return void
  */
+/**
+ * runCmdArr
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $argv
+ * @return void
+ */
+/**
+ * runCmdArr
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $argv
+ * @return void
+ */
 function runCmdArr(array $argv) {
-    $cmdDisplay = implode(' ', array_map(function($a){ return is_scalar($a)?$a:'<arg>'; }, $argv));
+    $cmdDisplay = implode(' ', array_map(/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $a
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $a
+ * @return void
+ */
+function($a){ return is_scalar($a)?$a:'<arg>'; }, $argv));
     echo "RUN-ARR: $cmdDisplay\n";
     $descriptorspec = [1 => ['pipe','w'], 2 => ['pipe','w']];
     $process = proc_open($argv, $descriptorspec, $pipes);

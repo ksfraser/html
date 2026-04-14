@@ -11,11 +11,97 @@ use Ksfraser\HTML\Elements\TableData;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SRP: Single responsibility of building specific cell types.
+
+ * 
+
+ * 
+
+ * 
 
  * Each cell class handles formatting, styling, and content for its domain.
 
+ * 
+
+ * 
+
+ * 
+
  * Supports fluent interface for optional attributes, IDs, and event handlers.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -27,11 +113,14 @@ use Ksfraser\HTML\Elements\TableData;
 
  * @package Ksfraser\HTML\Cells
 
+ * @return void
+
  */
 abstract class BaseTableCell {
     /**
      *
      * @var string Optional cell ID for referencing
+     * @return void
      */
     protected $id = '';
     
@@ -41,10 +130,13 @@ abstract class BaseTableCell {
     
      * @var array Custom attributes (data-*, aria-*, etc)
     
+     * @return void
+    
      */
     /**
      *
      * @var string Optional ondblclick handler for spreadsheet editing
+     * @return void
      */
     protected $dblClickHandler = '';
     
@@ -53,6 +145,8 @@ abstract class BaseTableCell {
      *
     
      * @var bool Whether cell is editable (contenteditable)
+    
+     * @return void
     
      */
     protected $isEditable = false;

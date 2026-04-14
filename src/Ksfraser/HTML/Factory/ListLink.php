@@ -12,7 +12,81 @@ use Ksfraser\HTML\Elements\HtmlA;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Extends ActionLink with defaults for list operations.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -24,6 +98,14 @@ use Ksfraser\HTML\Elements\HtmlA;
 
  * @package Ksfraser\HTML\Factory
 
+ * @return void
+
+ */
+/**
+ * ListLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 class ListLink extends ActionLink {
 /**
@@ -34,7 +116,15 @@ class ListLink extends ActionLink {
  * @param array $params
  * @return self
  */
-        public static function make(?string $text = null, array $params = []): self {
+        public static /**
+ * make
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+function make(?string $text = null, array $params = []): self {
             return new static($text, $params);
         }
     protected string $label = 'List';
@@ -46,7 +136,15 @@ class ListLink extends ActionLink {
  * @param array $params
  * @return void
  */
-    public function __construct(?string $text = null, array $params = []) {
+    public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return void
+ */
+function __construct(?string $text = null, array $params = []) {
         parent::__construct(new \Ksfraser\HTML\Elements\HtmlString(''));
         $this->setAction('list', $params);
         $this->setText($text ?? $this->label);

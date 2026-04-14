@@ -14,6 +14,14 @@ use Ksfraser\HTML\Elements\HtmlString;
 
  * @since v2.0.1 2026-04-14
 
+ * @return void
+
+ */
+/**
+ * HtmlPicture
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 class HtmlPicture extends HtmlElement
 {
@@ -24,7 +32,14 @@ class HtmlPicture extends HtmlElement
  * @param string|HtmlElementInterface|null $data
  * @return void
  */
-    public function __construct(string|HtmlElementInterface|null $data = null)
+    public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+function __construct(string|HtmlElementInterface|null $data = null)
     {
         if (is_string($data)) {
             $data = new HtmlString($data);
@@ -46,7 +61,14 @@ class HtmlPicture extends HtmlElement
      * @return self
 
      */
-    public function addSourceElement(HtmlElementInterface $source): self
+    public /**
+ * addSourceElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $source
+ * @return self
+ */
+function addSourceElement(HtmlElementInterface $source): self
     {
         $this->addNested($source);
         return $this;
@@ -67,7 +89,15 @@ class HtmlPicture extends HtmlElement
      * @return self
 
      */
-    public function addSourceUrl(string $src, ?string $type = null): self
+    public /**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+function addSourceUrl(string $src, ?string $type = null): self
     {
         $s = new HtmlSource($src, $type);
         $this->addNested($s);

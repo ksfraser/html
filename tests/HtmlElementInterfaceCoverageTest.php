@@ -7,6 +7,12 @@ use Ksfraser\HTML\HtmlElementInterface;
  *
  * @since 1.0.3 2026-02-21
  */
+/**
+ * HtmlElementInterfaceCoverageTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlElementInterfaceCoverageTest extends TestCase {
 /**
  * testAllImplementations
@@ -14,7 +20,13 @@ class HtmlElementInterfaceCoverageTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testAllImplementations() {
+    public /**
+ * testAllImplementations
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAllImplementations() {
         $implementations = [
             'Ksfraser\\HTML\\HtmlElement',
             'Ksfraser\\HTML\\HtmlAttribute',
@@ -27,7 +39,19 @@ class HtmlElementInterfaceCoverageTest extends TestCase {
             // Add all other classes implementing HtmlElementInterface
         ];
         foreach ($implementations as $class) {
-            $this->assertTrue(is_subclass_of($class, HtmlElementInterface::class) || in_array(HtmlElementInterface::class, class_implements($class)), "$class does not implement HtmlElementInterface");
+            $this->assertTrue(is_subclass_of($class, HtmlElementInterface::/**
+ * in_array
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class) || in_array(HtmlElementInterface::/**
+ * class_implements
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, class_implements($class)), "$class does not implement HtmlElementInterface");
         }
     }
 }

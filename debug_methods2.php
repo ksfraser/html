@@ -6,7 +6,21 @@ $el = new \Ksfraser\HTML\HtmlElement('div');
 $methods = get_class_methods($el);
 
 echo "Methods on HtmlElement (after direct include):\n";
-$introspection_methods = array_filter($methods, function($m) {
+$introspection_methods = array_filter($methods, /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $m
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $m
+ * @return void
+ */
+function($m) {
     return in_array($m, ['getChildren', 'getAllNested', 'findByTag', 'findById', 'hasChildren', 'getChildCount', 'getNestedCount', 'containsChild', 'containsNested']);
 });
 echo "Introspection methods: " . implode(", ", $introspection_methods) . "\n";

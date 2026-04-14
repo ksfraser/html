@@ -10,15 +10,85 @@ namespace Ksfraser\HTML\Elements;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Semantic wrapper for HTML <abbr> element.
 
+ * 
+
+ * 
+
+ * 
+
  * Extends HtmlAbbr for syntactic clarity.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  *
 
  * @since 1.0.4 2026-02-21
+
+ * @return void
 
  */
 class HtmlAbbreviation extends HtmlAbbr

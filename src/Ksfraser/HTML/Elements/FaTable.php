@@ -14,15 +14,85 @@ use Ksfraser\HTML\Elements\HtmlString;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Generates HTML table with FA-specific styling and attributes,
 
+ * 
+
+ * 
+
+ * 
+
  * matching the output of start_table() function.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  *
 
  * @since v1.0.0 2026-04-11
+
+ * @return void
 
  */
 class FaTable extends HtmlTable

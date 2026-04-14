@@ -12,9 +12,89 @@ use Ksfraser\HTML\Elements\HtmlA;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Extends ActionLink with defaults for view operations.
 
+ * 
+
+ * 
+
+ * 
+
  * Requires an ID parameter.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -26,6 +106,14 @@ use Ksfraser\HTML\Elements\HtmlA;
 
  * @package Ksfraser\HTML\Factory
 
+ * @return void
+
+ */
+/**
+ * ViewLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 class ViewLink extends ActionLink {
 /**
@@ -37,7 +125,16 @@ class ViewLink extends ActionLink {
  * @param array $params
  * @return self
  */
-        public static function make($id, ?string $text = null, array $params = []): self {
+        public static /**
+ * make
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+function make($id, ?string $text = null, array $params = []): self {
             return new static($id, $text, $params);
         }
     protected string $label = 'View';
@@ -50,7 +147,16 @@ class ViewLink extends ActionLink {
  * @param array $params
  * @return void
  */
-    public function __construct($id, ?string $text = null, array $params = []) {
+    public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @param mixed $params
+ * @return void
+ */
+function __construct($id, ?string $text = null, array $params = []) {
         parent::__construct(new \Ksfraser\HTML\Elements\HtmlString(''));
         $allParams = array_merge(['id' => $id], $params);
         $this->setAction('view', $allParams);

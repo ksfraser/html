@@ -8,6 +8,12 @@ use Ksfraser\HTML\Elements\HtmlOption;
  *
  * @since 1.0.3 2026-02-21
  */
+/**
+ * HtmlOptionTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlOptionTest extends TestCase {
 /**
  * testInstance
@@ -15,9 +21,21 @@ class HtmlOptionTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testInstance() {
+    public /**
+ * testInstance
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testInstance() {
         $option = new HtmlOption(new HtmlString('value'), new HtmlString('label'));
-        $this->assertInstanceOf(HtmlOption::class, $option);
+        $this->assertInstanceOf(HtmlOption::/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $option);
     }
 
 /**
@@ -26,7 +44,13 @@ class HtmlOptionTest extends TestCase {
  * @since 1.0.4 2026-02-21
  * @return void
  */
-    public function testToStringReturnsExpectedHtml() {
+    public /**
+ * testToStringReturnsExpectedHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testToStringReturnsExpectedHtml() {
         $option = new HtmlOption(new HtmlString('value'), new HtmlString('label'));
         $html = (string)$option;
         $this->assertStringContainsString('<option', $html);

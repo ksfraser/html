@@ -7,6 +7,12 @@ use Ksfraser\HTML\Elements\HtmlBr;
  *
  * @since 1.0.3 2026-02-21
  */
+/**
+ * HtmlBrTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlBrTest extends TestCase {
 /**
  * testGetHtml
@@ -14,8 +20,20 @@ class HtmlBrTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testGetHtml() {
-        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+    public /**
+ * testGetHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testGetHtml() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::/**
+ * getMock
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class)->getMock();
         $mock->method('getHtml')->willReturn('');
         $br = new HtmlBr($mock);
         $html = $br->getHtml();
@@ -29,8 +47,20 @@ class HtmlBrTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testToHtmlOutputsHtml() {
-        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+    public /**
+ * testToHtmlOutputsHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testToHtmlOutputsHtml() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::/**
+ * getMock
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class)->getMock();
         $mock->method('getHtml')->willReturn('');
         $br = new HtmlBr($mock);
         ob_start();

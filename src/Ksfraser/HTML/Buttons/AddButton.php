@@ -12,25 +12,115 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Specialized button for add/create actions.
+
+ * 
+
+ * 
+
+ * 
 
  * Encapsulates the add button styling and behavior.
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Features:
+
+ * 
+
+ * 
+
+ * 
 
  * - Success styling by default (green background)
 
+ * 
+
+ * 
+
+ * 
+
  * - Form submission support
+
+ * 
+
+ * 
+
+ * 
 
  * - JavaScript function call support for custom add handlers
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SOLID Principles:
 
+ * 
+
+ * 
+
+ * 
+
  * - Single Responsibility: Only handles add button generation
+
+ * 
+
+ * 
+
+ * 
 
  * - Open/Closed: Can be extended for custom add behaviors
 
@@ -38,15 +128,107 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * ```php
+
+ * 
+
+ * 
+
+ * 
 
  * $addBtn = new AddButton(new HtmlString('Add New'));
 
+ * 
+
+ * 
+
+ * 
+
  * $addBtn->setCssClass('btn btn-success btn-lg');
+
+ * 
+
+ * 
+
+ * 
 
  * echo $addBtn->getHtml();
 
+ * 
+
+ * 
+
+ * 
+
  * ```
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -59,6 +241,8 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @author Kevin Fraser
 
  * @example 
+
+ * @return void
 
  */
 class AddButton extends ActionButton

@@ -8,6 +8,12 @@ use Ksfraser\HTML\Elements\HtmlMark;
  *
  * @since 1.0.3 2026-02-21
  */
+/**
+ * HtmlMarkTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlMarkTest extends TestCase {
 /**
  * testInstance
@@ -15,9 +21,21 @@ class HtmlMarkTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testInstance() {
+    public /**
+ * testInstance
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testInstance() {
         $mark = new HtmlMark(new HtmlString('marked text'));
-        $this->assertInstanceOf(HtmlMark::class, $mark);
+        $this->assertInstanceOf(HtmlMark::/**
+ * testTagIsMark
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $mark);
     }
 
 /**
@@ -26,7 +44,13 @@ class HtmlMarkTest extends TestCase {
  * @since 1.0.4 2026-02-21
  * @return void
  */
-    public function testTagIsMark() {
+    public /**
+ * testTagIsMark
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testTagIsMark() {
         $mark = new HtmlMark(new HtmlString('marked text'));
         $this->assertEquals('mark', $mark->getTag());
     }
@@ -37,7 +61,13 @@ class HtmlMarkTest extends TestCase {
  * @since 1.0.4 2026-02-21
  * @return void
  */
-    public function testToStringReturnsExpectedHtml() {
+    public /**
+ * testToStringReturnsExpectedHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testToStringReturnsExpectedHtml() {
         $mark = new HtmlMark(new HtmlString('marked text'));
         $html = (string)$mark;
         $this->assertStringContainsString('<mark', $html);
@@ -51,8 +81,20 @@ class HtmlMarkTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testGetHtml() {
-        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+    public /**
+ * testGetHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testGetHtml() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::/**
+ * getMock
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class)->getMock();
         $mock->method('getHtml')->willReturn('mark');
         $mark = new HtmlMark($mock);
         $html = $mark->getHtml();
@@ -67,8 +109,20 @@ class HtmlMarkTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testToHtmlOutputsHtml() {
-        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+    public /**
+ * testToHtmlOutputsHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testToHtmlOutputsHtml() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::/**
+ * getMock
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class)->getMock();
         $mock->method('getHtml')->willReturn('mark');
         $mark = new HtmlMark($mock);
         ob_start();
@@ -84,8 +138,20 @@ class HtmlMarkTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testEdgeCasesEmptyContent() {
-        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+    public /**
+ * testEdgeCasesEmptyContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testEdgeCasesEmptyContent() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::/**
+ * getMock
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class)->getMock();
         $mock->method('getHtml')->willReturn('');
         $mark = new HtmlMark($mock);
         $html = $mark->getHtml();

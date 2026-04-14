@@ -15,6 +15,12 @@ use Ksfraser\HTML\Elements\HtmlString;
  * @group data-attributes
  * @since 1.0.5 2026-03-30
  */
+/**
+ * DataAttributeTraitTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class DataAttributeTraitTest extends TestCase
 {
     /**
@@ -28,16 +34,34 @@ class DataAttributeTraitTest extends TestCase
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    protected function setUp(): void
+    protected /**
+ * setUp
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function setUp(): void
     {
-        $this->element = new class extends HtmlElement {
+        $this->element = new /**
+ * HtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class extends HtmlElement {
 /**
  * __construct
  *
  * @since v1.0.5 2026-04-14
  * @return void
  */
-            public function __construct() {
+            public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
             }
@@ -53,7 +77,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetSingleDataAttribute()
+    public /**
+ * testSetSingleDataAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetSingleDataAttribute()
     {
         $this->element->setData('userId', '123');
         $this->assertTrue($this->element->hasData('userId'));
@@ -67,7 +97,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetMultipleDataAttributes()
+    public /**
+ * testSetMultipleDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetMultipleDataAttributes()
     {
         $this->element->setData('userId', '123');
         $this->element->setData('userName', 'John');
@@ -85,7 +121,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetDataAttributeWithBatch()
+    public /**
+ * testSetDataAttributeWithBatch
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetDataAttributeWithBatch()
     {
         $data = [
             'userId' => '123',
@@ -106,7 +148,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testGetAllDataAttributes()
+    public /**
+ * testGetAllDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testGetAllDataAttributes()
     {
         $this->element->setData('a', '1');
         $this->element->setData('b', '2');
@@ -126,7 +174,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testDataAttributeInHtmlOutput()
+    public /**
+ * testDataAttributeInHtmlOutput
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testDataAttributeInHtmlOutput()
     {
         $this->element->setData('userId', '123');
         $html = (string)$this->element;
@@ -143,7 +197,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetDataWithStringValue()
+    public /**
+ * testSetDataWithStringValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetDataWithStringValue()
     {
         $this->element->setData('message', 'Hello World');
         $this->assertEquals('Hello World', $this->element->getData('message'));
@@ -156,7 +216,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetDataWithIntegerValue()
+    public /**
+ * testSetDataWithIntegerValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetDataWithIntegerValue()
     {
         $this->element->setData('count', 42);
         $html = (string)$this->element;
@@ -170,7 +236,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetDataWithBooleanValue()
+    public /**
+ * testSetDataWithBooleanValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetDataWithBooleanValue()
     {
         $this->element->setData('active', true);
         $this->element->setData('deleted', false);
@@ -187,7 +259,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetDataWithArrayValue()
+    public /**
+ * testSetDataWithArrayValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetDataWithArrayValue()
     {
         $array = ['a', 'b', 'c'];
         $this->element->setData('items', $array);
@@ -203,7 +281,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetDataWithJsonSerializableObject()
+    public /**
+ * testSetDataWithJsonSerializableObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetDataWithJsonSerializableObject()
     {
         $stdObj = new \stdClass();
         $stdObj->name = 'John';
@@ -221,7 +305,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetDataWithFloatValue()
+    public /**
+ * testSetDataWithFloatValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetDataWithFloatValue()
     {
         $this->element->setData('price', 19.99);
         $html = (string)$this->element;
@@ -235,7 +325,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetDataWithEmptyString()
+    public /**
+ * testSetDataWithEmptyString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetDataWithEmptyString()
     {
         $this->element->setData('empty', '');
         $this->assertEquals('', $this->element->getData('empty'));
@@ -248,7 +344,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetDataWithNull()
+    public /**
+ * testSetDataWithNull
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetDataWithNull()
     {
         $this->element->setData('nullable', null);
         $html = (string)$this->element;
@@ -265,7 +367,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testDataAttributeEscapesDoubleQuotes()
+    public /**
+ * testDataAttributeEscapesDoubleQuotes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testDataAttributeEscapesDoubleQuotes()
     {
         $this->element->setData('message', 'He said "hello"');
         $html = (string)$this->element;
@@ -280,7 +388,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testDataAttributeEscapesLessThan()
+    public /**
+ * testDataAttributeEscapesLessThan
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testDataAttributeEscapesLessThan()
     {
         $this->element->setData('condition', '5 < 10');
         $html = (string)$this->element;
@@ -294,7 +408,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testDataAttributeEscapesGreaterThan()
+    public /**
+ * testDataAttributeEscapesGreaterThan
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testDataAttributeEscapesGreaterThan()
     {
         $this->element->setData('condition', '10 > 5');
         $html = (string)$this->element;
@@ -308,7 +428,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testDataAttributeEscapesAmpersand()
+    public /**
+ * testDataAttributeEscapesAmpersand
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testDataAttributeEscapesAmpersand()
     {
         $this->element->setData('operator', 'a & b');
         $html = (string)$this->element;
@@ -322,7 +448,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testDataAttributeEscapesSingleQuote()
+    public /**
+ * testDataAttributeEscapesSingleQuote
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testDataAttributeEscapesSingleQuote()
     {
         $this->element->setData('message', "It's working");
         $html = (string)$this->element;
@@ -337,7 +469,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testDataAttributeEscapesJsonWithSpecialChars()
+    public /**
+ * testDataAttributeEscapesJsonWithSpecialChars
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testDataAttributeEscapesJsonWithSpecialChars()
     {
         $this->element->setData('config', '{"key":"<value>"}');
         $html = (string)$this->element;
@@ -354,7 +492,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testRemoveDataAttribute()
+    public /**
+ * testRemoveDataAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testRemoveDataAttribute()
     {
         $this->element->setData('userId', '123');
         $this->assertTrue($this->element->hasData('userId'));
@@ -370,7 +514,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testRemoveNonExistentDataAttribute()
+    public /**
+ * testRemoveNonExistentDataAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testRemoveNonExistentDataAttribute()
     {
         // Should not throw exception
         $this->element->removeData('nonexistent');
@@ -384,7 +534,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testClearAllDataAttributes()
+    public /**
+ * testClearAllDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testClearAllDataAttributes()
     {
         $this->element->setData('a', '1');
         $this->element->setData('b', '2');
@@ -404,7 +560,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testRemoveDataRemovedFromHtml()
+    public /**
+ * testRemoveDataRemovedFromHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testRemoveDataRemovedFromHtml()
     {
         $this->element->setData('userId', '123');
         $this->assertStringContainsString('data-userId', (string)$this->element);
@@ -422,7 +584,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testUpdateExistingDataAttribute()
+    public /**
+ * testUpdateExistingDataAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testUpdateExistingDataAttribute()
     {
         $this->element->setData('userId', '123');
         $this->assertEquals('123', $this->element->getData('userId'));
@@ -438,7 +606,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testUpdateExistingDataAttributeChangeType()
+    public /**
+ * testUpdateExistingDataAttributeChangeType
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testUpdateExistingDataAttributeChangeType()
     {
         $this->element->setData('value', 'text');
         $this->element->setData('value', 123);
@@ -454,7 +628,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testBatchUpdateMergesWithExisting()
+    public /**
+ * testBatchUpdateMergesWithExisting
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testBatchUpdateMergesWithExisting()
     {
         $this->element->setData('a', '1');
         $this->element->setData('b', '2');
@@ -476,7 +656,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testBatchUpdateOverwritesExisting()
+    public /**
+ * testBatchUpdateOverwritesExisting
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testBatchUpdateOverwritesExisting()
     {
         $this->element->setData('userId', '123');
         $this->element->setDataAttributes(['userId' => '456']);
@@ -493,7 +679,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testDataAttributeRendersWithDataPrefix()
+    public /**
+ * testDataAttributeRendersWithDataPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testDataAttributeRendersWithDataPrefix()
     {
         $this->element->setData('userId', '123');
         $html = (string)$this->element;
@@ -508,7 +700,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testDataAttributeWithCamelCaseConvertsToKebabCase()
+    public /**
+ * testDataAttributeWithCamelCaseConvertsToKebabCase
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testDataAttributeWithCamelCaseConvertsToKebabCase()
     {
         $this->element->setData('userId', '123');
         $html = (string)$this->element;
@@ -525,7 +723,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testDataAttributeWithKebabCaseFormat()
+    public /**
+ * testDataAttributeWithKebabCaseFormat
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testDataAttributeWithKebabCaseFormat()
     {
         $this->element->setData('user-id', '123');
         $html = (string)$this->element;
@@ -539,7 +743,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testDataAttributeWithComplexName()
+    public /**
+ * testDataAttributeWithComplexName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testDataAttributeWithComplexName()
     {
         $this->element->setData('user-config-settings', 'value');
         $html = (string)$this->element;
@@ -553,7 +763,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testDataAttributeWithNumbersInName()
+    public /**
+ * testDataAttributeWithNumbersInName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testDataAttributeWithNumbersInName()
     {
         $this->element->setData('id123', 'value');
         $html = (string)$this->element;
@@ -569,7 +785,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetDataReturnsSelf()
+    public /**
+ * testSetDataReturnsSelf
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetDataReturnsSelf()
     {
         $result = $this->element->setData('key', 'value');
         $this->assertSame($this->element, $result);
@@ -582,7 +804,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testChainMultipleSetDataCalls()
+    public /**
+ * testChainMultipleSetDataCalls
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testChainMultipleSetDataCalls()
     {
         $this->element
             ->setData('a', '1')
@@ -600,7 +828,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testChainDataAttributesWithOtherMethods()
+    public /**
+ * testChainDataAttributesWithOtherMethods
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testChainDataAttributesWithOtherMethods()
     {
         $this->element
             ->setData('userId', '123')
@@ -620,7 +854,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testChainDataAttributesWithCssClasses()
+    public /**
+ * testChainDataAttributesWithCssClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testChainDataAttributesWithCssClasses()
     {
         $this->element
             ->addCSSClass('container')
@@ -639,7 +879,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testRemoveDataReturnsSelf()
+    public /**
+ * testRemoveDataReturnsSelf
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testRemoveDataReturnsSelf()
     {
         $this->element->setData('key', 'value');
         $result = $this->element->removeData('key');
@@ -653,7 +899,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testClearDataReturnsSelf()
+    public /**
+ * testClearDataReturnsSelf
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testClearDataReturnsSelf()
     {
         $result = $this->element->clearData();
         $this->assertSame($this->element, $result);
@@ -668,7 +920,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetDataWithVeryLongValue()
+    public /**
+ * testSetDataWithVeryLongValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetDataWithVeryLongValue()
     {
         $longValue = str_repeat('x', 10000);
         $this->element->setData('longData', $longValue);
@@ -682,7 +940,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetDataWithUnicodeCharacters()
+    public /**
+ * testSetDataWithUnicodeCharacters
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetDataWithUnicodeCharacters()
     {
         $this->element->setData('message', '你好世界');
         $this->assertEquals('你好世界', $this->element->getData('message'));
@@ -695,7 +959,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetDataWithEmojiCharacters()
+    public /**
+ * testSetDataWithEmojiCharacters
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetDataWithEmojiCharacters()
     {
         $this->element->setData('emoji', '😀🎉🚀');
         $this->assertEquals('😀🎉🚀', $this->element->getData('emoji'));
@@ -708,7 +978,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testGetDataNonExistentKey()
+    public /**
+ * testGetDataNonExistentKey
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testGetDataNonExistentKey()
     {
         $result = $this->element->getData('nonexistent');
         $this->assertNull($result);
@@ -721,7 +997,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testGetDataWithEmptyKey()
+    public /**
+ * testGetDataWithEmptyKey
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testGetDataWithEmptyKey()
     {
         $result = $this->element->getData('');
         $this->assertNull($result);
@@ -734,7 +1016,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetDataWithSpacesInName()
+    public /**
+ * testSetDataWithSpacesInName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetDataWithSpacesInName()
     {
         // Spaces typically not allowed in data attribute names
         // Test implementation behavior
@@ -753,7 +1041,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testGetAllDataReturnsEmptyArray()
+    public /**
+ * testGetAllDataReturnsEmptyArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testGetAllDataReturnsEmptyArray()
     {
         $all = $this->element->getAllData();
         $this->assertIsArray($all);
@@ -769,29 +1063,59 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testDataAttributesWithNestedElements()
+    public /**
+ * testDataAttributesWithNestedElements
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testDataAttributesWithNestedElements()
     {
-        $parent = new class extends HtmlElement {
+        $parent = new /**
+ * HtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class extends HtmlElement {
 /**
  * __construct
  *
  * @since v1.0.5 2026-04-14
  * @return void
  */
-            public function __construct() {
+            public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
             }
         };
 
-        $child = new class extends HtmlElement {
+        $child = new /**
+ * HtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class extends HtmlElement {
 /**
  * __construct
  *
  * @since v1.0.5 2026-04-14
  * @return void
  */
-            public function __construct() {
+            public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __construct() {
                 parent::__construct();
                 $this->tag = 'span';
             }
@@ -814,7 +1138,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testDataAttributesRespectOtherAttributes()
+    public /**
+ * testDataAttributesRespectOtherAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testDataAttributesRespectOtherAttributes()
     {
         $this->element->setData('userId', '123');
         $this->element->setAttribute('class', 'container');
@@ -834,7 +1164,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testDataAttributesWithContent()
+    public /**
+ * testDataAttributesWithContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testDataAttributesWithContent()
     {
         $this->element->setData('config', 'value');
         $this->element->addChild(new HtmlString('Some content'));
@@ -854,7 +1190,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testBootstrapDataAttributePattern()
+    public /**
+ * testBootstrapDataAttributePattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testBootstrapDataAttributePattern()
     {
         // Bootstrap common pattern: data-bs-* attributes
         $this->element->setData('bs-toggle', 'modal');
@@ -873,7 +1215,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testAjaxDataAttributes()
+    public /**
+ * testAjaxDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAjaxDataAttributes()
     {
         $this->element->setData('url', '/api/users');
         $this->element->setData('method', 'GET');
@@ -893,7 +1241,13 @@ class DataAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testCustomDataAttributePattern()
+    public /**
+ * testCustomDataAttributePattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testCustomDataAttributePattern()
     {
         $this->element
             ->setData('component', 'dropdown')

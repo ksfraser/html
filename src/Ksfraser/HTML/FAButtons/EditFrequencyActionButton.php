@@ -11,9 +11,89 @@ use Ksfraser\HTML\Button\Button;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SRP: Encapsulate the specific configuration for edit button in frequency tables.
 
+ * 
+
+ * 
+
+ * 
+
  * Takes variable parts (freqId) and applies fixed configuration (onclick handler, styling).
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -24,6 +104,8 @@ use Ksfraser\HTML\Button\Button;
  * @since 1.0.1 2026-02-16
 
  * @package Ksfraser\HTML\Buttons
+
+ * @return void
 
  */
 class EditFrequencyActionButton extends Button {

@@ -7,6 +7,40 @@
 $path = $argv[1] ?? 'src/Ksfraser/HTML';
 $root = getcwd();
 
+// If a checker report exists, limit processing to files referenced there
+$checkerReport = $root . DIRECTORY_SEPARATOR . '.since-check-output.utf8.txt';
+$targetFilesFromChecker = [];
+if (file_exists($checkerReport)) {
+    $lines = file($checkerReport, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    foreach ($lines as $ln) {
+        if (strpos($ln, '- ') === 0) {
+            // format: - path:line — rest
+            $parts = preg_split('/\s+—\s+/', $ln, 2);
+            $left = $parts[0] ?? $ln;
+            $left = preg_replace('/^-\s*/', '', $left);
+            $colon = strpos($left, ':');
+            if ($colon !== false) $left = substr($left, 0, $colon);
+            $left = trim($left);
+            if ($left !== '') $targetFilesFromChecker[$left] = true;
+        }
+    }
+    $targetFilesFromChecker = array_keys($targetFilesFromChecker);
+}
+
+/**
+ * listPhpFiles
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $path
+ * @return array
+ */
+/**
+ * listPhpFiles
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $path
+ * @return array
+ */
 function listPhpFiles(string $path): array {
     $files = [];
     if (is_file($path) && str_ends_with($path, '.php')) return [$path];
@@ -17,6 +51,20 @@ function listPhpFiles(string $path): array {
     return $files;
 }
 
+/**
+ * parseParamsString
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $s
+ * @return array
+ */
+/**
+ * parseParamsString
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $s
+ * @return array
+ */
 function parseParamsString(string $s): array {
     $params = [];
     $len = strlen($s);
@@ -36,6 +84,20 @@ function parseParamsString(string $s): array {
     return array_filter($params, fn($x) => $x !== '');
 }
 
+/**
+ * extractParamNamesFromSignature
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sig
+ * @return array
+ */
+/**
+ * extractParamNamesFromSignature
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sig
+ * @return array
+ */
 function extractParamNamesFromSignature(string $sig): array {
     // $sig contains the parameter list between parentheses
     $parts = parseParamsString($sig);
@@ -50,6 +112,20 @@ function extractParamNamesFromSignature(string $sig): array {
     return $names;
 }
 
+/**
+ * parseDocblock
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $block
+ * @return array
+ */
+/**
+ * parseDocblock
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $block
+ * @return array
+ */
 function parseDocblock(string $block): array {
     $lines = preg_split('/\r?\n/', $block);
     // strip opening/closing
@@ -79,6 +155,22 @@ function parseDocblock(string $block): array {
     return ['short'=>$short, 'long'=>$long, 'tags'=>$tags];
 }
 
+/**
+ * buildDocblock
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $parsed
+ * @param mixed $sigParamOrder
+ * @return array
+ */
+/**
+ * buildDocblock
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $parsed
+ * @param mixed $sigParamOrder
+ * @return array
+ */
 function buildDocblock(array $parsed, array $sigParamOrder = []): array {
     $out = [];
     $out[] = '/**';
@@ -96,7 +188,9 @@ function buildDocblock(array $parsed, array $sigParamOrder = []): array {
         foreach ($parsed['tags']['deprecated'] as $v) $out[] = ' * @deprecated ' . $v;
     }
     if (isset($parsed['tags']['since'])) {
-        foreach ($parsed['tags']['since'] as $v) $out[] = ' * @since ' . $v;
+        foreach ($parsed['tags']['since'] as $v) {
+            $out[] = ' * @since ' . normalizeSinceTag($v);
+        }
     }
     // other tags
     foreach ($parsed['tags'] as $tag => $vals) {
@@ -107,8 +201,11 @@ function buildDocblock(array $parsed, array $sigParamOrder = []): array {
     $paramTags = $parsed['tags']['param'] ?? [];
     $paramMap = [];
     foreach ($paramTags as $pt) {
-        if (preg_match('/^(\S+)\s+(\$[A-Za-z0-9_]+)(.*)$/', $pt, $m)) {
+            if (preg_match('/^(\S+)\s+(\$[A-Za-z0-9_]+)(.*)$/', $pt, $m)) {
             $type = $m[1]; $name = $m[2]; $rest = trim($m[3]);
+                // normalize union type spacing (align with checker expectations)
+                $type = preg_replace('/\s*\|\s*/', '|', $type);
+                if ($type === '') $type = 'mixed';
         } elseif (preg_match('/^(\$[A-Za-z0-9_]+)(.*)$/', $pt, $m)) {
             $type = ''; $name = $m[1]; $rest = trim($m[2]);
         } else { $name = null; $type = ''; $rest = $pt; }
@@ -125,9 +222,85 @@ function buildDocblock(array $parsed, array $sigParamOrder = []): array {
     // return
     if (isset($parsed['tags']['return'])) {
         foreach ($parsed['tags']['return'] as $v) $out[] = ' * @return ' . $v;
+    } else {
+        // default when missing
+        $out[] = ' * @return void';
     }
     $out[] = ' */';
     return $out;
+}
+
+/**
+ * normalizeSinceTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $raw
+ * @return string
+ */
+/**
+ * normalizeSinceTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $raw
+ * @return string
+ */
+function normalizeSinceTag(string $raw): string {
+    $raw = trim($raw);
+    // If raw is an 8-digit date like 20251020, convert to 2025-10-20
+    if (preg_match('/^(\d{4})(\d{2})(\d{2})$/', $raw, $m)) {
+        $date = "{$m[1]}-{$m[2]}-{$m[3]}";
+        // try to map to a version using optional mapping file
+        $ver = mapDateToVersion($date);
+        return trim(($ver ? $ver : 'v0.0.1') . ' ' . $date);
+    }
+    // If raw contains a date and a version, normalize the date format
+    if (preg_match('/(v?\d+\.\d+(?:\.\d+)?)\s+(\d{4})(\d{2})(\d{2})/', $raw, $m)) {
+        $ver = $m[1]; $date = "{$m[2]}-{$m[3]}-{$m[4]}";
+        return trim($ver . ' ' . $date);
+    }
+    if (preg_match('/(v?\d+\.\d+(?:\.\d+)?)\s+(\d{4}-\d{2}-\d{2})/', $raw, $m)) {
+        return trim($m[1] . ' ' . $m[2]);
+    }
+    // If raw looks like a date with hyphens, just keep it
+    if (preg_match('/^\d{4}-\d{2}-\d{2}$/', $raw)) return $raw;
+    // If raw is just a version, add no date
+    if (preg_match('/^v?\d+\.\d+(?:\.\d+)?$/', $raw)) return $raw;
+    // Fallback: return as-is
+    return $raw;
+}
+
+/**
+ * mapDateToVersion
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $date
+ * @return ?string
+ */
+/**
+ * mapDateToVersion
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $date
+ * @return ?string
+ */
+function mapDateToVersion(string $date): ?string {
+    // Look for a mapping file at scripts/since-tag-map.json
+    $mapFile = __DIR__ . '/since-tag-map.json';
+    if (!file_exists($mapFile)) return null;
+    $json = @file_get_contents($mapFile);
+    $data = json_decode($json, true);
+    if (!is_array($data) || empty($data['tags'])) return null;
+    // tags: array of {"tag":"v1.2.3","date":"YYYY-MM-DD"}
+    $cand = null;
+    foreach ($data['tags'] as $entry) {
+        if (empty($entry['tag']) || empty($entry['date'])) continue;
+        if ($entry['date'] <= $date) {
+            // choose the latest tag on or before date
+            if ($cand === null || $entry['date'] > $cand['date']) $cand = $entry;
+        }
+    }
+    if ($cand) return $cand['tag'];
+    return null;
 }
 
 // Process files
@@ -137,7 +310,21 @@ foreach ($files as $file) {
     $src = file_get_contents($file);
     // store content for callback access
     $GLOBALS['__file_content'] = $src;
-    $new = preg_replace_callback('#(^\s*)/\*\*(.*?)\*/#ms', function($m) use (&$backup, $file) {
+    $new = preg_replace_callback('#(^\s*)/\*\*(.*?)\*/#ms', /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $m
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $m
+ * @return void
+ */
+function($m) use (&$backup, $file) {
         $indent = $m[1];
         $block = '/**' . $m[2] . '*/';
         $parsed = parseDocblock($block);

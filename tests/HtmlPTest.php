@@ -7,6 +7,12 @@ use Ksfraser\HTML\Formatting\HtmlP;
  *
  * @since 1.0.3 2026-02-21
  */
+/**
+ * HtmlPTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlPTest extends TestCase {
 /**
  * testInstance
@@ -14,9 +20,21 @@ class HtmlPTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testInstance() {
+    public /**
+ * testInstance
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testInstance() {
         $p = new HtmlP(new \Ksfraser\HTML\Elements\HtmlString('paragraph text'));
-        $this->assertInstanceOf(HtmlP::class, $p);
+        $this->assertInstanceOf(HtmlP::/**
+ * testGetHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $p);
     }
 
 /**
@@ -25,8 +43,20 @@ class HtmlPTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testGetHtml() {
-        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+    public /**
+ * testGetHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testGetHtml() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::/**
+ * getMock
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class)->getMock();
         $mock->method('getHtml')->willReturn('p');
         $p = new HtmlP($mock);
         $html = $p->getHtml();
@@ -41,8 +71,20 @@ class HtmlPTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testToHtmlOutputsHtml() {
-        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+    public /**
+ * testToHtmlOutputsHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testToHtmlOutputsHtml() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::/**
+ * getMock
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class)->getMock();
         $mock->method('getHtml')->willReturn('p');
         $p = new HtmlP($mock);
         ob_start();
@@ -58,8 +100,20 @@ class HtmlPTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testEdgeCasesEmptyContent() {
-        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+    public /**
+ * testEdgeCasesEmptyContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testEdgeCasesEmptyContent() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::/**
+ * getMock
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class)->getMock();
         $mock->method('getHtml')->willReturn('');
         $p = new HtmlP($mock);
         $html = $p->getHtml();

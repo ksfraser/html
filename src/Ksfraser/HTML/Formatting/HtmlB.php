@@ -12,6 +12,8 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * @since 1.0.3 2026-02-21
 
+ * @return void
+
  */
 class HtmlB extends HtmlFormatting
 {

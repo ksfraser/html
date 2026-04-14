@@ -12,13 +12,93 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Creates: <a href="mailto:email@example.com">LINK TEXT</a>
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  * Email addresses are validated and automatically prefixed with "mailto:"
 
+ * 
+
+ * 
+
+ * 
+
  * Extends HtmlA since email links are just specialized anchor tags
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -26,6 +106,14 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * @since 1.0.1 2026-02-16
 
+ * @return void
+
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 class HtmlEmail extends HtmlA
 {
@@ -38,7 +126,16 @@ class HtmlEmail extends HtmlA
  * @param bool $validateEmail
  * @return void
  */
-	function __construct( string $emailAddress, $linkContent = null, bool $validateEmail = true )
+	/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $emailAddress
+ * @param mixed $linkContent
+ * @param mixed $validateEmail
+ * @return void
+ */
+function __construct( string $emailAddress, $linkContent = null, bool $validateEmail = true )
 	{
 		// Validate email address if requested
 		if( $validateEmail && !filter_var( $emailAddress, FILTER_VALIDATE_EMAIL ) )

@@ -12,29 +12,131 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Specialized button for edit actions in tables/forms.
+
+ * 
+
+ * 
+
+ * 
 
  * Encapsulates the onclick handler setup and button styling for edit operations.
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Features:
+
+ * 
+
+ * 
+
+ * 
 
  * - Automatic onclick handler generation
 
+ * 
+
+ * 
+
+ * 
+
  * - JavaScript function call support (e.g., editOption(...))
 
+ * 
+
+ * 
+
+ * 
+
  * - CSS class configuration for styling
+
+ * 
+
+ * 
+
+ * 
 
  * - Fluent interface for method chaining
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SOLID Principles:
+
+ * 
+
+ * 
+
+ * 
 
  * - Single Responsibility: Only handles edit button generation
 
+ * 
+
+ * 
+
+ * 
+
  * - Open/Closed: Can be extended for custom edit behaviors
+
+ * 
+
+ * 
+
+ * 
 
  * - Liskov Substitution: Can replace ActionButton safely
 
@@ -42,25 +144,147 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * ```php
+
+ * 
+
+ * 
+
+ * 
 
  * $editBtn = new EditButton(
 
+ * 
+
+ * 
+
+ * 
+
  *     new HtmlString('Edit'),
+
+ * 
+
+ * 
+
+ * 
 
  *     '123',
 
+ * 
+
+ * 
+
+ * 
+
  *     "editOption(123, 'John', 'Doe', '2025-01-01')"
+
+ * 
+
+ * 
+
+ * 
 
  * );
 
+ * 
+
+ * 
+
+ * 
+
  * $editBtn->setCssClass('btn btn-primary btn-sm');
+
+ * 
+
+ * 
+
+ * 
 
  * echo $editBtn->getHtml();
 
+ * 
+
+ * 
+
+ * 
+
  * // Output: <input type="button" value="Edit" name="edit_btn_123" onclick="editOption(123, 'John', 'Doe', '2025-01-01')" class="btn btn-primary btn-sm" />
 
+ * 
+
+ * 
+
+ * 
+
  * ```
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -74,12 +298,15 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * @example 
 
+ * @return void
+
  */
 class EditButton extends ActionButton
 {
     /**
      *
      * @var string The JavaScript function call for the onclick handler
+     * @return void
      */
     protected $onclickFunction = '';
 

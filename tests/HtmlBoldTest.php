@@ -7,6 +7,12 @@ use Ksfraser\HTML\Formatting\HtmlBold;
  *
  * @since 1.0.3 2026-02-21
  */
+/**
+ * HtmlBoldTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlBoldTest extends TestCase {
 /**
  * testInstance
@@ -14,10 +20,28 @@ class HtmlBoldTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testInstance() {
-        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+    public /**
+ * testInstance
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testInstance() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::/**
+ * getMock
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class)->getMock();
         $bold = new HtmlBold($mock);
-        $this->assertInstanceOf(HtmlBold::class, $bold);
+        $this->assertInstanceOf(HtmlBold::/**
+ * testGetHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $bold);
     }
 
 /**
@@ -26,8 +50,20 @@ class HtmlBoldTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testGetHtml() {
-        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+    public /**
+ * testGetHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testGetHtml() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::/**
+ * getMock
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class)->getMock();
         $mock->method('getHtml')->willReturn('bold');
         $bold = new HtmlBold($mock);
         $html = $bold->getHtml();
@@ -42,8 +78,20 @@ class HtmlBoldTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testToHtmlOutputsHtml() {
-        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+    public /**
+ * testToHtmlOutputsHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testToHtmlOutputsHtml() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::/**
+ * getMock
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class)->getMock();
         $mock->method('getHtml')->willReturn('bold');
         $bold = new HtmlBold($mock);
         ob_start();
@@ -59,8 +107,20 @@ class HtmlBoldTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testEdgeCasesEmptyContent() {
-        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+    public /**
+ * testEdgeCasesEmptyContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testEdgeCasesEmptyContent() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::/**
+ * getMock
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class)->getMock();
         $mock->method('getHtml')->willReturn('');
         $bold = new HtmlBold($mock);
         $html = $bold->getHtml();

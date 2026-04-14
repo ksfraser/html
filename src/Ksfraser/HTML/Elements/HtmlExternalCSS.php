@@ -14,13 +14,105 @@ use Ksfraser\HTML\HtmlString;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Generates: <link rel="stylesheet" href="path/to/style.css">
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  * Single Responsibility: Render stylesheet link elements with proper formatting and security.
 
+ * 
+
+ * 
+
+ * 
+
  * Extends HtmlElement to maintain consistency with HTML builder pattern.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -32,6 +124,8 @@ use Ksfraser\HTML\HtmlString;
 
  * @package Ksfraser\HTML\Elements
 
+ * @return void
+
  */
 class HtmlExternalCSS extends HtmlLink
 {
@@ -39,7 +133,11 @@ class HtmlExternalCSS extends HtmlLink
      * Constructor
      *
      * 
+     * 
+     * 
      * Initializes a stylesheet link element as an empty element (no closing tag).
+     * 
+     * 
      *
      * @since v1.0.0 2026-04-11
      * @return void
@@ -55,11 +153,83 @@ class HtmlExternalCSS extends HtmlLink
     
      *
     
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
     
      * Automatically applies security encoding and sets rel="stylesheet" attribute.
     
+     *     
+    
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
     
      *
     

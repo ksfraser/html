@@ -12,6 +12,8 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * @since 1.0.1 2026-02-16
 
+ * @return void
+
  */
 class HtmlOrderedList extends HtmlElement
 {

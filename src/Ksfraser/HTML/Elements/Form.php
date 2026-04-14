@@ -11,13 +11,105 @@ use Ksfraser\HTML\HtmlAttribute;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Provides fluent interface for building forms.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  * Usage:
 
+ * 
+
+ * 
+
+ * 
+
  * - (new Form())->setMethod('post')->setAction('/submit')->append($field1, $field2)->render()
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -28,6 +120,8 @@ use Ksfraser\HTML\HtmlAttribute;
  * @since v1.0.0 2026-04-11
 
  * @package Ksfraser\HTML\Elements
+
+ * @return void
 
  */
 class Form {

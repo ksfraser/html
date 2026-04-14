@@ -11,41 +11,211 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  *
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Provides builder methods for HTML form controls and validation UI
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  * Static factory methods for creating form elements:
 
+ * 
+
+ * 
+
+ * 
+
  * - Forms: form(), fieldset()
+
+ * 
+
+ * 
+
+ * 
 
  * - Inputs: input(), textarea(), select(), label(), button()
 
+ * 
+
+ * 
+
+ * 
+
  * - Groups: formGroup(), inputGroup()
+
+ * 
+
+ * 
+
+ * 
 
  * - Validation: validationFeedback()
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Integration with previous traits:
+
+ * 
+
+ * 
+
+ * 
 
  * - CSSManagementTrait: Bootstrap form control classes
 
+ * 
+
+ * 
+
+ * 
+
  * - AriaAttributeTrait: Accessibility attributes
 
+ * 
+
+ * 
+
+ * 
+
  * - DataAttributeTrait: Form data storage
+
+ * 
+
+ * 
+
+ * 
 
  * - EventHandlerTrait: Form event binding
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Usage:
+
+ * 
+
+ * 
+
+ * 
 
  *   $form = HtmlElement::form('POST', '/submit')
 
+ * 
+
+ * 
+
+ * 
+
  *       ->addChild(HtmlElement::input('email', 'email')->setRequired(true))
 
+ * 
+
+ * 
+
+ * 
+
  *       ->addChild(HtmlElement::button('Submit', 'submit'));
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -57,6 +227,8 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * @package Ksfraser\HTML\Traits
 
+ * @return void
+
  */
 trait FormElementsTrait
 {
@@ -65,7 +237,11 @@ trait FormElementsTrait
      *
      * 
      * 
+     * 
+     * 
      *   $form = HtmlElement::form('POST', '/submit');
+     * 
+     * 
      *
      * @since 1.0.5 2026-03-30
      * @example 
@@ -95,9 +271,99 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $email = HtmlElement::input('email', 'user_email');
 
+     * 
+
+     * 
+
+     * 
+
      *   $password = HtmlElement::input('password', 'pwd')->setRequired(true);
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -142,7 +408,91 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $comments = HtmlElement::textarea('comments', 'Your feedback...');
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -190,11 +540,101 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $country = HtmlElement::select('country')
+
+     * 
+
+     * 
+
+     * 
 
      *       ->addOption('us', 'United States')
 
+     * 
+
+     * 
+
+     * 
+
      *       ->addOption('ca', 'Canada');
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -232,7 +672,91 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $label = HtmlElement::label('Email Address', 'email_field');
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -272,9 +796,99 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $submit = HtmlElement::button('Submit', 'submit');
 
+     * 
+
+     * 
+
+     * 
+
      *   $cancel = HtmlElement::button('Cancel', 'button');
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -311,9 +925,81 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $fieldset = HtmlElement::fieldset()
 
+     * 
+
+     * 
+
+     * 
+
      *       ->setLegend('Account Details');
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -332,7 +1018,55 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Commonly used to group label + input + feedback together
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 
@@ -340,9 +1074,57 @@ trait FormElementsTrait
 
      *   $group = HtmlElement::formGroup()
 
+     * 
+
+     * 
+
+     * 
+
      *       ->addChild(HtmlElement::label('Name', 'name'))
 
+     * 
+
+     * 
+
+     * 
+
      *       ->addChild(HtmlElement::input('text', 'name'));
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -371,13 +1153,103 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $group = HtmlElement::inputGroup()
+
+     * 
+
+     * 
+
+     * 
 
      *       ->addPrefix('$')
 
+     * 
+
+     * 
+
+     * 
+
      *       ->addChild(HtmlElement::input('number', 'amount'))
 
+     * 
+
+     * 
+
+     * 
+
      *       ->addSuffix('.00');
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -406,7 +1278,91 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $feedback = HtmlElement::validationFeedback('This field is required', true);
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -445,7 +1401,85 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $input->setInputValue('user@example.com');
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -474,7 +1508,85 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $input->setPlaceholder('Enter your email...');
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -503,7 +1615,85 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $input->setRequired(true);
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -536,7 +1726,85 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $input->setDisabled(true);
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -569,7 +1837,85 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $input->setReadonly(true);
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -602,7 +1948,85 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $input->setAutocomplete('email');
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -631,7 +2055,85 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $input->setPattern('[0-9]{3}-[0-9]{4}');
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -660,7 +2162,85 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $input->setMaxLength(100);
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -689,7 +2269,85 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $input->setMinLength(8);
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -718,7 +2376,79 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $input->markInvalid();
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -746,7 +2476,79 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $input->markValid();
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -774,7 +2576,85 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $textarea->setRows(5);
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -803,7 +2683,85 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $textarea->setCols(40);
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -832,7 +2790,97 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $select->addOption('us', 'United States');
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -872,7 +2920,85 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $select->setSelectedValue('us');
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -901,7 +3027,85 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $checkbox->setChecked(true);
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -934,7 +3138,85 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $fieldset->setLegend('Personal Information');
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -963,7 +3245,85 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $group->addPrefix('$');
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -997,7 +3357,85 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $group->addSuffix('.00');
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -1028,7 +3466,85 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $feedback->showFeedback(true);
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -1063,7 +3579,79 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $form->markNeedsValidation();
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -1090,7 +3678,79 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $form->preventDefaultSubmit();
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -1117,7 +3777,85 @@ trait FormElementsTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $group->addChild($input);
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 

@@ -13,7 +13,87 @@ use Ksfraser\HTML\HtmlScriptLanguage;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Provides common logic for script tags. Subclasses should specify script type and content.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -27,6 +107,14 @@ use Ksfraser\HTML\HtmlScriptLanguage;
 
  * @package Ksfraser\HTML
 
+ * @return void
+
+ */
+/**
+ * HtmlScript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 class HtmlScript extends HtmlElement
 {
@@ -38,7 +126,15 @@ class HtmlScript extends HtmlElement
      * @param mixed $content
      * @return void
      */
-public function __construct(?string $type = null, $content = null)
+public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $content
+ * @return void
+ */
+function __construct(?string $type = null, $content = null)
     {
         parent::__construct($content);
         $this->tag = 'script';

@@ -16,7 +16,69 @@ use Ksfraser\HTML\HtmlAttribute;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * <a href="URL">TEXT</a>
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -24,13 +86,19 @@ use Ksfraser\HTML\HtmlAttribute;
 
  * @since v1.0.0 2026-04-11
 
+ * @return void
+
  */
 class HtmlLink extends HtmlElement
 {
 	/**
 	 * HtmlLink: Represents a <link> tag for external resources (CSS, icons, etc.)
 	 *
+	 * 
+	 * 
 	 * Generates: <link rel="..." href="...">
+	 * 
+	 * 
 	 *
 	 * @since v1.0.0 2026-04-11
 	 * @return void

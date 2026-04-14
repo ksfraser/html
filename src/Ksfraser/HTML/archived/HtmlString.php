@@ -12,6 +12,8 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * @since 1.0.1 2026-02-16
 
+ * @return void
+
  */
 class HtmlString implements HtmlElementInterface {
 	protected $string;
@@ -29,7 +31,11 @@ class HtmlString implements HtmlElementInterface {
 	/**
 	 * Renders the object in HTML.
 	 *
+	 * 
+	 * 
 	 * The Html is echoed directly into the output.
+	 * 
+	 * 
 	 *
 	 * @since v1.0.5 2026-04-14
 	 * @return void

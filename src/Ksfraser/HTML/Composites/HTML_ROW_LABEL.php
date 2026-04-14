@@ -14,19 +14,141 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Provides backward compatibility with legacy code.
+
+ * 
+
+ * 
+
+ * 
 
  * This wrapper matches the old interface exactly but delegates to HtmlLabelRow.
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * The old interface had parameter order: ($data, $label, $width, $class)
+
+ * 
+
+ * 
+
+ * 
 
  * HtmlLabelRow uses: ($label, $content) with fluent methods
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  *             New code should use HtmlLabelRow directly.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -42,6 +164,14 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * @package Ksfraser\HTML
 
+ * @return void
+
+ */
+/**
+ * HTML_ROW_LABEL
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 class HTML_ROW_LABEL implements HtmlElementInterface
 {
@@ -49,6 +179,7 @@ class HTML_ROW_LABEL implements HtmlElementInterface
      * The underlying HtmlLabelRow instance
      *
      * @var HtmlLabelRow
+     * @return void
      */
     protected $row;
     
@@ -58,11 +189,101 @@ class HTML_ROW_LABEL implements HtmlElementInterface
     
      *
     
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
     
      * NOTE: Parameter order matches legacy interface for backward compatibility
     
+     *     
+    
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
     
      *
     
@@ -79,7 +300,17 @@ class HTML_ROW_LABEL implements HtmlElementInterface
      * @return void
     
      */
-public function __construct($data, string $label, ?int $width = null, ?string $class = null)
+public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $label
+ * @param mixed $width
+ * @param mixed $class
+ * @return void
+ */
+function __construct($data, string $label, ?int $width = null, ?string $class = null)
     {
         // Convert string data to HtmlString if needed
         $content = is_string($data) ? new HtmlString($data) : $data;
@@ -101,19 +332,109 @@ public function __construct($data, string $label, ?int $width = null, ?string $c
     
      *
     
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
     
      * This method satisfies the HtmlElementInterface requirement.
     
+     *     
+    
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
     
      * NOTE: PHP method names are case-insensitive, so legacy code calling
     
+     *     
+    
+     *     
+    
+     *     
+    
      * toHTML() (with capital HTML) will automatically call this method.
+    
+     *     
+    
+     *     
+    
+     *     
     
      * This maintains backward compatibility without needing two methods.
     
+     *     
+    
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
     
      *
     
@@ -122,7 +443,13 @@ public function __construct($data, string $label, ?int $width = null, ?string $c
      * @return void
     
      */
-    public function toHtml(): void
+    public /**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function toHtml(): void
     {
         $this->row->toHtml();
     }
@@ -138,7 +465,13 @@ public function __construct($data, string $label, ?int $width = null, ?string $c
      * @return string The HTML
     
      */
-    public function getHtml(): string
+    public /**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getHtml(): string
     {
         return $this->row->getHtml();
     }

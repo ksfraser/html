@@ -12,6 +12,8 @@ namespace Ksfraser\HTML\Ajax;
 
  * @since 1.0.1 2026-02-20
 
+ * @return void
+
  */
 final class DivActivator
 {

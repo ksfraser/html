@@ -7,6 +7,12 @@ use Ksfraser\HTML\Attributes\HtmlNameValue;
  *
  * @since 1.0.3 2026-02-21
  */
+/**
+ * HtmlNameValueTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlNameValueTest extends TestCase {
 /**
  * testInstance
@@ -14,9 +20,21 @@ class HtmlNameValueTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testInstance() {
+    public /**
+ * testInstance
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testInstance() {
         $nv = new HtmlNameValue('name', 'value');
-        $this->assertInstanceOf(HtmlNameValue::class, $nv);
+        $this->assertInstanceOf(HtmlNameValue::/**
+ * No description.
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $nv);
     }
 
     // Add more tests for all public methods and edge cases

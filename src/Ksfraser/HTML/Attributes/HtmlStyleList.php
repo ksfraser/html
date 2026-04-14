@@ -10,21 +10,119 @@ use Ksfraser\HTML\Attributes\HtmlAttributeValueObject;
 
  *
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * It is not a standalone HTML element, but an attribute value object for use in other elements.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  * Examples:
 
+ * 
+
+ * 
+
+ * 
+
  *   background-color
+
+ * 
+
+ * 
+
+ * 
 
  *   color
 
+ * 
+
+ * 
+
+ * 
+
  *   font-family
+
+ * 
+
+ * 
+
+ * 
 
  *   font-size
 
+ * 
+
+ * 
+
+ * 
+
  *   text-align
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -32,6 +130,20 @@ use Ksfraser\HTML\Attributes\HtmlAttributeValueObject;
 
  * @since 1.0.3 2026-02-21
 
+ * @return void
+
+ */
+/**
+ * HtmlStyleList
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlStyleList
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 class HtmlStyleList extends HtmlAttributeValueObject
 {
@@ -42,7 +154,21 @@ class HtmlStyleList extends HtmlAttributeValueObject
      * @param mixed $style
      * @return void
      */
-    public function __construct($style = null)
+    public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $style
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $style
+ * @return void
+ */
+function __construct($style = null)
     {
         $this->attributeName = 'style';
         $this->attributeArray = [];
@@ -53,7 +179,19 @@ class HtmlStyleList extends HtmlAttributeValueObject
         if (is_array($style)) {
             foreach ($style as $s) {
                 if (is_string($s)) {
-                    $this->addAttribute(new class($s) {
+                    $this->addAttribute(new /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class($s) {
                         private $s;
 /**
  * __construct
@@ -62,14 +200,40 @@ class HtmlStyleList extends HtmlAttributeValueObject
  * @param mixed $s
  * @return void
  */
-                        public function __construct($s) { $this->s = $s; }
+                        public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $s
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $s
+ * @return void
+ */
+function __construct($s) { $this->s = $s; }
 /**
  * getHtml
  *
  * @since v1.0.0 2026-04-13
  * @return string
  */
-                        public function getHtml(): string { return $this->s . ';'; }
+                        public /**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getHtml(): string { return $this->s . ';'; }
                     });
                 } else {
                     $this->addAttribute($s);
@@ -79,7 +243,19 @@ class HtmlStyleList extends HtmlAttributeValueObject
         }
 
         if (is_string($style)) {
-            $this->addAttribute(new class($style) {
+            $this->addAttribute(new /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class($style) {
                 private $s;
 /**
  * __construct
@@ -88,14 +264,40 @@ class HtmlStyleList extends HtmlAttributeValueObject
  * @param mixed $s
  * @return void
  */
-                public function __construct($s) { $this->s = $s; }
+                public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $s
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $s
+ * @return void
+ */
+function __construct($s) { $this->s = $s; }
 /**
  * getHtml
  *
  * @since v1.0.0 2026-04-13
  * @return string
  */
-                public function getHtml(): string { return $this->s . ';'; }
+                public /**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getHtml(): string { return $this->s . ';'; }
             });
             return;
         }
@@ -116,7 +318,21 @@ class HtmlStyleList extends HtmlAttributeValueObject
      * @return void
 
      */
-    public function addAttribute($style): void
+    public /**
+ * addAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $style
+ * @return void
+ */
+/**
+ * addAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $style
+ * @return void
+ */
+function addAttribute($style): void
     {
         parent::addAttributeValueObject($style);
     }
@@ -134,7 +350,21 @@ class HtmlStyleList extends HtmlAttributeValueObject
      * @return void
 
      */
-    public function setAttribute($style): void
+    public /**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $style
+ * @return void
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $style
+ * @return void
+ */
+function setAttribute($style): void
     {
         $this->addAttribute($style);
     }
@@ -150,7 +380,19 @@ class HtmlStyleList extends HtmlAttributeValueObject
  * @return string
 
  */
-    protected function getAttributeValueString(): string
+    protected /**
+ * getAttributeValueString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getAttributeValueString(): string
     {
         if (count($this->attributeArray) === 0) {
             return '';

@@ -12,65 +12,275 @@ use Ksfraser\HTML\HtmlElement;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Encapsulates the JavaScript logic for converting payment frequency selections
+
+ * 
+
+ * 
+
+ * 
 
  * into the number of payments per year. Commonly used in loan/amortization calculations.
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * This handler provides an SRP-based approach to frequency handling:
+
+ * 
+
+ * 
+
+ * 
 
  * - Maps frequency names to annual payment counts
 
+ * 
+
+ * 
+
+ * 
+
  * - Generates the JavaScript conversion function
 
+ * 
+
+ * 
+
+ * 
+
  * - Handles hidden field population
+
+ * 
+
+ * 
+
+ * 
 
  * - Centralizes frequency logic for reusability
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Common Frequencies:
+
+ * 
+
+ * 
+
+ * 
 
  * - Annual: 1 payment per year
 
+ * 
+
+ * 
+
+ * 
+
  * - Semi-Annual: 2 payments per year
+
+ * 
+
+ * 
+
+ * 
 
  * - Monthly: 12 payments per year
 
+ * 
+
+ * 
+
+ * 
+
  * - Semi-Monthly: 24 payments per year
 
+ * 
+
+ * 
+
+ * 
+
  * - Bi-Weekly: 26 payments per year
+
+ * 
+
+ * 
+
+ * 
 
  * - Weekly: 52 payments per year
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Design Pattern: Template Method
 
+ * 
+
+ * 
+
+ * 
+
  * - Encapsulates the frequency function generation
+
+ * 
+
+ * 
+
+ * 
 
  * - Can be extended with custom frequency mappings
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SOLID Principles:
+
+ * 
+
+ * 
+
+ * 
 
  * - Single Responsibility: Only handles payment frequency conversion
 
+ * 
+
+ * 
+
+ * 
+
  * - Open/Closed: Can be extended with custom frequency types
+
+ * 
+
+ * 
+
+ * 
 
  * - Liskov Substitution: Can replace HtmlElement
 
+ * 
+
+ * 
+
+ * 
+
  * - Interface Segregation: Simple, focused interface
+
+ * 
+
+ * 
+
+ * 
 
  * - Dependency Inversion: Depends on HtmlElement abstraction
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Usage Context:
 
+ * 
+
+ * 
+
+ * 
+
  * Used in loan/amortization forms where payment frequency determines
+
+ * 
+
+ * 
+
+ * 
 
  * calculation of periodic payment amounts and total interest.
 
@@ -78,27 +288,161 @@ use Ksfraser\HTML\HtmlElement;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * ```php
+
+ * 
+
+ * 
+
+ * 
 
  * // Generate the payment frequency handler
 
+ * 
+
+ * 
+
+ * 
+
  * $handler = (new PaymentFrequencyHandler())
+
+ * 
+
+ * 
+
+ * 
 
  *     ->setSourceFieldId('payment_frequency')
 
+ * 
+
+ * 
+
+ * 
+
  *     ->setTargetFieldId('payments_per_year')
 
+ * 
+
+ * 
+
+ * 
+
  *     ->setFunctionName('updatePaymentsPerYear');
+
+ * 
+
+ * 
+
+ * 
 
  * echo $handler->getHtml();
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * // In your select, attach to onchange:
+
+ * 
+
+ * 
+
+ * 
 
  * $freqSelect->addAttribute('onchange', 'updatePaymentsPerYear()');
 
+ * 
+
+ * 
+
+ * 
+
  * ```
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -114,6 +458,8 @@ use Ksfraser\HTML\HtmlElement;
 
  * @example 
 
+ * @return void
+
  */
 class PaymentFrequencyHandler extends HtmlElement
 {
@@ -121,6 +467,7 @@ class PaymentFrequencyHandler extends HtmlElement
      * The name of the JavaScript function to generate
      *
      * @var string
+     * @return void
      */
     protected $functionName = 'updatePaymentsPerYear';
 
@@ -131,6 +478,8 @@ class PaymentFrequencyHandler extends HtmlElement
      *
 
      * @var string
+
+     * @return void
 
      */
     protected $sourceFieldId = 'payment_frequency';
@@ -143,6 +492,8 @@ class PaymentFrequencyHandler extends HtmlElement
 
      * @var string
 
+     * @return void
+
      */
     protected $targetFieldId = 'payments_per_year';
 
@@ -153,6 +504,8 @@ class PaymentFrequencyHandler extends HtmlElement
      *
 
      * @var array
+
+     * @return void
 
      */
     protected $frequencyMap = [
@@ -245,7 +598,79 @@ public function setTargetFieldId($id)
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Allows extending the handler with custom frequency types.
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 

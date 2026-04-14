@@ -18,9 +18,89 @@ use Ksfraser\HTML\FAButtons\DeleteFrequencyActionButton;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SRP: Single responsibility of building an interest frequency row from frequency data.
 
+ * 
+
+ * 
+
+ * 
+
  * Handles: Row structure and action buttons. Uses cell classes for content cells.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -31,6 +111,8 @@ use Ksfraser\HTML\FAButtons\DeleteFrequencyActionButton;
  * @since 1.0.1 2026-02-16
 
  * @package Ksfraser\HTML\Rows
+
+ * @return void
 
  */
 class InterestFreqTableRow extends BaseTableRow {

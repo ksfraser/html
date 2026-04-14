@@ -8,13 +8,71 @@ namespace Ksfraser\HTML\CSS;
 
  *
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Allows dependency injection of different CSS styling approaches
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  *
 
  * @since v1.0.0 2025-09-08
+
+ * @return void
 
  */
 interface CSSProviderInterface {

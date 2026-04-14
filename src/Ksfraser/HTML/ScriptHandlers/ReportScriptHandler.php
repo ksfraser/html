@@ -11,9 +11,89 @@ use Ksfraser\HTML\Elements\HtmlScript;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SRP: Single responsibility of building report handler scripts.
 
+ * 
+
+ * 
+
+ * 
+
  * Provides modal viewer for report details and AJAX fetching.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -24,6 +104,8 @@ use Ksfraser\HTML\Elements\HtmlScript;
  * @since 1.0.1 2026-02-16
 
  * @package Ksfraser\HTML\ScriptHandlers
+
+ * @return void
 
  */
 class ReportScriptHandler extends BaseScriptHandler {

@@ -14,87 +14,373 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * https://www.w3schools.com/tags/tag_form.asp
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  * Forms can have the following elements:
 
+ * 
+
+ * 
+
+ * 
+
  * input
+
+ * 
+
+ * 
+
+ * 
 
  * textarea
 
+ * 
+
+ * 
+
+ * 
+
  * button
+
+ * 
+
+ * 
+
+ * 
 
  * select
 
+ * 
+
+ * 
+
+ * 
+
  * option
+
+ * 
+
+ * 
+
+ * 
 
  * optgroup
 
+ * 
+
+ * 
+
+ * 
+
  * fieldset
 
+ * 
+
+ * 
+
+ * 
+
  * label
+
+ * 
+
+ * 
+
+ * 
 
  * output
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Forms can have the following attributes
+
+ * 
+
+ * 
+
+ * 
 
  * accept-charset
 
+ * 
+
+ * 
+
+ * 
+
  * action
+
+ * 
+
+ * 
+
+ * 
 
  * autocomplete (on/off)
 
+ * 
+
+ * 
+
+ * 
+
  * enctype
+
+ * 
+
+ * 
+
+ * 
 
  * method (dialog, get, post)
 
+ * 
+
+ * 
+
+ * 
+
  * name
+
+ * 
+
+ * 
+
+ * 
 
  * novalidate
 
+ * 
+
+ * 
+
+ * 
+
  * rel
+
+ * 
+
+ * 
+
+ * 
 
  * 	external
 
+ * 
+
+ * 
+
+ * 
+
  * 	help
+
+ * 
+
+ * 
+
+ * 
 
  * 	license
 
+ * 
+
+ * 
+
+ * 
+
  * 	next
+
+ * 
+
+ * 
+
+ * 
 
  * 	nofollow
 
+ * 
+
+ * 
+
+ * 
+
  * 	noopener
+
+ * 
+
+ * 
+
+ * 
 
  * 	noreferrer
 
+ * 
+
+ * 
+
+ * 
+
  * 	opener
+
+ * 
+
+ * 
+
+ * 
 
  * 	prev
 
+ * 
+
+ * 
+
+ * 
+
  * 	search
+
+ * 
+
+ * 
+
+ * 
 
  * target
 
+ * 
+
+ * 
+
+ * 
+
  * 	_blank
+
+ * 
+
+ * 
+
+ * 
 
  * 	_self
 
+ * 
+
+ * 
+
+ * 
+
  * 	_parent
+
+ * 
+
+ * 
+
+ * 
 
  * 	_top
 
+ * 
+
+ * 
+
+ * 
+
  *  * Provides helpers for building HTML <form> elements and common validations.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  *
 
  * @since v1.0.0 2026-04-11
 
  * @link https://www.w3schools.com/tags/tag_form.asp
+
+ * @return void
 
  */
 

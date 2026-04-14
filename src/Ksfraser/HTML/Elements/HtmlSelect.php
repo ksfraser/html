@@ -18,89 +18,381 @@ use Ksfraser\HTML\Elements\HtmlOption;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Represents an HTML <select> element with options.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  * This class provides a type-safe, object-oriented way to create HTML select elements
 
+ * 
+
+ * 
+
+ * 
+
  * with automatic HTML escaping for security. Supports multiple options, selected states,
+
+ * 
+
+ * 
+
+ * 
 
  * and standard select attributes (multiple, size, disabled, required).
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Security:
 
+ * 
+
+ * 
+
+ * 
+
  * - Automatically HTML-escapes name and attribute values
+
+ * 
+
+ * 
+
+ * 
 
  * - Safe to use with user-provided data
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Usage:
+
+ * 
+
+ * 
+
+ * 
 
  * ```php
 
+ * 
+
+ * 
+
+ * 
+
  * // Basic select
+
+ * 
+
+ * 
+
+ * 
 
  * $select = new HtmlSelect('country');
 
+ * 
+
+ * 
+
+ * 
+
  * $select->addOption(new HtmlOption('ca', 'Canada'));
 
+ * 
+
+ * 
+
+ * 
+
  * $select->addOption(new HtmlOption('us', 'United States'));
+
+ * 
+
+ * 
+
+ * 
 
  * echo $select->getHtml();
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * // From array with selected value
+
+ * 
+
+ * 
+
+ * 
 
  * $select = new HtmlSelect('color');
 
+ * 
+
+ * 
+
+ * 
+
  * $colors = ['red' => 'Red', 'green' => 'Green', 'blue' => 'Blue'];
+
+ * 
+
+ * 
+
+ * 
 
  * $select->addOptionsFromArray($colors, 'green');
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * // With attributes
+
+ * 
+
+ * 
+
+ * 
 
  * $select = new HtmlSelect('size');
 
+ * 
+
+ * 
+
+ * 
+
  * $select->setId('size-selector')
+
+ * 
+
+ * 
+
+ * 
 
  *        ->setClass('form-control')
 
+ * 
+
+ * 
+
+ * 
+
  *        ->setRequired(true)
+
+ * 
+
+ * 
+
+ * 
 
  *        ->addOptionsFromArray(['S' => 'Small', 'M' => 'Medium', 'L' => 'Large']);
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * // Multiple select
+
+ * 
+
+ * 
+
+ * 
 
  * $select = new HtmlSelect('tags[]');
 
+ * 
+
+ * 
+
+ * 
+
  * $select->setMultiple(true)
+
+ * 
+
+ * 
+
+ * 
 
  *        ->setSize(5)
 
+ * 
+
+ * 
+
+ * 
+
  *        ->addOptionsFromArray(['tag1' => 'Tag 1', 'tag2' => 'Tag 2']);
+
+ * 
+
+ * 
+
+ * 
 
  * ```
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  *
 
- * @since 20251020
+ * @since v0.0.1 2025-10-20
 
  * @package Ksfraser\HTML
 
  * @author Claude AI Assistant
 
  * @version 1.0.0
+
+ * @return void
 
  */
 use Ksfraser\HTML\HtmlElement;
@@ -113,12 +405,15 @@ use Ksfraser\HTML\HtmlElement;
 
  * @since v1.0.0 2026-04-11
 
+ * @return void
+
  */
 class HtmlSelect extends HtmlElement
 {
     /**
      *
      * @var HtmlElementInterface The select element name (as a value object)
+     * @return void
      */
     private $name;
 
@@ -127,6 +422,8 @@ class HtmlSelect extends HtmlElement
      *
 
      * @var HtmlOption[] Array of option elements
+
+     * @return void
 
      */
     private $options;
@@ -141,7 +438,7 @@ class HtmlSelect extends HtmlElement
      *
 
 
-     * @since 20251020
+     * @since v0.0.1 2025-10-20
 
 
      * @param mixed $name
@@ -170,7 +467,7 @@ class HtmlSelect extends HtmlElement
 
      *
 
-     * @since 20251020
+     * @since v0.0.1 2025-10-20
 
      * @return string The select name
 
@@ -186,7 +483,7 @@ class HtmlSelect extends HtmlElement
 
      *
 
-     * @since 20251020
+     * @since v0.0.1 2025-10-20
 
      * @param mixed $valueOrOption
 
@@ -215,7 +512,7 @@ class HtmlSelect extends HtmlElement
 
      *
 
-     * @since 20251020
+     * @since v0.0.1 2025-10-20
 
      * @param array $data
 
@@ -239,7 +536,7 @@ class HtmlSelect extends HtmlElement
 
      *
 
-     * @since 20251020
+     * @since v0.0.1 2025-10-20
 
      * @return array
 
@@ -255,7 +552,7 @@ class HtmlSelect extends HtmlElement
 
      *
 
-     * @since 20251020
+     * @since v0.0.1 2025-10-20
 
      * @return int Number of options
 
@@ -271,7 +568,7 @@ class HtmlSelect extends HtmlElement
 
      *
 
-     * @since 20251020
+     * @since v0.0.1 2025-10-20
 
      * @param string $id Element ID
 
@@ -290,7 +587,7 @@ class HtmlSelect extends HtmlElement
 
      *
 
-     * @since 20251020
+     * @since v0.0.1 2025-10-20
 
      * @param string $class CSS class name(s)
 
@@ -309,7 +606,7 @@ class HtmlSelect extends HtmlElement
 
      *
 
-     * @since 20251020
+     * @since v0.0.1 2025-10-20
 
      * @param bool $multiple Whether to allow multiple selections
 
@@ -330,7 +627,7 @@ class HtmlSelect extends HtmlElement
 
      *
 
-     * @since 20251020
+     * @since v0.0.1 2025-10-20
 
      * @param int $size Number of visible options
 
@@ -349,7 +646,7 @@ class HtmlSelect extends HtmlElement
 
      *
 
-     * @since 20251020
+     * @since v0.0.1 2025-10-20
 
      * @param bool $disabled Whether the select is disabled
 
@@ -370,7 +667,7 @@ class HtmlSelect extends HtmlElement
 
      *
 
-     * @since 20251020
+     * @since v0.0.1 2025-10-20
 
      * @param bool $required Whether the select is required
 
@@ -391,7 +688,7 @@ class HtmlSelect extends HtmlElement
 
      *
 
-     * @since 20251020
+     * @since v0.0.1 2025-10-20
 
      * @param string $name Attribute name
 
@@ -408,7 +705,7 @@ class HtmlSelect extends HtmlElement
 
      *
 
-     * @since 20251020
+     * @since v0.0.1 2025-10-20
 
      * @return string The HTML <select> element with all options
 
@@ -443,7 +740,7 @@ class HtmlSelect extends HtmlElement
 
      *
 
-     * @since 20251020
+     * @since v0.0.1 2025-10-20
 
      * @return void
 

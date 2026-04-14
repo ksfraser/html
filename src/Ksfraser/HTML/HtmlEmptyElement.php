@@ -14,9 +14,89 @@ use Ksfraser\HTML\Elements\HtmlString;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Empty elements have no content and no closing tag.
 
+ * 
+
+ * 
+
+ * 
+
  * Examples: <input>, <br>, <hr>, <img>
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -27,6 +107,8 @@ use Ksfraser\HTML\Elements\HtmlString;
  * @since 1.0.1 2026-02-16
 
  * @package Ksfraser\HTML
+
+ * @return void
 
  */
 class HtmlEmptyElement extends HtmlElement

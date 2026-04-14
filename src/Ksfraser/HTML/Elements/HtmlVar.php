@@ -11,6 +11,8 @@ use Ksfraser\HTML\HtmlElement;
 
  * @since v1.0.0 2026-04-11
 
+ * @return void
+
  */
 class HtmlVar extends HtmlElement {
 /**

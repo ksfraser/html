@@ -11,6 +11,8 @@ use Ksfraser\HTML\HtmlElement;
 
  * @since v2.0.1 2026-04-14
 
+ * @return void
+
  */
 class HtmlDf extends HtmlDfn
 {

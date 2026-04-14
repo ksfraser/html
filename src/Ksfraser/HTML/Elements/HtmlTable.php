@@ -11,25 +11,119 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  *
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Borders
+
+ * 
+
+ * 
+
+ * 
 
  * Sizes
 
+ * 
+
+ * 
+
+ * 
+
  * Headers
+
+ * 
+
+ * 
+
+ * 
 
  * Padding and Spacing
 
+ * 
+
+ * 
+
+ * 
+
  * Colspan and Rowspan
+
+ * 
+
+ * 
+
+ * 
 
  * Styling
 
+ * 
+
+ * 
+
+ * 
+
  * Colgroup
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  *
 
  * @since v1.0.0 2026-04-11
+
+ * @return void
 
  */
 class HtmlTable extends HtmlElement

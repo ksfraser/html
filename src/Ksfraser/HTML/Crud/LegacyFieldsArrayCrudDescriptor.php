@@ -8,7 +8,43 @@ namespace Ksfraser\HTML\Crud;
 
  *
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * into a CRUD descriptor usable by modern view/builders.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -16,15 +52,62 @@ namespace Ksfraser\HTML\Crud;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  *
 
  * @since 1.0.1 2026-02-16
 
+ * @return void
+
+ */
+/**
+ * LegacyFieldsArrayCrudDescriptor
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LegacyFieldsArrayCrudDescriptor
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 class LegacyFieldsArrayCrudDescriptor
 {
     /**
      *
+     * @return void
      */
     private $tableDetails;
 
@@ -32,12 +115,16 @@ class LegacyFieldsArrayCrudDescriptor
 
      *
 
+     * @return void
+
      */
     private $fieldsArray;
 
     /**
 
      *
+
+     * @return void
 
      */
     private $options;
@@ -59,7 +146,25 @@ class LegacyFieldsArrayCrudDescriptor
      * @return void
 
      */
-    public function __construct(array $tableDetails, array $fieldsArray, array $options = array())
+    public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tableDetails
+ * @param mixed $fieldsArray
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tableDetails
+ * @param mixed $fieldsArray
+ * @param mixed $options
+ * @return void
+ */
+function __construct(array $tableDetails, array $fieldsArray, array $options = array())
     {
         $this->tableDetails = $tableDetails;
         $this->fieldsArray = $fieldsArray;
@@ -81,7 +186,23 @@ class LegacyFieldsArrayCrudDescriptor
      * @return self
 
      */
-    public static function fromLegacy($legacy, array $options = array())
+    public static /**
+ * fromLegacy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $legacy
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $legacy
+ * @param mixed $options
+ * @return void
+ */
+function fromLegacy($legacy, array $options = array())
     {
         $tableDetails = array();
         $fieldsArray = array();
@@ -116,7 +237,19 @@ class LegacyFieldsArrayCrudDescriptor
      * @return string
 
      */
-    public function getTitle(): string
+    public /**
+ * getTitle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getTitle(): string
     {
         if (isset($this->options['title']) && $this->options['title'] !== '') {
             return (string) $this->options['title'];
@@ -141,7 +274,19 @@ class LegacyFieldsArrayCrudDescriptor
      * @return string
 
      */
-    public function getTableName(): string
+    public /**
+ * getTableName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getTableName(): string
     {
         if (isset($this->tableDetails['tablename'])) {
             return (string) $this->tableDetails['tablename'];
@@ -163,7 +308,19 @@ class LegacyFieldsArrayCrudDescriptor
      * @return ?string
 
      */
-    public function getPrimaryKey(): ?string
+    public /**
+ * getPrimaryKey
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+function getPrimaryKey(): ?string
     {
         if (isset($this->tableDetails['primarykey']) && $this->tableDetails['primarykey'] !== '') {
             return (string) $this->tableDetails['primarykey'];
@@ -182,7 +339,19 @@ class LegacyFieldsArrayCrudDescriptor
      * @return array
 
      */
-    public function getFields(): array
+    public /**
+ * getFields
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+function getFields(): array
     {
         $foreignKeys = isset($this->options['foreignKeys']) && is_array($this->options['foreignKeys'])
             ? $this->options['foreignKeys']
@@ -224,7 +393,21 @@ class LegacyFieldsArrayCrudDescriptor
 
         if (isset($this->options['formFields']) && is_array($this->options['formFields'])) {
             $allowed = array_flip($this->options['formFields']);
-            $fields = array_values(array_filter($fields, function (CrudField $field) use ($allowed) {
+            $fields = array_values(array_filter($fields, /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+function (CrudField $field) use ($allowed) {
                 return isset($allowed[$field->name]);
             }));
         }
@@ -243,7 +426,19 @@ class LegacyFieldsArrayCrudDescriptor
      * @return array
 
      */
-    public function getListColumns(): array
+    public /**
+ * getListColumns
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+function getListColumns(): array
     {
         if (isset($this->options['listColumns']) && is_array($this->options['listColumns'])) {
             return array_values($this->options['listColumns']);
@@ -295,7 +490,23 @@ class LegacyFieldsArrayCrudDescriptor
      * @return string
 
      */
-    private function inferInputType($name, $sqlType): string
+    private /**
+ * inferInputType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+function inferInputType($name, $sqlType): string
     {
         $nameLower = strtolower((string) $name);
         $typeLower = strtolower((string) $sqlType);
@@ -342,7 +553,21 @@ class LegacyFieldsArrayCrudDescriptor
      * @return bool
 
      */
-    private function isProbablyLargeText($sqlTypeLower): bool
+    private /**
+ * isProbablyLargeText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+function isProbablyLargeText($sqlTypeLower): bool
     {
         $t = strtolower((string) $sqlTypeLower);
         return (strpos($t, 'text') !== false || strpos($t, 'blob') !== false);

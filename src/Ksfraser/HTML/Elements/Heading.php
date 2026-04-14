@@ -12,17 +12,121 @@ use Ksfraser\HTML\HtmlAttribute;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Provides a convenient, fluent interface for creating heading elements (H1-H6).
+
+ * 
+
+ * 
+
+ * 
 
  * Wraps HtmlHeading1-6 classes with a clean API.
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Usage:
+
+ * 
+
+ * 
+
+ * 
 
  * - Basic: (new Heading(3))->setText('Title')->render()
 
+ * 
+
+ * 
+
+ * 
+
  * - Fluent: (new Heading(2))->addClass('title')->setText('Welcome')->render()
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -33,6 +137,8 @@ use Ksfraser\HTML\HtmlAttribute;
  * @since v1.0.0 2026-04-11
 
  * @package Ksfraser\HTML\Elements
+
+ * @return void
 
  */
 class Heading {

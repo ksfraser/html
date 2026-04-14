@@ -10,7 +10,69 @@ namespace Ksfraser\HTML\Crud;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Normalizes schema descriptors into CrudField objects.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -18,11 +80,26 @@ namespace Ksfraser\HTML\Crud;
 
  * @since 1.0.1 2026-02-16
 
+ * @return void
+
+ */
+/**
+ * SchemaArrayCrudDescriptor
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SchemaArrayCrudDescriptor
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 class SchemaArrayCrudDescriptor
 {
     /**
      *
+     * @return void
      */
     private $schema;
 
@@ -39,7 +116,21 @@ class SchemaArrayCrudDescriptor
      * @return void
 
      */
-    public function __construct(array $schema)
+    public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $schema
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $schema
+ * @return void
+ */
+function __construct(array $schema)
     {
         $this->schema = $schema;
     }
@@ -55,7 +146,19 @@ class SchemaArrayCrudDescriptor
      * @return string
 
      */
-    public function getTitle(): string
+    public /**
+ * getTitle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getTitle(): string
     {
         if (isset($this->schema['ui']['title']) && $this->schema['ui']['title'] !== '') {
             return (string) $this->schema['ui']['title'];
@@ -77,7 +180,19 @@ class SchemaArrayCrudDescriptor
      * @return string
 
      */
-    public function getTable(): string
+    public /**
+ * getTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getTable(): string
     {
         return isset($this->schema['table']) ? (string) $this->schema['table'] : '';
     }
@@ -93,7 +208,19 @@ class SchemaArrayCrudDescriptor
      * @return ?string
 
      */
-    public function getPrimaryKey(): ?string
+    public /**
+ * getPrimaryKey
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+function getPrimaryKey(): ?string
     {
         if (isset($this->schema['primaryKey']) && $this->schema['primaryKey'] !== '') {
             return (string) $this->schema['primaryKey'];
@@ -112,7 +239,19 @@ class SchemaArrayCrudDescriptor
      * @return array
 
      */
-    public function getFields(): array
+    public /**
+ * getFields
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+function getFields(): array
     {
         $fields = array();
 
@@ -163,7 +302,21 @@ class SchemaArrayCrudDescriptor
 
         if (isset($this->schema['ui']['formFields']) && is_array($this->schema['ui']['formFields'])) {
             $allowed = array_flip($this->schema['ui']['formFields']);
-            $fields = array_values(array_filter($fields, function (CrudField $field) use ($allowed) {
+            $fields = array_values(array_filter($fields, /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+function (CrudField $field) use ($allowed) {
                 return isset($allowed[$field->name]);
             }));
         }
@@ -182,7 +335,19 @@ class SchemaArrayCrudDescriptor
      * @return array
 
      */
-    public function getListColumns(): array
+    public /**
+ * getListColumns
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+function getListColumns(): array
     {
         if (isset($this->schema['ui']['listColumns']) && is_array($this->schema['ui']['listColumns'])) {
             return array_values($this->schema['ui']['listColumns']);
@@ -228,7 +393,23 @@ class SchemaArrayCrudDescriptor
      * @return string
 
      */
-    private function inferInputType($name, $sqlType): string
+    private /**
+ * inferInputType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+function inferInputType($name, $sqlType): string
     {
         $nameLower = strtolower((string) $name);
         $typeLower = strtolower((string) $sqlType);

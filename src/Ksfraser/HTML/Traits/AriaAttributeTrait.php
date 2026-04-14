@@ -8,33 +8,185 @@ namespace Ksfraser\HTML\Traits;
 
  *
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Provides convenient methods for managing ARIA (Accessible Rich Internet Applications) attributes
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  * ARIA attributes help make dynamic Web content and advanced user interface controls
 
+ * 
+
+ * 
+
+ * 
+
  * accessible to people with disabilities.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  * Usage:
 
+ * 
+
+ * 
+
+ * 
+
  *   $element->setAriaLabel('Close dialog');
 
+ * 
+
+ * 
+
+ * 
+
  *   $element->setRole('button');
+
+ * 
+
+ * 
+
+ * 
 
  *   $button->setAriaDisabled(true);
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  *   $element
+
+ * 
+
+ * 
+
+ * 
 
  *       ->setAriaLabel('Menu')
 
+ * 
+
+ * 
+
+ * 
+
  *       ->setRole('navigation')
 
+ * 
+
+ * 
+
+ * 
+
  *       ->setAriaExpanded(false);
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -48,16 +200,23 @@ namespace Ksfraser\HTML\Traits;
 
  * @link https://www.w3.org/WAI/ARIA/apg/
 
+ * @return void
+
  */
 trait AriaAttributeTrait
 {
     /**
      * Storage for ARIA attributes
      *
+     * 
+     * 
      * Format: ['name' => $value, ...]  (without 'aria-' prefix)
+     * 
+     * 
      * 
      *
      * @var array $ariaAttributes
+     * @return void
      */
     protected array $ariaAttributes = [];
 
@@ -69,7 +228,79 @@ trait AriaAttributeTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Provides an accessible label or description for the element.
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 
@@ -95,7 +326,79 @@ trait AriaAttributeTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Defines the role of the element for accessibility (e.g., 'button', 'navigation', 'dialog')
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 
@@ -272,7 +575,73 @@ trait AriaAttributeTrait
 
      *
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Each maps to {@see setAria()} with the attribute name (without 'aria-' prefix).
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 

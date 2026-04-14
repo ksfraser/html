@@ -8,6 +8,12 @@ use Ksfraser\HTML\HtmlAttribute;
  *
  * @since 1.0.3 2026-02-21
  */
+/**
+ * HtmlAttributeTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlAttributeTest extends TestCase
 {
 /**
@@ -16,7 +22,13 @@ class HtmlAttributeTest extends TestCase
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testValidAttributeName()
+    public /**
+ * testValidAttributeName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testValidAttributeName()
     {
         $attr = new HtmlAttribute('data-test', 'value');
         $this->assertEquals('data-test', $attr->getName());
@@ -29,7 +41,13 @@ class HtmlAttributeTest extends TestCase
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testGetHtml()
+    public /**
+ * testGetHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testGetHtml()
     {
         $attr = new HtmlAttribute('id', 'foo');
         $html = $attr->getHtml();
@@ -42,7 +60,13 @@ class HtmlAttributeTest extends TestCase
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testToHtmlOutputsHtml()
+    public /**
+ * testToHtmlOutputsHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testToHtmlOutputsHtml()
     {
         $attr = new HtmlAttribute('class', 'bar');
         ob_start();
@@ -57,7 +81,13 @@ class HtmlAttributeTest extends TestCase
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testEdgeCasesEmptyValue()
+    public /**
+ * testEdgeCasesEmptyValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testEdgeCasesEmptyValue()
     {
         $attr = new HtmlAttribute('data-empty', '');
         $html = $attr->getHtml();
@@ -70,9 +100,21 @@ class HtmlAttributeTest extends TestCase
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testInvalidAttributeNameThrows()
+    public /**
+ * testInvalidAttributeNameThrows
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testInvalidAttributeNameThrows()
     {
-        $this->expectException(InvalidArgumentException::class);
+        $this->expectException(InvalidArgumentException::/**
+ * HtmlAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class);
         new HtmlAttribute('invalid name', 'value');
     }
 }

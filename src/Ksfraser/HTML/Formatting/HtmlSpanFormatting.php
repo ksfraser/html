@@ -11,6 +11,8 @@ use Ksfraser\HTML\HtmlElement;
 
  * @since 1.0.4 2026-02-21
 
+ * @return void
+
  */
 class HtmlSpanFormatting extends HtmlElement {
 /**

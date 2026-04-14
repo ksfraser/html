@@ -11,9 +11,89 @@ use Ksfraser\HTML\Elements\TableData;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SRP: Single responsibility of formatting ID cells consistently.
 
+ * 
+
+ * 
+
+ * 
+
  * Handles: ID cell styling, conversion to string, N/A fallback.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -24,6 +104,8 @@ use Ksfraser\HTML\Elements\TableData;
  * @since 1.0.1 2026-02-16
 
  * @package Ksfraser\HTML\Cells
+
+ * @return void
 
  */
 class IdTableCell extends BaseTableCell {

@@ -7,6 +7,12 @@ use Ksfraser\HTML\Elements\HtmlSection;
  *
  * @since 1.0.3 2026-02-21
  */
+/**
+ * HtmlSectionTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlSectionTest extends TestCase {
 /**
  * testGetHtml
@@ -14,8 +20,20 @@ class HtmlSectionTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testGetHtml() {
-        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+    public /**
+ * testGetHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testGetHtml() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::/**
+ * getMock
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class)->getMock();
         $mock->method('getHtml')->willReturn('section');
         $section = new HtmlSection($mock);
         $html = $section->getHtml();
@@ -30,8 +48,20 @@ class HtmlSectionTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testToHtmlOutputsHtml() {
-        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+    public /**
+ * testToHtmlOutputsHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testToHtmlOutputsHtml() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::/**
+ * getMock
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class)->getMock();
         $mock->method('getHtml')->willReturn('section');
         $section = new HtmlSection($mock);
         ob_start();
@@ -47,8 +77,20 @@ class HtmlSectionTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testEdgeCasesEmptyContent() {
-        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
+    public /**
+ * testEdgeCasesEmptyContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testEdgeCasesEmptyContent() {
+        $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::/**
+ * getMock
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class)->getMock();
         $mock->method('getHtml')->willReturn('');
         $section = new HtmlSection($mock);
         $html = $section->getHtml();

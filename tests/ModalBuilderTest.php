@@ -11,6 +11,12 @@ use Ksfraser\HTML\Elements\Stylesheet;
  *
  * @since 1.0.1 2026-02-16
  */
+/**
+ * ModalBuilderTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class ModalBuilderTest extends TestCase
 {
 /**
@@ -19,7 +25,13 @@ class ModalBuilderTest extends TestCase
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testModalBuilderConstructorSetsId()
+    public /**
+ * testModalBuilderConstructorSetsId
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testModalBuilderConstructorSetsId()
     {
         $builder = new ModalBuilder('custom-modal');
         $modal = $builder->build();
@@ -34,7 +46,13 @@ class ModalBuilderTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testModalBuilderDefaultId()
+    public /**
+ * testModalBuilderDefaultId
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testModalBuilderDefaultId()
     {
         $builder = new ModalBuilder();
         $modal = $builder->build();
@@ -49,7 +67,13 @@ class ModalBuilderTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testAddHeading()
+    public /**
+ * testAddHeading
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddHeading()
     {
         $builder = new ModalBuilder();
         $builder->addHeading('Test Heading', 2);
@@ -66,7 +90,13 @@ class ModalBuilderTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testAddParagraph()
+    public /**
+ * testAddParagraph
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddParagraph()
     {
         $builder = new ModalBuilder();
         $builder->addParagraph('This is a test paragraph.');
@@ -82,7 +112,13 @@ class ModalBuilderTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testAddTable()
+    public /**
+ * testAddTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddTable()
     {
         $builder = new ModalBuilder();
         $table = new Table();
@@ -99,7 +135,13 @@ class ModalBuilderTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testAddCloseButton()
+    public /**
+ * testAddCloseButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddCloseButton()
     {
         $builder = new ModalBuilder();
         $builder->addCloseButton();
@@ -117,7 +159,13 @@ class ModalBuilderTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testAddCloseButtonCustomText()
+    public /**
+ * testAddCloseButtonCustomText
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddCloseButtonCustomText()
     {
         $builder = new ModalBuilder();
         $builder->addCloseButton('Dismiss');
@@ -133,7 +181,13 @@ class ModalBuilderTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testAddCloseButtonCustomHandler()
+    public /**
+ * testAddCloseButtonCustomHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddCloseButtonCustomHandler()
     {
         $builder = new ModalBuilder();
         $builder->addCloseButton('Close', 'customCloseFunction()');
@@ -149,7 +203,13 @@ class ModalBuilderTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testAddRawHtml()
+    public /**
+ * testAddRawHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddRawHtml()
     {
         $builder = new ModalBuilder();
         $builder->addRawHtml('<div class="custom">Custom HTML</div>');
@@ -165,7 +225,13 @@ class ModalBuilderTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testFluentInterface()
+    public /**
+ * testFluentInterface
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testFluentInterface()
     {
         $builder = new ModalBuilder();
         $modal = $builder
@@ -186,11 +252,23 @@ class ModalBuilderTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testGetStylesheet()
+    public /**
+ * testGetStylesheet
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testGetStylesheet()
     {
         $stylesheet = ModalBuilder::getStylesheet();
         
-        $this->assertInstanceOf(Stylesheet::class, $stylesheet);
+        $this->assertInstanceOf(Stylesheet::/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $stylesheet);
         
         $html = $stylesheet->getHtml();
         $this->assertStringContainsString('<link', $html);

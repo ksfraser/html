@@ -8,6 +8,12 @@ use Ksfraser\HTML\HtmlElementInterface;
  *
  * @since 1.0.3 2026-02-21
  */
+/**
+ * HtmlElementTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlElementTest extends TestCase {
 /**
  * testConstructAndImplementsInterface
@@ -15,9 +21,21 @@ class HtmlElementTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testConstructAndImplementsInterface() {
+    public /**
+ * testConstructAndImplementsInterface
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testConstructAndImplementsInterface() {
         $element = new HtmlElement();
-        $this->assertInstanceOf(HtmlElementInterface::class, $element);
+        $this->assertInstanceOf(HtmlElementInterface::/**
+ * testAddNestedReturnsSelf
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $element);
     }
 
 /**
@@ -26,7 +44,13 @@ class HtmlElementTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testAddNestedReturnsSelf() {
+    public /**
+ * testAddNestedReturnsSelf
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddNestedReturnsSelf() {
         $element = new HtmlElement();
         $child = new HtmlElement();
         $result = $element->addNested($child);
@@ -39,7 +63,13 @@ class HtmlElementTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testSetTagAndGetHtml() {
+    public /**
+ * testSetTagAndGetHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetTagAndGetHtml() {
         $element = new HtmlElement();
         $element->setTag('div');
         $html = $element->getHtml();
@@ -53,7 +83,13 @@ class HtmlElementTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testSetAttributeAndGetHtml() {
+    public /**
+ * testSetAttributeAndGetHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAttributeAndGetHtml() {
         $element = new HtmlElement();
         $element->setTag('span')->setAttribute('id', 'foo');
         $html = $element->getHtml();
@@ -66,7 +102,13 @@ class HtmlElementTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testToHtmlOutputsHtml() {
+    public /**
+ * testToHtmlOutputsHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testToHtmlOutputsHtml() {
         $element = new HtmlElement();
         $element->setTag('p')->setAttribute('class', 'bar');
         ob_start();
@@ -82,7 +124,13 @@ class HtmlElementTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testAddNestedChildRendersHtml() {
+    public /**
+ * testAddNestedChildRendersHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddNestedChildRendersHtml() {
         $parent = new HtmlElement();
         $parent->setTag('div');
         $child = new HtmlElement();
@@ -98,7 +146,13 @@ class HtmlElementTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testEdgeCasesEmptyElement() {
+    public /**
+ * testEdgeCasesEmptyElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testEdgeCasesEmptyElement() {
         $element = new HtmlElement();
         $element->setTag('br');
         // Simulate empty element

@@ -12,27 +12,161 @@ use Ksfraser\HTML\HtmlAttribute;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Extends HtmlEmptyElement to generate properly formatted <link rel="stylesheet"> tags.
+
+ * 
+
+ * 
+
+ * 
 
  * Provides fluent interface for setting href and rel attributes with security encoding.
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Usage:
+
+ * 
+
+ * 
+
+ * 
 
  * ```php
 
+ * 
+
+ * 
+
+ * 
+
  * $stylesheet = (new Stylesheet())
+
+ * 
+
+ * 
+
+ * 
 
  *     ->setHref('https://example.com/styles.css')
 
+ * 
+
+ * 
+
+ * 
+
  *     ->setRel('stylesheet');
+
+ * 
+
+ * 
+
+ * 
 
  * echo $stylesheet->getHtml();
 
+ * 
+
+ * 
+
+ * 
+
  * // Output: <link rel="stylesheet" href="https://example.com/styles.css" />
 
+ * 
+
+ * 
+
+ * 
+
  * ```
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -43,6 +177,8 @@ use Ksfraser\HTML\HtmlAttribute;
  * @since v1.0.0 2026-04-11
 
  * @package Ksfraser\HTML\Elements
+
+ * @return void
 
  */
 class Stylesheet extends HtmlEmptyElement
@@ -67,9 +203,87 @@ class Stylesheet extends HtmlEmptyElement
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Automatically applies security encoding to prevent XSS attacks
 
+     * 
+
+     * 
+
+     * 
+
      * and ensure valid HTML attribute syntax.
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 

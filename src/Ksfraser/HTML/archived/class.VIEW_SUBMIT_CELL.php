@@ -9,6 +9,7 @@ require_once( 'class.VIEW_CELL.php' );
  * VIEW_SUBMIT_CELL.
  *
  * @since v1.0.0 2025-04-23
+ * @return void
  */
 class VIEW_SUBMIT_CELL extends VIEW_CELL
 {

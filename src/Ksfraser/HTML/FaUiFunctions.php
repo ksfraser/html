@@ -17,7 +17,63 @@ require_once(FA_ROOT . "/includes/ui/ui_controls.inc");
 
  *
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * This allows us to decouple our HTML components from FA's UI functions
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -25,6 +81,14 @@ require_once(FA_ROOT . "/includes/ui/ui_controls.inc");
 
  * @since 1.0.1 2026-02-16
 
+ * @return void
+
+ */
+/**
+ * FaUiFunctions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 class FaUiFunctions {
     const TABLESTYLE2 = 2; // Matching FA's constant
@@ -46,7 +110,16 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function label_row($label, $content, $params="")
+    public static /**
+ * label_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+function label_row($label, $content, $params="")
     {
         // Check for function in global namespace
         if (function_exists('\\label_row')) {
@@ -71,7 +144,15 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function start_table($type = self::TABLESTYLE2, $params="")
+    public static /**
+ * start_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+function start_table($type = self::TABLESTYLE2, $params="")
     {
         if (function_exists('\\start_table')) {
             call_user_func('\\start_table', $type, $params);
@@ -93,7 +174,14 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function end_table($breaks=0)
+    public static /**
+ * end_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @return void
+ */
+function end_table($breaks=0)
     {
         if (function_exists('\\end_table')) {
             call_user_func('\\end_table', $breaks);
@@ -117,7 +205,15 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function table_header($labels, $params='')
+    public static /**
+ * table_header
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+function table_header($labels, $params='')
     {
         if (function_exists('\\table_header')) {
             call_user_func('\\table_header', $labels, $params);
@@ -143,7 +239,14 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function start_row($param="")
+    public static /**
+ * start_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $param
+ * @return void
+ */
+function start_row($param="")
     {
         if (function_exists('\\start_row')) {
             call_user_func('\\start_row', $param);
@@ -163,7 +266,13 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function end_row()
+    public static /**
+ * end_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function end_row()
     {
         if (function_exists('\\end_row')) {
             call_user_func('\\end_row');
@@ -193,7 +302,18 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function label_cells($label, $value, $params="", $params2="", $id=null)
+    public static /**
+ * label_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+function label_cells($label, $value, $params="", $params2="", $id=null)
     {
         if (function_exists('\\label_cells')) {
             call_user_func('\\label_cells', $label, $value, $params, $params2, $id);
@@ -232,7 +352,16 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function label_cell($label, $params="", $id=null)
+    public static /**
+ * label_cell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+function label_cell($label, $params="", $id=null)
     {
         if (function_exists('\\label_cell')) {
             call_user_func('\\label_cell', $label, $params, $id);
@@ -271,7 +400,19 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function number_list_cells($label, $name, $selected, $from, $to, $no_option=false)
+    public static /**
+ * number_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+function number_list_cells($label, $name, $selected, $from, $to, $no_option=false)
     {
         if (function_exists('\\number_list_cells')) {
             call_user_func('\\number_list_cells', $label, $name, $selected, $from, $to, $no_option);
@@ -324,7 +465,19 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function check_cells($label, $name, $value=null, $submit_on_change=false, $title=false, $params='')
+    public static /**
+ * check_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+function check_cells($label, $name, $value=null, $submit_on_change=false, $title=false, $params='')
     {
         if (function_exists('\\check_cells')) {
             call_user_func('\\check_cells', $label, $name, $value, $submit_on_change, $title, $params);
@@ -368,7 +521,18 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function submit_cells($name, $value, $extra="", $title=false, $async=false)
+    public static /**
+ * submit_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+function submit_cells($name, $value, $extra="", $title=false, $async=false)
     {
         if (function_exists('\\submit_cells')) {
             call_user_func('\\submit_cells', $name, $value, $extra, $title, $async);
@@ -418,7 +582,22 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function text_cells($label, $name, $value=null, $size="", $max="", $title=false, $labparams="", $post_label="", $inparams="")
+    public static /**
+ * text_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+function text_cells($label, $name, $value=null, $size="", $max="", $title=false, $labparams="", $post_label="", $inparams="")
     {
         if (function_exists('\\text_cells')) {
             call_user_func('\\text_cells', $label, $name, $value, $size, $max, $title, $labparams, $post_label, $inparams);
@@ -468,7 +647,16 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function file_cells($label, $name, $id="")
+    public static /**
+ * file_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+function file_cells($label, $name, $id="")
     {
         if (function_exists('\\file_cells')) {
             call_user_func('\\file_cells', $label, $name, $id);
@@ -510,7 +698,21 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function amount_cells_ex($label, $name, $size, $max=null, $init=null, $params=null, $post_label=null, $dec=null)
+    public static /**
+ * amount_cells_ex
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+function amount_cells_ex($label, $name, $size, $max=null, $init=null, $params=null, $post_label=null, $dec=null)
     {
         if (function_exists('\\amount_cells_ex')) {
             call_user_func('\\amount_cells_ex', $label, $name, $size, $max, $init, $params, $post_label, $dec);
@@ -581,7 +783,19 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function amount_cells($label, $name, $init=null, $params=null, $post_label=null, $dec=null)
+    public static /**
+ * amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+function amount_cells($label, $name, $init=null, $params=null, $post_label=null, $dec=null)
     {
         self::amount_cells_ex($label, $name, 15, 15, $init, $params, $post_label, $dec);
     }
@@ -609,7 +823,19 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function unit_amount_cells($label, $name, $init=null, $params=null, $post_label=null, $dec=null)
+    public static /**
+ * unit_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+function unit_amount_cells($label, $name, $init=null, $params=null, $post_label=null, $dec=null)
     {
         if (!isset($dec)) {
             if (function_exists('\\user_price_dec')) {
@@ -648,7 +874,21 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function text_row($label, $name, $value, $size, $max, $title=null, $params="", $post_label="")
+    public static /**
+ * text_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+function text_row($label, $name, $value, $size, $max, $title=null, $params="", $post_label="")
     {
         if (function_exists('\\text_row')) {
             call_user_func('\\text_row', $label, $name, $value, $size, $max, $title, $params, $post_label);
@@ -684,7 +924,19 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function amount_row($label, $name, $init=null, $params=null, $post_label=null, $dec=null)
+    public static /**
+ * amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+function amount_row($label, $name, $init=null, $params=null, $post_label=null, $dec=null)
     {
         if (function_exists('\\amount_row')) {
             call_user_func('\\amount_row', $label, $name, $init, $params, $post_label, $dec);
@@ -725,7 +977,22 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function date_cells($label, $name, $title = null, $check=null, $inc_days=0, $inc_months=0, $inc_years=0, $params=null, $submit_on_change=false)
+    public static /**
+ * date_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+function date_cells($label, $name, $title = null, $check=null, $inc_days=0, $inc_months=0, $inc_years=0, $params=null, $submit_on_change=false)
     {
         if (function_exists('\\date_cells')) {
             call_user_func('\\date_cells', $label, $name, $title, $check, $inc_days, $inc_months, $inc_years, $params, $submit_on_change);
@@ -808,7 +1075,22 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function date_row($label, $name, $title=null, $check=null, $inc_days=0, $inc_months=0, $inc_years=0, $params=null, $submit_on_change=false)
+    public static /**
+ * date_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+function date_row($label, $name, $title=null, $check=null, $inc_days=0, $inc_months=0, $inc_years=0, $params=null, $submit_on_change=false)
     {
         if (function_exists('\\date_row')) {
             call_user_func('\\date_row', $label, $name, $title, $check, $inc_days, $inc_months, $inc_years, $params, $submit_on_change);
@@ -848,7 +1130,21 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function email_row($label, $name, $value, $size, $max, $title=null, $params="", $post_label="")
+    public static /**
+ * email_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+function email_row($label, $name, $value, $size, $max, $title=null, $params="", $post_label="")
     {
         if (function_exists('\\email_row')) {
             call_user_func('\\email_row', $label, $name, $value, $size, $max, $title, $params, $post_label);
@@ -889,7 +1185,21 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function link_row($label, $name, $value, $size, $max, $title=null, $params="", $post_label="")
+    public static /**
+ * link_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+function link_row($label, $name, $value, $size, $max, $title=null, $params="", $post_label="")
     {
         if (function_exists('\\link_row')) {
             call_user_func('\\link_row', $label, $name, $value, $size, $max, $title, $params, $post_label);
@@ -924,7 +1234,16 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function password_row($label, $name, $value)
+    public static /**
+ * password_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+function password_row($label, $name, $value)
     {
         if (function_exists('\\password_row')) {
             call_user_func('\\password_row', $label, $name, $value);
@@ -956,7 +1275,16 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function file_row($label, $name, $id = "")
+    public static /**
+ * file_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+function file_row($label, $name, $id = "")
     {
         if (function_exists('\\file_row')) {
             call_user_func('\\file_row', $label, $name, $id);
@@ -996,7 +1324,21 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function ref_cells($label, $name, $title=null, $init=null, $params=null, $submit_on_change=false, $type=null, $context=null)
+    public static /**
+ * ref_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+function ref_cells($label, $name, $title=null, $init=null, $params=null, $submit_on_change=false, $type=null, $context=null)
     {
         if (function_exists('\\ref_cells')) {
             call_user_func('\\ref_cells', $label, $name, $title, $init, $params, $submit_on_change, $type, $context);
@@ -1040,7 +1382,19 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function small_amount_cells($label, $name, $init=null, $params=null, $post_label=null, $dec=null)
+    public static /**
+ * small_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+function small_amount_cells($label, $name, $init=null, $params=null, $post_label=null, $dec=null)
     {
         if (function_exists('\\small_amount_cells')) {
             call_user_func('\\small_amount_cells', $label, $name, $init, $params, $post_label, $dec);
@@ -1073,7 +1427,19 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function small_amount_row($label, $name, $init=null, $params=null, $post_label=null, $dec=null)
+    public static /**
+ * small_amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+function small_amount_row($label, $name, $init=null, $params=null, $post_label=null, $dec=null)
     {
         if (function_exists('\\small_amount_row')) {
             call_user_func('\\small_amount_row', $label, $name, $init, $params, $post_label, $dec);
@@ -1110,7 +1476,20 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function ref_row($label, $name, $title=null, $init=null, $submit_on_change=false, $type=null, $context = null)
+    public static /**
+ * ref_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+function ref_row($label, $name, $title=null, $init=null, $submit_on_change=false, $type=null, $context = null)
     {
         if (function_exists('\\ref_row')) {
             call_user_func('\\ref_row', $label, $name, $title, $init, $submit_on_change, $type, $context);
@@ -1140,7 +1519,16 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function percent_row($label, $name, $init=null)
+    public static /**
+ * percent_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+function percent_row($label, $name, $init=null)
     {
         if (function_exists('\\percent_row')) {
             call_user_func('\\percent_row', $label, $name, $init);
@@ -1177,7 +1565,19 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function qty_row($label, $name, $init=null, $params=null, $post_label=null, $dec=null)
+    public static /**
+ * qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+function qty_row($label, $name, $init=null, $params=null, $post_label=null, $dec=null)
     {
         if (function_exists('\\qty_row')) {
             call_user_func('\\qty_row', $label, $name, $init, $params, $post_label, $dec);
@@ -1213,7 +1613,19 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function small_qty_row($label, $name, $init=null, $params=null, $post_label=null, $dec=null)
+    public static /**
+ * small_qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+function small_qty_row($label, $name, $init=null, $params=null, $post_label=null, $dec=null)
     {
         if (function_exists('\\small_qty_row')) {
             call_user_func('\\small_qty_row', $label, $name, $init, $params, $post_label, $dec);
@@ -1251,7 +1663,20 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function combo_list_cells($sql, $order_by_field, $label, $name, $selected_id = null, $none_option=false, $submit_on_change=false)
+    public static /**
+ * combo_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+function combo_list_cells($sql, $order_by_field, $label, $name, $selected_id = null, $none_option=false, $submit_on_change=false)
     {
         if (function_exists('\\combo_list_cells')) {
             call_user_func('\\combo_list_cells', $sql, $order_by_field, $label, $name, $selected_id, $none_option, $submit_on_change);
@@ -1325,7 +1750,21 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function textarea_cells($label, $name, $value, $cols, $rows, $max=255, $title = null, $params="")
+    public static /**
+ * textarea_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+function textarea_cells($label, $name, $value, $cols, $rows, $max=255, $title = null, $params="")
     {
         if (function_exists('\\textarea_cells')) {
             call_user_func('\\textarea_cells', $label, $name, $value, $cols, $rows, $max, $title, $params);
@@ -1383,7 +1822,21 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function textarea_row($label, $name, $value, $cols, $rows, $max=255, $title=null, $params="")
+    public static /**
+ * textarea_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+function textarea_row($label, $name, $value, $cols, $rows, $max=255, $title=null, $params="")
     {
         if (function_exists('\\textarea_row')) {
             call_user_func('\\textarea_row', $label, $name, $value, $cols, $rows, $max, $title, $params);
@@ -1417,7 +1870,18 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function check_row($label, $name, $value=null, $submit_on_change=false, $title=false)
+    public static /**
+ * check_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+function check_row($label, $name, $value=null, $submit_on_change=false, $title=false)
     {
         if (function_exists('\\check_row')) {
             call_user_func('\\check_row', $label, $name, $value, $submit_on_change, $title);
@@ -1453,7 +1917,19 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function submit_row($name, $value, $right=true, $extra="", $title=false, $async=false)
+    public static /**
+ * submit_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+function submit_row($name, $value, $right=true, $extra="", $title=false, $async=false)
     {
         if (function_exists('\\submit_row')) {
             call_user_func('\\submit_row', $name, $value, $right, $extra, $title, $async);
@@ -1489,7 +1965,18 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function start_outer_table($class=false, $extra="", $padding='2', $spacing='0', $br=false)
+    public static /**
+ * start_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+function start_outer_table($class=false, $extra="", $padding='2', $spacing='0', $br=false)
     {
         if (function_exists('\\start_outer_table')) {
             call_user_func('\\start_outer_table', $class, $extra, $padding, $spacing, $br);
@@ -1518,7 +2005,15 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function table_section($number=1, $width=false)
+    public static /**
+ * table_section
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+function table_section($number=1, $width=false)
     {
         if (function_exists('\\table_section')) {
             call_user_func('\\table_section', $number, $width);
@@ -1549,7 +2044,15 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function end_outer_table($breaks=0, $close_table=true)
+    public static /**
+ * end_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+function end_outer_table($breaks=0, $close_table=true)
     {
         if (function_exists('\\end_outer_table')) {
             call_user_func('\\end_outer_table', $breaks, $close_table);
@@ -1579,7 +2082,15 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function alt_table_row_color(&$k, $extra_class=null)
+    public static /**
+ * alt_table_row_color
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+function alt_table_row_color(&$k, $extra_class=null)
     {
         if (function_exists('\\alt_table_row_color')) {
             call_user_func('\\alt_table_row_color', $k, $extra_class);
@@ -1612,7 +2123,15 @@ class FaUiFunctions {
  * @return void
 
  */
-    public static function table_section_title($msg, $colspan=2)
+    public static /**
+ * table_section_title
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+function table_section_title($msg, $colspan=2)
     {
         if (function_exists('\\table_section_title')) {
             call_user_func('\\table_section_title', $msg, $colspan);

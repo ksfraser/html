@@ -14,31 +14,189 @@ use Exception;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * This abstract base class implements the Template Method pattern.
+
+ * 
+
+ * 
+
+ * 
 
  * Subclasses must set $label and $data properties before calling parent::__construct().
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Example:
+
+ * 
+
+ * 
+
+ * 
 
  * ```php
 
+ * 
+
+ * 
+
+ * 
+
  * class TransType extends LabelRowBase {
+
+ * 
+
+ * 
+
+ * 
 
  *     function __construct($bi_lineitem) {
 
+ * 
+
+ * 
+
+ * 
+
  *         $this->label = "Trans Type:";
+
+ * 
+
+ * 
+
+ * 
 
  *         $this->data = "Credit"; // Derived from $bi_lineitem
 
+ * 
+
+ * 
+
+ * 
+
  *         parent::__construct("");
+
+ * 
+
+ * 
+
+ * 
 
  *     }
 
+ * 
+
+ * 
+
+ * 
+
  * }
 
+ * 
+
+ * 
+
+ * 
+
  * ```
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -54,6 +212,8 @@ use Exception;
 
  * @version 20251019.2 - Made class abstract (cannot be instantiated directly)
 
+ * @return void
+
  */
 abstract class LabelRowBase implements HtmlElementInterface
 {
@@ -61,6 +221,7 @@ abstract class LabelRowBase implements HtmlElementInterface
 	 * The underlying row component
 	 *
 	 * @var HTML_ROW_LABEL
+	 * @return void
 	 */
 	protected $row;
 	
@@ -72,6 +233,8 @@ abstract class LabelRowBase implements HtmlElementInterface
 	
 	 * @var string
 	
+	 * @return void
+	
 	 */
 	protected $label;
 	
@@ -82,6 +245,8 @@ abstract class LabelRowBase implements HtmlElementInterface
 	 *
 	
 	 * @var string
+	
+	 * @return void
 	
 	 */
 	protected $data;
@@ -142,13 +307,85 @@ abstract class LabelRowBase implements HtmlElementInterface
 	
 	 *
 	
+	 * 	
+	
+	 * 	
+	
 	 * 
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
 	
 	 * /**
 	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
 	 * toHtml()
 	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
 	 * 
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
 	
 	 *
 	

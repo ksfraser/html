@@ -13,13 +13,77 @@ use Ksfraser\HTML\Typescript\HtmlTypeScriptString;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Generates: <script type="application/typescript">...</script>
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  *
 
  * @since v1.0.0 2026-04-11
+
+ * @return void
 
  */
 class HtmlScriptTypeScript extends HtmlScript

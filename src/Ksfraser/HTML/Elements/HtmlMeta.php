@@ -13,6 +13,8 @@ use Ksfraser\HTML\Elements\HtmlString;
 
  * @since v1.0.0 2026-04-11
 
+ * @return void
+
  */
 class HtmlMeta extends HtmlElement {
 /**

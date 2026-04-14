@@ -12,13 +12,73 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * This class is a simple wrapper for a string to implement the HtmlElementInterface.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  * NOTE: HtmlNameValue extends this class because their implementations are currently identical.
 
+ * 
+
+ * 
+
+ * 
+
  * If HtmlString is refactored or its implementation changes, HtmlNameValue should be re-examined for correctness.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -26,9 +86,43 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  *
 
  * @since v1.0.0 2026-04-11
+
+ * @return void
 
  */
 class HtmlString implements HtmlElementInterface
@@ -60,7 +154,11 @@ class HtmlString implements HtmlElementInterface
         /**
          * Renders the object in HTML.
          *
+         * 
+         * 
          * The Html is echoed directly into the output.
+         * 
+         * 
          * 
          *
          * @since v1.0.0 2026-04-13

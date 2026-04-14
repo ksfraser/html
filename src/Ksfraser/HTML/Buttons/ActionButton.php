@@ -13,35 +13,205 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Base class for specialized action buttons (Edit, Delete, Add, Cancel).
 
+ * 
+
+ * 
+
+ * 
+
  * Follows Single Responsibility Principle by encapsulating button-specific logic
+
+ * 
+
+ * 
+
+ * 
 
  * for common CRUD operations.
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Design Patterns:
+
+ * 
+
+ * 
+
+ * 
 
  * - Template Method: Defines structure for action buttons
 
+ * 
+
+ * 
+
+ * 
+
  * - Strategy Pattern: Subclasses implement specific action behaviors
+
+ * 
+
+ * 
+
+ * 
 
  * - Builder Pattern: Fluent interface for chaining attributes
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SOLID Principles:
+
+ * 
+
+ * 
+
+ * 
 
  * - Single Responsibility: Only handles action-specific button generation
 
+ * 
+
+ * 
+
+ * 
+
  * - Open/Closed: Open for extension via subclasses, closed for modification
+
+ * 
+
+ * 
+
+ * 
 
  * - Liskov Substitution: Can replace HtmlInputButton safely
 
+ * 
+
+ * 
+
+ * 
+
  * - Interface Segregation: Implements HtmlElementInterface appropriately
 
+ * 
+
+ * 
+
+ * 
+
  * - Dependency Inversion: Depends on HtmlElementInterface abstraction
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -57,12 +227,15 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * @author Kevin Fraser
 
+ * @return void
+
  */
 abstract class ActionButton extends HtmlInputGenericButton
 {
     /**
      *
      * @var string The JavaScript function call for the onclick handler
+     * @return void
      */
     protected $onclickFunction = '';
 
@@ -72,6 +245,8 @@ abstract class ActionButton extends HtmlInputGenericButton
 
      * @var string The action identifier (id, row id, etc.)
 
+     * @return void
+
      */
     protected $actionId;
 
@@ -80,6 +255,8 @@ abstract class ActionButton extends HtmlInputGenericButton
      *
 
      * @var string The action name (edit, delete, etc.)
+
+     * @return void
 
      */
     protected $actionName;
@@ -115,7 +292,67 @@ abstract class ActionButton extends HtmlInputGenericButton
 
      *
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Implemented by subclasses for specific action behavior.
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 

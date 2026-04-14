@@ -13,25 +13,115 @@ use Ksfraser\HTML\Elements\HtmlString;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Specialized button for form submission.
+
+ * 
+
+ * 
+
+ * 
 
  * Encapsulates submit button styling and behavior.
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Features:
+
+ * 
+
+ * 
+
+ * 
 
  * - Primary styling by default (blue background)
 
+ * 
+
+ * 
+
+ * 
+
  * - Type="submit" for form submission
+
+ * 
+
+ * 
+
+ * 
 
  * - JavaScript function call support for validation
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SOLID Principles:
 
+ * 
+
+ * 
+
+ * 
+
  * - Single Responsibility: Only handles submit button generation
+
+ * 
+
+ * 
+
+ * 
 
  * - Open/Closed: Can be extended for custom submit behaviors
 
@@ -39,15 +129,107 @@ use Ksfraser\HTML\Elements\HtmlString;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * ```php
+
+ * 
+
+ * 
+
+ * 
 
  * $submitBtn = new SubmitButton(new HtmlString('Save'));
 
+ * 
+
+ * 
+
+ * 
+
  * $submitBtn->setOnclickFunction("return validateForm();");
+
+ * 
+
+ * 
+
+ * 
 
  * echo $submitBtn->getHtml();
 
+ * 
+
+ * 
+
+ * 
+
  * ```
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -60,6 +242,8 @@ use Ksfraser\HTML\Elements\HtmlString;
  * @author Kevin Fraser
 
  * @example 
+
+ * @return void
 
  */
 class SubmitButton extends ActionButton

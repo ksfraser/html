@@ -12,27 +12,133 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * https://www.w3schools.com/html/html_styles.asp
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  * Examples
 
+ * 
+
+ * 
+
+ * 
+
  * 	background-color
+
+ * 
+
+ * 
+
+ * 
 
  * 	color
 
+ * 
+
+ * 
+
+ * 
+
  * 	font-family
+
+ * 
+
+ * 
+
+ * 
 
  * 	font-size
 
+ * 
+
+ * 
+
+ * 
+
  * 	text-align
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  *
 
  * @since 1.0.1 2026-02-16
+
+ * @return void
 
  */
 class HtmlStyleList implements HtmlElementInterface

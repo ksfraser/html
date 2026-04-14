@@ -12,25 +12,115 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Specialized button for cancel actions.
+
+ * 
+
+ * 
+
+ * 
 
  * Encapsulates cancel button styling and behavior.
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Features:
+
+ * 
+
+ * 
+
+ * 
 
  * - Secondary styling by default (gray background)
 
+ * 
+
+ * 
+
+ * 
+
  * - JavaScript function call support for custom cancel handlers
+
+ * 
+
+ * 
+
+ * 
 
  * - Optional redirect functionality
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SOLID Principles:
 
+ * 
+
+ * 
+
+ * 
+
  * - Single Responsibility: Only handles cancel button generation
+
+ * 
+
+ * 
+
+ * 
 
  * - Open/Closed: Can be extended for custom cancel behaviors
 
@@ -38,15 +128,107 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * ```php
+
+ * 
+
+ * 
+
+ * 
 
  * $cancelBtn = new CancelButton(new HtmlString('Cancel'));
 
+ * 
+
+ * 
+
+ * 
+
  * $cancelBtn->setOnclickFunction("window.history.back();");
+
+ * 
+
+ * 
+
+ * 
 
  * echo $cancelBtn->getHtml();
 
+ * 
+
+ * 
+
+ * 
+
  * ```
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -60,6 +242,8 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * @example 
 
+ * @return void
+
  */
 class CancelButton extends ActionButton
 {
@@ -67,6 +251,7 @@ class CancelButton extends ActionButton
      * Constructor
      *
      * @param HtmlElementInterface|null $label The button label (default: "Cancel")
+     * @return void
      */
     /**
      *

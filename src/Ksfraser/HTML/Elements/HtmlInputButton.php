@@ -14,9 +14,51 @@ use Ksfraser\HTML\HtmlAttribute;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Abstract base class for HTML input elements of type button, submit, and reset.
 
+ * 
+
+ * 
+
+ * 
+
  * These elements share common behavior: they're self-closing, have a value attribute
+
+ * 
+
+ * 
+
+ * 
 
  * for their label, and support common button attributes.
 
@@ -24,39 +66,197 @@ use Ksfraser\HTML\HtmlAttribute;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * ```php
+
+ * 
+
+ * 
+
+ * 
 
  * $submit = new HtmlInputButton("submit", new HtmlString("Save"));
 
+ * 
+
+ * 
+
+ * 
+
  * $submit->setName("save_btn")->setClass("btn btn-primary");
+
+ * 
+
+ * 
+
+ * 
 
  * echo $submit->getHtml();
 
+ * 
+
+ * 
+
+ * 
+
  * // Output: <input type="submit" value="Save" name="save_btn" class="btn btn-primary" />
+
+ * 
+
+ * 
+
+ * 
 
  * ```
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Design Patterns:
 
+ * 
+
+ * 
+
+ * 
+
  * - **Template Method**: Defines structure for button-type inputs
+
+ * 
+
+ * 
+
+ * 
 
  * - **Builder**: Fluent interface for setting attributes
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SOLID Principles Applied:
+
+ * 
+
+ * 
+
+ * 
 
  * - **Single Responsibility**: Handles only button-type input generation
 
+ * 
+
+ * 
+
+ * 
+
  * - **Open/Closed**: Open for extension (subclasses), closed for modification
+
+ * 
+
+ * 
+
+ * 
 
  * - **Liskov Substitution**: Can be used anywhere HtmlEmptyElement is expected
 
+ * 
+
+ * 
+
+ * 
+
  * - **Interface Segregation**: Implements HtmlElementInterface appropriately
 
+ * 
+
+ * 
+
+ * 
+
  * - **Dependency Inversion**: Depends on HtmlElementInterface abstraction
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -68,6 +268,8 @@ use Ksfraser\HTML\HtmlAttribute;
 
  * @example 
 
+ * @return void
+
  */
 class HtmlInputButton extends HtmlEmptyElement
 {
@@ -75,6 +277,7 @@ class HtmlInputButton extends HtmlEmptyElement
 	 * The label/text displayed on the button
 	 *
 	 * @var HtmlElementInterface
+	 * @return void
 	 */
 	protected $label;
 
@@ -85,6 +288,8 @@ class HtmlInputButton extends HtmlEmptyElement
 	 *
 
 	 * @var string
+
+	 * @return void
 
 	 */
 	protected $buttonType;

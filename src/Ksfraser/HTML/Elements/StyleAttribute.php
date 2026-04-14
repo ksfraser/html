@@ -12,7 +12,49 @@ use Ksfraser\HTML\HtmlAttribute;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * A Style is an attribute with KEY Style and value param:setting
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -20,17 +62,71 @@ use Ksfraser\HTML\HtmlAttribute;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  *   Examples:
+
+ * 
+
+ * 
+
+ * 
 
  *     background-color
 
+ * 
+
+ * 
+
+ * 
+
  *     color
+
+ * 
+
+ * 
+
+ * 
 
  *     font-family
 
+ * 
+
+ * 
+
+ * 
+
  *     font-size
 
+ * 
+
+ * 
+
+ * 
+
  *     text-align
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -38,9 +134,43 @@ use Ksfraser\HTML\HtmlAttribute;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  *
 
  * @since v1.0.0 2026-04-11
+
+ * @return void
 
  */
 class StyleAttribute extends HtmlAttribute

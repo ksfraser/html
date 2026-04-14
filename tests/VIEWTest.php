@@ -7,6 +7,12 @@ use PHPUnit\Framework\TestCase;
  *
  * @since 1.0.1 2026-02-16
  */
+/**
+ * VIEWTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class VIEWTest extends TestCase
 {
     /**
@@ -14,10 +20,22 @@ class VIEWTest extends TestCase
  * @return void
  * @since 1.0.1 2026-02-16
      */
-    public function testConstructor()
+    public /**
+ * testConstructor
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testConstructor()
     {
         $view = new VIEW();
-        $this->assertInstanceOf(VIEW::class, $view);
+        $this->assertInstanceOf(VIEW::/**
+ * testSetVar
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $view);
     }
 
     /**
@@ -25,7 +43,13 @@ class VIEWTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetVar()
+    public /**
+ * testSetVar
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetVar()
     {
         $view = new VIEW();
         $view->set_var('key', 'value');
@@ -37,7 +61,13 @@ class VIEWTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testDisplayTableWithEdit()
+    public /**
+ * testDisplayTableWithEdit
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testDisplayTableWithEdit()
     {
         $view = new VIEW();
         $sql = "SELECT * FROM test_table";

@@ -7,6 +7,12 @@ use Ksfraser\HTML\Attributes\HtmlStyleList;
  *
  * @since 1.0.3 2026-02-21
  */
+/**
+ * HtmlStyleListTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlStyleListTest extends TestCase {
 /**
  * testInstance
@@ -14,9 +20,21 @@ class HtmlStyleListTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testInstance() {
+    public /**
+ * testInstance
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testInstance() {
         $styleList = new HtmlStyleList(['color: red', 'font-size: 12px']);
-        $this->assertInstanceOf(HtmlStyleList::class, $styleList);
+        $this->assertInstanceOf(HtmlStyleList::/**
+ * No description.
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $styleList);
     }
 
     // Add more tests for all public methods and edge cases

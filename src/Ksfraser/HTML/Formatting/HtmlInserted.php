@@ -10,6 +10,8 @@ namespace Ksfraser\HTML\Formatting;
 
  * @since 1.0.3 2026-02-21
 
+ * @return void
+
  */
 class HtmlInserted extends HtmlFormatting
 {

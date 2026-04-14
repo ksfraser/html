@@ -14,6 +14,14 @@ use Ksfraser\HTML\Elements\HtmlString;
 
  * @since 1.0.1 2026-02-16
 
+ * @return void
+
+ */
+/**
+ * HtmlLi
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 class HtmlLi extends HtmlElement
 {
@@ -24,7 +32,14 @@ class HtmlLi extends HtmlElement
  * @param string|HtmlElementInterface|null $data
  * @return void
  */
-	public function __construct(string|HtmlElementInterface|null $data = null)
+	public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+function __construct(string|HtmlElementInterface|null $data = null)
 	{
 		if (is_string($data)) {
 			$data = new HtmlString($data);

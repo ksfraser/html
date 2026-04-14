@@ -5,6 +5,7 @@ require_once( 'class.origin.php' );
  * class VIEW_TABLE_TH
  *
  * @since v1.0.0 2025-04-23
+ * @return void
  */
 class VIEW_TABLE_TH extends origin
 {

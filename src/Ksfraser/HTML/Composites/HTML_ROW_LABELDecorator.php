@@ -18,6 +18,9 @@ use Ksfraser\HTML\HTML_ROW_LABEL;
  * @since 1.0.1 2026-02-16
 
 
+ * @return void
+
+
  */
 class HTML_ROW_LABELDecorator implements HtmlElementInterface
 {

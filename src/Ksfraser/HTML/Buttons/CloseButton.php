@@ -13,25 +13,115 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Specialized button for close actions (modals, dialogs, etc.).
+
+ * 
+
+ * 
+
+ * 
 
  * Encapsulates close button styling and behavior.
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Features:
+
+ * 
+
+ * 
+
+ * 
 
  * - Secondary styling by default
 
+ * 
+
+ * 
+
+ * 
+
  * - JavaScript function call support for custom close handlers
+
+ * 
+
+ * 
+
+ * 
 
  * - Commonly used for modal/dialog dismissal
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SOLID Principles:
 
+ * 
+
+ * 
+
+ * 
+
  * - Single Responsibility: Only handles close button generation
+
+ * 
+
+ * 
+
+ * 
 
  * - Open/Closed: Can be extended for custom close behaviors
 
@@ -39,15 +129,107 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * ```php
+
+ * 
+
+ * 
+
+ * 
 
  * $closeBtn = new CloseButton(new HtmlString('Close'));
 
+ * 
+
+ * 
+
+ * 
+
  * $closeBtn->setOnclickFunction("closeModal();");
+
+ * 
+
+ * 
+
+ * 
 
  * echo $closeBtn->getHtml();
 
+ * 
+
+ * 
+
+ * 
+
  * ```
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -60,6 +242,8 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @author Kevin Fraser
 
  * @example 
+
+ * @return void
 
  */
 class CloseButton extends ActionButton

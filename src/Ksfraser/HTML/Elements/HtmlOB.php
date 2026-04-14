@@ -12,53 +12,265 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Captures echoed output from legacy methods and wraps it as HtmlElementInterface.
+
+ * 
+
+ * 
+
+ * 
 
  * Extends HtmlRaw to avoid HTML entity escaping.
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Usage:
+
+ * 
+
+ * 
+
+ * 
 
  * ```php
 
+ * 
+
+ * 
+
+ * 
+
  * // Constructor with callback
+
+ * 
+
+ * 
+
+ * 
 
  * $html = new HtmlOB(function() {
 
+ * 
+
+ * 
+
+ * 
+
  *     $this->displaySomethingThatEchoes();
+
+ * 
+
+ * 
+
+ * 
 
  * });
 
+ * 
+
+ * 
+
+ * 
+
  * echo $html->getHtml();
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  * // Or static capture method
 
+ * 
+
+ * 
+
+ * 
+
  * $html = HtmlOB::capture(function() {
+
+ * 
+
+ * 
+
+ * 
 
  *     $this->displaySomethingThatEchoes();
 
+ * 
+
+ * 
+
+ * 
+
  * });
+
+ * 
+
+ * 
+
+ * 
 
  * echo $html->getHtml();
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * // Or manual start/end
+
+ * 
+
+ * 
+
+ * 
 
  * $ob = new HtmlOB();
 
+ * 
+
+ * 
+
+ * 
+
  * $ob->start();
+
+ * 
+
+ * 
+
+ * 
 
  * $this->displaySomethingThatEchoes();
 
+ * 
+
+ * 
+
+ * 
+
  * $ob->end();
+
+ * 
+
+ * 
+
+ * 
 
  * echo $ob->getHtml();
 
+ * 
+
+ * 
+
+ * 
+
  * ```
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -69,6 +281,8 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @since v1.0.0 2026-04-11
 
  * @package HTML
+
+ * @return void
 
  */
 class HtmlOB extends HtmlRaw
@@ -121,9 +335,69 @@ public function __construct($input = null)
 	
 	 *
 	
-	 * Call this, then do your echoes, then call end()
+	 * 	
+	
+	 * 	
 	
 	 * 
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * Call this, then do your echoes, then call end()
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
 	
 	 *
 	

@@ -10,13 +10,71 @@ use Ksfraser\HTML\Elements\HtmlA;
 
  *
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * <a href="mailto:...">...</a>
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  *
 
  * @since v1.0.0 2026-04-11
+
+ * @return void
 
  */
 class HtmlEmail extends HtmlA
@@ -34,7 +92,11 @@ class HtmlEmail extends HtmlA
     /**
      * Set the email address and link text
      *
+     * 
+     * 
      * Stores the address as HtmlString for templating/recursion
+     * 
+     * 
      *
      * @since v1.0.0 2026-04-11
      * @param string $email
@@ -54,7 +116,67 @@ class HtmlEmail extends HtmlA
 
      *
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Ensures mailto: is prepended
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 

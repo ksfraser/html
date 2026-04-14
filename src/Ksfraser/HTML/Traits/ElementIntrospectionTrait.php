@@ -10,7 +10,43 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  *
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Provides methods for querying, introspecting, and traversing HTML element trees
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -18,19 +54,111 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Usage:
+
+ * 
+
+ * 
+
+ * 
 
  *   $buttons = $container->findByTag('button');
 
+ * 
+
+ * 
+
+ * 
+
  *   $required = $form->findByAttribute('required', 'required');
+
+ * 
+
+ * 
+
+ * 
 
  *   $dialog = $parent->findById('dialog-id');
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  *   $allInputs = $form->getAllNested();
 
+ * 
+
+ * 
+
+ * 
+
  *   if ($container->containsNested($element)) { ... }
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -42,6 +170,8 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * @package Ksfraser\HTML\Traits
 
+ * @return void
+
  */
 trait ElementIntrospectionTrait
 {
@@ -49,12 +179,16 @@ trait ElementIntrospectionTrait
      * Get direct child elements (not including HtmlString or text content)
      *
      * 
+     * 
+     * 
      *  HtmlElement children
      * 
      *   $children = $parent->getChildren();
      *   foreach ($children as $child) {
      *       echo $child->getTag();
      *   }
+     * 
+     * 
      *
      * @since 1.0.5 2026-03-30
      * @example 
@@ -85,7 +219,55 @@ trait ElementIntrospectionTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Returns flat array of all element descendants, including grandchildren, etc.
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 
@@ -93,7 +275,49 @@ trait ElementIntrospectionTrait
 
      *   $all = $container->getAllNested();
 
+     * 
+
+     * 
+
+     * 
+
      *   echo count($all); // 42 elements total
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -129,7 +353,61 @@ trait ElementIntrospectionTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Searches all nested elements for those matching the tag.
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 
@@ -139,7 +417,55 @@ trait ElementIntrospectionTrait
 
      *   $buttons = $form->findByTag('button');
 
+     * 
+
+     * 
+
+     * 
+
      *   $inputs = $form->findByTag('input');
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -174,7 +500,61 @@ trait ElementIntrospectionTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Searches nested elements for those with a specific attribute value.
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 
@@ -184,7 +564,61 @@ trait ElementIntrospectionTrait
 
      *   $required = $form->findByAttribute('required', 'required');
 
+     * 
+
+     * 
+
+     * 
+
      *   $textInputs = $form->findByAttribute('type', 'text');
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -221,7 +655,61 @@ trait ElementIntrospectionTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Searches nested elements for those containing a specific CSS class.
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 
@@ -231,7 +719,55 @@ trait ElementIntrospectionTrait
 
      *   $buttons = $container->findByClass('btn');
 
+     * 
+
+     * 
+
+     * 
+
      *   $primary = $container->findByClass('btn-primary');
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -266,7 +802,61 @@ trait ElementIntrospectionTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Searches for elements that have the attribute defined, regardless of its value.
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 
@@ -276,7 +866,55 @@ trait ElementIntrospectionTrait
 
      *   $required = $form->findByAttributeExists('required');
 
+     * 
+
+     * 
+
+     * 
+
      *   $dataElements = $container->findByAttributeExists('data-config');
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -311,7 +949,43 @@ trait ElementIntrospectionTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Searches nested elements for one matching the specific ID.
+
+     * 
+
+     * 
+
+     * 
 
      * Returns first match or null if not found.
 
@@ -321,9 +995,81 @@ trait ElementIntrospectionTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $dialog = $page->findById('modal-dialog');
 
+     * 
+
+     * 
+
+     * 
+
      *   if ($dialog) { ... }
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -357,7 +1103,61 @@ public function findById(string $id): ?HtmlElementInterface
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Returns the string value of an attribute, or null if not found.
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 
@@ -367,7 +1167,55 @@ public function findById(string $id): ?HtmlElementInterface
 
      *   $type = $input->getAttributeValue('type');
 
+     * 
+
+     * 
+
+     * 
+
      *   $role = $div->getAttributeValue('role');
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -393,7 +1241,43 @@ public function getAttributeValue(string $name): ?string
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Returns the HtmlAttribute object or null if not found.
+
+     * 
+
+     * 
+
+     * 
 
      * Returns null if not supported by the underlying attribute list.
 
@@ -403,9 +1287,81 @@ public function getAttributeValue(string $name): ?string
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $attr = $element->getAttribute('class');
 
+     * 
+
+     * 
+
+     * 
+
      *   if ($attr) { ... }
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -436,9 +1392,87 @@ public function getAttributeValue(string $name): ?string
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $tag = $element->getTag();
 
+     * 
+
+     * 
+
+     * 
+
      *   if ($tag === 'button') { ... }
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -464,11 +1498,95 @@ public function getTag(): ?string
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   if ($container->hasChildren()) {
+
+     * 
+
+     * 
+
+     * 
 
      *       // has children
 
+     * 
+
+     * 
+
+     * 
+
      *   }
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -492,13 +1610,97 @@ public function getTag(): ?string
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Returns count of immediate child elements (not recursive).
 
      * 
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $count = $parent->getChildCount();
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -522,13 +1724,97 @@ public function getTag(): ?string
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Counts all descendants at all levels.
 
      * 
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $total = $root->getNestedCount();
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -552,6 +1838,36 @@ public function getTag(): ?string
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Checks if the given element is a direct child of this element.
 
      * 
@@ -560,7 +1876,73 @@ public function getTag(): ?string
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   if ($parent->containsChild($element)) { ... }
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -587,6 +1969,36 @@ public function getTag(): ?string
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Checks if the given element is anywhere in the element tree (not just direct child).
 
      * 
@@ -595,7 +2007,73 @@ public function getTag(): ?string
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   if ($root->containsNested($deepElement)) { ... }
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 

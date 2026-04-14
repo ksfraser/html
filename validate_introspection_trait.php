@@ -17,6 +17,14 @@ $failed = 0;
 	 * @param mixed $callback
 	 * @return void
  */
+/**
+ * test_introspection
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $callback
+ * @return void
+ */
 function test_introspection($name, $callback) {
     global $passed, $failed;
     try {
@@ -34,7 +42,13 @@ function test_introspection($name, $callback) {
 }
 
 // Test 1: Get direct children
-test_introspection('Get direct children', function() {
+test_introspection('Get direct children', /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function() {
     $parent = new HtmlElement('div');
     $child1 = new HtmlElement('button', 'Click me');
     $child2 = new HtmlElement('input');
@@ -46,7 +60,13 @@ test_introspection('Get direct children', function() {
 });
 
 // Test 2: Get all nested elements recursively
-test_introspection('Get all nested elements', function() {
+test_introspection('Get all nested elements', /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function() {
     $root = new HtmlElement('div');
     $branch1 = new HtmlElement('section');
     $leaf1 = new HtmlElement('span', 'Leaf');
@@ -61,7 +81,13 @@ test_introspection('Get all nested elements', function() {
 });
 
 // Test 3: Find by tag
-test_introspection('Find elements by tag', function() {
+test_introspection('Find elements by tag', /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function() {
     $form = new HtmlElement('form');
     $input1 = new HtmlElement('input');
     $input2 = new HtmlElement('input');
@@ -76,7 +102,13 @@ test_introspection('Find elements by tag', function() {
 });
 
 // Test 4: Find by tag (no matches)
-test_introspection('Find by tag returns empty array for no matches', function() {
+test_introspection('Find by tag returns empty array for no matches', /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function() {
     $div = new HtmlElement('div');
     $p = new HtmlElement('p', 'Text');
     $div->addNested($p);
@@ -86,7 +118,13 @@ test_introspection('Find by tag returns empty array for no matches', function() 
 });
 
 // Test 5: Find by attribute
-test_introspection('Find elements by attribute', function() {
+test_introspection('Find elements by attribute', /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function() {
     $form = new HtmlElement('form');
     $input1 = new HtmlElement('input');
     $input1->setAttribute('type', 'text');
@@ -104,7 +142,13 @@ test_introspection('Find elements by attribute', function() {
 });
 
 // Test 6: Find by attribute exists
-test_introspection('Find elements with attribute exists', function() {
+test_introspection('Find elements with attribute exists', /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function() {
     $form = new HtmlElement('form');
     $input1 = new HtmlElement('input');
     $input1->setAttribute('required', 'required');
@@ -122,7 +166,13 @@ test_introspection('Find elements with attribute exists', function() {
 });
 
 // Test 7: Find by ID
-test_introspection('Find element by ID', function() {
+test_introspection('Find element by ID', /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function() {
     $page = new HtmlElement('div');
     $header = new HtmlElement('header');
     $modal = new HtmlElement('div');
@@ -138,7 +188,13 @@ test_introspection('Find element by ID', function() {
 });
 
 // Test 8: Find by ID not found
-test_introspection('Find by ID returns null when not found', function() {
+test_introspection('Find by ID returns null when not found', /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function() {
     $div = new HtmlElement('div');
     $p = new HtmlElement('p', 'Text');
     $p->setAttribute('id', 'para1');
@@ -149,7 +205,13 @@ test_introspection('Find by ID returns null when not found', function() {
 });
 
 // Test 9: Find by class (requires CSS management trait)
-test_introspection('Find elements by CSS class', function() {
+test_introspection('Find elements by CSS class', /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function() {
     $container = new HtmlElement('div');
     $btn1 = new HtmlElement('button');
     $btn1->addCSSClass('btn');
@@ -171,7 +233,13 @@ test_introspection('Find elements by CSS class', function() {
 });
 
 // Test 10: Get tag name
-test_introspection('Get tag name', function() {
+test_introspection('Get tag name', /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function() {
     $button = new HtmlElement('button');
     $input = new HtmlElement('input');
     $form = new HtmlElement('form');
@@ -182,7 +250,13 @@ test_introspection('Get tag name', function() {
 });
 
 // Test 11: Has children
-test_introspection('Has children', function() {
+test_introspection('Has children', /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function() {
     $parent = new HtmlElement('div');
     $child = new HtmlElement('span', 'Text');
     
@@ -194,7 +268,13 @@ test_introspection('Has children', function() {
 });
 
 // Test 12: Get child count
-test_introspection('Get child count', function() {
+test_introspection('Get child count', /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function() {
     $parent = new HtmlElement('ul');
     $li1 = new HtmlElement('li', 'Item 1');
     $li2 = new HtmlElement('li', 'Item 2');
@@ -211,7 +291,13 @@ test_introspection('Get child count', function() {
 });
 
 // Test 13: Get nested count
-test_introspection('Get nested count (recursive)', function() {
+test_introspection('Get nested count (recursive)', /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function() {
     $root = new HtmlElement('div');
     $level1 = new HtmlElement('section');
     $level2a = new HtmlElement('article');
@@ -228,7 +314,13 @@ test_introspection('Get nested count (recursive)', function() {
 });
 
 // Test 14: Contains child (direct)
-test_introspection('Contains child (direct)', function() {
+test_introspection('Contains child (direct)', /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function() {
     $parent = new HtmlElement('div');
     $child = new HtmlElement('span');
     $other = new HtmlElement('span');
@@ -240,7 +332,13 @@ test_introspection('Contains child (direct)', function() {
 });
 
 // Test 15: Contains nested (recursive)
-test_introspection('Contains nested element', function() {
+test_introspection('Contains nested element', /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function() {
     $root = new HtmlElement('div');
     $mid = new HtmlElement('section');
     $deep = new HtmlElement('span', 'Deep element');
@@ -254,7 +352,13 @@ test_introspection('Contains nested element', function() {
 });
 
 // Test 16: Get attribute value
-test_introspection('Get attribute value', function() {
+test_introspection('Get attribute value', /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function() {
     $input = new HtmlElement('input');
     $input->setAttribute('type', 'email');
     $input->setAttribute('name', 'user-email');
@@ -267,7 +371,13 @@ test_introspection('Get attribute value', function() {
 });
 
 // Test 17: Get attribute object (skip if not supported)
-test_introspection('Get attribute object', function() {
+test_introspection('Get attribute object', /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function() {
     $div = new HtmlElement('div');
     $div->setAttribute('title', 'Tooltip');
     
@@ -279,7 +389,13 @@ test_introspection('Get attribute object', function() {
 });
 
 // Test 18: Complex query - multiple tag with filtering
-test_introspection('Complex query - find buttons with specific class', function() {
+test_introspection('Complex query - find buttons with specific class', /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function() {
     $page = new HtmlElement('div');
     
     $btn1 = new HtmlElement('button');
@@ -302,7 +418,13 @@ test_introspection('Complex query - find buttons with specific class', function(
 });
 
 // Test 19: Deeply nested structure
-test_introspection('Deeply nested structure (10 levels)', function() {
+test_introspection('Deeply nested structure (10 levels)', /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function() {
     $root = new HtmlElement('div');
     $current = $root;
     
@@ -318,7 +440,13 @@ test_introspection('Deeply nested structure (10 levels)', function() {
 });
 
 // Test 20: Empty element introspection
-test_introspection('Empty element introspection', function() {
+test_introspection('Empty element introspection', /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function() {
     $empty = new HtmlElement('div');
     
     return count($empty->getChildren()) === 0 &&

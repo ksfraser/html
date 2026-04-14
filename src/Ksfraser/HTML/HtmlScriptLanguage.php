@@ -11,15 +11,85 @@ use Ksfraser\HTML\Elements\HtmlRaw;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Abstract base for valid script language wrappers (e.g., JS, JSON, TypeScript, VBScript).
 
+ * 
+
+ * 
+
+ * 
+
  * Uses HtmlRaw so script contents are emitted unescaped inside <script> tags.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  *
 
  * @since 1.0.5 2026-02-22
+
+ * @return void
 
  */
 abstract class HtmlScriptLanguage extends HtmlRaw {

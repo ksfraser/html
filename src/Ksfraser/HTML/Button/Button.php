@@ -15,9 +15,83 @@ use Ksfraser\HTML\Elements\HtmlString;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Usage:
 
+ * 
+
+ * 
+
+ * 
+
  * - (new Button('Click Me'))->addClass('btn-primary')->setType('submit')->render()
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -26,6 +100,8 @@ use Ksfraser\HTML\Elements\HtmlString;
  * @since 1.0.4 2026-02-21
 
  * @package Ksfraser\HTML\Button
+
+ * @return void
 
  */
 class Button extends HtmlButton {

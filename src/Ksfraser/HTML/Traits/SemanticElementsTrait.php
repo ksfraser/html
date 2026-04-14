@@ -10,57 +10,275 @@ use Ksfraser\HTML\HtmlElement;
 
  *
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Provides factory methods for HTML5 semantic elements
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  * Static factory methods for semantic markup:
 
+ * 
+
+ * 
+
+ * 
+
  * - Structure: header(), nav(), main(), section(), article(), aside(), footer()
+
+ * 
+
+ * 
+
+ * 
 
  * - Content: heading(), paragraph(), strong(), em(), mark(), code(), pre(), blockquote(), cite(), address(), time()
 
+ * 
+
+ * 
+
+ * 
+
  * - Media: figure(), figcaption(), image(), picture(), audio(), video(), source()
+
+ * 
+
+ * 
+
+ * 
 
  * - Interactive: details(), summary(), dialog()
 
+ * 
+
+ * 
+
+ * 
+
  * - Progress: progress(), meter()
+
+ * 
+
+ * 
+
+ * 
 
  * - Lists: unorderedList(), orderedList(), listItem(), definitionList(), definitionTerm(), definitionDescription()
 
+ * 
+
+ * 
+
+ * 
+
  * - Tables: table(), tableHead(), tableBody(), tableFoot(), tableRow(), tableData(), tableHeader(), tableCaption(), tableColumn(), tableColumnGroup()
+
+ * 
+
+ * 
+
+ * 
 
  * - Forms: fieldset(), legend()
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Integration with previous traits:
+
+ * 
+
+ * 
+
+ * 
 
  * - CSSManagementTrait: Bootstrap classes for semantic elements
 
+ * 
+
+ * 
+
+ * 
+
  * - AriaAttributeTrait: ARIA attributes for accessibility
 
+ * 
+
+ * 
+
+ * 
+
  * - DataAttributeTrait: Data attributes for JS integration
+
+ * 
+
+ * 
+
+ * 
 
  * - EventHandlerTrait: Event binding for interactive elements
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Usage:
+
+ * 
+
+ * 
+
+ * 
 
  *   $article = HtmlElement::article()
 
+ * 
+
+ * 
+
+ * 
+
  *       ->addNested(HtmlElement::heading('Article Title', 1))
+
+ * 
+
+ * 
+
+ * 
 
  *       ->addNested(HtmlElement::paragraph('Content'));
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  *   $figure = HtmlElement::figure()
+
+ * 
+
+ * 
+
+ * 
 
  *       ->addNested(HtmlElement::image('photo.jpg', 'Photo'))
 
+ * 
+
+ * 
+
+ * 
+
  *       ->addNested(HtmlElement::figcaption('Caption'));
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -72,13 +290,25 @@ use Ksfraser\HTML\HtmlElement;
 
  * @package Ksfraser\HTML\Traits
 
+ * @return void
+
+ */
+/**
+ * SemanticElementsTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 trait SemanticElementsTrait
 {
     /**
      * Resolve an element class for a semantic tag and instantiate it if present.
      *
+     * 
+     * 
      * Tries candidate class names under Ksfraser\\HTML\\Elements\\, then falls back to `new static()`.
+     * 
+     * 
      * 
      *
      * @since v2.0.1 2026-04-14
@@ -86,7 +316,15 @@ trait SemanticElementsTrait
      * @param mixed $args
      * @return HtmlElement
      */
-    protected static function element(string $tag, ...$args): HtmlElement
+    protected static /**
+ * element
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tag
+ * @param mixed $args
+ * @return HtmlElement
+ */
+function element(string $tag, ...$args): HtmlElement
     {
         $candidates = [];
         // Common naming patterns
@@ -175,7 +413,13 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function header(): HtmlElement
+    public static /**
+ * header
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function header(): HtmlElement
     {
         return self::element('header');
     }
@@ -191,7 +435,13 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function nav(): HtmlElement
+    public static /**
+ * nav
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function nav(): HtmlElement
     {
         return self::element('nav');
     }
@@ -207,7 +457,13 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function main(): HtmlElement
+    public static /**
+ * main
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function main(): HtmlElement
     {
         return self::element('main', '');
     }
@@ -225,7 +481,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function section(?string $id = null): HtmlElement
+    public static /**
+ * section
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return HtmlElement
+ */
+function section(?string $id = null): HtmlElement
     {
         $section = self::element('section', '');
         if ($id !== null) {
@@ -249,7 +512,13 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function article(): HtmlElement
+    public static /**
+ * article
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function article(): HtmlElement
     {
         return self::element('article');
     }
@@ -265,7 +534,13 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function div(): HtmlElement
+    public static /**
+ * div
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function div(): HtmlElement
     {
         return self::element('div');
     }
@@ -281,7 +556,13 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function aside(): HtmlElement
+    public static /**
+ * aside
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function aside(): HtmlElement
     {
         return self::element('aside');
     }
@@ -297,7 +578,13 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function footer(): HtmlElement
+    public static /**
+ * footer
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function footer(): HtmlElement
     {
         return self::element('footer');
     }
@@ -321,7 +608,15 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function heading(string $text = '', int $level = 1): HtmlElement
+    public static /**
+ * heading
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $level
+ * @return HtmlElement
+ */
+function heading(string $text = '', int $level = 1): HtmlElement
     {
         $level = min(max($level, 1), 6);
         return self::element('h' . $level, $text);
@@ -340,7 +635,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function paragraph(string $text = ''): HtmlElement
+    public static /**
+ * paragraph
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function paragraph(string $text = ''): HtmlElement
     {
         return self::element('p', $text);
     }
@@ -358,7 +660,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function strong(string $text = ''): HtmlElement
+    public static /**
+ * strong
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function strong(string $text = ''): HtmlElement
     {
         return self::element('strong', $text);
     }
@@ -376,7 +685,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function em(string $text = ''): HtmlElement
+    public static /**
+ * em
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function em(string $text = ''): HtmlElement
     {
         return self::element('em', $text);
     }
@@ -394,7 +710,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function mark(string $text = ''): HtmlElement
+    public static /**
+ * mark
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function mark(string $text = ''): HtmlElement
     {
         return self::element('mark', $text);
     }
@@ -412,7 +735,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function del(string $text = ''): HtmlElement
+    public static /**
+ * del
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function del(string $text = ''): HtmlElement
     {
         return self::element('del', $text);
     }
@@ -430,7 +760,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function ins(string $text = ''): HtmlElement
+    public static /**
+ * ins
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function ins(string $text = ''): HtmlElement
     {
         return self::element('ins', $text);
     }
@@ -448,7 +785,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function sub(string $text = ''): HtmlElement
+    public static /**
+ * sub
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function sub(string $text = ''): HtmlElement
     {
         return self::element('sub', $text);
     }
@@ -466,7 +810,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function sup(string $text = ''): HtmlElement
+    public static /**
+ * sup
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function sup(string $text = ''): HtmlElement
     {
         return self::element('sup', $text);
     }
@@ -486,7 +837,15 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function abbr(string $text = '', string $title = ''): HtmlElement
+    public static /**
+ * abbr
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $title
+ * @return HtmlElement
+ */
+function abbr(string $text = '', string $title = ''): HtmlElement
     {
         $abbr = self::element('abbr', $text);
         if ($title !== '') {
@@ -512,7 +871,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function kbd(string $text = ''): HtmlElement
+    public static /**
+ * kbd
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function kbd(string $text = ''): HtmlElement
     {
         return self::element('kbd', $text);
     }
@@ -530,7 +896,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function code(string $text = ''): HtmlElement
+    public static /**
+ * code
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function code(string $text = ''): HtmlElement
     {
         return self::element('code', $text);
     }
@@ -548,7 +921,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function samp(string $text = ''): HtmlElement
+    public static /**
+ * samp
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function samp(string $text = ''): HtmlElement
     {
         return self::element('samp', $text);
     }
@@ -566,7 +946,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function var(string $text = ''): HtmlElement
+    public static /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function var(string $text = ''): HtmlElement
     {
         return self::element('var', $text);
     }
@@ -577,7 +964,14 @@ trait SemanticElementsTrait
      * @param string $text Preformatted content (optional)
      * @return HtmlElement
      */
-    public static function pre(string $text = ''): HtmlElement
+    public static /**
+ * pre
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function pre(string $text = ''): HtmlElement
     {
         return self::element('pre', $text);
     }
@@ -595,7 +989,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function small(string $text = ''): HtmlElement
+    public static /**
+ * small
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function small(string $text = ''): HtmlElement
     {
         return self::element('small', $text);
     }
@@ -615,7 +1016,15 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function blockquote(string $text = '', ?string $cite = null): HtmlElement
+    public static /**
+ * blockquote
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $cite
+ * @return HtmlElement
+ */
+function blockquote(string $text = '', ?string $cite = null): HtmlElement
     {
         $bq = self::element('blockquote', $text);
         if ($cite !== null) {
@@ -641,7 +1050,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function cite(string $text = ''): HtmlElement
+    public static /**
+ * cite
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function cite(string $text = ''): HtmlElement
     {
         return self::element('cite', $text);
     }
@@ -659,7 +1075,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function address(string $text = ''): HtmlElement
+    public static /**
+ * address
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function address(string $text = ''): HtmlElement
     {
         return self::element('address', $text);
     }
@@ -679,7 +1102,15 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function time(string $text = '', ?string $datetime = null): HtmlElement
+    public static /**
+ * time
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $datetime
+ * @return HtmlElement
+ */
+function time(string $text = '', ?string $datetime = null): HtmlElement
     {
         $time = self::element('time', $text);
         if ($datetime !== null) {
@@ -707,7 +1138,13 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function figure(): HtmlElement
+    public static /**
+ * figure
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function figure(): HtmlElement
     {
         return self::element('figure', '');
     }
@@ -725,7 +1162,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function figcaption(string $text = ''): HtmlElement
+    public static /**
+ * figcaption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function figcaption(string $text = ''): HtmlElement
     {
         return self::element('figcaption', $text);
     }
@@ -745,7 +1189,15 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function image(string $src, string $alt = ''): HtmlElement
+    public static /**
+ * image
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $alt
+ * @return HtmlElement
+ */
+function image(string $src, string $alt = ''): HtmlElement
     {
         $img = self::element('img');
         if (method_exists($img, 'setSrc')) {
@@ -778,7 +1230,15 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function imageResponsive(string $src, string $alt = ''): HtmlElement
+    public static /**
+ * imageResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $alt
+ * @return HtmlElement
+ */
+function imageResponsive(string $src, string $alt = ''): HtmlElement
     {
         $img = self::image($src, $alt);
         $img->addCSSClass('img-fluid');
@@ -800,7 +1260,15 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function imageThumbnail(string $src, string $alt = ''): HtmlElement
+    public static /**
+ * imageThumbnail
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $alt
+ * @return HtmlElement
+ */
+function imageThumbnail(string $src, string $alt = ''): HtmlElement
     {
         $img = self::image($src, $alt);
         $img->addCSSClass('img-thumbnail');
@@ -818,7 +1286,13 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function picture(): HtmlElement
+    public static /**
+ * picture
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function picture(): HtmlElement
     {
         return self::element('picture');
     }
@@ -838,7 +1312,15 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function audio(string $src = '', bool $controls = false): HtmlElement
+    public static /**
+ * audio
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $controls
+ * @return HtmlElement
+ */
+function audio(string $src = '', bool $controls = false): HtmlElement
     {
         $audio = self::element('audio');
         if ($src !== '') {
@@ -875,7 +1357,16 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function video(string $src = '', bool $controls = false, bool $autoplay = false): HtmlElement
+    public static /**
+ * video
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $controls
+ * @param mixed $autoplay
+ * @return HtmlElement
+ */
+function video(string $src = '', bool $controls = false, bool $autoplay = false): HtmlElement
     {
         $video = self::element('video');
         if ($src !== '') {
@@ -917,7 +1408,15 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function source(string $src, string $type): HtmlElement
+    public static /**
+ * source
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return HtmlElement
+ */
+function source(string $src, string $type): HtmlElement
     {
         $source = self::element('source');
         if (method_exists($source, 'setSrc')) {
@@ -948,7 +1447,15 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function track(string $src = '', string $kind = ''): HtmlElement
+    public static /**
+ * track
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $kind
+ * @return HtmlElement
+ */
+function track(string $src = '', string $kind = ''): HtmlElement
     {
         $track = self::element('track');
         if ($src !== '') {
@@ -985,7 +1492,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function details(bool $open = false): HtmlElement
+    public static /**
+ * details
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return HtmlElement
+ */
+function details(bool $open = false): HtmlElement
     {
         $details = self::element('details');
         if ($open) {
@@ -1011,7 +1525,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function summary(string $text = ''): HtmlElement
+    public static /**
+ * summary
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function summary(string $text = ''): HtmlElement
     {
         return self::element('summary', $text);
     }
@@ -1029,7 +1550,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function dialog(bool $open = false): HtmlElement
+    public static /**
+ * dialog
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return HtmlElement
+ */
+function dialog(bool $open = false): HtmlElement
     {
         $dialog = self::element('dialog');
         if ($open) {
@@ -1055,7 +1583,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function noscript(string $text = ''): HtmlElement
+    public static /**
+ * noscript
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function noscript(string $text = ''): HtmlElement
     {
         return self::element('noscript', $text);
     }
@@ -1075,7 +1610,15 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function canvas(?int $width = null, ?int $height = null): HtmlElement
+    public static /**
+ * canvas
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $height
+ * @return HtmlElement
+ */
+function canvas(?int $width = null, ?int $height = null): HtmlElement
     {
         $canvas = self::element('canvas');
         if ($width !== null) {
@@ -1110,7 +1653,15 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function svg(?int $width = null, ?int $height = null): HtmlElement
+    public static /**
+ * svg
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $height
+ * @return HtmlElement
+ */
+function svg(?int $width = null, ?int $height = null): HtmlElement
     {
         $svg = self::element('svg');
         if ($width !== null && $height !== null) {
@@ -1137,7 +1688,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function htmlElement(?string $lang = null): HtmlElement
+    public static /**
+ * htmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $lang
+ * @return HtmlElement
+ */
+function htmlElement(?string $lang = null): HtmlElement
     {
         $html = self::element('html');
         if ($lang !== null) {
@@ -1161,7 +1719,13 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function head(): HtmlElement
+    public static /**
+ * head
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function head(): HtmlElement
     {
         return self::element('head');
     }
@@ -1177,7 +1741,13 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function body(): HtmlElement
+    public static /**
+ * body
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function body(): HtmlElement
     {
         return self::element('body');
     }
@@ -1195,7 +1765,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function title(string $text = ''): HtmlElement
+    public static /**
+ * title
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function title(string $text = ''): HtmlElement
     {
         return self::element('title', $text);
     }
@@ -1215,7 +1792,15 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function meta(string $name, string $content): HtmlElement
+    public static /**
+ * meta
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $content
+ * @return HtmlElement
+ */
+function meta(string $name, string $content): HtmlElement
     {
         $meta = self::element('meta');
         if (method_exists($meta, 'setName')) {
@@ -1246,7 +1831,15 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function link(string $rel, string $href): HtmlElement
+    public static /**
+ * link
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @param mixed $href
+ * @return HtmlElement
+ */
+function link(string $rel, string $href): HtmlElement
     {
         $link = self::element('link');
         if (method_exists($link, 'setRel')) {
@@ -1277,7 +1870,15 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function script(string $src = '', ?string $type = null): HtmlElement
+    public static /**
+ * script
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return HtmlElement
+ */
+function script(string $src = '', ?string $type = null): HtmlElement
     {
         $script = self::element('script');
         if ($src !== '') {
@@ -1310,7 +1911,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function style(string $css = ''): HtmlElement
+    public static /**
+ * style
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $css
+ * @return HtmlElement
+ */
+function style(string $css = ''): HtmlElement
     {
         return self::element('style', $css);
     }
@@ -1334,7 +1942,15 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function progress(?int $value = null, ?int $max = null): HtmlElement
+    public static /**
+ * progress
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $max
+ * @return HtmlElement
+ */
+function progress(?int $value = null, ?int $max = null): HtmlElement
     {
         $progress = self::element('progress');
         if ($value !== null) {
@@ -1375,7 +1991,18 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function meter(?int $value = null, ?int $min = null, ?int $max = null, ?int $low = null, ?int $high = null): HtmlElement
+    public static /**
+ * meter
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $min
+ * @param mixed $max
+ * @param mixed $low
+ * @param mixed $high
+ * @return HtmlElement
+ */
+function meter(?int $value = null, ?int $min = null, ?int $max = null, ?int $low = null, ?int $high = null): HtmlElement
     {
         $meter = self::element('meter');
         if ($value !== null) {
@@ -1431,7 +2058,13 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function unorderedList(): HtmlElement
+    public static /**
+ * unorderedList
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function unorderedList(): HtmlElement
     {
         return self::element('ul');
     }
@@ -1449,7 +2082,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function orderedList(?int $start = null): HtmlElement
+    public static /**
+ * orderedList
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $start
+ * @return HtmlElement
+ */
+function orderedList(?int $start = null): HtmlElement
     {
         $ol = self::element('ol');
         if ($start !== null) {
@@ -1475,7 +2115,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function listItem(string $text = ''): HtmlElement
+    public static /**
+ * listItem
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function listItem(string $text = ''): HtmlElement
     {
         return self::element('li', $text);
     }
@@ -1491,7 +2138,13 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function definitionList(): HtmlElement
+    public static /**
+ * definitionList
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function definitionList(): HtmlElement
     {
         return self::element('dl');
     }
@@ -1509,7 +2162,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function definitionTerm(string $text = ''): HtmlElement
+    public static /**
+ * definitionTerm
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function definitionTerm(string $text = ''): HtmlElement
     {
         return self::element('dt', $text);
     }
@@ -1527,7 +2187,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function definitionDescription(string $text = ''): HtmlElement
+    public static /**
+ * definitionDescription
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function definitionDescription(string $text = ''): HtmlElement
     {
         return self::element('dd', $text);
     }
@@ -1543,7 +2210,13 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function descriptionList(): HtmlElement
+    public static /**
+ * descriptionList
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function descriptionList(): HtmlElement
     {
         return self::definitionList();
     }
@@ -1561,7 +2234,14 @@ trait SemanticElementsTrait
  * @return HtmlElement
 
  */
-    public static function descriptionTerm(string $text = ''): HtmlElement
+    public static /**
+ * descriptionTerm
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function descriptionTerm(string $text = ''): HtmlElement
     {
         return self::definitionTerm($text);
     }
@@ -1579,7 +2259,14 @@ trait SemanticElementsTrait
  * @return HtmlElement
 
  */
-    public static function descriptionDefinition(string $text = ''): HtmlElement
+    public static /**
+ * descriptionDefinition
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function descriptionDefinition(string $text = ''): HtmlElement
     {
         return self::definitionDescription($text);
     }
@@ -1599,7 +2286,13 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function table(): HtmlElement
+    public static /**
+ * table
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function table(): HtmlElement
     {
         return self::element('table');
     }
@@ -1615,7 +2308,13 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function tableHead(): HtmlElement
+    public static /**
+ * tableHead
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function tableHead(): HtmlElement
     {
         return self::element('thead');
     }
@@ -1631,7 +2330,13 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function tableBody(): HtmlElement
+    public static /**
+ * tableBody
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function tableBody(): HtmlElement
     {
         return self::element('tbody');
     }
@@ -1647,7 +2352,13 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function tableFoot(): HtmlElement
+    public static /**
+ * tableFoot
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function tableFoot(): HtmlElement
     {
         return self::element('tfoot');
     }
@@ -1663,7 +2374,13 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function tableRow(): HtmlElement
+    public static /**
+ * tableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function tableRow(): HtmlElement
     {
         return self::element('tr');
     }
@@ -1681,7 +2398,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function tableData(string $text = ''): HtmlElement
+    public static /**
+ * tableData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function tableData(string $text = ''): HtmlElement
     {
         return self::element('td', $text);
     }
@@ -1699,7 +2423,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function tableHeader(string $text = ''): HtmlElement
+    public static /**
+ * tableHeader
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function tableHeader(string $text = ''): HtmlElement
     {
         return self::element('th', $text);
     }
@@ -1717,7 +2448,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function tableCaption(string $text = ''): HtmlElement
+    public static /**
+ * tableCaption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function tableCaption(string $text = ''): HtmlElement
     {
         return self::element('caption', $text);
     }
@@ -1733,7 +2471,13 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function tableColumn(): HtmlElement
+    public static /**
+ * tableColumn
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function tableColumn(): HtmlElement
     {
         return self::element('col');
     }
@@ -1749,7 +2493,13 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function tableColumnGroup(): HtmlElement
+    public static /**
+ * tableColumnGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function tableColumnGroup(): HtmlElement
     {
         return self::element('colgroup');
     }
@@ -1769,7 +2519,13 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function fieldset(): HtmlElement
+    public static /**
+ * fieldset
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function fieldset(): HtmlElement
     {
         return self::element('fieldset');
     }
@@ -1787,7 +2543,14 @@ trait SemanticElementsTrait
      * @return HtmlElement
 
      */
-    public static function legend(string $text = ''): HtmlElement
+    public static /**
+ * legend
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function legend(string $text = ''): HtmlElement
     {
         return self::element('legend', $text);
     }

@@ -12,31 +12,139 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Represents an HTML comment <!-- comment text -->.
+
+ * 
+
+ * 
+
+ * 
 
  * Used for annotations, documentation placeholders, or temporary notes in HTML.
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Unlike other HTML elements, comments are not displayed in the browser
+
+ * 
+
+ * 
+
+ * 
 
  * but are visible in the HTML source code.
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Use Cases:
+
+ * 
+
+ * 
+
+ * 
 
  * - Documenting integration points with FA functions
 
+ * 
+
+ * 
+
+ * 
+
  * - Placeholder for future implementations
 
+ * 
+
+ * 
+
+ * 
+
  * - Developer notes in generated HTML
+
+ * 
+
+ * 
+
+ * 
 
  * - Debugging markers
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Security Note:
+
+ * 
+
+ * 
+
+ * 
 
  * Comments are visible in HTML source, so never include sensitive information!
 
@@ -44,37 +152,195 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * ```php
+
+ * 
+
+ * 
+
+ * 
 
  * // Simple comment
 
+ * 
+
+ * 
+
+ * 
+
  * $comment = new HtmlComment('This is a placeholder');
+
+ * 
+
+ * 
+
+ * 
 
  * echo $comment->getHtml(); // <!-- This is a placeholder -->
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * // Multi-line comment
+
+ * 
+
+ * 
+
+ * 
 
  * $comment = new HtmlComment("Line 1\nLine 2\nLine 3");
 
+ * 
+
+ * 
+
+ * 
+
  * echo $comment->getHtml();
+
+ * 
+
+ * 
+
+ * 
 
  * // <!-- Line 1
 
+ * 
+
+ * 
+
+ * 
+
  * //      Line 2
+
+ * 
+
+ * 
+
+ * 
 
  * //      Line 3 -->
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * // Document FA integration point
+
+ * 
+
+ * 
+
+ * 
 
  * $comment = new HtmlComment('supplier_list("partnerId_123", null)');
 
+ * 
+
+ * 
+
+ * 
+
  * echo $comment->getHtml(); // <!-- supplier_list("partnerId_123", null) -->
 
+ * 
+
+ * 
+
+ * 
+
  * ```
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -88,12 +354,15 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * @example 
 
+ * @return void
+
  */
 class HtmlComment implements HtmlElementInterface
 {
     /**
      *
      * @var string The comment text
+     * @return void
      */
     protected string $text;
 
@@ -139,9 +408,81 @@ class HtmlComment implements HtmlElementInterface
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Note: Does NOT HTML-escape the content. Comments should only contain
 
+     * 
+
+     * 
+
+     * 
+
      * trusted content (developer-written text, not user input).
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 

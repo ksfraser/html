@@ -9,9 +9,89 @@ namespace Ksfraser\HTML\Elements;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Provides fluent interface for constructing modals.
 
+ * 
+
+ * 
+
+ * 
+
  * SRP: Single responsibility of building complete modal structures.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -23,11 +103,14 @@ namespace Ksfraser\HTML\Elements;
 
  * @package Ksfraser\HTML\Elements
 
+ * @return void
+
  */
 class ModalBuilder {
     /**
      *
      * @var Modal The modal being built
+     * @return void
      */
     protected $modal;
     
@@ -36,6 +119,8 @@ class ModalBuilder {
      *
     
      * @var ModalContent The modal content
+    
+     * @return void
     
      */
     protected $content;

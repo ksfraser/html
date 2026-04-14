@@ -12,6 +12,14 @@ use Ksfraser\HTML\HtmlElement;
 
  * @since v2.0.1 2026-04-14
 
+ * @return void
+
+ */
+/**
+ * HtmlSource
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 class HtmlSource extends HtmlElement
 {
@@ -22,7 +30,15 @@ class HtmlSource extends HtmlElement
      * @param ?string $type
      * @return void
      */
-    public function __construct(?string $src = null, ?string $type = null)
+    public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return void
+ */
+function __construct(?string $src = null, ?string $type = null)
     {
         parent::__construct();
         $this->setTag('source');
@@ -55,7 +71,14 @@ class HtmlSource extends HtmlElement
  * @return self
 
  */
-    public function setSrc(string $src): self
+    public /**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+function setSrc(string $src): self
     {
         $this->addAttribute('src', $src);
         return $this;
@@ -74,7 +97,14 @@ class HtmlSource extends HtmlElement
  * @return self
 
  */
-    public function setType(string $type): self
+    public /**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+function setType(string $type): self
     {
         $this->addAttribute('type', $type);
         return $this;

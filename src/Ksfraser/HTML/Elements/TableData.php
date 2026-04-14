@@ -11,13 +11,105 @@ use Ksfraser\HTML\HtmlAttribute;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Provides fluent interface for building table cells (td).
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  * Usage:
 
+ * 
+
+ * 
+
+ * 
+
  * - (new TableData())->addClass('col1')->setText('Value')->render()
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -28,6 +120,8 @@ use Ksfraser\HTML\HtmlAttribute;
  * @since 1.0.1 2026-02-16
 
  * @package Ksfraser\HTML\Elements
+
+ * @return void
 
  */
 class TableData {

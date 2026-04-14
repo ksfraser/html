@@ -19,9 +19,89 @@ use Ksfraser\HTML\FAButtons\EditLoanActionButton;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SRP: Single responsibility of building a loan summary row from loan data.
 
+ * 
+
+ * 
+
+ * 
+
  * Handles: Row structure and action buttons. Uses cell classes for content cells.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -32,6 +112,8 @@ use Ksfraser\HTML\FAButtons\EditLoanActionButton;
  * @since 1.0.1 2026-02-16
 
  * @package Ksfraser\HTML\Rows
+
+ * @return void
 
  */
 class LoanSummaryTableRow extends BaseTableRow {

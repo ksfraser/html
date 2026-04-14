@@ -11,9 +11,89 @@ use Ksfraser\HTML\Elements\HtmlScript;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SRP: Single responsibility of building domain-specific script setup.
 
+ * 
+
+ * 
+
+ * 
+
  * Each handler builds script tags and event listeners for a domain.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -25,13 +105,19 @@ use Ksfraser\HTML\Elements\HtmlScript;
 
  * @package Ksfraser\HTML\ScriptHandlers
 
+ * @return void
+
  */
 abstract class BaseScriptHandler {
     /**
      * Build handler script tags
      *
      * 
+     * 
+     * 
      * Returns HtmlScript instances that setup handler classes and event listeners.
+     * 
+     * 
      * 
      *
      * @since 1.0.1 2026-02-16

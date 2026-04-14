@@ -8,6 +8,12 @@ use Ksfraser\HTML\HtmlElementInterface;
  *
  * @since 1.0.4 2026-02-21
  */
+/**
+ * DummyActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class DummyActionButton extends ActionButton {
 /**
  * __construct
@@ -16,7 +22,14 @@ class DummyActionButton extends ActionButton {
  * @param HtmlElementInterface $label
  * @return void
  */
-    public function __construct(HtmlElementInterface $label = null) {
+    public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+function __construct(HtmlElementInterface $label = null) {
         parent::__construct('dummy', $label);
     }
 /**
@@ -25,7 +38,13 @@ class DummyActionButton extends ActionButton {
  * @since 1.0.4 2026-02-21
  * @return void
  */
-    protected function setupActionButton() {
+    protected /**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function setupActionButton() {
         // No-op for test
     }
 }
@@ -35,6 +54,12 @@ class DummyActionButton extends ActionButton {
  *
  * @since 1.0.4 2026-02-21
  */
+/**
+ * ActionButtonTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class ActionButtonTest extends TestCase {
 /**
  * testCanInstantiate
@@ -42,10 +67,28 @@ class ActionButtonTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testCanInstantiate() {
-        $mock = $this->getMockBuilder(HtmlElementInterface::class)->getMock();
+    public /**
+ * testCanInstantiate
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testCanInstantiate() {
+        $mock = $this->getMockBuilder(HtmlElementInterface::/**
+ * getMock
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class)->getMock();
         $btn = new DummyActionButton($mock);
-        $this->assertInstanceOf(ActionButton::class, $btn);
+        $this->assertInstanceOf(ActionButton::/**
+ * No description.
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $btn);
     }
     // Add more tests for public methods and edge cases
 }

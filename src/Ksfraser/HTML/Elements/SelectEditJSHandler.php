@@ -13,51 +13,219 @@ use Ksfraser\HTML\HtmlFragment;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Encapsulates the JavaScript logic for editing form fields when a table row's
+
+ * 
+
+ * 
+
+ * 
 
  * edit button is clicked. Generates both the JS function and the script tag.
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * This handler provides an SRP-based approach to managing selector row editing:
+
+ * 
+
+ * 
+
+ * 
 
  * - Generates the editOption() JavaScript function
 
+ * 
+
+ * 
+
+ * 
+
  * - Handles form population from row data
 
+ * 
+
+ * 
+
+ * 
+
  * - Centralizes edit logic for reusability
+
+ * 
+
+ * 
+
+ * 
 
  * - Can be extended for other edit operations
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Design Pattern: Template Method
 
+ * 
+
+ * 
+
+ * 
+
  * - Encapsulates the edit function generation
+
+ * 
+
+ * 
+
+ * 
 
  * - Can be extended for different field configurations
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SOLID Principles:
+
+ * 
+
+ * 
+
+ * 
 
  * - Single Responsibility: Only handles selector edit JS logic
 
+ * 
+
+ * 
+
+ * 
+
  * - Open/Closed: Can be extended for other field types
+
+ * 
+
+ * 
+
+ * 
 
  * - Liskov Substitution: Can replace HtmlElement
 
+ * 
+
+ * 
+
+ * 
+
  * - Interface Segregation: Simple, focused interface
+
+ * 
+
+ * 
+
+ * 
 
  * - Dependency Inversion: Depends on HtmlElement abstraction
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Usage Context:
+
+ * 
+
+ * 
+
+ * 
 
  * Used in selector management views where table rows represent editable options.
 
+ * 
+
+ * 
+
+ * 
+
  * When an edit button is clicked, this function populates form fields with the
+
+ * 
+
+ * 
+
+ * 
 
  * selected row's data.
 
@@ -65,43 +233,225 @@ use Ksfraser\HTML\HtmlFragment;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * ```php
+
+ * 
+
+ * 
+
+ * 
 
  * // Generate the edit handler for a selector form
 
+ * 
+
+ * 
+
+ * 
+
  * $handler = (new SelectEditJSHandler())
+
+ * 
+
+ * 
+
+ * 
 
  *     ->setFormIdPrefix('selector')
 
+ * 
+
+ * 
+
+ * 
+
  *     ->setFieldNames(['id', 'selector_name', 'option_name', 'option_value']);
+
+ * 
+
+ * 
+
+ * 
 
  * echo $handler->getHtml();
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * // Later in the view, when building edit buttons:
+
+ * 
+
+ * 
+
+ * 
 
  * $editBtn = new EditButton(
 
+ * 
+
+ * 
+
+ * 
+
  *     new HtmlString('Edit'),
+
+ * 
+
+ * 
+
+ * 
 
  *     (string)$opt['id'],
 
+ * 
+
+ * 
+
+ * 
+
  *     sprintf("editOption(%d, '%s', '%s', '%s')",
+
+ * 
+
+ * 
+
+ * 
 
  *         $opt['id'],
 
+ * 
+
+ * 
+
+ * 
+
  *         addslashes($opt['selector_name']),
+
+ * 
+
+ * 
+
+ * 
 
  *         addslashes($opt['option_name']),
 
+ * 
+
+ * 
+
+ * 
+
  *         addslashes($opt['option_value'])
+
+ * 
+
+ * 
+
+ * 
 
  *     )
 
+ * 
+
+ * 
+
+ * 
+
  * );
 
+ * 
+
+ * 
+
+ * 
+
  * ```
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -117,6 +467,8 @@ use Ksfraser\HTML\HtmlFragment;
 
  * @example 
 
+ * @return void
+
  */
 class SelectEditJSHandler extends HtmlElement
 {
@@ -124,6 +476,7 @@ class SelectEditJSHandler extends HtmlElement
      * Form field ID prefix
      *
      * @var string
+     * @return void
      */
     protected $formIdPrefix = 'selector';
 
@@ -133,13 +486,71 @@ class SelectEditJSHandler extends HtmlElement
 
      *
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Maps function parameter names to form field IDs
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 
      *
 
      * @var array
+
+     * @return void
 
      */
     protected $fieldNames = [

@@ -11,13 +11,105 @@ use Ksfraser\HTML\HtmlAttribute;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Provides fluent interface for building table rows.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  * Usage:
 
+ * 
+
+ * 
+
+ * 
+
  * - (new TableRow())->addClass('header')->append($td1, $td2)->render()
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -28,6 +120,8 @@ use Ksfraser\HTML\HtmlAttribute;
  * @since 1.0.5 2026-02-22
 
  * @package Ksfraser\HTML\Elements
+
+ * @return void
 
  */
 class TableRow implements \Ksfraser\HTML\HtmlElementInterface {
@@ -94,13 +188,91 @@ class TableRow implements \Ksfraser\HTML\HtmlElementInterface {
     
      *
     
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
     
      * Creates TableHeader elements from an array of label strings.
     
+     *     
+    
+     *     
+    
+     *     
+    
      * Useful for building header rows with a simple array of column names.
     
+     *     
+    
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
     
      *
     

@@ -7,6 +7,12 @@ use Ksfraser\HTML\Formatting\HtmlParagraph;
  *
  * @since 1.0.3 2026-02-21
  */
+/**
+ * HtmlParagraphTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlParagraphTest extends TestCase {
 /**
  * testInstance
@@ -14,9 +20,21 @@ class HtmlParagraphTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testInstance() {
+    public /**
+ * testInstance
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testInstance() {
         $p = new HtmlParagraph(new \Ksfraser\HTML\Elements\HtmlString('paragraph text'));
-        $this->assertInstanceOf(HtmlParagraph::class, $p);
+        $this->assertInstanceOf(HtmlParagraph::/**
+ * No description.
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $p);
     }
 
     // Add more tests for all public methods and edge cases

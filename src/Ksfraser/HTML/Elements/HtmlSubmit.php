@@ -13,9 +13,57 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Represents an HTML <input type="submit"> button element.
 
+ * 
+
+ * 
+
+ * 
+
  * Used for form submissions.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -23,21 +71,81 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Design Pattern: Builder Pattern
+
+ * 
+
+ * 
+
+ * 
 
  * - Fluent interface for setting attributes
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SOLID Principles:
+
+ * 
+
+ * 
+
+ * 
 
  * - Single Responsibility: Renders submit button only
 
+ * 
+
+ * 
+
+ * 
+
  * - Open/Closed: Can be extended for custom submit buttons
+
+ * 
+
+ * 
+
+ * 
 
  * - Liskov Substitution: Can replace HtmlInputButton
 
+ * 
+
+ * 
+
+ * 
+
  * - Interface Segregation: Uses HtmlElementInterface appropriately
+
+ * 
+
+ * 
+
+ * 
 
  * - Dependency Inversion: Depends on HtmlElementInterface abstraction
 
@@ -45,17 +153,121 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * ```php
+
+ * 
+
+ * 
+
+ * 
 
  * $label = new HtmlString('Save');
 
+ * 
+
+ * 
+
+ * 
+
  * $submit = new HtmlSubmit($label);
+
+ * 
+
+ * 
+
+ * 
 
  * $submit->setName('save_btn')->setClass('btn btn-primary');
 
+ * 
+
+ * 
+
+ * 
+
  * echo $submit->getHtml(); // <input type="submit" value="Save" name="save_btn" class="btn btn-primary" />
 
+ * 
+
+ * 
+
+ * 
+
  * ```
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -70,6 +282,8 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @version 20251019.1
 
  * @example 
+
+ * @return void
 
  */
 class HtmlSubmit extends HtmlInputButton

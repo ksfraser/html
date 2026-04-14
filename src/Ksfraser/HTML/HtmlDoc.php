@@ -11,11 +11,14 @@ use Ksfraser\HTML\Elements\HtmlHtml;
 
  * @since 1.0.5 2026-02-22
 
+ * @return void
+
  */
 class HtmlDoc {
     /**
      *
      * @var HtmlHtml
+     * @return void
      */
     protected $html = null;
 

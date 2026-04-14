@@ -17,19 +17,27 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @since 1.0.1 2026-02-16
 
 
+ * @return void
+
+
  */
 class HtmlAttribute implements HtmlElementInterface
 {
 	/**
 	 * /**********
 	 *
+	 * 
+	 * 
 	 * Common attributes:
 	 * Class
 	 * 	Can be repeated amongst elements
 	 * ID
 	 * 	ID must be used uniquely
 	 * Style
+	 * 
+	 * 
 	 *
+	 * @return void
 	 */
 	protected $attribute;	//Key
 	protected $value;	//Value

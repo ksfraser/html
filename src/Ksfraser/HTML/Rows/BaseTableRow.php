@@ -11,9 +11,89 @@ use Ksfraser\HTML\Elements\TableRow;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SRP: Single responsibility of building domain-specific table rows.
 
+ * 
+
+ * 
+
+ * 
+
  * Each subclass handles building a row for a specific domain object.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -25,11 +105,14 @@ use Ksfraser\HTML\Elements\TableRow;
 
  * @package Ksfraser\HTML\Rows
 
+ * @return void
+
  */
 abstract class BaseTableRow {
     /**
      *
      * @var string|null Optional row ID for cell referencing
+     * @return void
      */
     protected ?string $rowId = null;
     

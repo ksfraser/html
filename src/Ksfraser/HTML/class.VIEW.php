@@ -12,6 +12,18 @@ $path_to_faroot = dirname ( realpath ( __FILE__ ) ) . "/../../";
  *
  */
 
+/**
+ * VIEW
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * VIEW
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class VIEW extends origin
 {
     protected $js;
@@ -29,7 +41,23 @@ class VIEW extends origin
     public $help_context;
     protected $table_style;		//!<integer def TABLESTYLE
 
-    function __construct($client = null, $use_popup_window = false)
+    /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $client
+ * @param mixed $use_popup_window
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $client
+ * @param mixed $use_popup_window
+ * @return void
+ */
+function __construct($client = null, $use_popup_window = false)
     {
         $this->use_js();
         $this->set_var("page_mode", "simple");
@@ -48,11 +76,35 @@ class VIEW extends origin
         $this->add_submenu();
     }
 
-    function __destruct()
+    /**
+ * __destruct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __destruct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __destruct()
     {
     }
 
-    function Page()
+    /**
+ * Page
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * Page
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function Page()
     {
         if (!isset($this->help_context)) {
             throw new Exception("Help Context not set. What happened?", KSF_FIELD_NOT_SET);
@@ -64,26 +116,80 @@ class VIEW extends origin
     }
 
     
-    function add_submenu()
+    /**
+ * add_submenu
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * add_submenu
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function add_submenu()
 
     {
     }
 
     
-    function run($action)
+    /**
+ * run
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return void
+ */
+/**
+ * run
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return void
+ */
+function run($action)
     {
         $this->new_page($action);
         $this->build_page($action);
         $this->end_page($action);
     }
 
-    function backtrace()
+    /**
+ * backtrace
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * backtrace
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function backtrace()
     {
         echo "<br />";
         array_walk(debug_backtrace(),create_function('$a,$b','print "{$a[\'function\']}()(".basename($a[\'file\']).":{$a[\'line\']});<br /> ";'));
     }
 
-    function call_table( $action, $msg )
+    /**
+ * call_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $msg
+ * @return void
+ */
+/**
+ * call_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $msg
+ * @return void
+ */
+function call_table( $action, $msg )
     {
         //$this->notify( __METHOD__ . ":" . __LINE__ . " Entered " . __METHOD__, "WARN" );
                 start_form(true);
@@ -99,45 +205,125 @@ class VIEW extends origin
      }
 
      /**
+
       * display_error
+
       *
+
       * @since v1.0.0 2026-04-14
+
       * @param mixed $error
+
       * @return void
+
       */
-     function display_error( $error )
+     /**
+ * display_error
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $error
+ * @return void
+ */
+/**
+ * display_error
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $error
+ * @return void
+ */
+function display_error( $error )
     {
         display_error(_( $error ) );
     }
 
-    function display_notification( $msg )
+    /**
+ * display_notification
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $msg
+ * @return void
+ */
+/**
+ * display_notification
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $msg
+ * @return void
+ */
+function display_notification( $msg )
     {
         display_notification(_( $msg ) );
     }
 
     /**
+
      * notify
+
      *
+
      * @since v2.0.1 2026-04-14
+
      * @param mixed $msg
+
      * @param mixed $level
+
      * @return void
+
      */
-    function notify( $msg = '', $level = 'DEBUG' )
+    /**
+ * notify
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $msg
+ * @param mixed $level
+ * @return void
+ */
+/**
+ * notify
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $msg
+ * @param mixed $level
+ * @return void
+ */
+function notify( $msg = '', $level = 'DEBUG' )
     {
 
         return;
     }
 
     /**
+
      * set_var
+
      *
+
      * @since v2.0.1 2026-04-14
+
      * @param mixed $var
+
      * @param mixed $value
+
      * @return void
+
      */
-    function set_var( $var, $value )
+    /**
+ * set_var
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $var
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * set_var
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $var
+ * @param mixed $value
+ * @return void
+ */
+function set_var( $var, $value )
     {
         if( property_exists( $this, $var ) )
         {
@@ -155,14 +341,37 @@ class VIEW extends origin
     }
 
     /**
+
      * set
+
      *
+
      * @since v2.0.1 2026-04-14
+
      * @param mixed $field
+
      * @param mixed $value
+
      * @return void
+
      */
-    function set( $field, $value )
+    /**
+ * set
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * set
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @param mixed $value
+ * @return void
+ */
+function set( $field, $value )
     {
         if (property_exists($this, $field)) {
             $this->$field = $value;
@@ -174,13 +383,33 @@ class VIEW extends origin
     }
 
     /**
+
      * get
+
      *
+
      * @since v2.0.1 2026-04-14
+
      * @param mixed $field
+
      * @return mixed
+
      */
-    function get( $field )
+    /**
+ * get
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+/**
+ * get
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+function get( $field )
     {
         if( is_array( $this->container_arr ) && array_key_exists( $field, $this->container_arr ) )
         {
@@ -189,12 +418,40 @@ class VIEW extends origin
         return parent::get( $field );
     }
 
-    function set_focus( $field )
+    /**
+ * set_focus
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+/**
+ * set_focus
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+function set_focus( $field )
     {	
         set_focus( $field );
     }
 
-    function new_page( $action )
+    /**
+ * new_page
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return void
+ */
+/**
+ * new_page
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return void
+ */
+function new_page( $action )
     {
         if( $this->page_mode == "simple" )
         {
@@ -202,17 +459,53 @@ class VIEW extends origin
         }
     }
 
-    function new_form()
+    /**
+ * new_form
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * new_form
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function new_form()
     {
         start_form();
     }
     
-    function new_table()
+    /**
+ * new_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * new_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function new_table()
     {
         start_table( $this->get( "table_style" ), "width=" . $this->get( "table_width" ) . "%");
     }
 
-    function table_header()
+    /**
+ * table_header
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function table_header()
 
     {
         //$this->header_row = array(_("Asset Type"),_("Asset Name"),_("Serial Number"), _("Purchase Date"),
@@ -222,7 +515,21 @@ class VIEW extends origin
         table_header($this->header_row);
      }
 
-     function db_pager( $model )
+     /**
+ * db_pager
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $model
+ * @return void
+ */
+/**
+ * db_pager
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $model
+ * @return void
+ */
+function db_pager( $model )
     {
 /*
 		$table = & new_db_pager( $model->db_pager_tablename, $model->db_pager_sql, $model->db_pager_col_array );
@@ -232,7 +539,19 @@ class VIEW extends origin
 */
     }
 
-    function db_result2rows()
+    /**
+ * db_result2rows
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * db_result2rows
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function db_result2rows()
     {
         if( isset( $this->db_result ) )
         {
@@ -279,7 +598,19 @@ class VIEW extends origin
         }
     }
 
-    function edit_table()
+    /**
+ * edit_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * edit_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function edit_table()
     {
         $this->start_table();
         //These take values out of $_POST
@@ -311,21 +642,71 @@ class VIEW extends origin
         $this->end_table();
     }
 
-    function end_table()
+    /**
+ * end_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function end_table()
     {
         end_table(1);
     }
 
-    function end_form()
+    /**
+ * end_form
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * end_form
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function end_form()
     {
         end_form();
     }
 
-    function end_page( $action )
+    /**
+ * end_page
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return void
+ */
+/**
+ * end_page
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return void
+ */
+function end_page( $action )
     {
         end_page();
     }
-    function use_js()
+    /**
+ * use_js
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * use_js
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function use_js()
     {
         $this->js = "";
         if ($this->use_date_picker)
@@ -343,13 +724,43 @@ class VIEW extends origin
 
     }
 
-    function build_page( $action )
+    /**
+ * build_page
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return void
+ */
+/**
+ * build_page
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return void
+ */
+function build_page( $action )
     {
         //need to take the form, tables etc for the page
         //and create them to be displayed
     }
 
-    function dropdown( $label, $choices_array )
+    /**
+ * dropdown
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $choices_array
+ * @return void
+ */
+/**
+ * dropdown
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $choices_array
+ * @return void
+ */
+function dropdown( $label, $choices_array )
     {
         /*
 
@@ -358,21 +769,85 @@ class VIEW extends origin
         echo "<td>" . $label . ":</td>\n<td>" . array_selector( $name, null, $choices_array ) . "</td>\n";
     }
 
-    function bool( $row, $caller )
+    /**
+ * bool
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $row
+ * @param mixed $caller
+ * @return void
+ */
+/**
+ * bool
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $row
+ * @param mixed $caller
+ * @return void
+ */
+function bool( $row, $caller )
     {
         text_row($row['label'], $row['pref_name'], $caller->$row['pref_name'], 1, 1);
     }
 
-    function textrow( $row, $caller )
+    /**
+ * textrow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $row
+ * @param mixed $caller
+ * @return void
+ */
+/**
+ * textrow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $row
+ * @param mixed $caller
+ * @return void
+ */
+function textrow( $row, $caller )
     {
         text_row($row['label'], $row['pref_name'], $caller->$row['pref_name'], 20, 40);
     }
 
-    function number( $row, $caller )
+    /**
+ * number
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $row
+ * @param mixed $caller
+ * @return void
+ */
+/**
+ * number
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $row
+ * @param mixed $caller
+ * @return void
+ */
+function number( $row, $caller )
     {
         amount_row( _($row['label']), $row['pref_name'], null, null, null, 2);
     }
-    function date( $row, $caller )
+    /**
+ * date
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $row
+ * @param mixed $caller
+ * @return void
+ */
+/**
+ * date
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $row
+ * @param mixed $caller
+ * @return void
+ */
+function date( $row, $caller )
     {
         //date_row($label, $name, $title=null, $check=null, $inc_days=0, $inc_months=0, $inc_years=0, $params=null, $submit_on_change=false)
 
@@ -398,7 +873,19 @@ class VIEW extends origin
                 );
  */
     
-    function master_form()
+    /**
+ * master_form
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * master_form
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function master_form()
     {
         global $Ajax;
         //var_dump( $_POST );
@@ -442,7 +929,27 @@ class VIEW extends origin
         //$Ajax->activate('form');
     }
     
-    function display_table_with_edit($sql, $headers, $index, $return_to = null)
+    /**
+ * display_table_with_edit
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $headers
+ * @param mixed $index
+ * @param mixed $return_to
+ * @return void
+ */
+/**
+ * display_table_with_edit
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $headers
+ * @param mixed $index
+ * @param mixed $return_to
+ * @return void
+ */
+function display_table_with_edit($sql, $headers, $index, $return_to = null)
     {
         $this->notify( __METHOD__ . "::"  . __LINE__, "DEBUG" );
         $columncount = 0;
@@ -489,7 +996,25 @@ class VIEW extends origin
     }
 
     
-    function display_edit_form($form_def, $selected_id = -1, $return_to)
+    /**
+ * display_edit_form
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $form_def
+ * @param mixed $selected_id
+ * @param mixed $return_to
+ * @return void
+ */
+/**
+ * display_edit_form
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $form_def
+ * @param mixed $selected_id
+ * @param mixed $return_to
+ * @return void
+ */
+function display_edit_form($form_def, $selected_id = -1, $return_to)
     {
         $this->notify( __METHOD__ . "::"  . __LINE__, "DEBUG" );
         if( $selected_id > -1 )
@@ -536,7 +1061,31 @@ class VIEW extends origin
         if( $this->debug >= 3 ) $this->backtrace();
     }
 
-    function combo_list( $sql, $order_by_field, $name, $selected_id=null, $none_option=false, $submit_on_change=false)
+    /**
+ * combo_list
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+function combo_list( $sql, $order_by_field, $name, $selected_id=null, $none_option=false, $submit_on_change=false)
     {
         global $path_to_root;
         include_once( $path_to_root . "/includes/ui/ui_lists.inc" );
@@ -550,7 +1099,33 @@ class VIEW extends origin
         ) );
     }
 
-    function combo_list_cells( $sql, $order_by_field, $label, $name, $selected_id = null, $none_option=false, $submit_on_change=false )
+    /**
+ * combo_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+function combo_list_cells( $sql, $order_by_field, $label, $name, $selected_id = null, $none_option=false, $submit_on_change=false )
     {
         echo "<td>$label</td>";
         echo "<td>";
@@ -558,13 +1133,53 @@ class VIEW extends origin
         echo "</td>";
     }
 
-    function combo_list_row( $sql, $order_by_field, $label, $name, $selected_id = null, $none_option=false, $submit_on_change=false )
+    /**
+ * combo_list_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+function combo_list_row( $sql, $order_by_field, $label, $name, $selected_id = null, $none_option=false, $submit_on_change=false )
     {
         echo "<tr><td class='label'>$label</td>";
         $this->combo_list_cells( $sql, $order_by_field, $label, $name, $selected_id, $none_option, $submit_on_change);
         echo "</tr>";
     }
-    /*@array@*/function fields_array2entry( $fields_array )
+    /*@array@*//**
+ * fields_array2entry
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $fields_array
+ * @return void
+ */
+/**
+ * fields_array2entry
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $fields_array
+ * @return void
+ */
+function fields_array2entry( $fields_array )
     {
         //Take a fields_array definition and conver to the array needed
         //to create edit forms for display_table_with_edit and display_edit_form

@@ -15,6 +15,12 @@ use Ksfraser\HTML\Elements\HtmlString;
  * @group aria-attributes
  * @since 1.0.5 2026-03-30
  */
+/**
+ * AriaAttributeTraitTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class AriaAttributeTraitTest extends TestCase
 {
     /**
@@ -28,16 +34,34 @@ class AriaAttributeTraitTest extends TestCase
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    protected function setUp(): void
+    protected /**
+ * setUp
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function setUp(): void
     {
-        $this->element = new class extends HtmlElement {
+        $this->element = new /**
+ * HtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class extends HtmlElement {
 /**
  * __construct
  *
  * @since v1.0.5 2026-04-14
  * @return void
  */
-            public function __construct() {
+            public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
             }
@@ -53,7 +77,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaLabel()
+    public /**
+ * testSetAriaLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaLabel()
     {
         $this->element->setAriaLabel('Close button');
         $this->assertTrue($this->element->hasAria('label'));
@@ -67,7 +97,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaLabelRendersInHtml()
+    public /**
+ * testSetAriaLabelRendersInHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaLabelRendersInHtml()
     {
         $this->element->setAriaLabel('Close button');
         $html = (string)$this->element;
@@ -81,7 +117,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetRole()
+    public /**
+ * testSetRole
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetRole()
     {
         $this->element->setRole('button');
         $this->assertTrue($this->element->hasAria('role'));
@@ -95,7 +137,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetRoleRendersInHtml()
+    public /**
+ * testSetRoleRendersInHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetRoleRendersInHtml()
     {
         $this->element->setRole('button');
         $html = (string)$this->element;
@@ -109,7 +157,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaDescribedBy()
+    public /**
+ * testSetAriaDescribedBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaDescribedBy()
     {
         $this->element->setAriaDescribedBy('help-text');
         $this->assertTrue($this->element->hasAria('describedby'));
@@ -123,7 +177,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetMultipleAriaAttributes()
+    public /**
+ * testSetMultipleAriaAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetMultipleAriaAttributes()
     {
         $this->element->setAriaLabel('Submit form')
                       ->setRole('button')
@@ -142,7 +202,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testGetAllAriaAttributes()
+    public /**
+ * testGetAllAriaAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testGetAllAriaAttributes()
     {
         $this->element->setAriaLabel('Label');
         $this->element->setRole('button');
@@ -164,7 +230,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaHidden()
+    public /**
+ * testSetAriaHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaHidden()
     {
         $this->element->setAriaHidden(true);
         $html = (string)$this->element;
@@ -182,7 +254,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaDisabled()
+    public /**
+ * testSetAriaDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaDisabled()
     {
         $this->element->setAriaDisabled(true);
         $html = (string)$this->element;
@@ -196,7 +274,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaPressed()
+    public /**
+ * testSetAriaPressed
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaPressed()
     {
         $this->element->setAriaPressed(true);
         $html = (string)$this->element;
@@ -214,7 +298,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaChecked()
+    public /**
+ * testSetAriaChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaChecked()
     {
         $this->element->setAriaChecked(true);
         $html = (string)$this->element;
@@ -232,7 +322,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaSelected()
+    public /**
+ * testSetAriaSelected
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaSelected()
     {
         $this->element->setAriaSelected(true);
         $html = (string)$this->element;
@@ -246,7 +342,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaExpanded()
+    public /**
+ * testSetAriaExpanded
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaExpanded()
     {
         $this->element->setAriaExpanded(true);
         $html = (string)$this->element;
@@ -264,7 +366,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaBusy()
+    public /**
+ * testSetAriaBusy
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaBusy()
     {
         $this->element->setAriaBusy(true);
         $html = (string)$this->element;
@@ -278,7 +386,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaModal()
+    public /**
+ * testSetAriaModal
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaModal()
     {
         $this->element->setAriaModal(true);
         $html = (string)$this->element;
@@ -294,7 +408,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaLive()
+    public /**
+ * testSetAriaLive
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaLive()
     {
         $this->element->setAriaLive('polite');
         $html = (string)$this->element;
@@ -312,7 +432,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaAtomic()
+    public /**
+ * testSetAriaAtomic
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaAtomic()
     {
         $this->element->setAriaAtomic(true);
         $html = (string)$this->element;
@@ -326,7 +452,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaRelevant()
+    public /**
+ * testSetAriaRelevant
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaRelevant()
     {
         $this->element->setAriaRelevant('additions text');
         $html = (string)$this->element;
@@ -342,7 +474,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaLabelledBy()
+    public /**
+ * testSetAriaLabelledBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaLabelledBy()
     {
         $this->element->setAriaLabelledBy('heading');
         $html = (string)$this->element;
@@ -356,7 +494,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaOwns()
+    public /**
+ * testSetAriaOwns
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaOwns()
     {
         $this->element->setAriaOwns('menu');
         $html = (string)$this->element;
@@ -370,7 +514,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaActivedescendant()
+    public /**
+ * testSetAriaActivedescendant
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaActivedescendant()
     {
         $this->element->setAriaActivedescendant('option-1');
         $html = (string)$this->element;
@@ -384,7 +534,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaFlowto()
+    public /**
+ * testSetAriaFlowto
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaFlowto()
     {
         $this->element->setAriaFlowto('next-section');
         $html = (string)$this->element;
@@ -400,7 +556,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaValuemin()
+    public /**
+ * testSetAriaValuemin
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaValuemin()
     {
         $this->element->setAriaValuemin(0);
         $html = (string)$this->element;
@@ -414,7 +576,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaValuemax()
+    public /**
+ * testSetAriaValuemax
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaValuemax()
     {
         $this->element->setAriaValuemax(100);
         $html = (string)$this->element;
@@ -428,7 +596,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaValuenow()
+    public /**
+ * testSetAriaValuenow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaValuenow()
     {
         $this->element->setAriaValuenow(50);
         $html = (string)$this->element;
@@ -442,7 +616,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaValuetext()
+    public /**
+ * testSetAriaValuetext
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaValuetext()
     {
         $this->element->setAriaValuetext('50 percent complete');
         $html = (string)$this->element;
@@ -456,7 +636,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaPlaceholder()
+    public /**
+ * testSetAriaPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaPlaceholder()
     {
         $this->element->setAriaPlaceholder('Enter your name');
         $html = (string)$this->element;
@@ -470,7 +656,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaOrientation()
+    public /**
+ * testSetAriaOrientation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaOrientation()
     {
         $this->element->setAriaOrientation('horizontal');
         $html = (string)$this->element;
@@ -488,7 +680,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaMultiline()
+    public /**
+ * testSetAriaMultiline
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaMultiline()
     {
         $this->element->setAriaMultiline(true);
         $html = (string)$this->element;
@@ -502,7 +700,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaReadonly()
+    public /**
+ * testSetAriaReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaReadonly()
     {
         $this->element->setAriaReadonly(true);
         $html = (string)$this->element;
@@ -516,7 +720,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaRequired()
+    public /**
+ * testSetAriaRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaRequired()
     {
         $this->element->setAriaRequired(true);
         $html = (string)$this->element;
@@ -532,7 +742,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testSetAriaWithCustomName()
+    public /**
+ * testSetAriaWithCustomName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testSetAriaWithCustomName()
     {
         $this->element->setAria('custom-attribute', 'value');
         $html = (string)$this->element;
@@ -546,7 +762,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testGetAriaCustomAttribute()
+    public /**
+ * testGetAriaCustomAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testGetAriaCustomAttribute()
     {
         $this->element->setAria('custom', 'value');
         $this->assertEquals('value', $this->element->getAria('custom'));
@@ -559,7 +781,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testHasAriaCustomAttribute()
+    public /**
+ * testHasAriaCustomAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testHasAriaCustomAttribute()
     {
         $this->element->setAria('custom', 'value');
         $this->assertTrue($this->element->hasAria('custom'));
@@ -575,7 +803,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testAriaLabelEscapesSpecialCharacters()
+    public /**
+ * testAriaLabelEscapesSpecialCharacters
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAriaLabelEscapesSpecialCharacters()
     {
         $this->element->setAriaLabel('Close "dialog" & save');
         $html = (string)$this->element;
@@ -590,7 +824,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testAriaDescriptionEscapesHtmlTags()
+    public /**
+ * testAriaDescriptionEscapesHtmlTags
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAriaDescriptionEscapesHtmlTags()
     {
         $this->element->setAriaLabel('Click <here> to continue');
         $html = (string)$this->element;
@@ -607,7 +847,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testRemoveAriaAttribute()
+    public /**
+ * testRemoveAriaAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testRemoveAriaAttribute()
     {
         $this->element->setAriaLabel('Label');
         $this->assertTrue($this->element->hasAria('label'));
@@ -623,7 +869,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testRemoveNonExistentAriaAttribute()
+    public /**
+ * testRemoveNonExistentAriaAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testRemoveNonExistentAriaAttribute()
     {
         // Should not throw exception
         $this->element->removeAria('nonexistent');
@@ -637,7 +889,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testClearAllAriaAttributes()
+    public /**
+ * testClearAllAriaAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testClearAllAriaAttributes()
     {
         $this->element->setAriaLabel('Label');
         $this->element->setRole('button');
@@ -659,7 +917,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testAriaMethodsReturnSelf()
+    public /**
+ * testAriaMethodsReturnSelf
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAriaMethodsReturnSelf()
     {
         $result = $this->element->setAriaLabel('Label');
         $this->assertSame($this->element, $result);
@@ -672,7 +936,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testChainMultipleAriaMethodCalls()
+    public /**
+ * testChainMultipleAriaMethodCalls
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testChainMultipleAriaMethodCalls()
     {
         $this->element
             ->setAriaLabel('Label')
@@ -694,7 +964,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testChainAriaWithOtherMethods()
+    public /**
+ * testChainAriaWithOtherMethods
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testChainAriaWithOtherMethods()
     {
         $this->element
             ->setAriaLabel('Button')
@@ -717,7 +993,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testRemoveAriaReturnsSelf()
+    public /**
+ * testRemoveAriaReturnsSelf
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testRemoveAriaReturnsSelf()
     {
         $this->element->setAriaLabel('Label');
         $result = $this->element->removeAria('label');
@@ -731,7 +1013,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testClearAriaReturnsSelf()
+    public /**
+ * testClearAriaReturnsSelf
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testClearAriaReturnsSelf()
     {
         $result = $this->element->clearAria();
         $this->assertSame($this->element, $result);
@@ -746,16 +1034,34 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testButtonAccessibilityPattern()
+    public /**
+ * testButtonAccessibilityPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testButtonAccessibilityPattern()
     {
-        $button = new class extends HtmlElement {
+        $button = new /**
+ * HtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class extends HtmlElement {
 /**
  * __construct
  *
  * @since v1.0.5 2026-04-14
  * @return void
  */
-            public function __construct() {
+            public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __construct() {
                 parent::__construct(new HtmlString('Delete'));
                 $this->tag = 'button';
             }
@@ -777,16 +1083,34 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testMenuAccessibilityPattern()
+    public /**
+ * testMenuAccessibilityPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testMenuAccessibilityPattern()
     {
-        $menu = new class extends HtmlElement {
+        $menu = new /**
+ * HtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class extends HtmlElement {
 /**
  * __construct
  *
  * @since v1.0.5 2026-04-14
  * @return void
  */
-            public function __construct() {
+            public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __construct() {
                 parent::__construct();
                 $this->tag = 'ul';
             }
@@ -807,16 +1131,34 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testProgressBarPattern()
+    public /**
+ * testProgressBarPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testProgressBarPattern()
     {
-        $progressBar = new class extends HtmlElement {
+        $progressBar = new /**
+ * HtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class extends HtmlElement {
 /**
  * __construct
  *
  * @since v1.0.5 2026-04-14
  * @return void
  */
-            public function __construct() {
+            public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
             }
@@ -844,16 +1186,34 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testLiveRegionPattern()
+    public /**
+ * testLiveRegionPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testLiveRegionPattern()
     {
-        $liveRegion = new class extends HtmlElement {
+        $liveRegion = new /**
+ * HtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class extends HtmlElement {
 /**
  * __construct
  *
  * @since v1.0.5 2026-04-14
  * @return void
  */
-            public function __construct() {
+            public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __construct() {
                 parent::__construct(new HtmlString('System updated'));
                 $this->tag = 'div';
             }
@@ -876,16 +1236,34 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testModalDialogPattern()
+    public /**
+ * testModalDialogPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testModalDialogPattern()
     {
-        $modal = new class extends HtmlElement {
+        $modal = new /**
+ * HtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class extends HtmlElement {
 /**
  * __construct
  *
  * @since v1.0.5 2026-04-14
  * @return void
  */
-            public function __construct() {
+            public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
             }
@@ -912,7 +1290,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testUpdateAriaAttribute()
+    public /**
+ * testUpdateAriaAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testUpdateAriaAttribute()
     {
         $this->element->setAriaLabel('Original');
         $this->assertEquals('Original', $this->element->getAria('label'));
@@ -928,7 +1312,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testGetNonExistentAriaAttribute()
+    public /**
+ * testGetNonExistentAriaAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testGetNonExistentAriaAttribute()
     {
         $result = $this->element->getAria('nonexistent');
         $this->assertNull($result);
@@ -941,7 +1331,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testAriaAttributeWithEmptyValue()
+    public /**
+ * testAriaAttributeWithEmptyValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAriaAttributeWithEmptyValue()
     {
         $this->element->setAriaLabel('');
         $html = (string)$this->element;
@@ -956,7 +1352,13 @@ class AriaAttributeTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testAriaAttributeWithUnicodeValue()
+    public /**
+ * testAriaAttributeWithUnicodeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAriaAttributeWithUnicodeValue()
     {
         $this->element->setAriaLabel('Descripción en español');
         $html = (string)$this->element;

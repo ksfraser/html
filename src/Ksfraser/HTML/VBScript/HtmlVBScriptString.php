@@ -11,15 +11,85 @@ use Ksfraser\HTML\HtmlScriptLanguage;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Semantic wrapper for VBScript code as an HTML element.
 
+ * 
+
+ * 
+
+ * 
+
  * Uses HtmlScriptLanguage so script content is emitted unescaped inside <script> tags.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  *
 
  * @since 1.0.5 2026-02-22
+
+ * @return void
 
  */
 class HtmlVBScriptString extends HtmlScriptLanguage {

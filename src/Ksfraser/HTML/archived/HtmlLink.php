@@ -12,13 +12,77 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * <a href="URL">TEXT</a>
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  *
 
  * @since 1.0.1 2026-02-16
+
+ * @return void
 
  */
 class HtmlLink extends HtmlElement
@@ -98,11 +162,95 @@ class HtmlLink extends HtmlElement
 	
 	 *
 	
+	 * 	
+	
+	 * 	
+	
+	 * 
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
 	 * /**
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
 	
 	 * setParams()
 	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
 	 * 
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
+	
+	 * 	
 	
 	 *
 	

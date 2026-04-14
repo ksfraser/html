@@ -10,51 +10,251 @@ use Ksfraser\HTML\HtmlElement;
 
  *
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Provides builder methods for Bootstrap component creation
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  * Static factory methods for common Bootstrap components:
 
+ * 
+
+ * 
+
+ * 
+
  * - Buttons: buttonPrimary(), buttonSuccess(), buttonDanger(), buttonWarning(), buttonInfo(), buttonSecondary()
+
+ * 
+
+ * 
+
+ * 
 
  * - Cards: card(), cardHeader(), cardBody(), cardFooter(), cardImage(), cardText(), cardTitle(), cardSubtitle()
 
+ * 
+
+ * 
+
+ * 
+
  * - Alerts: alertPrimary(), alertSuccess(), alertWarning(), alertDanger(), alertInfo()
+
+ * 
+
+ * 
+
+ * 
 
  * - Badges: badgePrimary(), badgeSuccess(), badgeDanger(), badgeWarning(), badgeInfo(), badgeSecondary()
 
+ * 
+
+ * 
+
+ * 
+
  * - Modals: modal(), modalDialog(), modalContent(), modalHeader(), modalBody(), modalFooter()
 
+ * 
+
+ * 
+
+ * 
+
  * - Navbars: navbar(), navbarBrand(), navbarNav(), navbarItem(), navbarLink(), navbarToggler()
+
+ * 
+
+ * 
+
+ * 
 
  * - Pagination: pagination(), paginationList(), paginationItem(), paginationLink(), paginationPrevious(), paginationNext()
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Integration with previous traits:
+
+ * 
+
+ * 
+
+ * 
 
  * - CSSManagementTrait: Bootstrap classes automatically applied
 
+ * 
+
+ * 
+
+ * 
+
  * - AriaAttributeTrait: Accessibility attributes (roles, aria-*)
 
+ * 
+
+ * 
+
+ * 
+
  * - DataAttributeTrait: Data attributes for JS integration
+
+ * 
+
+ * 
+
+ * 
 
  * - EventHandlerTrait: Event binding for interactive components
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Usage:
+
+ * 
+
+ * 
+
+ * 
 
  *   $button = HtmlElement::buttonPrimary('Click Me');
 
+ * 
+
+ * 
+
+ * 
+
  *   $card = HtmlElement::card()
+
+ * 
+
+ * 
+
+ * 
 
  *       ->addNested(HtmlElement::cardHeader('Title'))
 
+ * 
+
+ * 
+
+ * 
+
  *       ->addNested(HtmlElement::cardBody('Content'));
 
+ * 
+
+ * 
+
+ * 
+
  *   $alert = HtmlElement::alertSuccess('Operation successful', true);
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -66,6 +266,14 @@ use Ksfraser\HTML\HtmlElement;
 
  * @package Ksfraser\HTML\Traits
 
+ * @return void
+
+ */
+/**
+ * ComponentFactoryTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 trait ComponentFactoryTrait
 {
@@ -83,7 +291,91 @@ trait ComponentFactoryTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $btn = HtmlElement::buttonPrimary('Click Me', 'submit');
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -98,7 +390,15 @@ trait ComponentFactoryTrait
      * @return HtmlElement
 
      */
-    public static function buttonPrimary(string $text = '', string $type = 'button'): HtmlElement
+    public static /**
+ * buttonPrimary
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $type
+ * @return HtmlElement
+ */
+function buttonPrimary(string $text = '', string $type = 'button'): HtmlElement
     {
         if ($type === 'submit') {
             $button = new \Ksfraser\HTML\Button\SubmitButton($text);
@@ -125,7 +425,15 @@ trait ComponentFactoryTrait
      * @return HtmlElement
 
      */
-    public static function buttonSuccess(string $text = '', string $type = 'button'): HtmlElement
+    public static /**
+ * buttonSuccess
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $type
+ * @return HtmlElement
+ */
+function buttonSuccess(string $text = '', string $type = 'button'): HtmlElement
     {
         if ($type === 'submit') {
             $button = new \Ksfraser\HTML\Button\SubmitButton($text);
@@ -152,7 +460,15 @@ trait ComponentFactoryTrait
      * @return HtmlElement
 
      */
-    public static function buttonDanger(string $text = '', string $type = 'button'): HtmlElement
+    public static /**
+ * buttonDanger
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $type
+ * @return HtmlElement
+ */
+function buttonDanger(string $text = '', string $type = 'button'): HtmlElement
     {
         if ($type === 'submit') {
             $button = new \Ksfraser\HTML\Button\SubmitButton($text);
@@ -179,7 +495,15 @@ trait ComponentFactoryTrait
      * @return HtmlElement
 
      */
-    public static function buttonWarning(string $text = '', string $type = 'button'): HtmlElement
+    public static /**
+ * buttonWarning
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $type
+ * @return HtmlElement
+ */
+function buttonWarning(string $text = '', string $type = 'button'): HtmlElement
     {
         if ($type === 'submit') {
             $button = new \Ksfraser\HTML\Button\SubmitButton($text);
@@ -206,7 +530,15 @@ trait ComponentFactoryTrait
      * @return HtmlElement
 
      */
-    public static function buttonInfo(string $text = '', string $type = 'button'): HtmlElement
+    public static /**
+ * buttonInfo
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $type
+ * @return HtmlElement
+ */
+function buttonInfo(string $text = '', string $type = 'button'): HtmlElement
     {
         if ($type === 'submit') {
             $button = new \Ksfraser\HTML\Button\SubmitButton($text);
@@ -233,7 +565,15 @@ trait ComponentFactoryTrait
      * @return HtmlElement
 
      */
-    public static function buttonSecondary(string $text = '', string $type = 'button'): HtmlElement
+    public static /**
+ * buttonSecondary
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $type
+ * @return HtmlElement
+ */
+function buttonSecondary(string $text = '', string $type = 'button'): HtmlElement
     {
         if ($type === 'submit') {
             $button = new \Ksfraser\HTML\Button\SubmitButton($text);
@@ -258,7 +598,14 @@ trait ComponentFactoryTrait
      * @return HtmlElement
 
      */
-public static function buttonClose(?string $text = null): HtmlElement
+public static /**
+ * buttonClose
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function buttonClose(?string $text = null): HtmlElement
     {
         return new \Ksfraser\HTML\Button\CloseButton($text);
     }
@@ -275,7 +622,73 @@ public static function buttonClose(?string $text = null): HtmlElement
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $card = HtmlElement::card();
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -286,7 +699,13 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function card(): HtmlElement
+    public static /**
+ * card
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function card(): HtmlElement
     {
         $card = self::element('div');
         $card->addCSSClass('card');
@@ -306,7 +725,14 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function cardHeader(string $text = ''): HtmlElement
+    public static /**
+ * cardHeader
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function cardHeader(string $text = ''): HtmlElement
     {
         $header = self::element('div', $text);
         $header->addCSSClass('card-header');
@@ -326,7 +752,14 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function cardBody(string $text = ''): HtmlElement
+    public static /**
+ * cardBody
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function cardBody(string $text = ''): HtmlElement
     {
         $body = self::element('div', $text);
         $body->addCSSClass('card-body');
@@ -346,7 +779,14 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function cardFooter(string $text = ''): HtmlElement
+    public static /**
+ * cardFooter
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function cardFooter(string $text = ''): HtmlElement
     {
         $footer = self::element('div', $text);
         $footer->addCSSClass('card-footer');
@@ -368,7 +808,15 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function cardImage(string $src, string $alt = ''): HtmlElement
+    public static /**
+ * cardImage
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $alt
+ * @return HtmlElement
+ */
+function cardImage(string $src, string $alt = ''): HtmlElement
     {
         $image = self::element('img');
         if (method_exists($image, 'setSrc')) {
@@ -400,7 +848,14 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function cardText(string $text = ''): HtmlElement
+    public static /**
+ * cardText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function cardText(string $text = ''): HtmlElement
     {
         $p = self::element('p', $text);
         $p->addCSSClass('card-text');
@@ -422,7 +877,15 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function cardTitle(string $text = '', int $level = 5): HtmlElement
+    public static /**
+ * cardTitle
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $level
+ * @return HtmlElement
+ */
+function cardTitle(string $text = '', int $level = 5): HtmlElement
     {
         $tag = 'h' . min(max($level, 1), 6);
         $title = self::element($tag, $text);
@@ -445,7 +908,15 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function cardSubtitle(string $text = '', int $level = 6): HtmlElement
+    public static /**
+ * cardSubtitle
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $level
+ * @return HtmlElement
+ */
+function cardSubtitle(string $text = '', int $level = 6): HtmlElement
     {
         $tag = 'h' . min(max($level, 1), 6);
         $subtitle = self::element($tag, $text);
@@ -472,7 +943,15 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function alertPrimary(string $message = '', bool $dismissible = false): HtmlElement
+    public static /**
+ * alertPrimary
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @param mixed $dismissible
+ * @return HtmlElement
+ */
+function alertPrimary(string $message = '', bool $dismissible = false): HtmlElement
     {
         $alert = self::element('div', $message);
         if (method_exists($alert, 'setRole')) {
@@ -505,7 +984,15 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function alertSuccess(string $message = '', bool $dismissible = false): HtmlElement
+    public static /**
+ * alertSuccess
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @param mixed $dismissible
+ * @return HtmlElement
+ */
+function alertSuccess(string $message = '', bool $dismissible = false): HtmlElement
     {
         $alert = self::element('div', $message);
         if (method_exists($alert, 'setRole')) {
@@ -538,7 +1025,15 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function alertWarning(string $message = '', bool $dismissible = false): HtmlElement
+    public static /**
+ * alertWarning
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @param mixed $dismissible
+ * @return HtmlElement
+ */
+function alertWarning(string $message = '', bool $dismissible = false): HtmlElement
     {
         $alert = self::element('div', $message);
         if (method_exists($alert, 'setRole')) {
@@ -571,7 +1066,15 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function alertDanger(string $message = '', bool $dismissible = false): HtmlElement
+    public static /**
+ * alertDanger
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @param mixed $dismissible
+ * @return HtmlElement
+ */
+function alertDanger(string $message = '', bool $dismissible = false): HtmlElement
     {
         $alert = self::element('div', $message);
         if (method_exists($alert, 'setRole')) {
@@ -604,7 +1107,15 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function alertInfo(string $message = '', bool $dismissible = false): HtmlElement
+    public static /**
+ * alertInfo
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @param mixed $dismissible
+ * @return HtmlElement
+ */
+function alertInfo(string $message = '', bool $dismissible = false): HtmlElement
     {
         $alert = self::element('div', $message);
         if (method_exists($alert, 'setRole')) {
@@ -641,7 +1152,15 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function badgePrimary(string $text = '', bool $pill = false): HtmlElement
+    public static /**
+ * badgePrimary
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $pill
+ * @return HtmlElement
+ */
+function badgePrimary(string $text = '', bool $pill = false): HtmlElement
     {
         $badge = self::element('badge', $text);
         $badge->addCSSClass('badge');
@@ -667,7 +1186,15 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function badgeSuccess(string $text = '', bool $pill = false): HtmlElement
+    public static /**
+ * badgeSuccess
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $pill
+ * @return HtmlElement
+ */
+function badgeSuccess(string $text = '', bool $pill = false): HtmlElement
     {
         $badge = self::element('badge', $text);
         $badge->addCSSClass('badge');
@@ -693,7 +1220,15 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function badgeDanger(string $text = '', bool $pill = false): HtmlElement
+    public static /**
+ * badgeDanger
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $pill
+ * @return HtmlElement
+ */
+function badgeDanger(string $text = '', bool $pill = false): HtmlElement
     {
         $badge = self::element('badge', $text);
         $badge->addCSSClass('badge');
@@ -719,7 +1254,15 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function badgeWarning(string $text = '', bool $pill = false): HtmlElement
+    public static /**
+ * badgeWarning
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $pill
+ * @return HtmlElement
+ */
+function badgeWarning(string $text = '', bool $pill = false): HtmlElement
     {
         $badge = self::element('badge', $text);
         $badge->addCSSClass('badge');
@@ -745,7 +1288,15 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function badgeInfo(string $text = '', bool $pill = false): HtmlElement
+    public static /**
+ * badgeInfo
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $pill
+ * @return HtmlElement
+ */
+function badgeInfo(string $text = '', bool $pill = false): HtmlElement
     {
         $badge = self::element('badge', $text);
         $badge->addCSSClass('badge');
@@ -771,7 +1322,15 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function badgeSecondary(string $text = '', bool $pill = false): HtmlElement
+    public static /**
+ * badgeSecondary
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $pill
+ * @return HtmlElement
+ */
+function badgeSecondary(string $text = '', bool $pill = false): HtmlElement
     {
         $badge = self::element('badge', $text);
         $badge->addCSSClass('badge');
@@ -799,7 +1358,14 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function modal(string $id): HtmlElement
+    public static /**
+ * modal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return HtmlElement
+ */
+function modal(string $id): HtmlElement
     {
         $modal = self::element('div');
         if (method_exists($modal, 'setId')) {
@@ -830,7 +1396,14 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function modalDialog(?string $size = null): HtmlElement
+    public static /**
+ * modalDialog
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $size
+ * @return HtmlElement
+ */
+function modalDialog(?string $size = null): HtmlElement
     {
         $dialog = self::element('div');
         $dialog->addCSSClass('modal-dialog');
@@ -857,7 +1430,13 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function modalContent(): HtmlElement
+    public static /**
+ * modalContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function modalContent(): HtmlElement
     {
         $content = self::element('div');
         $content->addCSSClass('modal-content');
@@ -877,7 +1456,14 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function modalHeader(string $title = ''): HtmlElement
+    public static /**
+ * modalHeader
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $title
+ * @return HtmlElement
+ */
+function modalHeader(string $title = ''): HtmlElement
     {
         $header = self::element('div');
         $header->addCSSClass('modal-header');
@@ -904,7 +1490,14 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function modalBody(string $text = ''): HtmlElement
+    public static /**
+ * modalBody
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function modalBody(string $text = ''): HtmlElement
     {
         $body = self::element('div', $text);
         $body->addCSSClass('modal-body');
@@ -922,7 +1515,13 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function modalFooter(): HtmlElement
+    public static /**
+ * modalFooter
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function modalFooter(): HtmlElement
     {
         $footer = self::element('div');
         $footer->addCSSClass('modal-footer');
@@ -948,7 +1547,15 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function navbar(?string $theme = null, ?string $background = null): HtmlElement
+    public static /**
+ * navbar
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $theme
+ * @param mixed $background
+ * @return HtmlElement
+ */
+function navbar(?string $theme = null, ?string $background = null): HtmlElement
     {
         $navbar = self::element('nav');
         $navbar->addCSSClass('navbar');
@@ -979,7 +1586,14 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function navbarBrand(string $text = ''): HtmlElement
+    public static /**
+ * navbarBrand
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return HtmlElement
+ */
+function navbarBrand(string $text = ''): HtmlElement
     {
         $brand = self::element('span', $text);
         $brand->addCSSClass('navbar-brand');
@@ -997,7 +1611,13 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function navbarNav(): HtmlElement
+    public static /**
+ * navbarNav
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function navbarNav(): HtmlElement
     {
         $nav = self::element('ul');
         $nav->addCSSClass('navbar-nav');
@@ -1015,7 +1635,13 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function navbarItem(): HtmlElement
+    public static /**
+ * navbarItem
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function navbarItem(): HtmlElement
     {
         $item = self::element('li');
         $item->addCSSClass('nav-item');
@@ -1039,7 +1665,16 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function navbarLink(string $text = '', string $href = '#', bool $active = false): HtmlElement
+    public static /**
+ * navbarLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $href
+ * @param mixed $active
+ * @return HtmlElement
+ */
+function navbarLink(string $text = '', string $href = '#', bool $active = false): HtmlElement
     {
         $link = self::element('a', $text);
         if (method_exists($link, 'setHref')) {
@@ -1067,7 +1702,13 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function navbarToggler(): HtmlElement
+    public static /**
+ * navbarToggler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function navbarToggler(): HtmlElement
     {
         $toggler = self::element('button');
         if (method_exists($toggler, 'setType')) {
@@ -1094,7 +1735,13 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function pagination(): HtmlElement
+    public static /**
+ * pagination
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function pagination(): HtmlElement
     {
         $nav = self::element('nav');
         return $nav;
@@ -1113,7 +1760,14 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function paginationList(?string $size = null): HtmlElement
+    public static /**
+ * paginationList
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $size
+ * @return HtmlElement
+ */
+function paginationList(?string $size = null): HtmlElement
     {
         $list = self::element('ul');
         $list->addCSSClass('pagination');
@@ -1142,7 +1796,15 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function paginationItem(bool $active = false, bool $disabled = false): HtmlElement
+    public static /**
+ * paginationItem
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $active
+ * @param mixed $disabled
+ * @return HtmlElement
+ */
+function paginationItem(bool $active = false, bool $disabled = false): HtmlElement
     {
         $item = self::element('li');
         $item->addCSSClass('page-item');
@@ -1173,7 +1835,15 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function paginationLink(string $text = '', string $href = '#'): HtmlElement
+    public static /**
+ * paginationLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $href
+ * @return HtmlElement
+ */
+function paginationLink(string $text = '', string $href = '#'): HtmlElement
     {
         $link = self::element('a', $text);
         if (method_exists($link, 'setHref')) {
@@ -1198,7 +1868,14 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function paginationPrevious(string $href = '#'): HtmlElement
+    public static /**
+ * paginationPrevious
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $href
+ * @return HtmlElement
+ */
+function paginationPrevious(string $href = '#'): HtmlElement
     {
         $item = self::element('li');
         $item->addCSSClass('page-item');
@@ -1228,7 +1905,14 @@ public static function buttonClose(?string $text = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static function paginationNext(string $href = '#'): HtmlElement
+    public static /**
+ * paginationNext
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $href
+ * @return HtmlElement
+ */
+function paginationNext(string $href = '#'): HtmlElement
     {
         $item = self::element('li');
         $item->addCSSClass('page-item');

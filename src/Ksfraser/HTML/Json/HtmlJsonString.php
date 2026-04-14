@@ -11,15 +11,85 @@ use Ksfraser\HTML\Elements\HtmlRaw;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Semantic wrapper for JSON code as an HTML element.
 
+ * 
+
+ * 
+
+ * 
+
  * Uses HtmlRaw so the JSON content is not HTML-escaped when rendered inside a script tag.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  *
 
  * @since 1.0.3 2026-02-21
+
+ * @return void
 
  */
 class HtmlJsonString extends HtmlRaw {

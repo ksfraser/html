@@ -59,7 +59,14 @@ if (!function_exists('_')) {
 	 * @param mixed $s
 	 * @return void
  */
-    function _($s) { return $s; }
+    /**
+ * _
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $s
+ * @return void
+ */
+function _($s) { return $s; }
 }
 
 foreach ([
@@ -109,7 +116,14 @@ if (!function_exists('db_prepare')) {
 	 * @param mixed $sql
 	 * @return void
  */
-    function db_prepare($sql) { return ['sql' => $sql]; }
+    /**
+ * db_prepare
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @return void
+ */
+function db_prepare($sql) { return ['sql' => $sql]; }
 }
 if (!function_exists('db_execute')) {
 /**
@@ -119,7 +133,14 @@ if (!function_exists('db_execute')) {
 	 * @param mixed $stmt
 	 * @return void
  */
-    function db_execute($stmt) { return true; }
+    /**
+ * db_execute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $stmt
+ * @return void
+ */
+function db_execute($stmt) { return true; }
 }
 if (!function_exists('db_fetch')) {
 /**
@@ -129,7 +150,14 @@ if (!function_exists('db_fetch')) {
 	 * @param mixed $stmt
 	 * @return void
  */
-    function db_fetch($stmt) { return false; }
+    /**
+ * db_fetch
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $stmt
+ * @return void
+ */
+function db_fetch($stmt) { return false; }
 }
 if (!function_exists('db_fetch_assoc')) {
 /**
@@ -139,7 +167,14 @@ if (!function_exists('db_fetch_assoc')) {
 	 * @param mixed $stmt
 	 * @return void
  */
-    function db_fetch_assoc($stmt) { return false; }
+    /**
+ * db_fetch_assoc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $stmt
+ * @return void
+ */
+function db_fetch_assoc($stmt) { return false; }
 }
 if (!function_exists('db_bind_param')) {
 /**
@@ -151,7 +186,16 @@ if (!function_exists('db_bind_param')) {
 	 * @param mixed $value
 	 * @return void
  */
-    function db_bind_param($stmt, $position, $value) { return true; }
+    /**
+ * db_bind_param
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $stmt
+ * @param mixed $position
+ * @param mixed $value
+ * @return void
+ */
+function db_bind_param($stmt, $position, $value) { return true; }
 }
 
 // -------------------------------------------------------------------------
@@ -181,7 +225,14 @@ foreach ($aliases as $global => $fqcn) {
 }
 
 // Back-compat: map moved element classes under Elements\ to Button\ or top-level namespaces
-spl_autoload_register(function ($class) {
+spl_autoload_register(/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return void
+ */
+function ($class) {
     $prefix = 'Ksfraser\\HTML\\Elements\\';
     if (str_starts_with($class, $prefix)) {
         $short = substr($class, strlen($prefix));

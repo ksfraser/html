@@ -8,25 +8,147 @@ namespace Ksfraser\HTML\Traits;
 
  *
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Provides convenient methods for managing HTML5 data-* attributes
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  * Usage:
 
+ * 
+
+ * 
+
+ * 
+
  *   $element->setData('userId', '123');
 
+ * 
+
+ * 
+
+ * 
+
  *   $element->setData('config', ['key' => 'value']);
+
+ * 
+
+ * 
+
+ * 
 
  *   echo $element->getData('userId'); // "123"
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  *   $element
+
+ * 
+
+ * 
+
+ * 
 
  *       ->setData('type', 'widget')
 
+ * 
+
+ * 
+
+ * 
+
  *       ->setData('version', '2.0');
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -38,16 +160,23 @@ namespace Ksfraser\HTML\Traits;
 
  * @package Ksfraser\HTML\Traits
 
+ * @return void
+
  */
 trait DataAttributeTrait
 {
     /**
      * Storage for data attributes
      *
+     * 
+     * 
      * Format: ['keyName' => $value, ...]
+     * 
+     * 
      * 
      *
      * @var array $dataAttributes
+     * @return void
      */
     protected array $dataAttributes = [];
 
@@ -59,9 +188,57 @@ trait DataAttributeTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Stores the value internally. If the key already exists, it's replaced.
 
+     * 
+
+     * 
+
+     * 
+
      * Values are automatically escaped during HTML rendering via renderDataAttributes().
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 
@@ -71,11 +248,89 @@ trait DataAttributeTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $element->setData('userId', '123');
+
+     * 
+
+     * 
+
+     * 
 
      *   $element->setData('config', ['key' => 'value']);
 
+     * 
+
+     * 
+
+     * 
+
      *   $element->setData('active', true);
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -106,6 +361,36 @@ trait DataAttributeTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Returns the raw, unescaped value. Returns null if the key doesn't exist.
 
      * 
@@ -114,7 +399,73 @@ trait DataAttributeTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $value = $element->getData('userId'); // "123"
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -144,11 +495,107 @@ trait DataAttributeTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   if ($element->hasData('userId')) {
+
+     * 
+
+     * 
+
+     * 
 
      *       echo $element->getData('userId');
 
+     * 
+
+     * 
+
+     * 
+
      *   }
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -174,7 +621,61 @@ trait DataAttributeTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Safe to call for non-existent keys (no exception thrown).
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 
@@ -184,7 +685,55 @@ trait DataAttributeTrait
 
      *   $element->removeData('userId');
 
+     * 
+
+     * 
+
+     * 
+
      *   $element->removeData('nonexistent'); // No error
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -213,7 +762,79 @@ trait DataAttributeTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $element->clearData();
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -238,9 +859,57 @@ trait DataAttributeTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Merges with existing data attributes (existing keys are overwritten).
 
+     * 
+
+     * 
+
+     * 
+
      * This is useful for bulk setting attributes during construction.
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 
@@ -250,15 +919,99 @@ trait DataAttributeTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $element->setDataAttributes([
+
+     * 
+
+     * 
+
+     * 
 
      *       'userId' => '123',
 
+     * 
+
+     * 
+
+     * 
+
      *       'userName' => 'John',
+
+     * 
+
+     * 
+
+     * 
 
      *       'role' => 'admin'
 
+     * 
+
+     * 
+
+     * 
+
      *   ]);
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -287,7 +1040,55 @@ trait DataAttributeTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Returns raw, unescaped values.
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 
@@ -295,7 +1096,49 @@ trait DataAttributeTrait
 
      *   $all = $element->getAllData();
 
+     * 
+
+     * 
+
+     * 
+
      *   // ['userId' => '123', 'userName' => 'John']
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -319,29 +1162,131 @@ trait DataAttributeTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Internal method called from HtmlElement::getAttributes().
 
+     * 
+
+     * 
+
+     * 
+
      * Transforms stored data attributes into HTML-safe attribute format:
+
+     * 
+
+     * 
+
+     * 
 
      *   data-userId="escaped-value" data-config="escaped-json"
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * All values are automatically HTML-escaped using htmlspecialchars() with
+
+     * 
+
+     * 
+
+     * 
 
      * ENT_QUOTES | ENT_HTML5 for security (prevents XSS).
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Data types are converted to strings:
+
+     * 
+
+     * 
+
+     * 
 
      *   - string: used as-is
 
+     * 
+
+     * 
+
+     * 
+
      *   - bool: rendered as "true" or "false"
+
+     * 
+
+     * 
+
+     * 
 
      *   - int/float: converted to string
 
+     * 
+
+     * 
+
+     * 
+
      *   - array/object: converted to JSON
+
+     * 
+
+     * 
+
+     * 
 
      *   - null: not rendered
 
@@ -351,9 +1296,81 @@ trait DataAttributeTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $html = $element->renderDataAttributes();
 
+     * 
+
+     * 
+
+     * 
+
      *   // ' data-userId="123" data-active="true"'
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -399,19 +1416,133 @@ trait DataAttributeTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Handles type conversions for various PHP types:
+
+     * 
+
+     * 
+
+     * 
 
      *   - string: returned as-is
 
+     * 
+
+     * 
+
+     * 
+
      *   - bool: converted to "true" or "false"
+
+     * 
+
+     * 
+
+     * 
 
      *   - int/float: converted to string via (string)
 
+     * 
+
+     * 
+
+     * 
+
      *   - array: converted to JSON
+
+     * 
+
+     * 
+
+     * 
 
      *   - object: converted to JSON via json_encode
 
+     * 
+
+     * 
+
+     * 
+
      *   - null: returned as empty string
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 

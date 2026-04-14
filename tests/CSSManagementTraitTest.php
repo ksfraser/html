@@ -21,6 +21,12 @@ use Ksfraser\HTML\HtmlSpan;
  *
  * @since 1.0.5 2026-03-30
  */
+/**
+ * CSSManagementTraitTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class CSSManagementTraitTest extends TestCase
 {
     private HtmlDiv $element;
@@ -31,7 +37,13 @@ class CSSManagementTraitTest extends TestCase
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    protected function setUp(): void
+    protected /**
+ * setUp
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function setUp(): void
     {
         $this->element = new HtmlDiv();
     }
@@ -45,7 +57,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testAddSingleCSSClassReturnsElement(): void
+    public /**
+ * testAddSingleCSSClassReturnsElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddSingleCSSClassReturnsElement(): void
     {
         $result = $this->element->addCSSClass('btn');
         $this->assertSame($this->element, $result);
@@ -58,7 +76,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testAddSingleCSSClassRendersCorrectly(): void
+    public /**
+ * testAddSingleCSSClassRendersCorrectly
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddSingleCSSClassRendersCorrectly(): void
     {
         $this->element->addCSSClass('btn');
         $this->assertStringContainsString('class="btn"', (string)$this->element);
@@ -71,7 +95,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testAddMultipleCSSClassesIndividually(): void
+    public /**
+ * testAddMultipleCSSClassesIndividually
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddMultipleCSSClassesIndividually(): void
     {
         $this->element
             ->addCSSClass('btn')
@@ -90,7 +120,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testAddCSSClassesBatchOperation(): void
+    public /**
+ * testAddCSSClassesBatchOperation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddCSSClassesBatchOperation(): void
     {
         $classes = ['btn', 'btn-primary', 'btn-lg'];
         $this->element->addCSSClasses($classes);
@@ -108,7 +144,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testAddCSSClassesBatchReturnsElement(): void
+    public /**
+ * testAddCSSClassesBatchReturnsElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddCSSClassesBatchReturnsElement(): void
     {
         $result = $this->element->addCSSClasses(['btn', 'primary']);
         $this->assertSame($this->element, $result);
@@ -121,7 +163,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testConditionalCSSClassWithTrueCondition(): void
+    public /**
+ * testConditionalCSSClassWithTrueCondition
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testConditionalCSSClassWithTrueCondition(): void
     {
         $this->element->addCSSClass('active', true);
         $this->assertStringContainsString('active', (string)$this->element);
@@ -134,7 +182,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testConditionalCSSClassWithFalseCondition(): void
+    public /**
+ * testConditionalCSSClassWithFalseCondition
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testConditionalCSSClassWithFalseCondition(): void
     {
         $this->element->addCSSClass('active', false);
         $this->assertStringNotContainsString('active', (string)$this->element);
@@ -147,7 +201,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testConditionalCSSClassWithExpressionTrue(): void
+    public /**
+ * testConditionalCSSClassWithExpressionTrue
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testConditionalCSSClassWithExpressionTrue(): void
     {
         $isButtonPrimary = true;
         $this->element->addCSSClass('primary', $isButtonPrimary);
@@ -161,7 +221,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testConditionalCSSClassWithExpressionFalse(): void
+    public /**
+ * testConditionalCSSClassWithExpressionFalse
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testConditionalCSSClassWithExpressionFalse(): void
     {
         $isDisabled = false;
         $this->element->addCSSClass('disabled', $isDisabled);
@@ -175,7 +241,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testRemoveCSSClassRemovesPresent(): void
+    public /**
+ * testRemoveCSSClassRemovesPresent
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testRemoveCSSClassRemovesPresent(): void
     {
         $this->element->addCSSClass('btn')->addCSSClass('primary');
         $this->element->removeCSSClass('primary');
@@ -192,7 +264,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testRemoveCSSClassReturnsElement(): void
+    public /**
+ * testRemoveCSSClassReturnsElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testRemoveCSSClassReturnsElement(): void
     {
         $this->element->addCSSClass('btn');
         $result = $this->element->removeCSSClass('btn');
@@ -206,7 +284,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testRemoveNonExistentCSSClassDoesNotError(): void
+    public /**
+ * testRemoveNonExistentCSSClassDoesNotError
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testRemoveNonExistentCSSClassDoesNotError(): void
     {
         $this->element->addCSSClass('btn');
         $result = $this->element->removeCSSClass('nonexistent');
@@ -220,7 +304,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testToggleCSSClassOnAdds(): void
+    public /**
+ * testToggleCSSClassOnAdds
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testToggleCSSClassOnAdds(): void
     {
         $this->element->toggleCSSClass('active');
         $this->assertStringContainsString('active', (string)$this->element);
@@ -233,7 +323,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testToggleCSSClassOnRemoves(): void
+    public /**
+ * testToggleCSSClassOnRemoves
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testToggleCSSClassOnRemoves(): void
     {
         $this->element->addCSSClass('active');
         $this->element->toggleCSSClass('active');
@@ -247,7 +343,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testToggleCSSClassWithForceTrue(): void
+    public /**
+ * testToggleCSSClassWithForceTrue
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testToggleCSSClassWithForceTrue(): void
     {
         $this->element->toggleCSSClass('active', true);
         $this->assertStringContainsString('active', (string)$this->element);
@@ -260,7 +362,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testToggleCSSClassWithForceFalse(): void
+    public /**
+ * testToggleCSSClassWithForceFalse
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testToggleCSSClassWithForceFalse(): void
     {
         $this->element->addCSSClass('active');
         $this->element->toggleCSSClass('active', false);
@@ -274,7 +382,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testToggleCSSClassReturnsElement(): void
+    public /**
+ * testToggleCSSClassReturnsElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testToggleCSSClassReturnsElement(): void
     {
         $result = $this->element->toggleCSSClass('active');
         $this->assertSame($this->element, $result);
@@ -287,7 +401,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testHasCSSClassReturnsTrueWhenPresent(): void
+    public /**
+ * testHasCSSClassReturnsTrueWhenPresent
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testHasCSSClassReturnsTrueWhenPresent(): void
     {
         $this->element->addCSSClass('btn');
         $this->assertTrue($this->element->hasCSSClass('btn'));
@@ -300,7 +420,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testHasCSSClassReturnsFalseWhenAbsent(): void
+    public /**
+ * testHasCSSClassReturnsFalseWhenAbsent
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testHasCSSClassReturnsFalseWhenAbsent(): void
     {
         $this->element->addCSSClass('btn');
         $this->assertFalse($this->element->hasCSSClass('primary'));
@@ -313,7 +439,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testGetCSSClassesReturnsArray(): void
+    public /**
+ * testGetCSSClassesReturnsArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testGetCSSClassesReturnsArray(): void
     {
         $this->element->addCSSClasses(['btn', 'primary', 'lg']);
         $classes = $this->element->getCSSClasses();
@@ -332,7 +464,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testGetCSSClassesEmpty(): void
+    public /**
+ * testGetCSSClassesEmpty
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testGetCSSClassesEmpty(): void
     {
         $classes = $this->element->getCSSClasses();
         $this->assertIsArray($classes);
@@ -349,7 +487,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testAddDuplicateCSSClassDeduplicated(): void
+    public /**
+ * testAddDuplicateCSSClassDeduplicated
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddDuplicateCSSClassDeduplicated(): void
     {
         $this->element->addCSSClass('btn');
         $this->element->addCSSClass('btn');
@@ -368,7 +512,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testBatchAddWithDuplicatesDeduplicated(): void
+    public /**
+ * testBatchAddWithDuplicatesDeduplicated
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testBatchAddWithDuplicatesDeduplicated(): void
     {
         $this->element->addCSSClasses(['btn', 'primary', 'btn']);
         $classes = $this->element->getCSSClasses();
@@ -386,7 +536,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testExistingAndNewClassDeduplicated(): void
+    public /**
+ * testExistingAndNewClassDeduplicated
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testExistingAndNewClassDeduplicated(): void
     {
         $this->element->addCSSClass('btn');
         $this->element->addCSSClasses(['primary', 'btn', 'lg']);
@@ -405,7 +561,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testAddEmptyStringIgnored(): void
+    public /**
+ * testAddEmptyStringIgnored
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddEmptyStringIgnored(): void
     {
         $this->element->addCSSClass('');
         $classes = $this->element->getCSSClasses();
@@ -420,7 +582,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testAddWhitespaceOnlyIgnored(): void
+    public /**
+ * testAddWhitespaceOnlyIgnored
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddWhitespaceOnlyIgnored(): void
     {
         $this->element->addCSSClass('   ');
         $classes = $this->element->getCSSClasses();
@@ -435,7 +603,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testAddCSSClassWithLeadingTrailingWhitespace(): void
+    public /**
+ * testAddCSSClassWithLeadingTrailingWhitespace
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddCSSClassWithLeadingTrailingWhitespace(): void
     {
         $this->element->addCSSClass('  btn  ');
         $classes = $this->element->getCSSClasses();
@@ -452,7 +626,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testAddValidCSSClassWithHyphens(): void
+    public /**
+ * testAddValidCSSClassWithHyphens
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddValidCSSClassWithHyphens(): void
     {
         $this->element->addCSSClass('btn-primary-lg');
         $this->assertTrue($this->element->hasCSSClass('btn-primary-lg'));
@@ -466,7 +646,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testAddValidCSSClassWithNumbers(): void
+    public /**
+ * testAddValidCSSClassWithNumbers
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddValidCSSClassWithNumbers(): void
     {
         $this->element->addCSSClass('col-md-6');
         $this->assertTrue($this->element->hasCSSClass('col-md-6'));
@@ -480,7 +666,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testAddValidCSSClassWithUnderscores(): void
+    public /**
+ * testAddValidCSSClassWithUnderscores
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddValidCSSClassWithUnderscores(): void
     {
         $this->element->addCSSClass('btn_active_state');
         $this->assertTrue($this->element->hasCSSClass('btn_active_state'));
@@ -494,7 +686,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testBatchAddWithEmptyStrings(): void
+    public /**
+ * testBatchAddWithEmptyStrings
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testBatchAddWithEmptyStrings(): void
     {
         $this->element->addCSSClasses(['btn', '', 'primary', '  ']);
         $classes = $this->element->getCSSClasses();
@@ -512,7 +710,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testLongCSSClassNameAccepted(): void
+    public /**
+ * testLongCSSClassNameAccepted
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testLongCSSClassNameAccepted(): void
     {
         $longClass = 'my-incredibly-long-class-name-that-should-still-work-' . str_repeat('x', 1000);
         $this->element->addCSSClass($longClass);
@@ -527,7 +731,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testManyClassesPerformance(): void
+    public /**
+ * testManyClassesPerformance
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testManyClassesPerformance(): void
     {
         $classes = [];
         for ($i = 0; $i < 100; $i++) {
@@ -552,9 +762,21 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testAddInvalidCSSClassWithSpaceThrowsException(): void
+    public /**
+ * testAddInvalidCSSClassWithSpaceThrowsException
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddInvalidCSSClassWithSpaceThrowsException(): void
     {
-        $this->expectException(\InvalidArgumentException::class);
+        $this->expectException(\InvalidArgumentException::/**
+ * element
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class);
         $this->element->addCSSClass('btn primary');
     }
 
@@ -566,9 +788,21 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testAddInvalidCSSClassWithCommaThrowsException(): void
+    public /**
+ * testAddInvalidCSSClassWithCommaThrowsException
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddInvalidCSSClassWithCommaThrowsException(): void
     {
-        $this->expectException(\InvalidArgumentException::class);
+        $this->expectException(\InvalidArgumentException::/**
+ * element
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class);
         $this->element->addCSSClass('btn,primary');
     }
 
@@ -580,9 +814,21 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testAddInvalidCSSClassWithSpecialCharacterThrowsException(): void
+    public /**
+ * testAddInvalidCSSClassWithSpecialCharacterThrowsException
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddInvalidCSSClassWithSpecialCharacterThrowsException(): void
     {
-        $this->expectException(\InvalidArgumentException::class);
+        $this->expectException(\InvalidArgumentException::/**
+ * element
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class);
         $this->element->addCSSClass('btn@primary');
     }
 
@@ -594,9 +840,21 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testAddInvalidCSSClassWithSemicolonThrowsException(): void
+    public /**
+ * testAddInvalidCSSClassWithSemicolonThrowsException
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddInvalidCSSClassWithSemicolonThrowsException(): void
     {
-        $this->expectException(\InvalidArgumentException::class);
+        $this->expectException(\InvalidArgumentException::/**
+ * element
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class);
         $this->element->addCSSClass('btn;primary');
     }
 
@@ -608,9 +866,21 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testBatchAddWithInvalidClassesThrowsException(): void
+    public /**
+ * testBatchAddWithInvalidClassesThrowsException
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testBatchAddWithInvalidClassesThrowsException(): void
     {
-        $this->expectException(\InvalidArgumentException::class);
+        $this->expectException(\InvalidArgumentException::/**
+ * element
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class);
         $this->element->addCSSClasses(['btn', 'invalid@class', 'primary']);
     }
 
@@ -624,7 +894,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testCSSPreservedWithOtherAttributes(): void
+    public /**
+ * testCSSPreservedWithOtherAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testCSSPreservedWithOtherAttributes(): void
     {
         $this->element
             ->addCSSClass('btn')
@@ -646,7 +922,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testMultipleCSSOperationsChained(): void
+    public /**
+ * testMultipleCSSOperationsChained
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testMultipleCSSOperationsChained(): void
     {
         $result = $this->element
             ->addCSSClass('container')
@@ -673,7 +955,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testCSSWithNestedElements(): void
+    public /**
+ * testCSSWithNestedElements
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testCSSWithNestedElements(): void
     {
         $button = new HtmlButton('Click me');
         $button->addCSSClass('btn-primary');
@@ -695,7 +983,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testCSSWithBootstrapPattern(): void
+    public /**
+ * testCSSWithBootstrapPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testCSSWithBootstrapPattern(): void
     {
         $button = new HtmlButton('Submit');
         $button
@@ -716,7 +1010,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testCSSWithTailwindPattern(): void
+    public /**
+ * testCSSWithTailwindPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testCSSWithTailwindPattern(): void
     {
         $div = new HtmlDiv();
         $div->addCSSClasses([
@@ -739,7 +1039,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testConditionalCSSInComplexScenario(): void
+    public /**
+ * testConditionalCSSInComplexScenario
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testConditionalCSSInComplexScenario(): void
     {
         $isActive = true;
         $isDisabled = false;
@@ -768,7 +1074,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testExistingSetAttributeStillWorks(): void
+    public /**
+ * testExistingSetAttributeStillWorks
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testExistingSetAttributeStillWorks(): void
     {
         $this->element->setAttribute('class', 'btn');
         $this->assertStringContainsString('class="btn"', (string)$this->element);
@@ -782,7 +1094,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testExistingAddAttributeStillWorks(): void
+    public /**
+ * testExistingAddAttributeStillWorks
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testExistingAddAttributeStillWorks(): void
     {
         $this->element->addAttribute('class', 'btn');
         $this->assertStringContainsString('class="btn"', (string)$this->element);
@@ -796,7 +1114,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testExistingAddCSSClassStillWorks(): void
+    public /**
+ * testExistingAddCSSClassStillWorks
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testExistingAddCSSClassStillWorks(): void
     {
         $this->element->addCSSClass('btn');
         $this->assertStringContainsString('class="btn"', (string)$this->element);
@@ -810,7 +1134,13 @@ class CSSManagementTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testBackwardCompatibilityWithSetAttributeClass(): void
+    public /**
+ * testBackwardCompatibilityWithSetAttributeClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testBackwardCompatibilityWithSetAttributeClass(): void
     {
         $this->element->setAttribute('class', 'old-class');
         $this->element->addCSSClass('new-class');

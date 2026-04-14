@@ -11,6 +11,8 @@ use Ksfraser\HTML\HtmlAttribute;
 
  * @since 1.0.4 2026-02-21
 
+ * @return void
+
  */
 trait HtmlJsEventTrait {
     /**

@@ -11,9 +11,89 @@ use Ksfraser\HTML\Elements\HtmlScript;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SRP: Single responsibility of building loan handler scripts.
 
+ * 
+
+ * 
+
+ * 
+
  * Returns handler class loader and event listener setup.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -24,6 +104,8 @@ use Ksfraser\HTML\Elements\HtmlScript;
  * @since 1.0.1 2026-02-16
 
  * @package Ksfraser\HTML\ScriptHandlers
+
+ * @return void
 
  */
 class LoanScriptHandler extends BaseScriptHandler {

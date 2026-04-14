@@ -13,27 +13,123 @@ use Ksfraser\HTML\HtmlAttribute;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Specialized button for delete actions in tables/forms.
+
+ * 
+
+ * 
+
+ * 
 
  * Encapsulates the deletion button styling and onclick behavior.
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Features:
+
+ * 
+
+ * 
+
+ * 
 
  * - Automatic confirmation dialog option
 
+ * 
+
+ * 
+
+ * 
+
  * - Danger styling by default (red background)
 
+ * 
+
+ * 
+
+ * 
+
  * - JavaScript function call support for custom delete handlers
+
+ * 
+
+ * 
+
+ * 
 
  * - Form submission support for server-side deletion
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SOLID Principles:
 
+ * 
+
+ * 
+
+ * 
+
  * - Single Responsibility: Only handles delete button generation
+
+ * 
+
+ * 
+
+ * 
 
  * - Open/Closed: Can be extended for custom delete behaviors
 
@@ -41,21 +137,131 @@ use Ksfraser\HTML\HtmlAttribute;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * ```php
+
+ * 
+
+ * 
+
+ * 
 
  * $deleteBtn = new DeleteButton(
 
+ * 
+
+ * 
+
+ * 
+
  *     new HtmlString('Delete'),
+
+ * 
+
+ * 
+
+ * 
 
  *     '123'
 
+ * 
+
+ * 
+
+ * 
+
  * );
+
+ * 
+
+ * 
+
+ * 
 
  * $deleteBtn->setConfirmation("Are you sure you want to delete this item?");
 
+ * 
+
+ * 
+
+ * 
+
  * echo $deleteBtn->getHtml();
 
+ * 
+
+ * 
+
+ * 
+
  * ```
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -69,12 +275,15 @@ use Ksfraser\HTML\HtmlAttribute;
 
  * @example 
 
+ * @return void
+
  */
 class DeleteButton extends ActionButton
 {
     /**
      *
      * @var string Confirmation message for delete action
+     * @return void
      */
     protected $confirmationMessage = 'Are you sure?';
 

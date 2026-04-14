@@ -9,9 +9,89 @@ namespace Ksfraser\HTML\Elements;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Creates the content container within a modal.
 
+ * 
+
+ * 
+
+ * 
+
  * SRP: Single responsibility of building modal content structure.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -22,6 +102,8 @@ namespace Ksfraser\HTML\Elements;
  * @since v1.0.0 2026-04-11
 
  * @package Ksfraser\HTML\Elements
+
+ * @return void
 
  */
 class ModalContent extends Div {

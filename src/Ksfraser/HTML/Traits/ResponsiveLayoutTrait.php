@@ -11,63 +11,299 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  *
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Provides utility methods for responsive design and layout
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  * Static factory methods for creating layout containers:
 
+ * 
+
+ * 
+
+ * 
+
  * - Grid: container(), containerFluid(), row(), column(), columnResponsive()
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  * Instance methods for applying utility classes:
 
+ * 
+
+ * 
+
+ * 
+
  * - Spacing: margins, padding (all directions and responsive breakpoints)
+
+ * 
+
+ * 
+
+ * 
 
  * - Display: flex, grid, inline, none, responsive display
 
+ * 
+
+ * 
+
+ * 
+
  * - Sizing: width, height, max-width, max-height
+
+ * 
+
+ * 
+
+ * 
 
  * - Flexbox: direction, wrap, justify-content, align-items, grow/shrink
 
+ * 
+
+ * 
+
+ * 
+
  * - Text: alignment, truncation, responsive text alignment
+
+ * 
+
+ * 
+
+ * 
 
  * - Overflow: auto, hidden, scrolling
 
+ * 
+
+ * 
+
+ * 
+
  * - Borders: all sides, radius, color variants
+
+ * 
+
+ * 
+
+ * 
 
  * - Shadows: sm, normal, lg
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Integration with previous traits:
+
+ * 
+
+ * 
+
+ * 
 
  * - CSSManagementTrait: All utilities applied through CSS classes
 
+ * 
+
+ * 
+
+ * 
+
  * - DataAttributeTrait: Data attributes for JS responsive behavior
+
+ * 
+
+ * 
+
+ * 
 
  * - AriaAttributeTrait: ARIA attributes for accessibility
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Usage:
+
+ * 
+
+ * 
+
+ * 
 
  *   $container = HtmlElement::container()
 
+ * 
+
+ * 
+
+ * 
+
  *       ->addNested(HtmlElement::row()
+
+ * 
+
+ * 
+
+ * 
 
  *           ->addNested(HtmlElement::columnResponsive(['xs' => 12, 'md' => 6])));
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  *   $elem = HtmlElement::div()
+
+ * 
+
+ * 
+
+ * 
 
  *       ->applyDisplay('flex')
 
+ * 
+
+ * 
+
+ * 
+
  *       ->applyJustifyContent('center')
 
+ * 
+
+ * 
+
+ * 
+
  *       ->applyAlignItems('center');
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -79,6 +315,14 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * @package Ksfraser\HTML\Traits
 
+ * @return void
+
+ */
+/**
+ * ResponsiveLayoutTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 trait ResponsiveLayoutTrait
 {
@@ -94,7 +338,73 @@ trait ResponsiveLayoutTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $container = HtmlElement::container();
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -105,7 +415,13 @@ trait ResponsiveLayoutTrait
      * @return HtmlElement
 
      */
-    public static function container(): HtmlElement
+    public static /**
+ * container
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function container(): HtmlElement
     {
         $cont = self::element('div');
         $cont->addCSSClass('container');
@@ -123,7 +439,13 @@ trait ResponsiveLayoutTrait
      * @return HtmlElement
 
      */
-    public static function containerFluid(): HtmlElement
+    public static /**
+ * containerFluid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function containerFluid(): HtmlElement
     {
         $cont = self::element('div');
         $cont->addCSSClass('container-fluid');
@@ -141,7 +463,13 @@ trait ResponsiveLayoutTrait
      * @return HtmlElement
 
      */
-    public static function row(): HtmlElement
+    public static /**
+ * row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function row(): HtmlElement
     {
         $row = self::element('div');
         $row->addCSSClass('row');
@@ -156,9 +484,93 @@ trait ResponsiveLayoutTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $col = HtmlElement::column(6);  // Half width
 
+     * 
+
+     * 
+
+     * 
+
      *   $col = HtmlElement::column(4, 2);  // 1/3 width, offset by 1/6
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -173,7 +585,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElement
 
      */
-    public static function column(?int $width = null, ?int $offset = null): HtmlElement
+    public static /**
+ * column
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $offset
+ * @return HtmlElement
+ */
+function column(?int $width = null, ?int $offset = null): HtmlElement
     {
         $col = self::element('div');
         
@@ -198,17 +618,119 @@ trait ResponsiveLayoutTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   $col = HtmlElement::columnResponsive([
+
+     * 
+
+     * 
+
+     * 
 
      *       'xs' => 12,  // Full width on xs
 
+     * 
+
+     * 
+
+     * 
+
      *       'sm' => 12,  // Full width on sm
+
+     * 
+
+     * 
+
+     * 
 
      *       'md' => 6,   // Half width on md and up
 
+     * 
+
+     * 
+
+     * 
+
      *       'lg' => 4    // 1/3 width on lg and up
 
+     * 
+
+     * 
+
+     * 
+
      *   ]);
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -221,7 +743,14 @@ trait ResponsiveLayoutTrait
      * @return HtmlElement
 
      */
-    public static function columnResponsive(array $breakpoints): HtmlElement
+    public static /**
+ * columnResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breakpoints
+ * @return HtmlElement
+ */
+function columnResponsive(array $breakpoints): HtmlElement
     {
         $col = self::element('div');
         
@@ -255,7 +784,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyMargin(HtmlElementInterface $element, int $value): HtmlElementInterface
+    public static /**
+ * applyMargin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+function applyMargin(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('m-' . $value);
@@ -278,7 +815,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyMarginTop(HtmlElementInterface $element, int $value): HtmlElementInterface
+    public static /**
+ * applyMarginTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+function applyMarginTop(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('mt-' . $value);
@@ -301,7 +846,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyMarginBottom(HtmlElementInterface $element, int $value): HtmlElementInterface
+    public static /**
+ * applyMarginBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+function applyMarginBottom(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('mb-' . $value);
@@ -324,7 +877,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyMarginLeft(HtmlElementInterface $element, int $value): HtmlElementInterface
+    public static /**
+ * applyMarginLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+function applyMarginLeft(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('ml-' . $value);
@@ -347,7 +908,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyMarginRight(HtmlElementInterface $element, int $value): HtmlElementInterface
+    public static /**
+ * applyMarginRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+function applyMarginRight(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('mr-' . $value);
@@ -370,7 +939,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyMarginHorizontal(HtmlElementInterface $element, int $value): HtmlElementInterface
+    public static /**
+ * applyMarginHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+function applyMarginHorizontal(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('mx-' . $value);
@@ -393,7 +970,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyMarginVertical(HtmlElementInterface $element, int $value): HtmlElementInterface
+    public static /**
+ * applyMarginVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+function applyMarginVertical(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('my-' . $value);
@@ -414,7 +999,14 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyMarginAuto(HtmlElementInterface $element): HtmlElementInterface
+    public static /**
+ * applyMarginAuto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+function applyMarginAuto(HtmlElementInterface $element): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('mx-auto');
@@ -441,7 +1033,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyPadding(HtmlElementInterface $element, int $value): HtmlElementInterface
+    public static /**
+ * applyPadding
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+function applyPadding(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('p-' . $value);
@@ -464,7 +1064,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyPaddingTop(HtmlElementInterface $element, int $value): HtmlElementInterface
+    public static /**
+ * applyPaddingTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+function applyPaddingTop(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('pt-' . $value);
@@ -487,7 +1095,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyPaddingBottom(HtmlElementInterface $element, int $value): HtmlElementInterface
+    public static /**
+ * applyPaddingBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+function applyPaddingBottom(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('pb-' . $value);
@@ -510,7 +1126,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyPaddingLeft(HtmlElementInterface $element, int $value): HtmlElementInterface
+    public static /**
+ * applyPaddingLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+function applyPaddingLeft(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('pl-' . $value);
@@ -533,7 +1157,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyPaddingRight(HtmlElementInterface $element, int $value): HtmlElementInterface
+    public static /**
+ * applyPaddingRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+function applyPaddingRight(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('pr-' . $value);
@@ -556,7 +1188,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyPaddingHorizontal(HtmlElementInterface $element, int $value): HtmlElementInterface
+    public static /**
+ * applyPaddingHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+function applyPaddingHorizontal(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('px-' . $value);
@@ -579,7 +1219,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyPaddingVertical(HtmlElementInterface $element, int $value): HtmlElementInterface
+    public static /**
+ * applyPaddingVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+function applyPaddingVertical(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('py-' . $value);
@@ -606,7 +1254,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyDisplay(HtmlElementInterface $element, string $display): HtmlElementInterface
+    public static /**
+ * applyDisplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $display
+ * @return HtmlElementInterface
+ */
+function applyDisplay(HtmlElementInterface $element, string $display): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('d-' . $display);
@@ -622,15 +1278,117 @@ trait ResponsiveLayoutTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      *   applyDisplayResponsive($elem, [
+
+     * 
+
+     * 
+
+     * 
 
      *       'xs' => 'block',
 
+     * 
+
+     * 
+
+     * 
+
      *       'md' => 'none',
+
+     * 
+
+     * 
+
+     * 
 
      *       'lg' => 'flex'
 
+     * 
+
+     * 
+
+     * 
+
      *   ])
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -645,7 +1403,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyDisplayResponsive(HtmlElementInterface $element, array $breakpoints): HtmlElementInterface
+    public static /**
+ * applyDisplayResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+function applyDisplayResponsive(HtmlElementInterface $element, array $breakpoints): HtmlElementInterface
     {
         if ($element instanceof self) {
             foreach ($breakpoints as $breakpoint => $display) {
@@ -672,7 +1438,14 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyHidden(HtmlElementInterface $element): HtmlElementInterface
+    public static /**
+ * applyHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+function applyHidden(HtmlElementInterface $element): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('d-none');
@@ -693,7 +1466,14 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyVisible(HtmlElementInterface $element): HtmlElementInterface
+    public static /**
+ * applyVisible
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+function applyVisible(HtmlElementInterface $element): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->removeCSSClass('d-none');
@@ -720,7 +1500,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyWidth(HtmlElementInterface $element, int $percentage): HtmlElementInterface
+    public static /**
+ * applyWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+function applyWidth(HtmlElementInterface $element, int $percentage): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('w-' . $percentage);
@@ -743,7 +1531,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyHeight(HtmlElementInterface $element, int $percentage): HtmlElementInterface
+    public static /**
+ * applyHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+function applyHeight(HtmlElementInterface $element, int $percentage): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('h-' . $percentage);
@@ -766,7 +1562,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyMaxWidth(HtmlElementInterface $element, int $percentage): HtmlElementInterface
+    public static /**
+ * applyMaxWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+function applyMaxWidth(HtmlElementInterface $element, int $percentage): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('mw-' . $percentage);
@@ -789,7 +1593,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyMaxHeight(HtmlElementInterface $element, int $percentage): HtmlElementInterface
+    public static /**
+ * applyMaxHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+function applyMaxHeight(HtmlElementInterface $element, int $percentage): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('mh-' . $percentage);
@@ -816,7 +1628,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyFlexDirection(HtmlElementInterface $element, string $direction): HtmlElementInterface
+    public static /**
+ * applyFlexDirection
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $direction
+ * @return HtmlElementInterface
+ */
+function applyFlexDirection(HtmlElementInterface $element, string $direction): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('flex-' . $direction);
@@ -837,7 +1657,14 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyFlexWrap(HtmlElementInterface $element): HtmlElementInterface
+    public static /**
+ * applyFlexWrap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+function applyFlexWrap(HtmlElementInterface $element): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('flex-wrap');
@@ -860,7 +1687,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyJustifyContent(HtmlElementInterface $element, string $alignment): HtmlElementInterface
+    public static /**
+ * applyJustifyContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+function applyJustifyContent(HtmlElementInterface $element, string $alignment): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('justify-content-' . $alignment);
@@ -883,7 +1718,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyAlignItems(HtmlElementInterface $element, string $alignment): HtmlElementInterface
+    public static /**
+ * applyAlignItems
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+function applyAlignItems(HtmlElementInterface $element, string $alignment): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('align-items-' . $alignment);
@@ -904,7 +1747,14 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyFlexGrow(HtmlElementInterface $element): HtmlElementInterface
+    public static /**
+ * applyFlexGrow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+function applyFlexGrow(HtmlElementInterface $element): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('flex-grow-1');
@@ -925,7 +1775,14 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyFlexShrink(HtmlElementInterface $element): HtmlElementInterface
+    public static /**
+ * applyFlexShrink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+function applyFlexShrink(HtmlElementInterface $element): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('flex-shrink-1');
@@ -952,7 +1809,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyTextAlign(HtmlElementInterface $element, string $alignment): HtmlElementInterface
+    public static /**
+ * applyTextAlign
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+function applyTextAlign(HtmlElementInterface $element, string $alignment): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('text-' . $alignment);
@@ -975,7 +1840,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyTextAlignResponsive(HtmlElementInterface $element, array $breakpoints): HtmlElementInterface
+    public static /**
+ * applyTextAlignResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+function applyTextAlignResponsive(HtmlElementInterface $element, array $breakpoints): HtmlElementInterface
     {
         if ($element instanceof self) {
             foreach ($breakpoints as $breakpoint => $alignment) {
@@ -1002,7 +1875,14 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyTextTruncate(HtmlElementInterface $element): HtmlElementInterface
+    public static /**
+ * applyTextTruncate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+function applyTextTruncate(HtmlElementInterface $element): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('text-truncate');
@@ -1029,7 +1909,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyOverflow(HtmlElementInterface $element, string $overflow): HtmlElementInterface
+    public static /**
+ * applyOverflow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $overflow
+ * @return HtmlElementInterface
+ */
+function applyOverflow(HtmlElementInterface $element, string $overflow): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('overflow-' . $overflow);
@@ -1054,7 +1942,14 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyBorder(HtmlElementInterface $element): HtmlElementInterface
+    public static /**
+ * applyBorder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+function applyBorder(HtmlElementInterface $element): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('border');
@@ -1075,7 +1970,14 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyBorderTop(HtmlElementInterface $element): HtmlElementInterface
+    public static /**
+ * applyBorderTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+function applyBorderTop(HtmlElementInterface $element): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('border-top');
@@ -1096,7 +1998,14 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyBorderBottom(HtmlElementInterface $element): HtmlElementInterface
+    public static /**
+ * applyBorderBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+function applyBorderBottom(HtmlElementInterface $element): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('border-bottom');
@@ -1117,7 +2026,14 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyBorderLeft(HtmlElementInterface $element): HtmlElementInterface
+    public static /**
+ * applyBorderLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+function applyBorderLeft(HtmlElementInterface $element): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('border-left');
@@ -1138,7 +2054,14 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyBorderRight(HtmlElementInterface $element): HtmlElementInterface
+    public static /**
+ * applyBorderRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+function applyBorderRight(HtmlElementInterface $element): HtmlElementInterface
     {
         if ($element instanceof self) {
             $element->addCSSClass('border-right');
@@ -1161,7 +2084,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyBorderRadius(HtmlElementInterface $element, ?string $style = null): HtmlElementInterface
+    public static /**
+ * applyBorderRadius
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $style
+ * @return HtmlElementInterface
+ */
+function applyBorderRadius(HtmlElementInterface $element, ?string $style = null): HtmlElementInterface
     {
         if ($element instanceof self) {
             if ($style === 'circle') {
@@ -1192,7 +2123,15 @@ trait ResponsiveLayoutTrait
      * @return HtmlElementInterface
 
      */
-    public static function applyShadow(HtmlElementInterface $element, ?string $size = null): HtmlElementInterface
+    public static /**
+ * applyShadow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $size
+ * @return HtmlElementInterface
+ */
+function applyShadow(HtmlElementInterface $element, ?string $size = null): HtmlElementInterface
     {
         if ($element instanceof self) {
             if ($size === 'sm') {

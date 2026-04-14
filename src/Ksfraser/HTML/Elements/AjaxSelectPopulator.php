@@ -12,65 +12,275 @@ use Ksfraser\HTML\HtmlElement;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Encapsulates the JavaScript logic for dynamically populating a select element
+
+ * 
+
+ * 
+
+ * 
 
  * via AJAX based on another field's value (typically a dropdown change event).
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Common Use Cases:
+
+ * 
+
+ * 
+
+ * 
 
  * - Borrower type â†’ Borrower list
 
+ * 
+
+ * 
+
+ * 
+
  * - Country â†’ State list
 
+ * 
+
+ * 
+
+ * 
+
  * - Department â†’ Employee list
+
+ * 
+
+ * 
+
+ * 
 
  * - Category â†’ Product list
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * This handler provides an SRP-based approach:
+
+ * 
+
+ * 
+
+ * 
 
  * - Generates AJAX fetch function
 
+ * 
+
+ * 
+
+ * 
+
  * - Handles JSON parsing
+
+ * 
+
+ * 
+
+ * 
 
  * - Updates target select with options
 
+ * 
+
+ * 
+
+ * 
+
  * - Centralizes AJAX logic for reusability
+
+ * 
+
+ * 
+
+ * 
 
  * - Can be extended for different response formats
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Design Pattern: Template Method
 
+ * 
+
+ * 
+
+ * 
+
  * - Encapsulates the AJAX function generation
+
+ * 
+
+ * 
+
+ * 
 
  * - Can be extended for different data formats
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SOLID Principles:
+
+ * 
+
+ * 
+
+ * 
 
  * - Single Responsibility: Only handles AJAX select population
 
+ * 
+
+ * 
+
+ * 
+
  * - Open/Closed: Can be extended for custom response parsing
+
+ * 
+
+ * 
+
+ * 
 
  * - Liskov Substitution: Can replace HtmlElement
 
+ * 
+
+ * 
+
+ * 
+
  * - Interface Segregation: Simple, focused interface
+
+ * 
+
+ * 
+
+ * 
 
  * - Dependency Inversion: Depends on HtmlElement abstraction
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * JavaScript Assumptions:
+
+ * 
+
+ * 
+
+ * 
 
  * - Source field (e.g., type selector) triggers function on change
 
+ * 
+
+ * 
+
+ * 
+
  * - Endpoint returns JSON array of objects with 'id' and 'name' properties
+
+ * 
+
+ * 
+
+ * 
 
  * - Target field is a <select> element that will be populated with options
 
@@ -78,31 +288,177 @@ use Ksfraser\HTML\HtmlElement;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * ```php
+
+ * 
+
+ * 
+
+ * 
 
  * // Generate AJAX handler for borrower selector
 
+ * 
+
+ * 
+
+ * 
+
  * $populator = (new AjaxSelectPopulator())
+
+ * 
+
+ * 
+
+ * 
 
  *     ->setFunctionName('faFetchBorrowers')
 
+ * 
+
+ * 
+
+ * 
+
  *     ->setSourceFieldId('borrower_type')
+
+ * 
+
+ * 
+
+ * 
 
  *     ->setTargetFieldId('borrower_id')
 
+ * 
+
+ * 
+
+ * 
+
  *     ->setEndpoint('borrower_ajax.php')
 
+ * 
+
+ * 
+
+ * 
+
  *     ->setPlaceholder('Select Borrower');
+
+ * 
+
+ * 
+
+ * 
 
  * echo $populator->getHtml();
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * // In your view, attach to source field:
+
+ * 
+
+ * 
+
+ * 
 
  * $typeSelect->addAttribute('onchange', 'faFetchBorrowers()');
 
+ * 
+
+ * 
+
+ * 
+
  * ```
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -118,6 +474,8 @@ use Ksfraser\HTML\HtmlElement;
 
  * @example 
 
+ * @return void
+
  */
 class AjaxSelectPopulator extends HtmlElement
 {
@@ -125,6 +483,7 @@ class AjaxSelectPopulator extends HtmlElement
      * The name of the JavaScript function to generate
      *
      * @var string
+     * @return void
      */
     protected $functionName = 'populateSelect';
 
@@ -135,6 +494,8 @@ class AjaxSelectPopulator extends HtmlElement
      *
 
      * @var string
+
+     * @return void
 
      */
     protected $sourceFieldId = 'source';
@@ -147,6 +508,8 @@ class AjaxSelectPopulator extends HtmlElement
 
      * @var string
 
+     * @return void
+
      */
     protected $targetFieldId = 'target';
 
@@ -157,6 +520,8 @@ class AjaxSelectPopulator extends HtmlElement
      *
 
      * @var string
+
+     * @return void
 
      */
     protected $endpoint = '';
@@ -169,6 +534,8 @@ class AjaxSelectPopulator extends HtmlElement
 
      * @var string
 
+     * @return void
+
      */
     protected $queryParam = 'type';
 
@@ -180,6 +547,8 @@ class AjaxSelectPopulator extends HtmlElement
 
      * @var string
 
+     * @return void
+
      */
     protected $placeholder = 'Select an option';
 
@@ -190,6 +559,8 @@ class AjaxSelectPopulator extends HtmlElement
      *
 
      * @var bool
+
+     * @return void
 
      */
     protected $showLoadingState = false;

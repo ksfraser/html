@@ -12,13 +12,73 @@ use Ksfraser\HTML\Elements\HtmlString;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Represents a value object for HTML name attributes (e.g., <select name="...">).
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
  * This class is functionally identical to HtmlString, but exists for semantic clarity and type safety.
 
+ * 
+
+ * 
+
+ * 
+
  * It extends HtmlString to avoid code duplication. The only addition is getName(), which returns the raw string value.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -26,9 +86,43 @@ use Ksfraser\HTML\Elements\HtmlString;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  *
 
  * @since 1.0.3 2026-02-21
+
+ * @return void
 
  */
 class HtmlNameValue extends HtmlString

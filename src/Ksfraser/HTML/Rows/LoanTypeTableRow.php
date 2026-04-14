@@ -18,9 +18,89 @@ use Ksfraser\HTML\FAButtons\DeleteTypeActionButton;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SRP: Single responsibility of building a loan type row from loan type data.
 
+ * 
+
+ * 
+
+ * 
+
  * Handles: Row structure and action buttons. Uses cell classes for content cells.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -31,6 +111,8 @@ use Ksfraser\HTML\FAButtons\DeleteTypeActionButton;
  * @since 1.0.1 2026-02-16
 
  * @package Ksfraser\HTML\Rows
+
+ * @return void
 
  */
 class LoanTypeTableRow extends BaseTableRow {

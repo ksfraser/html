@@ -3,12 +3,17 @@
  * CSS Manager Example/Test File
  *
  * 
+ * 
+ * 
  * This file demonstrates how to use the CSSManager system
  * and serves as a test for the CSS functionality.
  * 
  * When this CSS system is packaged as its own composer module,
  * this file will help developers understand how to use it.
+ * 
+ * 
  *
+ * @return void
  */
 
 // Adjust path based on where this is run from

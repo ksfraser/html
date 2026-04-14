@@ -34,6 +34,18 @@ if (file_exists($configPath)) {
 	 * @since v1.0.0 2026-04-14
 	 * @return array
  */
+/**
+ * getStagedFiles
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getStagedFiles
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
 function getStagedFiles(): array {
     $cmd = 'git diff --cached --name-only --diff-filter=ACM';
     exec($cmd, $output, $rc);
@@ -50,6 +62,20 @@ function getStagedFiles(): array {
 	 * @since v1.0.0 2026-04-14
 	 * @param string $path
 	 * @return ?string
+ */
+/**
+ * getStagedFileContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $path
+ * @return ?string
+ */
+/**
+ * getStagedFileContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $path
+ * @return ?string
  */
 function getStagedFileContent(string $path): ?string {
     // Use git show to get the staged (index) version of the file
@@ -71,6 +97,20 @@ function getStagedFileContent(string $path): ?string {
 	 * @param string $docblock
 	 * @return bool
  */
+/**
+ * containsSince
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $docblock
+ * @return bool
+ */
+/**
+ * containsSince
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $docblock
+ * @return bool
+ */
 function containsSince(string $docblock): bool {
     if (preg_match('/@since\s+v?\d+\.\d+(?:\.\d+)?\s*\(?\d{4}-\d{2}-\d{2}\)?/i', $docblock)) {
         return true;
@@ -85,6 +125,20 @@ function containsSince(string $docblock): bool {
 	 * @param string $docblock
 	 * @return bool
  */
+/**
+ * containsParam
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $docblock
+ * @return bool
+ */
+/**
+ * containsParam
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $docblock
+ * @return bool
+ */
 function containsParam(string $docblock): bool {
     return (bool) preg_match('/@param\s+/i', $docblock);
 }
@@ -96,6 +150,20 @@ function containsParam(string $docblock): bool {
 	 * @param string $docblock
 	 * @return bool
  */
+/**
+ * containsReturn
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $docblock
+ * @return bool
+ */
+/**
+ * containsReturn
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $docblock
+ * @return bool
+ */
 function containsReturn(string $docblock): bool {
     return (bool) preg_match('/@return\s+/i', $docblock);
 }
@@ -106,6 +174,20 @@ function containsReturn(string $docblock): bool {
 	 * @since v1.0.0 2026-04-14
 	 * @param string $docblock
 	 * @return int
+ */
+/**
+ * countParamTags
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $docblock
+ * @return int
+ */
+/**
+ * countParamTags
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $docblock
+ * @return int
  */
 function countParamTags(string $docblock): int {
     if (preg_match_all('/@param\s+/i', $docblock, $m)) {
@@ -120,6 +202,20 @@ function countParamTags(string $docblock): int {
 	 * @since v1.0.0 2026-04-14
 	 * @param string $docblock
 	 * @return array
+ */
+/**
+ * parseParamTags
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $docblock
+ * @return array
+ */
+/**
+ * parseParamTags
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $docblock
+ * @return array
  */
 function parseParamTags(string $docblock): array {
     $out = [];
@@ -138,6 +234,20 @@ function parseParamTags(string $docblock): array {
 	 * @param ?string $t
 	 * @return string
  */
+/**
+ * normalizeType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $t
+ * @return string
+ */
+/**
+ * normalizeType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $t
+ * @return string
+ */
 function normalizeType(?string $t): string {
     if ($t === null) return '';
     $s = trim($t);
@@ -153,6 +263,20 @@ function normalizeType(?string $t): string {
 	 * @param string $docblock
 	 * @return ?string
  */
+/**
+ * parseReturnTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $docblock
+ * @return ?string
+ */
+/**
+ * parseReturnTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $docblock
+ * @return ?string
+ */
 function parseReturnTag(string $docblock): ?string {
     if (preg_match('/@return\s+([^\s]+)/i', $docblock, $m)) {
         return $m[1];
@@ -166,6 +290,20 @@ function parseReturnTag(string $docblock): ?string {
 	 * @since v1.0.0 2026-04-14
 	 * @param string $type
 	 * @return array
+ */
+/**
+ * splitTypes
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return array
+ */
+/**
+ * splitTypes
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return array
  */
 function splitTypes(string $type): array {
     $parts = preg_split('/\|/', $type);
@@ -187,6 +325,22 @@ function splitTypes(string $type): array {
 	 * @param string $tagType
 	 * @return bool
  */
+/**
+ * compareTypes
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sigType
+ * @param mixed $tagType
+ * @return bool
+ */
+/**
+ * compareTypes
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sigType
+ * @param mixed $tagType
+ * @return bool
+ */
 function compareTypes(string $sigType, string $tagType): bool {
     $sigParts = splitTypes($sigType);
     $tagParts = splitTypes($tagType);
@@ -202,11 +356,45 @@ function compareTypes(string $sigType, string $tagType): bool {
 	 * @param array $config
 	 * @return array
  */
+/**
+ * checkContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @param mixed $path
+ * @param mixed $config
+ * @return array
+ */
+/**
+ * checkContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @param mixed $path
+ * @param mixed $config
+ * @return array
+ */
 function checkContent(string $content, string $path, array $config): array {
     $errors = [];
     $warnings = [];
 
-    $add = function(string $type, array $entry) use (&$errors, &$warnings, $config) {
+    $add = /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $entry
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $entry
+ * @return void
+ */
+function(string $type, array $entry) use (&$errors, &$warnings, $config) {
         $fatal = true;
         switch ($type) {
             case 'missing_docblock': $fatal = empty($config['allow_missing_docblock']); break;
@@ -393,7 +581,21 @@ if ($isCI) {
     $phpFiles = $files;
 } else {
     $staged = getStagedFiles();
-    $phpFiles = array_filter($staged, function($f){ return preg_match('/\.php$/i', $f); });
+    $phpFiles = array_filter($staged, /**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $f
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $f
+ * @return void
+ */
+function($f){ return preg_match('/\.php$/i', $f); });
 }
 
 foreach ($phpFiles as $file) {

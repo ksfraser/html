@@ -8,6 +8,12 @@ use Ksfraser\HTML\HtmlElementInterface;
  *
  * @since 1.0.3 2026-02-21
  */
+/**
+ * DummyElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class DummyElement implements HtmlElementInterface {
 /**
  * __toString
@@ -15,7 +21,13 @@ class DummyElement implements HtmlElementInterface {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function __toString() {
+    public /**
+ * __toString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __toString() {
         return 'dummy';
     }
 
@@ -25,7 +37,13 @@ class DummyElement implements HtmlElementInterface {
  * @since 1.0.3 2026-02-21
  * @return string
  */
-    public function getHtml(): string {
+    public /**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getHtml(): string {
         return 'dummy';
     }
 
@@ -35,7 +53,13 @@ class DummyElement implements HtmlElementInterface {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function toHtml(): void {
+    public /**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function toHtml(): void {
         echo 'dummy';
     }
 }
@@ -45,6 +69,12 @@ class DummyElement implements HtmlElementInterface {
  *
  * @since 1.0.3 2026-02-21
  */
+/**
+ * HtmlListItemTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlListItemTest extends TestCase {
 /**
  * testInstance
@@ -52,10 +82,22 @@ class HtmlListItemTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testInstance() {
+    public /**
+ * testInstance
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testInstance() {
         $dummy = new DummyElement();
         $li = new HtmlListItem($dummy);
-        $this->assertInstanceOf(HtmlListItem::class, $li);
+        $this->assertInstanceOf(HtmlListItem::/**
+ * testTagIsLi
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $li);
     }
 
 /**
@@ -64,7 +106,13 @@ class HtmlListItemTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testTagIsLi() {
+    public /**
+ * testTagIsLi
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testTagIsLi() {
         $dummy = new DummyElement();
         $li = new HtmlListItem($dummy);
         $this->assertEquals('li', $li->getTag());
@@ -76,7 +124,13 @@ class HtmlListItemTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testToStringReturnsExpectedHtml() {
+    public /**
+ * testToStringReturnsExpectedHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testToStringReturnsExpectedHtml() {
         $dummy = new DummyElement();
         $li = new HtmlListItem($dummy);
         $html = (string)$li;
@@ -91,8 +145,20 @@ class HtmlListItemTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testConstructorThrowsTypeErrorOnInvalidArgument() {
-        $this->expectException(\TypeError::class);
+    public /**
+ * testConstructorThrowsTypeErrorOnInvalidArgument
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testConstructorThrowsTypeErrorOnInvalidArgument() {
+        $this->expectException(\TypeError::/**
+ * HtmlListItem
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class);
         new HtmlListItem('not an HtmlElementInterface');
     }
 }

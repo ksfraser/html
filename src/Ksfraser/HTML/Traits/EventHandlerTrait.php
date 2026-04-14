@@ -3,6 +3,8 @@
  * EventHandlerTrait - Event Handler Methods
  *
  * 
+ * 
+ * 
  * Provides convenient methods for JavaScript event handling.
  * Features: onClick, onChange, onSubmit, and 15+ standard HTML5 events
  * 
@@ -10,9 +12,12 @@
  * 
  * Pattern: Observer Pattern with EventHandler class
  * 
+ * 
+ * 
  *
  * @since 2026-03-27
  * @author Kevin Fraser
+ * @return void
  */
 
 namespace Ksfraser\HTML\Traits;
@@ -25,49 +30,249 @@ namespace Ksfraser\HTML\Traits;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Provides convenience methods for common HTML5 events.
+
+ * 
+
+ * 
+
+ * 
 
  * Methods return $this for chaining.
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Methods:
+
+ * 
+
+ * 
+
+ * 
 
  * - onClick(string) - onclick event
 
+ * 
+
+ * 
+
+ * 
+
  * - onChange(string) - onchange event
+
+ * 
+
+ * 
+
+ * 
 
  * - onSubmit(string) - onsubmit event
 
+ * 
+
+ * 
+
+ * 
+
  * - onFocus(string) - onfocus event
+
+ * 
+
+ * 
+
+ * 
 
  * - onBlur(string) - onblur event
 
+ * 
+
+ * 
+
+ * 
+
  * - onKeyPress(string) - onkeypress event
+
+ * 
+
+ * 
+
+ * 
 
  * - onKeyDown(string) - onkeydown event
 
+ * 
+
+ * 
+
+ * 
+
  * - onKeyUp(string) - onkeyup event
+
+ * 
+
+ * 
+
+ * 
 
  * - onMouseEnter(string) - onmouseenter event
 
+ * 
+
+ * 
+
+ * 
+
  * - onMouseLeave(string) - onmouseleave event
+
+ * 
+
+ * 
+
+ * 
 
  * - onMouseOver(string) - onmouseover event
 
+ * 
+
+ * 
+
+ * 
+
  * - onMouseOut(string) - onmouseout event
+
+ * 
+
+ * 
+
+ * 
 
  * - onDoubleClick(string) - ondblclick event
 
+ * 
+
+ * 
+
+ * 
+
  * - onLoad(string) - onload event
+
+ * 
+
+ * 
+
+ * 
 
  * - onError(string) - onerror event
 
+ * 
+
+ * 
+
+ * 
+
  * - onInput(string) - oninput event
+
+ * 
+
+ * 
+
+ * 
 
  * - onScroll(string) - onscroll event
 
+ * 
+
+ * 
+
+ * 
+
  * - onWheel(string) - onwheel event
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -79,6 +284,8 @@ namespace Ksfraser\HTML\Traits;
 
  * @package Ksfraser\HTML\Traits
 
+ * @return void
+
  */
 trait EventHandlerTrait
 {
@@ -86,6 +293,7 @@ trait EventHandlerTrait
      * Array of event handlers keyed by event name
      *
      * @var array<string, EventHandler>
+     * @return void
      */
     protected $eventHandlers = [];
 
@@ -99,9 +307,93 @@ trait EventHandlerTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * $button->onClick("alert('clicked')");
 
+     * 
+
+     * 
+
+     * 
+
      * $button->onClick("handleClick(event)");
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -433,9 +725,99 @@ trait EventHandlerTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Internal method to handle all event registration.
 
+     * 
+
+     * 
+
+     * 
+
      * Replaces existing handler for same event (not append).
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 
@@ -477,9 +859,87 @@ trait EventHandlerTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Internal method to generate HTML representation of all 
 
+     * 
+
+     * 
+
+     * 
+
      * registered event handlers. Called during HTML rendering.
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 
@@ -615,9 +1075,89 @@ trait EventHandlerTrait
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Represents a single JavaScript event handler.
 
+ * 
+
+ * 
+
+ * 
+
  * Handles proper HTML escaping and attribute rendering.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -629,6 +1169,8 @@ trait EventHandlerTrait
 
  * @package Ksfraser\HTML\Traits
 
+ * @return void
+
  */
 class EventHandler
 {
@@ -636,6 +1178,7 @@ class EventHandler
      * Event name (e.g., 'onclick', 'onchange')
      *
      * @var string
+     * @return void
      */
     private $event;
 
@@ -646,6 +1189,8 @@ class EventHandler
      *
 
      * @var string
+
+     * @return void
 
      */
     private $code;
@@ -679,9 +1224,81 @@ class EventHandler
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Renders as HTML attribute with proper escaping.
 
+     * 
+
+     * 
+
+     * 
+
      * Example: onclick="handleClick(event)"
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 

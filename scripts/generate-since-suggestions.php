@@ -10,6 +10,20 @@
 	 * @param string $cmd
 	 * @return void
  */
+/**
+ * runCmd
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cmd
+ * @return void
+ */
+/**
+ * runCmd
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cmd
+ * @return void
+ */
 function runCmd(string $cmd) {
     // debug: print the command being executed
     static $count = 0;
@@ -29,8 +43,36 @@ function runCmd(string $cmd) {
 	 * @param array $argv
 	 * @return void
  */
+/**
+ * runCmdArr
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $argv
+ * @return void
+ */
+/**
+ * runCmdArr
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $argv
+ * @return void
+ */
 function runCmdArr(array $argv) {
-    $cmdDisplay = implode(' ', array_map(function($a){ return is_scalar($a)?$a:'<arg>'; }, $argv));
+    $cmdDisplay = implode(' ', array_map(/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $a
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $a
+ * @return void
+ */
+function($a){ return is_scalar($a)?$a:'<arg>'; }, $argv));
     static $count = 0;
     if ($count < 20) echo "RUN-ARR: " . $cmdDisplay . "\n";
     $count++;

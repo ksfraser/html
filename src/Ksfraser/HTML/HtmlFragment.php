@@ -12,47 +12,253 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Represents a collection of HTML elements that should be rendered together
+
+ * 
+
+ * 
+
+ * 
 
  * but without wrapping them in a parent tag (like <div> or <span>).
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * This is useful for:
+
+ * 
+
+ * 
+
+ * 
 
  * - Multiple hidden input fields that need to be grouped logically
 
+ * 
+
+ * 
+
+ * 
+
  * - Returning multiple elements from a method without echo
+
+ * 
+
+ * 
+
+ * 
 
  * - Building complex HTML structures compositionally
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Example:
+
+ * 
+
+ * 
+
+ * 
 
  * ```php
 
+ * 
+
+ * 
+
+ * 
+
  * $fragment = new HtmlFragment();
+
+ * 
+
+ * 
+
+ * 
 
  * $fragment->addChild(new HtmlHidden('id', '123'));
 
+ * 
+
+ * 
+
+ * 
+
  * $fragment->addChild(new HtmlHidden('type', 'SP'));
 
+ * 
+
+ * 
+
+ * 
+
  * return $fragment->getHtml(); // <input type="hidden"...><input type="hidden"...>
+
+ * 
+
+ * 
+
+ * 
 
  * ```
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Benefits:
+
+ * 
+
+ * 
+
+ * 
 
  * - Composite Pattern: Treats multiple elements as single unit
 
+ * 
+
+ * 
+
+ * 
+
  * - No echo: Returns string for composition or testing
+
+ * 
+
+ * 
+
+ * 
 
  * - Type-safe: Implements HtmlElementInterface
 
+ * 
+
+ * 
+
+ * 
+
  * - Recursive: Children can be fragments too
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -68,12 +274,15 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * @see HtmlElementInterface
 
+ * @return void
+
  */
 class HtmlFragment implements HtmlElementInterface
 {
     /**
      *
      * @var HtmlElementInterface[] Array of child elements
+     * @return void
      */
     private $children = [];
     
@@ -122,13 +331,85 @@ class HtmlFragment implements HtmlElementInterface
     
      *
     
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
     
      * Concatenates all children's HTML without wrapping tag.
     
+     *     
+    
+     *     
+    
+     *     
+    
      * This is the key difference from HtmlElement - no wrapper.
     
+     *     
+    
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
     
      *
     
@@ -152,13 +433,85 @@ class HtmlFragment implements HtmlElementInterface
     
      *
     
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
     
      * Echoes the HTML representation. Use this for immediate output,
     
+     *     
+    
+     *     
+    
+     *     
+    
      * or use getHtml() for composition/testing.
     
+     *     
+    
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
     
      *
     

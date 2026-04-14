@@ -11,9 +11,57 @@ use Ksfraser\HTML\Elements\HtmlA;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Extends HtmlA to provide convenient methods for common CRUD action links.
 
+ * 
+
+ * 
+
+ * 
+
  * Automatically constructs query string URLs with action parameter.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -21,7 +69,63 @@ use Ksfraser\HTML\Elements\HtmlA;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SRP: Single responsibility of building action-based links
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -33,6 +137,14 @@ use Ksfraser\HTML\Elements\HtmlA;
 
  * @package Ksfraser\HTML\Elements
 
+ * @return void
+
+ */
+/**
+ * ActionLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 class ActionLink extends HtmlA {
 /**
@@ -43,7 +155,15 @@ class ActionLink extends HtmlA {
  * @param ?\Ksfraser\HTML\HtmlElementInterface $maybeContent
  * @return void
  */
-    public function __construct(?\Ksfraser\HTML\HtmlElementInterface $data = null, ?\Ksfraser\HTML\HtmlElementInterface $maybeContent = null)
+    public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $maybeContent
+ * @return void
+ */
+function __construct(?\Ksfraser\HTML\HtmlElementInterface $data = null, ?\Ksfraser\HTML\HtmlElementInterface $maybeContent = null)
     {
         parent::__construct($data ?? new \Ksfraser\HTML\Elements\HtmlString(''), $maybeContent ?? null);
     }
@@ -55,7 +175,15 @@ class ActionLink extends HtmlA {
      * @param array $params Additional query parameters
      * @return self
      */
-    public function setAction(string $action, array $params = []): self {
+    public /**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $params
+ * @return self
+ */
+function setAction(string $action, array $params = []): self {
         $queryParams = array_merge(['action' => $action], $params);
         $queryString = http_build_query($queryParams);
         $this->setHref('?' . $queryString);
@@ -75,7 +203,14 @@ class ActionLink extends HtmlA {
      * @return self
     
      */
-    public static function create(string $text = 'Create'): self {
+    public static /**
+ * create
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+function create(string $text = 'Create'): self {
         return (new self(new \Ksfraser\HTML\Elements\HtmlString('')))
             ->setAction('create')
             ->setText($text);
@@ -96,7 +231,15 @@ class ActionLink extends HtmlA {
      * @return self
     
      */
-public static function edit($id, string $text = 'Edit'): self {
+public static /**
+ * edit
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+function edit($id, string $text = 'Edit'): self {
         return (new self(new \Ksfraser\HTML\Elements\HtmlString('')))
             ->setAction('edit', ['id' => $id])
             ->setText($text);
@@ -117,7 +260,15 @@ public static function edit($id, string $text = 'Edit'): self {
      * @return self
     
      */
-public static function view($id, string $text = 'View'): self {
+public static /**
+ * view
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+function view($id, string $text = 'View'): self {
         return (new self(new \Ksfraser\HTML\Elements\HtmlString('')))
             ->setAction('view', ['id' => $id])
             ->setText($text);
@@ -138,7 +289,15 @@ public static function view($id, string $text = 'View'): self {
      * @return self
     
      */
-public static function delete($id, string $text = 'Delete'): self {
+public static /**
+ * delete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+function delete($id, string $text = 'Delete'): self {
         return (new self(new \Ksfraser\HTML\Elements\HtmlString('')))
             ->setAction('delete', ['id' => $id])
             ->setText($text)
@@ -158,7 +317,14 @@ public static function delete($id, string $text = 'Delete'): self {
      * @return self
     
      */
-    public static function listAll(string $text = 'List'): self {
+    public static /**
+ * listAll
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+function listAll(string $text = 'List'): self {
         return (new self(new \Ksfraser\HTML\Elements\HtmlString('')))
             ->setAction('list')
             ->setText($text);
@@ -179,7 +345,15 @@ public static function delete($id, string $text = 'Delete'): self {
      * @return self
     
      */
-    public static function admin(string $subAction = '', string $text = 'Admin'): self {
+    public static /**
+ * admin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $subAction
+ * @param mixed $text
+ * @return self
+ */
+function admin(string $subAction = '', string $text = 'Admin'): self {
         $link = (new self(new \Ksfraser\HTML\Elements\HtmlString('')))->setText($text);
         
         if ($subAction) {
@@ -208,7 +382,16 @@ public static function delete($id, string $text = 'Delete'): self {
      * @return self
     
      */
-    public static function custom(string $action, string $text, array $params = []): self {
+    public static /**
+ * custom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+function custom(string $action, string $text, array $params = []): self {
         return (new self(new \Ksfraser\HTML\Elements\HtmlString('')))
             ->setAction($action, $params)
             ->setText($text);
@@ -220,7 +403,14 @@ public static function delete($id, string $text = 'Delete'): self {
      * @param string $label
      * @return self
      */
-    public function setLabel(string $label): self {
+    public /**
+ * setLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+function setLabel(string $label): self {
         $this->label = $label;
         $this->setText($label);
         return $this;
@@ -231,7 +421,13 @@ public static function delete($id, string $text = 'Delete'): self {
      * @since v1.0.0 2026-04-13
      * @return string
      */
-    public function getLabel(): string {
+    public /**
+ * getLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getLabel(): string {
         return $this->label;
     }
 }

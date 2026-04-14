@@ -9,9 +9,89 @@ namespace Ksfraser\HTML\Elements;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Creates a modal dialog with overlay background.
 
+ * 
+
+ * 
+
+ * 
+
  * SRP: Single responsibility of building modal structure.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -23,11 +103,14 @@ namespace Ksfraser\HTML\Elements;
 
  * @package Ksfraser\HTML\Elements
 
+ * @return void
+
  */
 class Modal extends Div {
     /**
      *
      * @var string Modal ID
+     * @return void
      */
     protected string $modalId = 'modal';
     
@@ -36,6 +119,8 @@ class Modal extends Div {
      *
     
      * @var ModalContent Modal content component
+    
+     * @return void
     
      */
     protected ?ModalContent $content = null;

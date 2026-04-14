@@ -11,9 +11,89 @@ use Ksfraser\HTML\Elements\TableData;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SRP: Single responsibility of formatting Status cells with consistent styling.
 
+ * 
+
+ * 
+
+ * 
+
  * Handles: Status cell styling, color class generation, HTML escaping.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -24,6 +104,8 @@ use Ksfraser\HTML\Elements\TableData;
  * @since 1.0.1 2026-02-16
 
  * @package Ksfraser\HTML\Cells
+
+ * @return void
 
  */
 class StatusTableCell extends BaseTableCell {

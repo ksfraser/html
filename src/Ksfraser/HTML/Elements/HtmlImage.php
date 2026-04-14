@@ -14,6 +14,14 @@ use Ksfraser\HTML\Elements\HtmlString;
 
  * @since v1.0.0 2026-04-11
 
+ * @return void
+
+ */
+/**
+ * HtmlImage
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 class HtmlImage extends HtmlElement
 {
@@ -26,7 +34,14 @@ class HtmlImage extends HtmlElement
  * @param string|HtmlElementInterface|null $data
  * @return void
  */
-	public function __construct(string|HtmlElementInterface|null $data = null)
+	public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+function __construct(string|HtmlElementInterface|null $data = null)
 	{
 		if (is_string($data)) {
 			$data = new HtmlString($data);
@@ -48,7 +63,14 @@ class HtmlImage extends HtmlElement
  * @param mixed $src
  * @return void
  */
-	function setSrc( $src )
+	/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return void
+ */
+function setSrc( $src )
 	{
 		$this->addAttributeObject( new \Ksfraser\HTML\HtmlAttribute( "src", $src ) );
 	}
@@ -59,7 +81,14 @@ class HtmlImage extends HtmlElement
  * @param mixed $alt
  * @return void
  */
-	function setAlt( $alt )
+	/**
+ * setAlt
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $alt
+ * @return void
+ */
+function setAlt( $alt )
 	{
 		$this->addAttributeObject( new \Ksfraser\HTML\HtmlAttribute( "alt", $alt ) );
 	}
@@ -73,7 +102,14 @@ class HtmlImage extends HtmlElement
  * @param mixed $height
  * @return void
  */
-	function setHeight( $height )
+	/**
+ * setHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $height
+ * @return void
+ */
+function setHeight( $height )
 	{
 		$this->addAttributeObject( new \Ksfraser\HTML\HtmlAttribute( "height", $height ) );
 	}
@@ -84,7 +120,14 @@ class HtmlImage extends HtmlElement
  * @param mixed $width
  * @return void
  */
-	function setWidth( $width )
+	/**
+ * setWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @return void
+ */
+function setWidth( $width )
 	{
 		$this->addAttributeObject( new \Ksfraser\HTML\HtmlAttribute( "width", $width ) );
 	}
@@ -96,7 +139,15 @@ class HtmlImage extends HtmlElement
  * @param int $height
  * @return void
  */
-	function setSize( int $width, int $height )
+	/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $height
+ * @return void
+ */
+function setSize( int $width, int $height )
 	{
 			   $w = new HtmlStyle( "width", $width . "px" );
 			   $h = new HtmlStyle( "height", $height . "px" );

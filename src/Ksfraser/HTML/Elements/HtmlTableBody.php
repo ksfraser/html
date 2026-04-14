@@ -14,6 +14,8 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * @since v1.0.0 2026-04-11
 
+ * @return void
+
  */
 class HtmlTableBody extends HtmlElement
 {

@@ -10,6 +10,12 @@ use Ksfraser\HTML\Elements\ModalBuilder;
  *
  * @since 1.0.1 2026-02-16
  */
+/**
+ * ModalTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class ModalTest extends TestCase
 {
 /**
@@ -18,7 +24,13 @@ class ModalTest extends TestCase
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testModalConstructorSetsId()
+    public /**
+ * testModalConstructorSetsId
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testModalConstructorSetsId()
     {
         $modal = new Modal('test-modal');
         
@@ -33,7 +45,13 @@ class ModalTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testModalDefaultId()
+    public /**
+ * testModalDefaultId
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testModalDefaultId()
     {
         $modal = new Modal();
         
@@ -47,14 +65,26 @@ class ModalTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testModalSetContent()
+    public /**
+ * testModalSetContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testModalSetContent()
     {
         $modal = new Modal();
         $content = new ModalContent();
         $modal->setContent($content);
         
         $retrievedContent = $modal->getContent();
-        $this->assertInstanceOf(ModalContent::class, $retrievedContent);
+        $this->assertInstanceOf(ModalContent::/**
+ * testModalRenderWithContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $retrievedContent);
     }
     
 /**
@@ -63,7 +93,13 @@ class ModalTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testModalRenderWithContent()
+    public /**
+ * testModalRenderWithContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testModalRenderWithContent()
     {
         $modal = new Modal('my-modal');
         $content = new ModalContent();
@@ -80,7 +116,13 @@ class ModalTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testModalGetStylesheetPath()
+    public /**
+ * testModalGetStylesheetPath
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testModalGetStylesheetPath()
     {
         $path = Modal::getStylesheetPath();
         
@@ -93,7 +135,13 @@ class ModalTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testModalContentHasCorrectClass()
+    public /**
+ * testModalContentHasCorrectClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testModalContentHasCorrectClass()
     {
         $content = new ModalContent();
         
@@ -107,7 +155,13 @@ class ModalTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testModalContentGetStylesheetPath()
+    public /**
+ * testModalContentGetStylesheetPath
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testModalContentGetStylesheetPath()
     {
         $path = ModalContent::getStylesheetPath();
         

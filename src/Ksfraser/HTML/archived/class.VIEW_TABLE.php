@@ -12,6 +12,14 @@ use Ksfraser\Origin\origin;
 
  * @since v1.0.0 2025-04-23
 
+ * @return void
+
+ */
+/**
+ * VIEW_TABLE
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 class VIEW_TABLE extends origin
 {
@@ -26,7 +34,13 @@ class VIEW_TABLE extends origin
  * @since v1.0.0 2026-04-14
  * @return void
  */
-	function __construct()
+	/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __construct()
 	{
 		$this->table_rows = array();
 		$this->table_headers = array();
@@ -39,7 +53,13 @@ class VIEW_TABLE extends origin
  * @since v1.0.0 2026-04-14
  * @return void
  */
-	function __toString()
+	/**
+ * __toString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __toString()
 	{
 		$this->start_table();
 		foreach( $this->table_headers as $obj )
@@ -58,13 +78,21 @@ class VIEW_TABLE extends origin
  * @since v1.0.0 2026-04-14
  * @return void
  */
-	function end_table()
+	/**
+ * end_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function end_table()
 	{
 		end_table();
 	}
 	/**
 	 * /*************************
 	 *
+	 * 
+	 * 
 	 * Create a new Table
 	 * 
 	 * Normally would do sanity check on variables but they are set in the constructor.
@@ -72,23 +100,35 @@ class VIEW_TABLE extends origin
 	 * /**
 	 * start_table()
 	 * 
+	 * 
+	 * 
 	 *
 	 * @since v1.0.5 2026-04-14
 	 * @since v1.0.0 2026-04-14
 	 * @return void
 	 * @return void
 	 */
-	function start_table()
+	/**
+ * start_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function start_table()
 	{
 		start_table( $this->get( "table_style" ), "width=" . $this->get( "table_width" ) . "%");
 	}
 	/**
 	 * /*************************************************************
 	 *
+	 * 
+	 * 
 	 * Setting with data validation
 	 * 
 	 * /**
 	 * set()
+	 * 
+	 * 
 	 * 
 	 *
 	 * @since v1.0.0 2026-04-14
@@ -98,7 +138,16 @@ class VIEW_TABLE extends origin
 	 * @return void
 	 * @return void
 	 */
-	function set( $var, $value = null, $enforce = true )
+	/**
+ * set
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $var
+ * @param mixed $value
+ * @param mixed $enforce
+ * @return void
+ */
+function set( $var, $value = null, $enforce = true )
 	{
 		switch( $var )
 		{
@@ -133,7 +182,14 @@ class VIEW_TABLE extends origin
      * @param mixed $row
      * @return void
      */
-    public function add_row($row)
+    public /**
+ * add_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $row
+ * @return void
+ */
+function add_row($row)
     {
         if (!is_array($row)) {
             throw new InvalidArgumentException("Row must be an array.");
@@ -147,7 +203,13 @@ class VIEW_TABLE extends origin
      * @since v1.0.5 2026-04-14
      * @return string The HTML representation of the table.
      */
-    public function toHtml()
+    public /**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function toHtml()
     {
         $html = '';
         $html .= $this->start_table();

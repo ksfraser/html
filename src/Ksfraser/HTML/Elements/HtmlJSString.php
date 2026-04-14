@@ -12,9 +12,57 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Semantic wrapper for JavaScript code as an HTML element.
 
+ * 
+
+ * 
+
+ * 
+
  * Extends HtmlString for clarity: use this when representing inline JS content.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -22,9 +70,43 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  *
 
  * @since 1.0.3 2026-02-21
+
+ * @return void
 
  */
 class HtmlJSString extends HtmlString implements HtmlElementInterface

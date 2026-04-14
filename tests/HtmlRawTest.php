@@ -7,6 +7,12 @@ use Ksfraser\HTML\Elements\HtmlRaw;
  *
  * @since 1.0.3 2026-02-21
  */
+/**
+ * HtmlRawTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlRawTest extends TestCase {
 /**
  * testInstance
@@ -14,9 +20,21 @@ class HtmlRawTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testInstance() {
+    public /**
+ * testInstance
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testInstance() {
         $raw = new HtmlRaw('<b>raw html</b>');
-        $this->assertInstanceOf(HtmlRaw::class, $raw);
+        $this->assertInstanceOf(HtmlRaw::/**
+ * No description.
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $raw);
     }
 
     // Add more tests for all public methods and edge cases

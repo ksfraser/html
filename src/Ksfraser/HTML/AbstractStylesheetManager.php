@@ -11,35 +11,193 @@ use Ksfraser\HTML\Elements\Stylesheet;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Provides reusable functionality for managing CSS asset loading across any module.
+
+ * 
+
+ * 
+
+ * 
 
  * Handles stylesheet element rendering, caching for performance, and security.
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Uses the Stylesheet element (extends HtmlElement) to generate properly formatted
+
+ * 
+
+ * 
+
+ * 
 
  * <link rel="stylesheet"> tags via the HTML builder pattern.
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Subclasses implement the specific stylesheet configuration via:
 
+ * 
+
+ * 
+
+ * 
+
  * - $commonSheets: Array of common stylesheet names (cached, shared across views)
+
+ * 
+
+ * 
+
+ * 
 
  * - $viewSheets: Associative array mapping view names to their specific stylesheets
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Compatible with platform-specific asset resolution via asset_url() function:
+
+ * 
+
+ * 
+
+ * 
 
  * - FrontAccounting: Searches user skin → module → default paths
 
+ * 
+
+ * 
+
+ * 
+
  * - WordPress: Uses theme/plugin asset paths
+
+ * 
+
+ * 
+
+ * 
 
  * - SuiteCRM: Uses theme structure
 
+ * 
+
+ * 
+
+ * 
+
  * - Standalone: Simple path-based resolution
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -51,12 +209,15 @@ use Ksfraser\HTML\Elements\Stylesheet;
 
  * @package Ksfraser\HTML
 
+ * @return void
+
  */
 abstract class AbstractStylesheetManager {
     /**
      * Cache for common stylesheets (loaded once per request)
      *
      * @var string|null
+     * @return void
      */
     private static ?string $commonStylesheetsCache = null;
     
@@ -66,11 +227,63 @@ abstract class AbstractStylesheetManager {
     
      *
     
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
      * Subclasses override this with their specific sheets
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
     
      *
     
      * @var array<string>
+    
+     * @return void
     
      */
     protected static array $commonSheets = [];
@@ -81,11 +294,63 @@ abstract class AbstractStylesheetManager {
     
      *
     
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
      * Subclasses override this with their view mappings
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
     
      *
     
      * @var array<string, array<string>>
+    
+     * @return void
     
      */
     protected static array $viewSheets = [];
@@ -96,13 +361,85 @@ abstract class AbstractStylesheetManager {
     
      *
     
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
     
      * Common stylesheets are cached to prevent duplicate loading across multiple views.
     
+     *     
+    
+     *     
+    
+     *     
+    
      * This is efficient for pages with multiple components of the same module.
     
+     *     
+    
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
     
      *
     
@@ -137,17 +474,107 @@ abstract class AbstractStylesheetManager {
     
      *
     
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
     
      * View-specific stylesheets are loaded separately to allow:
     
+     *     
+    
+     *     
+    
+     *     
+    
      * 1. Selective override per view in skins
+    
+     *     
+    
+     *     
+    
+     *     
     
      * 2. Loading only needed styles for specific views
     
+     *     
+    
+     *     
+    
+     *     
+    
      * 3. Clear separation of concerns (common vs unique styling)
     
+     *     
+    
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
     
      *
     
@@ -180,11 +607,83 @@ abstract class AbstractStylesheetManager {
     
      *
     
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
     
      * Convenience method for views that want one call to get everything.
     
+     *     
+    
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
     
      *
     
@@ -205,13 +704,91 @@ abstract class AbstractStylesheetManager {
     
      *
     
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
     
      * Creates a Stylesheet element, configures it, and calls render() to generate HTML.
     
+     *     
+    
+     *     
+    
+     *     
+    
      * This maintains consistency with the HTML builder pattern used throughout codebase.
     
+     *     
+    
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
     
      *
     
@@ -241,11 +818,77 @@ abstract class AbstractStylesheetManager {
     
      *
     
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
     
      * Useful for testing or if stylesheets change during execution.
     
+     *     
+    
+     *     
+    
+     *     
+    
      * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     *     
+    
+     * 
+    
+     *     
+    
+     *     
+    
+     *     
     
      *
     

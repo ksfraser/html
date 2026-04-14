@@ -12,9 +12,89 @@ use Ksfraser\HTML\Elements\HtmlA;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Extends ActionLink with defaults for add operations.
 
+ * 
+
+ * 
+
+ * 
+
  * Similar to Create but uses "add" action name.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -26,6 +106,14 @@ use Ksfraser\HTML\Elements\HtmlA;
 
  * @package Ksfraser\HTML\Factory
 
+ * @return void
+
+ */
+/**
+ * AddLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 class AddLink extends ActionLink {
 /**
@@ -36,12 +124,21 @@ class AddLink extends ActionLink {
  * @param array $params
  * @return self
  */
-        public static function make(?string $text = null, array $params = []): self {
+        public static /**
+ * make
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+function make(?string $text = null, array $params = []): self {
             return new static($text, $params);
         }
     /**
      *
      * @var string Default label for add links
+     * @return void
      */
     protected string $label = 'Add';
     
@@ -60,7 +157,15 @@ class AddLink extends ActionLink {
      * @return void
     
      */
-public function __construct(?string $text = null, array $params = []) {
+public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return void
+ */
+function __construct(?string $text = null, array $params = []) {
         parent::__construct(new \Ksfraser\HTML\Elements\HtmlString(''));
         $this->setAction('add', $params);
         $this->setText($text ?? $this->label);

@@ -12,6 +12,8 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * @since 1.0.1 2026-02-16
 
+ * @return void
+
  */
 class HtmlAttributeList implements HtmlElementInterface
 {
@@ -68,7 +70,79 @@ class HtmlAttributeList implements HtmlElementInterface
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * If an attribute with the same name already exists, it is replaced.
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 

@@ -13,6 +13,8 @@ use Ksfraser\HTML\Formatting\HtmlParagraph;
 
  * @since 1.0.1 2026-02-16
 
+ * @return void
+
  */
 class HtmlP extends HtmlParagraph
 {

@@ -15,11 +15,65 @@ use \Ksfraser\HTML\JS\HtmlJsEventTrait;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Represents an HTML <input type="button"> element.
+
+ * 
+
+ * 
+
+ * 
 
  * Used for client-side JavaScript interactions without form submission.
 
+ * 
+
+ * 
+
+ * 
+
  * Unlike submit/reset buttons, this button has no default behavior.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -27,21 +81,81 @@ use \Ksfraser\HTML\JS\HtmlJsEventTrait;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Design Pattern: Builder Pattern
+
+ * 
+
+ * 
+
+ * 
 
  * - Fluent interface for setting attributes
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SOLID Principles:
+
+ * 
+
+ * 
+
+ * 
 
  * - Single Responsibility: Renders generic button only
 
+ * 
+
+ * 
+
+ * 
+
  * - Open/Closed: Can be extended for custom button types
+
+ * 
+
+ * 
+
+ * 
 
  * - Liskov Substitution: Can replace HtmlInputButton
 
+ * 
+
+ * 
+
+ * 
+
  * - Interface Segregation: Uses HtmlElementInterface appropriately
+
+ * 
+
+ * 
+
+ * 
 
  * - Dependency Inversion: Depends on HtmlElementInterface abstraction
 
@@ -49,23 +163,145 @@ use \Ksfraser\HTML\JS\HtmlJsEventTrait;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * ```php
+
+ * 
+
+ * 
+
+ * 
 
  * $label = new HtmlString('Click Me');
 
+ * 
+
+ * 
+
+ * 
+
  * $button = new HtmlInputGenericButton($label);
+
+ * 
+
+ * 
+
+ * 
 
  * $button->setName('my_btn')
 
+ * 
+
+ * 
+
+ * 
+
  *        ->setOnclick("alert('Hello!')")
+
+ * 
+
+ * 
+
+ * 
 
  *        ->setClass('btn btn-primary');
 
+ * 
+
+ * 
+
+ * 
+
  * echo $button->getHtml();
+
+ * 
+
+ * 
+
+ * 
 
  * // Output: <input type="button" value="Click Me" name="my_btn" onclick="alert('Hello!')" class="btn btn-primary" />
 
+ * 
+
+ * 
+
+ * 
+
  * ```
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -80,6 +316,8 @@ use \Ksfraser\HTML\JS\HtmlJsEventTrait;
  * @version 20251019.0
 
  * @example 
+
+ * @return void
 
  */
 class HtmlInputGenericButton extends HtmlInputButton

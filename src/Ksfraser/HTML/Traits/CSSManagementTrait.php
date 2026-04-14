@@ -3,14 +3,19 @@
  * CSSManagementTrait - Enhanced CSS Class Management
  *
  * 
+ * 
+ * 
  * Provides convenient methods for managing CSS classes beyond basic setAttribute.
  * Features: batch operations, conditional classes, removal, toggling, deduplication
  * 
  * Implements FR-006: Enhanced CSS Class Management
  * 
+ * 
+ * 
  *
  * @since 2026-03-27
  * @author Kevin Fraser
+ * @return void
  */
 
 namespace Ksfraser\HTML\Traits;
@@ -23,19 +28,129 @@ namespace Ksfraser\HTML\Traits;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Methods:
+
+ * 
+
+ * 
+
+ * 
 
  * - addCSSClass(string, bool?) - Add single class with optional condition
 
+ * 
+
+ * 
+
+ * 
+
  * - addCSSClasses(array) - Add multiple classes at once
+
+ * 
+
+ * 
+
+ * 
 
  * - removeCSSClass(string) - Remove a class
 
+ * 
+
+ * 
+
+ * 
+
  * - toggleCSSClass(string, bool?) - Toggle class on/off
+
+ * 
+
+ * 
+
+ * 
 
  * - hasCSSClass(string) - Check if class exists
 
+ * 
+
+ * 
+
+ * 
+
  * - getCSSClasses() - Get all classes as array
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -47,17 +162,24 @@ namespace Ksfraser\HTML\Traits;
 
  * @package Ksfraser\HTML\Traits
 
+ * @return void
+
  */
 trait CSSManagementTrait
 {
     /**
      * Valid CSS class name pattern
      *
+     * 
+     * 
      * Classes must not contain spaces, special characters, etc.
      * Pattern: valid letters, digits, hyphens, underscores
      * 
+     * 
+     * 
      *
      * @const string
+     * @return void
      */
     protected const CSS_CLASS_PATTERN = '/^[a-zA-Z0-9_-]+$/';
 
@@ -69,7 +191,43 @@ trait CSSManagementTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Supports conditional addition based on boolean flag.
+
+     * 
+
+     * 
+
+     * 
 
      * Returns $this for method chaining.
 
@@ -77,9 +235,87 @@ trait CSSManagementTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * $div->addCSSClass('btn');
 
+     * 
+
+     * 
+
+     * 
+
      * $div->addCSSClass('active', $isActive);
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -134,9 +370,51 @@ trait CSSManagementTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Batch operation for adding multiple classes.
 
+     * 
+
+     * 
+
+     * 
+
      * Automatically deduplicates classes.
+
+     * 
+
+     * 
+
+     * 
 
      * Returns $this for method chaining.
 
@@ -144,7 +422,73 @@ trait CSSManagementTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * $button->addCSSClasses(['btn', 'btn-primary', 'btn-lg']);
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -192,9 +536,51 @@ trait CSSManagementTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Removes the class if present. Safe to call even if class
 
+     * 
+
+     * 
+
+     * 
+
      * is not present (no error thrown).
+
+     * 
+
+     * 
+
+     * 
 
      * Returns $this for method chaining.
 
@@ -202,7 +588,67 @@ trait CSSManagementTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * $div->removeCSSClass('hidden');
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -245,9 +691,51 @@ trait CSSManagementTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * If class is present, removes it. If absent, adds it.
 
+     * 
+
+     * 
+
+     * 
+
      * Optional force parameter can force add (true) or remove (false).
+
+     * 
+
+     * 
+
+     * 
 
      * Returns $this for method chaining.
 
@@ -255,11 +743,95 @@ trait CSSManagementTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * $element->toggleCSSClass('active');
+
+     * 
+
+     * 
+
+     * 
 
      * $element->toggleCSSClass('highlight', true); // Force add
 
+     * 
+
+     * 
+
+     * 
+
      * $element->toggleCSSClass('pending', false);  // Force remove
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -325,7 +897,85 @@ trait CSSManagementTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * if ($div->hasCSSClass('active')) { ... }
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -357,7 +1007,43 @@ trait CSSManagementTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Returns an array of class names currently applied to the element.
+
+     * 
+
+     * 
+
+     * 
 
      * Returns empty array if no classes present.
 
@@ -365,9 +1051,69 @@ trait CSSManagementTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * $classes = $div->getCSSClasses();
 
+     * 
+
+     * 
+
+     * 
+
      * // ['btn', 'btn-primary', 'btn-lg']
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
@@ -405,9 +1151,93 @@ trait CSSManagementTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Internal helper method to set the class attribute based on
 
+     * 
+
+     * 
+
+     * 
+
      * an array of class names. Handles deduplication and proper formatting.
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 
@@ -458,9 +1288,93 @@ trait CSSManagementTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * This method should be implemented in the class using this trait.
 
+     * 
+
+     * 
+
+     * 
+
      * It's called by getCSSClasses() to retrieve the current class attribute.
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 
@@ -485,9 +1399,99 @@ trait CSSManagementTrait
 
      * 
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * This method should be implemented in the class using this trait.
 
+     * 
+
+     * 
+
+     * 
+
      * It's called by setClassAttribute() to update the class attribute.
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      * 
 

@@ -12,6 +12,8 @@ use Ksfraser\Origin\origin;
 
  * @since v1.0.0 2025-04-23
 
+ * @return void
+
  */
 class VIEW_FORM extends origin
 {

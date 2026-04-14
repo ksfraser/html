@@ -13,9 +13,57 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Represents an HTML <input type="reset"> button element.
 
+ * 
+
+ * 
+
+ * 
+
  * Used to reset form fields to their default values.
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -23,21 +71,81 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * Design Pattern: Builder Pattern
+
+ * 
+
+ * 
+
+ * 
 
  * - Fluent interface for setting attributes
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * SOLID Principles:
+
+ * 
+
+ * 
+
+ * 
 
  * - Single Responsibility: Renders reset button only
 
+ * 
+
+ * 
+
+ * 
+
  * - Open/Closed: Can be extended for custom reset buttons
+
+ * 
+
+ * 
+
+ * 
 
  * - Liskov Substitution: Can replace HtmlInputButton
 
+ * 
+
+ * 
+
+ * 
+
  * - Interface Segregation: Uses HtmlElementInterface appropriately
+
+ * 
+
+ * 
+
+ * 
 
  * - Dependency Inversion: Depends on HtmlElementInterface abstraction
 
@@ -45,17 +153,121 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * 
 
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
  * ```php
+
+ * 
+
+ * 
+
+ * 
 
  * $label = new HtmlString('Reset Form');
 
+ * 
+
+ * 
+
+ * 
+
  * $reset = new HtmlInputReset($label);
+
+ * 
+
+ * 
+
+ * 
 
  * $reset->setName('reset_btn')->setClass('btn btn-secondary');
 
+ * 
+
+ * 
+
+ * 
+
  * echo $reset->getHtml(); // <input type="reset" value="Reset Form" name="reset_btn" class="btn btn-secondary" />
 
+ * 
+
+ * 
+
+ * 
+
  * ```
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
+
+ * 
 
  * 
 
@@ -70,6 +282,8 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @version 20251019.0
 
  * @example 
+
+ * @return void
 
  */
 class HtmlInputReset extends HtmlInputButton

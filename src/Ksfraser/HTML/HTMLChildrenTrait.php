@@ -13,6 +13,8 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * @author Kevin Fraser <kevin@ksfraser.ca>
 
+ * @return void
+
  */
 trait HTMLChildrenTrait {
 	
@@ -21,6 +23,8 @@ trait HTMLChildrenTrait {
 	 *
 	
 	 * @var HtmlElementInterface[]
+	
+	 * @return void
 	
 	 */
 	protected $children = array();

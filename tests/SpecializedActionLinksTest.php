@@ -13,6 +13,12 @@ use Ksfraser\HTML\Factory\AddLink;
  *
  * @since 1.0.1 2026-02-16
  */
+/**
+ * SpecializedActionLinksTest
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class SpecializedActionLinksTest extends TestCase
 {
 /**
@@ -21,10 +27,22 @@ class SpecializedActionLinksTest extends TestCase
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testCreateLinkMake()
+    public /**
+ * testCreateLinkMake
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testCreateLinkMake()
     {
         $link = CreateLink::make('From Factory', ['foo' => 'bar']);
-        $this->assertInstanceOf(CreateLink::class, $link);
+        $this->assertInstanceOf(CreateLink::/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $link);
         $html = $link->getHtml();
         $this->assertStringContainsString('action=create', $html);
         $this->assertStringContainsString('foo=bar', $html);
@@ -37,10 +55,22 @@ class SpecializedActionLinksTest extends TestCase
  * @since 1.0.2 2026-02-20
  * @return void
  */
-    public function testEditLinkMake()
+    public /**
+ * testEditLinkMake
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testEditLinkMake()
     {
         $link = EditLink::make(42, 'Edit Factory', ['baz' => 'qux']);
-        $this->assertInstanceOf(EditLink::class, $link);
+        $this->assertInstanceOf(EditLink::/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $link);
         $html = $link->getHtml();
         $this->assertStringContainsString('action=edit', $html);
         $this->assertStringContainsString('id=42', $html);
@@ -54,10 +84,22 @@ class SpecializedActionLinksTest extends TestCase
  * @since 1.0.2 2026-02-20
  * @return void
  */
-    public function testDeleteLinkMake()
+    public /**
+ * testDeleteLinkMake
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testDeleteLinkMake()
     {
         $link = DeleteLink::make(99, 'Delete Factory', ['x' => 'y']);
-        $this->assertInstanceOf(DeleteLink::class, $link);
+        $this->assertInstanceOf(DeleteLink::/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $link);
         $html = $link->getHtml();
         $this->assertStringContainsString('action=delete', $html);
         $this->assertStringContainsString('id=99', $html);
@@ -71,10 +113,22 @@ class SpecializedActionLinksTest extends TestCase
  * @since 1.0.2 2026-02-20
  * @return void
  */
-    public function testViewLinkMake()
+    public /**
+ * testViewLinkMake
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testViewLinkMake()
     {
         $link = ViewLink::make(7, 'View Factory', ['foo' => 'bar']);
-        $this->assertInstanceOf(ViewLink::class, $link);
+        $this->assertInstanceOf(ViewLink::/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $link);
         $html = $link->getHtml();
         $this->assertStringContainsString('action=view', $html);
         $this->assertStringContainsString('id=7', $html);
@@ -88,10 +142,22 @@ class SpecializedActionLinksTest extends TestCase
  * @since 1.0.2 2026-02-20
  * @return void
  */
-    public function testListLinkMake()
+    public /**
+ * testListLinkMake
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testListLinkMake()
     {
         $link = ListLink::make('List Factory', ['page' => 2]);
-        $this->assertInstanceOf(ListLink::class, $link);
+        $this->assertInstanceOf(ListLink::/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $link);
         $html = $link->getHtml();
         $this->assertStringContainsString('action=list', $html);
         $this->assertStringContainsString('page=2', $html);
@@ -104,10 +170,22 @@ class SpecializedActionLinksTest extends TestCase
  * @since 1.0.2 2026-02-20
  * @return void
  */
-    public function testAddLinkMake()
+    public /**
+ * testAddLinkMake
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testAddLinkMake()
     {
         $link = AddLink::make('Add Factory', ['foo' => 'bar']);
-        $this->assertInstanceOf(AddLink::class, $link);
+        $this->assertInstanceOf(AddLink::/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class, $link);
         $html = $link->getHtml();
         $this->assertStringContainsString('action=add', $html);
         $this->assertStringContainsString('foo=bar', $html);
@@ -119,7 +197,13 @@ class SpecializedActionLinksTest extends TestCase
  * @since 1.0.2 2026-02-20
  * @return void
  */
-    public function testCreateLinkDefaultLabel()
+    public /**
+ * testCreateLinkDefaultLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testCreateLinkDefaultLabel()
     {
         $link = new CreateLink();
         $html = $link->getHtml();
@@ -133,7 +217,13 @@ class SpecializedActionLinksTest extends TestCase
  * @since 1.0.2 2026-02-20
  * @return void
  */
-    public function testCreateLinkCustomText()
+    public /**
+ * testCreateLinkCustomText
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testCreateLinkCustomText()
     {
         $link = new CreateLink('Add New');
         $html = $link->getHtml();
@@ -146,7 +236,13 @@ class SpecializedActionLinksTest extends TestCase
  * @since 1.0.2 2026-02-20
  * @return void
  */
-    public function testCreateLinkWithParams()
+    public /**
+ * testCreateLinkWithParams
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testCreateLinkWithParams()
     {
         $link = new CreateLink(null, ['type' => 'loan']);
         $html = $link->getHtml();
@@ -160,7 +256,13 @@ class SpecializedActionLinksTest extends TestCase
  * @since 1.0.2 2026-02-20
  * @return void
  */
-    public function testCreateLinkSetLabel()
+    public /**
+ * testCreateLinkSetLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testCreateLinkSetLabel()
     {
         $link = new CreateLink();
         $link->setLabel('New Item');
@@ -175,7 +277,13 @@ class SpecializedActionLinksTest extends TestCase
  * @since 1.0.2 2026-02-20
  * @return void
  */
-    public function testEditLinkWithId()
+    public /**
+ * testEditLinkWithId
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testEditLinkWithId()
     {
         $link = new EditLink(123);
         $html = $link->getHtml();
@@ -190,7 +298,13 @@ class SpecializedActionLinksTest extends TestCase
  * @since 1.0.2 2026-02-20
  * @return void
  */
-    public function testEditLinkWithParams()
+    public /**
+ * testEditLinkWithParams
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testEditLinkWithParams()
     {
         $link = new EditLink(456, null, ['section' => 'details']);
         $html = $link->getHtml();
@@ -204,7 +318,13 @@ class SpecializedActionLinksTest extends TestCase
  * @since 1.0.2 2026-02-20
  * @return void
  */
-    public function testDeleteLinkWithId()
+    public /**
+ * testDeleteLinkWithId
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function testDeleteLinkWithId()
     {
         $link = new DeleteLink(789);
         $html = $link->getHtml();

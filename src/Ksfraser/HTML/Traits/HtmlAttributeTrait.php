@@ -14,11 +14,14 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  * @since 1.0.4 2026-02-21
 
+ * @return void
+
  */
 trait HtmlAttributeTrait {
     /**
      *
      * @var \Ksfraser\HTML\HtmlAttributeList
+     * @return void
      */
     protected $attributeList;
 
@@ -68,9 +71,81 @@ public function addAttribute($name, $value): self {
 
      *
 
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
      * Accepts string or HtmlElementInterface for value.
 
+     * 
+
+     * 
+
+     * 
+
      * Converts string to HtmlString for storage.
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
+
+     * 
 
      *
 
