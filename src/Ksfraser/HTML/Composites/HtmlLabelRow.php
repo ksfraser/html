@@ -8,65 +8,119 @@ use Ksfraser\HTML\HtmlElementInterface;
 use Ksfraser\HTML\HtmlAttribute;
 
 /**
+
  * HTML Label Row Class
+
  *
+
+ * 
+
  * Represents a table row with two cells: a label cell and a content cell.
+
  * Commonly used in forms to display field labels alongside their values.
- *
+
+ * 
+
  * Structure: <tr><td class="label" width="25%">Label:</td><td>Content</td></tr>
- *
+
+ * 
+
  * Uses proper composition with HtmlTd instead of hardcoding HTML.
+
  * This follows the Composite pattern - each component recursively renders itself.
- *
+
+ * 
+
  * Design Patterns:
+
  * - **Composite Pattern**: Composes HtmlTd cells that recursively render
+
  * - **Builder Pattern**: Fluent interface for setting attributes
- *
+
+ * 
+
  * SOLID Principles:
+
  * - Single Responsibility: Renders label/content row pairs only
+
  * - Open/Closed: Can be extended for custom row types
+
  * - Liskov Substitution: Implements HtmlElementInterface
+
  * - Interface Segregation: Uses HtmlElementInterface appropriately
+
  * - Dependency Inversion: Depends on HtmlElementInterface abstraction
- *
- *
+
+ * 
+
+ * 
+
  * ```php
+
  * $label = new HtmlString('Username:');
+
  * $content = new HtmlString('jdoe');
+
  * $row = new HtmlLabelRow($label, $content);
+
  * $row->setLabelWidth(30)->setLabelClass('form-label');
+
  * echo $row->getHtml();
+
  * // Output: <tr><td class="form-label" width="30%">Username:</td><td>jdoe</td></tr>
+
  * ```
+
+ * 
+
  *
- * @package Ksfraser\HTML
- * @author Kevin Fraser
- * @version 20251019.1
- * @example
+
  * @since v1.0.0 2025-10-31
+
+ * @package Ksfraser\HTML
+
+ * @author Kevin Fraser
+
+ * @version 20251019.1
+
+ * @example 
+
  */
 class HtmlLabelRow implements HtmlElementInterface
 {
     /**
      * The label cell (left)
+     *
      * @var HtmlTd
      */
     protected $labelCell;
 
     /**
+
      * The content cell (right)
+
+     *
+
      * @var HtmlTd
+
      */
     protected $contentCell;
 
     /**
+
      * Constructor
-     * 
- * @param mixed $label
- * @param mixed $content
- * @return void
- * @since v1.0.0 2025-10-31
- */
+
+     *
+
+     * @since v1.0.0 2025-10-31
+
+     * @param mixed $label
+
+     * @param mixed $content
+
+     * @return void
+
+     */
 public function __construct($label = null, $content = null)
     {
         // Create the label cell (left) with default class and width
@@ -79,11 +133,17 @@ public function __construct($label = null, $content = null)
     }
 
     /**
+
      * Set the width of the label cell
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param int $width Width as percentage (e.g., 25 for 25%)
+
      * @return self Fluent interface
- * @since v1.0.0 2026-04-13
+
      */
     public function setLabelWidth(int $width): self
     {
@@ -93,11 +153,17 @@ public function __construct($label = null, $content = null)
     }
 
     /**
+
      * Set the CSS class for the label cell
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $class The CSS class name
+
      * @return self Fluent interface
- * @since v1.0.0 2026-04-13
+
      */
     public function setLabelClass(string $class): self
     {
@@ -107,12 +173,19 @@ public function __construct($label = null, $content = null)
     }
 
     /**
+
      * Set additional attributes for the content cell
-     * 
-     * @param string $attributes HTML attributes (e.g., 'colspan="2" class="value"')
-     * @return self Fluent interface
+
+     *
+
      * @deprecated This method parses string attributes. Better to use addContentCellAttribute()
- * @since v1.0.0 2026-04-13
+
+     * @since v1.0.0 2026-04-13
+
+     * @param string $attributes HTML attributes (e.g., 'colspan="2" class="value"')
+
+     * @return self Fluent interface
+
      */
     public function setContentCellAttributes(string $attributes): self
     {
@@ -127,12 +200,19 @@ public function __construct($label = null, $content = null)
     }
 
     /**
+
      * Add a single attribute to the content cell
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $name Attribute name
+
      * @param string $value Attribute value
+
      * @return self Fluent interface
- * @since v1.0.0 2026-04-13
+
      */
     public function addContentCellAttribute(string $name, string $value): self
     {
@@ -141,13 +221,25 @@ public function __construct($label = null, $content = null)
     }
 
     /**
+
      * Get the HTML representation
+
+     *
+
      * 
+
      * Delegates to composed HtmlTd elements, which recursively call getHtml()
+
      * No hardcoded HTML tags - each component renders itself!
+
      * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @return string The complete HTML table row
- * @since v1.0.0 2026-04-13
+
      */
     public function getHtml(): string
     {
@@ -161,10 +253,15 @@ public function __construct($label = null, $content = null)
     }
 
     /**
+
      * Render the HTML to output
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @return void
- * @since v1.0.0 2026-04-13
+
      */
     public function toHtml(): void
     {

@@ -6,12 +6,23 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * HtmlArticle
+
  *
+
+ * 
+
  * Represents the HTML <article> element for self-contained content.
+
  * Extends HtmlElement for standard element behavior.
+
+ * 
+
  *
+
  * @since v1.0.0 2026-04-11
+
  */
 class HtmlArticle extends HtmlElement
 {

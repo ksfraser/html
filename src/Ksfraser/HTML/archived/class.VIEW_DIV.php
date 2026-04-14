@@ -5,10 +5,13 @@ namespace Ksfraser\HTML;
 use Ksfraser\Origin\origin;
 
 /**
+
  * VIEW_DIV.
+
  *
- *
+
  * @since v1.0.0 2025-04-23
+
  */
 class VIEW_DIV extends origin
 {
@@ -16,11 +19,11 @@ class VIEW_DIV extends origin
 	protected $div_item_array;
 	protected $content;
 /**
-	 * Function __construct
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param mixed $name
-	 * @return void
+ * __construct()
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
  */
 	function __construct( $name = "" )
 	{
@@ -29,10 +32,10 @@ class VIEW_DIV extends origin
 		$this->set( "name", $name );
 	}
 /**
-	 * Function __toString
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @return void
+ * __toString()
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 	function __toString()
 	{
@@ -44,20 +47,20 @@ class VIEW_DIV extends origin
 		$this->end_div();
 	}
 /**
-	 * Function start_div
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @return void
+ * start_div()
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 	function start_div()
 	{
 		start_div( $this->get( "name" ) );
 	}
 /**
-	 * Function end_div
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @return void
+ * end_div()
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
  */
 	function end_div()
 	{
@@ -66,10 +69,10 @@ class VIEW_DIV extends origin
     /**
      * Add content to the div with validation.
      *
+     * @since v2.0.1 2026-04-14
      * @throws InvalidArgumentException If the content is not a string.
- * @param mixed $content
- * @return void
- * @since v2.0.1 2026-04-14
+     * @param mixed $content
+     * @return void
      */
     public function add_content($content)
     {
@@ -82,8 +85,8 @@ class VIEW_DIV extends origin
     /**
      * Generate the HTML output for the div.
      *
+     * @since v1.0.5 2026-04-14
      * @return string The HTML representation of the div.
- * @since v1.0.5 2026-04-14
      */
     public function toHtml()
     {

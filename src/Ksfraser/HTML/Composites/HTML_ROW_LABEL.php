@@ -7,42 +7,78 @@ use Ksfraser\HTML\Elements\HtmlString;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * HTML_ROW_LABEL - Wrapper for HtmlLabelRow
+
  *
+
+ * 
+
  * Provides backward compatibility with legacy code.
+
  * This wrapper matches the old interface exactly but delegates to HtmlLabelRow.
- *
+
+ * 
+
  * The old interface had parameter order: ($data, $label, $width, $class)
+
  * HtmlLabelRow uses: ($label, $content) with fluent methods
- *
+
+ * 
+
  *             New code should use HtmlLabelRow directly.
+
+ * 
+
+ * 
+
  *
- *
+
  * @deprecated This class exists for backward compatibility only.
- * @see \Ksfraser\HTML\HtmlLabelRow
- * @package Ksfraser\HTML
+
  * @since 1.0.1 2026-02-16
+
+ * @see \Ksfraser\HTML\HtmlLabelRow
+
+ * @package Ksfraser\HTML
+
  */
 class HTML_ROW_LABEL implements HtmlElementInterface
 {
     /**
      * The underlying HtmlLabelRow instance
+     *
      * @var HtmlLabelRow
      */
     protected $row;
     
     /**
+    
      * Create a table row with a label
+    
+     *
+    
      * 
+    
      * NOTE: Parameter order matches legacy interface for backward compatibility
+    
      * 
- * @param mixed $data
- * @param string $label
- * @param ?int $width
- * @param ?string $class
- * @return void
- * @since 1.0.1 2026-02-16
- */
+    
+     *
+    
+     * @since 1.0.1 2026-02-16
+    
+     * @param mixed $data
+    
+     * @param string $label
+    
+     * @param ?int $width
+    
+     * @param ?string $class
+    
+     * @return void
+    
+     */
 public function __construct($data, string $label, ?int $width = null, ?string $class = null)
     {
         // Convert string data to HtmlString if needed
@@ -60,16 +96,31 @@ public function __construct($data, string $label, ?int $width = null, ?string $c
     }
     
     /**
+    
      * Render the row to HTML output
+    
+     *
+    
      * 
+    
      * This method satisfies the HtmlElementInterface requirement.
+    
      * 
+    
      * NOTE: PHP method names are case-insensitive, so legacy code calling
+    
      * toHTML() (with capital HTML) will automatically call this method.
+    
      * This maintains backward compatibility without needing two methods.
+    
      * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @return void
- * @since v1.0.0 2026-04-13
+    
      */
     public function toHtml(): void
     {
@@ -77,10 +128,15 @@ public function __construct($data, string $label, ?int $width = null, ?string $c
     }
     
     /**
+    
      * Get the HTML string representation
-     * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @return string The HTML
- * @since v1.0.0 2026-04-13
+    
      */
     public function getHtml(): string
     {

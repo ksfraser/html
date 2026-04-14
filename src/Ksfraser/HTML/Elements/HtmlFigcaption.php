@@ -5,9 +5,13 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * Semantic wrapper for <figcaption> tag.
+
  *
+
  * @since v1.0.0 2026-04-11
+
  */
 class HtmlFigcaption extends HtmlElement
 {

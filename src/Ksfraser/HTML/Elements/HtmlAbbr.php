@@ -6,12 +6,23 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * HtmlAbbr
+
  *
+
+ * 
+
  * Represents the HTML <abbr> element for abbreviations and acronyms.
+
  * Extends HtmlElement for standard element behavior.
+
+ * 
+
  *
+
  * @since v1.0.0 2026-04-11
+
  */
 class HtmlAbbr extends HtmlElement
 {

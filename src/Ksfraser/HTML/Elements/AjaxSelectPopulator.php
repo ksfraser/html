@@ -5,116 +5,205 @@ namespace Ksfraser\HTML\Elements;
 use Ksfraser\HTML\HtmlElement;
 
 /**
+
  * AjaxSelectPopulator - AJAX-Driven Select Field Handler
+
  *
+
+ * 
+
  * Encapsulates the JavaScript logic for dynamically populating a select element
+
  * via AJAX based on another field's value (typically a dropdown change event).
- *
+
+ * 
+
  * Common Use Cases:
+
  * - Borrower type â†’ Borrower list
+
  * - Country â†’ State list
+
  * - Department â†’ Employee list
+
  * - Category â†’ Product list
- *
+
+ * 
+
  * This handler provides an SRP-based approach:
+
  * - Generates AJAX fetch function
+
  * - Handles JSON parsing
+
  * - Updates target select with options
+
  * - Centralizes AJAX logic for reusability
+
  * - Can be extended for different response formats
- *
+
+ * 
+
  * Design Pattern: Template Method
+
  * - Encapsulates the AJAX function generation
+
  * - Can be extended for different data formats
- *
+
+ * 
+
  * SOLID Principles:
+
  * - Single Responsibility: Only handles AJAX select population
+
  * - Open/Closed: Can be extended for custom response parsing
+
  * - Liskov Substitution: Can replace HtmlElement
+
  * - Interface Segregation: Simple, focused interface
+
  * - Dependency Inversion: Depends on HtmlElement abstraction
- *
+
+ * 
+
  * JavaScript Assumptions:
+
  * - Source field (e.g., type selector) triggers function on change
+
  * - Endpoint returns JSON array of objects with 'id' and 'name' properties
+
  * - Target field is a <select> element that will be populated with options
- *
- *
+
+ * 
+
+ * 
+
  * ```php
+
  * // Generate AJAX handler for borrower selector
+
  * $populator = (new AjaxSelectPopulator())
+
  *     ->setFunctionName('faFetchBorrowers')
+
  *     ->setSourceFieldId('borrower_type')
+
  *     ->setTargetFieldId('borrower_id')
+
  *     ->setEndpoint('borrower_ajax.php')
+
  *     ->setPlaceholder('Select Borrower');
+
  * echo $populator->getHtml();
- *
+
+ * 
+
  * // In your view, attach to source field:
+
  * $typeSelect->addAttribute('onchange', 'faFetchBorrowers()');
+
  * ```
+
+ * 
+
  *
- * @package    Ksfraser\HTML
- * @author     Kevin Fraser / GitHub Copilot
- * @version    1.0.0
- * @example
+
  * @since 1.0.1 2026-02-16
+
+ * @package Ksfraser\HTML
+
+ * @author Kevin Fraser / GitHub Copilot
+
+ * @version 1.0.0
+
+ * @example 
+
  */
 class AjaxSelectPopulator extends HtmlElement
 {
     /**
      * The name of the JavaScript function to generate
-     * 
+     *
      * @var string
      */
     protected $functionName = 'populateSelect';
 
     /**
+
      * ID of the source field (triggers the AJAX call)
-     * 
+
+     *
+
      * @var string
+
      */
     protected $sourceFieldId = 'source';
 
     /**
+
      * ID of the target select field (receives populated options)
-     * 
+
+     *
+
      * @var string
+
      */
     protected $targetFieldId = 'target';
 
     /**
+
      * AJAX endpoint URL
-     * 
+
+     *
+
      * @var string
+
      */
     protected $endpoint = '';
 
     /**
+
      * Query parameter name for the source field value
-     * 
+
+     *
+
      * @var string
+
      */
     protected $queryParam = 'type';
 
     /**
+
      * Placeholder/default option text
-     * 
+
+     *
+
      * @var string
+
      */
     protected $placeholder = 'Select an option';
 
     /**
+
      * Whether to show a loading indicator
-     * 
+
+     *
+
      * @var bool
+
      */
     protected $showLoadingState = false;
 
     /**
+
      * Constructor
- * @return void
- * @since 1.0.1 2026-02-16
+
+     *
+
+     * @since 1.0.1 2026-02-16
+
+     * @return void
+
      */
     public function __construct()
     {
@@ -122,12 +211,18 @@ class AjaxSelectPopulator extends HtmlElement
     }
 
     /**
+
      * Set the JavaScript function name
-     * 
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
+     * @param mixed $name
+
      * @return AjaxSelectPopulator Fluent interface
- * @param mixed $name
- * @since v1.0.5 2026-04-14
- */
+
+     */
 public function setFunctionName($name)
     {
         $this->functionName = $name;
@@ -135,12 +230,18 @@ public function setFunctionName($name)
     }
 
     /**
+
      * Set the source field ID (field that triggers the AJAX call)
-     * 
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
+     * @param mixed $id
+
      * @return AjaxSelectPopulator Fluent interface
- * @param mixed $id
- * @since v1.0.5 2026-04-14
- */
+
+     */
 public function setSourceFieldId($id)
     {
         $this->sourceFieldId = $id;
@@ -148,12 +249,18 @@ public function setSourceFieldId($id)
     }
 
     /**
+
      * Set the target field ID (select element to populate)
-     * 
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
+     * @param mixed $id
+
      * @return AjaxSelectPopulator Fluent interface
- * @param mixed $id
- * @since v1.0.5 2026-04-14
- */
+
+     */
 public function setTargetFieldId($id)
     {
         $this->targetFieldId = $id;
@@ -161,12 +268,18 @@ public function setTargetFieldId($id)
     }
 
     /**
+
      * Set the AJAX endpoint URL
-     * 
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
+     * @param mixed $url
+
      * @return AjaxSelectPopulator Fluent interface
- * @param mixed $url
- * @since v1.0.5 2026-04-14
- */
+
+     */
 public function setEndpoint($url)
     {
         $this->endpoint = $url;
@@ -174,12 +287,18 @@ public function setEndpoint($url)
     }
 
     /**
+
      * Set the query parameter name for the source value
-     * 
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
+     * @param mixed $param
+
      * @return AjaxSelectPopulator Fluent interface
- * @param mixed $param
- * @since v1.0.5 2026-04-14
- */
+
+     */
 public function setQueryParam($param)
     {
         $this->queryParam = $param;
@@ -187,12 +306,18 @@ public function setQueryParam($param)
     }
 
     /**
+
      * Set the placeholder/default option text
-     * 
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
+     * @param mixed $text
+
      * @return AjaxSelectPopulator Fluent interface
- * @param mixed $text
- * @since v1.0.5 2026-04-14
- */
+
+     */
 public function setPlaceholder($text)
     {
         $this->placeholder = $text;
@@ -200,12 +325,18 @@ public function setPlaceholder($text)
     }
 
     /**
+
      * Enable/disable loading state indicator
-     * 
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
+     * @param mixed $show
+
      * @return AjaxSelectPopulator Fluent interface
- * @param mixed $show
- * @since v1.0.5 2026-04-14
- */
+
+     */
 public function setShowLoadingState($show = true)
     {
         $this->showLoadingState = $show;
@@ -213,10 +344,15 @@ public function setShowLoadingState($show = true)
     }
 
     /**
+
      * Generate the JavaScript AJAX function
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @return string The complete JavaScript function
- * @since v1.0.0 2026-04-13
+
      */
     protected function generateJSFunction()
     {
@@ -259,10 +395,15 @@ public function setShowLoadingState($show = true)
     }
 
     /**
+
      * Generate the HTML representation (script tag with function)
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @return string
- * @since v1.0.0 2026-04-13
+
      */
     public function getHtml()
     {

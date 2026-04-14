@@ -5,9 +5,13 @@ namespace Ksfraser\HTML\Formatting;
 use Ksfraser\HTML\HtmlElement;
 
 /**
+
  * class HtmlFormatting
+
  *
+
  * @since 1.0.3 2026-02-21
+
  */
 class HtmlFormatting extends HtmlElement
 {

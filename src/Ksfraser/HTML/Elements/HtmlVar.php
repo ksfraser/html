@@ -4,9 +4,13 @@ namespace Ksfraser\HTML\Elements;
 use Ksfraser\HTML\HtmlElement;
 
 /**
+
  * class HtmlVar
+
  *
+
  * @since v1.0.0 2026-04-11
+
  */
 class HtmlVar extends HtmlElement {
 /**

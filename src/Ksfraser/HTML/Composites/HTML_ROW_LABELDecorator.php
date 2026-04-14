@@ -7,23 +7,40 @@ use Ksfraser\HTML\HTML_ROW_LABEL;
 
 
 /**
+
+
  * class HTML_ROW_LABELDecorator
+
+
  *
+
+
  * @since 1.0.1 2026-02-16
+
+
  */
 class HTML_ROW_LABELDecorator implements HtmlElementInterface
 {
 	protected $HTML_LABEL_ROW;
 
 /**
-	 * Function __construct
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param mixed $data
-	 * @param mixed $label
-	 * @param mixed $width
-	 * @param mixed $class
-	 * @return void
+
+ * __construct()
+
+ *
+
+ * @since v1.0.0 2026-04-14
+
+ * @param mixed $data
+
+ * @param mixed $label
+
+ * @param mixed $width
+
+ * @param mixed $class
+
+ * @return void
+
  */
 	function __construct( $data, $label, $width = 25, $class = 'label' )
 	{
@@ -31,10 +48,15 @@ class HTML_ROW_LABELDecorator implements HtmlElementInterface
 	}
 
 /**
+
  * toHtml
+
  *
+
  * @since 1.0.1 2026-02-16
+
  * @return void
+
  */
 	public function toHtml(): void
 	{
@@ -42,10 +64,15 @@ class HTML_ROW_LABELDecorator implements HtmlElementInterface
 	}
 
 /**
+
  * getHtml
+
  *
+
  * @since 1.0.1 2026-02-16
+
  * @return string
+
  */
 	public function getHtml(): string
 	{

@@ -5,34 +5,67 @@ namespace Ksfraser\HTML\Traits;
 use Ksfraser\HTML\HtmlElement;
 
 /**
+
  * ComponentFactoryTrait - FR-012
+
+ *
+
  * Provides builder methods for Bootstrap component creation
- *
+
+ * 
+
  * Static factory methods for common Bootstrap components:
+
  * - Buttons: buttonPrimary(), buttonSuccess(), buttonDanger(), buttonWarning(), buttonInfo(), buttonSecondary()
+
  * - Cards: card(), cardHeader(), cardBody(), cardFooter(), cardImage(), cardText(), cardTitle(), cardSubtitle()
+
  * - Alerts: alertPrimary(), alertSuccess(), alertWarning(), alertDanger(), alertInfo()
+
  * - Badges: badgePrimary(), badgeSuccess(), badgeDanger(), badgeWarning(), badgeInfo(), badgeSecondary()
+
  * - Modals: modal(), modalDialog(), modalContent(), modalHeader(), modalBody(), modalFooter()
+
  * - Navbars: navbar(), navbarBrand(), navbarNav(), navbarItem(), navbarLink(), navbarToggler()
+
  * - Pagination: pagination(), paginationList(), paginationItem(), paginationLink(), paginationPrevious(), paginationNext()
- *
+
+ * 
+
  * Integration with previous traits:
+
  * - CSSManagementTrait: Bootstrap classes automatically applied
+
  * - AriaAttributeTrait: Accessibility attributes (roles, aria-*)
+
  * - DataAttributeTrait: Data attributes for JS integration
+
  * - EventHandlerTrait: Event binding for interactive components
- *
+
+ * 
+
  * Usage:
+
  *   $button = HtmlElement::buttonPrimary('Click Me');
+
  *   $card = HtmlElement::card()
+
  *       ->addNested(HtmlElement::cardHeader('Title'))
+
  *       ->addNested(HtmlElement::cardBody('Content'));
+
  *   $alert = HtmlElement::alertSuccess('Operation successful', true);
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Traits
+
  * @since 1.0.5 2026-03-30
+
+ * @package Ksfraser\HTML\Traits
+
  */
 trait ComponentFactoryTrait
 {
@@ -41,15 +74,29 @@ trait ComponentFactoryTrait
     // ========================================================================
 
     /**
+
      * Create a primary button
+
      *
-     * @param string $text Button text/label
-     * @param string $type Button type (button, submit, reset)
-     * @return HtmlElement
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $btn = HtmlElement::buttonPrimary('Click Me', 'submit');
- * @since 1.0.5 2026-03-30
+
+     *
+
+     * @since 1.0.5 2026-03-30
+
+     * @example 
+
+     * @param string $text Button text/label
+
+     * @param string $type Button type (button, submit, reset)
+
+     * @return HtmlElement
+
      */
     public static function buttonPrimary(string $text = '', string $type = 'button'): HtmlElement
     {
@@ -64,12 +111,19 @@ trait ComponentFactoryTrait
     }
 
     /**
+
      * Create a success button
+
      *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $text Button text/label
+
      * @param string $type Button type
+
      * @return HtmlElement
- * @since v1.0.0 2026-04-13
+
      */
     public static function buttonSuccess(string $text = '', string $type = 'button'): HtmlElement
     {
@@ -84,12 +138,19 @@ trait ComponentFactoryTrait
     }
 
     /**
+
      * Create a danger button
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Button text/label
+
      * @param string $type Button type
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function buttonDanger(string $text = '', string $type = 'button'): HtmlElement
     {
@@ -104,12 +165,19 @@ trait ComponentFactoryTrait
     }
 
     /**
+
      * Create a warning button
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Button text/label
+
      * @param string $type Button type
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function buttonWarning(string $text = '', string $type = 'button'): HtmlElement
     {
@@ -124,12 +192,19 @@ trait ComponentFactoryTrait
     }
 
     /**
+
      * Create an info button
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Button text/label
+
      * @param string $type Button type
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function buttonInfo(string $text = '', string $type = 'button'): HtmlElement
     {
@@ -144,12 +219,19 @@ trait ComponentFactoryTrait
     }
 
     /**
+
      * Create a secondary button
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Button text/label
+
      * @param string $type Button type
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function buttonSecondary(string $text = '', string $type = 'button'): HtmlElement
     {
@@ -164,12 +246,18 @@ trait ComponentFactoryTrait
     }
 
     /**
+
      * Create a CloseButton instance
+
      *
+
+     * @since v1.0.5 2026-04-14
+
+     * @param ?string $text
+
      * @return HtmlElement
- * @param ?string $text
- * @since v1.0.5 2026-04-14
- */
+
+     */
 public static function buttonClose(?string $text = null): HtmlElement
     {
         return new \Ksfraser\HTML\Button\CloseButton($text);
@@ -180,12 +268,23 @@ public static function buttonClose(?string $text = null): HtmlElement
     // ========================================================================
 
     /**
+
      * Create a card container
+
      *
-     * @return HtmlElement
-     * @example
+
+     * 
+
      *   $card = HtmlElement::card();
- * @since v1.0.5 2026-04-14
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
+     * @example 
+
+     * @return HtmlElement
+
      */
     public static function card(): HtmlElement
     {
@@ -195,11 +294,17 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a card header
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Header text
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function cardHeader(string $text = ''): HtmlElement
     {
@@ -209,11 +314,17 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a card body
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Body text (optional)
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function cardBody(string $text = ''): HtmlElement
     {
@@ -223,11 +334,17 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a card footer
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Footer text (optional)
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function cardFooter(string $text = ''): HtmlElement
     {
@@ -237,12 +354,19 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a card image
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $src Image source
+
      * @param string $alt Alternative text
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function cardImage(string $src, string $alt = ''): HtmlElement
     {
@@ -264,11 +388,17 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a card text element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Text content
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function cardText(string $text = ''): HtmlElement
     {
@@ -278,12 +408,19 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a card title element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Title text
+
      * @param int $level Heading level (1-6)
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function cardTitle(string $text = '', int $level = 5): HtmlElement
     {
@@ -294,12 +431,19 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a card subtitle element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Subtitle text
+
      * @param int $level Heading level (1-6)
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function cardSubtitle(string $text = '', int $level = 6): HtmlElement
     {
@@ -314,12 +458,19 @@ public static function buttonClose(?string $text = null): HtmlElement
     // ========================================================================
 
     /**
+
      * Create a primary alert
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $message Alert message text
+
      * @param bool $dismissible Whether alert is dismissible
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function alertPrimary(string $message = '', bool $dismissible = false): HtmlElement
     {
@@ -340,12 +491,19 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a success alert
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $message Alert message text
+
      * @param bool $dismissible Whether alert is dismissible
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function alertSuccess(string $message = '', bool $dismissible = false): HtmlElement
     {
@@ -366,12 +524,19 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a warning alert
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $message Alert message text
+
      * @param bool $dismissible Whether alert is dismissible
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function alertWarning(string $message = '', bool $dismissible = false): HtmlElement
     {
@@ -392,12 +557,19 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a danger alert
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $message Alert message text
+
      * @param bool $dismissible Whether alert is dismissible
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function alertDanger(string $message = '', bool $dismissible = false): HtmlElement
     {
@@ -418,12 +590,19 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create an info alert
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $message Alert message text
+
      * @param bool $dismissible Whether alert is dismissible
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function alertInfo(string $message = '', bool $dismissible = false): HtmlElement
     {
@@ -448,12 +627,19 @@ public static function buttonClose(?string $text = null): HtmlElement
     // ========================================================================
 
     /**
+
      * Create a primary badge
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Badge text
+
      * @param bool $pill Whether badge is pill-shaped
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function badgePrimary(string $text = '', bool $pill = false): HtmlElement
     {
@@ -467,12 +653,19 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a success badge
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Badge text
+
      * @param bool $pill Whether badge is pill-shaped
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function badgeSuccess(string $text = '', bool $pill = false): HtmlElement
     {
@@ -486,12 +679,19 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a danger badge
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Badge text
+
      * @param bool $pill Whether badge is pill-shaped
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function badgeDanger(string $text = '', bool $pill = false): HtmlElement
     {
@@ -505,12 +705,19 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a warning badge
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Badge text
+
      * @param bool $pill Whether badge is pill-shaped
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function badgeWarning(string $text = '', bool $pill = false): HtmlElement
     {
@@ -524,12 +731,19 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create an info badge
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Badge text
+
      * @param bool $pill Whether badge is pill-shaped
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function badgeInfo(string $text = '', bool $pill = false): HtmlElement
     {
@@ -543,12 +757,19 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a secondary badge
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Badge text
+
      * @param bool $pill Whether badge is pill-shaped
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function badgeSecondary(string $text = '', bool $pill = false): HtmlElement
     {
@@ -566,11 +787,17 @@ public static function buttonClose(?string $text = null): HtmlElement
     // ========================================================================
 
     /**
+
      * Create a modal container
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $id Modal ID
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function modal(string $id): HtmlElement
     {
@@ -591,11 +818,17 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a modal dialog wrapper
+
      *
+
+     * @since v2.0.1 2026-04-14
+
+     * @param ?string $size
+
      * @return HtmlElement
- * @param ?string $size
- * @since v2.0.1 2026-04-14
+
      */
     public static function modalDialog(?string $size = null): HtmlElement
     {
@@ -614,10 +847,15 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a modal content wrapper
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function modalContent(): HtmlElement
     {
@@ -627,11 +865,17 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a modal header
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $title Modal title text
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function modalHeader(string $title = ''): HtmlElement
     {
@@ -648,11 +892,17 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a modal body
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Body text (optional)
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function modalBody(string $text = ''): HtmlElement
     {
@@ -662,10 +912,15 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a modal footer
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function modalFooter(): HtmlElement
     {
@@ -679,12 +934,19 @@ public static function buttonClose(?string $text = null): HtmlElement
     // ========================================================================
 
     /**
+
      * Create a navbar container
+
      *
+
+     * @since v2.0.1 2026-04-14
+
+     * @param ?string $theme
+
+     * @param ?string $background
+
      * @return HtmlElement
- * @param ?string $theme
- * @param ?string $background
- * @since v2.0.1 2026-04-14
+
      */
     public static function navbar(?string $theme = null, ?string $background = null): HtmlElement
     {
@@ -705,11 +967,17 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a navbar brand element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Brand text
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function navbarBrand(string $text = ''): HtmlElement
     {
@@ -719,10 +987,15 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a navbar navigation list
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function navbarNav(): HtmlElement
     {
@@ -732,10 +1005,15 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a navbar item
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function navbarItem(): HtmlElement
     {
@@ -745,13 +1023,21 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a navbar link
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Link text
+
      * @param string $href Link URL
+
      * @param bool $active Whether link is active
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function navbarLink(string $text = '', string $href = '#', bool $active = false): HtmlElement
     {
@@ -771,10 +1057,15 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a navbar toggler button
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function navbarToggler(): HtmlElement
     {
@@ -793,10 +1084,15 @@ public static function buttonClose(?string $text = null): HtmlElement
     // ========================================================================
 
     /**
+
      * Create a pagination navigation wrapper
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function pagination(): HtmlElement
     {
@@ -805,11 +1101,17 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a pagination list
+
      *
+
+     * @since v2.0.1 2026-04-14
+
+     * @param ?string $size
+
      * @return HtmlElement
- * @param ?string $size
- * @since v2.0.1 2026-04-14
+
      */
     public static function paginationList(?string $size = null): HtmlElement
     {
@@ -826,12 +1128,19 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a pagination item
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param bool $active Whether item is active
+
      * @param bool $disabled Whether item is disabled
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function paginationItem(bool $active = false, bool $disabled = false): HtmlElement
     {
@@ -850,12 +1159,19 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a pagination link
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Link text
+
      * @param string $href Link URL
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function paginationLink(string $text = '', string $href = '#'): HtmlElement
     {
@@ -870,11 +1186,17 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a pagination previous link
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $href Link URL
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function paginationPrevious(string $href = '#'): HtmlElement
     {
@@ -894,11 +1216,17 @@ public static function buttonClose(?string $text = null): HtmlElement
     }
 
     /**
+
      * Create a pagination next link
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $href Link URL
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function paginationNext(string $href = '#'): HtmlElement
     {

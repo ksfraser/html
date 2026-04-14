@@ -11,77 +11,145 @@ use Ksfraser\HTML\Elements\HtmlString;
 use Ksfraser\HTML\Elements\HtmlOption;
 
 /**
+
  * HtmlSelect
+
  *
+
+ * 
+
  * Represents an HTML <select> element with options.
- *
+
+ * 
+
  * This class provides a type-safe, object-oriented way to create HTML select elements
+
  * with automatic HTML escaping for security. Supports multiple options, selected states,
+
  * and standard select attributes (multiple, size, disabled, required).
- *
+
+ * 
+
  * Security:
+
  * - Automatically HTML-escapes name and attribute values
+
  * - Safe to use with user-provided data
- *
+
+ * 
+
  * Usage:
+
  * ```php
+
  * // Basic select
+
  * $select = new HtmlSelect('country');
+
  * $select->addOption(new HtmlOption('ca', 'Canada'));
+
  * $select->addOption(new HtmlOption('us', 'United States'));
+
  * echo $select->getHtml();
- *
+
+ * 
+
  * // From array with selected value
+
  * $select = new HtmlSelect('color');
+
  * $colors = ['red' => 'Red', 'green' => 'Green', 'blue' => 'Blue'];
+
  * $select->addOptionsFromArray($colors, 'green');
- *
+
+ * 
+
  * // With attributes
+
  * $select = new HtmlSelect('size');
+
  * $select->setId('size-selector')
+
  *        ->setClass('form-control')
+
  *        ->setRequired(true)
+
  *        ->addOptionsFromArray(['S' => 'Small', 'M' => 'Medium', 'L' => 'Large']);
- *
+
+ * 
+
  * // Multiple select
+
  * $select = new HtmlSelect('tags[]');
+
  * $select->setMultiple(true)
+
  *        ->setSize(5)
+
  *        ->addOptionsFromArray(['tag1' => 'Tag 1', 'tag2' => 'Tag 2']);
+
  * ```
+
+ * 
+
  *
- * @package    Ksfraser\HTML
- * @author     Claude AI Assistant
- * @since      20251020
- * @version    1.0.0
+
+ * @since 20251020
+
+ * @package Ksfraser\HTML
+
+ * @author Claude AI Assistant
+
+ * @version 1.0.0
+
  */
 use Ksfraser\HTML\HtmlElement;
 
 /**
+
  * class HtmlSelect
+
  *
+
  * @since v1.0.0 2026-04-11
+
  */
 class HtmlSelect extends HtmlElement
 {
     /**
-    * @var HtmlElementInterface The select element name (as a value object)
-    */
+     *
+     * @var HtmlElementInterface The select element name (as a value object)
+     */
     private $name;
 
     /**
+
+     *
+
      * @var HtmlOption[] Array of option elements
+
      */
     private $options;
 
 
     /**
+
+
      * Constructor
+
+
      *
-     *
+
+
      * @since 20251020
- * @param mixed $name
- * @return void
+
+
+     * @param mixed $name
+
+
+     * @return void
+
+
      */
     public function __construct($name = '')
     {
@@ -97,11 +165,15 @@ class HtmlSelect extends HtmlElement
     }
 
     /**
+
      * Get the select name (as string)
+
      *
-     * @return string The select name
-     *
+
      * @since 20251020
+
+     * @return string The select name
+
      */
     public function getName(): string
     {
@@ -109,15 +181,21 @@ class HtmlSelect extends HtmlElement
     }
 
     /**
+
      * Add an option to the select
+
      *
-     *
-     * @return self For fluent interface
-     *
+
      * @since 20251020
- * @param mixed $valueOrOption
- * @param string $text
- * @param bool $selected
+
+     * @param mixed $valueOrOption
+
+     * @param string $text
+
+     * @param bool $selected
+
+     * @return self For fluent interface
+
      */
     public function addOption($valueOrOption, string $text = '', bool $selected = false): self
     {
@@ -132,14 +210,19 @@ class HtmlSelect extends HtmlElement
     }
 
     /**
+
      * Add multiple options from an associative array
+
      *
-     *
-     * @return self For fluent interface
-     *
+
      * @since 20251020
- * @param array $data
- * @param ?string $selectedValue
+
+     * @param array $data
+
+     * @param ?string $selectedValue
+
+     * @return self For fluent interface
+
      */
     public function addOptionsFromArray(array $data, ?string $selectedValue = null): self
     {
@@ -151,11 +234,15 @@ class HtmlSelect extends HtmlElement
     }
 
     /**
+
      * Get all options
+
      *
-     *
+
      * @since 20251020
- * @return array
+
+     * @return array
+
      */
     public function getOptions(): array
     {
@@ -163,11 +250,15 @@ class HtmlSelect extends HtmlElement
     }
 
     /**
+
      * Get count of options
+
      *
-     * @return int Number of options
-     *
+
      * @since 20251020
+
+     * @return int Number of options
+
      */
     public function getOptionCount(): int
     {
@@ -175,13 +266,17 @@ class HtmlSelect extends HtmlElement
     }
 
     /**
+
      * Set the ID attribute
+
      *
-     * @param string $id Element ID
-     *
-     * @return self For fluent interface
-     *
+
      * @since 20251020
+
+     * @param string $id Element ID
+
+     * @return self For fluent interface
+
      */
     public function setId(string $id): self
     {
@@ -190,13 +285,17 @@ class HtmlSelect extends HtmlElement
     }
 
     /**
+
      * Set the class attribute
+
      *
-     * @param string $class CSS class name(s)
-     *
-     * @return self For fluent interface
-     *
+
      * @since 20251020
+
+     * @param string $class CSS class name(s)
+
+     * @return self For fluent interface
+
      */
     public function setClass(string $class): self
     {
@@ -205,13 +304,17 @@ class HtmlSelect extends HtmlElement
     }
 
     /**
+
      * Set multiple attribute
+
      *
-     * @param bool $multiple Whether to allow multiple selections
-     *
-     * @return self For fluent interface
-     *
+
      * @since 20251020
+
+     * @param bool $multiple Whether to allow multiple selections
+
+     * @return self For fluent interface
+
      */
     public function setMultiple(bool $multiple): self
     {
@@ -222,13 +325,17 @@ class HtmlSelect extends HtmlElement
     }
 
     /**
+
      * Set size attribute (number of visible options)
+
      *
-     * @param int $size Number of visible options
-     *
-     * @return self For fluent interface
-     *
+
      * @since 20251020
+
+     * @param int $size Number of visible options
+
+     * @return self For fluent interface
+
      */
     public function setSize(int $size): self
     {
@@ -237,13 +344,17 @@ class HtmlSelect extends HtmlElement
     }
 
     /**
+
      * Set disabled attribute
+
      *
-     * @param bool $disabled Whether the select is disabled
-     *
-     *
+
      * @since 20251020
- * @return HtmlElement
+
+     * @param bool $disabled Whether the select is disabled
+
+     * @return HtmlElement
+
      */
     public function setDisabled(bool $disabled = true): HtmlElement
     {
@@ -254,13 +365,17 @@ class HtmlSelect extends HtmlElement
     }
 
     /**
+
      * Set required attribute
+
      *
-     * @param bool $required Whether the select is required
-     *
-     *
+
      * @since 20251020
- * @return HtmlElement
+
+     * @param bool $required Whether the select is required
+
+     * @return HtmlElement
+
      */
     public function setRequired(bool $required = true): HtmlElement
     {
@@ -271,23 +386,32 @@ class HtmlSelect extends HtmlElement
     }
 
     /**
+
      * Add a custom attribute
+
      *
-     * @param string $name  Attribute name
-     * @param string $value Attribute value
-     *
-     * @return self For fluent interface
-     *
+
      * @since 20251020
+
+     * @param string $name Attribute name
+
+     * @param string $value Attribute value
+
+     * @return self For fluent interface
+
      */
     // setAttribute removed because of Trait
 
     /**
+
      * Generate the HTML for this select element
+
      *
-     * @return string The HTML <select> element with all options
-     *
+
      * @since 20251020
+
+     * @return string The HTML <select> element with all options
+
      */
     public function getHtml(): string
     {
@@ -314,11 +438,15 @@ class HtmlSelect extends HtmlElement
     }
 
     /**
+
      * Output the HTML for this select element
+
      *
-     * @return void
-     *
+
      * @since 20251020
+
+     * @return void
+
      */
     public function toHtml(): void
     {

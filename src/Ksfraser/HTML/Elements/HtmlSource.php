@@ -5,22 +5,22 @@ namespace Ksfraser\HTML\Elements;
 use Ksfraser\HTML\HtmlElement;
 
 /**
+
  * HtmlSource represents a <source> void element used inside <audio>/<video>/<picture>
+
  *
- *
- *
- *
- *
- *
+
  * @since v2.0.1 2026-04-14
+
  */
 class HtmlSource extends HtmlElement
 {
     /**
- * @param ?string $src
- * @param ?string $type
- * @return void
- * @since v2.0.1 2026-04-14
+     *
+     * @since v2.0.1 2026-04-14
+     * @param ?string $src
+     * @param ?string $type
+     * @return void
      */
     public function __construct(?string $src = null, ?string $type = null)
     {
@@ -43,11 +43,17 @@ class HtmlSource extends HtmlElement
     }
 
 /**
+
  * setSrc
+
  *
+
  * @since v1.0.5 2026-04-14
+
  * @param string $src
+
  * @return self
+
  */
     public function setSrc(string $src): self
     {
@@ -56,11 +62,17 @@ class HtmlSource extends HtmlElement
     }
 
 /**
+
  * setType
+
  *
+
  * @since v1.0.5 2026-04-14
+
  * @param string $type
+
  * @return self
+
  */
     public function setType(string $type): self
     {

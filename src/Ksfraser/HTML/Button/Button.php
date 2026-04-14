@@ -8,23 +8,41 @@ use Ksfraser\HTML\HtmlElementInterface;
 use Ksfraser\HTML\Elements\HtmlString;
 
 /**
+
  * Button - HTML <button> element abstraction
+
  *
+
+ * 
+
  * Usage:
+
  * - (new Button('Click Me'))->addClass('btn-primary')->setType('submit')->render()
+
+ * 
+
  *
- * @package Ksfraser\HTML\Button
+
  * @since 1.0.4 2026-02-21
+
+ * @package Ksfraser\HTML\Button
+
  */
 class Button extends HtmlButton {
     use HtmlJsEventTrait;
 
     /**
+
      * Constructor
+
      *
+
+     * @since 1.0.4 2026-02-21
+
      * @param mixed $text
- * @return void
- * @since 1.0.4 2026-02-21
+
+     * @return void
+
      */
     public function __construct($text = null) {
         parent::__construct();
@@ -38,11 +56,17 @@ class Button extends HtmlButton {
     }
 
     /**
+
      * Set the text/content of the button
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param mixed $text
+
      * @return self
- * @since v1.0.5 2026-04-14
+
      */
     public function setText($text): self {
         $this->nested = [];
@@ -54,10 +78,17 @@ class Button extends HtmlButton {
     }
 
     /**
+
      * Add a CSS class to the button
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $class
+
      * @return self
- * @since v1.0.5 2026-04-14
+
      */
     public function addClass(string $class): self {
         // Support passing multiple classes separated by whitespace
@@ -67,10 +98,17 @@ class Button extends HtmlButton {
     }
 
     /**
+
      * Set the button type attribute
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $type
+
      * @return self
- * @since v1.0.5 2026-04-14
+
      */
     public function setType(string $type): self {
         $this->setAttribute('type', $type);
@@ -78,28 +116,47 @@ class Button extends HtmlButton {
     }
 
     /**
+
      * Get HTML representation as string
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
      * @return string
- * @since v1.0.5 2026-04-14
+
      */
     public function getHtml(): string {
         return parent::getHtml();
     }
 
     /**
+
      * Render the button to HTML string
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
      * @return string
- * @since v1.0.5 2026-04-14
+
      */
     public function render(): string {
         return $this->getHtml();
     }
 
     /**
+
      * Set the name attribute
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $name
+
      * @return self
- * @since v1.0.5 2026-04-14
+
      */
     public function setName(string $name): self {
         $this->setAttribute('name', $name);
@@ -107,10 +164,17 @@ class Button extends HtmlButton {
     }
 
     /**
+
      * Set the class attribute directly (replace existing classes)
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $class
+
      * @return self
- * @since v1.0.0 2026-04-13
+
      */
     public function setClass(string $class): self {
         $this->setAttribute('class', $class);

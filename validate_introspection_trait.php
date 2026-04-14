@@ -10,7 +10,7 @@ $failed = 0;
 
 // Helper function to test
 /**
-	 * Function test_introspection
+	 * test_introspection()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param mixed $name

@@ -5,11 +5,21 @@ namespace Ksfraser\HTML\HTMLAtomic;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * Links
+
  *
+
+ * 
+
  * <a href="URL">TEXT</a>
+
+ * 
+
  *
+
  * @since 1.0.1 2026-02-16
+
  */
 class HtmlLink extends HtmlElement
 {
@@ -18,11 +28,17 @@ class HtmlLink extends HtmlElement
 	protected $params = [];
 	
 /**
-	 * Function __construct
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param HtmlElementInterface $data
-	 * @return void
+	
+ * __construct()
+	
+ *
+	
+ * @since v1.0.0 2026-04-14
+	
+ * @param HtmlElementInterface $data
+	
+ * @return void
+	
  */
 	function __construct( HtmlElementInterface $data )
 	{
@@ -30,12 +46,12 @@ class HtmlLink extends HtmlElement
 		$this->tag = "a";
 	}
 /**
-	 * Function addHref
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param mixed $url
-	 * @param mixed $text
-	 * @return void
+ * addHref()
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
  */
 	function addHref( $url, $text = "" )
 	{
@@ -56,12 +72,19 @@ class HtmlLink extends HtmlElement
 	}
 	
 /**
-	 * Function addParam
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param string $key
-	 * @param string $value
-	 * @return void
+	
+ * addParam()
+	
+ *
+	
+ * @since v1.0.0 2026-04-14
+	
+ * @param string $key
+	
+ * @param string $value
+	
+ * @return void
+	
  */
 	function addParam( string $key, string $value )
 	{
@@ -70,17 +93,29 @@ class HtmlLink extends HtmlElement
 	}
 	
 	/**
+	
 	 * Set multiple query parameters at once
-	 * @param array $params Associative array of key => value pairs
- * @return void
- * @since v1.0.5 2026-04-14
-/**
-	 * Function setParams
+	
 	 *
+	
+	 * /**
+	
+	 * setParams()
+	
+	 * 
+	
+	 *
+	
+	 * @since v1.0.5 2026-04-14
+	
 	 * @since v1.0.0 2026-04-14
+	
 	 * @param array $params
+	
 	 * @return void
- */
+	
+	 * @return void
+	
 	 */
 	function setParams( array $params )
 	{
@@ -92,9 +127,15 @@ class HtmlLink extends HtmlElement
 	}
 	
 	/**
+	
 	 * Update the href attribute with base URL and parameters
- * @return void
- * @since v1.0.5 2026-04-14
+	
+	 *
+	
+	 * @since v1.0.5 2026-04-14
+	
+	 * @return void
+	
 	 */
 	protected function updateHrefAttribute()
 	{
@@ -116,10 +157,17 @@ class HtmlLink extends HtmlElement
 	}
 	
 	/**
+	
 	 * Remove an attribute by name (helper for updateHrefAttribute)
- * @return void
- * @param string $name
- * @since v2.0.1 2026-04-14
+	
+	 *
+	
+	 * @since v2.0.1 2026-04-14
+	
+	 * @param string $name
+	
+	 * @return void
+	
 	 */
 	protected function removeAttributeByName( string $name )
 	{
@@ -136,21 +184,34 @@ class HtmlLink extends HtmlElement
 		}
 	}
 /**
-	 * Function setTarget
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param mixed $target
-	 * @return void
- */
-	
-/**
- * setTarget
+ * Function setTarget
  *
- * @since 1.0.1 2026-02-16
+ * @since v1.0.0 2026-04-14
  * @param mixed $target
  * @return void
  */
+	
+/**
+	
+ * setTarget
+	
+ *
+	
+ * @since 1.0.1 2026-02-16
+	
+ * @param mixed $target
+	
+ * @return void
+	
+ */
 	function setTarget( $target )
+/**
+ * setTarget()
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $target
+ * @return void
+ */
 	{
 		//Target can be _self, _blank, _parent, _top
 		switch( $target )

@@ -4,25 +4,46 @@ namespace Ksfraser\HTML\Elements;
 use Ksfraser\HTML\HtmlAttribute;
 
 /**
+
  * TableData - Factory/convenience wrapper for HTML table data cell element
+
  *
+
+ * 
+
  * Provides fluent interface for building table cells (td).
- *
+
+ * 
+
  * Usage:
+
  * - (new TableData())->addClass('col1')->setText('Value')->render()
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Elements
+
  * @since 1.0.1 2026-02-16
+
+ * @package Ksfraser\HTML\Elements
+
  */
 class TableData {
     private $element;
     private $classes = [];
     
     /**
+    
      * Create a new table data cell (td)
- * @return void
- * @since 1.0.1 2026-02-16
+    
+     *
+    
+     * @since 1.0.1 2026-02-16
+    
+     * @return void
+    
      */
     public function __construct() {
         $this->element = new HtmlTableRowCell(new HtmlString(''));
@@ -30,21 +51,32 @@ class TableData {
     }
     
     /**
+    
      * Get the underlying HtmlTableRowCell element
-     * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @return HtmlTableRowCell The wrapped HTML element
- * @since v1.0.0 2026-04-13
+    
      */
     public function getHtmlElement(): HtmlTableRowCell {
         return $this->element;
     }
     
     /**
+    
      * Set the text content of the cell
-     * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @param string $text The cell text
+    
      * @return self Fluent interface
- * @since v1.0.0 2026-04-13
+    
      */
     public function setText(string $text): self {
         // Replace the first nested element with new text
@@ -60,11 +92,17 @@ class TableData {
     }
     
     /**
+    
      * Add a CSS class to the cell
-     * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @param string $class CSS class name
+    
      * @return self Fluent interface
- * @since v1.0.0 2026-04-13
+    
      */
     public function addClass(string $class): self {
         if (!in_array($class, $this->classes)) {
@@ -77,12 +115,18 @@ class TableData {
     }
     
     /**
+    
      * Append child elements to the cell
-     * 
+    
+     *
+    
+     * @since v1.0.5 2026-04-14
+    
+     * @param mixed $elements
+    
      * @return self Fluent interface
- * @param mixed $elements
- * @since v1.0.5 2026-04-14
- */
+    
+     */
 public function append(...$elements): self {
         foreach ($elements as $element) {
             if ($element instanceof HtmlElementInterface) {
@@ -95,33 +139,50 @@ public function append(...$elements): self {
     }
     
     /**
+    
      * Add an HTML attribute
-     * 
+    
+     *
+    
+     * @since v1.0.5 2026-04-14
+    
+     * @param string $name
+    
+     * @param mixed $value
+    
      * @return self Fluent interface
- * @param string $name
- * @param mixed $value
- * @since v1.0.5 2026-04-14
- */
+    
+     */
 public function setAttribute(string $name, $value): self {
         $this->element->addAttributeObject(new HtmlAttribute($name, $value));
         return $this;
     }
     
     /**
+    
      * Get HTML representation as string
-     * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @return string The complete HTML table cell element
- * @since v1.0.0 2026-04-13
+    
      */
     public function getHtml(): string {
         return $this->element->getHtml();
     }
     
     /**
+    
      * Render the cell to HTML string
-     * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @return string The complete HTML table cell element
- * @since v1.0.0 2026-04-13
+    
      */
     public function render(): string {
         return $this->getHtml();

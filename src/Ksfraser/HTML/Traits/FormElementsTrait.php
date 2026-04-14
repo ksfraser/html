@@ -6,42 +6,72 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * FormElementsTrait - FR-011
+
+ *
+
  * Provides builder methods for HTML form controls and validation UI
- *
+
+ * 
+
  * Static factory methods for creating form elements:
+
  * - Forms: form(), fieldset()
+
  * - Inputs: input(), textarea(), select(), label(), button()
+
  * - Groups: formGroup(), inputGroup()
+
  * - Validation: validationFeedback()
- *
+
+ * 
+
  * Integration with previous traits:
+
  * - CSSManagementTrait: Bootstrap form control classes
+
  * - AriaAttributeTrait: Accessibility attributes
+
  * - DataAttributeTrait: Form data storage
+
  * - EventHandlerTrait: Form event binding
- *
+
+ * 
+
  * Usage:
+
  *   $form = HtmlElement::form('POST', '/submit')
+
  *       ->addChild(HtmlElement::input('email', 'email')->setRequired(true))
+
  *       ->addChild(HtmlElement::button('Submit', 'submit'));
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Traits
+
  * @since 1.0.5 2026-03-30
+
+ * @package Ksfraser\HTML\Traits
+
  */
 trait FormElementsTrait
 {
     /**
      * Create a form element
      *
-     * @return HtmlElement
-     *
-     * @example
+     * 
+     * 
      *   $form = HtmlElement::form('POST', '/submit');
- * @param string $method
- * @param ?string $action
- * @since 1.0.5 2026-03-30
+     *
+     * @since 1.0.5 2026-03-30
+     * @example 
+     * @param string $method
+     * @param ?string $action
+     * @return HtmlElement
      */
     public static function form(string $method = 'POST', ?string $action = null): HtmlElement
     {
@@ -56,16 +86,31 @@ trait FormElementsTrait
     }
 
     /**
+
      * Create an input element
+
      *
-     * @param string $type Input type (text, email, password, etc.)
-     * @param string $name Input name attribute
-     * @return HtmlElement
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $email = HtmlElement::input('email', 'user_email');
+
      *   $password = HtmlElement::input('password', 'pwd')->setRequired(true);
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param string $type Input type (text, email, password, etc.)
+
+     * @param string $name Input name attribute
+
+     * @return HtmlElement
+
      */
     public static function input(string $type = 'text', string $name = ''): HtmlElement
     {
@@ -88,15 +133,29 @@ trait FormElementsTrait
     }
 
     /**
+
      * Create a textarea element
+
      *
-     * @return HtmlElement
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $comments = HtmlElement::textarea('comments', 'Your feedback...');
- * @param string $name
- * @param ?string $placeholder
- * @since v2.0.1 2026-04-14
+
+     *
+
+     * @since v2.0.1 2026-04-14
+
+     * @example 
+
+     * @param string $name
+
+     * @param ?string $placeholder
+
+     * @return HtmlElement
+
      */
     public static function textarea(string $name = '', ?string $placeholder = null): HtmlElement
     {
@@ -122,16 +181,31 @@ trait FormElementsTrait
     }
 
     /**
+
      * Create a select element
+
      *
-     * @param string $name Select name attribute
-     * @return HtmlElement
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $country = HtmlElement::select('country')
+
      *       ->addOption('us', 'United States')
+
      *       ->addOption('ca', 'Canada');
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param string $name Select name attribute
+
+     * @return HtmlElement
+
      */
     public static function select(string $name = ''): HtmlElement
     {
@@ -149,15 +223,29 @@ trait FormElementsTrait
     }
 
     /**
+
      * Create a label element
+
      *
-     * @return HtmlElement
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $label = HtmlElement::label('Email Address', 'email_field');
- * @param string $text
- * @param ?string $for
- * @since v2.0.1 2026-04-14
+
+     *
+
+     * @since v2.0.1 2026-04-14
+
+     * @example 
+
+     * @param string $text
+
+     * @param ?string $for
+
+     * @return HtmlElement
+
      */
     public static function label(string $text = '', ?string $for = null): HtmlElement
     {
@@ -175,16 +263,31 @@ trait FormElementsTrait
     }
 
     /**
+
      * Create a button element
+
      *
-     * @param string $text Button text/label
-     * @param string $type Button type (submit, button, reset)
-     * @return HtmlElement
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $submit = HtmlElement::button('Submit', 'submit');
+
      *   $cancel = HtmlElement::button('Cancel', 'button');
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param string $text Button text/label
+
+     * @param string $type Button type (submit, button, reset)
+
+     * @return HtmlElement
+
      */
     public static function button(string $text = '', string $type = 'button'): HtmlElement
     {
@@ -199,28 +302,56 @@ trait FormElementsTrait
     }
 
     /**
+
      * Create a fieldset element
+
      *
-     * @return HtmlElement
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $fieldset = HtmlElement::fieldset()
+
      *       ->setLegend('Account Details');
+
+     *
+
+     * @example 
+
+     * @return HtmlElement
+
      */
     // `fieldset()` factory moved to SemanticElementsTrait to avoid duplication
 
     /**
+
      * Create a form group wrapper (div with form-group class)
+
      *
+
+     * 
+
      * Commonly used to group label + input + feedback together
-     *
-     * @return HtmlElement
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $group = HtmlElement::formGroup()
+
      *       ->addChild(HtmlElement::label('Name', 'name'))
+
      *       ->addChild(HtmlElement::input('text', 'name'));
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @return HtmlElement
+
      */
     public static function formGroup(): HtmlElement
     {
@@ -231,16 +362,31 @@ trait FormElementsTrait
     }
 
     /**
+
      * Create an input group wrapper (for Bootstrap-style input groups)
+
      *
-     * @return HtmlElement
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $group = HtmlElement::inputGroup()
+
      *       ->addPrefix('$')
+
      *       ->addChild(HtmlElement::input('number', 'amount'))
+
      *       ->addSuffix('.00');
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @return HtmlElement
+
      */
     public static function inputGroup(): HtmlElement
     {
@@ -251,15 +397,29 @@ trait FormElementsTrait
     }
 
     /**
+
      * Create validation feedback element (Bootstrap-style)
+
      *
-     * @param string $message Feedback message text
-     * @param bool $isInvalid True for invalid feedback, false for valid
-     * @return HtmlElement
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $feedback = HtmlElement::validationFeedback('This field is required', true);
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param string $message Feedback message text
+
+     * @param bool $isInvalid True for invalid feedback, false for valid
+
+     * @return HtmlElement
+
      */
     public static function validationFeedback(string $message = '', bool $isInvalid = true): HtmlElement
     {
@@ -276,14 +436,27 @@ trait FormElementsTrait
     // ========================================================================
 
     /**
+
      * Set input value
+
      *
-     * @param string $value Input value
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $input->setInputValue('user@example.com');
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param string $value Input value
+
+     * @return self
+
      */
     public function setInputValue(string $value): self
     {
@@ -292,14 +465,27 @@ trait FormElementsTrait
     }
 
     /**
+
      * Set placeholder text
+
      *
-     * @param string $text Placeholder text
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $input->setPlaceholder('Enter your email...');
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param string $text Placeholder text
+
+     * @return self
+
      */
     public function setPlaceholder(string $text): self
     {
@@ -308,14 +494,27 @@ trait FormElementsTrait
     }
 
     /**
+
      * Set required attribute
+
      *
-     * @param bool $required Whether field is required
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $input->setRequired(true);
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param bool $required Whether field is required
+
+     * @return self
+
      */
     public function setRequired(bool $required = true): self
     {
@@ -328,14 +527,27 @@ trait FormElementsTrait
     }
 
     /**
+
      * Set disabled attribute
+
      *
-     * @param bool $disabled Whether field is disabled
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $input->setDisabled(true);
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param bool $disabled Whether field is disabled
+
+     * @return self
+
      */
     public function setDisabled(bool $disabled = true): self
     {
@@ -348,14 +560,27 @@ trait FormElementsTrait
     }
 
     /**
+
      * Set readonly attribute
+
      *
-     * @param bool $readonly Whether field is readonly
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $input->setReadonly(true);
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param bool $readonly Whether field is readonly
+
+     * @return self
+
      */
     public function setReadonly(bool $readonly = true): self
     {
@@ -368,14 +593,27 @@ trait FormElementsTrait
     }
 
     /**
+
      * Set autocomplete attribute
+
      *
-     * @param string $value Autocomplete value (email, name, off, etc.)
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $input->setAutocomplete('email');
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param string $value Autocomplete value (email, name, off, etc.)
+
+     * @return self
+
      */
     public function setAutocomplete(string $value): self
     {
@@ -384,14 +622,27 @@ trait FormElementsTrait
     }
 
     /**
+
      * Set pattern attribute (HTML5 regex)
+
      *
-     * @param string $pattern Regex pattern
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $input->setPattern('[0-9]{3}-[0-9]{4}');
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param string $pattern Regex pattern
+
+     * @return self
+
      */
     public function setPattern(string $pattern): self
     {
@@ -400,14 +651,27 @@ trait FormElementsTrait
     }
 
     /**
+
      * Set maxlength attribute
+
      *
-     * @param int $length Maximum length
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $input->setMaxLength(100);
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param int $length Maximum length
+
+     * @return self
+
      */
     public function setMaxLength(int $length): self
     {
@@ -416,14 +680,27 @@ trait FormElementsTrait
     }
 
     /**
+
      * Set minlength attribute
+
      *
-     * @param int $length Minimum length
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $input->setMinLength(8);
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param int $length Minimum length
+
+     * @return self
+
      */
     public function setMinLength(int $length): self
     {
@@ -432,13 +709,25 @@ trait FormElementsTrait
     }
 
     /**
+
      * Mark field as invalid (Bootstrap)
+
      *
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $input->markInvalid();
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @return self
+
      */
     public function markInvalid(): self
     {
@@ -448,13 +737,25 @@ trait FormElementsTrait
     }
 
     /**
+
      * Mark field as valid (Bootstrap)
+
      *
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $input->markValid();
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @return self
+
      */
     public function markValid(): self
     {
@@ -464,14 +765,27 @@ trait FormElementsTrait
     }
 
     /**
+
      * Set textarea rows
+
      *
-     * @param int $rows Number of rows
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $textarea->setRows(5);
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param int $rows Number of rows
+
+     * @return self
+
      */
     public function setRows(int $rows): self
     {
@@ -480,14 +794,27 @@ trait FormElementsTrait
     }
 
     /**
+
      * Set textarea columns
+
      *
-     * @param int $cols Number of columns
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $textarea->setCols(40);
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param int $cols Number of columns
+
+     * @return self
+
      */
     public function setCols(int $cols): self
     {
@@ -496,16 +823,31 @@ trait FormElementsTrait
     }
 
     /**
+
      * Add option to select element
+
      *
-     * @param string $value Option value
-     * @param string $text Option display text
-     * @param bool $selected Whether option is selected
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $select->addOption('us', 'United States');
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param string $value Option value
+
+     * @param string $text Option display text
+
+     * @param bool $selected Whether option is selected
+
+     * @return self
+
      */
     public function addOption(string $value, string $text = '', bool $selected = false): self
     {
@@ -521,14 +863,27 @@ trait FormElementsTrait
     }
 
     /**
+
      * Set selected value in select element
+
      *
-     * @param string $value Value to select
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $select->setSelectedValue('us');
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param string $value Value to select
+
+     * @return self
+
      */
     public function setSelectedValue(string $value): self
     {
@@ -537,14 +892,27 @@ trait FormElementsTrait
     }
 
     /**
+
      * Set checked state for checkbox/radio
+
      *
-     * @param bool $checked Whether to check
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $checkbox->setChecked(true);
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param bool $checked Whether to check
+
+     * @return self
+
      */
     public function setChecked(bool $checked = true): self
     {
@@ -557,14 +925,27 @@ trait FormElementsTrait
     }
 
     /**
+
      * Set fieldset legend
+
      *
-     * @param string $text Legend text
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $fieldset->setLegend('Personal Information');
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param string $text Legend text
+
+     * @return self
+
      */
     public function setLegend(string $text): self
     {
@@ -573,14 +954,27 @@ trait FormElementsTrait
     }
 
     /**
+
      * Add prefix to input group
+
      *
-     * @param string $text Prefix text/symbol
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $group->addPrefix('$');
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param string $text Prefix text/symbol
+
+     * @return self
+
      */
     public function addPrefix(string $text): self
     {
@@ -594,14 +988,27 @@ trait FormElementsTrait
     }
 
     /**
+
      * Add suffix to input group
+
      *
-     * @param string $text Suffix text/symbol
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $group->addSuffix('.00');
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param string $text Suffix text/symbol
+
+     * @return self
+
      */
     public function addSuffix(string $text): self
     {
@@ -612,14 +1019,27 @@ trait FormElementsTrait
     }
 
     /**
+
      * Show/hide validation feedback
+
      *
-     * @param bool $show Whether to show feedback
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $feedback->showFeedback(true);
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param bool $show Whether to show feedback
+
+     * @return self
+
      */
     public function showFeedback(bool $show = true): self
     {
@@ -634,13 +1054,25 @@ trait FormElementsTrait
     }
 
     /**
+
      * Mark form as needing validation
+
      *
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $form->markNeedsValidation();
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @return self
+
      */
     public function markNeedsValidation(): self
     {
@@ -649,13 +1081,25 @@ trait FormElementsTrait
     }
 
     /**
+
      * Prevent default form submission
+
      *
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $form->preventDefaultSubmit();
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @return self
+
      */
     public function preventDefaultSubmit(): self
     {
@@ -664,14 +1108,27 @@ trait FormElementsTrait
     }
 
     /**
+
      * Add child element to form/group
+
      *
-     * @param HtmlElementInterface $element Child element
-     * @return self
-     *
-     * @example
+
+     * 
+
+     * 
+
      *   $group->addChild($input);
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param HtmlElementInterface $element Child element
+
+     * @return self
+
      */
     public function addChild(HtmlElementInterface $element): self
     {

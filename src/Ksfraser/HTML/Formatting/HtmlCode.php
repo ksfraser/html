@@ -6,9 +6,13 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * HtmlCode - semantic wrapper for <code>
+
  *
+
  * @since 1.0.4 2026-02-21
+
  */
 class HtmlCode extends HtmlElement {
 /**

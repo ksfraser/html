@@ -5,18 +5,35 @@ use Ksfraser\HTML\Elements\HtmlString;
 use Ksfraser\HTML\HtmlAttribute;
 
 /**
+
  * Heading - Factory for HTML heading elements
+
  *
+
+ * 
+
  * Provides a convenient, fluent interface for creating heading elements (H1-H6).
+
  * Wraps HtmlHeading1-6 classes with a clean API.
- *
+
+ * 
+
  * Usage:
+
  * - Basic: (new Heading(3))->setText('Title')->render()
+
  * - Fluent: (new Heading(2))->addClass('title')->setText('Welcome')->render()
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Elements
+
  * @since v1.0.0 2026-04-11
+
+ * @package Ksfraser\HTML\Elements
+
  */
 class Heading {
     private $element;
@@ -25,11 +42,17 @@ class Heading {
     private $classes = [];
     
     /**
+    
      * Create a heading element at the specified level
-     * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-11
+    
      * @param int $level Heading level (1-6, default: 2)
- * @return void
- * @since v1.0.0 2026-04-11
+    
+     * @return void
+    
      */
     public function __construct(int $level = 2) {
         $this->level = max(1, min(6, $level));
@@ -39,21 +62,32 @@ class Heading {
     }
     
     /**
+    
      * Get the underlying HtmlHeading element
-     * 
- * @since v1.0.0 2026-04-13
- * @return \Ksfraser\HTML\HtmlElementInterface
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
+     * @return \Ksfraser\HTML\HtmlElementInterface
+    
      */
     public function getHtmlElement(): \Ksfraser\HTML\HtmlElementInterface {
         return $this->element;
     }
     
     /**
+    
      * Set the text content of the heading
-     * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @param string $text The heading text
+    
      * @return self Fluent interface
- * @since v1.0.0 2026-04-13
+    
      */
     public function setText(string $text): self {
         $this->textContent = $text;
@@ -64,11 +98,17 @@ class Heading {
     }
     
     /**
+    
      * Add a CSS class to the heading
-     * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @param string $class CSS class name
+    
      * @return self Fluent interface
- * @since v1.0.0 2026-04-13
+    
      */
     public function addClass(string $class): self {
         if (!in_array($class, $this->classes)) {
@@ -81,20 +121,30 @@ class Heading {
     }
     
     /**
+    
      * Get HTML representation as string
-     * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @return string HTML representation
- * @since v1.0.0 2026-04-13
+    
      */
     public function getHtml(): string {
         return $this->element->getHtml();
     }
     
     /**
+    
      * Render the heading to HTML string
-     * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @return string HTML representation
- * @since v1.0.0 2026-04-13
+    
      */
     public function render(): string {
         return $this->getHtml();

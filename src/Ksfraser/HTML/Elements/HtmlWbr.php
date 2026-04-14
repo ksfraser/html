@@ -4,9 +4,13 @@ namespace Ksfraser\HTML\Elements;
 use Ksfraser\HTML\HtmlEmptyElement;
 
 /**
+
  * class HtmlWbr
+
  *
+
  * @since v1.0.0 2026-04-11
+
  */
 class HtmlWbr extends HtmlEmptyElement {
 /**

@@ -5,18 +5,27 @@ namespace Ksfraser\HTML\Elements;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * class HtmlInternalCSSList
+
  *
+
  * @since v1.0.0 2026-04-11
+
  */
 class HtmlInternalCSSList extends HtmlStyleList 
 {
  
 /**
-	 * Function getHtml
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @return void
+ 
+ * getHtml()
+ 
+ *
+ 
+ * @since v1.0.0 2026-04-14
+ 
+ * @return void
+ 
  */
 	function getHtml()
 	{

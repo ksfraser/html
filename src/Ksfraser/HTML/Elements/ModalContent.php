@@ -2,20 +2,34 @@
 namespace Ksfraser\HTML\Elements;
 
 /**
+
  * ModalContent - Modal content area component
+
  *
+
+ * 
+
  * Creates the content container within a modal.
+
  * SRP: Single responsibility of building modal content structure.
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Elements
+
  * @since v1.0.0 2026-04-11
+
+ * @package Ksfraser\HTML\Elements
+
  */
 class ModalContent extends Div {
     /**
      * Constructor
- * @return void
- * @since v1.0.0 2026-04-11
+     *
+     * @since v1.0.0 2026-04-11
+     * @return void
      */
     public function __construct() {
         parent::__construct();
@@ -23,10 +37,15 @@ class ModalContent extends Div {
     }
     
     /**
+    
      * Get stylesheet path for modal content styling
-     * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @return string
- * @since v1.0.0 2026-04-13
+    
      */
     public static function getStylesheetPath(): string {
         return '/css/modal.css';

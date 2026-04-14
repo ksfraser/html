@@ -7,19 +7,23 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * class HtmlTableCol
+
  *
+
  * @since v1.0.0 2026-04-11
+
  */
 class HtmlTableCol extends HtmlElement
 {
 	//specify column properties within a column group
 /**
-	 * Function __construct
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param ?HtmlElementInterface $data
-	 * @return void
+ * __construct()
+ *
+ * @since v1.0.0 2026-04-14
+ * @param ?HtmlElementInterface $data
+ * @return void
  */
 	function __construct( ?HtmlElementInterface $data = null )
 	{

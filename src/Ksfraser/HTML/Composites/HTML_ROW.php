@@ -7,33 +7,57 @@ use Ksfraser\HTML\Elements\HtmlString;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * HTML_ROW - Wrapper for HtmlTableRow
+
  *
+
+ * 
+
  * Provides backward compatibility with legacy code.
+
  * This is a simple wrapper that delegates to HtmlTableRow.
- *
+
+ * 
+
  *             New code should use HtmlTableRow directly.
+
+ * 
+
+ * 
+
  *
- *
+
  * @deprecated This class exists for backward compatibility only.
- * @see \Ksfraser\HTML\HtmlTableRow
- * @package Ksfraser\HTML
+
  * @since 1.0.1 2026-02-16
+
+ * @see \Ksfraser\HTML\HtmlTableRow
+
+ * @package Ksfraser\HTML
+
  */
 class HTML_ROW implements HtmlElementInterface
 {
 	/**
 	 * The underlying HtmlTableRow instance
+	 *
 	 * @var HtmlTableRow
 	 */
 	protected $row;
 	
 /**
-	 * Function __construct
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param mixed $data
-	 * @return void
+	
+ * __construct()
+	
+ *
+	
+ * @since v1.0.0 2026-04-14
+	
+ * @param mixed $data
+	
+ * @return void
+	
  */
 function __construct( $data )
 	{
@@ -42,10 +66,15 @@ function __construct( $data )
 	}
 	
 /**
-	 * Function toHTML
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @return void
+	
+ * toHTML()
+	
+ *
+	
+ * @since v1.0.0 2026-04-14
+	
+ * @return void
+	
  */
 	function toHTML(): void
 	{
@@ -53,10 +82,15 @@ function __construct( $data )
 	}
 	
 	/**
+	
 	 * Get the HTML string representation
-	 * 
+	
+	 *
+	
+	 * @since v1.0.0 2026-04-13
+	
 	 * @return string The HTML
- * @since v1.0.0 2026-04-13
+	
 	 */
 	public function getHtml(): string
 	{

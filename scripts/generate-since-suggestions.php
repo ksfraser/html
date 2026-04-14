@@ -4,7 +4,7 @@
 // Output: since-entities.json in repo root.
 
 /**
-	 * Function runCmd
+	 * runCmd()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param string $cmd
@@ -23,7 +23,7 @@ function runCmd(string $cmd) {
 
 // Run command using argument array to avoid shell interpretation (Windows)
 /**
-	 * Function runCmdArr
+	 * runCmdArr()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param array $argv

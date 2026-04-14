@@ -6,14 +6,13 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * class HtmlSummary
+
  *
- *
- *
- *
- *
- *
+
  * @since v2.0.1 2026-04-14
+
  */
 class HtmlSummary extends HtmlElement
 {

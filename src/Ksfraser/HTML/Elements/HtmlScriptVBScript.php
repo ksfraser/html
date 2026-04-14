@@ -5,10 +5,19 @@ namespace Ksfraser\HTML\Elements;
 use Ksfraser\HTML\VBScript\HtmlVBScriptString;
 
 /**
+
  * HtmlScriptVBScript - Strict VBScript <script> tag
- * Accepts only HtmlVBScriptString content, sets type="text/vbscript".
+
  *
+
+ * Accepts only HtmlVBScriptString content, sets type="text/vbscript".
+
+ * 
+
+ *
+
  * @since v1.0.0 2026-04-11
+
  */
 class HtmlScriptVBScript extends HtmlScript
 {

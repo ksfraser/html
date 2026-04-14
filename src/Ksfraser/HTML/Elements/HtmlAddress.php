@@ -6,12 +6,23 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * HtmlAddress
+
  *
+
+ * 
+
  * Represents the HTML <address> element for contact information.
+
  * Extends HtmlElement for standard element behavior.
+
+ * 
+
  *
+
  * @since v1.0.0 2026-04-11
+
  */
 class HtmlAddress extends HtmlElement
 {

@@ -4,22 +4,35 @@ namespace Ksfraser\HTML\Cells;
 use Ksfraser\HTML\Elements\TableData;
 
 /**
+
  * IdTableCell - Builds reusable ID cells for any table
+
  *
+
+ * 
+
  * SRP: Single responsibility of formatting ID cells consistently.
+
  * Handles: ID cell styling, conversion to string, N/A fallback.
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Cells
+
  * @since 1.0.1 2026-02-16
+
+ * @package Ksfraser\HTML\Cells
+
  */
 class IdTableCell extends BaseTableCell {
     /**
      * Build ID cell
-     * 
+     *
+     * @since 1.0.1 2026-02-16
      * @param mixed $id The ID value
      * @return TableData
- * @since 1.0.1 2026-02-16
      */
     public function build($id): TableData {
         $cell = (new TableData())

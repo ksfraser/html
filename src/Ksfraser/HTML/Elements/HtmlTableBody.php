@@ -7,19 +7,23 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * class HtmlTableBody
+
  *
+
  * @since v1.0.0 2026-04-11
+
  */
 class HtmlTableBody extends HtmlElement
 {
 	//can have styles
 /**
-	 * Function __construct
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param ?HtmlElementInterface $data
-	 * @return void
+ * __construct()
+ *
+ * @since v1.0.0 2026-04-14
+ * @param ?HtmlElementInterface $data
+ * @return void
  */
 	function __construct( ?HtmlElementInterface $data = null )
 	{

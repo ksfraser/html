@@ -6,9 +6,13 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * HtmlData - semantic wrapper for <data>
+
  *
+
  * @since v1.0.0 2026-04-11
+
  */
 class HtmlData extends HtmlElement {
 /**

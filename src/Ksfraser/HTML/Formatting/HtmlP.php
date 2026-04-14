@@ -5,9 +5,13 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * Semantic wrapper for <p> tag.
+
  *
+
  * @since 1.0.4 2026-02-21
+
  */
 class HtmlP extends HtmlElement
 {

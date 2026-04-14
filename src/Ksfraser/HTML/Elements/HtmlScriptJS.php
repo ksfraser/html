@@ -5,10 +5,19 @@ namespace Ksfraser\HTML\Elements;
 use Ksfraser\HTML\Javascript\HtmlJSString;
 
 /**
+
  * HtmlScriptJS - Strict JavaScript <script> tag
- * Accepts only HtmlJSString content, sets type="text/javascript".
+
  *
+
+ * Accepts only HtmlJSString content, sets type="text/javascript".
+
+ * 
+
+ *
+
  * @since v1.0.0 2026-04-11
+
  */
 class HtmlScriptJS extends HtmlScript
 {

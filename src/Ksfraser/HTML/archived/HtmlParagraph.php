@@ -5,19 +5,23 @@ namespace Ksfraser\HTML\HTMLAtomic;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * class HtmlParagraph
+
  *
+
  * @since 1.0.1 2026-02-16
+
  */
 class HtmlParagraph extends HtmlElement
 {
 	//can have styles
 /**
-	 * Function __construct
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param mixed $data
-	 * @return void
+ * __construct()
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
  */
 	function __construct( $data )
 	{

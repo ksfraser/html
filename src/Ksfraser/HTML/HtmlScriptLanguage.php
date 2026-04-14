@@ -4,12 +4,23 @@ namespace Ksfraser\HTML;
 use Ksfraser\HTML\Elements\HtmlRaw;
 
 /**
+
  * HtmlScriptLanguage
+
  *
+
+ * 
+
  * Abstract base for valid script language wrappers (e.g., JS, JSON, TypeScript, VBScript).
+
  * Uses HtmlRaw so script contents are emitted unescaped inside <script> tags.
+
+ * 
+
  *
+
  * @since 1.0.5 2026-02-22
+
  */
 abstract class HtmlScriptLanguage extends HtmlRaw {
 /**

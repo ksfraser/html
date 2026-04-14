@@ -4,22 +4,35 @@ namespace Ksfraser\HTML\Cells;
 use Ksfraser\HTML\Elements\TableData;
 
 /**
+
  * BorrowerTableCell - Builds Borrower cells for loan tables
+
  *
+
+ * 
+
  * SRP: Single responsibility of formatting Borrower cells consistently.
+
  * Handles: Borrower cell styling, HTML escaping, N/A fallback.
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Cells
+
  * @since 1.0.1 2026-02-16
+
+ * @package Ksfraser\HTML\Cells
+
  */
 class BorrowerTableCell extends BaseTableCell {
     /**
      * Build Borrower cell
-     * 
+     *
+     * @since 1.0.1 2026-02-16
      * @param mixed $borrower The borrower value
      * @return TableData
- * @since 1.0.1 2026-02-16
      */
     public function build($borrower): TableData {
         $cell = (new TableData())

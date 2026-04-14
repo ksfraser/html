@@ -5,9 +5,13 @@ use Ksfraser\HTML\HtmlElementInterface;
 use Ksfraser\HTML\Elements\HtmlString;
 
 /**
+
  * class SubmitButton
+
  *
+
  * @since 1.0.4 2026-02-21
+
  */
 class SubmitButton extends Button {
 /**

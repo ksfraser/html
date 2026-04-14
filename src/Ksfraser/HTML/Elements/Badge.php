@@ -6,22 +6,22 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * Badge element — lightweight wrapper for <span> with badge semantics
+
  *
- *
- *
- *
- *
- *
+
  * @since v2.0.1 2026-04-14
+
  */
 class Badge extends HtmlElement
 {
     /**
      * Accept string content or an HtmlElementInterface
- * @param mixed $content
- * @return void
- * @since v2.0.1 2026-04-14
+     *
+     * @since v2.0.1 2026-04-14
+     * @param mixed $content
+     * @return void
      */
     public function __construct($content = '')
     {

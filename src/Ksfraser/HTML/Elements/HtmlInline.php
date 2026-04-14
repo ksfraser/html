@@ -5,9 +5,13 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * Semantic wrapper for <span> or inline container.
+
  *
+
  * @since v1.0.0 2026-04-11
+
  */
 class HtmlInline extends HtmlElement
 {

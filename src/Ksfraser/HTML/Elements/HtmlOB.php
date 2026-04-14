@@ -5,45 +5,80 @@ namespace Ksfraser\HTML\Elements;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * HtmlOB - HTML Output Buffer Wrapper
+
  *
+
+ * 
+
  * Captures echoed output from legacy methods and wraps it as HtmlElementInterface.
+
  * Extends HtmlRaw to avoid HTML entity escaping.
- *
+
+ * 
+
  * Usage:
+
  * ```php
+
  * // Constructor with callback
+
  * $html = new HtmlOB(function() {
+
  *     $this->displaySomethingThatEchoes();
+
  * });
+
  * echo $html->getHtml();
- *
+
+ * 
+
  * // Or static capture method
+
  * $html = HtmlOB::capture(function() {
+
  *     $this->displaySomethingThatEchoes();
+
  * });
+
  * echo $html->getHtml();
- *
+
+ * 
+
  * // Or manual start/end
+
  * $ob = new HtmlOB();
+
  * $ob->start();
+
  * $this->displaySomethingThatEchoes();
+
  * $ob->end();
+
  * echo $ob->getHtml();
+
  * ```
+
+ * 
+
+ * 
+
  *
- *
- * @package HTML
+
  * @since v1.0.0 2026-04-11
+
+ * @package HTML
+
  */
 class HtmlOB extends HtmlRaw
 {
 	/**
 	 * Create an HtmlOB instance by capturing output from a callable
-	 * 
+	 *
+	 * @since v1.0.0 2026-04-11
 	 * @param callable $callback The function that echoes HTML
 	 * @return HtmlOB Instance containing the captured output
- * @since v1.0.0 2026-04-11
 	 */
 	public static function capture(callable $callback): HtmlOB
 	{
@@ -51,12 +86,18 @@ class HtmlOB extends HtmlRaw
 	}
 	
 	/**
+	
 	 * Constructor - captures output from callable or accepts pre-captured string
-	 * 
- * @param mixed $input
- * @return void
- * @since v1.0.5 2026-04-14
- */
+	
+	 *
+	
+	 * @since v1.0.5 2026-04-14
+	
+	 * @param mixed $input
+	
+	 * @return void
+	
+	 */
 public function __construct($input = null)
 	{
 		if (is_callable($input)) {
@@ -75,11 +116,21 @@ public function __construct($input = null)
 	}
 	
 	/**
+	
 	 * Start output buffering
+	
+	 *
+	
 	 * Call this, then do your echoes, then call end()
+	
 	 * 
+	
+	 *
+	
+	 * @since v1.0.0 2026-04-13
+	
 	 * @return void
- * @since v1.0.0 2026-04-13
+	
 	 */
 	public function start(): void
 	{
@@ -87,10 +138,15 @@ public function __construct($input = null)
 	}
 	
 	/**
+	
 	 * End output buffering and capture the output
-	 * 
+	
+	 *
+	
+	 * @since v1.0.0 2026-04-13
+	
 	 * @return string The captured HTML
- * @since v1.0.0 2026-04-13
+	
 	 */
 	public function end(): string
 	{

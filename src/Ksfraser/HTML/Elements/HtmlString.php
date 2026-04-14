@@ -5,16 +5,31 @@ namespace Ksfraser\HTML\Elements;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * HtmlString
+
  *
+
+ * 
+
  * This class is a simple wrapper for a string to implement the HtmlElementInterface.
- *
+
+ * 
+
  * NOTE: HtmlNameValue extends this class because their implementations are currently identical.
+
  * If HtmlString is refactored or its implementation changes, HtmlNameValue should be re-examined for correctness.
- *
+
+ * 
+
  * NOTE: For semantic clarity, use HtmlJSString when representing JavaScript content in HTML elements (e.g., <script> tags).
+
+ * 
+
  *
+
  * @since v1.0.0 2026-04-11
+
  */
 class HtmlString implements HtmlElementInterface
 {
@@ -22,11 +37,17 @@ class HtmlString implements HtmlElementInterface
         protected $string;
 
 /**
+
  * __construct
+
  *
+
  * @since v1.0.0 2026-04-13
+
  * @param mixed $string
+
  * @return void
+
  */
         public function __construct( $string )
         {
@@ -38,20 +59,27 @@ class HtmlString implements HtmlElementInterface
         }
         /**
          * Renders the object in HTML.
+         *
          * The Html is echoed directly into the output.
          * 
+         *
+         * @since v1.0.0 2026-04-13
          * @return void
- * @since v1.0.0 2026-04-13
          */
         public function toHtml(): void {
                 echo $this->getHtml();
         }
         
         /**
+        
          * Get HTML representation as string
-         * 
+        
+         *
+        
+         * @since v1.0.0 2026-04-13
+        
          * @return string HTML-escaped string
- * @since v1.0.0 2026-04-13
+        
          */
         public function getHtml(): string
         {

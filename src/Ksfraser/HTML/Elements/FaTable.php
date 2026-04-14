@@ -7,12 +7,23 @@ use Ksfraser\HTML\HtmlAttribute;
 use Ksfraser\HTML\Elements\HtmlString;
 
 /**
+
  * FaTable - FrontAccounting Table Element
+
  *
+
+ * 
+
  * Generates HTML table with FA-specific styling and attributes,
+
  * matching the output of start_table() function.
+
+ * 
+
  *
+
  * @since v1.0.0 2026-04-11
+
  */
 class FaTable extends HtmlTable
 {
@@ -20,13 +31,20 @@ class FaTable extends HtmlTable
     private $extra;
 
     /**
+
      * Constructor
+
      *
- * @param mixed $class
- * @param mixed $extra
- * @return void
- * @since v1.0.0 2026-04-11
- */
+
+     * @since v1.0.0 2026-04-11
+
+     * @param mixed $class
+
+     * @param mixed $extra
+
+     * @return void
+
+     */
 public function __construct($class = 2, $extra = "")
     {
         parent::__construct(new HtmlString("")); // Empty content initially
@@ -38,9 +56,15 @@ public function __construct($class = 2, $extra = "")
     }
 
     /**
+
      * Set table attributes based on FA style
- * @return void
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @return void
+
      */
     private function setTableAttributes()
     {
@@ -61,9 +85,15 @@ public function __construct($class = 2, $extra = "")
     }
 
     /**
+
      * Get CSS class name based on FA constant
- * @return void
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @return void
+
      */
     private function getClassName()
     {
@@ -76,9 +106,15 @@ public function __construct($class = 2, $extra = "")
     }
 
     /**
+
      * Parse extra attributes string
- * @return void
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @return void
+
      */
     private function parseExtraAttributes()
     {
@@ -94,9 +130,15 @@ public function __construct($class = 2, $extra = "")
     }
 
     /**
+
      * Override toHtml to wrap in center tags for FA compatibility
- * @return void
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @return void
+
      */
     public function toHtml(): void
     {

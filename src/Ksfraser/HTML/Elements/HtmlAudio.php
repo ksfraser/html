@@ -6,22 +6,22 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * HtmlAudio element — represents an HTML <audio> element.
+
  *
- *
- *
- *
- *
- *
+
  * @since v2.0.1 2026-04-14
+
  */
 class HtmlAudio extends HtmlElement
 {
     /**
      * Accept string content (url) or an HtmlElementInterface (nested content)
- * @param mixed $data
- * @return void
- * @since v2.0.1 2026-04-14
+     *
+     * @since v2.0.1 2026-04-14
+     * @param mixed $data
+     * @return void
      */
     public function __construct($data = null)
     {
@@ -39,11 +39,17 @@ class HtmlAudio extends HtmlElement
     }
 
 /**
+
  * setSrc
+
  *
+
  * @since v1.0.5 2026-04-14
+
  * @param string $src
+
  * @return self
+
  */
     public function setSrc(string $src): self
     {
@@ -52,11 +58,17 @@ class HtmlAudio extends HtmlElement
     }
 
 /**
+
  * setControls
+
  *
+
  * @since v1.0.5 2026-04-14
+
  * @param bool $enabled
+
  * @return self
+
  */
     public function setControls(bool $enabled = true): self
     {
@@ -69,11 +81,17 @@ class HtmlAudio extends HtmlElement
     }
 
 /**
+
  * setAutoplay
+
  *
+
  * @since v1.0.5 2026-04-14
+
  * @param bool $enabled
+
  * @return self
+
  */
     public function setAutoplay(bool $enabled = true): self
     {
@@ -86,11 +104,17 @@ class HtmlAudio extends HtmlElement
     }
 
 /**
+
  * setLoop
+
  *
+
  * @since v1.0.5 2026-04-14
+
  * @param bool $enabled
+
  * @return self
+
  */
     public function setLoop(bool $enabled = true): self
     {
@@ -103,11 +127,17 @@ class HtmlAudio extends HtmlElement
     }
 
 /**
+
  * setMuted
+
  *
+
  * @since v1.0.5 2026-04-14
+
  * @param bool $enabled
+
  * @return self
+
  */
     public function setMuted(bool $enabled = true): self
     {
@@ -120,11 +150,17 @@ class HtmlAudio extends HtmlElement
     }
 
 /**
+
  * setPreload
+
  *
+
  * @since v1.0.5 2026-04-14
+
  * @param string $value
+
  * @return self
+
  */
     public function setPreload(string $value): self
     {
@@ -133,10 +169,17 @@ class HtmlAudio extends HtmlElement
     }
 
     /**
+
      * Add a nested <source> element (accepts an HtmlElementInterface source element)
- * @return self
- * @param HtmlElementInterface $source
- * @since v2.0.1 2026-04-14
+
+     *
+
+     * @since v2.0.1 2026-04-14
+
+     * @param HtmlElementInterface $source
+
+     * @return self
+
      */
     public function addSourceElement(HtmlElementInterface $source): self
     {
@@ -145,11 +188,19 @@ class HtmlAudio extends HtmlElement
     }
 
     /**
+
      * Convenience: add a <source src="..." type="..."> child element
- * @return self
- * @param string $src
- * @param ?string $type
- * @since v2.0.1 2026-04-14
+
+     *
+
+     * @since v2.0.1 2026-04-14
+
+     * @param string $src
+
+     * @param ?string $type
+
+     * @return self
+
      */
     public function addSourceUrl(string $src, ?string $type = null): self
     {

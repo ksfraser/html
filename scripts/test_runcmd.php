@@ -1,6 +1,6 @@
 <?php
 /**
-	 * Function runCmdArr
+	 * runCmdArr()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param array $argv

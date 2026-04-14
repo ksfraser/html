@@ -5,14 +5,27 @@ use Ksfraser\HTML\Factory\ActionLink;
 use Ksfraser\HTML\Elements\HtmlA;
 
 /**
+
  * EditLink - Specialized link for edit actions
+
  *
+
+ * 
+
  * Extends ActionLink with defaults for edit operations.
+
  * Requires an ID parameter.
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Factory
+
  * @since 1.0.2 2026-02-20
+
+ * @package Ksfraser\HTML\Factory
+
  */
 class EditLink extends ActionLink {
 /**

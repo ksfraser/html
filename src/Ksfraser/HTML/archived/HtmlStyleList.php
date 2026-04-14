@@ -5,39 +5,56 @@ namespace Ksfraser\HTML\HTMLAtomic;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * A Style is an attribute with KEY Style and value param:setting
+
  *
+
+ * 
+
  * https://www.w3schools.com/html/html_styles.asp
- *
+
+ * 
+
  * Examples
+
  * 	background-color
+
  * 	color
+
  * 	font-family
+
  * 	font-size
+
  * 	text-align
+
+ * 
+
  *
+
  * @since 1.0.1 2026-02-16
+
  */
 class HtmlStyleList implements HtmlElementInterface
 {
 	protected $styleArray;
 /**
-	 * Function __constructor
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param HtmlStyle $style
-	 * @return void
+ * __constructor()
+ *
+ * @since v1.0.0 2026-04-14
+ * @param HtmlStyle $style
+ * @return void
  */
         function __constructor( HtmlStyle $style )
         {
                 $this->addStyle( $style );
         }
 /**
-	 * Function addStyle
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param HtmlStyle $style
-	 * @return void
+ * addStyle()
+ *
+ * @since v1.0.0 2026-04-14
+ * @param HtmlStyle $style
+ * @return void
  */
         function addStyle( HtmlStyle $style )
         {
@@ -54,10 +71,15 @@ class HtmlStyleList implements HtmlElementInterface
         }
  
 /**
-	 * Function getHtml
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @return void
+ 
+ * getHtml()
+ 
+ *
+ 
+ * @since v1.0.0 2026-04-14
+ 
+ * @return void
+ 
  */
 	function getHtml()
 	{

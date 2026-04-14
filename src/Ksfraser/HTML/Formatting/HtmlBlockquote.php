@@ -6,9 +6,13 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * HtmlBlockquote - semantic wrapper for <blockquote>
+
  *
+
  * @since 1.0.4 2026-02-21
+
  */
 class HtmlBlockquote extends HtmlElement {
 /**

@@ -1,59 +1,100 @@
 <?php
 /**
  * CSSManagementTrait - Enhanced CSS Class Management
+ *
  * 
  * Provides convenient methods for managing CSS classes beyond basic setAttribute.
  * Features: batch operations, conditional classes, removal, toggling, deduplication
  * 
  * Implements FR-006: Enhanced CSS Class Management
  * 
- * @author Kevin Fraser
+ *
  * @since 2026-03-27
+ * @author Kevin Fraser
  */
 
 namespace Ksfraser\HTML\Traits;
 
 /**
+
  * Trait for managing CSS classes with convenience methods
+
  *
+
+ * 
+
  * Methods:
+
  * - addCSSClass(string, bool?) - Add single class with optional condition
+
  * - addCSSClasses(array) - Add multiple classes at once
+
  * - removeCSSClass(string) - Remove a class
+
  * - toggleCSSClass(string, bool?) - Toggle class on/off
+
  * - hasCSSClass(string) - Check if class exists
+
  * - getCSSClasses() - Get all classes as array
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Traits
+
  * @since 1.0.5 2026-03-30
+
+ * @package Ksfraser\HTML\Traits
+
  */
 trait CSSManagementTrait
 {
     /**
      * Valid CSS class name pattern
+     *
      * Classes must not contain spaces, special characters, etc.
      * Pattern: valid letters, digits, hyphens, underscores
      * 
+     *
      * @const string
      */
     protected const CSS_CLASS_PATTERN = '/^[a-zA-Z0-9_-]+$/';
 
     /**
+
      * Add a single CSS class to the element
+
+     *
+
      * 
+
      * Supports conditional addition based on boolean flag.
+
      * Returns $this for method chaining.
+
      * 
-     * @param string $class Class name to add
-     * @param bool $condition Optional condition (default: true)
-     * @return self
-     * @throws \InvalidArgumentException if class name is invalid
+
      * 
-     * @example
+
      * $div->addCSSClass('btn');
+
      * $div->addCSSClass('active', $isActive);
- * @since 1.0.5 2026-03-30
+
+     *
+
+     * @since 1.0.5 2026-03-30
+
+     * @throws \InvalidArgumentException if class name is invalid
+
+     * @example 
+
+     * @param string $class Class name to add
+
+     * @param bool $condition Optional condition (default: true)
+
+     * @return self
+
      */
     public function addCSSClass(string $class, bool $condition = true): self
     {
@@ -86,19 +127,37 @@ trait CSSManagementTrait
     }
 
     /**
+
      * Add multiple CSS classes at once
+
+     *
+
      * 
+
      * Batch operation for adding multiple classes.
+
      * Automatically deduplicates classes.
+
      * Returns $this for method chaining.
+
      * 
-     * @param array $classes Array of class names to add
-     * @return self
-     * @throws \InvalidArgumentException if any class name is invalid
+
      * 
-     * @example
+
      * $button->addCSSClasses(['btn', 'btn-primary', 'btn-lg']);
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @throws \InvalidArgumentException if any class name is invalid
+
+     * @example 
+
+     * @param array $classes Array of class names to add
+
+     * @return self
+
      */
     public function addCSSClasses(array $classes): self
     {
@@ -126,18 +185,35 @@ trait CSSManagementTrait
     }
 
     /**
+
      * Remove a CSS class from the element
+
+     *
+
      * 
+
      * Removes the class if present. Safe to call even if class
+
      * is not present (no error thrown).
+
      * Returns $this for method chaining.
+
      * 
-     * @param string $class Class name to remove
-     * @return self
+
      * 
-     * @example
+
      * $div->removeCSSClass('hidden');
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param string $class Class name to remove
+
+     * @return self
+
      */
     public function removeCSSClass(string $class): self
     {
@@ -162,23 +238,44 @@ trait CSSManagementTrait
     }
 
     /**
+
      * Toggle a CSS class on or off
+
+     *
+
      * 
+
      * If class is present, removes it. If absent, adds it.
+
      * Optional force parameter can force add (true) or remove (false).
+
      * Returns $this for method chaining.
+
      * 
-     * @return self
+
+     * 
+
+     * $element->toggleCSSClass('active');
+
+     * $element->toggleCSSClass('highlight', true); // Force add
+
+     * $element->toggleCSSClass('pending', false);  // Force remove
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
      * @throws \InvalidArgumentException if class name is invalid
-     * 
-         * @example
-         * $element->toggleCSSClass('active');
-         * $element->toggleCSSClass('highlight', true); // Force add
-         * $element->toggleCSSClass('pending', false);  // Force remove
-         * @param string $class
-         * @param ?bool $force
- * @since v1.0.5 2026-04-14
-         */
+
+     * @example 
+
+     * @param string $class
+
+     * @param ?bool $force
+
+     * @return self
+
+     */
         public function toggleCSSClass(string $class, ?bool $force = null): self
     {
         $class = trim($class);
@@ -219,14 +316,27 @@ trait CSSManagementTrait
     }
 
     /**
+
      * Check if a CSS class is present on the element
+
+     *
+
      * 
-     * @param string $class Class name to check
-     * @return bool True if class is present, false otherwise
+
      * 
-     * @example
+
      * if ($div->hasCSSClass('active')) { ... }
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @param string $class Class name to check
+
+     * @return bool True if class is present, false otherwise
+
      */
     public function hasCSSClass(string $class): bool
     {
@@ -240,17 +350,33 @@ trait CSSManagementTrait
     }
 
     /**
+
      * Get all CSS classes as an array
+
+     *
+
      * 
+
      * Returns an array of class names currently applied to the element.
+
      * Returns empty array if no classes present.
+
      * 
-     * @return array Array of CSS class names
+
      * 
-     * @example
+
      * $classes = $div->getCSSClasses();
+
      * // ['btn', 'btn-primary', 'btn-lg']
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @example 
+
+     * @return array Array of CSS class names
+
      */
     public function getCSSClasses(): array
     {
@@ -272,15 +398,29 @@ trait CSSManagementTrait
     }
 
     /**
+
      * Set the class attribute from an array of class names
+
+     *
+
      * 
+
      * Internal helper method to set the class attribute based on
+
      * an array of class names. Handles deduplication and proper formatting.
+
      * 
-     * @param array $classes Array of class names
-     * @return self
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @access protected
- * @since v1.0.0 2026-04-13
+
+     * @param array $classes Array of class names
+
+     * @return self
+
      */
     protected function setClassAttribute(array $classes): self
     {
@@ -311,29 +451,58 @@ trait CSSManagementTrait
     }
 
     /**
+
      * Get the value of a specific attribute
+
+     *
+
      * 
+
      * This method should be implemented in the class using this trait.
+
      * It's called by getCSSClasses() to retrieve the current class attribute.
+
      * 
-     * @param string $name Attribute name
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
      * @access protected
+
+     * @param string $name Attribute name
+
      * @return ?string
- * @since v1.0.5 2026-04-14
+
      */
     abstract protected function getAttributeValue(string $name): ?string;
 
     /**
+
      * Set an attribute on the element
+
+     *
+
      * 
+
      * This method should be implemented in the class using this trait.
+
      * It's called by setClassAttribute() to update the class attribute.
+
      * 
-     * @param string $name Attribute name
-     * @param mixed $value Attribute value
-     * @return self
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @access public
- * @since v1.0.0 2026-04-13
+
+     * @param string $name Attribute name
+
+     * @param mixed $value Attribute value
+
+     * @return self
+
      */
     abstract public function setAttribute(string $name, $value): self;
 }

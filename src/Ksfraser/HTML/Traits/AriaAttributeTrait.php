@@ -3,45 +3,84 @@
 namespace Ksfraser\HTML\Traits;
 
 /**
+
  * AriaAttributeTrait - FR-009
+
+ *
+
  * Provides convenient methods for managing ARIA (Accessible Rich Internet Applications) attributes
- *
+
+ * 
+
  * ARIA attributes help make dynamic Web content and advanced user interface controls
+
  * accessible to people with disabilities.
- *
+
+ * 
+
  * Usage:
+
  *   $element->setAriaLabel('Close dialog');
+
  *   $element->setRole('button');
+
  *   $button->setAriaDisabled(true);
- *
+
+ * 
+
  *   $element
+
  *       ->setAriaLabel('Menu')
+
  *       ->setRole('navigation')
+
  *       ->setAriaExpanded(false);
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Traits
- * @link https://www.w3.org/WAI/ARIA/apg/
+
  * @since 1.0.5 2026-03-30
+
+ * @package Ksfraser\HTML\Traits
+
+ * @link https://www.w3.org/WAI/ARIA/apg/
+
  */
 trait AriaAttributeTrait
 {
     /**
      * Storage for ARIA attributes
+     *
      * Format: ['name' => $value, ...]  (without 'aria-' prefix)
+     * 
      *
      * @var array $ariaAttributes
      */
     protected array $ariaAttributes = [];
 
     /**
+
      * Set aria-label attribute
+
      *
+
+     * 
+
      * Provides an accessible label or description for the element.
+
+     * 
+
      *
-     * @param string $label The label text
-     * @return self Returns $this for method chaining
+
      * @since 1.0.5 2026-03-30
+
+     * @param string $label The label text
+
+     * @return self Returns $this for method chaining
+
      */
     public function setAriaLabel(string $label): self
     {
@@ -49,13 +88,25 @@ trait AriaAttributeTrait
     }
 
     /**
+
      * Set role attribute
+
      *
+
+     * 
+
      * Defines the role of the element for accessibility (e.g., 'button', 'navigation', 'dialog')
+
+     * 
+
      *
-     * @param string $role The role name
-     * @return self Returns $this for method chaining
+
      * @since v1.0.0 2026-04-13
+
+     * @param string $role The role name
+
+     * @return self Returns $this for method chaining
+
      */
     public function setRole(string $role): self
     {
@@ -63,12 +114,19 @@ trait AriaAttributeTrait
     }
 
     /**
+
      * Generic setter for ARIA attributes (without 'aria-' prefix)
+
      *
-     * @param string $name Attribute name without 'aria-' prefix
-     * @param mixed $value Attribute value
-     * @return self
+
      * @since v1.0.0 2026-04-13
+
+     * @param string $name Attribute name without 'aria-' prefix
+
+     * @param mixed $value Attribute value
+
+     * @return self
+
      */
     public function setAria(string $name, $value): self
     {
@@ -77,11 +135,17 @@ trait AriaAttributeTrait
     }
 
     /**
+
      * Get an ARIA attribute value by name (without 'aria-' prefix)
+
      *
-     * @param string $name Attribute name without 'aria-' prefix
-     * @return mixed|null The attribute value or null if not set
+
      * @since 1.0.5 2026-03-30
+
+     * @param string $name Attribute name without 'aria-' prefix
+
+     * @return mixed|null The attribute value or null if not set
+
      */
     public function getAria(string $name)
     {
@@ -90,11 +154,17 @@ trait AriaAttributeTrait
     }
 
     /**
+
      * Check if an ARIA attribute exists
+
      *
-     * @param string $name Attribute name without 'aria-' prefix
-     * @return bool True if attribute exists
+
      * @since 1.0.5 2026-03-30
+
+     * @param string $name Attribute name without 'aria-' prefix
+
+     * @return bool True if attribute exists
+
      */
     public function hasAria(string $name): bool
     {
@@ -103,10 +173,15 @@ trait AriaAttributeTrait
     }
 
     /**
+
      * Get all ARIA attributes as an associative array (without 'aria-' prefix)
+
      *
+
      * @since 1.0.5 2026-03-30
- * @return array
+
+     * @return array
+
      */
     public function getAllAria(): array
     {
@@ -114,11 +189,17 @@ trait AriaAttributeTrait
     }
 
     /**
+
      * Remove an ARIA attribute
+
      *
-     * @param string $name Attribute name without 'aria-' prefix
-     * @return self
+
      * @since 1.0.5 2026-03-30
+
+     * @param string $name Attribute name without 'aria-' prefix
+
+     * @return self
+
      */
     public function removeAria(string $name): self
     {
@@ -130,10 +211,15 @@ trait AriaAttributeTrait
     }
 
     /**
+
      * Clear all ARIA attributes
+
      *
-     * @return self
+
      * @since 1.0.5 2026-03-30
+
+     * @return self
+
      */
     public function clearAria(): self
     {
@@ -142,10 +228,15 @@ trait AriaAttributeTrait
     }
 
     /**
+
      * Render ARIA attributes and role attribute as a string for inclusion in HTML
+
      *
-        * @return string Rendered attributes (e.g. 'role="button" aria-hidden="true"')
-        * @since 1.0.5 2026-03-30
+
+     * @since 1.0.5 2026-03-30
+
+     * @return string Rendered attributes (e.g. 'role="button" aria-hidden="true"')
+
      */
     public function renderAriaAttributes(): string
     {
@@ -176,12 +267,23 @@ trait AriaAttributeTrait
     }
 
     /**
+
      * Convenience setters used across tests and callers.
-     * Each maps to {@see setAria()} with the attribute name (without 'aria-' prefix).
+
      *
+
+     * Each maps to {@see setAria()} with the attribute name (without 'aria-' prefix).
+
+     * 
+
+     *
+
      * @since 1.0.5 2026-03-30
- * @return self
- * @param string $id
+
+     * @param string $id
+
+     * @return self
+
      */
     public function setAriaDescribedBy(string $id): self { return $this->setAria('describedby', $id); }
 /**

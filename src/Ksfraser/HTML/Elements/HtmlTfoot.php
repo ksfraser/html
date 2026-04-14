@@ -6,14 +6,13 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * class HtmlTfoot
+
  *
- *
- *
- *
- *
- *
+
  * @since v2.0.1 2026-04-14
+
  */
 class HtmlTfoot extends HtmlElement
 {
@@ -30,11 +29,17 @@ class HtmlTfoot extends HtmlElement
     }
 
 /**
+
  * addRow
+
  *
+
  * @since v1.0.5 2026-04-14
+
  * @param HtmlElementInterface $tr
+
  * @return self
+
  */
     public function addRow(HtmlElementInterface $tr): self
     {

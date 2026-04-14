@@ -4,23 +4,36 @@ namespace Ksfraser\HTML\Cells;
 use Ksfraser\HTML\Elements\TableData;
 
 /**
+
  * IdLoanTableCell - Encapsulates loan ID cell configuration
+
  *
+
+ * 
+
  * SRP: Single responsibility of building a loan ID cell with fixed configuration.
+
  * Applies: ID format, data-loan-id attribute, and cell type.
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Cells
+
  * @since 1.0.1 2026-02-16
+
+ * @package Ksfraser\HTML\Cells
+
  */
 class IdLoanTableCell {
     /**
      * Build loan ID cell with fixed configuration
-     * 
+     *
+     * @since 1.0.1 2026-02-16
      * @param mixed $loanId The loan ID value
      * @param string $rowPrefix The row prefix for ID generation
      * @return TableData
- * @since 1.0.1 2026-02-16
      */
     public function build($loanId, string $rowPrefix): TableData {
         return (new IdTableCell())

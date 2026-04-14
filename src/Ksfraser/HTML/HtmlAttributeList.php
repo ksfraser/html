@@ -5,20 +5,30 @@ namespace Ksfraser\HTML;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * class HtmlAttributeList
+
  *
+
  * @since 1.0.1 2026-02-16
+
  */
 class HtmlAttributeList implements HtmlElementInterface
 {
     protected $attributeArray;
 
     /**
+
      * Constructor
+
      *
+
+     * @since 1.0.3 2026-02-21
+
      * @param mixed $attribute
+
      * @return void
- * @since 1.0.3 2026-02-21
+
      */
     public function __construct($attribute = null)
     {
@@ -29,11 +39,17 @@ class HtmlAttributeList implements HtmlElementInterface
     }
 
     /**
+
      * Add an attribute to the list
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param mixed $attribute
+
      * @return void
- * @since v1.0.5 2026-04-14
+
      */
     public function addAttributeObject($attribute): void
     {
@@ -45,13 +61,25 @@ class HtmlAttributeList implements HtmlElementInterface
     }
 
     /**
+
      * Set (add or replace) an attribute in the list.
+
      *
+
+     * 
+
      * If an attribute with the same name already exists, it is replaced.
+
+     * 
+
      *
-     * @param HtmlAttribute $attribute
-     * @return void
+
      * @since v1.0.0 2026-04-13
+
+     * @param HtmlAttribute $attribute
+
+     * @return void
+
      */
     public function setAttribute(HtmlAttribute $attribute): void
     {
@@ -67,11 +95,17 @@ class HtmlAttributeList implements HtmlElementInterface
     }
 
     /**
+
      * Get an attribute value by name.
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $name
+
      * @return ?string
- * @since v1.0.5 2026-04-14
+
      */
     public function getAttributeValue(string $name): ?string
     {
@@ -84,11 +118,17 @@ class HtmlAttributeList implements HtmlElementInterface
     }
 
     /**
+
      * Get the HtmlAttribute object by name.
+
      *
-     * @param string $name
-     * @return HtmlAttribute|null
+
      * @since v1.0.0 2026-04-13
+
+     * @param string $name
+
+     * @return HtmlAttribute|null
+
      */
     public function getAttribute(string $name)
     {
@@ -101,10 +141,15 @@ class HtmlAttributeList implements HtmlElementInterface
     }
 
     /**
+
      * Return all attribute objects as an array.
+
      *
-     * @return array Array of HtmlAttribute objects
+
      * @since v1.0.0 2026-04-13
+
+     * @return array Array of HtmlAttribute objects
+
      */
     public function getAllAttributes(): array
     {
@@ -112,11 +157,17 @@ class HtmlAttributeList implements HtmlElementInterface
     }
 
     /**
+
      * Remove an attribute by name
+
      *
-     * @param string $name Attribute name to remove
-     * @return void
+
      * @since v1.0.0 2026-04-13
+
+     * @param string $name Attribute name to remove
+
+     * @return void
+
      */
     public function removeAttribute(string $name): void
     {
@@ -129,10 +180,15 @@ class HtmlAttributeList implements HtmlElementInterface
     }
 
     /**
+
      * Output HTML representation
+
      *
-     * @return void
+
      * @since v1.0.0 2026-04-13
+
+     * @return void
+
      */
     public function toHtml(): void
     {
@@ -140,10 +196,15 @@ class HtmlAttributeList implements HtmlElementInterface
     }
 
     /**
+
      * Get HTML representation as string
+
      *
-     * @return string HTML string of all attributes
+
      * @since v1.0.0 2026-04-13
+
+     * @return string HTML string of all attributes
+
      */
     public function getHtml(): string
     {

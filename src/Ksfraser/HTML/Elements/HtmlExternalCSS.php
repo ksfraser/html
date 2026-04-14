@@ -7,25 +7,42 @@ use Ksfraser\HTML\HtmlAttribute;
 use Ksfraser\HTML\HtmlString;
 
 /**
+
  * Stylesheet - Represents an external stylesheet link element
+
  *
+
+ * 
+
  * Generates: <link rel="stylesheet" href="path/to/style.css">
- *
+
+ * 
+
  * Single Responsibility: Render stylesheet link elements with proper formatting and security.
+
  * Extends HtmlElement to maintain consistency with HTML builder pattern.
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Elements
+
  * @since v1.0.0 2026-04-11
+
+ * @package Ksfraser\HTML\Elements
+
  */
 class HtmlExternalCSS extends HtmlLink
 {
     /**
      * Constructor
+     *
      * 
      * Initializes a stylesheet link element as an empty element (no closing tag).
- * @return void
- * @since v1.0.0 2026-04-11
+     *
+     * @since v1.0.0 2026-04-11
+     * @return void
      */
     public function __construct()
     {
@@ -33,13 +50,25 @@ class HtmlExternalCSS extends HtmlLink
     }
     
     /**
+    
      * Set the stylesheet URL
+    
+     *
+    
      * 
+    
      * Automatically applies security encoding and sets rel="stylesheet" attribute.
+    
      * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @param string $url The URL to the stylesheet file
+    
      * @return self Fluent interface for chaining
- * @since v1.0.0 2026-04-13
+    
      */
     public function setHref(string $url): self
     {
@@ -50,11 +79,17 @@ class HtmlExternalCSS extends HtmlLink
     }
     
     /**
+    
      * Set rel attribute (should always be "stylesheet" for CSS)
-     * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @param string $rel The rel value (default: "stylesheet")
+    
      * @return self Fluent interface for chaining
- * @since v1.0.0 2026-04-13
+    
      */
     public function setRel(string $rel = 'stylesheet'): self
     {

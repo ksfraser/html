@@ -8,31 +8,55 @@ use Ksfraser\HTML\HtmlElementInterface;
 
 
 /**
+
+
  * HtmlStyle represents a <style> block element for internal CSS.
- * For inline styles, use StyleAttribute.
+
+
  *
+
+
+ * For inline styles, use StyleAttribute.
+
+
+ * 
+
+
+ *
+
+
  * @since v1.0.0 2026-04-11
+
+
  */
 
 class HtmlStyle extends HtmlElement
 {
 	/**
 	 * Prevent adding children to <style> elements.
- * @return self
- * @param HtmlElementInterface $element
- * @since v1.0.0 2026-04-11
- */
+	 *
+	 * @since v1.0.0 2026-04-11
+	 * @param HtmlElementInterface $element
+	 * @return self
+	 */
 public function addNested(HtmlElementInterface $element): self
 	{
 		throw new \InvalidArgumentException('HtmlStyle does not support child elements. Only raw CSS content is allowed. For attributes, use addAttributeObject.');
 	}
 
 	/**
+
 	 * Prevent adding attributes to <style> elements except StyleAttribute.
- * @return self
- * @param \Ksfraser\HTML\HtmlAttribute $attribute
- * @since v1.0.5 2026-04-14
- */
+
+	 *
+
+	 * @since v1.0.5 2026-04-14
+
+	 * @param \Ksfraser\HTML\HtmlAttribute $attribute
+
+	 * @return self
+
+	 */
 public function addAttributeObject(\Ksfraser\HTML\HtmlAttribute $attribute): self
 	{
 		if (!($attribute instanceof StyleAttribute)) {
@@ -44,11 +68,17 @@ public function addAttributeObject(\Ksfraser\HTML\HtmlAttribute $attribute): sel
 	protected $cssContent;
 
 /**
+
  * __construct
+
  *
+
  * @since v1.0.0 2026-04-11
+
  * @param HtmlString $css
+
  * @return void
+
  */
 	public function __construct(HtmlString $css)
 	{
@@ -58,10 +88,15 @@ public function addAttributeObject(\Ksfraser\HTML\HtmlAttribute $attribute): sel
 	}
 
 /**
+
  * getHtml
+
  *
+
  * @since v1.0.0 2026-04-11
+
  * @return string
+
  */
 	public function getHtml(): string
 	{

@@ -4,9 +4,13 @@ namespace Ksfraser\HTML\Formatting;
 use Ksfraser\HTML\HtmlElement;
 
 /**
+
  * class HtmlSpanFormatting
+
  *
+
  * @since 1.0.4 2026-02-21
+
  */
 class HtmlSpanFormatting extends HtmlElement {
 /**

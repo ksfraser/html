@@ -7,25 +7,43 @@ use Ksfraser\HTML\HtmlAttribute;
 use Ksfraser\HTML\Elements\HtmlString;
 
 /**
+
  * FaCell - FrontAccounting Table Cell Element
+
  *
+
+ * 
+
  * Generates HTML table cell (td) with FA-specific functionality,
+
  * matching the output of label_cells and similar functions.
+
+ * 
+
  *
+
  * @since v1.0.0 2026-04-11
+
  */
 class FaCell extends HtmlTd
 {
     private $extra;
 
     /**
+
      * Constructor
+
      *
- * @param mixed $content
- * @param mixed $extra
- * @return void
- * @since v1.0.0 2026-04-11
- */
+
+     * @since v1.0.0 2026-04-11
+
+     * @param mixed $content
+
+     * @param mixed $extra
+
+     * @return void
+
+     */
 public function __construct($content = "", $extra = "")
     {
         parent::__construct(new HtmlString($content));
@@ -36,9 +54,15 @@ public function __construct($content = "", $extra = "")
     }
 
     /**
+
      * Set cell attributes based on extra parameter
- * @return void
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @return void
+
      */
     private function setCellAttributes()
     {
@@ -48,9 +72,15 @@ public function __construct($content = "", $extra = "")
     }
 
     /**
+
      * Parse extra attributes string
- * @return void
- * @since v1.0.0 2026-04-13
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @return void
+
      */
     private function parseExtraAttributes()
     {

@@ -5,9 +5,13 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * Semantic wrapper for <header> tag.
+
  *
+
  * @since v1.0.0 2026-04-11
+
  */
 class HtmlHeader extends HtmlElement
 {

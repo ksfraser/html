@@ -5,52 +5,96 @@ namespace Ksfraser\HTML\Elements;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * HtmlRaw - Raw HTML content without escaping
+
  *
+
+ * 
+
  * This class is for passing pre-sanitized HTML content that should
+
  * NOT be HTML-escaped. Use with caution - only for trusted HTML!
- *
+
+ * 
+
  * Unlike HtmlString (which HTML-escapes for safety), HtmlRaw passes
+
  * through the HTML as-is. This is useful for:
+
  * - Pre-generated HTML from other components
+
  * - HTML markup that needs to be preserved (e.g., <b>, <a>, etc.)
+
  * - Content from trusted sources
- *
+
+ * 
+
  * Security Warning:
+
  * Never use HtmlRaw with user input! Always sanitize first or use HtmlString.
- *
- *
+
+ * 
+
+ * 
+
  * ```php
+
  * // Safe - content from other HTML components
+
  * $content = new HtmlRaw('<b>Important</b> text');
+
  * $row = new HtmlLabelRow(new HtmlString('Label:'), $content);
- *
+
+ * 
+
  * // UNSAFE - never do this with user input!
+
  * $userInput = $_POST['comment']; // ❌ DANGEROUS
+
  * $content = new HtmlRaw($userInput); // ❌ XSS vulnerability!
- *
+
+ * 
+
  * // Safe - user input escaped
+
  * $content = new HtmlString($_POST['comment']); // ✅ Escaped
+
  * ```
+
+ * 
+
  *
- * @package Ksfraser\HTML
- * @version 1.0.0
- * @example
+
  * @since v1.0.0 2026-04-11
+
+ * @package Ksfraser\HTML
+
+ * @version 1.0.0
+
+ * @example 
+
  */
 class HtmlRaw implements HtmlElementInterface
 {
     /**
+     *
      * @var string The raw HTML content
      */
     protected string $html;
 
     /**
+
      * Constructor
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-11
+
      * @param string $html Raw HTML content (will NOT be escaped)
- * @return void
- * @since v1.0.0 2026-04-11
+
+     * @return void
+
      */
     public function __construct(string $html)
     {
@@ -58,10 +102,15 @@ class HtmlRaw implements HtmlElementInterface
     }
 
     /**
+
      * Render the HTML to output
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @return void
- * @since v1.0.0 2026-04-13
+
      */
     public function toHtml(): void
     {
@@ -69,12 +118,23 @@ class HtmlRaw implements HtmlElementInterface
     }
 
     /**
+
      * Get HTML representation as string
+
+     *
+
      * 
+
      * Returns the raw HTML without any escaping.
+
      * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @return string Raw HTML (unescaped)
- * @since v1.0.0 2026-04-13
+
      */
     public function getHtml(): string
     {

@@ -5,30 +5,53 @@ use Ksfraser\HTML\HtmlEmptyElement;
 use Ksfraser\HTML\HtmlAttribute;
 
 /**
+
  * Stylesheet - HTML link element for CSS stylesheets
+
  *
+
+ * 
+
  * Extends HtmlEmptyElement to generate properly formatted <link rel="stylesheet"> tags.
+
  * Provides fluent interface for setting href and rel attributes with security encoding.
- *
+
+ * 
+
  * Usage:
+
  * ```php
+
  * $stylesheet = (new Stylesheet())
+
  *     ->setHref('https://example.com/styles.css')
+
  *     ->setRel('stylesheet');
+
  * echo $stylesheet->getHtml();
+
  * // Output: <link rel="stylesheet" href="https://example.com/styles.css" />
+
  * ```
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Elements
+
  * @since v1.0.0 2026-04-11
+
+ * @package Ksfraser\HTML\Elements
+
  */
 class Stylesheet extends HtmlEmptyElement
 {
     /**
      * Constructor - Initialize as self-closing link element
- * @return void
- * @since v1.0.0 2026-04-11
+     *
+     * @since v1.0.0 2026-04-11
+     * @return void
      */
     public function __construct()
     {
@@ -37,14 +60,27 @@ class Stylesheet extends HtmlEmptyElement
     }
 
     /**
+
      * Set href attribute with HTML security encoding
+
+     *
+
      * 
+
      * Automatically applies security encoding to prevent XSS attacks
+
      * and ensure valid HTML attribute syntax.
+
      * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $url The URL to the stylesheet file
+
      * @return self Fluent interface for chaining
- * @since v1.0.0 2026-04-13
+
      */
     public function setHref(string $url): self
     {
@@ -55,11 +91,17 @@ class Stylesheet extends HtmlEmptyElement
     }
 
     /**
+
      * Set rel attribute (should always be "stylesheet" for CSS)
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $rel The rel value (default: "stylesheet")
+
      * @return self Fluent interface for chaining
- * @since v1.0.0 2026-04-13
+
      */
     public function setRel(string $rel = 'stylesheet'): self
     {

@@ -8,18 +8,22 @@ use Ksfraser\HTML\HtmlEmptyElement;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * class HtmlBr
+
  *
+
  * @since v1.0.0 2026-04-11
+
  */
 class HtmlBr extends HtmlEmptyElement
 {
 /**
-	 * Function __construct
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param mixed $data
-	 * @return void
+ * __construct()
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
  */
 	function __construct( $data = "" )
 	{

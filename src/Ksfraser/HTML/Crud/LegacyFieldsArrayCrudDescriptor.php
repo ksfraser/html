@@ -3,32 +3,61 @@
 namespace Ksfraser\HTML\Crud;
 
 /**
+
  * Adapter that turns legacy `table_interface` metadata (`table_details`, `fields_array`)
+
+ *
+
  * into a CRUD descriptor usable by modern view/builders.
- *
+
+ * 
+
  * Goal: reuse existing schema/field arrays without forcing a rewrite.
+
+ * 
+
  *
+
  * @since 1.0.1 2026-02-16
+
  */
 class LegacyFieldsArrayCrudDescriptor
 {
-    /** @var array */
+    /**
+     *
+     */
     private $tableDetails;
 
-    /** @var array */
+    /**
+
+     *
+
+     */
     private $fieldsArray;
 
-    /** @var array */
+    /**
+
+     *
+
+     */
     private $options;
 
     /**
+
      * Constructor
+
      *
-     * @param array $tableDetails
-     * @param array $fieldsArray
-     * @param array $options
+
      * @since 1.0.1 2026-02-16
- * @return void
+
+     * @param array $tableDetails
+
+     * @param array $fieldsArray
+
+     * @param array $options
+
+     * @return void
+
      */
     public function __construct(array $tableDetails, array $fieldsArray, array $options = array())
     {
@@ -38,12 +67,19 @@ class LegacyFieldsArrayCrudDescriptor
     }
 
     /**
+
      * Create descriptor from legacy object/array
+
      *
-     * @param mixed $legacy
-     * @param array $options
-     * @return self
+
      * @since v1.0.0 2026-04-13
+
+     * @param mixed $legacy
+
+     * @param array $options
+
+     * @return self
+
      */
     public static function fromLegacy($legacy, array $options = array())
     {
@@ -70,10 +106,15 @@ class LegacyFieldsArrayCrudDescriptor
     }
 
     /**
+
      * Get the descriptor title
+
      *
-     * @return string
+
      * @since v1.0.0 2026-04-13
+
+     * @return string
+
      */
     public function getTitle(): string
     {
@@ -90,10 +131,15 @@ class LegacyFieldsArrayCrudDescriptor
     }
 
     /**
+
      * Get table name
+
      *
-     * @return string
+
      * @since v1.0.0 2026-04-13
+
+     * @return string
+
      */
     public function getTableName(): string
     {
@@ -107,10 +153,15 @@ class LegacyFieldsArrayCrudDescriptor
     }
 
     /**
+
      * Get primary key name
+
      *
+
      * @since v1.0.0 2026-04-13
- * @return ?string
+
+     * @return ?string
+
      */
     public function getPrimaryKey(): ?string
     {
@@ -121,10 +172,15 @@ class LegacyFieldsArrayCrudDescriptor
     }
 
     /**
+
      * Returns field descriptors suitable for building a form.
+
      *
+
      * @since v1.0.0 2026-04-13
- * @return array
+
+     * @return array
+
      */
     public function getFields(): array
     {
@@ -177,10 +233,15 @@ class LegacyFieldsArrayCrudDescriptor
     }
 
     /**
+
      * Get list columns for display
+
      *
+
      * @since v1.0.0 2026-04-13
- * @return array
+
+     * @return array
+
      */
     public function getListColumns(): array
     {
@@ -220,12 +281,19 @@ class LegacyFieldsArrayCrudDescriptor
     }
 
     /**
+
      * Best-effort inference for HTML input widgets.
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param mixed $name
+
      * @param mixed $sqlType
+
      * @return string
- * @since v1.0.5 2026-04-14
+
      */
     private function inferInputType($name, $sqlType): string
     {
@@ -264,9 +332,15 @@ class LegacyFieldsArrayCrudDescriptor
     }
 
     /**
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
      * @param mixed $sqlTypeLower
+
      * @return bool
- * @since v1.0.5 2026-04-14
+
      */
     private function isProbablyLargeText($sqlTypeLower): bool
     {

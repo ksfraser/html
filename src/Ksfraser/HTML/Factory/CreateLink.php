@@ -5,13 +5,25 @@ use Ksfraser\HTML\Factory\ActionLink;
 use Ksfraser\HTML\Elements\HtmlA;
 
 /**
+
  * CreateLink - Specialized link for create actions
+
  *
+
+ * 
+
  * Extends ActionLink with defaults for create operations.
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Factory
+
  * @since 1.0.2 2026-02-20
+
+ * @package Ksfraser\HTML\Factory
+
  */
 class CreateLink extends ActionLink {
 /**

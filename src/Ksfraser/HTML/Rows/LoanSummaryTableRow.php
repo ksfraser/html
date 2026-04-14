@@ -12,22 +12,35 @@ use Ksfraser\HTML\FAButtons\ViewLoanActionButton;
 use Ksfraser\HTML\FAButtons\EditLoanActionButton;
 
 /**
+
  * LoanSummaryTableRow - Builds loan summary table rows
+
  *
+
+ * 
+
  * SRP: Single responsibility of building a loan summary row from loan data.
+
  * Handles: Row structure and action buttons. Uses cell classes for content cells.
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Rows
+
  * @since 1.0.1 2026-02-16
+
+ * @package Ksfraser\HTML\Rows
+
  */
 class LoanSummaryTableRow extends BaseTableRow {
     /**
      * Build loan summary row
-     * 
+     *
+     * @since 1.0.1 2026-02-16
      * @param object $loan Loan object with id, borrower, amount, status
      * @return TableRow
- * @since 1.0.1 2026-02-16
      */
     public function build(object $loan): TableRow {
         $row = (new TableRow())->addClass('data-row');

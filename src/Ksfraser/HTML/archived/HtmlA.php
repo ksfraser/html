@@ -5,55 +5,99 @@ namespace Ksfraser\HTML\HTMLAtomic;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * HtmlA - Convenient wrapper for HtmlLink
+
  *
+
+ * 
+
  * Creates: <a href="URL">LINK CONTENT</a>
- *
+
+ * 
+
  * Simplified constructor that accepts URL and content directly.
+
  * Content can be text, images, or any HtmlElement.
- *
+
+ * 
+
  * USAGE EXAMPLES:
- *
+
+ * 
+
  *   // Simple text link
+
  *   $link = new HtmlA("https://example.com", "Visit Site");
- *
+
+ * 
+
  *   // Link using URL as text (null content)
+
  *   $link = new HtmlA("https://github.com");
- *
+
+ * 
+
  *   // Link with image
+
  *   $link = new HtmlA("/page", new HtmlImage("icon.png"));
- *
+
+ * 
+
  *   // Link with formatted content
+
  *   $link = new HtmlA("/page", new HtmlRawString("<strong>Bold</strong> Link"));
- *
+
+ * 
+
  *   // Link with query parameters
+
  *   $link = new HtmlA("/search", "Search");
+
  *   $link->addParam("q", "test");
+
  *   $link->setTarget("_blank");
- *
+
+ * 
+
  * COMMON VALID CONTENT TYPES:
+
  *   ✓ string - Auto-wrapped in HtmlString
+
  *   ✓ null - Uses URL as link text
+
  *   ✓ HtmlString - Escaped text content
+
  *   ✓ HtmlRawString - Unescaped HTML content
+
  *   ✓ HtmlImage - Image inside link
+
  *   ✓ HtmlDiv, HtmlSpan - Container elements (ensure no nested links)
- *
+
+ * 
+
  * INVALID CONTENT (will throw exception):
+
  *   ✗ HtmlA, HtmlEmail, HtmlLink - Cannot nest links
+
  *   ✗ Arrays, integers, objects - Must be string or HtmlElementInterface
+
+ * 
+
  *
+
  * @since 1.0.1 2026-02-16
+
  */
 class HtmlA extends HtmlLink
 {
 /**
-	 * Function __construct
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param string $url
-	 * @param mixed $linkContent
-	 * @return void
+ * __construct()
+ *
+ * @since v1.0.0 2026-04-14
+ * @param string $url
+ * @param mixed $linkContent
+ * @return void
  */
 	function __construct( string $url, $linkContent = null )
 	{

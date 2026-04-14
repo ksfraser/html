@@ -5,14 +5,27 @@ use Ksfraser\HTML\Factory\ActionLink;
 use Ksfraser\HTML\Elements\HtmlA;
 
 /**
+
  * ViewLink - Specialized link for view actions
+
  *
+
+ * 
+
  * Extends ActionLink with defaults for view operations.
+
  * Requires an ID parameter.
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Factory
+
  * @since 1.0.2 2026-02-20
+
+ * @package Ksfraser\HTML\Factory
+
  */
 class ViewLink extends ActionLink {
 /**

@@ -7,14 +7,13 @@ use Ksfraser\HTML\HtmlElementInterface;
 use Ksfraser\HTML\Elements\HtmlString;
 
 /**
+
  * class HtmlPicture
+
  *
- *
- *
- *
- *
- *
+
  * @since v2.0.1 2026-04-14
+
  */
 class HtmlPicture extends HtmlElement
 {
@@ -35,10 +34,17 @@ class HtmlPicture extends HtmlElement
     }
 
     /**
+
      * Add an existing source element
- * @return self
- * @param HtmlElementInterface $source
- * @since v2.0.1 2026-04-14
+
+     *
+
+     * @since v2.0.1 2026-04-14
+
+     * @param HtmlElementInterface $source
+
+     * @return self
+
      */
     public function addSourceElement(HtmlElementInterface $source): self
     {
@@ -47,11 +53,19 @@ class HtmlPicture extends HtmlElement
     }
 
     /**
+
      * Convenience: add a <source src="..." type="..."> child
- * @return self
- * @param string $src
- * @param ?string $type
- * @since v2.0.1 2026-04-14
+
+     *
+
+     * @since v2.0.1 2026-04-14
+
+     * @param string $src
+
+     * @param ?string $type
+
+     * @return self
+
      */
     public function addSourceUrl(string $src, ?string $type = null): self
     {

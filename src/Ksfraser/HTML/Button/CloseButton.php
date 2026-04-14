@@ -5,9 +5,13 @@ use Ksfraser\HTML\HtmlElementInterface;
 use Ksfraser\HTML\Elements\HtmlString;
 
 /**
+
  * class CloseButton
+
  *
+
  * @since 1.0.4 2026-02-21
+
  */
 class CloseButton extends Button {
 /**

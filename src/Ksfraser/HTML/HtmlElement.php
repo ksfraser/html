@@ -19,20 +19,39 @@ use Ksfraser\HTML\Traits\SemanticElementsTrait;
 require_once( 'HtmlAttributeList.php' );
 
 /**
+
  * HTML Element Class
+
  *
+
+ * 
+
  * An HTML element is defined by a start tag, some content, and an end tag.
+
  * Elements can have nested elements and attributes.
- *
+
+ * 
+
  * Follows Single Responsibility Principle: Renders HTML elements
+
  * Uses CSSManagementTrait for enhanced CSS class management (FR-006)
+
  * Uses EventHandlerTrait for event handler methods (FR-007)
+
+ * 
+
+ * 
+
  *
- *
- * @link https://www.w3schools.com/html/html_elements.asp
- * @author Kevin Fraser
- * @version 20250119
+
  * @since 1.0.1 2026-02-16
+
+ * @link https://www.w3schools.com/html/html_elements.asp
+
+ * @author Kevin Fraser
+
+ * @version 20250119
+
  */
 class HtmlElement implements HtmlElementInterface {
     use CSSManagementTrait;
@@ -46,8 +65,9 @@ class HtmlElement implements HtmlElementInterface {
     use SemanticElementsTrait;
     /**
      * Allow casting to string to return HTML output
- * @return string
- * @since 1.0.4 2026-02-21
+     *
+     * @since 1.0.4 2026-02-21
+     * @return string
      */
     public function __toString(): string {
         return $this->getHtml();
@@ -55,29 +75,40 @@ class HtmlElement implements HtmlElementInterface {
     /**
      * Get the tag name
      *
+     * @since v1.0.5 2026-04-14
      * @return ?string
- * @since v1.0.5 2026-04-14
      */
     public function getTag(): ?string {
         return $this->tag ?? null;
     }
 
     /**
+
      * initAttributeList
+
      *
+
      * @since 1.0.4 2026-02-21
+
      * @return void
+
      */
     protected function initAttributeList(): void {
         $this->attributeList = new \Ksfraser\HTML\HtmlAttributeList();
     }
 
     /**
+
      * Add an HTML attribute object (HtmlAttribute or subclass)
+
      *
-     * @param HtmlAttribute $attribute
-     * @return self
+
      * @since v1.0.0 2026-04-13
+
+     * @param HtmlAttribute $attribute
+
+     * @return self
+
      */
     public function addAttributeObject(HtmlAttribute $attribute): self {
         if (!isset($this->attributeList)) {
@@ -88,26 +119,46 @@ class HtmlElement implements HtmlElementInterface {
     }
 
     /**
+
      * Add an HTML attribute by name and value (wraps setAttribute)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param mixed $name
+
      * @param mixed $value
+
      * @return self
- * @since v1.0.5 2026-04-14
+
      */
     public function addAttribute($name, $value): self {
         return $this->setAttribute($name, $value);
     }
 
     /**
+
      * Convenience setter for an attribute by name/value.
-     * Accepts string or HtmlElementInterface for value.
-     * Converts string to HtmlString for storage.
+
      *
-     * @param string $name
-     * @param mixed $value
-     * @return self
+
+     * Accepts string or HtmlElementInterface for value.
+
+     * Converts string to HtmlString for storage.
+
+     * 
+
+     *
+
      * @since v1.0.0 2026-04-13
+
+     * @param string $name
+
+     * @param mixed $value
+
+     * @return self
+
      */
     public function setAttribute(string $name, $value): self {
         if (!$value instanceof HtmlString) {
@@ -123,38 +174,65 @@ class HtmlElement implements HtmlElementInterface {
     }
         /**
          * Deprecated: Use addCSSClass instead.
+         *
          * Backward compatibility: addClass wraps addCSSClass
+         *
+         * @since v1.0.0 2026-04-13
          * @param string $class
          * @return self
- * @since v1.0.0 2026-04-13
          */
         public function addClass(string $class): self
         {
             // Deprecated: Use addCSSClass()
             return $this->addCSSClass($class);
         }
-    /** @var string HTML tag name */
+    /**
+     *
+     */
     protected $tag;
     
-    /** @var HtmlElementInterface[] Array of nested child elements */
+    /**
+    
+     *
+    
+     */
     protected $nested;
     
-    /** @var bool Whether this is an empty element (no closing tag) */
+    /**
+    
+     *
+    
+     */
     protected $empty;
     
-    /** @var string|null Optional text content (for elements created with tag + text) */
+    /**
+    
+     *
+    
+     */
     protected $content;
     
-    /** @var HtmlAttributeList List of HTML attributes */
+    /**
+    
+     *
+    
+     */
     protected $attributeList;
     
     /**
+    
      * Constructor
+    
      *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @param string|HtmlElementInterface|null $tagOrData Optional tag name or initial nested element
+    
      * @param string|HtmlElementInterface|null $content Optional text content or element (only used with tag parameter)
- * @return void
- * @since v1.0.0 2026-04-13
+    
+     * @return void
+    
      */
     public function __construct(string|HtmlElementInterface|null $tagOrData = null, string|HtmlElementInterface|null $content = null)
     {
@@ -184,10 +262,15 @@ class HtmlElement implements HtmlElementInterface {
     }
 
 /**
-	 * Function newAttributeList
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @return void
+
+ * newAttributeList()
+
+ *
+
+ * @since v1.0.0 2026-04-14
+
+ * @return void
+
  */
     function newAttributeList(): void
     {
@@ -195,11 +278,17 @@ class HtmlElement implements HtmlElementInterface {
     }
     
 /**
-	 * Function addNested
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param HtmlElementInterface $element
-	 * @return self
+    
+ * addNested()
+    
+ *
+    
+ * @since v1.0.0 2026-04-14
+    
+ * @param HtmlElementInterface $element
+    
+ * @return self
+    
  */
     function addNested(HtmlElementInterface $element): self
     {
@@ -209,11 +298,23 @@ class HtmlElement implements HtmlElementInterface {
     
 
     /**
+    
+
      * Get the current value of an attribute (if present)
+    
+
      *
+    
+
+     * @since v1.0.5 2026-04-14
+    
+
      * @param string $name
+    
+
      * @return ?string
- * @since v1.0.5 2026-04-14
+    
+
      */
     public function getAttributeValue(string $name): ?string
     {
@@ -241,11 +342,17 @@ class HtmlElement implements HtmlElementInterface {
     }
 
     /**
+
      * Remove an attribute from the element
+
      *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $name Attribute name to remove
+
      * @return self (Fluent interface)
- * @since v1.0.0 2026-04-13
+
      */
     public function removeAttribute(string $name): self
     {
@@ -256,11 +363,17 @@ class HtmlElement implements HtmlElementInterface {
     }
 
 /**
-	 * Function setAttributeList
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param HtmlAttributeList $list
-	 * @return self
+
+ * setAttributeList()
+
+ *
+
+ * @since v1.0.0 2026-04-14
+
+ * @param HtmlAttributeList $list
+
+ * @return self
+
  */
     function setAttributeList(HtmlAttributeList $list): self
     {
@@ -269,11 +382,17 @@ class HtmlElement implements HtmlElementInterface {
     }
     
 /**
-	 * Function setTag
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param string $tag
-	 * @return self
+    
+ * setTag()
+    
+ *
+    
+ * @since v1.0.0 2026-04-14
+    
+ * @param string $tag
+    
+ * @return self
+    
  */
     function setTag(string $tag): self
     {
@@ -282,10 +401,15 @@ class HtmlElement implements HtmlElementInterface {
     }
 
     /**
+
      * Renders HTML for all nested children and text content
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @return string HTML string of all nested children
- * @since v1.0.0 2026-04-13
+
      */
     protected function renderChildrenHtml(): string
     {
@@ -304,11 +428,21 @@ class HtmlElement implements HtmlElementInterface {
     }
 
     /**
+
      * Renders the object in HTML.
+
+     *
+
      * The HTML is echoed directly into the output.
+
      * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @return void
- * @since v1.0.0 2026-04-13
+
      */
     public function toHtml(): void
     {
@@ -316,10 +450,15 @@ class HtmlElement implements HtmlElementInterface {
     }
     
     /**
+    
      * Get HTML representation as string
-     * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @return string Complete HTML element string
- * @since v1.0.0 2026-04-13
+    
      */
     public function getHtml(): string
     {
@@ -338,18 +477,30 @@ class HtmlElement implements HtmlElementInterface {
     }
     
     /**
+    
      * Get HTML attributes as string
+    
+     *
+    
      * 
+    
      * Includes both regular attributes and event handlers
+    
      * 
+    
+     *
+    
      * @return string Formatted attribute string
+    
      */
     /**
      * Return attribute objects as an array for introspection.
-     * Use `renderAttributesString()` to get the HTML string form.
      *
+     * Use `renderAttributesString()` to get the HTML string form.
+     * 
+     *
+     * @since v1.0.0 2026-04-13
      * @return array Array of attribute objects
- * @since v1.0.0 2026-04-13
      */
     public function getAttributes(): array
     {
@@ -360,10 +511,15 @@ class HtmlElement implements HtmlElementInterface {
     }
 
     /**
+
      * Render attributes as string for HTML output (internal use).
+
      *
+
+     * @since v1.0.0 2026-04-13
+
      * @return string
- * @since v1.0.0 2026-04-13
+
      */
     protected function renderAttributesString(): string
     {

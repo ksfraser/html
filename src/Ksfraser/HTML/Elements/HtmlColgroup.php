@@ -6,14 +6,13 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * class HtmlColgroup
+
  *
- *
- *
- *
- *
- *
+
  * @since v2.0.1 2026-04-14
+
  */
 class HtmlColgroup extends HtmlElement
 {
@@ -30,11 +29,17 @@ class HtmlColgroup extends HtmlElement
     }
 
 /**
+
  * addCol
+
  *
+
  * @since v1.0.5 2026-04-14
+
  * @param HtmlElementInterface $col
+
  * @return self
+
  */
     public function addCol(HtmlElementInterface $col): self
     {

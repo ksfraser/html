@@ -11,22 +11,35 @@ use Ksfraser\HTML\FAButtons\EditFrequencyActionButton;
 use Ksfraser\HTML\FAButtons\DeleteFrequencyActionButton;
 
 /**
+
  * InterestFreqTableRow - Builds interest frequency table rows
+
  *
+
+ * 
+
  * SRP: Single responsibility of building an interest frequency row from frequency data.
+
  * Handles: Row structure and action buttons. Uses cell classes for content cells.
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Rows
+
  * @since 1.0.1 2026-02-16
+
+ * @package Ksfraser\HTML\Rows
+
  */
 class InterestFreqTableRow extends BaseTableRow {
     /**
      * Build interest frequency row
-     * 
+     *
+     * @since 1.0.1 2026-02-16
      * @param object $freq Frequency object with id, name, description
      * @return TableRow
- * @since 1.0.1 2026-02-16
      */
     public function build(object $freq): TableRow {
         $row = (new TableRow())->addClass('data-row');

@@ -1,6 +1,7 @@
 <?php
 /**
  * EventHandlerTrait - Event Handler Methods
+ *
  * 
  * Provides convenient methods for JavaScript event handling.
  * Features: onClick, onChange, onSubmit, and 15+ standard HTML5 events
@@ -9,60 +10,109 @@
  * 
  * Pattern: Observer Pattern with EventHandler class
  * 
- * @author Kevin Fraser
+ *
  * @since 2026-03-27
+ * @author Kevin Fraser
  */
 
 namespace Ksfraser\HTML\Traits;
 
 /**
+
  * Trait for managing JavaScript event handlers
+
  *
+
+ * 
+
  * Provides convenience methods for common HTML5 events.
+
  * Methods return $this for chaining.
- *
+
+ * 
+
  * Methods:
+
  * - onClick(string) - onclick event
+
  * - onChange(string) - onchange event
+
  * - onSubmit(string) - onsubmit event
+
  * - onFocus(string) - onfocus event
+
  * - onBlur(string) - onblur event
+
  * - onKeyPress(string) - onkeypress event
+
  * - onKeyDown(string) - onkeydown event
+
  * - onKeyUp(string) - onkeyup event
+
  * - onMouseEnter(string) - onmouseenter event
+
  * - onMouseLeave(string) - onmouseleave event
+
  * - onMouseOver(string) - onmouseover event
+
  * - onMouseOut(string) - onmouseout event
+
  * - onDoubleClick(string) - ondblclick event
+
  * - onLoad(string) - onload event
+
  * - onError(string) - onerror event
+
  * - onInput(string) - oninput event
+
  * - onScroll(string) - onscroll event
+
  * - onWheel(string) - onwheel event
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Traits
+
  * @since 1.0.5 2026-03-30
+
+ * @package Ksfraser\HTML\Traits
+
  */
 trait EventHandlerTrait
 {
     /**
      * Array of event handlers keyed by event name
+     *
      * @var array<string, EventHandler>
      */
     protected $eventHandlers = [];
 
     /**
+
      * Add click event handler
+
+     *
+
      * 
-     * @param string $code JavaScript code to execute
-     * @return self
+
      * 
-     * @example
+
      * $button->onClick("alert('clicked')");
+
      * $button->onClick("handleClick(event)");
- * @since 1.0.5 2026-03-30
+
+     *
+
+     * @since 1.0.5 2026-03-30
+
+     * @example 
+
+     * @param string $code JavaScript code to execute
+
+     * @return self
+
      */
     public function onClick(string $code): self
     {
@@ -70,11 +120,17 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Add change event handler
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $code JavaScript code to execute
+
      * @return self
- * @since v1.0.0 2026-04-13
+
      */
     public function onChange(string $code): self
     {
@@ -82,11 +138,17 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Add submit event handler
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $code JavaScript code to execute
+
      * @return self
- * @since v1.0.0 2026-04-13
+
      */
     public function onSubmit(string $code): self
     {
@@ -94,11 +156,17 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Add focus event handler
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $code JavaScript code to execute
+
      * @return self
- * @since v1.0.0 2026-04-13
+
      */
     public function onFocus(string $code): self
     {
@@ -106,11 +174,17 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Add blur event handler
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $code JavaScript code to execute
+
      * @return self
- * @since v1.0.0 2026-04-13
+
      */
     public function onBlur(string $code): self
     {
@@ -118,11 +192,17 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Add key press event handler
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $code JavaScript code to execute
+
      * @return self
- * @since v1.0.0 2026-04-13
+
      */
     public function onKeyPress(string $code): self
     {
@@ -130,11 +210,17 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Add key down event handler
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $code JavaScript code to execute
+
      * @return self
- * @since v1.0.0 2026-04-13
+
      */
     public function onKeyDown(string $code): self
     {
@@ -142,11 +228,17 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Add key up event handler
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $code JavaScript code to execute
+
      * @return self
- * @since v1.0.0 2026-04-13
+
      */
     public function onKeyUp(string $code): self
     {
@@ -154,11 +246,17 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Add mouse enter event handler
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $code JavaScript code to execute
+
      * @return self
- * @since v1.0.0 2026-04-13
+
      */
     public function onMouseEnter(string $code): self
     {
@@ -166,11 +264,17 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Add mouse leave event handler
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $code JavaScript code to execute
+
      * @return self
- * @since v1.0.0 2026-04-13
+
      */
     public function onMouseLeave(string $code): self
     {
@@ -178,11 +282,17 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Add mouse over event handler
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $code JavaScript code to execute
+
      * @return self
- * @since v1.0.0 2026-04-13
+
      */
     public function onMouseOver(string $code): self
     {
@@ -190,11 +300,17 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Add mouse out event handler
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $code JavaScript code to execute
+
      * @return self
- * @since v1.0.0 2026-04-13
+
      */
     public function onMouseOut(string $code): self
     {
@@ -202,11 +318,17 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Add double click event handler
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $code JavaScript code to execute
+
      * @return self
- * @since v1.0.0 2026-04-13
+
      */
     public function onDoubleClick(string $code): self
     {
@@ -214,11 +336,17 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Add load event handler
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $code JavaScript code to execute
+
      * @return self
- * @since v1.0.0 2026-04-13
+
      */
     public function onLoad(string $code): self
     {
@@ -226,11 +354,17 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Add error event handler
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $code JavaScript code to execute
+
      * @return self
- * @since v1.0.0 2026-04-13
+
      */
     public function onError(string $code): self
     {
@@ -238,11 +372,17 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Add input event handler
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $code JavaScript code to execute
+
      * @return self
- * @since v1.0.0 2026-04-13
+
      */
     public function onInput(string $code): self
     {
@@ -250,11 +390,17 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Add scroll event handler
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $code JavaScript code to execute
+
      * @return self
- * @since v1.0.0 2026-04-13
+
      */
     public function onScroll(string $code): self
     {
@@ -262,11 +408,17 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Add wheel event handler
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param string $code JavaScript code to execute
+
      * @return self
- * @since v1.0.0 2026-04-13
+
      */
     public function onWheel(string $code): self
     {
@@ -274,16 +426,31 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Add a generic event handler
+
+     *
+
      * 
+
      * Internal method to handle all event registration.
+
      * Replaces existing handler for same event (not append).
+
      * 
-     * @param string $event Event name (e.g., 'onclick', 'onchange')
-     * @param string $code JavaScript code to execute
-     * @return self
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @access protected
- * @since v1.0.0 2026-04-13
+
+     * @param string $event Event name (e.g., 'onclick', 'onchange')
+
+     * @param string $code JavaScript code to execute
+
+     * @return self
+
      */
     protected function addEventHandler(string $event, string $code): self
     {
@@ -303,14 +470,27 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Render all event handlers as HTML attributes
+
+     *
+
      * 
+
      * Internal method to generate HTML representation of all 
+
      * registered event handlers. Called during HTML rendering.
+
      * 
-     * @return string HTML-formatted event attributes
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @access protected
- * @since v1.0.0 2026-04-13
+
+     * @return string HTML-formatted event attributes
+
      */
     protected function renderEventHandlers(): string
     {
@@ -327,25 +507,39 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Get a specific event handler
-     * 
-         * @param string $event Event name (e.g., 'onclick')
-         * @access protected
-         * @return ?EventHandler
- * @since v1.0.5 2026-04-14
-         */
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
+     * @access protected
+
+     * @param string $event Event name (e.g., 'onclick')
+
+     * @return ?EventHandler
+
+     */
         protected function getEventHandler(string $event): ?EventHandler
     {
         return $this->eventHandlers[$event] ?? null;
     }
 
     /**
+
      * Check if an event handler is registered
-     * 
-     * @param string $event Event name (e.g., 'onclick')
-     * @return bool True if handler registered, false otherwise
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @access protected
- * @since v1.0.0 2026-04-13
+
+     * @param string $event Event name (e.g., 'onclick')
+
+     * @return bool True if handler registered, false otherwise
+
      */
     protected function hasEventHandler(string $event): bool
     {
@@ -353,12 +547,19 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Remove a specific event handler
-     * 
-     * @param string $event Event name (e.g., 'onclick')
-     * @return self
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @access protected
- * @since v1.0.0 2026-04-13
+
+     * @param string $event Event name (e.g., 'onclick')
+
+     * @return self
+
      */
     protected function removeEventHandler(string $event): self
     {
@@ -369,11 +570,17 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Clear all event handlers
-     * 
-     * @return self
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @access protected
- * @since v1.0.0 2026-04-13
+
+     * @return self
+
      */
     protected function clearEventHandlers(): self
     {
@@ -382,11 +589,17 @@ trait EventHandlerTrait
     }
 
     /**
+
      * Get all event handlers
-     * 
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
      * @access protected
+
      * @return array
- * @since v1.0.5 2026-04-14
+
      */
     protected function getEventHandlers(): array
     {
@@ -395,36 +608,62 @@ trait EventHandlerTrait
 }
 
 /**
+
  * EventHandler Class
+
  *
+
+ * 
+
  * Represents a single JavaScript event handler.
+
  * Handles proper HTML escaping and attribute rendering.
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Traits
+
  * @since 1.0.5 2026-03-30
+
+ * @package Ksfraser\HTML\Traits
+
  */
 class EventHandler
 {
     /**
      * Event name (e.g., 'onclick', 'onchange')
+     *
      * @var string
      */
     private $event;
 
     /**
+
      * JavaScript code to execute
+
+     *
+
      * @var string
+
      */
     private $code;
 
     /**
+
      * Constructor
-     * 
+
+     *
+
+     * @since 1.0.5 2026-03-30
+
      * @param string $event HTML event name (e.g., 'onclick')
+
      * @param string $code JavaScript code
- * @return void
- * @since 1.0.5 2026-03-30
+
+     * @return void
+
      */
     public function __construct(string $event, string $code)
     {
@@ -433,13 +672,25 @@ class EventHandler
     }
 
     /**
+
      * Get HTML representation of this event handler
+
+     *
+
      * 
+
      * Renders as HTML attribute with proper escaping.
+
      * Example: onclick="handleClick(event)"
+
      * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @return string HTML attribute string
- * @since v1.0.0 2026-04-13
+
      */
     public function getHtml(): string
     {
@@ -450,10 +701,15 @@ class EventHandler
     }
 
     /**
+
      * Get the event name
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @return string Event name
- * @since v1.0.0 2026-04-13
+
      */
     public function getEvent(): string
     {
@@ -461,10 +717,15 @@ class EventHandler
     }
 
     /**
+
      * Get the JavaScript code
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @return string JavaScript code
- * @since v1.0.0 2026-04-13
+
      */
     public function getCode(): string
     {

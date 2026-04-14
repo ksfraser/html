@@ -2,32 +2,56 @@
 namespace Ksfraser\HTML\Elements;
 
 /**
+
  * ModalBuilder - Builder for modal dialogs
+
  *
+
+ * 
+
  * Provides fluent interface for constructing modals.
+
  * SRP: Single responsibility of building complete modal structures.
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Elements
+
  * @since v1.0.0 2026-04-11
+
+ * @package Ksfraser\HTML\Elements
+
  */
 class ModalBuilder {
     /**
+     *
      * @var Modal The modal being built
      */
     protected $modal;
     
     /**
+    
+     *
+    
      * @var ModalContent The modal content
+    
      */
     protected $content;
     
     /**
+    
      * Constructor
-     * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-11
+    
      * @param string $id Modal ID
- * @return void
- * @since v1.0.0 2026-04-11
+    
+     * @return void
+    
      */
     public function __construct(string $id = 'modal') {
         $this->modal = new Modal($id);
@@ -35,12 +59,19 @@ class ModalBuilder {
     }
     
     /**
+    
      * Add heading to modal
-     * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @param string $text Heading text
+    
      * @param int $level Heading level (1-6)
+    
      * @return self
- * @since v1.0.0 2026-04-13
+    
      */
     public function addHeading(string $text, int $level = 2): self {
         $heading = new Heading($level);
@@ -50,11 +81,17 @@ class ModalBuilder {
     }
     
     /**
+    
      * Add paragraph to modal
-     * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @param string $text Paragraph text
+    
      * @return self
- * @since v1.0.0 2026-04-13
+    
      */
     public function addParagraph(string $text): self {
         $p = new \Ksfraser\HTML\Formatting\HtmlParagraph(new HtmlString($text));
@@ -63,11 +100,17 @@ class ModalBuilder {
     }
     
     /**
+    
      * Add table to modal
-     * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @param Table $table
+    
      * @return self
- * @since v1.0.0 2026-04-13
+    
      */
     public function addTable(Table $table): self {
         $this->content->append($table);
@@ -75,12 +118,19 @@ class ModalBuilder {
     }
     
     /**
+    
      * Add close button
-     * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @param string $text Button text
+    
      * @param string $onclickHandler JavaScript onclick handler
+    
      * @return self
- * @since v1.0.0 2026-04-13
+    
      */
     public function addCloseButton(string $text = 'Close', string $onclickHandler = 'closeModal()'): self {
         $button = new \Ksfraser\HTML\Button\CloseButton(new HtmlString($text));
@@ -92,11 +142,17 @@ class ModalBuilder {
     }
     
     /**
+    
      * Add raw HTML content
-     * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @param string $html
+    
      * @return self
- * @since v1.0.0 2026-04-13
+    
      */
     public function addRawHtml(string $html): self {
         $this->content->append(new HtmlString($html));
@@ -104,10 +160,15 @@ class ModalBuilder {
     }
     
     /**
+    
      * Build and return the modal
-     * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @return Modal
- * @since v1.0.0 2026-04-13
+    
      */
     public function build(): Modal {
         $this->modal->setContent($this->content);
@@ -115,10 +176,15 @@ class ModalBuilder {
     }
     
     /**
+    
      * Get stylesheet link element for modal CSS
-     * 
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
      * @return Stylesheet
- * @since v1.0.0 2026-04-13
+    
      */
     public static function getStylesheet(): Stylesheet {
         return (new Stylesheet())

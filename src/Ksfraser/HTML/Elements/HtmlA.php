@@ -8,7 +8,9 @@ use Ksfraser\HTML\Elements\HtmlString;
 /**
  * URL Links
  *
+ * 
  * <a href="URL">TEXT</a>
+ * 
  *
  * @since v1.0.0 2026-04-11
  */
@@ -44,9 +46,9 @@ class HtmlA extends HtmlElement
 	/**
 	 * Set href attribute
 	 *
+	 * @since v1.0.0 2026-04-13
 	 * @param string $url
 	 * @return self
- * @since v1.0.0 2026-04-13
 	 */
 	public function setHref( string $url ): self
 	{
@@ -55,11 +57,17 @@ class HtmlA extends HtmlElement
 	}
 
 	/**
+
 	 * Set link text (replaces nested content)
+
 	 *
+
+	 * @since v1.0.0 2026-04-13
+
 	 * @param string $text
+
 	 * @return self
- * @since v1.0.0 2026-04-13
+
 	 */
 	public function setText( string $text ): self
 	{
@@ -68,11 +76,17 @@ class HtmlA extends HtmlElement
 	}
 	
 	/**
+	
 	 * Set link content (replaces nested content)
+	
 	 *
+	
+	 * @since v1.0.0 2026-04-13
+	
 	 * @param HtmlElementInterface $content
+	
 	 * @return self
- * @since v1.0.0 2026-04-13
+	
 	 */
 	public function setContent( HtmlElementInterface $content ): self
 	{
@@ -80,12 +94,12 @@ class HtmlA extends HtmlElement
 		return $this;
 	}
 /**
-	 * Function addHref
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param mixed $url
-	 * @param mixed $text
-	 * @return void
+ * addHref()
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
  */
 	function addHref( $url, $text = "" )
 	{
@@ -105,9 +119,9 @@ class HtmlA extends HtmlElement
 	/**
 	 * Set link target and return self for fluent interface
 	 *
+	 * @since v1.0.0 2026-04-13
 	 * @param string $target
 	 * @return self
- * @since v1.0.0 2026-04-13
 	 */
 	public function setTarget( string $target ): self
 	{

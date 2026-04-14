@@ -6,29 +6,40 @@ use Ksfraser\HTML\HtmlElementInterface;
 
 
 /**
+
+
  * class HtmlAttribute
+
+
  *
+
+
  * @since 1.0.1 2026-02-16
+
+
  */
 class HtmlAttribute implements HtmlElementInterface
 {
-	/**********
-	* Common attributes:
-	*	Class
-	*		Can be repeated amongst elements
-	*	ID
-	*		ID must be used uniquely
-	*	Style
-	*/
+	/**
+	 * /**********
+	 *
+	 * Common attributes:
+	 * Class
+	 * 	Can be repeated amongst elements
+	 * ID
+	 * 	ID must be used uniquely
+	 * Style
+	 *
+	 */
 	protected $attribute;	//Key
 	protected $value;	//Value
 /**
-	 * Function __construct
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param mixed $attribute
-	 * @param mixed $value
-	 * @return void
+ * __construct()
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $attribute
+ * @param mixed $value
+ * @return void
  */
 	function __construct( $attribute, $value )
 	{
@@ -41,16 +52,18 @@ class HtmlAttribute implements HtmlElementInterface
 	}
 	/**
 	 * Output the HTML string directly
+	 *
+	 * @since v1.0.0 2026-04-13
 	 * @return void
- * @since v1.0.0 2026-04-13
 	 */
 	public function toHtml(): void {
 		echo $this->getHtml();
 	}
 	/**
 	 * Get the HTML string for this attribute
+	 *
+	 * @since v1.0.0 2026-04-13
 	 * @return string The attribute in format: name="value"
- * @since v1.0.0 2026-04-13
 	 */
 	public function getHtml(): string {
 		if (strlen($this->attribute) > 0) {
@@ -67,10 +80,15 @@ class HtmlAttribute implements HtmlElementInterface
 	}
 
 /**
+
  * getName
+
  *
+
  * @since 1.0.1 2026-02-16
+
  * @return string
+
  */
     public function getName(): string
     {
@@ -78,10 +96,15 @@ class HtmlAttribute implements HtmlElementInterface
     }
 
 /**
+
  * getValue
+
  *
+
  * @since 1.0.1 2026-02-16
+
  * @return string
+
  */
     public function getValue(): string
     {

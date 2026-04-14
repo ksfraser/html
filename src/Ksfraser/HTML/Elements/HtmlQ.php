@@ -4,9 +4,13 @@ namespace Ksfraser\HTML\Elements;
 use Ksfraser\HTML\HtmlElement;
 
 /**
+
  * class HtmlQ
+
  *
+
  * @since v1.0.0 2026-04-11
+
  */
 class HtmlQ extends HtmlElement {
 /**

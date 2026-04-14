@@ -5,48 +5,86 @@ namespace Ksfraser\HTML\Traits;
 use Ksfraser\HTML\HtmlElement;
 
 /**
+
  * SemanticElementsTrait - FR-014
+
+ *
+
  * Provides factory methods for HTML5 semantic elements
- *
+
+ * 
+
  * Static factory methods for semantic markup:
+
  * - Structure: header(), nav(), main(), section(), article(), aside(), footer()
+
  * - Content: heading(), paragraph(), strong(), em(), mark(), code(), pre(), blockquote(), cite(), address(), time()
+
  * - Media: figure(), figcaption(), image(), picture(), audio(), video(), source()
+
  * - Interactive: details(), summary(), dialog()
+
  * - Progress: progress(), meter()
+
  * - Lists: unorderedList(), orderedList(), listItem(), definitionList(), definitionTerm(), definitionDescription()
+
  * - Tables: table(), tableHead(), tableBody(), tableFoot(), tableRow(), tableData(), tableHeader(), tableCaption(), tableColumn(), tableColumnGroup()
+
  * - Forms: fieldset(), legend()
- *
+
+ * 
+
  * Integration with previous traits:
+
  * - CSSManagementTrait: Bootstrap classes for semantic elements
+
  * - AriaAttributeTrait: ARIA attributes for accessibility
+
  * - DataAttributeTrait: Data attributes for JS integration
+
  * - EventHandlerTrait: Event binding for interactive elements
- *
+
+ * 
+
  * Usage:
+
  *   $article = HtmlElement::article()
+
  *       ->addNested(HtmlElement::heading('Article Title', 1))
+
  *       ->addNested(HtmlElement::paragraph('Content'));
- *
+
+ * 
+
  *   $figure = HtmlElement::figure()
+
  *       ->addNested(HtmlElement::image('photo.jpg', 'Photo'))
+
  *       ->addNested(HtmlElement::figcaption('Caption'));
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Traits
+
  * @since 1.0.5 2026-03-30
+
+ * @package Ksfraser\HTML\Traits
+
  */
 trait SemanticElementsTrait
 {
     /**
      * Resolve an element class for a semantic tag and instantiate it if present.
-     * Tries candidate class names under Ksfraser\\HTML\\Elements\\, then falls back to `new static()`.
      *
+     * Tries candidate class names under Ksfraser\\HTML\\Elements\\, then falls back to `new static()`.
+     * 
+     *
+     * @since v2.0.1 2026-04-14
+     * @param string $tag
+     * @param mixed $args
      * @return HtmlElement
- * @param string $tag
- * @param mixed $args
- * @since v2.0.1 2026-04-14
      */
     protected static function element(string $tag, ...$args): HtmlElement
     {
@@ -127,10 +165,15 @@ trait SemanticElementsTrait
     // ========================================================================
 
     /**
+
      * Create a header element (page or section header)
+
      *
+
+     * @since 1.0.5 2026-03-30
+
      * @return HtmlElement
- * @since 1.0.5 2026-03-30
+
      */
     public static function header(): HtmlElement
     {
@@ -138,10 +181,15 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a nav element (navigation section)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function nav(): HtmlElement
     {
@@ -149,10 +197,15 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a main element (main content area)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function main(): HtmlElement
     {
@@ -160,11 +213,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a section element
+
      *
+
+     * @since v2.0.1 2026-04-14
+
+     * @param ?string $id
+
      * @return HtmlElement
- * @param ?string $id
- * @since v2.0.1 2026-04-14
+
      */
     public static function section(?string $id = null): HtmlElement
     {
@@ -180,10 +239,15 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create an article element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function article(): HtmlElement
     {
@@ -191,10 +255,15 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a generic div element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function div(): HtmlElement
     {
@@ -202,10 +271,15 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create an aside element (sidebar/supplementary content)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function aside(): HtmlElement
     {
@@ -213,10 +287,15 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a footer element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function footer(): HtmlElement
     {
@@ -228,12 +307,19 @@ trait SemanticElementsTrait
     // ========================================================================
 
     /**
+
      * Create a heading element (h1-h6)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Heading text
+
      * @param int $level Heading level (1-6, default 1)
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function heading(string $text = '', int $level = 1): HtmlElement
     {
@@ -242,11 +328,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a paragraph element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Paragraph text
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function paragraph(string $text = ''): HtmlElement
     {
@@ -254,11 +346,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a strong element (strong importance)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Text content
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function strong(string $text = ''): HtmlElement
     {
@@ -266,11 +364,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create an em element (emphasis)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Text content
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function em(string $text = ''): HtmlElement
     {
@@ -278,11 +382,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a mark element (highlighted/marked text)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Text content
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function mark(string $text = ''): HtmlElement
     {
@@ -290,11 +400,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a del element (deleted text)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Text content
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function del(string $text = ''): HtmlElement
     {
@@ -302,11 +418,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create an ins element (inserted text)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Text content
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function ins(string $text = ''): HtmlElement
     {
@@ -314,11 +436,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a sub element (subscript)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Text content
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function sub(string $text = ''): HtmlElement
     {
@@ -326,11 +454,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a sup element (superscript)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Text content
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function sup(string $text = ''): HtmlElement
     {
@@ -338,12 +472,19 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create an abbr element (abbreviation)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Abbreviation text
+
      * @param string $title Title attribute (expanded form)
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function abbr(string $text = '', string $title = ''): HtmlElement
     {
@@ -359,11 +500,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a kbd element (user input)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function kbd(string $text = ''): HtmlElement
     {
@@ -371,11 +518,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a code element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Code content
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function code(string $text = ''): HtmlElement
     {
@@ -383,11 +536,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a samp element (sample output)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Sample text
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function samp(string $text = ''): HtmlElement
     {
@@ -395,11 +554,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a var element (variable name)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Variable name
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function var(string $text = ''): HtmlElement
     {
@@ -408,9 +573,9 @@ trait SemanticElementsTrait
     /**
      * Create a pre element (preformatted text)
      *
+     * @since v1.0.5 2026-04-14
      * @param string $text Preformatted content (optional)
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
      */
     public static function pre(string $text = ''): HtmlElement
     {
@@ -418,11 +583,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a small element (side comments, fine print)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Small text
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function small(string $text = ''): HtmlElement
     {
@@ -430,12 +601,19 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a blockquote element
+
      *
+
+     * @since v2.0.1 2026-04-14
+
+     * @param string $text
+
+     * @param ?string $cite
+
      * @return HtmlElement
- * @param string $text
- * @param ?string $cite
- * @since v2.0.1 2026-04-14
+
      */
     public static function blockquote(string $text = '', ?string $cite = null): HtmlElement
     {
@@ -451,11 +629,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a cite element (title of work)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Citation text
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function cite(string $text = ''): HtmlElement
     {
@@ -463,11 +647,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create an address element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Address content
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function address(string $text = ''): HtmlElement
     {
@@ -475,12 +665,19 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a time element
+
      *
+
+     * @since v2.0.1 2026-04-14
+
+     * @param string $text
+
+     * @param ?string $datetime
+
      * @return HtmlElement
- * @param string $text
- * @param ?string $datetime
- * @since v2.0.1 2026-04-14
+
      */
     public static function time(string $text = '', ?string $datetime = null): HtmlElement
     {
@@ -500,10 +697,15 @@ trait SemanticElementsTrait
     // ========================================================================
 
     /**
+
      * Create a figure element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function figure(): HtmlElement
     {
@@ -511,11 +713,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a figcaption element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Caption text
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function figcaption(string $text = ''): HtmlElement
     {
@@ -523,12 +731,19 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create an image element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $src Image source
+
      * @param string $alt Alternative text
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function image(string $src, string $alt = ''): HtmlElement
     {
@@ -549,12 +764,19 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a responsive image element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $src Image source
+
      * @param string $alt Alternative text
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function imageResponsive(string $src, string $alt = ''): HtmlElement
     {
@@ -564,12 +786,19 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a thumbnail image element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $src Image source
+
      * @param string $alt Alternative text
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function imageThumbnail(string $src, string $alt = ''): HtmlElement
     {
@@ -579,10 +808,15 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a picture element (for responsive images)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function picture(): HtmlElement
     {
@@ -590,12 +824,19 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create an audio element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $src Audio source
+
      * @param bool $controls Show audio controls
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function audio(string $src = '', bool $controls = false): HtmlElement
     {
@@ -618,13 +859,21 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a video element
+
      *
+
+     * @since v2.0.1 2026-04-14
+
+     * @param string $src
+
+     * @param bool $controls
+
+     * @param bool $autoplay
+
      * @return HtmlElement
- * @param string $src
- * @param bool $controls
- * @param bool $autoplay
- * @since v2.0.1 2026-04-14
+
      */
     public static function video(string $src = '', bool $controls = false, bool $autoplay = false): HtmlElement
     {
@@ -654,12 +903,19 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a source element (for audio/video)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $src Source URL
+
      * @param string $type MIME type
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function source(string $src, string $type): HtmlElement
     {
@@ -678,12 +934,19 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a track element (text tracks for media)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $src Source URL for the track
+
      * @param string $kind Kind of track (subtitles, captions, descriptions, chapters, metadata)
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function track(string $src = '', string $kind = ''): HtmlElement
     {
@@ -710,11 +973,17 @@ trait SemanticElementsTrait
     // ========================================================================
 
     /**
+
      * Create a details element (expandable information)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param bool $open Initially open
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function details(bool $open = false): HtmlElement
     {
@@ -730,11 +999,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a summary element (details summary/header)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Summary text
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function summary(string $text = ''): HtmlElement
     {
@@ -742,11 +1017,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a dialog element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param bool $open Initially open
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function dialog(bool $open = false): HtmlElement
     {
@@ -762,11 +1043,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a noscript element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Optional content
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function noscript(string $text = ''): HtmlElement
     {
@@ -774,12 +1061,19 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a canvas element with optional dimensions
+
      *
+
+     * @since v2.0.1 2026-04-14
+
+     * @param ?int $width
+
+     * @param ?int $height
+
      * @return HtmlElement
- * @param ?int $width
- * @param ?int $height
- * @since v2.0.1 2026-04-14
+
      */
     public static function canvas(?int $width = null, ?int $height = null): HtmlElement
     {
@@ -802,12 +1096,19 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create an svg element with optional viewBox dimensions
+
      *
+
+     * @since v2.0.1 2026-04-14
+
+     * @param ?int $width
+
+     * @param ?int $height
+
      * @return HtmlElement
- * @param ?int $width
- * @param ?int $height
- * @since v2.0.1 2026-04-14
+
      */
     public static function svg(?int $width = null, ?int $height = null): HtmlElement
     {
@@ -824,11 +1125,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create the root html element with optional lang attribute
+
      *
+
+     * @since v2.0.1 2026-04-14
+
+     * @param ?string $lang
+
      * @return HtmlElement
- * @param ?string $lang
- * @since v2.0.1 2026-04-14
+
      */
     public static function htmlElement(?string $lang = null): HtmlElement
     {
@@ -844,10 +1151,15 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a head element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function head(): HtmlElement
     {
@@ -855,10 +1167,15 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a body element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function body(): HtmlElement
     {
@@ -866,11 +1183,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a title element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function title(string $text = ''): HtmlElement
     {
@@ -878,12 +1201,19 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a meta element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $name
+
      * @param string $content
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function meta(string $name, string $content): HtmlElement
     {
@@ -902,12 +1232,19 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a link element (e.g., stylesheet)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $rel
+
      * @param string $href
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function link(string $rel, string $href): HtmlElement
     {
@@ -926,12 +1263,19 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a script element
+
      *
+
+     * @since v2.0.1 2026-04-14
+
+     * @param string $src
+
+     * @param ?string $type
+
      * @return HtmlElement
- * @param string $src
- * @param ?string $type
- * @since v2.0.1 2026-04-14
+
      */
     public static function script(string $src = '', ?string $type = null): HtmlElement
     {
@@ -954,11 +1298,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a style element with CSS content
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $css
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function style(string $css = ''): HtmlElement
     {
@@ -970,12 +1320,19 @@ trait SemanticElementsTrait
     // ========================================================================
 
     /**
+
      * Create a progress element
+
      *
+
+     * @since v2.0.1 2026-04-14
+
+     * @param ?int $value
+
+     * @param ?int $max
+
      * @return HtmlElement
- * @param ?int $value
- * @param ?int $max
- * @since v2.0.1 2026-04-14
+
      */
     public static function progress(?int $value = null, ?int $max = null): HtmlElement
     {
@@ -998,15 +1355,25 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a meter element
+
      *
+
+     * @since v2.0.1 2026-04-14
+
+     * @param ?int $value
+
+     * @param ?int $min
+
+     * @param ?int $max
+
+     * @param ?int $low
+
+     * @param ?int $high
+
      * @return HtmlElement
- * @param ?int $value
- * @param ?int $min
- * @param ?int $max
- * @param ?int $low
- * @param ?int $high
- * @since v2.0.1 2026-04-14
+
      */
     public static function meter(?int $value = null, ?int $min = null, ?int $max = null, ?int $low = null, ?int $high = null): HtmlElement
     {
@@ -1054,10 +1421,15 @@ trait SemanticElementsTrait
     // ========================================================================
 
     /**
+
      * Create an unordered list element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function unorderedList(): HtmlElement
     {
@@ -1065,11 +1437,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create an ordered list element
+
      *
+
+     * @since v2.0.1 2026-04-14
+
+     * @param ?int $start
+
      * @return HtmlElement
- * @param ?int $start
- * @since v2.0.1 2026-04-14
+
      */
     public static function orderedList(?int $start = null): HtmlElement
     {
@@ -1085,11 +1463,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a list item element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Item text
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function listItem(string $text = ''): HtmlElement
     {
@@ -1097,10 +1481,15 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a definition list element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function definitionList(): HtmlElement
     {
@@ -1108,11 +1497,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a definition term element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Term text
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function definitionTerm(string $text = ''): HtmlElement
     {
@@ -1120,11 +1515,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a definition description element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Description text
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function definitionDescription(string $text = ''): HtmlElement
     {
@@ -1132,9 +1533,15 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Backwards-compatible aliases using "description" naming used by tests
- * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
+     * @return HtmlElement
+
      */
     public static function descriptionList(): HtmlElement
     {
@@ -1142,11 +1549,17 @@ trait SemanticElementsTrait
     }
 
 /**
+
  * descriptionTerm
+
  *
+
  * @since v1.0.5 2026-04-14
+
  * @param string $text
+
  * @return HtmlElement
+
  */
     public static function descriptionTerm(string $text = ''): HtmlElement
     {
@@ -1154,11 +1567,17 @@ trait SemanticElementsTrait
     }
 
 /**
+
  * descriptionDefinition
+
  *
+
  * @since v1.0.5 2026-04-14
+
  * @param string $text
+
  * @return HtmlElement
+
  */
     public static function descriptionDefinition(string $text = ''): HtmlElement
     {
@@ -1170,10 +1589,15 @@ trait SemanticElementsTrait
     // ========================================================================
 
     /**
+
      * Create a table element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function table(): HtmlElement
     {
@@ -1181,10 +1605,15 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a table head element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function tableHead(): HtmlElement
     {
@@ -1192,10 +1621,15 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a table body element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function tableBody(): HtmlElement
     {
@@ -1203,10 +1637,15 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a table foot element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function tableFoot(): HtmlElement
     {
@@ -1214,10 +1653,15 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a table row element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function tableRow(): HtmlElement
     {
@@ -1225,11 +1669,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a table data cell element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Cell content
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function tableData(string $text = ''): HtmlElement
     {
@@ -1237,11 +1687,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a table header cell element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Header content
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function tableHeader(string $text = ''): HtmlElement
     {
@@ -1249,11 +1705,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a table caption element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Caption text
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function tableCaption(string $text = ''): HtmlElement
     {
@@ -1261,10 +1723,15 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a table column element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function tableColumn(): HtmlElement
     {
@@ -1272,10 +1739,15 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a table column group element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function tableColumnGroup(): HtmlElement
     {
@@ -1287,10 +1759,15 @@ trait SemanticElementsTrait
     // ========================================================================
 
     /**
+
      * Create a fieldset element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function fieldset(): HtmlElement
     {
@@ -1298,11 +1775,17 @@ trait SemanticElementsTrait
     }
 
     /**
+
      * Create a legend element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param string $text Legend text
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function legend(string $text = ''): HtmlElement
     {

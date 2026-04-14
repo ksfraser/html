@@ -6,40 +6,79 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * ResponsiveLayoutTrait - FR-013
+
+ *
+
  * Provides utility methods for responsive design and layout
- *
+
+ * 
+
  * Static factory methods for creating layout containers:
+
  * - Grid: container(), containerFluid(), row(), column(), columnResponsive()
- *
+
+ * 
+
  * Instance methods for applying utility classes:
+
  * - Spacing: margins, padding (all directions and responsive breakpoints)
+
  * - Display: flex, grid, inline, none, responsive display
+
  * - Sizing: width, height, max-width, max-height
+
  * - Flexbox: direction, wrap, justify-content, align-items, grow/shrink
+
  * - Text: alignment, truncation, responsive text alignment
+
  * - Overflow: auto, hidden, scrolling
+
  * - Borders: all sides, radius, color variants
+
  * - Shadows: sm, normal, lg
- *
+
+ * 
+
  * Integration with previous traits:
+
  * - CSSManagementTrait: All utilities applied through CSS classes
+
  * - DataAttributeTrait: Data attributes for JS responsive behavior
+
  * - AriaAttributeTrait: ARIA attributes for accessibility
- *
+
+ * 
+
  * Usage:
+
  *   $container = HtmlElement::container()
+
  *       ->addNested(HtmlElement::row()
+
  *           ->addNested(HtmlElement::columnResponsive(['xs' => 12, 'md' => 6])));
- *
+
+ * 
+
  *   $elem = HtmlElement::div()
+
  *       ->applyDisplay('flex')
+
  *       ->applyJustifyContent('center')
+
  *       ->applyAlignItems('center');
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Traits
+
  * @since 1.0.5 2026-03-30
+
+ * @package Ksfraser\HTML\Traits
+
  */
 trait ResponsiveLayoutTrait
 {
@@ -48,12 +87,23 @@ trait ResponsiveLayoutTrait
     // ========================================================================
 
     /**
+
      * Create a Bootstrap container
+
      *
-     * @return HtmlElement
-     * @example
+
+     * 
+
      *   $container = HtmlElement::container();
- * @since 1.0.5 2026-03-30
+
+     *
+
+     * @since 1.0.5 2026-03-30
+
+     * @example 
+
+     * @return HtmlElement
+
      */
     public static function container(): HtmlElement
     {
@@ -63,10 +113,15 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Create a fluid container (full-width)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function containerFluid(): HtmlElement
     {
@@ -76,10 +131,15 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Create a Bootstrap row
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @return HtmlElement
- * @since v1.0.5 2026-04-14
+
      */
     public static function row(): HtmlElement
     {
@@ -89,15 +149,29 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Create a Bootstrap column
+
      *
-     * @return HtmlElement
-     * @example
+
+     * 
+
      *   $col = HtmlElement::column(6);  // Half width
+
      *   $col = HtmlElement::column(4, 2);  // 1/3 width, offset by 1/6
- * @param ?int $width
- * @param ?int $offset
- * @since v2.0.1 2026-04-14
+
+     *
+
+     * @since v2.0.1 2026-04-14
+
+     * @example 
+
+     * @param ?int $width
+
+     * @param ?int $offset
+
+     * @return HtmlElement
+
      */
     public static function column(?int $width = null, ?int $offset = null): HtmlElement
     {
@@ -117,18 +191,35 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Create a responsive column with breakpoint-specific widths
+
      *
-     * @param array $breakpoints Mapping of breakpoint => width (xs, sm, md, lg, xl)
-     * @return HtmlElement
-     * @example
+
+     * 
+
      *   $col = HtmlElement::columnResponsive([
+
      *       'xs' => 12,  // Full width on xs
+
      *       'sm' => 12,  // Full width on sm
+
      *       'md' => 6,   // Half width on md and up
+
      *       'lg' => 4    // 1/3 width on lg and up
+
      *   ]);
- * @since v1.0.5 2026-04-14
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
+     * @example 
+
+     * @param array $breakpoints Mapping of breakpoint => width (xs, sm, md, lg, xl)
+
+     * @return HtmlElement
+
      */
     public static function columnResponsive(array $breakpoints): HtmlElement
     {
@@ -150,12 +241,19 @@ trait ResponsiveLayoutTrait
     // ========================================================================
 
     /**
+
      * Apply margin to all sides
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param int $value Margin scale (0-5)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyMargin(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
@@ -166,12 +264,19 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply margin-top
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param int $value Margin scale (0-5)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyMarginTop(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
@@ -182,12 +287,19 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply margin-bottom
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param int $value Margin scale (0-5)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyMarginBottom(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
@@ -198,12 +310,19 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply margin-left
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param int $value Margin scale (0-5)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyMarginLeft(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
@@ -214,12 +333,19 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply margin-right
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param int $value Margin scale (0-5)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyMarginRight(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
@@ -230,12 +356,19 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply horizontal margins (left & right)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param int $value Margin scale (0-5)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyMarginHorizontal(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
@@ -246,12 +379,19 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply vertical margins (top & bottom)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param int $value Margin scale (0-5)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyMarginVertical(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
@@ -262,11 +402,17 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Center element horizontally with auto margin
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyMarginAuto(HtmlElementInterface $element): HtmlElementInterface
     {
@@ -281,12 +427,19 @@ trait ResponsiveLayoutTrait
     // ========================================================================
 
     /**
+
      * Apply padding to all sides
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param int $value Padding scale (0-5)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyPadding(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
@@ -297,12 +450,19 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply padding-top
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param int $value Padding scale (0-5)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyPaddingTop(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
@@ -313,12 +473,19 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply padding-bottom
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param int $value Padding scale (0-5)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyPaddingBottom(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
@@ -329,12 +496,19 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply padding-left
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param int $value Padding scale (0-5)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyPaddingLeft(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
@@ -345,12 +519,19 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply padding-right
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param int $value Padding scale (0-5)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyPaddingRight(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
@@ -361,12 +542,19 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply horizontal padding (left & right)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param int $value Padding scale (0-5)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyPaddingHorizontal(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
@@ -377,12 +565,19 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply vertical padding (top & bottom)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param int $value Padding scale (0-5)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyPaddingVertical(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
@@ -397,12 +592,19 @@ trait ResponsiveLayoutTrait
     // ========================================================================
 
     /**
+
      * Apply display property
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param string $display Display type (flex, block, inline, inline-block, grid, none)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyDisplay(HtmlElementInterface $element, string $display): HtmlElementInterface
     {
@@ -413,18 +615,35 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply responsive display classes
+
      *
-     * @param HtmlElementInterface $element Element to modify
-     * @param array $breakpoints Mapping of breakpoint => display type
-     * @return HtmlElementInterface
-     * @example
+
+     * 
+
      *   applyDisplayResponsive($elem, [
+
      *       'xs' => 'block',
+
      *       'md' => 'none',
+
      *       'lg' => 'flex'
+
      *   ])
- * @since v1.0.5 2026-04-14
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
+     * @example 
+
+     * @param HtmlElementInterface $element Element to modify
+
+     * @param array $breakpoints Mapping of breakpoint => display type
+
+     * @return HtmlElementInterface
+
      */
     public static function applyDisplayResponsive(HtmlElementInterface $element, array $breakpoints): HtmlElementInterface
     {
@@ -441,11 +660,17 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Hide element
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyHidden(HtmlElementInterface $element): HtmlElementInterface
     {
@@ -456,11 +681,17 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Show element (remove hidden class)
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyVisible(HtmlElementInterface $element): HtmlElementInterface
     {
@@ -475,12 +706,19 @@ trait ResponsiveLayoutTrait
     // ========================================================================
 
     /**
+
      * Apply width percentage
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param int $percentage Width percentage (25, 50, 75, 100)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyWidth(HtmlElementInterface $element, int $percentage): HtmlElementInterface
     {
@@ -491,12 +729,19 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply height percentage
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param int $percentage Height percentage (25, 50, 75, 100)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyHeight(HtmlElementInterface $element, int $percentage): HtmlElementInterface
     {
@@ -507,12 +752,19 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply max-width
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param int $percentage Max-width percentage (100)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyMaxWidth(HtmlElementInterface $element, int $percentage): HtmlElementInterface
     {
@@ -523,12 +775,19 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply max-height
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param int $percentage Max-height percentage (100)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyMaxHeight(HtmlElementInterface $element, int $percentage): HtmlElementInterface
     {
@@ -543,12 +802,19 @@ trait ResponsiveLayoutTrait
     // ========================================================================
 
     /**
+
      * Apply flex direction
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param string $direction Direction (row, column, row-reverse, column-reverse)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyFlexDirection(HtmlElementInterface $element, string $direction): HtmlElementInterface
     {
@@ -559,11 +825,17 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply flex-wrap
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyFlexWrap(HtmlElementInterface $element): HtmlElementInterface
     {
@@ -574,12 +846,19 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply justify-content
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param string $alignment Alignment (start, end, center, between, around, evenly)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyJustifyContent(HtmlElementInterface $element, string $alignment): HtmlElementInterface
     {
@@ -590,12 +869,19 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply align-items
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param string $alignment Alignment (start, end, center, baseline, stretch)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyAlignItems(HtmlElementInterface $element, string $alignment): HtmlElementInterface
     {
@@ -606,11 +892,17 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply flex-grow
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyFlexGrow(HtmlElementInterface $element): HtmlElementInterface
     {
@@ -621,11 +913,17 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply flex-shrink
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyFlexShrink(HtmlElementInterface $element): HtmlElementInterface
     {
@@ -640,12 +938,19 @@ trait ResponsiveLayoutTrait
     // ========================================================================
 
     /**
+
      * Apply text alignment
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param string $alignment Alignment (left, center, right, justify)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyTextAlign(HtmlElementInterface $element, string $alignment): HtmlElementInterface
     {
@@ -656,12 +961,19 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply responsive text alignment
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param array $breakpoints Mapping of breakpoint => alignment
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyTextAlignResponsive(HtmlElementInterface $element, array $breakpoints): HtmlElementInterface
     {
@@ -678,11 +990,17 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply text truncation
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyTextTruncate(HtmlElementInterface $element): HtmlElementInterface
     {
@@ -697,12 +1015,19 @@ trait ResponsiveLayoutTrait
     // ========================================================================
 
     /**
+
      * Apply overflow property
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @param string $overflow Overflow type (auto, hidden, visible, scroll)
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyOverflow(HtmlElementInterface $element, string $overflow): HtmlElementInterface
     {
@@ -717,11 +1042,17 @@ trait ResponsiveLayoutTrait
     // ========================================================================
 
     /**
+
      * Apply border to all sides
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyBorder(HtmlElementInterface $element): HtmlElementInterface
     {
@@ -732,11 +1063,17 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply border-top
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyBorderTop(HtmlElementInterface $element): HtmlElementInterface
     {
@@ -747,11 +1084,17 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply border-bottom
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyBorderBottom(HtmlElementInterface $element): HtmlElementInterface
     {
@@ -762,11 +1105,17 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply border-left
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyBorderLeft(HtmlElementInterface $element): HtmlElementInterface
     {
@@ -777,11 +1126,17 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply border-right
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param HtmlElementInterface $element Element to modify
+
      * @return HtmlElementInterface
- * @since v1.0.5 2026-04-14
+
      */
     public static function applyBorderRight(HtmlElementInterface $element): HtmlElementInterface
     {
@@ -792,12 +1147,19 @@ trait ResponsiveLayoutTrait
     }
 
     /**
+
      * Apply border-radius
+
      *
+
+     * @since v2.0.1 2026-04-14
+
+     * @param HtmlElementInterface $element
+
+     * @param ?string $style
+
      * @return HtmlElementInterface
- * @param HtmlElementInterface $element
- * @param ?string $style
- * @since v2.0.1 2026-04-14
+
      */
     public static function applyBorderRadius(HtmlElementInterface $element, ?string $style = null): HtmlElementInterface
     {
@@ -816,12 +1178,19 @@ trait ResponsiveLayoutTrait
     // ========================================================================
 
     /**
+
      * Apply box shadow
+
      *
+
+     * @since v2.0.1 2026-04-14
+
+     * @param HtmlElementInterface $element
+
+     * @param ?string $size
+
      * @return HtmlElementInterface
- * @param HtmlElementInterface $element
- * @param ?string $size
- * @since v2.0.1 2026-04-14
+
      */
     public static function applyShadow(HtmlElementInterface $element, ?string $size = null): HtmlElementInterface
     {

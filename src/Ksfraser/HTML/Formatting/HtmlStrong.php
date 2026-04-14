@@ -3,18 +3,22 @@
 namespace Ksfraser\HTML\Formatting;
 
 /**
+
  * class HtmlStrong
+
  *
+
  * @since 1.0.3 2026-02-21
+
  */
 class HtmlStrong extends HtmlFormatting
 {
 /**
-	 * Function __construct
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param mixed $data
-	 * @return void
+ * __construct()
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
  */
     function __construct( $data )
     {

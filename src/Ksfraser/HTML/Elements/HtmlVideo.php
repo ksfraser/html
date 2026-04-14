@@ -7,14 +7,13 @@ use Ksfraser\HTML\HtmlElementInterface;
 use Ksfraser\HTML\Elements\HtmlString;
 
 /**
+
  * class HtmlVideo
+
  *
- *
- *
- *
- *
- *
+
  * @since v2.0.1 2026-04-14
+
  */
 class HtmlVideo extends HtmlElement
 {
@@ -42,11 +41,17 @@ class HtmlVideo extends HtmlElement
     }
 
 /**
+
  * setSrc
+
  *
+
  * @since v1.0.5 2026-04-14
+
  * @param string $src
+
  * @return self
+
  */
     public function setSrc(string $src): self
     {
@@ -55,11 +60,17 @@ class HtmlVideo extends HtmlElement
     }
 
 /**
+
  * setControls
+
  *
+
  * @since v1.0.5 2026-04-14
+
  * @param bool $enabled
+
  * @return self
+
  */
     public function setControls(bool $enabled = true): self
     {
@@ -72,11 +83,17 @@ class HtmlVideo extends HtmlElement
     }
 
 /**
+
  * setAutoplay
+
  *
+
  * @since v1.0.5 2026-04-14
+
  * @param bool $enabled
+
  * @return self
+
  */
     public function setAutoplay(bool $enabled = true): self
     {
@@ -89,12 +106,19 @@ class HtmlVideo extends HtmlElement
     }
 
 /**
+
  * addSourceUrl
+
  *
+
  * @since v1.0.5 2026-04-14
+
  * @param string $src
+
  * @param ?string $type
+
  * @return self
+
  */
     public function addSourceUrl(string $src, ?string $type = null): self
     {

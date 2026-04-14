@@ -6,9 +6,13 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
 
 /**
+
  * HtmlCite - semantic wrapper for <cite>
+
  *
+
  * @since 1.0.4 2026-02-21
+
  */
 class HtmlCite extends HtmlElement {
 /**

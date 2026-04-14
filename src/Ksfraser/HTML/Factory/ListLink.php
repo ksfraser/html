@@ -5,13 +5,25 @@ use Ksfraser\HTML\Factory\ActionLink;
 use Ksfraser\HTML\Elements\HtmlA;
 
 /**
+
  * ListLink - Specialized link for list/index actions
+
  *
+
+ * 
+
  * Extends ActionLink with defaults for list operations.
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Factory
+
  * @since 1.0.2 2026-02-20
+
+ * @package Ksfraser\HTML\Factory
+
  */
 class ListLink extends ActionLink {
 /**

@@ -7,51 +7,93 @@ use Ksfraser\HTML\HtmlElementInterface;
 use Ksfraser\HTML\HtmlAttribute;
 
 /**
+
  * Base class for generating HTML <input> elements
+
  *
- *
+
+ * 
+
+ * 
+
  * Input elements can have the following attributes:
+
  * - accept (FILE ONLY)
+
  * - alt (text)
+
  * - autocomplete (on/off)
+
  * - autofocus
+
  * - checked (checkbox or RadioButton)
+
  * - dirname
+
  * - disabled
+
  * - form (form_id)
+
  * - formaction (submit or image - URL)
+
  * - formenctype (submit, image):
+
  *   - application/x-www-form-urlencoded
+
  *   - multipart/form-data
+
  *   - text/plain
+
  * - method (dialog, get, post)
+
  * - name
+
  * - novalidate
+
  * - rel (external, help, license, next, nofollow, noopener, noreferrer, opener, prev, search)
+
  * - target (_blank, _self, _parent, _top)
+
  * - type (text, password, submit, reset, button, etc.)
+
  * - value
+
+ * 
+
+ * 
+
  *
- *
- * @link https://www.w3schools.com/tags/tag_input.asp
- * @package Ksfraser\HTML
+
  * @since v1.0.0 2026-04-11
+
+ * @link https://www.w3schools.com/tags/tag_input.asp
+
+ * @package Ksfraser\HTML
+
  */
 class HtmlInput extends HtmlEmptyElement
 {
 	/**
 	 * The type attribute for the input element
+	 *
 	 * @var string
 	 */
 	protected $type;
 
 /**
-	 * Function __construct
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param HtmlElementInterface $data
-	 * @param string $type
-	 * @return void
+
+ * __construct()
+
+ *
+
+ * @since v1.0.0 2026-04-14
+
+ * @param HtmlElementInterface $data
+
+ * @param string $type
+
+ * @return void
+
  */
 	function __construct( HtmlElementInterface $data = null, string $type = "text" )
 	{
@@ -62,11 +104,17 @@ class HtmlInput extends HtmlEmptyElement
 	}
 
 	/**
+
 	 * Set the name attribute
+
 	 *
+
+	 * @since v1.0.0 2026-04-13
+
 	 * @param string $name The name attribute value
+
 	 * @return self Fluent interface
- * @since v1.0.0 2026-04-13
+
 	 */
 	public function setName( string $name ): self
 	{
@@ -75,11 +123,17 @@ class HtmlInput extends HtmlEmptyElement
 	}
 
 	/**
+
 	 * Set the value attribute
+
 	 *
+
+	 * @since v1.0.0 2026-04-13
+
 	 * @param string $value The value attribute
+
 	 * @return self (Fluent interface)
- * @since v1.0.0 2026-04-13
+
 	 */
 	public function setValue( string $value ): self
 	{
@@ -88,11 +142,17 @@ class HtmlInput extends HtmlEmptyElement
 	}
 
 	/**
+
 	 * Set the placeholder attribute
+
 	 *
+
+	 * @since v1.0.0 2026-04-13
+
 	 * @param string $placeholder The placeholder text
+
 	 * @return self Fluent interface
- * @since v1.0.0 2026-04-13
+
 	 */
 	public function setPlaceholder( string $placeholder ): self
 	{

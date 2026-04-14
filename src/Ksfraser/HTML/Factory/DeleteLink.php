@@ -5,14 +5,27 @@ use Ksfraser\HTML\Factory\ActionLink;
 use Ksfraser\HTML\Elements\HtmlA;
 
 /**
+
  * DeleteLink - Specialized link for delete actions
+
  *
+
+ * 
+
  * Extends ActionLink with defaults for delete operations.
+
  * Requires an ID parameter and includes confirmation prompt.
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Factory
+
  * @since 1.0.2 2026-02-20
+
+ * @package Ksfraser\HTML\Factory
+
  */
 class DeleteLink extends ActionLink {
 /**
@@ -41,10 +54,15 @@ class DeleteLink extends ActionLink {
     }
 
 /**
+
  * getConfirmMessage
+
  *
+
  * @since 1.0.2 2026-02-20
+
  * @return string
+
  */
     public function getConfirmMessage(): string {
         return $this->confirmMessage;

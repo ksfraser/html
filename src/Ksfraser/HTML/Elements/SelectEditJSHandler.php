@@ -6,74 +6,141 @@ use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlFragment;
 
 /**
+
  * SelectEditJSHandler - Selector Edit JavaScript Handler
+
  *
+
+ * 
+
  * Encapsulates the JavaScript logic for editing form fields when a table row's
+
  * edit button is clicked. Generates both the JS function and the script tag.
- *
+
+ * 
+
  * This handler provides an SRP-based approach to managing selector row editing:
+
  * - Generates the editOption() JavaScript function
+
  * - Handles form population from row data
+
  * - Centralizes edit logic for reusability
+
  * - Can be extended for other edit operations
- *
+
+ * 
+
  * Design Pattern: Template Method
+
  * - Encapsulates the edit function generation
+
  * - Can be extended for different field configurations
- *
+
+ * 
+
  * SOLID Principles:
+
  * - Single Responsibility: Only handles selector edit JS logic
+
  * - Open/Closed: Can be extended for other field types
+
  * - Liskov Substitution: Can replace HtmlElement
+
  * - Interface Segregation: Simple, focused interface
+
  * - Dependency Inversion: Depends on HtmlElement abstraction
- *
+
+ * 
+
  * Usage Context:
+
  * Used in selector management views where table rows represent editable options.
+
  * When an edit button is clicked, this function populates form fields with the
+
  * selected row's data.
- *
- *
+
+ * 
+
+ * 
+
  * ```php
+
  * // Generate the edit handler for a selector form
+
  * $handler = (new SelectEditJSHandler())
+
  *     ->setFormIdPrefix('selector')
+
  *     ->setFieldNames(['id', 'selector_name', 'option_name', 'option_value']);
+
  * echo $handler->getHtml();
- *
+
+ * 
+
  * // Later in the view, when building edit buttons:
+
  * $editBtn = new EditButton(
+
  *     new HtmlString('Edit'),
+
  *     (string)$opt['id'],
+
  *     sprintf("editOption(%d, '%s', '%s', '%s')",
+
  *         $opt['id'],
+
  *         addslashes($opt['selector_name']),
+
  *         addslashes($opt['option_name']),
+
  *         addslashes($opt['option_value'])
+
  *     )
+
  * );
+
  * ```
+
+ * 
+
  *
- * @package    Ksfraser\HTML
- * @author     Kevin Fraser / GitHub Copilot
- * @version    1.0.0
- * @example
+
  * @since v1.0.0 2026-04-11
+
+ * @package Ksfraser\HTML
+
+ * @author Kevin Fraser / GitHub Copilot
+
+ * @version 1.0.0
+
+ * @example 
+
  */
 class SelectEditJSHandler extends HtmlElement
 {
     /**
      * Form field ID prefix
-     * 
+     *
      * @var string
      */
     protected $formIdPrefix = 'selector';
 
     /**
+
      * Array of form field names to populate
+
+     *
+
      * Maps function parameter names to form field IDs
+
      * 
+
+     *
+
      * @var array
+
      */
     protected $fieldNames = [
         'id' => 'edit_id',
@@ -83,9 +150,15 @@ class SelectEditJSHandler extends HtmlElement
     ];
 
     /**
+
      * Constructor
- * @return void
- * @since v1.0.0 2026-04-11
+
+     *
+
+     * @since v1.0.0 2026-04-11
+
+     * @return void
+
      */
     public function __construct()
     {
@@ -93,12 +166,18 @@ class SelectEditJSHandler extends HtmlElement
     }
 
     /**
+
      * Set the form ID prefix for field resolution
-     * 
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
+     * @param mixed $prefix
+
      * @return SelectEditJSHandler Fluent interface
- * @param mixed $prefix
- * @since v1.0.5 2026-04-14
- */
+
+     */
 public function setFormIdPrefix($prefix)
     {
         $this->formIdPrefix = $prefix;
@@ -106,11 +185,17 @@ public function setFormIdPrefix($prefix)
     }
 
     /**
+
      * Set the field names/IDs to populate
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @param array $fields Associative array mapping parameter names to form field IDs
+
      * @return SelectEditJSHandler Fluent interface
- * @since v1.0.0 2026-04-13
+
      */
     public function setFieldNames(array $fields)
     {
@@ -119,13 +204,20 @@ public function setFormIdPrefix($prefix)
     }
 
     /**
+
      * Add a field to the field mapping
-     * 
+
+     *
+
+     * @since v1.0.5 2026-04-14
+
+     * @param mixed $paramName
+
+     * @param mixed $fieldId
+
      * @return SelectEditJSHandler Fluent interface
- * @param mixed $paramName
- * @param mixed $fieldId
- * @since v1.0.5 2026-04-14
- */
+
+     */
 public function addField($paramName, $fieldId)
     {
         $this->fieldNames[$paramName] = $fieldId;
@@ -133,10 +225,15 @@ public function addField($paramName, $fieldId)
     }
 
     /**
+
      * Generate the JavaScript handler function
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @return string The complete JavaScript function
- * @since v1.0.0 2026-04-13
+
      */
     protected function generateJSFunction()
     {
@@ -166,10 +263,15 @@ public function addField($paramName, $fieldId)
     }
 
     /**
+
      * Generate the HTML representation (script tag with function)
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
      * @return string
- * @since v1.0.0 2026-04-13
+
      */
     public function getHtml(): string
     {

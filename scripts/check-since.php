@@ -6,7 +6,8 @@
 // Exits 0 if all good (warnings allowed when lenient), non-zero on fatal errors.
 
 // Load config (repo root: one level up from scripts/)
-$configPath = dirname(__DIR__) . '/.sincecheck.json';
+$root = dirname(__DIR__);
+$configPath = $root . '/.sincecheck.json';
 $DEFAULT_CONFIG = [
     'lenient' => false,
     'allow_missing_docblock' => false,
@@ -28,7 +29,7 @@ if (file_exists($configPath)) {
 }
 
 /**
-	 * Function getStagedFiles
+	 * getStagedFiles()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @return array
@@ -44,7 +45,7 @@ function getStagedFiles(): array {
 }
 
 /**
-	 * Function getStagedFileContent
+	 * getStagedFileContent()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param string $path
@@ -64,7 +65,7 @@ function getStagedFileContent(string $path): ?string {
 }
 
 /**
-	 * Function containsSince
+	 * containsSince()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param string $docblock
@@ -78,7 +79,7 @@ function containsSince(string $docblock): bool {
 }
 
 /**
-	 * Function containsParam
+	 * containsParam()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param string $docblock
@@ -89,7 +90,7 @@ function containsParam(string $docblock): bool {
 }
 
 /**
-	 * Function containsReturn
+	 * containsReturn()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param string $docblock
@@ -100,7 +101,7 @@ function containsReturn(string $docblock): bool {
 }
 
 /**
-	 * Function countParamTags
+	 * countParamTags()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param string $docblock
@@ -114,7 +115,7 @@ function countParamTags(string $docblock): int {
 }
 
 /**
-	 * Function parseParamTags
+	 * parseParamTags()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param string $docblock
@@ -131,7 +132,7 @@ function parseParamTags(string $docblock): array {
 }
 
 /**
-	 * Function normalizeType
+	 * normalizeType()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param ?string $t
@@ -146,7 +147,7 @@ function normalizeType(?string $t): string {
 }
 
 /**
-	 * Function parseReturnTag
+	 * parseReturnTag()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param string $docblock
@@ -160,7 +161,7 @@ function parseReturnTag(string $docblock): ?string {
 }
 
 /**
-	 * Function splitTypes
+	 * splitTypes()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param string $type
@@ -179,7 +180,7 @@ function splitTypes(string $type): array {
 }
 
 /**
-	 * Function compareTypes
+	 * compareTypes()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param string $sigType
@@ -193,7 +194,7 @@ function compareTypes(string $sigType, string $tagType): bool {
 }
 
 /**
-	 * Function checkContent
+	 * checkContent()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param string $content
@@ -403,23 +404,32 @@ foreach ($phpFiles as $file) {
     if (!empty($result['warnings'])) $allWarnings = array_merge($allWarnings, $result['warnings']);
 }
 
+// Build report string (also write to file for reliable consumption)
+$report = '';
 if (!empty($allErrors) || !empty($allWarnings)) {
     if (!empty($allErrors)) {
-        echo "ERROR: Missing or malformed docblocks detected:\n\n";
+        $report .= "ERROR: Missing or malformed docblocks detected:\n\n";
         foreach ($allErrors as $e) {
-            echo "- {$e['path']}:{$e['line']} — {$e['entity']}: {$e['message']}\n";
+            $report .= "- {$e['path']}:{$e['line']} — {$e['entity']}: {$e['message']}\n";
         }
     }
     if (!empty($allWarnings)) {
-        echo "\nWARNING: Issues found (lenient config allows these but review recommended):\n\n";
+        $report .= "\nWARNING: Issues found (lenient config allows these but review recommended):\n\n";
         foreach ($allWarnings as $w) {
-            echo "- {$w['path']}:{$w['line']} — {$w['entity']}: {$w['message']}\n";
+            $report .= "- {$w['path']}:{$w['line']} — {$w['entity']}: {$w['message']}\n";
         }
     }
-    echo "\nRequirements:\n";
-    echo "- Add a PHPDoc docblock immediately above the entity declaring @since vX.Y.Z YYYY-MM-DD\n";
-    echo "Example:\n";
-    echo "/**\n * Brief description.\n *\n * @since v1.2.0 2026-04-11\n * @param string \$name\n * @return void\n */\nfunction example() {}\n";
+    $report .= "\nRequirements:\n";
+    $report .= "- Add a PHPDoc docblock immediately above the entity declaring @since vX.Y.Z YYYY-MM-DD\n";
+    $report .= "Example:\n";
+    $report .= "/**\n * Brief description.\n *\n * @since v1.2.0 2026-04-11\n * @param string \$name\n * @return void\n */\nfunction example() {}\n";
+}
+
+// Write report to root .since-check-output.txt for programmatic inspection
+@file_put_contents($root . DIRECTORY_SEPARATOR . '.since-check-output.txt', $report);
+
+if (!empty($report)) {
+    echo $report;
 }
 
 if (!empty($allErrors)) {

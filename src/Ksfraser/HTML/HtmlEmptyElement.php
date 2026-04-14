@@ -7,23 +7,36 @@ use Ksfraser\HTML\HtmlElementInterface;
 use Ksfraser\HTML\Elements\HtmlString;
 
 /**
+
  * HTML Empty Element
+
  *
+
+ * 
+
  * Empty elements have no content and no closing tag.
+
  * Examples: <input>, <br>, <hr>, <img>
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML
+
  * @since 1.0.1 2026-02-16
+
+ * @package Ksfraser\HTML
+
  */
 class HtmlEmptyElement extends HtmlElement
 {
 /**
-	 * Function __construct
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param mixed $data
-	 * @return void
+ * __construct()
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
  */
 	function __construct( $data = null )
 	{

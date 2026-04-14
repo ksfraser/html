@@ -3,23 +3,41 @@
 namespace Ksfraser\HTML\Crud;
 
 /**
+
  * CRUD descriptor adapter for a single schema array.
+
  *
+
+ * 
+
  * Normalizes schema descriptors into CrudField objects.
+
+ * 
+
  *
+
  * @since 1.0.1 2026-02-16
+
  */
 class SchemaArrayCrudDescriptor
 {
-    /** @var array */
+    /**
+     *
+     */
     private $schema;
 
     /**
+
      * Constructor
+
      *
-     * @param array $schema
+
      * @since 1.0.1 2026-02-16
- * @return void
+
+     * @param array $schema
+
+     * @return void
+
      */
     public function __construct(array $schema)
     {
@@ -27,10 +45,15 @@ class SchemaArrayCrudDescriptor
     }
 
     /**
+
      * Get the title for the schema
+
      *
-     * @return string
+
      * @since v1.0.0 2026-04-13
+
+     * @return string
+
      */
     public function getTitle(): string
     {
@@ -44,10 +67,15 @@ class SchemaArrayCrudDescriptor
     }
 
     /**
+
      * Get table name
+
      *
-     * @return string
+
      * @since v1.0.0 2026-04-13
+
+     * @return string
+
      */
     public function getTable(): string
     {
@@ -55,10 +83,15 @@ class SchemaArrayCrudDescriptor
     }
 
     /**
+
      * Get primary key name
+
      *
+
      * @since v1.0.0 2026-04-13
- * @return ?string
+
+     * @return ?string
+
      */
     public function getPrimaryKey(): ?string
     {
@@ -69,10 +102,15 @@ class SchemaArrayCrudDescriptor
     }
 
     /**
+
      * Get field descriptors
+
      *
+
      * @since v1.0.0 2026-04-13
- * @return array
+
+     * @return array
+
      */
     public function getFields(): array
     {
@@ -134,10 +172,15 @@ class SchemaArrayCrudDescriptor
     }
 
     /**
+
      * Get list columns
+
      *
+
      * @since v1.0.0 2026-04-13
- * @return array
+
+     * @return array
+
      */
     public function getListColumns(): array
     {
@@ -171,12 +214,19 @@ class SchemaArrayCrudDescriptor
     }
 
     /**
+
      * Infer input widget
+
      *
+
+     * @since v1.0.5 2026-04-14
+
      * @param mixed $name
+
      * @param mixed $sqlType
+
      * @return string
- * @since v1.0.5 2026-04-14
+
      */
     private function inferInputType($name, $sqlType): string
     {

@@ -3,10 +3,19 @@
 namespace Ksfraser\HTML\CSS;
 
 /**
+
  * CSSManager - Centralized CSS management with dependency injection support
- * Supports themes/skins and provides injectable CSS providers
+
  *
+
+ * Supports themes/skins and provides injectable CSS providers
+
+ * 
+
+ *
+
  * @since v1.0.0 2025-09-08
+
  */
 class CSSManager {
     private static $currentTheme = 'default';
@@ -14,50 +23,84 @@ class CSSManager {
     private static $cssProviders = [];
     
     /**
+    
      * Register a CSS provider for dependency injection
- * @return void
- * @param mixed $name
- * @param mixed $provider
- * @since v1.0.0 2025-09-08
- */
+    
+     *
+    
+     * @since v1.0.0 2025-09-08
+    
+     * @param mixed $name
+    
+     * @param mixed $provider
+    
+     * @return void
+    
+     */
 public static function registerProvider($name, $provider) {
         self::$cssProviders[$name] = $provider;
     }
     
     /**
+    
      * Get a registered CSS provider
- * @return void
- * @param mixed $name
- * @since v1.0.5 2026-04-14
- */
+    
+     *
+    
+     * @since v1.0.5 2026-04-14
+    
+     * @param mixed $name
+    
+     * @return void
+    
+     */
 public static function getProvider($name) {
         return self::$cssProviders[$name] ?? null;
     }
     
     /**
+    
      * Set the current theme
- * @return void
- * @param mixed $theme
- * @since v1.0.5 2026-04-14
- */
+    
+     *
+    
+     * @since v1.0.5 2026-04-14
+    
+     * @param mixed $theme
+    
+     * @return void
+    
+     */
 public static function setTheme($theme = 'default') {
         self::$currentTheme = $theme;
         self::$cssCache = []; // Clear cache when theme changes
     }
     
     /**
+    
      * Get the current theme
- * @return void
- * @since v1.0.0 2026-04-13
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
+     * @return void
+    
      */
     public static function getCurrentTheme() {
         return self::$currentTheme;
     }
     
     /**
+    
      * Get all CSS for the application (includes NavigationManager CSS)
- * @return void
- * @since v1.0.0 2026-04-13
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
+     * @return void
+    
      */
     public static function getAllCSS() {
         $cacheKey = 'all_css_' . self::$currentTheme;
@@ -94,9 +137,15 @@ public static function setTheme($theme = 'default') {
     }
     
     /**
+    
      * Get base/reset CSS
- * @return void
- * @since v1.0.0 2026-04-13
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
+     * @return void
+    
      */
     public static function getBaseCSS() {
         return '
@@ -124,9 +173,15 @@ public static function setTheme($theme = 'default') {
     }
     
     /**
+    
      * Get navigation CSS
- * @return void
- * @since v1.0.0 2026-04-13
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
+     * @return void
+    
      */
     public static function getNavigationCSS() {
         return '
@@ -178,9 +233,15 @@ public static function setTheme($theme = 'default') {
     }
     
     /**
+    
      * Get form CSS
- * @return void
- * @since v1.0.0 2026-04-13
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
+     * @return void
+    
      */
     public static function getFormCSS() {
         return '
@@ -223,9 +284,15 @@ public static function setTheme($theme = 'default') {
     }
     
     /**
+    
      * Get table CSS
- * @return void
- * @since v1.0.0 2026-04-13
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
+     * @return void
+    
      */
     public static function getTableCSS() {
         return '
@@ -255,9 +322,15 @@ public static function setTheme($theme = 'default') {
     }
     
     /**
+    
      * Get card/section CSS
- * @return void
- * @since v1.0.0 2026-04-13
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
+     * @return void
+    
      */
     public static function getCardCSS() {
         return '
@@ -298,9 +371,15 @@ public static function setTheme($theme = 'default') {
     }
     
     /**
+    
      * Get utility CSS (buttons, alerts, etc.)
- * @return void
- * @since v1.0.0 2026-04-13
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
+     * @return void
+    
      */
     public static function getUtilityCSS() {
         return '
@@ -388,9 +467,15 @@ public static function setTheme($theme = 'default') {
     }
     
     /**
+    
      * Get theme-specific CSS
- * @return void
- * @since v1.0.0 2026-04-13
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
+     * @return void
+    
      */
     public static function getThemeCSS() {
         switch (self::$currentTheme) {
@@ -404,9 +489,15 @@ public static function setTheme($theme = 'default') {
     }
     
     /**
+    
      * Get dark theme CSS
- * @return void
- * @since v1.0.0 2026-04-13
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
+     * @return void
+    
      */
     private static function getDarkThemeCSS() {
         return '
@@ -432,9 +523,15 @@ public static function setTheme($theme = 'default') {
     }
     
     /**
+    
      * Get light theme CSS
- * @return void
- * @since v1.0.0 2026-04-13
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
+     * @return void
+    
      */
     private static function getLightThemeCSS() {
         return '
@@ -451,18 +548,30 @@ public static function setTheme($theme = 'default') {
     }
     
     /**
+    
      * Render CSS in a style tag
- * @return void
- * @since v1.0.0 2026-04-13
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
+     * @return void
+    
      */
     public static function renderCSS() {
         echo '<style>' . self::getAllCSS() . '</style>';
     }
     
     /**
+    
      * Get CSS as a string (for inline use)
- * @return void
- * @since v1.0.0 2026-04-13
+    
+     *
+    
+     * @since v1.0.0 2026-04-13
+    
+     * @return void
+    
      */
     public static function getCSS() {
         return self::getAllCSS();

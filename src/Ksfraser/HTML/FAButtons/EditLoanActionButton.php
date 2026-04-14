@@ -4,22 +4,35 @@ namespace Ksfraser\HTML\FAButtons;
 use Ksfraser\HTML\Button\Button;
 
 /**
+
  * EditLoanActionButton - Encapsulates edit button for loan rows
+
  *
+
+ * 
+
  * SRP: Encapsulate the specific configuration for edit button in loan summaries.
+
  * Takes variable parts (loanId) and applies fixed configuration (onclick handler, styling).
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Buttons
+
  * @since 1.0.1 2026-02-16
+
+ * @package Ksfraser\HTML\Buttons
+
  */
 class EditLoanActionButton extends Button {
     /**
      * Build edit loan action button
-     * 
+     *
+     * @since 1.0.1 2026-02-16
      * @param mixed $loanId The loan ID
      * @return Button
- * @since 1.0.1 2026-02-16
      */
     public function build($loanId): Button {
         return $this

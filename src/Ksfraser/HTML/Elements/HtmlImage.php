@@ -7,9 +7,13 @@ use Ksfraser\HTML\HtmlElementInterface;
 use Ksfraser\HTML\Elements\HtmlString;
 
 /**
+
  * class HtmlImage
+
  *
+
  * @since v1.0.0 2026-04-11
+
  */
 class HtmlImage extends HtmlElement
 {
@@ -38,22 +42,22 @@ class HtmlImage extends HtmlElement
 		$this->tag = "img";
 	}
 /**
-	 * Function setSrc
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param mixed $src
-	 * @return void
+ * setSrc()
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return void
  */
 	function setSrc( $src )
 	{
 		$this->addAttributeObject( new \Ksfraser\HTML\HtmlAttribute( "src", $src ) );
 	}
 /**
-	 * Function setAlt
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param mixed $alt
-	 * @return void
+ * setAlt()
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $alt
+ * @return void
  */
 	function setAlt( $alt )
 	{
@@ -63,34 +67,34 @@ class HtmlImage extends HtmlElement
 	//	However stylesheets can be used to change the size
 	//	except when we use STYLE (see set size below)
 /**
-	 * Function setHeight
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param mixed $height
-	 * @return void
+ * setHeight()
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $height
+ * @return void
  */
 	function setHeight( $height )
 	{
 		$this->addAttributeObject( new \Ksfraser\HTML\HtmlAttribute( "height", $height ) );
 	}
 /**
-	 * Function setWidth
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param mixed $width
-	 * @return void
+ * setWidth()
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @return void
  */
 	function setWidth( $width )
 	{
 		$this->addAttributeObject( new \Ksfraser\HTML\HtmlAttribute( "width", $width ) );
 	}
 /**
-	 * Function setSize
-	 *
-	 * @since v1.0.0 2026-04-14
-	 * @param int $width
-	 * @param int $height
-	 * @return void
+ * setSize()
+ *
+ * @since v1.0.0 2026-04-14
+ * @param int $width
+ * @param int $height
+ * @return void
  */
 	function setSize( int $width, int $height )
 	{

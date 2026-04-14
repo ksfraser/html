@@ -4,22 +4,35 @@ namespace Ksfraser\HTML\ScriptHandlers;
 use Ksfraser\HTML\Elements\HtmlScript;
 
 /**
+
  * InterestFreqScriptHandler - Script setup for interest frequency operations
+
  *
+
+ * 
+
  * SRP: Single responsibility of building interest frequency handler scripts.
+
  * Returns handler class loader and event listener setup.
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\ScriptHandlers
+
  * @since 1.0.1 2026-02-16
+
+ * @package Ksfraser\HTML\ScriptHandlers
+
  */
 class InterestFreqScriptHandler extends BaseScriptHandler {
     /**
      * Build handler scripts
-     * 
- * @return array
- * @since 1.0.1 2026-02-16
- */
+     *
+     * @since 1.0.1 2026-02-16
+     * @return array
+     */
 public function build(): array {
         return [
             // Load handler classes
@@ -32,11 +45,17 @@ public function build(): array {
     }
 
     /**
+
      * Get inline event listener code
-     * 
+
+     *
+
+     * @since v1.0.0 2026-04-13
+
+     * @private 
+
      * @return string
-     * @private
- * @since v1.0.0 2026-04-13
+
      */
     private function getEventListeners(): string {
         return <<<'JS'

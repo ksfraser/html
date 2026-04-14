@@ -53,7 +53,7 @@ if (!defined('KSF_FIELD_NOT_SET')) {
 
 if (!function_exists('_')) {
 /**
-	 * Function _
+	 * _()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param mixed $s
@@ -103,7 +103,7 @@ foreach ([
 // Minimal DB API stubs used by VIEW::display_table_with_edit()
 if (!function_exists('db_prepare')) {
 /**
-	 * Function db_prepare
+	 * db_prepare()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param mixed $sql
@@ -113,7 +113,7 @@ if (!function_exists('db_prepare')) {
 }
 if (!function_exists('db_execute')) {
 /**
-	 * Function db_execute
+	 * db_execute()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param mixed $stmt
@@ -123,7 +123,7 @@ if (!function_exists('db_execute')) {
 }
 if (!function_exists('db_fetch')) {
 /**
-	 * Function db_fetch
+	 * db_fetch()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param mixed $stmt
@@ -133,7 +133,7 @@ if (!function_exists('db_fetch')) {
 }
 if (!function_exists('db_fetch_assoc')) {
 /**
-	 * Function db_fetch_assoc
+	 * db_fetch_assoc()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param mixed $stmt
@@ -143,7 +143,7 @@ if (!function_exists('db_fetch_assoc')) {
 }
 if (!function_exists('db_bind_param')) {
 /**
-	 * Function db_bind_param
+	 * db_bind_param()
 	 *
 	 * @since v1.0.0 2026-04-14
 	 * @param mixed $stmt

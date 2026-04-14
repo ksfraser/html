@@ -4,24 +4,37 @@ namespace Ksfraser\HTML\Cells;
 use Ksfraser\HTML\Elements\TableData;
 
 /**
+
  * EditableLoanBorrowerCell - Encapsulates borrower cell configuration for loan rows
+
  *
+
+ * 
+
  * SRP: Encapsulate the specific configuration for editable borrower cells in loan summaries.
+
  * Takes variable parts (loanId, rowPrefix, value) and applies fixed configuration.
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Cells
+
  * @since 1.0.1 2026-02-16
+
+ * @package Ksfraser\HTML\Cells
+
  */
 class EditableLoanBorrowerCell extends BorrowerTableCell {
     /**
      * Build editable loan borrower cell
-     * 
+     *
+     * @since 1.0.1 2026-02-16
      * @param mixed $value The borrower value
      * @param mixed $loanId The loan ID
      * @param string $rowPrefix The row prefix for cell ID generation
      * @return TableData
- * @since 1.0.1 2026-02-16
      */
     public function buildEditable($value, $loanId, string $rowPrefix): TableData {
         $this->setId("borrower-cell-{$rowPrefix}")

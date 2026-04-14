@@ -4,22 +4,35 @@ namespace Ksfraser\HTML\FAButtons;
 use Ksfraser\HTML\Button\Button;
 
 /**
+
  * EditTypeActionButton - Encapsulates edit button for loan type rows
+
  *
+
+ * 
+
  * SRP: Encapsulate the specific configuration for edit button in loan type tables.
+
  * Takes variable parts (typeId) and applies fixed configuration (onclick handler, styling).
+
+ * 
+
+ * 
+
  *
- *
- * @package Ksfraser\HTML\Buttons
+
  * @since 1.0.1 2026-02-16
+
+ * @package Ksfraser\HTML\Buttons
+
  */
 class EditTypeActionButton extends Button {
     /**
      * Build edit type action button
-     * 
+     *
+     * @since 1.0.1 2026-02-16
      * @param mixed $typeId The type ID
      * @return Button
- * @since 1.0.1 2026-02-16
      */
     public function build($typeId): Button {
         return $this
