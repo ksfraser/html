@@ -14,11 +14,11 @@ class HtmlTitle extends HtmlElement
 	//can have styles
 	//Only belongs in the HEAD
 /**
- * __construct
- *
- * @since v1.0.5 2026-04-14
- * @param HtmlElementInterface $data
- * @return void
+	 * Function __construct
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param HtmlElementInterface $data
+	 * @return void
  */
 	function __construct( HtmlElementInterface $data )
 	{

@@ -1,10 +1,10 @@
 <?php
 /**
- * runCmdArr
- *
- * @since v1.0.5 2026-04-14
- * @param array $argv
- * @return void
+	 * Function runCmdArr
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param array $argv
+	 * @return void
  */
 function runCmdArr(array $argv) {
     $cmdDisplay = implode(' ', array_map(function($a){ return is_scalar($a)?$a:'<arg>'; }, $argv));

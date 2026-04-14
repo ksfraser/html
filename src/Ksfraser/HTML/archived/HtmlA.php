@@ -47,26 +47,14 @@ use Ksfraser\HTML\HtmlElementInterface;
  */
 class HtmlA extends HtmlLink
 {
-	/**
-	 * Create a link with URL and content in one step
-	 * 
-	 *        - HtmlElementInterface: most HTML elements (text, image, div, span, etc.)
-	 *        - string: will be wrapped in HtmlString
-	 *        - null: URL will be used as link text
-	 * 
-	 * HTML5 allows most content inside <a> tags EXCEPT nested <a> tags.
-	 * This constructor validates direct nesting only - it cannot detect nested
-	 * links inside complex elements (e.g., HtmlDiv containing HtmlA).
-	 * 
-	 * Valid examples: HtmlString, HtmlRawString, HtmlImage, HtmlDiv, HtmlSpan
-	 * Invalid: HtmlA, HtmlEmail, HtmlLink (direct nesting only)
-	 * 
-	 * @throws \Exception if content type is invalid or is a direct nested link
- * @param string $url
- * @param mixed $linkContent
- * @return void
- * @since 1.0.1 2026-02-16
-	 */
+/**
+	 * Function __construct
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param string $url
+	 * @param mixed $linkContent
+	 * @return void
+ */
 	function __construct( string $url, $linkContent = null )
 	{
 		// Handle different content types

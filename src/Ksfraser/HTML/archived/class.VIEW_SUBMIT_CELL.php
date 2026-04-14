@@ -22,19 +22,19 @@ class VIEW_SUBMIT_CELL extends VIEW_CELL
 	protected $submit_label;
 	protected $submit_action;
 /**
- * __construct
- *
- * @since v1.0.5 2026-04-14
- * @return void
+	 * Function __construct
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
  */
 	function __construct()
 	{
 	}
 /**
- * __toString
- *
- * @since v1.0.0 2025-04-23
- * @return void
+	 * Function __toString
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
  */
 	function __toString()	
 	{

@@ -16,19 +16,15 @@ use Ksfraser\HTML\HtmlElementInterface;
  */
 class HtmlEmail extends HtmlA
 {
-	/**
-	 * Create an email link
-	 * 
-	 *        - HtmlElementInterface: any HTML element (text, image, etc.)
-	 *        - string: will be wrapped in HtmlString
-	 *        - null: email address will be used as link text
-	 * @throws \Exception if email is invalid or content type is invalid
- * @param string $emailAddress
- * @param mixed $linkContent
- * @param bool $validateEmail
- * @return void
- * @since 1.0.1 2026-02-16
-	 */
+/**
+	 * Function __construct
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param string $emailAddress
+	 * @param mixed $linkContent
+	 * @param bool $validateEmail
+	 * @return void
+ */
 	function __construct( string $emailAddress, $linkContent = null, bool $validateEmail = true )
 	{
 		// Validate email address if requested

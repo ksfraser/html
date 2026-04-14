@@ -183,24 +183,24 @@ class HtmlElement implements HtmlElementInterface {
         $this->empty = false;
     }
 
-    /**
-     * Initialize a new attribute list
-     * 
-     * @return void
- * @since v1.0.0 2026-04-13
-     */
+/**
+	 * Function newAttributeList
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
+ */
     function newAttributeList(): void
     {
         $this->attributeList = new HtmlAttributeList();
     }
     
-    /**
-     * Add a nested child element
-     * 
-     * @param HtmlElementInterface $element Element to nest
-     * @return self (Fluent interface)
- * @since v1.0.0 2026-04-13
-     */
+/**
+	 * Function addNested
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param HtmlElementInterface $element
+	 * @return self
+ */
     function addNested(HtmlElementInterface $element): self
     {
         $this->nested[] = $element;
@@ -255,26 +255,26 @@ class HtmlElement implements HtmlElementInterface {
         return $this;
     }
 
-    /**
-     * Set the entire attribute list
-     * 
-     * @param HtmlAttributeList $list New attribute list
-     * @return self (Fluent interface)
- * @since v1.0.0 2026-04-13
-     */
+/**
+	 * Function setAttributeList
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param HtmlAttributeList $list
+	 * @return self
+ */
     function setAttributeList(HtmlAttributeList $list): self
     {
         $this->attributeList = $list;
 	    return $this;
     }
     
-    /**
-     * Set the HTML tag name
-     * 
-     * @param string $tag Tag name (lowercase for XHTML compliance)
-     * @return self (Fluent interface)
- * @since v1.0.0 2026-04-13
-     */
+/**
+	 * Function setTag
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param string $tag
+	 * @return self
+ */
     function setTag(string $tag): self
     {
         $this->tag = strtolower($tag); // XHTML requires lowercase

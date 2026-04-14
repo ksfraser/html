@@ -14,11 +14,11 @@ if ($rc !== 0) {
 }
 
 /**
- * parseParamsString
- *
- * @since v1.0.5 2026-04-14
- * @param string $s
- * @return array
+	 * Function parseParamsString
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param string $s
+	 * @return array
  */
 function parseParamsString(string $s): array {
     $params = [];
@@ -41,11 +41,11 @@ function parseParamsString(string $s): array {
 }
 
 /**
- * extractParamInfo
- *
- * @since v1.0.5 2026-04-14
- * @param string $p
- * @return array
+	 * Function extractParamInfo
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param string $p
+	 * @return array
  */
 function extractParamInfo(string $p): array {
     // remove default value after =
@@ -64,13 +64,13 @@ function extractParamInfo(string $p): array {
 }
 
 /**
- * ensureDocblock
- *
- * @since v1.0.5 2026-04-14
- * @param array $lines
- * @param int $insertAt
- * @param array $blockLines
- * @return array
+	 * Function ensureDocblock
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param array $lines
+	 * @param int $insertAt
+	 * @param array $blockLines
+	 * @return array
  */
 function ensureDocblock(array $lines, int $insertAt, array $blockLines): array {
     // insert blockLines (array of strings) before line index insertAt
@@ -80,11 +80,11 @@ function ensureDocblock(array $lines, int $insertAt, array $blockLines): array {
 }
 
 /**
- * parseDocblock
- *
- * @since v1.0.5 2026-04-14
- * @param array $blockLines
- * @return array
+	 * Function parseDocblock
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param array $blockLines
+	 * @return array
  */
 function parseDocblock(array $blockLines): array {
     $desc = [];
@@ -116,14 +116,14 @@ function parseDocblock(array $blockLines): array {
 }
 
 /**
- * buildDocblockLines
- *
- * @since v1.0.5 2026-04-14
- * @param array $parsed
- * @param ?string $sinceTag
- * @param array $paramTags
- * @param ?string $returnTag
- * @return array
+	 * Function buildDocblockLines
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param array $parsed
+	 * @param ?string $sinceTag
+	 * @param array $paramTags
+	 * @param ?string $returnTag
+	 * @return array
  */
 function buildDocblockLines(array $parsed, ?string $sinceTag, array $paramTags, ?string $returnTag): array {
     $out = [];
@@ -152,12 +152,12 @@ function buildDocblockLines(array $parsed, ?string $sinceTag, array $paramTags, 
 }
 
 /**
- * findAdjacentDocblock
- *
- * @since v1.0.5 2026-04-14
- * @param array $lines
- * @param int $index
- * @return array
+	 * Function findAdjacentDocblock
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param array $lines
+	 * @param int $index
+	 * @return array
  */
 function findAdjacentDocblock(array $lines, int $index): array {
     // Returns [hasDoc (bool), docStart|null, docEnd|null]
@@ -213,15 +213,15 @@ if (is_file($suggestionsPath)) {
 }
 
 /**
- * getSinceTagFor
- *
- * @since v1.0.5 2026-04-14
- * @param string $fileRel
- * @param string $name
- * @param string $defaultVersion
- * @param string $defaultDate
- * @param array $suggestMap
- * @return string
+	 * Function getSinceTagFor
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param string $fileRel
+	 * @param string $name
+	 * @param string $defaultVersion
+	 * @param string $defaultDate
+	 * @param array $suggestMap
+	 * @return string
  */
 function getSinceTagFor(string $fileRel, string $name, string $defaultVersion, string $defaultDate, array $suggestMap): string {
     if (isset($suggestMap[$fileRel]) && isset($suggestMap[$fileRel][$name])) {
@@ -404,11 +404,11 @@ echo "Done. Updated {$updated} files.\n";
 
 // Helper functions reused from checker
 /**
- * normalizeType
- *
- * @since v1.0.5 2026-04-14
- * @param ?string $t
- * @return string
+	 * Function normalizeType
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param ?string $t
+	 * @return string
  */
 function normalizeType(?string $t): string {
     if ($t === null) return '';
@@ -419,11 +419,11 @@ function normalizeType(?string $t): string {
 }
 
 /**
- * splitTypes
- *
- * @since v1.0.5 2026-04-14
- * @param string $type
- * @return array
+	 * Function splitTypes
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param string $type
+	 * @return array
  */
 function splitTypes(string $type): array {
     $parts = preg_split('/\|/', $type);
@@ -438,12 +438,12 @@ function splitTypes(string $type): array {
 }
 
 /**
- * compareTypes
- *
- * @since v1.0.5 2026-04-14
- * @param string $sigType
- * @param string $tagType
- * @return bool
+	 * Function compareTypes
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param string $sigType
+	 * @param string $tagType
+	 * @return bool
  */
 function compareTypes(string $sigType, string $tagType): bool {
     $sigParts = splitTypes($sigType);

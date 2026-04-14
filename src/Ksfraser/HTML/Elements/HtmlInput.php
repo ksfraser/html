@@ -45,14 +45,14 @@ class HtmlInput extends HtmlEmptyElement
 	 */
 	protected $type;
 
-	/**
-	 * Constructor for HtmlInput
+/**
+	 * Function __construct
 	 *
-	 * @param HtmlElementInterface $data (ignored, for consistency)
-	 * @param string $type The input type (text, password, email, etc.)
- * @return void
- * @since v1.0.0 2026-04-11
-	 */
+	 * @since v1.0.0 2026-04-14
+	 * @param HtmlElementInterface $data
+	 * @param string $type
+	 * @return void
+ */
 	function __construct( HtmlElementInterface $data = null, string $type = "text" )
 	{
 		parent::__construct($data);

@@ -15,10 +15,10 @@ class VIEW_ROW extends origin
 	protected $row_data;
 	protected $row_class;
 /**
- * __construct
- *
- * @since v1.0.5 2026-04-14
- * @return void
+	 * Function __construct
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
  */
 	function __construct()
 	{
@@ -26,10 +26,10 @@ class VIEW_ROW extends origin
 		$this->row_item_array = array();
 	}
 /**
- * __toString
- *
- * @since v1.0.0 2025-04-23
- * @return void
+	 * Function __toString
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
  */
 	function __toString()
 	{
@@ -41,20 +41,20 @@ class VIEW_ROW extends origin
 		$this->end_row();
 	}
 /**
- * start_row
- *
- * @since v1.0.0 2025-04-23
- * @return void
+	 * Function start_row
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
  */
 	function start_row()
 	{
 		start_row();
 	}
 /**
- * end_row
- *
- * @since v1.0.0 2025-04-23
- * @return void
+	 * Function end_row
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
  */
 	function end_row()
 	{

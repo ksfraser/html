@@ -28,12 +28,12 @@ class HTML_ROW implements HtmlElementInterface
 	 */
 	protected $row;
 	
-	/**
-	 * Constructor
-	 * 
- * @param mixed $data
- * @return void
- * @since 1.0.1 2026-02-16
+/**
+	 * Function __construct
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $data
+	 * @return void
  */
 function __construct( $data )
 	{
@@ -41,12 +41,12 @@ function __construct( $data )
 		$this->row = new HtmlTableRow( $content );
 	}
 	
-	/**
-	 * Render the row to HTML output
-	 * 
+/**
+	 * Function toHTML
+	 *
+	 * @since v1.0.0 2026-04-14
 	 * @return void
- * @since v1.0.0 2026-04-13
-	 */
+ */
 	function toHTML(): void
 	{
 		$this->row->toHtml();

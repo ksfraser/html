@@ -18,10 +18,10 @@ class VIEW_TABLE extends origin
 	protected $table_width;
 	protected $table_style;
 /**
- * __construct
- *
- * @since v1.0.5 2026-04-14
- * @return void
+	 * Function __construct
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
  */
 	function __construct()
 	{
@@ -31,10 +31,10 @@ class VIEW_TABLE extends origin
 		$this->table_style = TABLESTYLE;
 	}
 /**
- * __toString
- *
- * @since v1.0.0 2025-04-23
- * @return void
+	 * Function __toString
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
  */
 	function __toString()
 	{
@@ -50,10 +50,10 @@ class VIEW_TABLE extends origin
 		$this->end_table();
 	}
 /**
- * end_table
- *
- * @since v1.0.0 2025-04-23
- * @return void
+	 * Function end_table
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
  */
 	function end_table()
 	{
@@ -67,10 +67,10 @@ class VIEW_TABLE extends origin
  * @return void
  * @since v1.0.5 2026-04-14
 /**
- * start_table
- *
- * @since v1.0.0 2025-04-23
- * @return void
+	 * Function start_table
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
  */
 	function start_table()
 	{
@@ -84,13 +84,13 @@ class VIEW_TABLE extends origin
  * @param mixed $value
  * @param mixed $enforce
 /**
- * set
- *
- * @since v1.0.0 2025-04-23
- * @param mixed $var
- * @param mixed $value
- * @param mixed $enforce
- * @return void
+	 * Function set
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $var
+	 * @param mixed $value
+	 * @param mixed $enforce
+	 * @return void
  */
 	function set( $var, $value = null, $enforce = true )
 	{

@@ -15,11 +15,11 @@ class HtmlTableCol extends HtmlElement
 {
 	//specify column properties within a column group
 /**
- * __construct
- *
- * @since v1.0.0 2026-04-13
- * @param ?HtmlElementInterface $data
- * @return void
+	 * Function __construct
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param ?HtmlElementInterface $data
+	 * @return void
  */
 	function __construct( ?HtmlElementInterface $data = null )
 	{

@@ -10,11 +10,11 @@ namespace Ksfraser\HTML\Formatting;
 class HtmlInserted extends HtmlFormatting
 {
 /**
- * __construct
- *
- * @since v1.0.0 2026-04-13
- * @param mixed $data
- * @return void
+	 * Function __construct
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $data
+	 * @return void
  */
     function __construct( $data )
     {

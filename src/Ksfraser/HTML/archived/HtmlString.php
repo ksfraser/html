@@ -12,11 +12,11 @@ use Ksfraser\HTML\HtmlElementInterface;
 class HtmlString implements HtmlElementInterface {
 	protected $string;
 /**
- * __construct
- *
- * @since v1.0.5 2026-04-14
- * @param mixed $string
- * @return void
+	 * Function __construct
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $string
+	 * @return void
  */
 	function __construct( $string )
 	{

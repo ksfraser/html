@@ -23,12 +23,12 @@ class HtmlAttribute implements HtmlElementInterface
 	protected $attribute;	//Key
 	protected $value;	//Value
 /**
- * __construct
- *
- * @since v1.0.0 2026-04-13
- * @param mixed $attribute
- * @param mixed $value
- * @return void
+	 * Function __construct
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $attribute
+	 * @param mixed $value
+	 * @return void
  */
 	function __construct( $attribute, $value )
 	{

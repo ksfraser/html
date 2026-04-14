@@ -36,14 +36,14 @@ class VIEW extends origin
     public $help_context;
     protected $table_style;		//!<integer def TABLESTYLE
 
-    /**
-     * VIEW constructor.
-     *
-     * @param mixed $client
-     * @param mixed $use_popup_window
-     * @return void
-     * @since v1.0.5 2026-04-14
-     */
+/**
+	 * Function __construct
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $client
+	 * @param mixed $use_popup_window
+	 * @return void
+ */
     function __construct($client = null, $use_popup_window = false)
     {
         $this->use_js();
@@ -63,23 +63,22 @@ class VIEW extends origin
         $this->add_submenu();
     }
 
-    /**
-     * Destructor.
-     *
-     * @return void
-     * @since v1.0.5 2026-04-14
-     */
+/**
+	 * Function __destruct
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
+ */
     function __destruct()
     {
     }
 
-    /**
-     * Render the page.
-     *
-     * @throws Exception If help context or JavaScript is not set.
-     * @return void
-     * @since v1.0.5 2026-04-14
-     */
+/**
+	 * Function Page
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
+ */
     function Page()
     {
         if (!isset($this->help_context)) {
@@ -98,16 +97,23 @@ class VIEW extends origin
      * @since v1.0.5 2026-04-14
      */
     function add_submenu()
+/**
+	 * Function add_submenu
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
+ */
     {
     }
 
     /**
      * Run the view with a specific action.
-     *
-     * @param mixed $action
-     *     * @return void
-     * @since v1.0.5 2026-04-14
-     */
+/**
+	 * Function backtrace
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
+ */
     function run($action)
     {
         $this->new_page($action);
@@ -127,6 +133,14 @@ class VIEW extends origin
     }
 /**
  * call_table
+/**
+	 * Function call_table
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $action
+	 * @param mixed $msg
+	 * @return void
+ */
  *
  * @since v1.0.0 2025-04-24
  * @param mixed $action
@@ -139,10 +153,24 @@ class VIEW extends origin
                 start_form(true);
                  start_table(TABLESTYLE2, "width=40%");
                  table_section_title( $msg );
+/**
+	 * Function display_error
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $error
+	 * @return void
+ */
                  hidden('action', $action );
                  end_table(1);
                  submit_center( $action, $msg );
                  end_form();
+/**
+	 * Function display_notification
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $msg
+	 * @return void
+ */
         //$this->notify( __METHOD__ . ":" . __LINE__ . " Exiting " . __METHOD__, "WARN" );
     }
 
@@ -150,6 +178,14 @@ class VIEW extends origin
  * display_error
  *
  * @since v1.0.0 2025-04-24
+/**
+	 * Function notify
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $msg
+	 * @param mixed $level
+	 * @return void
+ */
  * @param mixed $error
  * @return void
  */
@@ -157,6 +193,14 @@ class VIEW extends origin
     {
         display_error(_( $error ) );
     }
+/**
+	 * Function set_var
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $var
+	 * @param mixed $value
+	 * @return void
+ */
 /**
  * display_notification
  *
@@ -172,6 +216,14 @@ class VIEW extends origin
      * Test-safe logger hook.
      *
      * In a full FrontAccounting environment this would integrate with the
+/**
+	 * Function set
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $field
+	 * @param mixed $value
+	 * @return void
+ */
      * application logging/eventloop; for library tests it is a no-op.
  * @return void
  * @param mixed $msg
@@ -180,6 +232,13 @@ class VIEW extends origin
      */
     function notify( $msg = '', $level = 'DEBUG' )
     {
+/**
+	 * Function get
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $field
+	 * @return void
+ */
         return;
     }
 
@@ -188,16 +247,36 @@ class VIEW extends origin
      *
      * Origin::set_var enforces native class vars; legacy VIEW usage often treats
      * it like a generic container.
+/**
+	 * Function set_focus
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $field
+	 * @return void
+ */
  * @return void
  * @param mixed $var
  * @param mixed $value
  * @since v2.0.1 2026-04-14
+/**
+	 * Function new_page
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $action
+	 * @return void
+ */
      */
     function set_var( $var, $value )
     {
         if( property_exists( $this, $var ) )
         {
             $parent = get_parent_class($this);
+/**
+	 * Function new_form
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
+ */
             if ($parent !== false && method_exists($parent, 'set_var')) {
                 return parent::set_var( $var, $value );
             }
@@ -209,10 +288,22 @@ class VIEW extends origin
         return true;
     }
 
+/**
+	 * Function new_table
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
+ */
     /**
      * Minimal `set` implementation for test environment compatibility.
  * @return void
  * @param mixed $field
+/**
+	 * Function table_header
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
+ */
  * @param mixed $value
  * @since v2.0.1 2026-04-14
      */
@@ -221,6 +312,13 @@ class VIEW extends origin
         if (property_exists($this, $field)) {
             $this->$field = $value;
             return true;
+/**
+	 * Function db_pager
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $model
+	 * @return void
+ */
         }
         $this->container_arr[$field] = $value;
         return true;
@@ -229,6 +327,12 @@ class VIEW extends origin
     /**
      * Override get to fall back to container values.
  * @return void
+/**
+	 * Function db_result2rows
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
+ */
  * @param mixed $field
  * @since v2.0.1 2026-04-14
      */
@@ -269,6 +373,12 @@ class VIEW extends origin
  * new_form
  *
  * @since v1.0.0 2025-04-24
+/**
+	 * Function edit_table
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
+ */
  * @return void
  */
     function new_form()
@@ -299,18 +409,43 @@ class VIEW extends origin
  * @return void
  */
     function table_header()
+/**
+	 * Function end_table
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
+ */
     {
         //$this->header_row = array(_("Asset Type"),_("Asset Name"),_("Serial Number"), _("Purchase Date"),
         //				_("Purchase Value"), _("Current Value"), "", "", _("A"));
         inactive_control_column($this->header_row);
+/**
+	 * Function end_form
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
+ */
         table_header($this->header_row);
     }
 /**
  * db_pager
  *
+/**
+	 * Function end_page
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $action
+	 * @return void
+ */
  * @since v1.0.0 2025-04-24
  * @param mixed $model
  * @return void
+/**
+	 * Function use_js
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
+ */
  */
     function db_pager( $model )
     {
@@ -331,12 +466,27 @@ class VIEW extends origin
     {
         if( isset( $this->db_result ) )
         {
+/**
+	 * Function build_page
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $action
+	 * @return void
+ */
             $k = 0;
             while ($myrow = db_fetch($result))
             {
 			        alt_table_row_color($k);
 				foreach( $this->header_row as $col )
 				{
+/**
+	 * Function dropdown
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $label
+	 * @param mixed $choices_array
+	 * @return void
+ */
 					if( $this->col_type[$col] == "amount" )
 					{
 						amount_cell( $myrow[$col] );
@@ -350,18 +500,50 @@ class VIEW extends origin
 			        		edit_button_cell("Edit" . $myrow['_id'], _("Edit"));
 					}
 					else if( $this->col_type[$col] == "delete" )
+/**
+	 * Function bool
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $row
+	 * @param mixed $caller
+	 * @return void
+ */
 					{
 			        		delete_button_cell("Delete" . $myrow['_id'], _("Delete"));
 					}
 					else if( $this->col_type[$col] == "inactive" )
+/**
+	 * Function textrow
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $row
+	 * @param mixed $caller
+	 * @return void
+ */
 					{
 			        		inactive_control_cell($myrow["_id"], $myrow["inactive"], 'assets', '_id');
 					}
 					else
+/**
+	 * Function number
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $row
+	 * @param mixed $caller
+	 * @return void
+ */
 					{
 						label_cell( $myrow[$col] );
 					}
 				}
+/**
+	 * Function date
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $row
+	 * @param mixed $caller
+	 * @return void
+ */
 			        end_row();
             }
 
@@ -390,6 +572,12 @@ class VIEW extends origin
             else if( $this->col_type[$col] == "edit" )
             {
             }
+/**
+	 * Function master_form
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
+ */
             else if( $this->col_type[$col] == "delete" )
             {
             }
@@ -437,6 +625,16 @@ class VIEW extends origin
 /**
  * use_js
  *
+/**
+	 * Function display_table_with_edit
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $sql
+	 * @param mixed $headers
+	 * @param mixed $index
+	 * @param mixed $return_to
+	 * @return void
+ */
  * @since v1.0.0 2025-04-24
  * @return void
  */
@@ -482,6 +680,15 @@ class VIEW extends origin
     function dropdown( $label, $choices_array )
     {
         /*
+/**
+	 * Function display_edit_form
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $form_def
+	 * @param mixed $selected_id
+	 * @param mixed $return_to
+	 * @return void
+ */
           //Compare Combo
         *               global $sel;
         *               $sel = array(_("Accumulated"), _("Period Y-1"), _("Budget"));
@@ -532,6 +739,18 @@ class VIEW extends origin
  * date
  *
  * @since v1.0.0 2025-04-24
+/**
+	 * Function combo_list
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $sql
+	 * @param mixed $order_by_field
+	 * @param mixed $name
+	 * @param mixed $selected_id
+	 * @param mixed $none_option
+	 * @param mixed $submit_on_change
+	 * @return void
+ */
  * @param mixed $row
  * @param mixed $caller
  * @return void
@@ -546,6 +765,19 @@ class VIEW extends origin
                 echo combo_input("order_no2", $this->order_no, $sql, 'supp_name', 'order_no',
                         array(
                                 //'format' => '_format_add_curr',
+/**
+	 * Function combo_list_cells
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $sql
+	 * @param mixed $order_by_field
+	 * @param mixed $label
+	 * @param mixed $name
+	 * @param mixed $selected_id
+	 * @param mixed $none_option
+	 * @param mixed $submit_on_change
+	 * @return void
+ */
                                 'order' => array('order_no'),
                                 //'search_box' => $mode!=0,
                                 'type' => 1,
@@ -553,6 +785,26 @@ class VIEW extends origin
                                 //'spec_option' => $spec_option === true ? _("All Suppliers") : $spec_option,
                                 'spec_id' => $all_items,
                                 'select_submit'=> $submit_on_change,
+/**
+	 * Function combo_list_row
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $sql
+	 * @param mixed $order_by_field
+/**
+	 * Function fields_array2entry
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $fields_array
+	 * @return void
+ */
+	 * @param mixed $label
+	 * @param mixed $name
+	 * @param mixed $selected_id
+	 * @param mixed $none_option
+	 * @param mixed $submit_on_change
+	 * @return void
+ */
                                 'async' => false,
                                 //'sel_hint' => $mode ? _('Press Space tab to filter by name fragment') :
                                 //_('Select supplier'),

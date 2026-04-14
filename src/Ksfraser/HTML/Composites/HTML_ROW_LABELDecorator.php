@@ -16,14 +16,14 @@ class HTML_ROW_LABELDecorator implements HtmlElementInterface
 	protected $HTML_LABEL_ROW;
 
 /**
- * __construct
- *
- * @since v1.0.0 2026-04-13
- * @param mixed $data
- * @param mixed $label
- * @param mixed $width
- * @param mixed $class
- * @return void
+	 * Function __construct
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $data
+	 * @param mixed $label
+	 * @param mixed $width
+	 * @param mixed $class
+	 * @return void
  */
 	function __construct( $data, $label, $width = 25, $class = 'label' )
 	{

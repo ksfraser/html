@@ -22,22 +22,22 @@ class HtmlStyleList implements HtmlElementInterface
 {
 	protected $styleArray;
 /**
- * __constructor
- *
- * @since v1.0.5 2026-04-14
- * @param HtmlStyle $style
- * @return void
+	 * Function __constructor
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param HtmlStyle $style
+	 * @return void
  */
         function __constructor( HtmlStyle $style )
         {
                 $this->addStyle( $style );
         }
 /**
- * addStyle
- *
- * @since 1.0.1 2026-02-16
- * @param HtmlStyle $style
- * @return void
+	 * Function addStyle
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param HtmlStyle $style
+	 * @return void
  */
         function addStyle( HtmlStyle $style )
         {
@@ -54,10 +54,10 @@ class HtmlStyleList implements HtmlElementInterface
         }
  
 /**
- * getHtml
- *
- * @since 1.0.1 2026-02-16
- * @return void
+	 * Function getHtml
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
  */
 	function getHtml()
 	{

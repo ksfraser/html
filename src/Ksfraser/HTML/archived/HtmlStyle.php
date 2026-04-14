@@ -23,10 +23,10 @@ use Ksfraser\HTML\HtmlElementInterface;
 class HtmlStyle extends HtmlAttribute
 {
 /**
- * getHtml
- *
- * @since v1.0.5 2026-04-14
- * @return void
+	 * Function getHtml
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
  */
 	function getHtml()
 	{

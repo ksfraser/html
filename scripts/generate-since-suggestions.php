@@ -4,11 +4,11 @@
 // Output: since-entities.json in repo root.
 
 /**
- * runCmd
- *
- * @since v1.0.5 2026-04-14
- * @param string $cmd
- * @return void
+	 * Function runCmd
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param string $cmd
+	 * @return void
  */
 function runCmd(string $cmd) {
     // debug: print the command being executed
@@ -23,11 +23,11 @@ function runCmd(string $cmd) {
 
 // Run command using argument array to avoid shell interpretation (Windows)
 /**
- * runCmdArr
- *
- * @since v1.0.5 2026-04-14
- * @param array $argv
- * @return void
+	 * Function runCmdArr
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param array $argv
+	 * @return void
  */
 function runCmdArr(array $argv) {
     $cmdDisplay = implode(' ', array_map(function($a){ return is_scalar($a)?$a:'<arg>'; }, $argv));

@@ -18,15 +18,13 @@ use Ksfraser\HTML\Elements\HtmlString;
  */
 class HtmlEmptyElement extends HtmlElement
 {
-	/**
-	 * Constructor for empty elements
-	 * 
-	 * Empty elements don't have children, so we pass an empty HtmlString
-	 * 
+/**
+	 * Function __construct
+	 *
+	 * @since v1.0.0 2026-04-14
 	 * @param mixed $data
 	 * @return void
- * @since 1.0.1 2026-02-16
-	 */
+ */
 	function __construct( $data = null )
 	{
 		// Empty elements don't have children - pass empty HtmlString

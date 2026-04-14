@@ -53,11 +53,11 @@ if (!defined('KSF_FIELD_NOT_SET')) {
 
 if (!function_exists('_')) {
 /**
- * _
- *
- * @since 1.0.1 2026-02-16
- * @param mixed $s
- * @return void
+	 * Function _
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $s
+	 * @return void
  */
     function _($s) { return $s; }
 }
@@ -103,53 +103,53 @@ foreach ([
 // Minimal DB API stubs used by VIEW::display_table_with_edit()
 if (!function_exists('db_prepare')) {
 /**
- * db_prepare
- *
- * @since 1.0.1 2026-02-16
- * @param mixed $sql
- * @return void
+	 * Function db_prepare
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $sql
+	 * @return void
  */
     function db_prepare($sql) { return ['sql' => $sql]; }
 }
 if (!function_exists('db_execute')) {
 /**
- * db_execute
- *
- * @since 1.0.1 2026-02-16
- * @param mixed $stmt
- * @return void
+	 * Function db_execute
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $stmt
+	 * @return void
  */
     function db_execute($stmt) { return true; }
 }
 if (!function_exists('db_fetch')) {
 /**
- * db_fetch
- *
- * @since 1.0.1 2026-02-16
- * @param mixed $stmt
- * @return void
+	 * Function db_fetch
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $stmt
+	 * @return void
  */
     function db_fetch($stmt) { return false; }
 }
 if (!function_exists('db_fetch_assoc')) {
 /**
- * db_fetch_assoc
- *
- * @since 1.0.1 2026-02-16
- * @param mixed $stmt
- * @return void
+	 * Function db_fetch_assoc
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $stmt
+	 * @return void
  */
     function db_fetch_assoc($stmt) { return false; }
 }
 if (!function_exists('db_bind_param')) {
 /**
- * db_bind_param
- *
- * @since 1.0.1 2026-02-16
- * @param mixed $stmt
- * @param mixed $position
- * @param mixed $value
- * @return void
+	 * Function db_bind_param
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $stmt
+	 * @param mixed $position
+	 * @param mixed $value
+	 * @return void
  */
     function db_bind_param($stmt, $position, $value) { return true; }
 }

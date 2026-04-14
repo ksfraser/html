@@ -16,21 +16,21 @@ class VIEW_TABLE_TD extends origin
 	protected $td_class;
 	protected $td_item;
 /**
- * __construct
- *
- * @since v1.0.5 2026-04-14
- * @param mixed $value
- * @return void
+	 * Function __construct
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $value
+	 * @return void
  */
 	function __construct( $value = "" )
 	{
 		$this->td_item = $value;
 	}
 /**
- * __toString
- *
- * @since v1.0.0 2025-04-23
- * @return void
+	 * Function __toString
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
  */
 	function __toString()
 	{
@@ -39,20 +39,20 @@ class VIEW_TABLE_TD extends origin
 		$this->end_td();
 	}
 /**
- * start_td
- *
- * @since v1.0.0 2025-04-23
- * @return void
+	 * Function start_td
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
  */
 	function start_td()
 	{
 		echo "<td>";
 	}
 /**
- * end_td
- *
- * @since v1.0.0 2025-04-23
- * @return void
+	 * Function end_td
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
  */
 	function end_td()
 	{

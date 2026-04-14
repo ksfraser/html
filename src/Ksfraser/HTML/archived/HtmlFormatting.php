@@ -13,11 +13,11 @@ use Ksfraser\HTML\HtmlElementInterface;
 class HtmlFormatting extends HtmlElement
 {
 /**
- * __construct
- *
- * @since v1.0.5 2026-04-14
- * @param mixed $data
- * @return void
+	 * Function __construct
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $data
+	 * @return void
  */
 	function __construct( $data )
 	{
@@ -25,32 +25,32 @@ class HtmlFormatting extends HtmlElement
 		$this->tag = "";
 	}
 /**
- * addAttribute
- *
- * @since 1.0.1 2026-02-16
- * @param HtmlAttribute $attribute
- * @return void
+	 * Function addAttribute
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param HtmlAttribute $attribute
+	 * @return void
  */
 	function addAttribute( HtmlAttribute $attribute )
 	{
 		throw new Exception( "Does HTML Formatting allow Attributes?" );
 	}
 /**
- * setAttributeList
- *
- * @since 1.0.1 2026-02-16
- * @param HtmlAttributeList $list
- * @return void
+	 * Function setAttributeList
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param HtmlAttributeList $list
+	 * @return void
  */
 	function setAttributeList( HtmlAttributeList $list )
 	{
 		throw new Exception( "Does HTML Formatting allow Attributes?" );
 	}
 /**
- * newAttributeList
- *
- * @since 1.0.1 2026-02-16
- * @return void
+	 * Function newAttributeList
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
  */
 	function newAttributeList()
 	{

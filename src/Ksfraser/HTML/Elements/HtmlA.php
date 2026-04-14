@@ -80,12 +80,12 @@ class HtmlA extends HtmlElement
 		return $this;
 	}
 /**
- * addHref
- *
- * @since v1.0.0 2026-04-11
- * @param mixed $url
- * @param mixed $text
- * @return void
+	 * Function addHref
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $url
+	 * @param mixed $text
+	 * @return void
  */
 	function addHref( $url, $text = "" )
 	{

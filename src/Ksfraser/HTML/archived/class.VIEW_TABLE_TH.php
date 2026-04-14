@@ -10,11 +10,11 @@ class VIEW_TABLE_TH extends origin
 {
 	protected $th_item;
 /**
- * __construct
- *
- * @since v1.0.5 2026-04-14
- * @param mixed $value
- * @return void
+	 * Function __construct
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $value
+	 * @return void
  */
 	function __construct( $value = "" )
 	{
@@ -22,10 +22,10 @@ class VIEW_TABLE_TH extends origin
 		$this->set( "th_item", $value );
 	}
 /**
- * __toString
- *
- * @since v1.0.0 2025-04-23
- * @return void
+	 * Function __toString
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
  */
 	function __toString()
 	{
@@ -34,20 +34,20 @@ class VIEW_TABLE_TH extends origin
 		$this->end_th();
 	}
 /**
- * start_th
- *
- * @since v1.0.0 2025-04-23
- * @return void
+	 * Function start_th
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
  */
 	function start_th()
 	{
 		echo "<th>";
 	}
 /**
- * end_th
- *
- * @since v1.0.0 2025-04-23
- * @return void
+	 * Function end_th
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
  */
 	function end_th()
 	{

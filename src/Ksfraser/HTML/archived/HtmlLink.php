@@ -18,11 +18,11 @@ class HtmlLink extends HtmlElement
 	protected $params = [];
 	
 /**
- * __construct
- *
- * @since v1.0.5 2026-04-14
- * @param HtmlElementInterface $data
- * @return void
+	 * Function __construct
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param HtmlElementInterface $data
+	 * @return void
  */
 	function __construct( HtmlElementInterface $data )
 	{
@@ -30,12 +30,12 @@ class HtmlLink extends HtmlElement
 		$this->tag = "a";
 	}
 /**
- * addHref
- *
- * @since 1.0.1 2026-02-16
- * @param mixed $url
- * @param mixed $text
- * @return void
+	 * Function addHref
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $url
+	 * @param mixed $text
+	 * @return void
  */
 	function addHref( $url, $text = "" )
 	{
@@ -55,13 +55,14 @@ class HtmlLink extends HtmlElement
 		$this->updateHrefAttribute();
 	}
 	
-	/**
-	 * Add a single query parameter to the URL
-	 * @param string $key Parameter name
-	 * @param string $value Parameter value
- * @return void
- * @since v1.0.5 2026-04-14
-	 */
+/**
+	 * Function addParam
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param string $key
+	 * @param string $value
+	 * @return void
+ */
 	function addParam( string $key, string $value )
 	{
 		$this->params[$key] = $value;
@@ -73,6 +74,13 @@ class HtmlLink extends HtmlElement
 	 * @param array $params Associative array of key => value pairs
  * @return void
  * @since v1.0.5 2026-04-14
+/**
+	 * Function setParams
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param array $params
+	 * @return void
+ */
 	 */
 	function setParams( array $params )
 	{
@@ -127,6 +135,13 @@ class HtmlLink extends HtmlElement
 			}
 		}
 	}
+/**
+	 * Function setTarget
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $target
+	 * @return void
+ */
 	
 /**
  * setTarget

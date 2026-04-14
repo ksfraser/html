@@ -49,16 +49,13 @@ abstract class LabelRowBase implements HtmlElementInterface
 	 */
 	protected $data;
 	
-	/**
-	 * Create a label row
-	 * 
-	 * NOTE: Subclasses MUST set $this->label and $this->data BEFORE calling parent::__construct()
-	 * 
-	 * @param mixed $bi_lineitem The line item data (parameter kept for backward compatibility)
-	 * @throws Exception If label or data not set by subclass
- * @return void
- * @since 1.0.1 2026-02-16
-	 */
+/**
+	 * Function __construct
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param mixed $bi_lineitem
+	 * @return void
+ */
 	function __construct( $bi_lineitem )
 	{
 		// Check if properties are set (not just if they exist, but if they have values)
@@ -83,11 +80,23 @@ abstract class LabelRowBase implements HtmlElementInterface
 	function getHtml(): string
 	{
 		return $this->row->getHtml();
+/**
+	 * Function getHtml
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return string
+ */
 	}
 	
 	/**
 	 * Output the HTML directly to screen
 	 * 
+/**
+	 * Function toHtml
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return void
+ */
 	 * @return void
  * @since v1.0.0 2026-04-13
 	 */

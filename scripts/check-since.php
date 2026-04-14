@@ -28,10 +28,10 @@ if (file_exists($configPath)) {
 }
 
 /**
- * getStagedFiles
- *
- * @since v1.0.5 2026-04-14
- * @return array
+	 * Function getStagedFiles
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @return array
  */
 function getStagedFiles(): array {
     $cmd = 'git diff --cached --name-only --diff-filter=ACM';
@@ -44,11 +44,11 @@ function getStagedFiles(): array {
 }
 
 /**
- * getStagedFileContent
- *
- * @since v1.0.5 2026-04-14
- * @param string $path
- * @return ?string
+	 * Function getStagedFileContent
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param string $path
+	 * @return ?string
  */
 function getStagedFileContent(string $path): ?string {
     // Use git show to get the staged (index) version of the file
@@ -64,11 +64,11 @@ function getStagedFileContent(string $path): ?string {
 }
 
 /**
- * containsSince
- *
- * @since v1.0.5 2026-04-14
- * @param string $docblock
- * @return bool
+	 * Function containsSince
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param string $docblock
+	 * @return bool
  */
 function containsSince(string $docblock): bool {
     if (preg_match('/@since\s+v?\d+\.\d+(?:\.\d+)?\s*\(?\d{4}-\d{2}-\d{2}\)?/i', $docblock)) {
@@ -78,33 +78,33 @@ function containsSince(string $docblock): bool {
 }
 
 /**
- * containsParam
- *
- * @since v1.0.5 2026-04-14
- * @param string $docblock
- * @return bool
+	 * Function containsParam
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param string $docblock
+	 * @return bool
  */
 function containsParam(string $docblock): bool {
     return (bool) preg_match('/@param\s+/i', $docblock);
 }
 
 /**
- * containsReturn
- *
- * @since v1.0.5 2026-04-14
- * @param string $docblock
- * @return bool
+	 * Function containsReturn
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param string $docblock
+	 * @return bool
  */
 function containsReturn(string $docblock): bool {
     return (bool) preg_match('/@return\s+/i', $docblock);
 }
 
 /**
- * countParamTags
- *
- * @since v1.0.5 2026-04-14
- * @param string $docblock
- * @return int
+	 * Function countParamTags
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param string $docblock
+	 * @return int
  */
 function countParamTags(string $docblock): int {
     if (preg_match_all('/@param\s+/i', $docblock, $m)) {
@@ -114,11 +114,11 @@ function countParamTags(string $docblock): int {
 }
 
 /**
- * parseParamTags
- *
- * @since v1.0.5 2026-04-14
- * @param string $docblock
- * @return array
+	 * Function parseParamTags
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param string $docblock
+	 * @return array
  */
 function parseParamTags(string $docblock): array {
     $out = [];
@@ -131,11 +131,11 @@ function parseParamTags(string $docblock): array {
 }
 
 /**
- * normalizeType
- *
- * @since v1.0.5 2026-04-14
- * @param ?string $t
- * @return string
+	 * Function normalizeType
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param ?string $t
+	 * @return string
  */
 function normalizeType(?string $t): string {
     if ($t === null) return '';
@@ -146,11 +146,11 @@ function normalizeType(?string $t): string {
 }
 
 /**
- * parseReturnTag
- *
- * @since v1.0.5 2026-04-14
- * @param string $docblock
- * @return ?string
+	 * Function parseReturnTag
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param string $docblock
+	 * @return ?string
  */
 function parseReturnTag(string $docblock): ?string {
     if (preg_match('/@return\s+([^\s]+)/i', $docblock, $m)) {
@@ -160,11 +160,11 @@ function parseReturnTag(string $docblock): ?string {
 }
 
 /**
- * splitTypes
- *
- * @since v1.0.5 2026-04-14
- * @param string $type
- * @return array
+	 * Function splitTypes
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param string $type
+	 * @return array
  */
 function splitTypes(string $type): array {
     $parts = preg_split('/\|/', $type);
@@ -179,12 +179,12 @@ function splitTypes(string $type): array {
 }
 
 /**
- * compareTypes
- *
- * @since v1.0.5 2026-04-14
- * @param string $sigType
- * @param string $tagType
- * @return bool
+	 * Function compareTypes
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param string $sigType
+	 * @param string $tagType
+	 * @return bool
  */
 function compareTypes(string $sigType, string $tagType): bool {
     $sigParts = splitTypes($sigType);
@@ -193,13 +193,13 @@ function compareTypes(string $sigType, string $tagType): bool {
 }
 
 /**
- * checkContent
- *
- * @since v1.0.5 2026-04-14
- * @param string $content
- * @param string $path
- * @param array $config
- * @return array
+	 * Function checkContent
+	 *
+	 * @since v1.0.0 2026-04-14
+	 * @param string $content
+	 * @param string $path
+	 * @param array $config
+	 * @return array
  */
 function checkContent(string $content, string $path, array $config): array {
     $errors = [];
