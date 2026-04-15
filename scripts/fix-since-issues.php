@@ -21,6 +21,16 @@ foreach ($lines as $ln) {
 $files = array_keys($files);
 if (empty($files)) { echo "No files to fix.\n"; exit(0); }
 
+/**
+ * Parse a parameter list string into individual parameter expressions.
+ *
+ * Returns an array of parameter expressions as strings (preserves default
+ * values and nested parentheses).
+ *
+ * @param string $s Parameter list text (inside parentheses)
+ * @return string[]
+ * @since v1.0.0 2026-04-14
+ */
 function parseParamsString(string $s): array {
     $params = [];
     $len = strlen($s); $buf = ''; $depth = 0; $inS=false; $inD=false;
@@ -38,6 +48,15 @@ function parseParamsString(string $s): array {
     return array_filter($params, fn($x)=>$x!=='');
 }
 
+/**
+ * Extract parameter variable names from a parameter signature string.
+ *
+ * Example: `int $a, string $b = 'x'` -> [`$a`, `$b`]
+ *
+ * @param string $sig The parameter signature text
+ * @return string[] List of parameter variable names
+ * @since v1.0.0 2026-04-14
+ */
 function extractParamNamesFromSignature(string $sig): array {
     $parts = parseParamsString($sig);
     $names = [];
@@ -48,10 +67,26 @@ function extractParamNamesFromSignature(string $sig): array {
     return $names;
 }
 
+/**
+ * Determine whether a docblock string contains a @since tag.
+ *
+ * @param string $doc The docblock text
+ * @return bool True when a @since tag with version+date is present
+ * @since v1.0.0 2026-04-14
+ */
 function containsSince(string $doc): bool {
     return (bool) preg_match('/@since\s+v?\d+\.\d+(?:\.\d+)?\s*\(?\d{4}-\d{2}-\d{2}\)?/i', $doc);
 }
 
+/**
+ * Build a conservative default docblock for a function or class.
+ *
+ * @param string|null $short Short description or null
+ * @param string[] $params Parameter variable names (e.g. ['$a','$b'])
+ * @param string|null $returnType Return type string or null for void
+ * @return string The generated docblock including trailing newline
+ * @since v1.0.0 2026-04-14
+ */
 function buildDefaultDocblock(?string $short, array $params, ?string $returnType): string {
     $lines = [];
     $lines[] = '/**';
