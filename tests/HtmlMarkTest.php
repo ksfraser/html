@@ -27,6 +27,56 @@ class HtmlMarkTest extends TestCase {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
 function testInstance() {
         $mark = new HtmlMark(new HtmlString('marked text'));
         $this->assertInstanceOf(HtmlMark::/**
@@ -50,6 +100,56 @@ class, $mark);
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testTagIsMark
+ *
+ * @return void
+ */
+/**
+ * testTagIsMark
+ *
+ * @return void
+ */
+/**
+ * testTagIsMark
+ *
+ * @return void
+ */
+/**
+ * testTagIsMark
+ *
+ * @return void
+ */
+/**
+ * testTagIsMark
+ *
+ * @return void
+ */
+/**
+ * testTagIsMark
+ *
+ * @return void
+ */
+/**
+ * testTagIsMark
+ *
+ * @return void
+ */
+/**
+ * testTagIsMark
+ *
+ * @return void
+ */
+/**
+ * testTagIsMark
+ *
+ * @return void
+ */
+/**
+ * testTagIsMark
+ *
+ * @return void
+ */
 function testTagIsMark() {
         $mark = new HtmlMark(new HtmlString('marked text'));
         $this->assertEquals('mark', $mark->getTag());
@@ -65,6 +165,56 @@ function testTagIsMark() {
  * testToStringReturnsExpectedHtml
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
  * @return void
  */
 function testToStringReturnsExpectedHtml() {
@@ -85,6 +235,56 @@ function testToStringReturnsExpectedHtml() {
  * testGetHtml
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
  * @return void
  */
 function testGetHtml() {
@@ -115,6 +315,56 @@ class)->getMock();
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
 function testToHtmlOutputsHtml() {
         $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::/**
  * getMock
@@ -142,6 +392,56 @@ class)->getMock();
  * testEdgeCasesEmptyContent
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
  * @return void
  */
 function testEdgeCasesEmptyContent() {

@@ -384,6 +384,102 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  */
 
+/**
+ * HtmlForm
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlForm
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlForm
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlForm
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlForm
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlForm
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlForm
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlForm
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlForm
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlForm
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlForm
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlForm
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlForm
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlForm
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlForm
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlForm
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlForm extends HtmlElement
 {
 	protected $action;
@@ -402,7 +498,185 @@ class HtmlForm extends HtmlElement
  * @return void
 
  */
-	public function __construct($data = null)
+	public /**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+function __construct($data = null)
 	{
 		parent::__construct($data);
 		$this->tag = "form";
@@ -423,7 +697,185 @@ class HtmlForm extends HtmlElement
 	 * @return self Fluent interface
 
 	 */
-	public function setMethod(string $method): self {
+	public /**
+ * setMethod
+ *
+ * @param string $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @param string $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @param string $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @param string $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @param string $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @param string $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @param string $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @param string $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @param string $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @param string $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @param string $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @return self
+ */
+/**
+ * setMethod
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @return self
+ */
+function setMethod(string $method): self {
 		$valid = ['get', 'post'];
 		$methodLower = strtolower($method);
 		if (!in_array($methodLower, $valid, true)) {
@@ -448,7 +900,185 @@ class HtmlForm extends HtmlElement
 	 * @return self Fluent interface
 
 	 */
-	public function setAction(string $action): self {
+	public /**
+ * setAction
+ *
+ * @param string $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @param string $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @param string $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @param string $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @param string $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @param string $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @param string $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @param string $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @param string $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @param string $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @param string $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @return self
+ */
+function setAction(string $action): self {
 		// Basic validation: must be a non-empty string
 		if (trim($action) === '') {
 			throw new \InvalidArgumentException("Invalid form action: must be a non-empty string.");
@@ -472,7 +1102,185 @@ class HtmlForm extends HtmlElement
 	 * @return self Fluent interface
 
 	 */
-	public function setId(string $id): self {
+	public /**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+function setId(string $id): self {
 		// Valid HTML id: letters, digits, hyphens, underscores, no spaces, not empty
 		if (!preg_match('/^[A-Za-z][A-Za-z0-9_-]*$/', $id)) {
 			throw new \InvalidArgumentException("Invalid form id: must start with a letter and contain only letters, digits, hyphens, or underscores.");
@@ -494,7 +1302,185 @@ class HtmlForm extends HtmlElement
 	 * @return self Fluent interface
 
 	 */
-public function append(...$elements): self {
+public /**
+ * append
+ *
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+function append(...$elements): self {
 		foreach ($elements as $element) {
 			if ($element instanceof \Ksfraser\HTML\HtmlElementInterface) {
 				$this->addNested($element);
@@ -516,7 +1502,158 @@ public function append(...$elements): self {
 	 * @return string The complete HTML form element
 
 	 */
-	public function getHtml(): string {
+	public /**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getHtml(): string {
 		return parent::getHtml();
 	}
 
@@ -531,7 +1668,158 @@ public function append(...$elements): self {
 	 * @return string The complete HTML form element
 
 	 */
-	public function render(): string {
+	public /**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function render(): string {
 		return $this->getHtml();
 	}
 }

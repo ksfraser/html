@@ -157,6 +157,12 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * HtmlStyle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlStyle extends HtmlAttribute
 {
 /**
@@ -165,7 +171,68 @@ class HtmlStyle extends HtmlAttribute
  * @since v1.0.0 2026-04-14
  * @return void
  */
-	function getHtml()
+	/**
+ * getHtml
+ *
+ * @return void
+ */
+/**
+ * getHtml
+ *
+ * @return void
+ */
+/**
+ * getHtml
+ *
+ * @return void
+ */
+/**
+ * getHtml
+ *
+ * @return void
+ */
+/**
+ * getHtml
+ *
+ * @return void
+ */
+/**
+ * getHtml
+ *
+ * @return void
+ */
+/**
+ * getHtml
+ *
+ * @return void
+ */
+/**
+ * getHtml
+ *
+ * @return void
+ */
+/**
+ * getHtml
+ *
+ * @return void
+ */
+/**
+ * getHtml
+ *
+ * @return void
+ */
+/**
+ * getHtml
+ *
+ * @return void
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function getHtml()
 	{
 		$html = $this->attribute . ':' . $this->value . ';';
 		return $html;

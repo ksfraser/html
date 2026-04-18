@@ -27,6 +27,56 @@ class HtmlEmptyElementTest extends TestCase {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testExtendsHtmlElement
+ *
+ * @return void
+ */
+/**
+ * testExtendsHtmlElement
+ *
+ * @return void
+ */
+/**
+ * testExtendsHtmlElement
+ *
+ * @return void
+ */
+/**
+ * testExtendsHtmlElement
+ *
+ * @return void
+ */
+/**
+ * testExtendsHtmlElement
+ *
+ * @return void
+ */
+/**
+ * testExtendsHtmlElement
+ *
+ * @return void
+ */
+/**
+ * testExtendsHtmlElement
+ *
+ * @return void
+ */
+/**
+ * testExtendsHtmlElement
+ *
+ * @return void
+ */
+/**
+ * testExtendsHtmlElement
+ *
+ * @return void
+ */
+/**
+ * testExtendsHtmlElement
+ *
+ * @return void
+ */
 function testExtendsHtmlElement() {
         $empty = new HtmlEmptyElement();
         $this->assertInstanceOf(HtmlElement::/**
@@ -50,6 +100,56 @@ class, $empty);
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testGetHtmlEmptyTag
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlEmptyTag
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlEmptyTag
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlEmptyTag
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlEmptyTag
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlEmptyTag
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlEmptyTag
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlEmptyTag
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlEmptyTag
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlEmptyTag
+ *
+ * @return void
+ */
 function testGetHtmlEmptyTag() {
         $empty = new HtmlEmptyElement();
         $empty->setTag('hr');
@@ -71,6 +171,56 @@ function testGetHtmlEmptyTag() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
 function testToHtmlOutputsHtml() {
         $empty = new HtmlEmptyElement();
         $empty->setTag('img');
@@ -90,6 +240,56 @@ function testToHtmlOutputsHtml() {
  * testEdgeCasesNoTag
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testEdgeCasesNoTag
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesNoTag
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesNoTag
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesNoTag
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesNoTag
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesNoTag
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesNoTag
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesNoTag
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesNoTag
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesNoTag
+ *
  * @return void
  */
 function testEdgeCasesNoTag() {

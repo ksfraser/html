@@ -1,0 +1,648 @@
+<?php
+// scripts/fix-since-issues.php
+// Read .since-check-output.utf8.txt and insert/update docblocks to satisfy checker
+
+// Determine repository root (same approach as check-since.php)
+$root = dirname(__DIR__);
+
+// Prefer UTF-8 report if present, otherwise fall back to the plain report
+$candidate1 = $root . DIRECTORY_SEPARATOR . '.since-check-output.utf8.txt';
+$candidate2 = $root . DIRECTORY_SEPARATOR . '.since-check-output.txt';
+$report = null;
+// Prefer the plain text report when both are present (some .utf8 files are UTF-16 misnamed)
+if (file_exists($candidate2)) {
+    $report = $candidate2;
+} elseif (file_exists($candidate1)) {
+    $report = $candidate1;
+}
+if ($report === null) {
+    echo "Checker report not found (looked for .since-check-output.utf8.txt and .since-check-output.txt)\n";
+    exit(1);
+}
+
+// Parse CLI options: --dry-run and --restrict=path
+$dryRun = false;
+$restrict = null;
+foreach ($argv as $a) {
+    if ($a === '--dry-run') $dryRun = true;
+    if (strpos($a, '--restrict=') === 0) $restrict = substr($a, strlen('--restrict='));
+}
+
+// Read raw report and normalize encoding to UTF-8, split into lines
+$raw = file_get_contents($report);
+if ($raw === false || $raw === '') {
+    echo "Checker report is empty: $report\n";
+    exit(0);
+}
+
+// Detect common UTF-16 BOM (LE/BE) and convert to UTF-8 if needed
+if (substr($raw, 0, 2) === "\xFF\xFE" || substr($raw, 0, 2) === "\xFE\xFF") {
+    if (function_exists('mb_convert_encoding')) {
+        $raw = mb_convert_encoding($raw, 'UTF-8', 'UTF-16');
+    } else {
+        $raw = iconv('UTF-16', 'UTF-8//IGNORE', $raw) ?: $raw;
+    }
+}
+// Remove BOM if present
+if (substr($raw, 0, 3) === "\xEF\xBB\xBF") $raw = substr($raw, 3);
+
+$lines = preg_split('/\r\n|\n|\r/', $raw);
+if (!is_array($lines)) $lines = [];
+$files = [];
+foreach ($lines as $ln) {
+    $ln = trim($ln);
+    if ($ln === '') continue;
+    // Support lines starting with '- ' and also tolerate Windows BOM or stray characters
+    if (!preg_match('/^[-\x{FEFF}\s]*-/u', $ln) && strpos($ln, '-') !== 0) continue;
+    // Split on em-dash or hyphen separator
+    $parts = preg_split('/\s+—\s+|\s+-\s+/', $ln, 2);
+    $left = isset($parts[0]) ? preg_replace('/^[-\s\x{FEFF}]*/u', '', $parts[0]) : $ln;
+    // If left contains path:line, strip the trailing :line
+    $col = strrpos($left, ':');
+    if ($col !== false) $left = substr($left, 0, $col);
+    $left = trim($left);
+    if ($left !== '') $files[$left] = true;
+}
+// Filter files by --restrict if provided (match path fragment)
+$files = array_keys($files);
+if ($restrict !== null && $restrict !== '') {
+    $files = array_values(array_filter($files, function($p) use ($restrict) {
+        return strpos($p, $restrict) !== false;
+    }));
+}
+if (empty($files)) { echo "No files to fix.\n"; exit(0); }
+
+/**
+ * Parse a parameter list string into individual parameter expressions.
+ *
+ * Returns an array of parameter expressions as strings (preserves default
+ * values and nested parentheses).
+ *
+ * @param string $s Parameter list text (inside parentheses)
+ * @return string[]
+ * @since v1.0.0 2026-04-14
+ */
+/**
+ * parseParamsString
+ *
+ * @param string $s
+ * @return array
+ */
+/**
+ * parseParamsString
+ *
+ * @param string $s
+ * @return array
+ */
+/**
+ * parseParamsString
+ *
+ * @param string $s
+ * @return array
+ */
+/**
+ * parseParamsString
+ *
+ * @param string $s
+ * @return array
+ */
+/**
+ * parseParamsString
+ *
+ * @param string $s
+ * @return array
+ */
+/**
+ * parseParamsString
+ *
+ * @param string $s
+ * @return array
+ */
+/**
+ * parseParamsString
+ *
+ * @param string $s
+ * @return array
+ */
+/**
+ * parseParamsString
+ *
+ * @param string $s
+ * @return array
+ */
+/**
+ * parseParamsString
+ *
+ * @param string $s
+ * @return array
+ */
+/**
+ * parseParamsString
+ *
+ * @param string $s
+ * @return array
+ */
+/**
+ * parseParamsString
+ *
+ * @param string $s
+ * @return array
+ */
+function parseParamsString(string $s): array {
+    $params = [];
+    $len = strlen($s); $buf = ''; $depth = 0; $inS=false; $inD=false;
+    for ($i=0;$i<$len;$i++) {
+        $c = $s[$i];
+        if ($c === "'" && !$inD) { $inS = !$inS; $buf .= $c; continue; }
+        if ($c === '"' && !$inS) { $inD = !$inD; $buf .= $c; continue; }
+        if ($inS || $inD) { $buf .= $c; continue; }
+        if ($c === '(' || $c === '[') { $depth++; $buf .= $c; continue; }
+        if ($c === ')' || $c === ']') { if ($depth>0) $depth--; $buf .= $c; continue; }
+        if ($c === ',' && $depth === 0) { $params[] = trim($buf); $buf = ''; continue; }
+        $buf .= $c;
+    }
+    if (trim($buf) !== '') $params[] = trim($buf);
+    return array_filter($params, fn($x)=>$x!=='');
+}
+
+/**
+ * Extract parameter variable names from a parameter signature string.
+ *
+ * Example: `int $a, string $b = 'x'` -> [`$a`, `$b`]
+ *
+ * @param string $sig The parameter signature text
+ * @return string[] List of parameter variable names
+ * @since v1.0.0 2026-04-14
+ */
+/**
+ * extractParamNamesFromSignature
+ *
+ * @param string $sig
+ * @return array
+ */
+/**
+ * extractParamNamesFromSignature
+ *
+ * @param string $sig
+ * @return array
+ */
+/**
+ * extractParamNamesFromSignature
+ *
+ * @param string $sig
+ * @return array
+ */
+/**
+ * extractParamNamesFromSignature
+ *
+ * @param string $sig
+ * @return array
+ */
+/**
+ * extractParamNamesFromSignature
+ *
+ * @param string $sig
+ * @return array
+ */
+/**
+ * extractParamNamesFromSignature
+ *
+ * @param string $sig
+ * @return array
+ */
+/**
+ * extractParamNamesFromSignature
+ *
+ * @param string $sig
+ * @return array
+ */
+/**
+ * extractParamNamesFromSignature
+ *
+ * @param string $sig
+ * @return array
+ */
+/**
+ * extractParamNamesFromSignature
+ *
+ * @param string $sig
+ * @return array
+ */
+/**
+ * extractParamNamesFromSignature
+ *
+ * @param string $sig
+ * @return array
+ */
+/**
+ * extractParamNamesFromSignature
+ *
+ * @param string $sig
+ * @return array
+ */
+function extractParamNamesFromSignature(string $sig): array {
+    $parts = parseParamsString($sig);
+    $names = [];
+    foreach ($parts as $p) {
+        $pp = preg_split('/=/', $p, 2)[0];
+        if (preg_match('/(\$[A-Za-z0-9_]+)/', $pp, $m)) $names[] = $m[1];
+    }
+    return $names;
+}
+
+/**
+ * Parse parameter types from a signature into a map of name => type
+ * e.g. `?int $v = null, string $s` -> ['$v' => 'int|null', '$s' => 'string']
+ *
+ * @param string $sig
+ * @return array
+ * @since v1.0.0 2026-04-14
+ */
+function parseParamTypesMap(string $sig): array {
+    $parts = parseParamsString($sig);
+    $map = [];
+    foreach ($parts as $p) {
+        $pp = preg_split('/=/', $p, 2)[0];
+        // capture optional type and name
+        if (preg_match('/^\s*(?:(\??[A-Za-z0-9_\\|]+)\s+)?(\$[A-Za-z0-9_]+)/', $pp, $m)) {
+            $type = $m[1] ?? '';
+            $name = $m[2];
+            $type = trim($type);
+            if ($type === '') $type = 'mixed';
+            // normalize nullable ?T => T|null
+            if (strpos($type, '?') === 0) {
+                $t = ltrim($type, '?');
+                $type = $t . '|null';
+            }
+            // normalize spaces around pipe
+            $type = preg_replace('/\s*\|\s*/', '|', $type);
+            $map[$name] = $type;
+        }
+    }
+    return $map;
+}
+
+/**
+ * Determine whether a docblock string contains a @since tag.
+ *
+ * @param string $doc The docblock text
+ * @return bool True when a @since tag with version+date is present
+ * @since v1.0.0 2026-04-14
+ */
+/**
+ * containsSince
+ *
+ * @param string $doc
+ * @return bool
+ */
+/**
+ * containsSince
+ *
+ * @param string $doc
+ * @return bool
+ */
+/**
+ * containsSince
+ *
+ * @param string $doc
+ * @return bool
+ */
+/**
+ * containsSince
+ *
+ * @param string $doc
+ * @return bool
+ */
+/**
+ * containsSince
+ *
+ * @param string $doc
+ * @return bool
+ */
+/**
+ * containsSince
+ *
+ * @param string $doc
+ * @return bool
+ */
+/**
+ * containsSince
+ *
+ * @param string $doc
+ * @return bool
+ */
+/**
+ * containsSince
+ *
+ * @param string $doc
+ * @return bool
+ */
+/**
+ * containsSince
+ *
+ * @param string $doc
+ * @return bool
+ */
+/**
+ * containsSince
+ *
+ * @param string $doc
+ * @return bool
+ */
+/**
+ * containsSince
+ *
+ * @param string $doc
+ * @return bool
+ */
+function containsSince(string $doc): bool {
+    return (bool) preg_match('/@since\s+v?\d+\.\d+(?:\.\d+)?\s*\(?\d{4}-\d{2}-\d{2}\)?/i', $doc);
+}
+
+/**
+ * Build a conservative default docblock for a function or class.
+ *
+ * @param string|null $short Short description or null
+ * @param string[] $params Parameter variable names (e.g. ['$a','$b'])
+ * @param string|null $returnType Return type string or null for void
+ * @return string The generated docblock including trailing newline
+ * @since v1.0.0 2026-04-14
+ */
+/**
+ * buildDefaultDocblock
+ *
+ * @param string|null $short
+ * @param array $params
+ * @param string|null $returnType
+ * @return string
+ */
+/**
+ * buildDefaultDocblock
+ *
+ * @param string|null $short
+ * @param array $params
+ * @param string|null $returnType
+ * @return string
+ */
+/**
+ * buildDefaultDocblock
+ *
+ * @param string|null $short
+ * @param array $params
+ * @param string|null $returnType
+ * @return string
+ */
+/**
+ * buildDefaultDocblock
+ *
+ * @param string|null $short
+ * @param array $params
+ * @param string|null $returnType
+ * @return string
+ */
+/**
+ * buildDefaultDocblock
+ *
+ * @param string|null $short
+ * @param array $params
+ * @param string|null $returnType
+ * @return string
+ */
+/**
+ * buildDefaultDocblock
+ *
+ * @param string|null $short
+ * @param array $params
+ * @param string|null $returnType
+ * @return string
+ */
+/**
+ * buildDefaultDocblock
+ *
+ * @param string|null $short
+ * @param array $params
+ * @param string|null $returnType
+ * @return string
+ */
+/**
+ * buildDefaultDocblock
+ *
+ * @param string|null $short
+ * @param array $params
+ * @param string|null $returnType
+ * @return string
+ */
+/**
+ * buildDefaultDocblock
+ *
+ * @param string|null $short
+ * @param array $params
+ * @param string|null $returnType
+ * @return string
+ */
+/**
+ * buildDefaultDocblock
+ *
+ * @param string|null $short
+ * @param array $params
+ * @param string|null $returnType
+ * @return string
+ */
+/**
+ * buildDefaultDocblock
+ *
+ * @param string|null $short
+ * @param array $params
+ * @param string|null $returnType
+ * @return string
+ */
+function buildDefaultDocblock(?string $short, array $params, ?string $returnType): string {
+    $lines = [];
+    $lines[] = '/**';
+    $lines[] = ' * ' . ($short ?: 'No description.');
+    $lines[] = ' *';
+    $lines[] = ' * @since v1.0.0 2026-04-14';
+    // $params may be an associative map name=>type or a simple list of names
+    foreach ($params as $k => $v) {
+        if (is_int($k)) {
+            // numeric key -> value is param name; default to mixed
+            $name = $v; $type = 'mixed';
+        } else {
+            $name = $k; $type = $v;
+        }
+        $lines[] = ' * @param ' . ($type ? $type : 'mixed') . ' ' . $name;
+    }
+    $lines[] = ' * @return ' . ($returnType ? $returnType : 'void');
+    $lines[] = ' */';
+    return implode("\n", $lines) . "\n";
+}
+
+$updated = 0;
+echo "Found " . count($files) . " files referenced in report. Scanning...\n";
+foreach ($files as $f) {
+    $path = $f;
+    // normalize path (strip leading ./)
+    if (strpos($path, './') === 0) $path = substr($path, 2);
+    // try exact path, repo-root relative, normalized separators, and ./ prefix
+    $norm = str_replace(['/', '\\'], [DIRECTORY_SEPARATOR, DIRECTORY_SEPARATOR], $path);
+    $candidates = [
+        $path,
+        $root . DIRECTORY_SEPARATOR . $path,
+        $root . DIRECTORY_SEPARATOR . ltrim($norm, DIRECTORY_SEPARATOR),
+        './' . $path,
+        $root . DIRECTORY_SEPARATOR . './' . ltrim($path, './')
+    ];
+    $found = false;
+    foreach ($candidates as $cand) {
+        if (file_exists($cand)) { $path = $cand; $found = true; break; }
+    }
+    if (!$found) {
+        // attempt a recursive search matching the full path suffix (better than basename only)
+        $targetSuffix = str_replace(['\\','/'], DIRECTORY_SEPARATOR, ltrim($path, './'));
+        $it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($root));
+        foreach ($it as $finfo) {
+            if (!$finfo->isFile()) continue;
+            $p = $finfo->getPathname();
+            $pNorm = str_replace(['\\','/'], DIRECTORY_SEPARATOR, ltrim($p, './'));
+            if (substr($pNorm, -strlen($targetSuffix)) === $targetSuffix) {
+                $path = $p; $found = true; break;
+            }
+        }
+    }
+    if (!$found) {
+        echo "Skipping missing: {$f}\n";
+        echo " Tried candidates:\n";
+        foreach ($candidates as $cand) { echo "  - $cand\n"; }
+        continue;
+    }
+    $src = file_get_contents($path);
+    $tokens = token_get_all($src);
+    $out = '';
+    $lastDoc = null;
+    $i = 0; $count = count($tokens);
+    $fileUpdated = 0;
+    while ($i < $count) {
+        $tok = $tokens[$i];
+        if (is_array($tok) && $tok[0] === T_DOC_COMMENT) {
+            // defer writing the docblock until we determine what it documents
+            $lastDoc = $tok[1];
+            $i++; continue;
+        }
+        if (is_array($tok) && in_array($tok[0],[T_CLASS,T_INTERFACE,T_TRAIT], true)) {
+            // find name
+            $name = null; $j = $i+1;
+            while ($j < $count) {
+                $t = $tokens[$j];
+                if (is_array($t) && $t[0]===T_STRING) { $name = $t[1]; break; }
+                $j++;
+            }
+            if ($lastDoc === null || !containsSince($lastDoc)) {
+                $doc = buildDefaultDocblock($name, [], null);
+                $out .= $doc;
+                $fileUpdated++;
+            }
+            // write current token
+            $out .= is_array($tok)?$tok[1]:$tok;
+            $lastDoc = null; $i++; continue;
+        }
+        if (is_array($tok) && $tok[0] === T_FUNCTION) {
+            // capture function name and params
+            $j = $i+1; $funcName = null;
+            while ($j < $count) {
+                $t = $tokens[$j];
+                if (is_array($t) && $t[0] === T_STRING) { $funcName = $t[1]; $j++; break; }
+                if (is_string($t) && $t === '(') break;
+                $j++;
+            }
+            // gather param signature text
+            $sig = '';
+            $k = $j;
+            while ($k < $count && !(is_string($tokens[$k]) && $tokens[$k] === '(')) $k++;
+            if ($k < $count && is_string($tokens[$k]) && $tokens[$k] === '(') {
+                $depth = 0; $k++;
+                while ($k < $count) {
+                    $t = $tokens[$k];
+                    if (is_string($t)) {
+                        if ($t === '(') $depth++; elseif ($t===')') { if ($depth===0) break; $depth--; }
+                        $sig .= $t;
+                    } else {
+                        $sig .= $t[1];
+                    }
+                    $k++;
+                }
+            }
+            $paramNames = extractParamNamesFromSignature($sig);
+            $paramTypes = parseParamTypesMap($sig);
+            // determine return type (very simple: look ahead for ':')
+            $retType = null; $m = $k+1; while ($m < $count && is_array($tokens[$m]) && $tokens[$m][0]===T_WHITESPACE) $m++;
+            if ($m < $count && is_string($tokens[$m]) && $tokens[$m] === ':') {
+                $m++; $rt = '';
+                while ($m < $count) {
+                    $t = $tokens[$m];
+                    if (is_string($t)) { if ($t==='{'||$t===';'||$t===')') break; $rt .= $t; }
+                    else $rt .= $t[1];
+                    $m++;
+                }
+                $retType = trim($rt) ?: null;
+            }
+
+            if ($lastDoc === null) {
+                $doc = buildDefaultDocblock($funcName ?: '(anonymous)', $paramTypes, $retType);
+                $out .= $doc;
+                $fileUpdated++;
+            } else {
+                // if doc exists but missing @since or @param/@return, append defaults
+                $need = false; $docText = $lastDoc;
+                if (!containsSince($docText)) { $docText = rtrim($docText, "*/\n ") . "\n * @since v1.0.0 2026-04-14\n */\n"; $need = true; }
+                if (!preg_match('/@param\s+/i', $docText) && count($paramNames)>0) {
+                    // insert param lines before closing, prefer types inferred from signature
+                    $insert = '';
+                    foreach ($paramNames as $pn) {
+                        $type = $paramTypes[$pn] ?? 'mixed';
+                        $insert .= " * @param $type $pn\n";
+                    }
+                    $docText = preg_replace('/\*\s*\*\//', $insert . ' */', $docText);
+                    $need = true;
+                }
+                if (!preg_match('/@return\s+/i', $docText)) {
+                    $docText = preg_replace('/\*\s*\*\//', " * @return " . ($retType?$retType:'void') . "\n */", $docText);
+                    $need = true;
+                }
+                if ($need) { $out .= $docText; $fileUpdated++; }
+                else { $out .= $lastDoc; }
+            }
+            // write function token itself
+            $out .= is_array($tok)?$tok[1]:$tok;
+            $lastDoc = null; $i++; continue;
+        }
+        // default write: if we deferred a docblock and it wasn't consumed, decide whether to write it
+        if ($lastDoc !== null) {
+            // look ahead for the next non-whitespace/comment token
+            $j = $i;
+            while ($j < $count && is_array($tokens[$j]) && in_array($tokens[$j][0],[T_WHITESPACE, T_COMMENT], true)) $j++;
+            // if the next non-space token is another docblock, discard the deferred one (it was likely duplicated)
+            if ($j < $count && is_array($tokens[$j]) && $tokens[$j][0] === T_DOC_COMMENT) {
+                // drop previous docblock
+                $lastDoc = null;
+            } else {
+                $out .= $lastDoc;
+                $lastDoc = null;
+            }
+        }
+        $out .= is_array($tok)?$tok[1]:$tok;
+        $i++;
+    }
+    if ($fileUpdated) {
+        if ($dryRun) {
+            echo "Would patch: $path ({$fileUpdated} changes)\n";
+        } else {
+            // backup original only once
+            file_put_contents($path . '.bak.docblocks', $src);
+            file_put_contents($path, $out);
+            echo "Patched: $path ({$fileUpdated} changes)\n";
+        }
+        $updated += $fileUpdated;
+    }
+}
+
+echo "Done. Updated docblocks in $updated locations.\n";

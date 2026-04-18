@@ -108,6 +108,102 @@ use Ksfraser\HTML\Elements\TableData;
  * @return void
 
  */
+/**
+ * EditableFrequencyNameCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableFrequencyNameCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableFrequencyNameCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableFrequencyNameCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableFrequencyNameCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableFrequencyNameCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableFrequencyNameCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableFrequencyNameCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableFrequencyNameCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableFrequencyNameCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableFrequencyNameCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableFrequencyNameCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableFrequencyNameCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableFrequencyNameCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableFrequencyNameCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableFrequencyNameCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class EditableFrequencyNameCell extends NameTableCell {
     /**
      * Build editable frequency name cell
@@ -118,7 +214,239 @@ class EditableFrequencyNameCell extends NameTableCell {
      * @param string $rowPrefix The row prefix for cell ID generation
      * @return TableData
      */
-    public function buildEditable($value, $freqId, string $rowPrefix): TableData {
+    public /**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $freqId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+function buildEditable($value, $freqId, string $rowPrefix): TableData {
         $this->setId("name-cell-{$rowPrefix}")
             ->setAttribute('data-freq-id', (string)$freqId)
             ->setAttribute('data-field', 'name')

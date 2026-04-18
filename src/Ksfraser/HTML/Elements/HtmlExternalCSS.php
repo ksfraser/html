@@ -127,6 +127,102 @@ use Ksfraser\HTML\HtmlString;
  * @return void
 
  */
+/**
+ * HtmlExternalCSS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlExternalCSS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlExternalCSS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlExternalCSS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlExternalCSS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlExternalCSS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlExternalCSS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlExternalCSS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlExternalCSS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlExternalCSS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlExternalCSS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlExternalCSS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlExternalCSS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlExternalCSS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlExternalCSS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlExternalCSS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlExternalCSS extends HtmlLink
 {
     /**
@@ -142,7 +238,158 @@ class HtmlExternalCSS extends HtmlLink
      * @since v1.0.0 2026-04-11
      * @return void
      */
-    public function __construct()
+    public /**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __construct()
     {
         parent::__construct();
     }
@@ -240,7 +487,185 @@ class HtmlExternalCSS extends HtmlLink
      * @return self Fluent interface for chaining
     
      */
-    public function setHref(string $url): self
+    public /**
+ * setHref
+ *
+ * @param string $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+function setHref(string $url): self
     {
         // Encode URL for HTML attribute context
         $encodedUrl = htmlspecialchars($url, ENT_QUOTES, 'UTF-8');
@@ -261,7 +686,185 @@ class HtmlExternalCSS extends HtmlLink
      * @return self Fluent interface for chaining
     
      */
-    public function setRel(string $rel = 'stylesheet'): self
+    public /**
+ * setRel
+ *
+ * @param string $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @param string $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @param string $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @param string $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @param string $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @param string $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @param string $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @param string $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @param string $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @param string $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @param string $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+function setRel(string $rel = 'stylesheet'): self
     {
         return parent::setRel($rel);
     }

@@ -19,7 +19,57 @@ class HtmlVideoTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testVideoWithSourceAndAttributes() {
+    public /**
+ * testVideoWithSourceAndAttributes
+ *
+ * @return void
+ */
+/**
+ * testVideoWithSourceAndAttributes
+ *
+ * @return void
+ */
+/**
+ * testVideoWithSourceAndAttributes
+ *
+ * @return void
+ */
+/**
+ * testVideoWithSourceAndAttributes
+ *
+ * @return void
+ */
+/**
+ * testVideoWithSourceAndAttributes
+ *
+ * @return void
+ */
+/**
+ * testVideoWithSourceAndAttributes
+ *
+ * @return void
+ */
+/**
+ * testVideoWithSourceAndAttributes
+ *
+ * @return void
+ */
+/**
+ * testVideoWithSourceAndAttributes
+ *
+ * @return void
+ */
+/**
+ * testVideoWithSourceAndAttributes
+ *
+ * @return void
+ */
+/**
+ * testVideoWithSourceAndAttributes
+ *
+ * @return void
+ */
+function testVideoWithSourceAndAttributes() {
         $v = new HtmlVideo();
         $v->addSourceUrl('video.webm', 'video/webm')
           ->setControls(true)

@@ -143,6 +143,12 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * HTML_ROW
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HTML_ROW implements HtmlElementInterface
 {
 	/**
@@ -166,6 +172,79 @@ class HTML_ROW implements HtmlElementInterface
  * @return void
 	
  */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
 function __construct( $data )
 	{
 		$content = is_string($data) ? new HtmlString($data) : $data;
@@ -183,7 +262,68 @@ function __construct( $data )
  * @return void
 	
  */
-	function toHTML(): void
+	/**
+ * toHTML
+ *
+ * @return void
+ */
+/**
+ * toHTML
+ *
+ * @return void
+ */
+/**
+ * toHTML
+ *
+ * @return void
+ */
+/**
+ * toHTML
+ *
+ * @return void
+ */
+/**
+ * toHTML
+ *
+ * @return void
+ */
+/**
+ * toHTML
+ *
+ * @return void
+ */
+/**
+ * toHTML
+ *
+ * @return void
+ */
+/**
+ * toHTML
+ *
+ * @return void
+ */
+/**
+ * toHTML
+ *
+ * @return void
+ */
+/**
+ * toHTML
+ *
+ * @return void
+ */
+/**
+ * toHTML
+ *
+ * @return void
+ */
+/**
+ * toHTML
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function toHTML(): void
 	{
 		$this->row->toHtml();
 	}
@@ -199,7 +339,68 @@ function __construct( $data )
 	 * @return string The HTML
 	
 	 */
-	public function getHtml(): string
+	public /**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getHtml(): string
 	{
 		return $this->row->getHtml();
 	}

@@ -15,6 +15,102 @@ use Ksfraser\HTML\HtmlElement;
  * @return void
 
  */
+/**
+ * HtmlDialog
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDialog
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDialog
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDialog
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDialog
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDialog
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDialog
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDialog
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDialog
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDialog
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDialog
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDialog
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDialog
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDialog
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDialog
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDialog
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlDialog extends HtmlElement
 {
 /**
@@ -24,7 +120,185 @@ class HtmlDialog extends HtmlElement
  * @param bool $open
  * @return void
  */
-    public function __construct(bool $open = false)
+    public /**
+ * __construct
+ *
+ * @param bool $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param bool $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param bool $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param bool $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param bool $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param bool $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param bool $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param bool $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param bool $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param bool $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param bool $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+function __construct(bool $open = false)
     {
         parent::__construct();
         $this->setTag('dialog');

@@ -29,6 +29,56 @@ class HtmlFormValidationTest extends TestCase
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testValidMethod
+ *
+ * @return void
+ */
+/**
+ * testValidMethod
+ *
+ * @return void
+ */
+/**
+ * testValidMethod
+ *
+ * @return void
+ */
+/**
+ * testValidMethod
+ *
+ * @return void
+ */
+/**
+ * testValidMethod
+ *
+ * @return void
+ */
+/**
+ * testValidMethod
+ *
+ * @return void
+ */
+/**
+ * testValidMethod
+ *
+ * @return void
+ */
+/**
+ * testValidMethod
+ *
+ * @return void
+ */
+/**
+ * testValidMethod
+ *
+ * @return void
+ */
+/**
+ * testValidMethod
+ *
+ * @return void
+ */
 function testValidMethod()
     {
         $form = new HtmlForm(new HtmlString(''));
@@ -47,6 +97,56 @@ function testValidMethod()
  * testInvalidMethodThrows
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testInvalidMethodThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidMethodThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidMethodThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidMethodThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidMethodThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidMethodThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidMethodThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidMethodThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidMethodThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidMethodThrows
+ *
  * @return void
  */
 function testInvalidMethodThrows()
@@ -74,6 +174,56 @@ class);
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testValidId
+ *
+ * @return void
+ */
+/**
+ * testValidId
+ *
+ * @return void
+ */
+/**
+ * testValidId
+ *
+ * @return void
+ */
+/**
+ * testValidId
+ *
+ * @return void
+ */
+/**
+ * testValidId
+ *
+ * @return void
+ */
+/**
+ * testValidId
+ *
+ * @return void
+ */
+/**
+ * testValidId
+ *
+ * @return void
+ */
+/**
+ * testValidId
+ *
+ * @return void
+ */
+/**
+ * testValidId
+ *
+ * @return void
+ */
+/**
+ * testValidId
+ *
+ * @return void
+ */
 function testValidId()
     {
         $form = new HtmlForm(new HtmlString(''));
@@ -93,6 +243,56 @@ function testValidId()
  * testInvalidIdThrows
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testInvalidIdThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidIdThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidIdThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidIdThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidIdThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidIdThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidIdThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidIdThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidIdThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidIdThrows
+ *
  * @return void
  */
 function testInvalidIdThrows()
@@ -120,6 +320,56 @@ class);
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testValidAction
+ *
+ * @return void
+ */
+/**
+ * testValidAction
+ *
+ * @return void
+ */
+/**
+ * testValidAction
+ *
+ * @return void
+ */
+/**
+ * testValidAction
+ *
+ * @return void
+ */
+/**
+ * testValidAction
+ *
+ * @return void
+ */
+/**
+ * testValidAction
+ *
+ * @return void
+ */
+/**
+ * testValidAction
+ *
+ * @return void
+ */
+/**
+ * testValidAction
+ *
+ * @return void
+ */
+/**
+ * testValidAction
+ *
+ * @return void
+ */
+/**
+ * testValidAction
+ *
+ * @return void
+ */
 function testValidAction()
     {
         $form = new HtmlForm(new HtmlString(''));
@@ -138,6 +388,56 @@ function testValidAction()
  * testInvalidActionThrows
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testInvalidActionThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidActionThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidActionThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidActionThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidActionThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidActionThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidActionThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidActionThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidActionThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidActionThrows
+ *
  * @return void
  */
 function testInvalidActionThrows()

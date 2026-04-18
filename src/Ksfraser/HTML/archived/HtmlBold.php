@@ -15,6 +15,12 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * HtmlBold
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlBold extends HtmlFormatting
 {
 /**
@@ -24,7 +30,80 @@ class HtmlBold extends HtmlFormatting
  * @param mixed $data
  * @return void
  */
-	function __construct( $data )
+	/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+function __construct( $data )
 	{
 		parent::__construct( $data );
 		$this->tag = "b";
@@ -34,6 +113,12 @@ class HtmlBold extends HtmlFormatting
  * class HtmlB
  *
  * @since 1.0.1 2026-02-16
+ * @return void
+ */
+/**
+ * HtmlB
+ *
+ * @since v1.0.0 2026-04-14
  * @return void
  */
 class HtmlB extends HtmlBold

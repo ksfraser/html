@@ -18,7 +18,57 @@ class HtmlScriptTypeScriptTest extends TestCase
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testTypeScriptScriptTag()
+    public /**
+ * testTypeScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testTypeScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testTypeScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testTypeScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testTypeScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testTypeScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testTypeScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testTypeScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testTypeScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testTypeScriptScriptTag
+ *
+ * @return void
+ */
+function testTypeScriptScriptTag()
     {
         $content = new HtmlTypeScriptString(new HtmlString('let x: number = 5;'));
         $script = new HtmlScriptTypeScript($content);

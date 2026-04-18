@@ -277,6 +277,102 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * HtmlFragment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlFragment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlFragment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlFragment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlFragment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlFragment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlFragment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlFragment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlFragment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlFragment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlFragment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlFragment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlFragment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlFragment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlFragment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlFragment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlFragment implements HtmlElementInterface
 {
     /**
@@ -299,7 +395,185 @@ class HtmlFragment implements HtmlElementInterface
      * @return void
     
      */
-    public function __construct(array $children = [])
+    public /**
+ * __construct
+ *
+ * @param array $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param array $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param array $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param array $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param array $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param array $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param array $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param array $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param array $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param array $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param array $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+function __construct(array $children = [])
     {
         foreach ($children as $child) {
             $this->addChild($child);
@@ -319,7 +593,185 @@ class HtmlFragment implements HtmlElementInterface
      * @return self For fluent interface
     
      */
-    public function addChild(HtmlElementInterface $child): self
+    public /**
+ * addChild
+ *
+ * @param HtmlElementInterface $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return self
+ */
+function addChild(HtmlElementInterface $child): self
     {
         $this->children[] = $child;
         return $this;
@@ -418,7 +870,158 @@ class HtmlFragment implements HtmlElementInterface
      * @return string HTML string of all children concatenated
     
      */
-    public function getHtml(): string
+    public /**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getHtml(): string
     {
         $html = '';
         foreach ($this->children as $child) {
@@ -520,7 +1123,158 @@ class HtmlFragment implements HtmlElementInterface
      * @return void
     
      */
-    public function toHtml(): void
+    public /**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function toHtml(): void
     {
         echo $this->getHtml();
     }
@@ -536,7 +1290,158 @@ class HtmlFragment implements HtmlElementInterface
      * @return int Number of child elements
     
      */
-    public function getChildCount(): int
+    public /**
+ * getChildCount
+ *
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+function getChildCount(): int
     {
         return count($this->children);
     }
@@ -552,7 +1457,158 @@ class HtmlFragment implements HtmlElementInterface
      * @return bool True if no children, false otherwise
     
      */
-    public function isEmpty(): bool
+    public /**
+ * isEmpty
+ *
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * isEmpty
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+function isEmpty(): bool
     {
         return empty($this->children);
     }

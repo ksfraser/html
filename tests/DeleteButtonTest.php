@@ -15,7 +15,62 @@ class DeleteButtonTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testDefaultLabel() {
+    public /**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+function testDefaultLabel() {
         $btn = new DeleteButton(new HtmlString('Delete'), 'id123');
         $this->assertStringContainsString('Delete', $btn->getHtml());
     }
@@ -25,7 +80,62 @@ class DeleteButtonTest extends TestCase {
  * @since 1.0.4 2026-02-21
  * @return void
  */
-    public function testSetConfirmation() {
+    public /**
+ * testSetConfirmation
+ *
+ * @return void
+ */
+/**
+ * testSetConfirmation
+ *
+ * @return void
+ */
+/**
+ * testSetConfirmation
+ *
+ * @return void
+ */
+/**
+ * testSetConfirmation
+ *
+ * @return void
+ */
+/**
+ * testSetConfirmation
+ *
+ * @return void
+ */
+/**
+ * testSetConfirmation
+ *
+ * @return void
+ */
+/**
+ * testSetConfirmation
+ *
+ * @return void
+ */
+/**
+ * testSetConfirmation
+ *
+ * @return void
+ */
+/**
+ * testSetConfirmation
+ *
+ * @return void
+ */
+/**
+ * testSetConfirmation
+ *
+ * @return void
+ */
+/**
+ * testSetConfirmation
+ *
+ * @return void
+ */
+function testSetConfirmation() {
         $btn = new DeleteButton(new HtmlString('Delete'), 'id123');
         $btn->setConfirmation('Are you sure?');
         $this->assertStringContainsString('confirm', $btn->getHtml());

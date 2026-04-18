@@ -17,7 +17,57 @@ class HtmlScriptVBScriptTest extends TestCase
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testVBScriptScriptTag()
+    public /**
+ * testVBScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testVBScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testVBScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testVBScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testVBScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testVBScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testVBScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testVBScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testVBScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testVBScriptScriptTag
+ *
+ * @return void
+ */
+function testVBScriptScriptTag()
     {
         $vb = new HtmlVBScriptString('MsgBox "Hello"');
         $script = new HtmlScriptVBScript($vb);

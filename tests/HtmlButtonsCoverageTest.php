@@ -13,7 +13,57 @@ class HtmlButtonsCoverageTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testButtonsClassesExist() {
+    public /**
+ * testButtonsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testButtonsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testButtonsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testButtonsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testButtonsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testButtonsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testButtonsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testButtonsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testButtonsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testButtonsClassesExist
+ *
+ * @return void
+ */
+function testButtonsClassesExist() {
         $classes = [
             'Ksfraser\\HTML\\Buttons\\ActionButton',
             'Ksfraser\\HTML\\Buttons\\AddButton',

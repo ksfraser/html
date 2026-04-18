@@ -108,6 +108,102 @@ use Ksfraser\HTML\Elements\TableData;
  * @return void
 
  */
+/**
+ * IdLoanTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdLoanTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdLoanTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdLoanTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdLoanTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdLoanTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdLoanTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdLoanTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdLoanTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdLoanTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdLoanTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdLoanTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdLoanTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdLoanTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdLoanTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdLoanTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class IdLoanTableCell {
     /**
      * Build loan ID cell with fixed configuration
@@ -117,7 +213,212 @@ class IdLoanTableCell {
      * @param string $rowPrefix The row prefix for ID generation
      * @return TableData
      */
-    public function build($loanId, string $rowPrefix): TableData {
+    public /**
+ * build
+ *
+ * @param mixed $loanId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $loanId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $loanId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $loanId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $loanId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $loanId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $loanId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $loanId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $loanId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $loanId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $loanId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+function build($loanId, string $rowPrefix): TableData {
         return (new IdTableCell())
             ->setId("id-cell-{$rowPrefix}")
             ->setAttribute('data-loan-id', (string)$loanId)

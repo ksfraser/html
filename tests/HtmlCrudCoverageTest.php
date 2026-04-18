@@ -13,7 +13,57 @@ class HtmlCrudCoverageTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testCrudClassesExist() {
+    public /**
+ * testCrudClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCrudClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCrudClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCrudClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCrudClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCrudClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCrudClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCrudClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCrudClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCrudClassesExist
+ *
+ * @return void
+ */
+function testCrudClassesExist() {
         $classes = [
             'Ksfraser\\HTML\\Crud\\CrudField',
             'Ksfraser\\HTML\\Crud\\LegacyFieldsArrayCrudDescriptor',

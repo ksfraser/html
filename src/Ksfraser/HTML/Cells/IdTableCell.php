@@ -108,6 +108,12 @@ use Ksfraser\HTML\Elements\TableData;
  * @return void
 
  */
+/**
+ * IdTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class IdTableCell extends BaseTableCell {
     /**
      * Build ID cell
@@ -116,7 +122,80 @@ class IdTableCell extends BaseTableCell {
      * @param mixed $id The ID value
      * @return TableData
      */
-    public function build($id): TableData {
+    public /**
+ * build
+ *
+ * @param mixed $id
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $id
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $id
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $id
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $id
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $id
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $id
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $id
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $id
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $id
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $id
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return TableData
+ */
+function build($id): TableData {
         $cell = (new TableData())
             ->addClass('id-cell')
             ->setText((string)($id ?? 'N/A'));

@@ -16,9 +16,9 @@ $failed = 0;
 	 * @param mixed $name
 	 * @param mixed $callback
 	 * @return void
- */
+// Helper function to test
 /**
- * test_introspection
+ * test_introspection()
  *
  * @since v1.0.0 2026-04-14
  * @param mixed $name
@@ -26,7 +26,6 @@ $failed = 0;
  * @return void
  */
 function test_introspection($name, $callback) {
-    global $passed, $failed;
     try {
         if ($callback()) {
             echo "✓ PASS: $name\n";
@@ -66,6 +65,56 @@ test_introspection('Get all nested elements', /**
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
 function() {
     $root = new HtmlElement('div');
     $branch1 = new HtmlElement('section');
@@ -85,6 +134,56 @@ test_introspection('Find elements by tag', /**
  * (anonymous)
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
  * @return void
  */
 function() {
@@ -108,6 +207,56 @@ test_introspection('Find by tag returns empty array for no matches', /**
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
 function() {
     $div = new HtmlElement('div');
     $p = new HtmlElement('p', 'Text');
@@ -122,6 +271,56 @@ test_introspection('Find elements by attribute', /**
  * (anonymous)
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
  * @return void
  */
 function() {
@@ -148,6 +347,56 @@ test_introspection('Find elements with attribute exists', /**
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
 function() {
     $form = new HtmlElement('form');
     $input1 = new HtmlElement('input');
@@ -172,6 +421,56 @@ test_introspection('Find element by ID', /**
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
 function() {
     $page = new HtmlElement('div');
     $header = new HtmlElement('header');
@@ -194,6 +493,56 @@ test_introspection('Find by ID returns null when not found', /**
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
 function() {
     $div = new HtmlElement('div');
     $p = new HtmlElement('p', 'Text');
@@ -209,6 +558,56 @@ test_introspection('Find elements by CSS class', /**
  * (anonymous)
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
  * @return void
  */
 function() {
@@ -239,6 +638,56 @@ test_introspection('Get tag name', /**
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
 function() {
     $button = new HtmlElement('button');
     $input = new HtmlElement('input');
@@ -254,6 +703,56 @@ test_introspection('Has children', /**
  * (anonymous)
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
  * @return void
  */
 function() {
@@ -272,6 +771,56 @@ test_introspection('Get child count', /**
  * (anonymous)
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
  * @return void
  */
 function() {
@@ -297,6 +846,56 @@ test_introspection('Get nested count (recursive)', /**
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
 function() {
     $root = new HtmlElement('div');
     $level1 = new HtmlElement('section');
@@ -320,6 +919,56 @@ test_introspection('Contains child (direct)', /**
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
 function() {
     $parent = new HtmlElement('div');
     $child = new HtmlElement('span');
@@ -336,6 +985,56 @@ test_introspection('Contains nested element', /**
  * (anonymous)
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
  * @return void
  */
 function() {
@@ -358,6 +1057,56 @@ test_introspection('Get attribute value', /**
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
 function() {
     $input = new HtmlElement('input');
     $input->setAttribute('type', 'email');
@@ -377,6 +1126,56 @@ test_introspection('Get attribute object', /**
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
 function() {
     $div = new HtmlElement('div');
     $div->setAttribute('title', 'Tooltip');
@@ -393,6 +1192,56 @@ test_introspection('Complex query - find buttons with specific class', /**
  * (anonymous)
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
  * @return void
  */
 function() {
@@ -418,23 +1267,13 @@ function() {
 });
 
 // Test 19: Deeply nested structure
-test_introspection('Deeply nested structure (10 levels)', /**
+test_introspection('Get all nested elements', /**
  * (anonymous)
  *
  * @since v1.0.0 2026-04-14
  * @return void
  */
 function() {
-    $root = new HtmlElement('div');
-    $current = $root;
-    
-    for ($i = 0; $i < 10; $i++) {
-        $child = new HtmlElement('div');
-        $current->addNested($child);
-        $current = $child;
-    }
-    
-    // Root should have 10 nested elements
     $nested = $root->getAllNested();
     return count($nested) === 10;
 });
@@ -444,6 +1283,56 @@ test_introspection('Empty element introspection', /**
  * (anonymous)
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @return void
+ */
+/**
+ * No description.
+ *
  * @return void
  */
 function() {

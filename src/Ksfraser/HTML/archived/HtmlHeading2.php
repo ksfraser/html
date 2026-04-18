@@ -15,6 +15,102 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * HtmlHeading2
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlHeading2
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlHeading2
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlHeading2
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlHeading2
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlHeading2
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlHeading2
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlHeading2
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlHeading2
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlHeading2
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlHeading2
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlHeading2
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlHeading2
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlHeading2
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlHeading2
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlHeading2
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlHeading2 extends HtmlHeading
 {
 /**
@@ -24,7 +120,185 @@ class HtmlHeading2 extends HtmlHeading
  * @param HtmlElementInterface $data
  * @return void
  */
-	function __construct( HtmlElementInterface $data )
+	/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+function __construct( HtmlElementInterface $data )
 	{
 		parent::__construct( $data );
 		$this->tag = "h2";

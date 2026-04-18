@@ -22,6 +22,102 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * HtmlCite
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlCite
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlCite
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlCite
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlCite
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlCite
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlCite
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlCite
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlCite
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlCite
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlCite
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlCite
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlCite
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlCite
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlCite
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlCite
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlCite extends HtmlElement {
 /**
  * __construct
@@ -31,6 +127,184 @@ class HtmlCite extends HtmlElement {
  * @return void
  */
     public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
  * __construct
  *
  * @since v1.0.0 2026-04-14

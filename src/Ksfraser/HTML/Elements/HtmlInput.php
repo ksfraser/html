@@ -285,6 +285,102 @@ use Ksfraser\HTML\HtmlAttribute;
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * HtmlInput
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInput
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInput
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInput
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInput
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInput
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInput
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInput
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInput
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInput
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInput
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInput
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInput
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInput
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInput
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInput
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlInput extends HtmlEmptyElement
 {
 	/**
@@ -311,6 +407,211 @@ class HtmlInput extends HtmlEmptyElement
 
  */
 	/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @param string $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @param string $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @param string $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @param string $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @param string $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @param string $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @param string $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @param string $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @param string $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @param string $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @param string $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $type
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $type
+ * @return void
+ */
+/**
  * __construct
  *
  * @since v1.0.0 2026-04-14
@@ -346,6 +647,184 @@ function __construct( HtmlElementInterface $data = null, string $type = "text" )
  * @param mixed $name
  * @return self
  */
+/**
+ * setName
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
 function setName( string $name ): self
 	{
 		$this->addAttributeObject( new HtmlAttribute( "name", $name ) );
@@ -372,6 +851,184 @@ function setName( string $name ): self
  * @param mixed $value
  * @return self
  */
+/**
+ * setValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
 function setValue( string $value ): self
 	{
 		$this->addAttributeObject( new HtmlAttribute( "value", htmlspecialchars( $value, ENT_QUOTES, 'UTF-8' ) ) );
@@ -392,6 +1049,184 @@ function setValue( string $value ): self
 
 	 */
 	public /**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @param string $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @param string $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @param string $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @param string $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @param string $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @param string $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @param string $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @param string $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @param string $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @param string $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @param string $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $placeholder
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $placeholder
+ * @return self
+ */
+/**
  * setPlaceholder
  *
  * @since v1.0.0 2026-04-14

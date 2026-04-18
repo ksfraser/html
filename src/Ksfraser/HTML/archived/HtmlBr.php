@@ -15,6 +15,12 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * HtmlBr
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlBr extends HtmlEmptyElement
 {
 /**
@@ -24,7 +30,80 @@ class HtmlBr extends HtmlEmptyElement
  * @param mixed $data
  * @return void
  */
-	function __construct( $data = "" )
+	/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+function __construct( $data = "" )
 	{
 		parent::__construct( "" );
 		$this->tag = "br";

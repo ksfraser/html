@@ -19,7 +19,57 @@ class SemanticFactoryTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testVideoFactoryUsesHtmlVideoMethods() {
+    public /**
+ * testVideoFactoryUsesHtmlVideoMethods
+ *
+ * @return void
+ */
+/**
+ * testVideoFactoryUsesHtmlVideoMethods
+ *
+ * @return void
+ */
+/**
+ * testVideoFactoryUsesHtmlVideoMethods
+ *
+ * @return void
+ */
+/**
+ * testVideoFactoryUsesHtmlVideoMethods
+ *
+ * @return void
+ */
+/**
+ * testVideoFactoryUsesHtmlVideoMethods
+ *
+ * @return void
+ */
+/**
+ * testVideoFactoryUsesHtmlVideoMethods
+ *
+ * @return void
+ */
+/**
+ * testVideoFactoryUsesHtmlVideoMethods
+ *
+ * @return void
+ */
+/**
+ * testVideoFactoryUsesHtmlVideoMethods
+ *
+ * @return void
+ */
+/**
+ * testVideoFactoryUsesHtmlVideoMethods
+ *
+ * @return void
+ */
+/**
+ * testVideoFactoryUsesHtmlVideoMethods
+ *
+ * @return void
+ */
+function testVideoFactoryUsesHtmlVideoMethods() {
         $v = HtmlElement::video('movie.mp4', true);
         $html = $v->getHtml();
         $this->assertStringContainsString('<video', $html);
@@ -33,7 +83,57 @@ class SemanticFactoryTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testSourceFactoryReturnsHtmlSource() {
+    public /**
+ * testSourceFactoryReturnsHtmlSource
+ *
+ * @return void
+ */
+/**
+ * testSourceFactoryReturnsHtmlSource
+ *
+ * @return void
+ */
+/**
+ * testSourceFactoryReturnsHtmlSource
+ *
+ * @return void
+ */
+/**
+ * testSourceFactoryReturnsHtmlSource
+ *
+ * @return void
+ */
+/**
+ * testSourceFactoryReturnsHtmlSource
+ *
+ * @return void
+ */
+/**
+ * testSourceFactoryReturnsHtmlSource
+ *
+ * @return void
+ */
+/**
+ * testSourceFactoryReturnsHtmlSource
+ *
+ * @return void
+ */
+/**
+ * testSourceFactoryReturnsHtmlSource
+ *
+ * @return void
+ */
+/**
+ * testSourceFactoryReturnsHtmlSource
+ *
+ * @return void
+ */
+/**
+ * testSourceFactoryReturnsHtmlSource
+ *
+ * @return void
+ */
+function testSourceFactoryReturnsHtmlSource() {
         $s = HtmlElement::source('audio.mp3', 'audio/mpeg');
         $html = $s->getHtml();
         $this->assertStringContainsString('<source', $html);
@@ -47,7 +147,57 @@ class SemanticFactoryTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testImageFactorySetsAltAndSrc() {
+    public /**
+ * testImageFactorySetsAltAndSrc
+ *
+ * @return void
+ */
+/**
+ * testImageFactorySetsAltAndSrc
+ *
+ * @return void
+ */
+/**
+ * testImageFactorySetsAltAndSrc
+ *
+ * @return void
+ */
+/**
+ * testImageFactorySetsAltAndSrc
+ *
+ * @return void
+ */
+/**
+ * testImageFactorySetsAltAndSrc
+ *
+ * @return void
+ */
+/**
+ * testImageFactorySetsAltAndSrc
+ *
+ * @return void
+ */
+/**
+ * testImageFactorySetsAltAndSrc
+ *
+ * @return void
+ */
+/**
+ * testImageFactorySetsAltAndSrc
+ *
+ * @return void
+ */
+/**
+ * testImageFactorySetsAltAndSrc
+ *
+ * @return void
+ */
+/**
+ * testImageFactorySetsAltAndSrc
+ *
+ * @return void
+ */
+function testImageFactorySetsAltAndSrc() {
         $i = HtmlElement::image('pic.jpg', 'alt text');
         $html = $i->getHtml();
         $this->assertStringContainsString('src="pic.jpg"', $html);

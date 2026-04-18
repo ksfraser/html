@@ -29,7 +29,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since 1.0.5 2026-03-30
      */
-    public function header_creates_header_element()
+    public /**
+ * header_creates_header_element
+ *
+ * @return void
+ */
+/**
+ * header_creates_header_element
+ *
+ * @return void
+ */
+/**
+ * header_creates_header_element
+ *
+ * @return void
+ */
+/**
+ * header_creates_header_element
+ *
+ * @return void
+ */
+/**
+ * header_creates_header_element
+ *
+ * @return void
+ */
+/**
+ * header_creates_header_element
+ *
+ * @return void
+ */
+/**
+ * header_creates_header_element
+ *
+ * @return void
+ */
+/**
+ * header_creates_header_element
+ *
+ * @return void
+ */
+/**
+ * header_creates_header_element
+ *
+ * @return void
+ */
+/**
+ * header_creates_header_element
+ *
+ * @return void
+ */
+function header_creates_header_element()
     {
         $header = HtmlElement::header();
         
@@ -43,7 +93,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function footer_creates_footer_element()
+    public /**
+ * footer_creates_footer_element
+ *
+ * @return void
+ */
+/**
+ * footer_creates_footer_element
+ *
+ * @return void
+ */
+/**
+ * footer_creates_footer_element
+ *
+ * @return void
+ */
+/**
+ * footer_creates_footer_element
+ *
+ * @return void
+ */
+/**
+ * footer_creates_footer_element
+ *
+ * @return void
+ */
+/**
+ * footer_creates_footer_element
+ *
+ * @return void
+ */
+/**
+ * footer_creates_footer_element
+ *
+ * @return void
+ */
+/**
+ * footer_creates_footer_element
+ *
+ * @return void
+ */
+/**
+ * footer_creates_footer_element
+ *
+ * @return void
+ */
+/**
+ * footer_creates_footer_element
+ *
+ * @return void
+ */
+function footer_creates_footer_element()
     {
         $footer = HtmlElement::footer();
         
@@ -57,7 +157,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function main_creates_main_element()
+    public /**
+ * main_creates_main_element
+ *
+ * @return void
+ */
+/**
+ * main_creates_main_element
+ *
+ * @return void
+ */
+/**
+ * main_creates_main_element
+ *
+ * @return void
+ */
+/**
+ * main_creates_main_element
+ *
+ * @return void
+ */
+/**
+ * main_creates_main_element
+ *
+ * @return void
+ */
+/**
+ * main_creates_main_element
+ *
+ * @return void
+ */
+/**
+ * main_creates_main_element
+ *
+ * @return void
+ */
+/**
+ * main_creates_main_element
+ *
+ * @return void
+ */
+/**
+ * main_creates_main_element
+ *
+ * @return void
+ */
+/**
+ * main_creates_main_element
+ *
+ * @return void
+ */
+function main_creates_main_element()
     {
         $main = HtmlElement::main();
         
@@ -71,7 +221,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function nav_creates_nav_element()
+    public /**
+ * nav_creates_nav_element
+ *
+ * @return void
+ */
+/**
+ * nav_creates_nav_element
+ *
+ * @return void
+ */
+/**
+ * nav_creates_nav_element
+ *
+ * @return void
+ */
+/**
+ * nav_creates_nav_element
+ *
+ * @return void
+ */
+/**
+ * nav_creates_nav_element
+ *
+ * @return void
+ */
+/**
+ * nav_creates_nav_element
+ *
+ * @return void
+ */
+/**
+ * nav_creates_nav_element
+ *
+ * @return void
+ */
+/**
+ * nav_creates_nav_element
+ *
+ * @return void
+ */
+/**
+ * nav_creates_nav_element
+ *
+ * @return void
+ */
+/**
+ * nav_creates_nav_element
+ *
+ * @return void
+ */
+function nav_creates_nav_element()
     {
         $nav = HtmlElement::nav();
         
@@ -85,7 +285,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function article_creates_article_element()
+    public /**
+ * article_creates_article_element
+ *
+ * @return void
+ */
+/**
+ * article_creates_article_element
+ *
+ * @return void
+ */
+/**
+ * article_creates_article_element
+ *
+ * @return void
+ */
+/**
+ * article_creates_article_element
+ *
+ * @return void
+ */
+/**
+ * article_creates_article_element
+ *
+ * @return void
+ */
+/**
+ * article_creates_article_element
+ *
+ * @return void
+ */
+/**
+ * article_creates_article_element
+ *
+ * @return void
+ */
+/**
+ * article_creates_article_element
+ *
+ * @return void
+ */
+/**
+ * article_creates_article_element
+ *
+ * @return void
+ */
+/**
+ * article_creates_article_element
+ *
+ * @return void
+ */
+function article_creates_article_element()
     {
         $article = HtmlElement::article();
         
@@ -99,7 +349,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function section_creates_section_element()
+    public /**
+ * section_creates_section_element
+ *
+ * @return void
+ */
+/**
+ * section_creates_section_element
+ *
+ * @return void
+ */
+/**
+ * section_creates_section_element
+ *
+ * @return void
+ */
+/**
+ * section_creates_section_element
+ *
+ * @return void
+ */
+/**
+ * section_creates_section_element
+ *
+ * @return void
+ */
+/**
+ * section_creates_section_element
+ *
+ * @return void
+ */
+/**
+ * section_creates_section_element
+ *
+ * @return void
+ */
+/**
+ * section_creates_section_element
+ *
+ * @return void
+ */
+/**
+ * section_creates_section_element
+ *
+ * @return void
+ */
+/**
+ * section_creates_section_element
+ *
+ * @return void
+ */
+function section_creates_section_element()
     {
         $section = HtmlElement::section();
         
@@ -113,7 +413,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function aside_creates_aside_element()
+    public /**
+ * aside_creates_aside_element
+ *
+ * @return void
+ */
+/**
+ * aside_creates_aside_element
+ *
+ * @return void
+ */
+/**
+ * aside_creates_aside_element
+ *
+ * @return void
+ */
+/**
+ * aside_creates_aside_element
+ *
+ * @return void
+ */
+/**
+ * aside_creates_aside_element
+ *
+ * @return void
+ */
+/**
+ * aside_creates_aside_element
+ *
+ * @return void
+ */
+/**
+ * aside_creates_aside_element
+ *
+ * @return void
+ */
+/**
+ * aside_creates_aside_element
+ *
+ * @return void
+ */
+/**
+ * aside_creates_aside_element
+ *
+ * @return void
+ */
+/**
+ * aside_creates_aside_element
+ *
+ * @return void
+ */
+function aside_creates_aside_element()
     {
         $aside = HtmlElement::aside();
         
@@ -131,7 +481,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function figure_creates_figure_element()
+    public /**
+ * figure_creates_figure_element
+ *
+ * @return void
+ */
+/**
+ * figure_creates_figure_element
+ *
+ * @return void
+ */
+/**
+ * figure_creates_figure_element
+ *
+ * @return void
+ */
+/**
+ * figure_creates_figure_element
+ *
+ * @return void
+ */
+/**
+ * figure_creates_figure_element
+ *
+ * @return void
+ */
+/**
+ * figure_creates_figure_element
+ *
+ * @return void
+ */
+/**
+ * figure_creates_figure_element
+ *
+ * @return void
+ */
+/**
+ * figure_creates_figure_element
+ *
+ * @return void
+ */
+/**
+ * figure_creates_figure_element
+ *
+ * @return void
+ */
+/**
+ * figure_creates_figure_element
+ *
+ * @return void
+ */
+function figure_creates_figure_element()
     {
         $figure = HtmlElement::figure();
         
@@ -145,7 +545,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function figcaption_creates_figcaption_element()
+    public /**
+ * figcaption_creates_figcaption_element
+ *
+ * @return void
+ */
+/**
+ * figcaption_creates_figcaption_element
+ *
+ * @return void
+ */
+/**
+ * figcaption_creates_figcaption_element
+ *
+ * @return void
+ */
+/**
+ * figcaption_creates_figcaption_element
+ *
+ * @return void
+ */
+/**
+ * figcaption_creates_figcaption_element
+ *
+ * @return void
+ */
+/**
+ * figcaption_creates_figcaption_element
+ *
+ * @return void
+ */
+/**
+ * figcaption_creates_figcaption_element
+ *
+ * @return void
+ */
+/**
+ * figcaption_creates_figcaption_element
+ *
+ * @return void
+ */
+/**
+ * figcaption_creates_figcaption_element
+ *
+ * @return void
+ */
+/**
+ * figcaption_creates_figcaption_element
+ *
+ * @return void
+ */
+function figcaption_creates_figcaption_element()
     {
         $caption = HtmlElement::figcaption('Image caption');
         
@@ -159,7 +609,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function blockquote_creates_blockquote_element()
+    public /**
+ * blockquote_creates_blockquote_element
+ *
+ * @return void
+ */
+/**
+ * blockquote_creates_blockquote_element
+ *
+ * @return void
+ */
+/**
+ * blockquote_creates_blockquote_element
+ *
+ * @return void
+ */
+/**
+ * blockquote_creates_blockquote_element
+ *
+ * @return void
+ */
+/**
+ * blockquote_creates_blockquote_element
+ *
+ * @return void
+ */
+/**
+ * blockquote_creates_blockquote_element
+ *
+ * @return void
+ */
+/**
+ * blockquote_creates_blockquote_element
+ *
+ * @return void
+ */
+/**
+ * blockquote_creates_blockquote_element
+ *
+ * @return void
+ */
+/**
+ * blockquote_creates_blockquote_element
+ *
+ * @return void
+ */
+/**
+ * blockquote_creates_blockquote_element
+ *
+ * @return void
+ */
+function blockquote_creates_blockquote_element()
     {
         $quote = HtmlElement::blockquote('Quote text');
         
@@ -173,7 +673,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function blockquote_with_cite_adds_cite_attribute()
+    public /**
+ * blockquote_with_cite_adds_cite_attribute
+ *
+ * @return void
+ */
+/**
+ * blockquote_with_cite_adds_cite_attribute
+ *
+ * @return void
+ */
+/**
+ * blockquote_with_cite_adds_cite_attribute
+ *
+ * @return void
+ */
+/**
+ * blockquote_with_cite_adds_cite_attribute
+ *
+ * @return void
+ */
+/**
+ * blockquote_with_cite_adds_cite_attribute
+ *
+ * @return void
+ */
+/**
+ * blockquote_with_cite_adds_cite_attribute
+ *
+ * @return void
+ */
+/**
+ * blockquote_with_cite_adds_cite_attribute
+ *
+ * @return void
+ */
+/**
+ * blockquote_with_cite_adds_cite_attribute
+ *
+ * @return void
+ */
+/**
+ * blockquote_with_cite_adds_cite_attribute
+ *
+ * @return void
+ */
+/**
+ * blockquote_with_cite_adds_cite_attribute
+ *
+ * @return void
+ */
+function blockquote_with_cite_adds_cite_attribute()
     {
         $quote = HtmlElement::blockquote('Quote', 'https://example.com');
         
@@ -187,7 +737,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function cite_creates_cite_element()
+    public /**
+ * cite_creates_cite_element
+ *
+ * @return void
+ */
+/**
+ * cite_creates_cite_element
+ *
+ * @return void
+ */
+/**
+ * cite_creates_cite_element
+ *
+ * @return void
+ */
+/**
+ * cite_creates_cite_element
+ *
+ * @return void
+ */
+/**
+ * cite_creates_cite_element
+ *
+ * @return void
+ */
+/**
+ * cite_creates_cite_element
+ *
+ * @return void
+ */
+/**
+ * cite_creates_cite_element
+ *
+ * @return void
+ */
+/**
+ * cite_creates_cite_element
+ *
+ * @return void
+ */
+/**
+ * cite_creates_cite_element
+ *
+ * @return void
+ */
+/**
+ * cite_creates_cite_element
+ *
+ * @return void
+ */
+function cite_creates_cite_element()
     {
         $cite = HtmlElement::cite('Author Name');
         
@@ -201,7 +801,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function code_creates_code_element()
+    public /**
+ * code_creates_code_element
+ *
+ * @return void
+ */
+/**
+ * code_creates_code_element
+ *
+ * @return void
+ */
+/**
+ * code_creates_code_element
+ *
+ * @return void
+ */
+/**
+ * code_creates_code_element
+ *
+ * @return void
+ */
+/**
+ * code_creates_code_element
+ *
+ * @return void
+ */
+/**
+ * code_creates_code_element
+ *
+ * @return void
+ */
+/**
+ * code_creates_code_element
+ *
+ * @return void
+ */
+/**
+ * code_creates_code_element
+ *
+ * @return void
+ */
+/**
+ * code_creates_code_element
+ *
+ * @return void
+ */
+/**
+ * code_creates_code_element
+ *
+ * @return void
+ */
+function code_creates_code_element()
     {
         $code = HtmlElement::code('var x = 5;');
         
@@ -215,7 +865,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function pre_creates_pre_element()
+    public /**
+ * pre_creates_pre_element
+ *
+ * @return void
+ */
+/**
+ * pre_creates_pre_element
+ *
+ * @return void
+ */
+/**
+ * pre_creates_pre_element
+ *
+ * @return void
+ */
+/**
+ * pre_creates_pre_element
+ *
+ * @return void
+ */
+/**
+ * pre_creates_pre_element
+ *
+ * @return void
+ */
+/**
+ * pre_creates_pre_element
+ *
+ * @return void
+ */
+/**
+ * pre_creates_pre_element
+ *
+ * @return void
+ */
+/**
+ * pre_creates_pre_element
+ *
+ * @return void
+ */
+/**
+ * pre_creates_pre_element
+ *
+ * @return void
+ */
+/**
+ * pre_creates_pre_element
+ *
+ * @return void
+ */
+function pre_creates_pre_element()
     {
         $pre = HtmlElement::pre('Preformatted text');
         
@@ -229,7 +929,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function kbd_creates_kbd_element()
+    public /**
+ * kbd_creates_kbd_element
+ *
+ * @return void
+ */
+/**
+ * kbd_creates_kbd_element
+ *
+ * @return void
+ */
+/**
+ * kbd_creates_kbd_element
+ *
+ * @return void
+ */
+/**
+ * kbd_creates_kbd_element
+ *
+ * @return void
+ */
+/**
+ * kbd_creates_kbd_element
+ *
+ * @return void
+ */
+/**
+ * kbd_creates_kbd_element
+ *
+ * @return void
+ */
+/**
+ * kbd_creates_kbd_element
+ *
+ * @return void
+ */
+/**
+ * kbd_creates_kbd_element
+ *
+ * @return void
+ */
+/**
+ * kbd_creates_kbd_element
+ *
+ * @return void
+ */
+/**
+ * kbd_creates_kbd_element
+ *
+ * @return void
+ */
+function kbd_creates_kbd_element()
     {
         $kbd = HtmlElement::kbd('Ctrl+C');
         
@@ -243,7 +993,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function samp_creates_samp_element()
+    public /**
+ * samp_creates_samp_element
+ *
+ * @return void
+ */
+/**
+ * samp_creates_samp_element
+ *
+ * @return void
+ */
+/**
+ * samp_creates_samp_element
+ *
+ * @return void
+ */
+/**
+ * samp_creates_samp_element
+ *
+ * @return void
+ */
+/**
+ * samp_creates_samp_element
+ *
+ * @return void
+ */
+/**
+ * samp_creates_samp_element
+ *
+ * @return void
+ */
+/**
+ * samp_creates_samp_element
+ *
+ * @return void
+ */
+/**
+ * samp_creates_samp_element
+ *
+ * @return void
+ */
+/**
+ * samp_creates_samp_element
+ *
+ * @return void
+ */
+/**
+ * samp_creates_samp_element
+ *
+ * @return void
+ */
+function samp_creates_samp_element()
     {
         $samp = HtmlElement::samp('Sample output');
         
@@ -257,7 +1057,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function var_creates_var_element()
+    public /**
+ * var_creates_var_element
+ *
+ * @return void
+ */
+/**
+ * var_creates_var_element
+ *
+ * @return void
+ */
+/**
+ * var_creates_var_element
+ *
+ * @return void
+ */
+/**
+ * var_creates_var_element
+ *
+ * @return void
+ */
+/**
+ * var_creates_var_element
+ *
+ * @return void
+ */
+/**
+ * var_creates_var_element
+ *
+ * @return void
+ */
+/**
+ * var_creates_var_element
+ *
+ * @return void
+ */
+/**
+ * var_creates_var_element
+ *
+ * @return void
+ */
+/**
+ * var_creates_var_element
+ *
+ * @return void
+ */
+/**
+ * var_creates_var_element
+ *
+ * @return void
+ */
+function var_creates_var_element()
     {
         $var = HtmlElement::var('variable_name');
         
@@ -275,7 +1125,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function strong_creates_strong_element()
+    public /**
+ * strong_creates_strong_element
+ *
+ * @return void
+ */
+/**
+ * strong_creates_strong_element
+ *
+ * @return void
+ */
+/**
+ * strong_creates_strong_element
+ *
+ * @return void
+ */
+/**
+ * strong_creates_strong_element
+ *
+ * @return void
+ */
+/**
+ * strong_creates_strong_element
+ *
+ * @return void
+ */
+/**
+ * strong_creates_strong_element
+ *
+ * @return void
+ */
+/**
+ * strong_creates_strong_element
+ *
+ * @return void
+ */
+/**
+ * strong_creates_strong_element
+ *
+ * @return void
+ */
+/**
+ * strong_creates_strong_element
+ *
+ * @return void
+ */
+/**
+ * strong_creates_strong_element
+ *
+ * @return void
+ */
+function strong_creates_strong_element()
     {
         $strong = HtmlElement::strong('Important text');
         
@@ -289,7 +1189,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function em_creates_em_element()
+    public /**
+ * em_creates_em_element
+ *
+ * @return void
+ */
+/**
+ * em_creates_em_element
+ *
+ * @return void
+ */
+/**
+ * em_creates_em_element
+ *
+ * @return void
+ */
+/**
+ * em_creates_em_element
+ *
+ * @return void
+ */
+/**
+ * em_creates_em_element
+ *
+ * @return void
+ */
+/**
+ * em_creates_em_element
+ *
+ * @return void
+ */
+/**
+ * em_creates_em_element
+ *
+ * @return void
+ */
+/**
+ * em_creates_em_element
+ *
+ * @return void
+ */
+/**
+ * em_creates_em_element
+ *
+ * @return void
+ */
+/**
+ * em_creates_em_element
+ *
+ * @return void
+ */
+function em_creates_em_element()
     {
         $em = HtmlElement::em('Emphasized text');
         
@@ -303,7 +1253,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function mark_creates_mark_element()
+    public /**
+ * mark_creates_mark_element
+ *
+ * @return void
+ */
+/**
+ * mark_creates_mark_element
+ *
+ * @return void
+ */
+/**
+ * mark_creates_mark_element
+ *
+ * @return void
+ */
+/**
+ * mark_creates_mark_element
+ *
+ * @return void
+ */
+/**
+ * mark_creates_mark_element
+ *
+ * @return void
+ */
+/**
+ * mark_creates_mark_element
+ *
+ * @return void
+ */
+/**
+ * mark_creates_mark_element
+ *
+ * @return void
+ */
+/**
+ * mark_creates_mark_element
+ *
+ * @return void
+ */
+/**
+ * mark_creates_mark_element
+ *
+ * @return void
+ */
+/**
+ * mark_creates_mark_element
+ *
+ * @return void
+ */
+function mark_creates_mark_element()
     {
         $mark = HtmlElement::mark('Highlighted text');
         
@@ -317,7 +1317,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function small_creates_small_element()
+    public /**
+ * small_creates_small_element
+ *
+ * @return void
+ */
+/**
+ * small_creates_small_element
+ *
+ * @return void
+ */
+/**
+ * small_creates_small_element
+ *
+ * @return void
+ */
+/**
+ * small_creates_small_element
+ *
+ * @return void
+ */
+/**
+ * small_creates_small_element
+ *
+ * @return void
+ */
+/**
+ * small_creates_small_element
+ *
+ * @return void
+ */
+/**
+ * small_creates_small_element
+ *
+ * @return void
+ */
+/**
+ * small_creates_small_element
+ *
+ * @return void
+ */
+/**
+ * small_creates_small_element
+ *
+ * @return void
+ */
+/**
+ * small_creates_small_element
+ *
+ * @return void
+ */
+function small_creates_small_element()
     {
         $small = HtmlElement::small('Small text');
         
@@ -331,7 +1381,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function del_creates_del_element()
+    public /**
+ * del_creates_del_element
+ *
+ * @return void
+ */
+/**
+ * del_creates_del_element
+ *
+ * @return void
+ */
+/**
+ * del_creates_del_element
+ *
+ * @return void
+ */
+/**
+ * del_creates_del_element
+ *
+ * @return void
+ */
+/**
+ * del_creates_del_element
+ *
+ * @return void
+ */
+/**
+ * del_creates_del_element
+ *
+ * @return void
+ */
+/**
+ * del_creates_del_element
+ *
+ * @return void
+ */
+/**
+ * del_creates_del_element
+ *
+ * @return void
+ */
+/**
+ * del_creates_del_element
+ *
+ * @return void
+ */
+/**
+ * del_creates_del_element
+ *
+ * @return void
+ */
+function del_creates_del_element()
     {
         $del = HtmlElement::del('Deleted text');
         
@@ -345,7 +1445,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function ins_creates_ins_element()
+    public /**
+ * ins_creates_ins_element
+ *
+ * @return void
+ */
+/**
+ * ins_creates_ins_element
+ *
+ * @return void
+ */
+/**
+ * ins_creates_ins_element
+ *
+ * @return void
+ */
+/**
+ * ins_creates_ins_element
+ *
+ * @return void
+ */
+/**
+ * ins_creates_ins_element
+ *
+ * @return void
+ */
+/**
+ * ins_creates_ins_element
+ *
+ * @return void
+ */
+/**
+ * ins_creates_ins_element
+ *
+ * @return void
+ */
+/**
+ * ins_creates_ins_element
+ *
+ * @return void
+ */
+/**
+ * ins_creates_ins_element
+ *
+ * @return void
+ */
+/**
+ * ins_creates_ins_element
+ *
+ * @return void
+ */
+function ins_creates_ins_element()
     {
         $ins = HtmlElement::ins('Inserted text');
         
@@ -359,7 +1509,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function sub_creates_sub_element()
+    public /**
+ * sub_creates_sub_element
+ *
+ * @return void
+ */
+/**
+ * sub_creates_sub_element
+ *
+ * @return void
+ */
+/**
+ * sub_creates_sub_element
+ *
+ * @return void
+ */
+/**
+ * sub_creates_sub_element
+ *
+ * @return void
+ */
+/**
+ * sub_creates_sub_element
+ *
+ * @return void
+ */
+/**
+ * sub_creates_sub_element
+ *
+ * @return void
+ */
+/**
+ * sub_creates_sub_element
+ *
+ * @return void
+ */
+/**
+ * sub_creates_sub_element
+ *
+ * @return void
+ */
+/**
+ * sub_creates_sub_element
+ *
+ * @return void
+ */
+/**
+ * sub_creates_sub_element
+ *
+ * @return void
+ */
+function sub_creates_sub_element()
     {
         $sub = HtmlElement::sub('Subscript');
         
@@ -373,7 +1573,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function sup_creates_sup_element()
+    public /**
+ * sup_creates_sup_element
+ *
+ * @return void
+ */
+/**
+ * sup_creates_sup_element
+ *
+ * @return void
+ */
+/**
+ * sup_creates_sup_element
+ *
+ * @return void
+ */
+/**
+ * sup_creates_sup_element
+ *
+ * @return void
+ */
+/**
+ * sup_creates_sup_element
+ *
+ * @return void
+ */
+/**
+ * sup_creates_sup_element
+ *
+ * @return void
+ */
+/**
+ * sup_creates_sup_element
+ *
+ * @return void
+ */
+/**
+ * sup_creates_sup_element
+ *
+ * @return void
+ */
+/**
+ * sup_creates_sup_element
+ *
+ * @return void
+ */
+/**
+ * sup_creates_sup_element
+ *
+ * @return void
+ */
+function sup_creates_sup_element()
     {
         $sup = HtmlElement::sup('Superscript');
         
@@ -387,7 +1637,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function abbr_creates_abbr_element()
+    public /**
+ * abbr_creates_abbr_element
+ *
+ * @return void
+ */
+/**
+ * abbr_creates_abbr_element
+ *
+ * @return void
+ */
+/**
+ * abbr_creates_abbr_element
+ *
+ * @return void
+ */
+/**
+ * abbr_creates_abbr_element
+ *
+ * @return void
+ */
+/**
+ * abbr_creates_abbr_element
+ *
+ * @return void
+ */
+/**
+ * abbr_creates_abbr_element
+ *
+ * @return void
+ */
+/**
+ * abbr_creates_abbr_element
+ *
+ * @return void
+ */
+/**
+ * abbr_creates_abbr_element
+ *
+ * @return void
+ */
+/**
+ * abbr_creates_abbr_element
+ *
+ * @return void
+ */
+/**
+ * abbr_creates_abbr_element
+ *
+ * @return void
+ */
+function abbr_creates_abbr_element()
     {
         $abbr = HtmlElement::abbr('HTML', 'HyperText Markup Language');
         
@@ -406,7 +1706,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function time_creates_time_element()
+    public /**
+ * time_creates_time_element
+ *
+ * @return void
+ */
+/**
+ * time_creates_time_element
+ *
+ * @return void
+ */
+/**
+ * time_creates_time_element
+ *
+ * @return void
+ */
+/**
+ * time_creates_time_element
+ *
+ * @return void
+ */
+/**
+ * time_creates_time_element
+ *
+ * @return void
+ */
+/**
+ * time_creates_time_element
+ *
+ * @return void
+ */
+/**
+ * time_creates_time_element
+ *
+ * @return void
+ */
+/**
+ * time_creates_time_element
+ *
+ * @return void
+ */
+/**
+ * time_creates_time_element
+ *
+ * @return void
+ */
+/**
+ * time_creates_time_element
+ *
+ * @return void
+ */
+function time_creates_time_element()
     {
         $time = HtmlElement::time('March 29, 2026');
         
@@ -420,7 +1770,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function time_with_datetime_adds_datetime_attribute()
+    public /**
+ * time_with_datetime_adds_datetime_attribute
+ *
+ * @return void
+ */
+/**
+ * time_with_datetime_adds_datetime_attribute
+ *
+ * @return void
+ */
+/**
+ * time_with_datetime_adds_datetime_attribute
+ *
+ * @return void
+ */
+/**
+ * time_with_datetime_adds_datetime_attribute
+ *
+ * @return void
+ */
+/**
+ * time_with_datetime_adds_datetime_attribute
+ *
+ * @return void
+ */
+/**
+ * time_with_datetime_adds_datetime_attribute
+ *
+ * @return void
+ */
+/**
+ * time_with_datetime_adds_datetime_attribute
+ *
+ * @return void
+ */
+/**
+ * time_with_datetime_adds_datetime_attribute
+ *
+ * @return void
+ */
+/**
+ * time_with_datetime_adds_datetime_attribute
+ *
+ * @return void
+ */
+/**
+ * time_with_datetime_adds_datetime_attribute
+ *
+ * @return void
+ */
+function time_with_datetime_adds_datetime_attribute()
     {
         $time = HtmlElement::time('Today', '2026-03-29');
         
@@ -434,7 +1834,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function address_creates_address_element()
+    public /**
+ * address_creates_address_element
+ *
+ * @return void
+ */
+/**
+ * address_creates_address_element
+ *
+ * @return void
+ */
+/**
+ * address_creates_address_element
+ *
+ * @return void
+ */
+/**
+ * address_creates_address_element
+ *
+ * @return void
+ */
+/**
+ * address_creates_address_element
+ *
+ * @return void
+ */
+/**
+ * address_creates_address_element
+ *
+ * @return void
+ */
+/**
+ * address_creates_address_element
+ *
+ * @return void
+ */
+/**
+ * address_creates_address_element
+ *
+ * @return void
+ */
+/**
+ * address_creates_address_element
+ *
+ * @return void
+ */
+/**
+ * address_creates_address_element
+ *
+ * @return void
+ */
+function address_creates_address_element()
     {
         $address = HtmlElement::address('Contact info');
         
@@ -452,7 +1902,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function video_creates_video_element()
+    public /**
+ * video_creates_video_element
+ *
+ * @return void
+ */
+/**
+ * video_creates_video_element
+ *
+ * @return void
+ */
+/**
+ * video_creates_video_element
+ *
+ * @return void
+ */
+/**
+ * video_creates_video_element
+ *
+ * @return void
+ */
+/**
+ * video_creates_video_element
+ *
+ * @return void
+ */
+/**
+ * video_creates_video_element
+ *
+ * @return void
+ */
+/**
+ * video_creates_video_element
+ *
+ * @return void
+ */
+/**
+ * video_creates_video_element
+ *
+ * @return void
+ */
+/**
+ * video_creates_video_element
+ *
+ * @return void
+ */
+/**
+ * video_creates_video_element
+ *
+ * @return void
+ */
+function video_creates_video_element()
     {
         $video = HtmlElement::video('video.mp4');
         
@@ -467,7 +1967,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function video_with_controls_adds_controls_attribute()
+    public /**
+ * video_with_controls_adds_controls_attribute
+ *
+ * @return void
+ */
+/**
+ * video_with_controls_adds_controls_attribute
+ *
+ * @return void
+ */
+/**
+ * video_with_controls_adds_controls_attribute
+ *
+ * @return void
+ */
+/**
+ * video_with_controls_adds_controls_attribute
+ *
+ * @return void
+ */
+/**
+ * video_with_controls_adds_controls_attribute
+ *
+ * @return void
+ */
+/**
+ * video_with_controls_adds_controls_attribute
+ *
+ * @return void
+ */
+/**
+ * video_with_controls_adds_controls_attribute
+ *
+ * @return void
+ */
+/**
+ * video_with_controls_adds_controls_attribute
+ *
+ * @return void
+ */
+/**
+ * video_with_controls_adds_controls_attribute
+ *
+ * @return void
+ */
+/**
+ * video_with_controls_adds_controls_attribute
+ *
+ * @return void
+ */
+function video_with_controls_adds_controls_attribute()
     {
         $video = HtmlElement::video('video.mp4', true);
         
@@ -481,7 +2031,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function video_with_autoplay_adds_autoplay_attribute()
+    public /**
+ * video_with_autoplay_adds_autoplay_attribute
+ *
+ * @return void
+ */
+/**
+ * video_with_autoplay_adds_autoplay_attribute
+ *
+ * @return void
+ */
+/**
+ * video_with_autoplay_adds_autoplay_attribute
+ *
+ * @return void
+ */
+/**
+ * video_with_autoplay_adds_autoplay_attribute
+ *
+ * @return void
+ */
+/**
+ * video_with_autoplay_adds_autoplay_attribute
+ *
+ * @return void
+ */
+/**
+ * video_with_autoplay_adds_autoplay_attribute
+ *
+ * @return void
+ */
+/**
+ * video_with_autoplay_adds_autoplay_attribute
+ *
+ * @return void
+ */
+/**
+ * video_with_autoplay_adds_autoplay_attribute
+ *
+ * @return void
+ */
+/**
+ * video_with_autoplay_adds_autoplay_attribute
+ *
+ * @return void
+ */
+/**
+ * video_with_autoplay_adds_autoplay_attribute
+ *
+ * @return void
+ */
+function video_with_autoplay_adds_autoplay_attribute()
     {
         $video = HtmlElement::video('video.mp4', false, true);
         
@@ -495,7 +2095,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function audio_creates_audio_element()
+    public /**
+ * audio_creates_audio_element
+ *
+ * @return void
+ */
+/**
+ * audio_creates_audio_element
+ *
+ * @return void
+ */
+/**
+ * audio_creates_audio_element
+ *
+ * @return void
+ */
+/**
+ * audio_creates_audio_element
+ *
+ * @return void
+ */
+/**
+ * audio_creates_audio_element
+ *
+ * @return void
+ */
+/**
+ * audio_creates_audio_element
+ *
+ * @return void
+ */
+/**
+ * audio_creates_audio_element
+ *
+ * @return void
+ */
+/**
+ * audio_creates_audio_element
+ *
+ * @return void
+ */
+/**
+ * audio_creates_audio_element
+ *
+ * @return void
+ */
+/**
+ * audio_creates_audio_element
+ *
+ * @return void
+ */
+function audio_creates_audio_element()
     {
         $audio = HtmlElement::audio('audio.mp3');
         
@@ -510,7 +2160,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function audio_with_controls_adds_controls_attribute()
+    public /**
+ * audio_with_controls_adds_controls_attribute
+ *
+ * @return void
+ */
+/**
+ * audio_with_controls_adds_controls_attribute
+ *
+ * @return void
+ */
+/**
+ * audio_with_controls_adds_controls_attribute
+ *
+ * @return void
+ */
+/**
+ * audio_with_controls_adds_controls_attribute
+ *
+ * @return void
+ */
+/**
+ * audio_with_controls_adds_controls_attribute
+ *
+ * @return void
+ */
+/**
+ * audio_with_controls_adds_controls_attribute
+ *
+ * @return void
+ */
+/**
+ * audio_with_controls_adds_controls_attribute
+ *
+ * @return void
+ */
+/**
+ * audio_with_controls_adds_controls_attribute
+ *
+ * @return void
+ */
+/**
+ * audio_with_controls_adds_controls_attribute
+ *
+ * @return void
+ */
+/**
+ * audio_with_controls_adds_controls_attribute
+ *
+ * @return void
+ */
+function audio_with_controls_adds_controls_attribute()
     {
         $audio = HtmlElement::audio('audio.mp3', true);
         
@@ -524,7 +2224,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function source_creates_source_element()
+    public /**
+ * source_creates_source_element
+ *
+ * @return void
+ */
+/**
+ * source_creates_source_element
+ *
+ * @return void
+ */
+/**
+ * source_creates_source_element
+ *
+ * @return void
+ */
+/**
+ * source_creates_source_element
+ *
+ * @return void
+ */
+/**
+ * source_creates_source_element
+ *
+ * @return void
+ */
+/**
+ * source_creates_source_element
+ *
+ * @return void
+ */
+/**
+ * source_creates_source_element
+ *
+ * @return void
+ */
+/**
+ * source_creates_source_element
+ *
+ * @return void
+ */
+/**
+ * source_creates_source_element
+ *
+ * @return void
+ */
+/**
+ * source_creates_source_element
+ *
+ * @return void
+ */
+function source_creates_source_element()
     {
         $source = HtmlElement::source('video.webm', 'video/webm');
         
@@ -540,7 +2290,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function track_creates_track_element()
+    public /**
+ * track_creates_track_element
+ *
+ * @return void
+ */
+/**
+ * track_creates_track_element
+ *
+ * @return void
+ */
+/**
+ * track_creates_track_element
+ *
+ * @return void
+ */
+/**
+ * track_creates_track_element
+ *
+ * @return void
+ */
+/**
+ * track_creates_track_element
+ *
+ * @return void
+ */
+/**
+ * track_creates_track_element
+ *
+ * @return void
+ */
+/**
+ * track_creates_track_element
+ *
+ * @return void
+ */
+/**
+ * track_creates_track_element
+ *
+ * @return void
+ */
+/**
+ * track_creates_track_element
+ *
+ * @return void
+ */
+/**
+ * track_creates_track_element
+ *
+ * @return void
+ */
+function track_creates_track_element()
     {
         $track = HtmlElement::track('subtitles.vtt', 'captions');
         
@@ -560,7 +2360,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function description_list_creates_dl_element()
+    public /**
+ * description_list_creates_dl_element
+ *
+ * @return void
+ */
+/**
+ * description_list_creates_dl_element
+ *
+ * @return void
+ */
+/**
+ * description_list_creates_dl_element
+ *
+ * @return void
+ */
+/**
+ * description_list_creates_dl_element
+ *
+ * @return void
+ */
+/**
+ * description_list_creates_dl_element
+ *
+ * @return void
+ */
+/**
+ * description_list_creates_dl_element
+ *
+ * @return void
+ */
+/**
+ * description_list_creates_dl_element
+ *
+ * @return void
+ */
+/**
+ * description_list_creates_dl_element
+ *
+ * @return void
+ */
+/**
+ * description_list_creates_dl_element
+ *
+ * @return void
+ */
+/**
+ * description_list_creates_dl_element
+ *
+ * @return void
+ */
+function description_list_creates_dl_element()
     {
         $dl = HtmlElement::descriptionList();
         
@@ -574,7 +2424,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function description_term_creates_dt_element()
+    public /**
+ * description_term_creates_dt_element
+ *
+ * @return void
+ */
+/**
+ * description_term_creates_dt_element
+ *
+ * @return void
+ */
+/**
+ * description_term_creates_dt_element
+ *
+ * @return void
+ */
+/**
+ * description_term_creates_dt_element
+ *
+ * @return void
+ */
+/**
+ * description_term_creates_dt_element
+ *
+ * @return void
+ */
+/**
+ * description_term_creates_dt_element
+ *
+ * @return void
+ */
+/**
+ * description_term_creates_dt_element
+ *
+ * @return void
+ */
+/**
+ * description_term_creates_dt_element
+ *
+ * @return void
+ */
+/**
+ * description_term_creates_dt_element
+ *
+ * @return void
+ */
+/**
+ * description_term_creates_dt_element
+ *
+ * @return void
+ */
+function description_term_creates_dt_element()
     {
         $dt = HtmlElement::descriptionTerm('Term');
         
@@ -588,7 +2488,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function description_definition_creates_dd_element()
+    public /**
+ * description_definition_creates_dd_element
+ *
+ * @return void
+ */
+/**
+ * description_definition_creates_dd_element
+ *
+ * @return void
+ */
+/**
+ * description_definition_creates_dd_element
+ *
+ * @return void
+ */
+/**
+ * description_definition_creates_dd_element
+ *
+ * @return void
+ */
+/**
+ * description_definition_creates_dd_element
+ *
+ * @return void
+ */
+/**
+ * description_definition_creates_dd_element
+ *
+ * @return void
+ */
+/**
+ * description_definition_creates_dd_element
+ *
+ * @return void
+ */
+/**
+ * description_definition_creates_dd_element
+ *
+ * @return void
+ */
+/**
+ * description_definition_creates_dd_element
+ *
+ * @return void
+ */
+/**
+ * description_definition_creates_dd_element
+ *
+ * @return void
+ */
+function description_definition_creates_dd_element()
     {
         $dd = HtmlElement::descriptionDefinition('Definition');
         
@@ -606,7 +2556,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function details_creates_details_element()
+    public /**
+ * details_creates_details_element
+ *
+ * @return void
+ */
+/**
+ * details_creates_details_element
+ *
+ * @return void
+ */
+/**
+ * details_creates_details_element
+ *
+ * @return void
+ */
+/**
+ * details_creates_details_element
+ *
+ * @return void
+ */
+/**
+ * details_creates_details_element
+ *
+ * @return void
+ */
+/**
+ * details_creates_details_element
+ *
+ * @return void
+ */
+/**
+ * details_creates_details_element
+ *
+ * @return void
+ */
+/**
+ * details_creates_details_element
+ *
+ * @return void
+ */
+/**
+ * details_creates_details_element
+ *
+ * @return void
+ */
+/**
+ * details_creates_details_element
+ *
+ * @return void
+ */
+function details_creates_details_element()
     {
         $details = HtmlElement::details();
         
@@ -620,7 +2620,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function summary_creates_summary_element()
+    public /**
+ * summary_creates_summary_element
+ *
+ * @return void
+ */
+/**
+ * summary_creates_summary_element
+ *
+ * @return void
+ */
+/**
+ * summary_creates_summary_element
+ *
+ * @return void
+ */
+/**
+ * summary_creates_summary_element
+ *
+ * @return void
+ */
+/**
+ * summary_creates_summary_element
+ *
+ * @return void
+ */
+/**
+ * summary_creates_summary_element
+ *
+ * @return void
+ */
+/**
+ * summary_creates_summary_element
+ *
+ * @return void
+ */
+/**
+ * summary_creates_summary_element
+ *
+ * @return void
+ */
+/**
+ * summary_creates_summary_element
+ *
+ * @return void
+ */
+/**
+ * summary_creates_summary_element
+ *
+ * @return void
+ */
+function summary_creates_summary_element()
     {
         $summary = HtmlElement::summary('Click to expand');
         
@@ -634,7 +2684,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function dialog_creates_dialog_element()
+    public /**
+ * dialog_creates_dialog_element
+ *
+ * @return void
+ */
+/**
+ * dialog_creates_dialog_element
+ *
+ * @return void
+ */
+/**
+ * dialog_creates_dialog_element
+ *
+ * @return void
+ */
+/**
+ * dialog_creates_dialog_element
+ *
+ * @return void
+ */
+/**
+ * dialog_creates_dialog_element
+ *
+ * @return void
+ */
+/**
+ * dialog_creates_dialog_element
+ *
+ * @return void
+ */
+/**
+ * dialog_creates_dialog_element
+ *
+ * @return void
+ */
+/**
+ * dialog_creates_dialog_element
+ *
+ * @return void
+ */
+/**
+ * dialog_creates_dialog_element
+ *
+ * @return void
+ */
+/**
+ * dialog_creates_dialog_element
+ *
+ * @return void
+ */
+function dialog_creates_dialog_element()
     {
         $dialog = HtmlElement::dialog();
         
@@ -648,7 +2748,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function dialog_with_open_attribute()
+    public /**
+ * dialog_with_open_attribute
+ *
+ * @return void
+ */
+/**
+ * dialog_with_open_attribute
+ *
+ * @return void
+ */
+/**
+ * dialog_with_open_attribute
+ *
+ * @return void
+ */
+/**
+ * dialog_with_open_attribute
+ *
+ * @return void
+ */
+/**
+ * dialog_with_open_attribute
+ *
+ * @return void
+ */
+/**
+ * dialog_with_open_attribute
+ *
+ * @return void
+ */
+/**
+ * dialog_with_open_attribute
+ *
+ * @return void
+ */
+/**
+ * dialog_with_open_attribute
+ *
+ * @return void
+ */
+/**
+ * dialog_with_open_attribute
+ *
+ * @return void
+ */
+/**
+ * dialog_with_open_attribute
+ *
+ * @return void
+ */
+function dialog_with_open_attribute()
     {
         $dialog = HtmlElement::dialog(true);
         
@@ -666,7 +2816,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function noscript_creates_noscript_element()
+    public /**
+ * noscript_creates_noscript_element
+ *
+ * @return void
+ */
+/**
+ * noscript_creates_noscript_element
+ *
+ * @return void
+ */
+/**
+ * noscript_creates_noscript_element
+ *
+ * @return void
+ */
+/**
+ * noscript_creates_noscript_element
+ *
+ * @return void
+ */
+/**
+ * noscript_creates_noscript_element
+ *
+ * @return void
+ */
+/**
+ * noscript_creates_noscript_element
+ *
+ * @return void
+ */
+/**
+ * noscript_creates_noscript_element
+ *
+ * @return void
+ */
+/**
+ * noscript_creates_noscript_element
+ *
+ * @return void
+ */
+/**
+ * noscript_creates_noscript_element
+ *
+ * @return void
+ */
+/**
+ * noscript_creates_noscript_element
+ *
+ * @return void
+ */
+function noscript_creates_noscript_element()
     {
         $noscript = HtmlElement::noscript('JavaScript is disabled');
         
@@ -680,7 +2880,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function canvas_creates_canvas_element()
+    public /**
+ * canvas_creates_canvas_element
+ *
+ * @return void
+ */
+/**
+ * canvas_creates_canvas_element
+ *
+ * @return void
+ */
+/**
+ * canvas_creates_canvas_element
+ *
+ * @return void
+ */
+/**
+ * canvas_creates_canvas_element
+ *
+ * @return void
+ */
+/**
+ * canvas_creates_canvas_element
+ *
+ * @return void
+ */
+/**
+ * canvas_creates_canvas_element
+ *
+ * @return void
+ */
+/**
+ * canvas_creates_canvas_element
+ *
+ * @return void
+ */
+/**
+ * canvas_creates_canvas_element
+ *
+ * @return void
+ */
+/**
+ * canvas_creates_canvas_element
+ *
+ * @return void
+ */
+/**
+ * canvas_creates_canvas_element
+ *
+ * @return void
+ */
+function canvas_creates_canvas_element()
     {
         $canvas = HtmlElement::canvas();
         
@@ -694,7 +2944,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function canvas_with_dimensions()
+    public /**
+ * canvas_with_dimensions
+ *
+ * @return void
+ */
+/**
+ * canvas_with_dimensions
+ *
+ * @return void
+ */
+/**
+ * canvas_with_dimensions
+ *
+ * @return void
+ */
+/**
+ * canvas_with_dimensions
+ *
+ * @return void
+ */
+/**
+ * canvas_with_dimensions
+ *
+ * @return void
+ */
+/**
+ * canvas_with_dimensions
+ *
+ * @return void
+ */
+/**
+ * canvas_with_dimensions
+ *
+ * @return void
+ */
+/**
+ * canvas_with_dimensions
+ *
+ * @return void
+ */
+/**
+ * canvas_with_dimensions
+ *
+ * @return void
+ */
+/**
+ * canvas_with_dimensions
+ *
+ * @return void
+ */
+function canvas_with_dimensions()
     {
         $canvas = HtmlElement::canvas(500, 300);
         
@@ -709,7 +3009,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function svg_creates_svg_element()
+    public /**
+ * svg_creates_svg_element
+ *
+ * @return void
+ */
+/**
+ * svg_creates_svg_element
+ *
+ * @return void
+ */
+/**
+ * svg_creates_svg_element
+ *
+ * @return void
+ */
+/**
+ * svg_creates_svg_element
+ *
+ * @return void
+ */
+/**
+ * svg_creates_svg_element
+ *
+ * @return void
+ */
+/**
+ * svg_creates_svg_element
+ *
+ * @return void
+ */
+/**
+ * svg_creates_svg_element
+ *
+ * @return void
+ */
+/**
+ * svg_creates_svg_element
+ *
+ * @return void
+ */
+/**
+ * svg_creates_svg_element
+ *
+ * @return void
+ */
+/**
+ * svg_creates_svg_element
+ *
+ * @return void
+ */
+function svg_creates_svg_element()
     {
         $svg = HtmlElement::svg();
         
@@ -723,7 +3073,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function svg_with_viewbox()
+    public /**
+ * svg_with_viewbox
+ *
+ * @return void
+ */
+/**
+ * svg_with_viewbox
+ *
+ * @return void
+ */
+/**
+ * svg_with_viewbox
+ *
+ * @return void
+ */
+/**
+ * svg_with_viewbox
+ *
+ * @return void
+ */
+/**
+ * svg_with_viewbox
+ *
+ * @return void
+ */
+/**
+ * svg_with_viewbox
+ *
+ * @return void
+ */
+/**
+ * svg_with_viewbox
+ *
+ * @return void
+ */
+/**
+ * svg_with_viewbox
+ *
+ * @return void
+ */
+/**
+ * svg_with_viewbox
+ *
+ * @return void
+ */
+/**
+ * svg_with_viewbox
+ *
+ * @return void
+ */
+function svg_with_viewbox()
     {
         $svg = HtmlElement::svg(100, 100);
         
@@ -741,7 +3141,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function html_creates_html_element()
+    public /**
+ * html_creates_html_element
+ *
+ * @return void
+ */
+/**
+ * html_creates_html_element
+ *
+ * @return void
+ */
+/**
+ * html_creates_html_element
+ *
+ * @return void
+ */
+/**
+ * html_creates_html_element
+ *
+ * @return void
+ */
+/**
+ * html_creates_html_element
+ *
+ * @return void
+ */
+/**
+ * html_creates_html_element
+ *
+ * @return void
+ */
+/**
+ * html_creates_html_element
+ *
+ * @return void
+ */
+/**
+ * html_creates_html_element
+ *
+ * @return void
+ */
+/**
+ * html_creates_html_element
+ *
+ * @return void
+ */
+/**
+ * html_creates_html_element
+ *
+ * @return void
+ */
+function html_creates_html_element()
     {
         $html = HtmlElement::htmlElement('en');
         
@@ -756,7 +3206,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function head_creates_head_element()
+    public /**
+ * head_creates_head_element
+ *
+ * @return void
+ */
+/**
+ * head_creates_head_element
+ *
+ * @return void
+ */
+/**
+ * head_creates_head_element
+ *
+ * @return void
+ */
+/**
+ * head_creates_head_element
+ *
+ * @return void
+ */
+/**
+ * head_creates_head_element
+ *
+ * @return void
+ */
+/**
+ * head_creates_head_element
+ *
+ * @return void
+ */
+/**
+ * head_creates_head_element
+ *
+ * @return void
+ */
+/**
+ * head_creates_head_element
+ *
+ * @return void
+ */
+/**
+ * head_creates_head_element
+ *
+ * @return void
+ */
+/**
+ * head_creates_head_element
+ *
+ * @return void
+ */
+function head_creates_head_element()
     {
         $head = HtmlElement::head();
         
@@ -770,7 +3270,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function body_creates_body_element()
+    public /**
+ * body_creates_body_element
+ *
+ * @return void
+ */
+/**
+ * body_creates_body_element
+ *
+ * @return void
+ */
+/**
+ * body_creates_body_element
+ *
+ * @return void
+ */
+/**
+ * body_creates_body_element
+ *
+ * @return void
+ */
+/**
+ * body_creates_body_element
+ *
+ * @return void
+ */
+/**
+ * body_creates_body_element
+ *
+ * @return void
+ */
+/**
+ * body_creates_body_element
+ *
+ * @return void
+ */
+/**
+ * body_creates_body_element
+ *
+ * @return void
+ */
+/**
+ * body_creates_body_element
+ *
+ * @return void
+ */
+/**
+ * body_creates_body_element
+ *
+ * @return void
+ */
+function body_creates_body_element()
     {
         $body = HtmlElement::body();
         
@@ -784,7 +3334,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function title_creates_title_element()
+    public /**
+ * title_creates_title_element
+ *
+ * @return void
+ */
+/**
+ * title_creates_title_element
+ *
+ * @return void
+ */
+/**
+ * title_creates_title_element
+ *
+ * @return void
+ */
+/**
+ * title_creates_title_element
+ *
+ * @return void
+ */
+/**
+ * title_creates_title_element
+ *
+ * @return void
+ */
+/**
+ * title_creates_title_element
+ *
+ * @return void
+ */
+/**
+ * title_creates_title_element
+ *
+ * @return void
+ */
+/**
+ * title_creates_title_element
+ *
+ * @return void
+ */
+/**
+ * title_creates_title_element
+ *
+ * @return void
+ */
+/**
+ * title_creates_title_element
+ *
+ * @return void
+ */
+function title_creates_title_element()
     {
         $title = HtmlElement::title('Page Title');
         
@@ -798,7 +3398,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function meta_creates_meta_element()
+    public /**
+ * meta_creates_meta_element
+ *
+ * @return void
+ */
+/**
+ * meta_creates_meta_element
+ *
+ * @return void
+ */
+/**
+ * meta_creates_meta_element
+ *
+ * @return void
+ */
+/**
+ * meta_creates_meta_element
+ *
+ * @return void
+ */
+/**
+ * meta_creates_meta_element
+ *
+ * @return void
+ */
+/**
+ * meta_creates_meta_element
+ *
+ * @return void
+ */
+/**
+ * meta_creates_meta_element
+ *
+ * @return void
+ */
+/**
+ * meta_creates_meta_element
+ *
+ * @return void
+ */
+/**
+ * meta_creates_meta_element
+ *
+ * @return void
+ */
+/**
+ * meta_creates_meta_element
+ *
+ * @return void
+ */
+function meta_creates_meta_element()
     {
         $meta = HtmlElement::meta('viewport', 'width=device-width, initial-scale=1');
         
@@ -814,7 +3464,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function link_creates_link_element()
+    public /**
+ * link_creates_link_element
+ *
+ * @return void
+ */
+/**
+ * link_creates_link_element
+ *
+ * @return void
+ */
+/**
+ * link_creates_link_element
+ *
+ * @return void
+ */
+/**
+ * link_creates_link_element
+ *
+ * @return void
+ */
+/**
+ * link_creates_link_element
+ *
+ * @return void
+ */
+/**
+ * link_creates_link_element
+ *
+ * @return void
+ */
+/**
+ * link_creates_link_element
+ *
+ * @return void
+ */
+/**
+ * link_creates_link_element
+ *
+ * @return void
+ */
+/**
+ * link_creates_link_element
+ *
+ * @return void
+ */
+/**
+ * link_creates_link_element
+ *
+ * @return void
+ */
+function link_creates_link_element()
     {
         $link = HtmlElement::link('stylesheet', 'style.css');
         
@@ -830,7 +3530,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function script_creates_script_element()
+    public /**
+ * script_creates_script_element
+ *
+ * @return void
+ */
+/**
+ * script_creates_script_element
+ *
+ * @return void
+ */
+/**
+ * script_creates_script_element
+ *
+ * @return void
+ */
+/**
+ * script_creates_script_element
+ *
+ * @return void
+ */
+/**
+ * script_creates_script_element
+ *
+ * @return void
+ */
+/**
+ * script_creates_script_element
+ *
+ * @return void
+ */
+/**
+ * script_creates_script_element
+ *
+ * @return void
+ */
+/**
+ * script_creates_script_element
+ *
+ * @return void
+ */
+/**
+ * script_creates_script_element
+ *
+ * @return void
+ */
+/**
+ * script_creates_script_element
+ *
+ * @return void
+ */
+function script_creates_script_element()
     {
         $script = HtmlElement::script('script.js');
         
@@ -845,7 +3595,57 @@ class SemanticElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function style_creates_style_element()
+    public /**
+ * style_creates_style_element
+ *
+ * @return void
+ */
+/**
+ * style_creates_style_element
+ *
+ * @return void
+ */
+/**
+ * style_creates_style_element
+ *
+ * @return void
+ */
+/**
+ * style_creates_style_element
+ *
+ * @return void
+ */
+/**
+ * style_creates_style_element
+ *
+ * @return void
+ */
+/**
+ * style_creates_style_element
+ *
+ * @return void
+ */
+/**
+ * style_creates_style_element
+ *
+ * @return void
+ */
+/**
+ * style_creates_style_element
+ *
+ * @return void
+ */
+/**
+ * style_creates_style_element
+ *
+ * @return void
+ */
+/**
+ * style_creates_style_element
+ *
+ * @return void
+ */
+function style_creates_style_element()
     {
         $style = HtmlElement::style('body { margin: 0; }');
         

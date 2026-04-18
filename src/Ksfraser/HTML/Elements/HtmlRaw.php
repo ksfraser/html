@@ -301,6 +301,102 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * HtmlRaw
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlRaw
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlRaw
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlRaw
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlRaw
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlRaw
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlRaw
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlRaw
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlRaw
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlRaw
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlRaw
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlRaw
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlRaw
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlRaw
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlRaw
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlRaw
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlRaw implements HtmlElementInterface
 {
     /**
@@ -323,7 +419,185 @@ class HtmlRaw implements HtmlElementInterface
      * @return void
 
      */
-    public function __construct(string $html)
+    public /**
+ * __construct
+ *
+ * @param string $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return void
+ */
+function __construct(string $html)
     {
         $this->html = $html;
     }
@@ -339,7 +613,158 @@ class HtmlRaw implements HtmlElementInterface
      * @return void
 
      */
-    public function toHtml(): void
+    public /**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function toHtml(): void
     {
         echo $this->getHtml();
     }
@@ -429,7 +854,158 @@ class HtmlRaw implements HtmlElementInterface
      * @return string Raw HTML (unescaped)
 
      */
-    public function getHtml(): string
+    public /**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getHtml(): string
     {
         return $this->html;
     }

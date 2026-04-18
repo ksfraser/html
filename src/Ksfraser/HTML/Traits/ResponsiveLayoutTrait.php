@@ -324,6 +324,102 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * ResponsiveLayoutTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ResponsiveLayoutTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ResponsiveLayoutTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ResponsiveLayoutTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ResponsiveLayoutTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ResponsiveLayoutTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ResponsiveLayoutTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ResponsiveLayoutTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ResponsiveLayoutTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ResponsiveLayoutTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ResponsiveLayoutTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ResponsiveLayoutTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ResponsiveLayoutTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ResponsiveLayoutTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ResponsiveLayoutTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ResponsiveLayoutTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 trait ResponsiveLayoutTrait
 {
     // ========================================================================
@@ -421,6 +517,157 @@ trait ResponsiveLayoutTrait
  * @since v1.0.0 2026-04-14
  * @return HtmlElement
  */
+/**
+ * container
+ *
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * container
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
 function container(): HtmlElement
     {
         $cont = self::element('div');
@@ -445,6 +692,157 @@ function container(): HtmlElement
  * @since v1.0.0 2026-04-14
  * @return HtmlElement
  */
+/**
+ * containerFluid
+ *
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * containerFluid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
 function containerFluid(): HtmlElement
     {
         $cont = self::element('div');
@@ -464,6 +862,157 @@ function containerFluid(): HtmlElement
 
      */
     public static /**
+ * row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
  * row
  *
  * @since v1.0.0 2026-04-14
@@ -586,6 +1135,211 @@ function row(): HtmlElement
 
      */
     public static /**
+ * column
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @param int|null $width
+ * @param int|null $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @param int|null $width
+ * @param int|null $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @param int|null $width
+ * @param int|null $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @param int|null $width
+ * @param int|null $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @param int|null $width
+ * @param int|null $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @param int|null $width
+ * @param int|null $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @param int|null $width
+ * @param int|null $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @param int|null $width
+ * @param int|null $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @param int|null $width
+ * @param int|null $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @param int|null $width
+ * @param int|null $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @param int|null $width
+ * @param int|null $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $offset
+ * @return HtmlElement
+ */
+/**
+ * column
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $offset
+ * @return HtmlElement
+ */
+/**
  * column
  *
  * @since v1.0.0 2026-04-14
@@ -750,6 +1504,184 @@ function column(?int $width = null, ?int $offset = null): HtmlElement
  * @param mixed $breakpoints
  * @return HtmlElement
  */
+/**
+ * columnResponsive
+ *
+ * @param array $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @param array $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @param array $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @param array $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @param array $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @param array $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @param array $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @param array $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @param array $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @param array $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @param array $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breakpoints
+ * @return HtmlElement
+ */
+/**
+ * columnResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breakpoints
+ * @return HtmlElement
+ */
 function columnResponsive(array $breakpoints): HtmlElement
     {
         $col = self::element('div');
@@ -792,6 +1724,211 @@ function columnResponsive(array $breakpoints): HtmlElement
  * @param mixed $value
  * @return HtmlElementInterface
  */
+/**
+ * applyMargin
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMargin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
 function applyMargin(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
         if ($element instanceof self) {
@@ -816,6 +1953,211 @@ function applyMargin(HtmlElementInterface $element, int $value): HtmlElementInte
 
      */
     public static /**
+ * applyMarginTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
  * applyMarginTop
  *
  * @since v1.0.0 2026-04-14
@@ -854,6 +2196,211 @@ function applyMarginTop(HtmlElementInterface $element, int $value): HtmlElementI
  * @param mixed $value
  * @return HtmlElementInterface
  */
+/**
+ * applyMarginBottom
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
 function applyMarginBottom(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
         if ($element instanceof self) {
@@ -878,6 +2425,211 @@ function applyMarginBottom(HtmlElementInterface $element, int $value): HtmlEleme
 
      */
     public static /**
+ * applyMarginLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
  * applyMarginLeft
  *
  * @since v1.0.0 2026-04-14
@@ -916,6 +2668,211 @@ function applyMarginLeft(HtmlElementInterface $element, int $value): HtmlElement
  * @param mixed $value
  * @return HtmlElementInterface
  */
+/**
+ * applyMarginRight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
 function applyMarginRight(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
         if ($element instanceof self) {
@@ -940,6 +2897,211 @@ function applyMarginRight(HtmlElementInterface $element, int $value): HtmlElemen
 
      */
     public static /**
+ * applyMarginHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
  * applyMarginHorizontal
  *
  * @since v1.0.0 2026-04-14
@@ -978,6 +3140,211 @@ function applyMarginHorizontal(HtmlElementInterface $element, int $value): HtmlE
  * @param mixed $value
  * @return HtmlElementInterface
  */
+/**
+ * applyMarginVertical
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
 function applyMarginVertical(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
         if ($element instanceof self) {
@@ -1000,6 +3367,184 @@ function applyMarginVertical(HtmlElementInterface $element, int $value): HtmlEle
 
      */
     public static /**
+ * applyMarginAuto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMarginAuto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
  * applyMarginAuto
  *
  * @since v1.0.0 2026-04-14
@@ -1041,6 +3586,211 @@ function applyMarginAuto(HtmlElementInterface $element): HtmlElementInterface
  * @param mixed $value
  * @return HtmlElementInterface
  */
+/**
+ * applyPadding
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPadding
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
 function applyPadding(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
         if ($element instanceof self) {
@@ -1065,6 +3815,211 @@ function applyPadding(HtmlElementInterface $element, int $value): HtmlElementInt
 
      */
     public static /**
+ * applyPaddingTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
  * applyPaddingTop
  *
  * @since v1.0.0 2026-04-14
@@ -1103,6 +4058,211 @@ function applyPaddingTop(HtmlElementInterface $element, int $value): HtmlElement
  * @param mixed $value
  * @return HtmlElementInterface
  */
+/**
+ * applyPaddingBottom
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
 function applyPaddingBottom(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
         if ($element instanceof self) {
@@ -1127,6 +4287,211 @@ function applyPaddingBottom(HtmlElementInterface $element, int $value): HtmlElem
 
      */
     public static /**
+ * applyPaddingLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
  * applyPaddingLeft
  *
  * @since v1.0.0 2026-04-14
@@ -1165,6 +4530,211 @@ function applyPaddingLeft(HtmlElementInterface $element, int $value): HtmlElemen
  * @param mixed $value
  * @return HtmlElementInterface
  */
+/**
+ * applyPaddingRight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
 function applyPaddingRight(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
         if ($element instanceof self) {
@@ -1189,6 +4759,211 @@ function applyPaddingRight(HtmlElementInterface $element, int $value): HtmlEleme
 
      */
     public static /**
+ * applyPaddingHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingHorizontal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
  * applyPaddingHorizontal
  *
  * @since v1.0.0 2026-04-14
@@ -1227,6 +5002,211 @@ function applyPaddingHorizontal(HtmlElementInterface $element, int $value): Html
  * @param mixed $value
  * @return HtmlElementInterface
  */
+/**
+ * applyPaddingVertical
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @param HtmlElementInterface $element
+ * @param int $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
+/**
+ * applyPaddingVertical
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $value
+ * @return HtmlElementInterface
+ */
 function applyPaddingVertical(HtmlElementInterface $element, int $value): HtmlElementInterface
     {
         if ($element instanceof self) {
@@ -1255,6 +5235,211 @@ function applyPaddingVertical(HtmlElementInterface $element, int $value): HtmlEl
 
      */
     public static /**
+ * applyDisplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @param HtmlElementInterface $element
+ * @param string $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @param HtmlElementInterface $element
+ * @param string $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @param HtmlElementInterface $element
+ * @param string $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @param HtmlElementInterface $element
+ * @param string $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @param HtmlElementInterface $element
+ * @param string $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @param HtmlElementInterface $element
+ * @param string $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @param HtmlElementInterface $element
+ * @param string $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @param HtmlElementInterface $element
+ * @param string $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @param HtmlElementInterface $element
+ * @param string $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @param HtmlElementInterface $element
+ * @param string $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @param HtmlElementInterface $element
+ * @param string $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $display
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $display
+ * @return HtmlElementInterface
+ */
+/**
  * applyDisplay
  *
  * @since v1.0.0 2026-04-14
@@ -1411,6 +5596,211 @@ function applyDisplay(HtmlElementInterface $element, string $display): HtmlEleme
  * @param mixed $breakpoints
  * @return HtmlElementInterface
  */
+/**
+ * applyDisplayResponsive
+ *
+ * @param HtmlElementInterface $element
+ * @param array $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @param HtmlElementInterface $element
+ * @param array $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @param HtmlElementInterface $element
+ * @param array $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @param HtmlElementInterface $element
+ * @param array $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @param HtmlElementInterface $element
+ * @param array $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @param HtmlElementInterface $element
+ * @param array $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @param HtmlElementInterface $element
+ * @param array $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @param HtmlElementInterface $element
+ * @param array $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @param HtmlElementInterface $element
+ * @param array $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @param HtmlElementInterface $element
+ * @param array $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @param HtmlElementInterface $element
+ * @param array $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyDisplayResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
 function applyDisplayResponsive(HtmlElementInterface $element, array $breakpoints): HtmlElementInterface
     {
         if ($element instanceof self) {
@@ -1445,6 +5835,184 @@ function applyDisplayResponsive(HtmlElementInterface $element, array $breakpoint
  * @param mixed $element
  * @return HtmlElementInterface
  */
+/**
+ * applyHidden
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
 function applyHidden(HtmlElementInterface $element): HtmlElementInterface
     {
         if ($element instanceof self) {
@@ -1467,6 +6035,184 @@ function applyHidden(HtmlElementInterface $element): HtmlElementInterface
 
      */
     public static /**
+ * applyVisible
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyVisible
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
  * applyVisible
  *
  * @since v1.0.0 2026-04-14
@@ -1508,6 +6254,211 @@ function applyVisible(HtmlElementInterface $element): HtmlElementInterface
  * @param mixed $percentage
  * @return HtmlElementInterface
  */
+/**
+ * applyWidth
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
 function applyWidth(HtmlElementInterface $element, int $percentage): HtmlElementInterface
     {
         if ($element instanceof self) {
@@ -1532,6 +6483,211 @@ function applyWidth(HtmlElementInterface $element, int $percentage): HtmlElement
 
      */
     public static /**
+ * applyHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
  * applyHeight
  *
  * @since v1.0.0 2026-04-14
@@ -1570,6 +6726,211 @@ function applyHeight(HtmlElementInterface $element, int $percentage): HtmlElemen
  * @param mixed $percentage
  * @return HtmlElementInterface
  */
+/**
+ * applyMaxWidth
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
 function applyMaxWidth(HtmlElementInterface $element, int $percentage): HtmlElementInterface
     {
         if ($element instanceof self) {
@@ -1594,6 +6955,211 @@ function applyMaxWidth(HtmlElementInterface $element, int $percentage): HtmlElem
 
      */
     public static /**
+ * applyMaxHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @param HtmlElementInterface $element
+ * @param int $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
+ * applyMaxHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $percentage
+ * @return HtmlElementInterface
+ */
+/**
  * applyMaxHeight
  *
  * @since v1.0.0 2026-04-14
@@ -1636,6 +7202,211 @@ function applyMaxHeight(HtmlElementInterface $element, int $percentage): HtmlEle
  * @param mixed $direction
  * @return HtmlElementInterface
  */
+/**
+ * applyFlexDirection
+ *
+ * @param HtmlElementInterface $element
+ * @param string $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @param HtmlElementInterface $element
+ * @param string $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @param HtmlElementInterface $element
+ * @param string $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @param HtmlElementInterface $element
+ * @param string $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @param HtmlElementInterface $element
+ * @param string $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @param HtmlElementInterface $element
+ * @param string $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @param HtmlElementInterface $element
+ * @param string $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @param HtmlElementInterface $element
+ * @param string $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @param HtmlElementInterface $element
+ * @param string $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @param HtmlElementInterface $element
+ * @param string $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @param HtmlElementInterface $element
+ * @param string $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $direction
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexDirection
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $direction
+ * @return HtmlElementInterface
+ */
 function applyFlexDirection(HtmlElementInterface $element, string $direction): HtmlElementInterface
     {
         if ($element instanceof self) {
@@ -1658,6 +7429,184 @@ function applyFlexDirection(HtmlElementInterface $element, string $direction): H
 
      */
     public static /**
+ * applyFlexWrap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexWrap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
  * applyFlexWrap
  *
  * @since v1.0.0 2026-04-14
@@ -1688,6 +7637,211 @@ function applyFlexWrap(HtmlElementInterface $element): HtmlElementInterface
 
      */
     public static /**
+ * applyJustifyContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyJustifyContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
  * applyJustifyContent
  *
  * @since v1.0.0 2026-04-14
@@ -1726,6 +7880,211 @@ function applyJustifyContent(HtmlElementInterface $element, string $alignment): 
  * @param mixed $alignment
  * @return HtmlElementInterface
  */
+/**
+ * applyAlignItems
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyAlignItems
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
 function applyAlignItems(HtmlElementInterface $element, string $alignment): HtmlElementInterface
     {
         if ($element instanceof self) {
@@ -1754,6 +8113,184 @@ function applyAlignItems(HtmlElementInterface $element, string $alignment): Html
  * @param mixed $element
  * @return HtmlElementInterface
  */
+/**
+ * applyFlexGrow
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexGrow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
 function applyFlexGrow(HtmlElementInterface $element): HtmlElementInterface
     {
         if ($element instanceof self) {
@@ -1776,6 +8313,184 @@ function applyFlexGrow(HtmlElementInterface $element): HtmlElementInterface
 
      */
     public static /**
+ * applyFlexShrink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyFlexShrink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
  * applyFlexShrink
  *
  * @since v1.0.0 2026-04-14
@@ -1817,6 +8532,211 @@ function applyFlexShrink(HtmlElementInterface $element): HtmlElementInterface
  * @param mixed $alignment
  * @return HtmlElementInterface
  */
+/**
+ * applyTextAlign
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @param HtmlElementInterface $element
+ * @param string $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlign
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $alignment
+ * @return HtmlElementInterface
+ */
 function applyTextAlign(HtmlElementInterface $element, string $alignment): HtmlElementInterface
     {
         if ($element instanceof self) {
@@ -1841,6 +8761,211 @@ function applyTextAlign(HtmlElementInterface $element, string $alignment): HtmlE
 
      */
     public static /**
+ * applyTextAlignResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @param HtmlElementInterface $element
+ * @param array $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @param HtmlElementInterface $element
+ * @param array $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @param HtmlElementInterface $element
+ * @param array $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @param HtmlElementInterface $element
+ * @param array $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @param HtmlElementInterface $element
+ * @param array $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @param HtmlElementInterface $element
+ * @param array $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @param HtmlElementInterface $element
+ * @param array $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @param HtmlElementInterface $element
+ * @param array $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @param HtmlElementInterface $element
+ * @param array $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @param HtmlElementInterface $element
+ * @param array $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @param HtmlElementInterface $element
+ * @param array $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextAlignResponsive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $breakpoints
+ * @return HtmlElementInterface
+ */
+/**
  * applyTextAlignResponsive
  *
  * @since v1.0.0 2026-04-14
@@ -1882,6 +9007,184 @@ function applyTextAlignResponsive(HtmlElementInterface $element, array $breakpoi
  * @param mixed $element
  * @return HtmlElementInterface
  */
+/**
+ * applyTextTruncate
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyTextTruncate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
 function applyTextTruncate(HtmlElementInterface $element): HtmlElementInterface
     {
         if ($element instanceof self) {
@@ -1910,6 +9213,211 @@ function applyTextTruncate(HtmlElementInterface $element): HtmlElementInterface
 
      */
     public static /**
+ * applyOverflow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @param HtmlElementInterface $element
+ * @param string $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @param HtmlElementInterface $element
+ * @param string $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @param HtmlElementInterface $element
+ * @param string $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @param HtmlElementInterface $element
+ * @param string $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @param HtmlElementInterface $element
+ * @param string $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @param HtmlElementInterface $element
+ * @param string $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @param HtmlElementInterface $element
+ * @param string $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @param HtmlElementInterface $element
+ * @param string $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @param HtmlElementInterface $element
+ * @param string $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @param HtmlElementInterface $element
+ * @param string $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @param HtmlElementInterface $element
+ * @param string $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $overflow
+ * @return HtmlElementInterface
+ */
+/**
+ * applyOverflow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $overflow
+ * @return HtmlElementInterface
+ */
+/**
  * applyOverflow
  *
  * @since v1.0.0 2026-04-14
@@ -1949,6 +9457,184 @@ function applyOverflow(HtmlElementInterface $element, string $overflow): HtmlEle
  * @param mixed $element
  * @return HtmlElementInterface
  */
+/**
+ * applyBorder
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
 function applyBorder(HtmlElementInterface $element): HtmlElementInterface
     {
         if ($element instanceof self) {
@@ -1971,6 +9657,184 @@ function applyBorder(HtmlElementInterface $element): HtmlElementInterface
 
      */
     public static /**
+ * applyBorderTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderTop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
  * applyBorderTop
  *
  * @since v1.0.0 2026-04-14
@@ -2005,6 +9869,184 @@ function applyBorderTop(HtmlElementInterface $element): HtmlElementInterface
  * @param mixed $element
  * @return HtmlElementInterface
  */
+/**
+ * applyBorderBottom
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderBottom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
 function applyBorderBottom(HtmlElementInterface $element): HtmlElementInterface
     {
         if ($element instanceof self) {
@@ -2027,6 +10069,184 @@ function applyBorderBottom(HtmlElementInterface $element): HtmlElementInterface
 
      */
     public static /**
+ * applyBorderLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderLeft
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
  * applyBorderLeft
  *
  * @since v1.0.0 2026-04-14
@@ -2061,6 +10281,184 @@ function applyBorderLeft(HtmlElementInterface $element): HtmlElementInterface
  * @param mixed $element
  * @return HtmlElementInterface
  */
+/**
+ * applyBorderRight
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @param HtmlElementInterface $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return HtmlElementInterface
+ */
 function applyBorderRight(HtmlElementInterface $element): HtmlElementInterface
     {
         if ($element instanceof self) {
@@ -2085,6 +10483,211 @@ function applyBorderRight(HtmlElementInterface $element): HtmlElementInterface
 
      */
     public static /**
+ * applyBorderRadius
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @param HtmlElementInterface $element
+ * @param string|null $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @param HtmlElementInterface $element
+ * @param string|null $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @param HtmlElementInterface $element
+ * @param string|null $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @param HtmlElementInterface $element
+ * @param string|null $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @param HtmlElementInterface $element
+ * @param string|null $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @param HtmlElementInterface $element
+ * @param string|null $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @param HtmlElementInterface $element
+ * @param string|null $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @param HtmlElementInterface $element
+ * @param string|null $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @param HtmlElementInterface $element
+ * @param string|null $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @param HtmlElementInterface $element
+ * @param string|null $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @param HtmlElementInterface $element
+ * @param string|null $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $style
+ * @return HtmlElementInterface
+ */
+/**
+ * applyBorderRadius
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $style
+ * @return HtmlElementInterface
+ */
+/**
  * applyBorderRadius
  *
  * @since v1.0.0 2026-04-14
@@ -2124,6 +10727,211 @@ function applyBorderRadius(HtmlElementInterface $element, ?string $style = null)
 
      */
     public static /**
+ * applyShadow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @param HtmlElementInterface $element
+ * @param string|null $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @param HtmlElementInterface $element
+ * @param string|null $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @param HtmlElementInterface $element
+ * @param string|null $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @param HtmlElementInterface $element
+ * @param string|null $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @param HtmlElementInterface $element
+ * @param string|null $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @param HtmlElementInterface $element
+ * @param string|null $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @param HtmlElementInterface $element
+ * @param string|null $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @param HtmlElementInterface $element
+ * @param string|null $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @param HtmlElementInterface $element
+ * @param string|null $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @param HtmlElementInterface $element
+ * @param string|null $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @param HtmlElementInterface $element
+ * @param string|null $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $size
+ * @return HtmlElementInterface
+ */
+/**
+ * applyShadow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @param mixed $size
+ * @return HtmlElementInterface
+ */
+/**
  * applyShadow
  *
  * @since v1.0.0 2026-04-14

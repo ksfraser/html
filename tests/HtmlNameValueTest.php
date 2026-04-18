@@ -26,6 +26,56 @@ class HtmlNameValueTest extends TestCase {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
 function testInstance() {
         $nv = new HtmlNameValue('name', 'value');
         $this->assertInstanceOf(HtmlNameValue::/**

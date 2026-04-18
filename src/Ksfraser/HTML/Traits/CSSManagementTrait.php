@@ -165,6 +165,102 @@ namespace Ksfraser\HTML\Traits;
  * @return void
 
  */
+/**
+ * CSSManagementTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CSSManagementTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CSSManagementTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CSSManagementTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CSSManagementTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CSSManagementTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CSSManagementTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CSSManagementTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CSSManagementTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CSSManagementTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CSSManagementTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CSSManagementTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CSSManagementTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CSSManagementTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CSSManagementTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CSSManagementTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 trait CSSManagementTrait
 {
     /**
@@ -332,7 +428,212 @@ trait CSSManagementTrait
      * @return self
 
      */
-    public function addCSSClass(string $class, bool $condition = true): self
+    public /**
+ * addCSSClass
+ *
+ * @param string $class
+ * @param bool $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @param string $class
+ * @param bool $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @param string $class
+ * @param bool $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @param string $class
+ * @param bool $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @param string $class
+ * @param bool $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @param string $class
+ * @param bool $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @param string $class
+ * @param bool $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @param string $class
+ * @param bool $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @param string $class
+ * @param bool $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @param string $class
+ * @param bool $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @param string $class
+ * @param bool $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $condition
+ * @return self
+ */
+/**
+ * addCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $condition
+ * @return self
+ */
+function addCSSClass(string $class, bool $condition = true): self
     {
         // Skip if condition is false or class is empty/whitespace
         if (!$condition || empty(trim($class))) {
@@ -503,7 +804,185 @@ trait CSSManagementTrait
      * @return self
 
      */
-    public function addCSSClasses(array $classes): self
+    public /**
+ * addCSSClasses
+ *
+ * @param array $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @param array $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @param array $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @param array $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @param array $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @param array $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @param array $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @param array $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @param array $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @param array $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @param array $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * addCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+function addCSSClasses(array $classes): self
     {
         $existing = $this->getCSSClasses();
 
@@ -661,7 +1140,185 @@ trait CSSManagementTrait
      * @return self
 
      */
-    public function removeCSSClass(string $class): self
+    public /**
+ * removeCSSClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * removeCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+function removeCSSClass(string $class): self
     {
         $class = trim($class);
         
@@ -848,7 +1505,212 @@ trait CSSManagementTrait
      * @return self
 
      */
-        public function toggleCSSClass(string $class, ?bool $force = null): self
+        public /**
+ * toggleCSSClass
+ *
+ * @param string $class
+ * @param bool|null $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @param string $class
+ * @param bool|null $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @param string $class
+ * @param bool|null $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @param string $class
+ * @param bool|null $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @param string $class
+ * @param bool|null $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @param string $class
+ * @param bool|null $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @param string $class
+ * @param bool|null $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @param string $class
+ * @param bool|null $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @param string $class
+ * @param bool|null $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @param string $class
+ * @param bool|null $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @param string $class
+ * @param bool|null $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $force
+ * @return self
+ */
+/**
+ * toggleCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $force
+ * @return self
+ */
+function toggleCSSClass(string $class, ?bool $force = null): self
     {
         $class = trim($class);
 
@@ -988,7 +1850,185 @@ trait CSSManagementTrait
      * @return bool True if class is present, false otherwise
 
      */
-    public function hasCSSClass(string $class): bool
+    public /**
+ * hasCSSClass
+ *
+ * @param string $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @param string $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @param string $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @param string $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @param string $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @param string $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @param string $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @param string $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @param string $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @param string $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @param string $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return bool
+ */
+/**
+ * hasCSSClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return bool
+ */
+function hasCSSClass(string $class): bool
     {
         $class = trim($class);
         
@@ -1124,7 +2164,158 @@ trait CSSManagementTrait
      * @return array Array of CSS class names
 
      */
-    public function getCSSClasses(): array
+    public /**
+ * getCSSClasses
+ *
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getCSSClasses
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+function getCSSClasses(): array
     {
         // Get current class attribute value
         $classAttribute = $this->getAttributeValue('class');
@@ -1252,7 +2443,185 @@ trait CSSManagementTrait
      * @return self
 
      */
-    protected function setClassAttribute(array $classes): self
+    protected /**
+ * setClassAttribute
+ *
+ * @param array $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @param array $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @param array $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @param array $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @param array $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @param array $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @param array $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @param array $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @param array $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @param array $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @param array $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+/**
+ * setClassAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $classes
+ * @return self
+ */
+function setClassAttribute(array $classes): self
     {
         // Remove duplicates while preserving order
         $uniqueClasses = [];
@@ -1389,7 +2758,185 @@ trait CSSManagementTrait
      * @return ?string
 
      */
-    abstract protected function getAttributeValue(string $name): ?string;
+    abstract protected /**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+function getAttributeValue(string $name): ?string;
 
     /**
 
@@ -1508,5 +3055,210 @@ trait CSSManagementTrait
      * @return self
 
      */
-    abstract public function setAttribute(string $name, $value): self;
+    abstract public /**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+function setAttribute(string $name, $value): self;
 }

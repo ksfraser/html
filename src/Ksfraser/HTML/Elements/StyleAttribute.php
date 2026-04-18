@@ -173,6 +173,102 @@ use Ksfraser\HTML\HtmlAttribute;
  * @return void
 
  */
+/**
+ * StyleAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * StyleAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * StyleAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * StyleAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * StyleAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * StyleAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * StyleAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * StyleAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * StyleAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * StyleAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * StyleAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * StyleAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * StyleAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * StyleAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * StyleAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * StyleAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class StyleAttribute extends HtmlAttribute
 {
 /**
@@ -182,7 +278,185 @@ class StyleAttribute extends HtmlAttribute
  * @param string $value
  * @return void
  */
-    public function __construct(string $value)
+    public /**
+ * __construct
+ *
+ * @param string $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return void
+ */
+function __construct(string $value)
     {
         parent::__construct('style', $value);
     }

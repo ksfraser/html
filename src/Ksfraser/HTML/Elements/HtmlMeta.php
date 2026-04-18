@@ -16,6 +16,102 @@ use Ksfraser\HTML\Elements\HtmlString;
  * @return void
 
  */
+/**
+ * HtmlMeta
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlMeta
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlMeta
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlMeta
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlMeta
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlMeta
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlMeta
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlMeta
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlMeta
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlMeta
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlMeta
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlMeta
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlMeta
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlMeta
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlMeta
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlMeta
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlMeta extends HtmlElement {
 /**
  * __construct
@@ -24,7 +120,185 @@ class HtmlMeta extends HtmlElement {
  * @param ?HtmlString $content
  * @return void
  */
-    public function __construct(?HtmlString $content = null) {
+    public /**
+ * __construct
+ *
+ * @param HtmlString|null $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlString|null $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlString|null $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlString|null $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlString|null $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlString|null $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlString|null $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlString|null $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlString|null $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlString|null $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlString|null $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+function __construct(?HtmlString $content = null) {
         parent::__construct($content);
         $this->setTag('meta');
         // Meta tags are self-closing, so no content is needed
@@ -45,7 +319,212 @@ class HtmlMeta extends HtmlElement {
  * @return \Ksfraser\HTML\HtmlElement
 
  */
-    public function setAttribute(string $name, $value): \Ksfraser\HTML\HtmlElement {
+    public /**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return \Ksfraser\HTML\HtmlElement
+ */
+function setAttribute(string $name, $value): \Ksfraser\HTML\HtmlElement {
         return parent::setAttribute($name, $value);
     }
 
@@ -60,7 +539,158 @@ class HtmlMeta extends HtmlElement {
  * @return string
 
  */
-    public function getHtml(): string {
+    public /**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getHtml(): string {
         $attrs = trim($this->renderAttributesString());
         return '<meta' . ($attrs ? ' ' . $attrs : '') . ' />';
     }

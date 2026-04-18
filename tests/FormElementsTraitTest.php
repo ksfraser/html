@@ -28,7 +28,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since 1.0.5 2026-03-30
      */
-    public function form_creates_form_element_with_method()
+    public /**
+ * form_creates_form_element_with_method
+ *
+ * @return void
+ */
+/**
+ * form_creates_form_element_with_method
+ *
+ * @return void
+ */
+/**
+ * form_creates_form_element_with_method
+ *
+ * @return void
+ */
+/**
+ * form_creates_form_element_with_method
+ *
+ * @return void
+ */
+/**
+ * form_creates_form_element_with_method
+ *
+ * @return void
+ */
+/**
+ * form_creates_form_element_with_method
+ *
+ * @return void
+ */
+/**
+ * form_creates_form_element_with_method
+ *
+ * @return void
+ */
+/**
+ * form_creates_form_element_with_method
+ *
+ * @return void
+ */
+/**
+ * form_creates_form_element_with_method
+ *
+ * @return void
+ */
+/**
+ * form_creates_form_element_with_method
+ *
+ * @return void
+ */
+function form_creates_form_element_with_method()
     {
         $form = HtmlElement::form('POST', '/submit');
         
@@ -43,7 +93,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function form_defaults_to_post_method()
+    public /**
+ * form_defaults_to_post_method
+ *
+ * @return void
+ */
+/**
+ * form_defaults_to_post_method
+ *
+ * @return void
+ */
+/**
+ * form_defaults_to_post_method
+ *
+ * @return void
+ */
+/**
+ * form_defaults_to_post_method
+ *
+ * @return void
+ */
+/**
+ * form_defaults_to_post_method
+ *
+ * @return void
+ */
+/**
+ * form_defaults_to_post_method
+ *
+ * @return void
+ */
+/**
+ * form_defaults_to_post_method
+ *
+ * @return void
+ */
+/**
+ * form_defaults_to_post_method
+ *
+ * @return void
+ */
+/**
+ * form_defaults_to_post_method
+ *
+ * @return void
+ */
+/**
+ * form_defaults_to_post_method
+ *
+ * @return void
+ */
+function form_defaults_to_post_method()
     {
         $form = HtmlElement::form();
         
@@ -56,7 +156,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function form_supports_get_method()
+    public /**
+ * form_supports_get_method
+ *
+ * @return void
+ */
+/**
+ * form_supports_get_method
+ *
+ * @return void
+ */
+/**
+ * form_supports_get_method
+ *
+ * @return void
+ */
+/**
+ * form_supports_get_method
+ *
+ * @return void
+ */
+/**
+ * form_supports_get_method
+ *
+ * @return void
+ */
+/**
+ * form_supports_get_method
+ *
+ * @return void
+ */
+/**
+ * form_supports_get_method
+ *
+ * @return void
+ */
+/**
+ * form_supports_get_method
+ *
+ * @return void
+ */
+/**
+ * form_supports_get_method
+ *
+ * @return void
+ */
+/**
+ * form_supports_get_method
+ *
+ * @return void
+ */
+function form_supports_get_method()
     {
         $form = HtmlElement::form('GET', '/search');
         
@@ -69,7 +219,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function input_creates_input_element()
+    public /**
+ * input_creates_input_element
+ *
+ * @return void
+ */
+/**
+ * input_creates_input_element
+ *
+ * @return void
+ */
+/**
+ * input_creates_input_element
+ *
+ * @return void
+ */
+/**
+ * input_creates_input_element
+ *
+ * @return void
+ */
+/**
+ * input_creates_input_element
+ *
+ * @return void
+ */
+/**
+ * input_creates_input_element
+ *
+ * @return void
+ */
+/**
+ * input_creates_input_element
+ *
+ * @return void
+ */
+/**
+ * input_creates_input_element
+ *
+ * @return void
+ */
+/**
+ * input_creates_input_element
+ *
+ * @return void
+ */
+/**
+ * input_creates_input_element
+ *
+ * @return void
+ */
+function input_creates_input_element()
     {
         $input = HtmlElement::input('text', 'email');
         
@@ -84,7 +284,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function input_with_value()
+    public /**
+ * input_with_value
+ *
+ * @return void
+ */
+/**
+ * input_with_value
+ *
+ * @return void
+ */
+/**
+ * input_with_value
+ *
+ * @return void
+ */
+/**
+ * input_with_value
+ *
+ * @return void
+ */
+/**
+ * input_with_value
+ *
+ * @return void
+ */
+/**
+ * input_with_value
+ *
+ * @return void
+ */
+/**
+ * input_with_value
+ *
+ * @return void
+ */
+/**
+ * input_with_value
+ *
+ * @return void
+ */
+/**
+ * input_with_value
+ *
+ * @return void
+ */
+/**
+ * input_with_value
+ *
+ * @return void
+ */
+function input_with_value()
     {
         $input = HtmlElement::input('email', 'user_email')
             ->setInputValue('test@example.com');
@@ -98,7 +348,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function input_with_placeholder()
+    public /**
+ * input_with_placeholder
+ *
+ * @return void
+ */
+/**
+ * input_with_placeholder
+ *
+ * @return void
+ */
+/**
+ * input_with_placeholder
+ *
+ * @return void
+ */
+/**
+ * input_with_placeholder
+ *
+ * @return void
+ */
+/**
+ * input_with_placeholder
+ *
+ * @return void
+ */
+/**
+ * input_with_placeholder
+ *
+ * @return void
+ */
+/**
+ * input_with_placeholder
+ *
+ * @return void
+ */
+/**
+ * input_with_placeholder
+ *
+ * @return void
+ */
+/**
+ * input_with_placeholder
+ *
+ * @return void
+ */
+/**
+ * input_with_placeholder
+ *
+ * @return void
+ */
+function input_with_placeholder()
     {
         $input = HtmlElement::input('text', 'search')
             ->setPlaceholder('Search products...');
@@ -112,7 +412,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function input_types_all_supported()
+    public /**
+ * input_types_all_supported
+ *
+ * @return void
+ */
+/**
+ * input_types_all_supported
+ *
+ * @return void
+ */
+/**
+ * input_types_all_supported
+ *
+ * @return void
+ */
+/**
+ * input_types_all_supported
+ *
+ * @return void
+ */
+/**
+ * input_types_all_supported
+ *
+ * @return void
+ */
+/**
+ * input_types_all_supported
+ *
+ * @return void
+ */
+/**
+ * input_types_all_supported
+ *
+ * @return void
+ */
+/**
+ * input_types_all_supported
+ *
+ * @return void
+ */
+/**
+ * input_types_all_supported
+ *
+ * @return void
+ */
+/**
+ * input_types_all_supported
+ *
+ * @return void
+ */
+function input_types_all_supported()
     {
         $types = ['text', 'email', 'password', 'number', 'date', 'checkbox', 'radio', 'hidden', 'file'];
         
@@ -128,7 +478,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function textarea_creates_textarea_element()
+    public /**
+ * textarea_creates_textarea_element
+ *
+ * @return void
+ */
+/**
+ * textarea_creates_textarea_element
+ *
+ * @return void
+ */
+/**
+ * textarea_creates_textarea_element
+ *
+ * @return void
+ */
+/**
+ * textarea_creates_textarea_element
+ *
+ * @return void
+ */
+/**
+ * textarea_creates_textarea_element
+ *
+ * @return void
+ */
+/**
+ * textarea_creates_textarea_element
+ *
+ * @return void
+ */
+/**
+ * textarea_creates_textarea_element
+ *
+ * @return void
+ */
+/**
+ * textarea_creates_textarea_element
+ *
+ * @return void
+ */
+/**
+ * textarea_creates_textarea_element
+ *
+ * @return void
+ */
+/**
+ * textarea_creates_textarea_element
+ *
+ * @return void
+ */
+function textarea_creates_textarea_element()
     {
         $textarea = HtmlElement::textarea('description', 'Enter description');
         
@@ -142,7 +542,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function textarea_with_rows_cols()
+    public /**
+ * textarea_with_rows_cols
+ *
+ * @return void
+ */
+/**
+ * textarea_with_rows_cols
+ *
+ * @return void
+ */
+/**
+ * textarea_with_rows_cols
+ *
+ * @return void
+ */
+/**
+ * textarea_with_rows_cols
+ *
+ * @return void
+ */
+/**
+ * textarea_with_rows_cols
+ *
+ * @return void
+ */
+/**
+ * textarea_with_rows_cols
+ *
+ * @return void
+ */
+/**
+ * textarea_with_rows_cols
+ *
+ * @return void
+ */
+/**
+ * textarea_with_rows_cols
+ *
+ * @return void
+ */
+/**
+ * textarea_with_rows_cols
+ *
+ * @return void
+ */
+/**
+ * textarea_with_rows_cols
+ *
+ * @return void
+ */
+function textarea_with_rows_cols()
     {
         $textarea = HtmlElement::textarea('bio')
             ->setRows(5)
@@ -158,7 +608,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function select_creates_select_element()
+    public /**
+ * select_creates_select_element
+ *
+ * @return void
+ */
+/**
+ * select_creates_select_element
+ *
+ * @return void
+ */
+/**
+ * select_creates_select_element
+ *
+ * @return void
+ */
+/**
+ * select_creates_select_element
+ *
+ * @return void
+ */
+/**
+ * select_creates_select_element
+ *
+ * @return void
+ */
+/**
+ * select_creates_select_element
+ *
+ * @return void
+ */
+/**
+ * select_creates_select_element
+ *
+ * @return void
+ */
+/**
+ * select_creates_select_element
+ *
+ * @return void
+ */
+/**
+ * select_creates_select_element
+ *
+ * @return void
+ */
+/**
+ * select_creates_select_element
+ *
+ * @return void
+ */
+function select_creates_select_element()
     {
         $select = HtmlElement::select('country');
         
@@ -172,7 +672,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function select_with_options()
+    public /**
+ * select_with_options
+ *
+ * @return void
+ */
+/**
+ * select_with_options
+ *
+ * @return void
+ */
+/**
+ * select_with_options
+ *
+ * @return void
+ */
+/**
+ * select_with_options
+ *
+ * @return void
+ */
+/**
+ * select_with_options
+ *
+ * @return void
+ */
+/**
+ * select_with_options
+ *
+ * @return void
+ */
+/**
+ * select_with_options
+ *
+ * @return void
+ */
+/**
+ * select_with_options
+ *
+ * @return void
+ */
+/**
+ * select_with_options
+ *
+ * @return void
+ */
+/**
+ * select_with_options
+ *
+ * @return void
+ */
+function select_with_options()
     {
         $select = HtmlElement::select('size')
             ->addOption('small', 'S')
@@ -190,7 +740,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function select_with_selected_option()
+    public /**
+ * select_with_selected_option
+ *
+ * @return void
+ */
+/**
+ * select_with_selected_option
+ *
+ * @return void
+ */
+/**
+ * select_with_selected_option
+ *
+ * @return void
+ */
+/**
+ * select_with_selected_option
+ *
+ * @return void
+ */
+/**
+ * select_with_selected_option
+ *
+ * @return void
+ */
+/**
+ * select_with_selected_option
+ *
+ * @return void
+ */
+/**
+ * select_with_selected_option
+ *
+ * @return void
+ */
+/**
+ * select_with_selected_option
+ *
+ * @return void
+ */
+/**
+ * select_with_selected_option
+ *
+ * @return void
+ */
+/**
+ * select_with_selected_option
+ *
+ * @return void
+ */
+function select_with_selected_option()
     {
         $select = HtmlElement::select('color')
             ->addOption('red', 'Red')
@@ -206,7 +806,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function label_creates_label_element()
+    public /**
+ * label_creates_label_element
+ *
+ * @return void
+ */
+/**
+ * label_creates_label_element
+ *
+ * @return void
+ */
+/**
+ * label_creates_label_element
+ *
+ * @return void
+ */
+/**
+ * label_creates_label_element
+ *
+ * @return void
+ */
+/**
+ * label_creates_label_element
+ *
+ * @return void
+ */
+/**
+ * label_creates_label_element
+ *
+ * @return void
+ */
+/**
+ * label_creates_label_element
+ *
+ * @return void
+ */
+/**
+ * label_creates_label_element
+ *
+ * @return void
+ */
+/**
+ * label_creates_label_element
+ *
+ * @return void
+ */
+/**
+ * label_creates_label_element
+ *
+ * @return void
+ */
+function label_creates_label_element()
     {
         $label = HtmlElement::label('Email', 'email_field');
         
@@ -220,7 +870,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function button_creates_button_element()
+    public /**
+ * button_creates_button_element
+ *
+ * @return void
+ */
+/**
+ * button_creates_button_element
+ *
+ * @return void
+ */
+/**
+ * button_creates_button_element
+ *
+ * @return void
+ */
+/**
+ * button_creates_button_element
+ *
+ * @return void
+ */
+/**
+ * button_creates_button_element
+ *
+ * @return void
+ */
+/**
+ * button_creates_button_element
+ *
+ * @return void
+ */
+/**
+ * button_creates_button_element
+ *
+ * @return void
+ */
+/**
+ * button_creates_button_element
+ *
+ * @return void
+ */
+/**
+ * button_creates_button_element
+ *
+ * @return void
+ */
+/**
+ * button_creates_button_element
+ *
+ * @return void
+ */
+function button_creates_button_element()
     {
         $button = HtmlElement::button('Submit', 'submit');
         
@@ -234,7 +934,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function button_defaults_to_button_type()
+    public /**
+ * button_defaults_to_button_type
+ *
+ * @return void
+ */
+/**
+ * button_defaults_to_button_type
+ *
+ * @return void
+ */
+/**
+ * button_defaults_to_button_type
+ *
+ * @return void
+ */
+/**
+ * button_defaults_to_button_type
+ *
+ * @return void
+ */
+/**
+ * button_defaults_to_button_type
+ *
+ * @return void
+ */
+/**
+ * button_defaults_to_button_type
+ *
+ * @return void
+ */
+/**
+ * button_defaults_to_button_type
+ *
+ * @return void
+ */
+/**
+ * button_defaults_to_button_type
+ *
+ * @return void
+ */
+/**
+ * button_defaults_to_button_type
+ *
+ * @return void
+ */
+/**
+ * button_defaults_to_button_type
+ *
+ * @return void
+ */
+function button_defaults_to_button_type()
     {
         $button = HtmlElement::button('Click me');
         
@@ -251,7 +1001,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function validation_feedback_element()
+    public /**
+ * validation_feedback_element
+ *
+ * @return void
+ */
+/**
+ * validation_feedback_element
+ *
+ * @return void
+ */
+/**
+ * validation_feedback_element
+ *
+ * @return void
+ */
+/**
+ * validation_feedback_element
+ *
+ * @return void
+ */
+/**
+ * validation_feedback_element
+ *
+ * @return void
+ */
+/**
+ * validation_feedback_element
+ *
+ * @return void
+ */
+/**
+ * validation_feedback_element
+ *
+ * @return void
+ */
+/**
+ * validation_feedback_element
+ *
+ * @return void
+ */
+/**
+ * validation_feedback_element
+ *
+ * @return void
+ */
+/**
+ * validation_feedback_element
+ *
+ * @return void
+ */
+function validation_feedback_element()
     {
         $feedback = HtmlElement::validationFeedback('This field is required', true);
         
@@ -265,7 +1065,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function validation_feedback_hidden_by_default()
+    public /**
+ * validation_feedback_hidden_by_default
+ *
+ * @return void
+ */
+/**
+ * validation_feedback_hidden_by_default
+ *
+ * @return void
+ */
+/**
+ * validation_feedback_hidden_by_default
+ *
+ * @return void
+ */
+/**
+ * validation_feedback_hidden_by_default
+ *
+ * @return void
+ */
+/**
+ * validation_feedback_hidden_by_default
+ *
+ * @return void
+ */
+/**
+ * validation_feedback_hidden_by_default
+ *
+ * @return void
+ */
+/**
+ * validation_feedback_hidden_by_default
+ *
+ * @return void
+ */
+/**
+ * validation_feedback_hidden_by_default
+ *
+ * @return void
+ */
+/**
+ * validation_feedback_hidden_by_default
+ *
+ * @return void
+ */
+/**
+ * validation_feedback_hidden_by_default
+ *
+ * @return void
+ */
+function validation_feedback_hidden_by_default()
     {
         $feedback = HtmlElement::validationFeedback('Error message', true);
         
@@ -278,7 +1128,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function validation_success_feedback()
+    public /**
+ * validation_success_feedback
+ *
+ * @return void
+ */
+/**
+ * validation_success_feedback
+ *
+ * @return void
+ */
+/**
+ * validation_success_feedback
+ *
+ * @return void
+ */
+/**
+ * validation_success_feedback
+ *
+ * @return void
+ */
+/**
+ * validation_success_feedback
+ *
+ * @return void
+ */
+/**
+ * validation_success_feedback
+ *
+ * @return void
+ */
+/**
+ * validation_success_feedback
+ *
+ * @return void
+ */
+/**
+ * validation_success_feedback
+ *
+ * @return void
+ */
+/**
+ * validation_success_feedback
+ *
+ * @return void
+ */
+/**
+ * validation_success_feedback
+ *
+ * @return void
+ */
+function validation_success_feedback()
     {
         $feedback = HtmlElement::validationFeedback('Looks good!', false);
         
@@ -291,7 +1191,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function marked_invalid_shows_feedback()
+    public /**
+ * marked_invalid_shows_feedback
+ *
+ * @return void
+ */
+/**
+ * marked_invalid_shows_feedback
+ *
+ * @return void
+ */
+/**
+ * marked_invalid_shows_feedback
+ *
+ * @return void
+ */
+/**
+ * marked_invalid_shows_feedback
+ *
+ * @return void
+ */
+/**
+ * marked_invalid_shows_feedback
+ *
+ * @return void
+ */
+/**
+ * marked_invalid_shows_feedback
+ *
+ * @return void
+ */
+/**
+ * marked_invalid_shows_feedback
+ *
+ * @return void
+ */
+/**
+ * marked_invalid_shows_feedback
+ *
+ * @return void
+ */
+/**
+ * marked_invalid_shows_feedback
+ *
+ * @return void
+ */
+/**
+ * marked_invalid_shows_feedback
+ *
+ * @return void
+ */
+function marked_invalid_shows_feedback()
     {
         $feedback = HtmlElement::validationFeedback('Error', true)
             ->showFeedback(true);
@@ -306,7 +1256,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function input_marked_as_invalid()
+    public /**
+ * input_marked_as_invalid
+ *
+ * @return void
+ */
+/**
+ * input_marked_as_invalid
+ *
+ * @return void
+ */
+/**
+ * input_marked_as_invalid
+ *
+ * @return void
+ */
+/**
+ * input_marked_as_invalid
+ *
+ * @return void
+ */
+/**
+ * input_marked_as_invalid
+ *
+ * @return void
+ */
+/**
+ * input_marked_as_invalid
+ *
+ * @return void
+ */
+/**
+ * input_marked_as_invalid
+ *
+ * @return void
+ */
+/**
+ * input_marked_as_invalid
+ *
+ * @return void
+ */
+/**
+ * input_marked_as_invalid
+ *
+ * @return void
+ */
+/**
+ * input_marked_as_invalid
+ *
+ * @return void
+ */
+function input_marked_as_invalid()
     {
         $input = HtmlElement::input('text', 'username')
             ->markInvalid();
@@ -320,7 +1320,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function input_marked_as_valid()
+    public /**
+ * input_marked_as_valid
+ *
+ * @return void
+ */
+/**
+ * input_marked_as_valid
+ *
+ * @return void
+ */
+/**
+ * input_marked_as_valid
+ *
+ * @return void
+ */
+/**
+ * input_marked_as_valid
+ *
+ * @return void
+ */
+/**
+ * input_marked_as_valid
+ *
+ * @return void
+ */
+/**
+ * input_marked_as_valid
+ *
+ * @return void
+ */
+/**
+ * input_marked_as_valid
+ *
+ * @return void
+ */
+/**
+ * input_marked_as_valid
+ *
+ * @return void
+ */
+/**
+ * input_marked_as_valid
+ *
+ * @return void
+ */
+/**
+ * input_marked_as_valid
+ *
+ * @return void
+ */
+function input_marked_as_valid()
     {
         $input = HtmlElement::input('text', 'username')
             ->markValid();
@@ -338,7 +1388,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function input_required_attribute()
+    public /**
+ * input_required_attribute
+ *
+ * @return void
+ */
+/**
+ * input_required_attribute
+ *
+ * @return void
+ */
+/**
+ * input_required_attribute
+ *
+ * @return void
+ */
+/**
+ * input_required_attribute
+ *
+ * @return void
+ */
+/**
+ * input_required_attribute
+ *
+ * @return void
+ */
+/**
+ * input_required_attribute
+ *
+ * @return void
+ */
+/**
+ * input_required_attribute
+ *
+ * @return void
+ */
+/**
+ * input_required_attribute
+ *
+ * @return void
+ */
+/**
+ * input_required_attribute
+ *
+ * @return void
+ */
+/**
+ * input_required_attribute
+ *
+ * @return void
+ */
+function input_required_attribute()
     {
         $input = HtmlElement::input('email', 'email')
             ->setRequired(true);
@@ -352,7 +1452,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function input_disabled_attribute()
+    public /**
+ * input_disabled_attribute
+ *
+ * @return void
+ */
+/**
+ * input_disabled_attribute
+ *
+ * @return void
+ */
+/**
+ * input_disabled_attribute
+ *
+ * @return void
+ */
+/**
+ * input_disabled_attribute
+ *
+ * @return void
+ */
+/**
+ * input_disabled_attribute
+ *
+ * @return void
+ */
+/**
+ * input_disabled_attribute
+ *
+ * @return void
+ */
+/**
+ * input_disabled_attribute
+ *
+ * @return void
+ */
+/**
+ * input_disabled_attribute
+ *
+ * @return void
+ */
+/**
+ * input_disabled_attribute
+ *
+ * @return void
+ */
+/**
+ * input_disabled_attribute
+ *
+ * @return void
+ */
+function input_disabled_attribute()
     {
         $input = HtmlElement::input('text', 'field')
             ->setDisabled(true);
@@ -366,7 +1516,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function input_readonly_attribute()
+    public /**
+ * input_readonly_attribute
+ *
+ * @return void
+ */
+/**
+ * input_readonly_attribute
+ *
+ * @return void
+ */
+/**
+ * input_readonly_attribute
+ *
+ * @return void
+ */
+/**
+ * input_readonly_attribute
+ *
+ * @return void
+ */
+/**
+ * input_readonly_attribute
+ *
+ * @return void
+ */
+/**
+ * input_readonly_attribute
+ *
+ * @return void
+ */
+/**
+ * input_readonly_attribute
+ *
+ * @return void
+ */
+/**
+ * input_readonly_attribute
+ *
+ * @return void
+ */
+/**
+ * input_readonly_attribute
+ *
+ * @return void
+ */
+/**
+ * input_readonly_attribute
+ *
+ * @return void
+ */
+function input_readonly_attribute()
     {
         $input = HtmlElement::input('text', 'readonly_field')
             ->setReadonly(true);
@@ -380,7 +1580,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function input_autocomplete_attribute()
+    public /**
+ * input_autocomplete_attribute
+ *
+ * @return void
+ */
+/**
+ * input_autocomplete_attribute
+ *
+ * @return void
+ */
+/**
+ * input_autocomplete_attribute
+ *
+ * @return void
+ */
+/**
+ * input_autocomplete_attribute
+ *
+ * @return void
+ */
+/**
+ * input_autocomplete_attribute
+ *
+ * @return void
+ */
+/**
+ * input_autocomplete_attribute
+ *
+ * @return void
+ */
+/**
+ * input_autocomplete_attribute
+ *
+ * @return void
+ */
+/**
+ * input_autocomplete_attribute
+ *
+ * @return void
+ */
+/**
+ * input_autocomplete_attribute
+ *
+ * @return void
+ */
+/**
+ * input_autocomplete_attribute
+ *
+ * @return void
+ */
+function input_autocomplete_attribute()
     {
         $input = HtmlElement::input('email', 'email')
             ->setAutocomplete('email');
@@ -394,7 +1644,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function input_pattern_attribute()
+    public /**
+ * input_pattern_attribute
+ *
+ * @return void
+ */
+/**
+ * input_pattern_attribute
+ *
+ * @return void
+ */
+/**
+ * input_pattern_attribute
+ *
+ * @return void
+ */
+/**
+ * input_pattern_attribute
+ *
+ * @return void
+ */
+/**
+ * input_pattern_attribute
+ *
+ * @return void
+ */
+/**
+ * input_pattern_attribute
+ *
+ * @return void
+ */
+/**
+ * input_pattern_attribute
+ *
+ * @return void
+ */
+/**
+ * input_pattern_attribute
+ *
+ * @return void
+ */
+/**
+ * input_pattern_attribute
+ *
+ * @return void
+ */
+/**
+ * input_pattern_attribute
+ *
+ * @return void
+ */
+function input_pattern_attribute()
     {
         $input = HtmlElement::input('text', 'phone')
             ->setPattern('[0-9]{10}');
@@ -408,7 +1708,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function input_maxlength_attribute()
+    public /**
+ * input_maxlength_attribute
+ *
+ * @return void
+ */
+/**
+ * input_maxlength_attribute
+ *
+ * @return void
+ */
+/**
+ * input_maxlength_attribute
+ *
+ * @return void
+ */
+/**
+ * input_maxlength_attribute
+ *
+ * @return void
+ */
+/**
+ * input_maxlength_attribute
+ *
+ * @return void
+ */
+/**
+ * input_maxlength_attribute
+ *
+ * @return void
+ */
+/**
+ * input_maxlength_attribute
+ *
+ * @return void
+ */
+/**
+ * input_maxlength_attribute
+ *
+ * @return void
+ */
+/**
+ * input_maxlength_attribute
+ *
+ * @return void
+ */
+/**
+ * input_maxlength_attribute
+ *
+ * @return void
+ */
+function input_maxlength_attribute()
     {
         $input = HtmlElement::input('text', 'code')
             ->setMaxLength(6);
@@ -422,7 +1772,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function input_minlength_attribute()
+    public /**
+ * input_minlength_attribute
+ *
+ * @return void
+ */
+/**
+ * input_minlength_attribute
+ *
+ * @return void
+ */
+/**
+ * input_minlength_attribute
+ *
+ * @return void
+ */
+/**
+ * input_minlength_attribute
+ *
+ * @return void
+ */
+/**
+ * input_minlength_attribute
+ *
+ * @return void
+ */
+/**
+ * input_minlength_attribute
+ *
+ * @return void
+ */
+/**
+ * input_minlength_attribute
+ *
+ * @return void
+ */
+/**
+ * input_minlength_attribute
+ *
+ * @return void
+ */
+/**
+ * input_minlength_attribute
+ *
+ * @return void
+ */
+/**
+ * input_minlength_attribute
+ *
+ * @return void
+ */
+function input_minlength_attribute()
     {
         $input = HtmlElement::input('password', 'pwd')
             ->setMinLength(8);
@@ -440,7 +1840,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function input_with_aria_label()
+    public /**
+ * input_with_aria_label
+ *
+ * @return void
+ */
+/**
+ * input_with_aria_label
+ *
+ * @return void
+ */
+/**
+ * input_with_aria_label
+ *
+ * @return void
+ */
+/**
+ * input_with_aria_label
+ *
+ * @return void
+ */
+/**
+ * input_with_aria_label
+ *
+ * @return void
+ */
+/**
+ * input_with_aria_label
+ *
+ * @return void
+ */
+/**
+ * input_with_aria_label
+ *
+ * @return void
+ */
+/**
+ * input_with_aria_label
+ *
+ * @return void
+ */
+/**
+ * input_with_aria_label
+ *
+ * @return void
+ */
+/**
+ * input_with_aria_label
+ *
+ * @return void
+ */
+function input_with_aria_label()
     {
         $input = HtmlElement::input('text', 'search')
             ->setAriaLabel('Search products');
@@ -454,7 +1904,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function input_with_aria_described_by()
+    public /**
+ * input_with_aria_described_by
+ *
+ * @return void
+ */
+/**
+ * input_with_aria_described_by
+ *
+ * @return void
+ */
+/**
+ * input_with_aria_described_by
+ *
+ * @return void
+ */
+/**
+ * input_with_aria_described_by
+ *
+ * @return void
+ */
+/**
+ * input_with_aria_described_by
+ *
+ * @return void
+ */
+/**
+ * input_with_aria_described_by
+ *
+ * @return void
+ */
+/**
+ * input_with_aria_described_by
+ *
+ * @return void
+ */
+/**
+ * input_with_aria_described_by
+ *
+ * @return void
+ */
+/**
+ * input_with_aria_described_by
+ *
+ * @return void
+ */
+/**
+ * input_with_aria_described_by
+ *
+ * @return void
+ */
+function input_with_aria_described_by()
     {
         $input = HtmlElement::input('email', 'email')
             ->setAriaDescribedBy('email-help');
@@ -468,7 +1968,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function form_group_with_label_input_feedback()
+    public /**
+ * form_group_with_label_input_feedback
+ *
+ * @return void
+ */
+/**
+ * form_group_with_label_input_feedback
+ *
+ * @return void
+ */
+/**
+ * form_group_with_label_input_feedback
+ *
+ * @return void
+ */
+/**
+ * form_group_with_label_input_feedback
+ *
+ * @return void
+ */
+/**
+ * form_group_with_label_input_feedback
+ *
+ * @return void
+ */
+/**
+ * form_group_with_label_input_feedback
+ *
+ * @return void
+ */
+/**
+ * form_group_with_label_input_feedback
+ *
+ * @return void
+ */
+/**
+ * form_group_with_label_input_feedback
+ *
+ * @return void
+ */
+/**
+ * form_group_with_label_input_feedback
+ *
+ * @return void
+ */
+/**
+ * form_group_with_label_input_feedback
+ *
+ * @return void
+ */
+function form_group_with_label_input_feedback()
     {
         $group = HtmlElement::formGroup()
             ->addChild(HtmlElement::label('Email', 'email'))
@@ -486,7 +2036,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function invalid_input_sets_aria_invalid()
+    public /**
+ * invalid_input_sets_aria_invalid
+ *
+ * @return void
+ */
+/**
+ * invalid_input_sets_aria_invalid
+ *
+ * @return void
+ */
+/**
+ * invalid_input_sets_aria_invalid
+ *
+ * @return void
+ */
+/**
+ * invalid_input_sets_aria_invalid
+ *
+ * @return void
+ */
+/**
+ * invalid_input_sets_aria_invalid
+ *
+ * @return void
+ */
+/**
+ * invalid_input_sets_aria_invalid
+ *
+ * @return void
+ */
+/**
+ * invalid_input_sets_aria_invalid
+ *
+ * @return void
+ */
+/**
+ * invalid_input_sets_aria_invalid
+ *
+ * @return void
+ */
+/**
+ * invalid_input_sets_aria_invalid
+ *
+ * @return void
+ */
+/**
+ * invalid_input_sets_aria_invalid
+ *
+ * @return void
+ */
+function invalid_input_sets_aria_invalid()
     {
         $input = HtmlElement::input('text', 'username')
             ->markInvalid();
@@ -504,7 +2104,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function checkbox_input_type()
+    public /**
+ * checkbox_input_type
+ *
+ * @return void
+ */
+/**
+ * checkbox_input_type
+ *
+ * @return void
+ */
+/**
+ * checkbox_input_type
+ *
+ * @return void
+ */
+/**
+ * checkbox_input_type
+ *
+ * @return void
+ */
+/**
+ * checkbox_input_type
+ *
+ * @return void
+ */
+/**
+ * checkbox_input_type
+ *
+ * @return void
+ */
+/**
+ * checkbox_input_type
+ *
+ * @return void
+ */
+/**
+ * checkbox_input_type
+ *
+ * @return void
+ */
+/**
+ * checkbox_input_type
+ *
+ * @return void
+ */
+/**
+ * checkbox_input_type
+ *
+ * @return void
+ */
+function checkbox_input_type()
     {
         $checkbox = HtmlElement::input('checkbox', 'terms')
             ->setInputValue('agree');
@@ -519,7 +2169,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function checkbox_checked_state()
+    public /**
+ * checkbox_checked_state
+ *
+ * @return void
+ */
+/**
+ * checkbox_checked_state
+ *
+ * @return void
+ */
+/**
+ * checkbox_checked_state
+ *
+ * @return void
+ */
+/**
+ * checkbox_checked_state
+ *
+ * @return void
+ */
+/**
+ * checkbox_checked_state
+ *
+ * @return void
+ */
+/**
+ * checkbox_checked_state
+ *
+ * @return void
+ */
+/**
+ * checkbox_checked_state
+ *
+ * @return void
+ */
+/**
+ * checkbox_checked_state
+ *
+ * @return void
+ */
+/**
+ * checkbox_checked_state
+ *
+ * @return void
+ */
+/**
+ * checkbox_checked_state
+ *
+ * @return void
+ */
+function checkbox_checked_state()
     {
         $checkbox = HtmlElement::input('checkbox', 'newsletter')
             ->setChecked(true);
@@ -533,7 +2233,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function radio_input_type()
+    public /**
+ * radio_input_type
+ *
+ * @return void
+ */
+/**
+ * radio_input_type
+ *
+ * @return void
+ */
+/**
+ * radio_input_type
+ *
+ * @return void
+ */
+/**
+ * radio_input_type
+ *
+ * @return void
+ */
+/**
+ * radio_input_type
+ *
+ * @return void
+ */
+/**
+ * radio_input_type
+ *
+ * @return void
+ */
+/**
+ * radio_input_type
+ *
+ * @return void
+ */
+/**
+ * radio_input_type
+ *
+ * @return void
+ */
+/**
+ * radio_input_type
+ *
+ * @return void
+ */
+/**
+ * radio_input_type
+ *
+ * @return void
+ */
+function radio_input_type()
     {
         $radio = HtmlElement::input('radio', 'option')
             ->setInputValue('a');
@@ -547,7 +2297,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function radio_group_with_options()
+    public /**
+ * radio_group_with_options
+ *
+ * @return void
+ */
+/**
+ * radio_group_with_options
+ *
+ * @return void
+ */
+/**
+ * radio_group_with_options
+ *
+ * @return void
+ */
+/**
+ * radio_group_with_options
+ *
+ * @return void
+ */
+/**
+ * radio_group_with_options
+ *
+ * @return void
+ */
+/**
+ * radio_group_with_options
+ *
+ * @return void
+ */
+/**
+ * radio_group_with_options
+ *
+ * @return void
+ */
+/**
+ * radio_group_with_options
+ *
+ * @return void
+ */
+/**
+ * radio_group_with_options
+ *
+ * @return void
+ */
+/**
+ * radio_group_with_options
+ *
+ * @return void
+ */
+function radio_group_with_options()
     {
         $group = HtmlElement::formGroup()
             ->addChild(HtmlElement::input('radio', 'payment')->setInputValue('credit'))
@@ -562,7 +2362,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function fieldset_with_legend()
+    public /**
+ * fieldset_with_legend
+ *
+ * @return void
+ */
+/**
+ * fieldset_with_legend
+ *
+ * @return void
+ */
+/**
+ * fieldset_with_legend
+ *
+ * @return void
+ */
+/**
+ * fieldset_with_legend
+ *
+ * @return void
+ */
+/**
+ * fieldset_with_legend
+ *
+ * @return void
+ */
+/**
+ * fieldset_with_legend
+ *
+ * @return void
+ */
+/**
+ * fieldset_with_legend
+ *
+ * @return void
+ */
+/**
+ * fieldset_with_legend
+ *
+ * @return void
+ */
+/**
+ * fieldset_with_legend
+ *
+ * @return void
+ */
+/**
+ * fieldset_with_legend
+ *
+ * @return void
+ */
+function fieldset_with_legend()
     {
         $fieldset = HtmlElement::fieldset()
             ->setLegend('Personal Information');
@@ -577,7 +2427,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function input_group_with_addon()
+    public /**
+ * input_group_with_addon
+ *
+ * @return void
+ */
+/**
+ * input_group_with_addon
+ *
+ * @return void
+ */
+/**
+ * input_group_with_addon
+ *
+ * @return void
+ */
+/**
+ * input_group_with_addon
+ *
+ * @return void
+ */
+/**
+ * input_group_with_addon
+ *
+ * @return void
+ */
+/**
+ * input_group_with_addon
+ *
+ * @return void
+ */
+/**
+ * input_group_with_addon
+ *
+ * @return void
+ */
+/**
+ * input_group_with_addon
+ *
+ * @return void
+ */
+/**
+ * input_group_with_addon
+ *
+ * @return void
+ */
+/**
+ * input_group_with_addon
+ *
+ * @return void
+ */
+function input_group_with_addon()
     {
         $group = HtmlElement::inputGroup()
             ->addPrefix('$')
@@ -598,7 +2498,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function form_fluent_interface()
+    public /**
+ * form_fluent_interface
+ *
+ * @return void
+ */
+/**
+ * form_fluent_interface
+ *
+ * @return void
+ */
+/**
+ * form_fluent_interface
+ *
+ * @return void
+ */
+/**
+ * form_fluent_interface
+ *
+ * @return void
+ */
+/**
+ * form_fluent_interface
+ *
+ * @return void
+ */
+/**
+ * form_fluent_interface
+ *
+ * @return void
+ */
+/**
+ * form_fluent_interface
+ *
+ * @return void
+ */
+/**
+ * form_fluent_interface
+ *
+ * @return void
+ */
+/**
+ * form_fluent_interface
+ *
+ * @return void
+ */
+/**
+ * form_fluent_interface
+ *
+ * @return void
+ */
+function form_fluent_interface()
     {
         $form = HtmlElement::form('POST', '/login')
             ->addCSSClass('login-form')
@@ -616,7 +2566,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function input_full_chain()
+    public /**
+ * input_full_chain
+ *
+ * @return void
+ */
+/**
+ * input_full_chain
+ *
+ * @return void
+ */
+/**
+ * input_full_chain
+ *
+ * @return void
+ */
+/**
+ * input_full_chain
+ *
+ * @return void
+ */
+/**
+ * input_full_chain
+ *
+ * @return void
+ */
+/**
+ * input_full_chain
+ *
+ * @return void
+ */
+/**
+ * input_full_chain
+ *
+ * @return void
+ */
+/**
+ * input_full_chain
+ *
+ * @return void
+ */
+/**
+ * input_full_chain
+ *
+ * @return void
+ */
+/**
+ * input_full_chain
+ *
+ * @return void
+ */
+function input_full_chain()
     {
         $input = HtmlElement::input('email', 'user_email')
             ->setPlaceholder('you@example.com')
@@ -635,7 +2635,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function textarea_fluent_setup()
+    public /**
+ * textarea_fluent_setup
+ *
+ * @return void
+ */
+/**
+ * textarea_fluent_setup
+ *
+ * @return void
+ */
+/**
+ * textarea_fluent_setup
+ *
+ * @return void
+ */
+/**
+ * textarea_fluent_setup
+ *
+ * @return void
+ */
+/**
+ * textarea_fluent_setup
+ *
+ * @return void
+ */
+/**
+ * textarea_fluent_setup
+ *
+ * @return void
+ */
+/**
+ * textarea_fluent_setup
+ *
+ * @return void
+ */
+/**
+ * textarea_fluent_setup
+ *
+ * @return void
+ */
+/**
+ * textarea_fluent_setup
+ *
+ * @return void
+ */
+/**
+ * textarea_fluent_setup
+ *
+ * @return void
+ */
+function textarea_fluent_setup()
     {
         $textarea = HtmlElement::textarea('comments')
             ->setRows(4)
@@ -657,7 +2707,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function form_needs_validation_class()
+    public /**
+ * form_needs_validation_class
+ *
+ * @return void
+ */
+/**
+ * form_needs_validation_class
+ *
+ * @return void
+ */
+/**
+ * form_needs_validation_class
+ *
+ * @return void
+ */
+/**
+ * form_needs_validation_class
+ *
+ * @return void
+ */
+/**
+ * form_needs_validation_class
+ *
+ * @return void
+ */
+/**
+ * form_needs_validation_class
+ *
+ * @return void
+ */
+/**
+ * form_needs_validation_class
+ *
+ * @return void
+ */
+/**
+ * form_needs_validation_class
+ *
+ * @return void
+ */
+/**
+ * form_needs_validation_class
+ *
+ * @return void
+ */
+/**
+ * form_needs_validation_class
+ *
+ * @return void
+ */
+function form_needs_validation_class()
     {
         $form = HtmlElement::form('POST', '/submit')
             ->markNeedsValidation();
@@ -671,7 +2771,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function form_prevent_default_on_submit()
+    public /**
+ * form_prevent_default_on_submit
+ *
+ * @return void
+ */
+/**
+ * form_prevent_default_on_submit
+ *
+ * @return void
+ */
+/**
+ * form_prevent_default_on_submit
+ *
+ * @return void
+ */
+/**
+ * form_prevent_default_on_submit
+ *
+ * @return void
+ */
+/**
+ * form_prevent_default_on_submit
+ *
+ * @return void
+ */
+/**
+ * form_prevent_default_on_submit
+ *
+ * @return void
+ */
+/**
+ * form_prevent_default_on_submit
+ *
+ * @return void
+ */
+/**
+ * form_prevent_default_on_submit
+ *
+ * @return void
+ */
+/**
+ * form_prevent_default_on_submit
+ *
+ * @return void
+ */
+/**
+ * form_prevent_default_on_submit
+ *
+ * @return void
+ */
+function form_prevent_default_on_submit()
     {
         $form = HtmlElement::form('POST', '/submit')
             ->preventDefaultSubmit();
@@ -685,7 +2835,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function input_empty_state()
+    public /**
+ * input_empty_state
+ *
+ * @return void
+ */
+/**
+ * input_empty_state
+ *
+ * @return void
+ */
+/**
+ * input_empty_state
+ *
+ * @return void
+ */
+/**
+ * input_empty_state
+ *
+ * @return void
+ */
+/**
+ * input_empty_state
+ *
+ * @return void
+ */
+/**
+ * input_empty_state
+ *
+ * @return void
+ */
+/**
+ * input_empty_state
+ *
+ * @return void
+ */
+/**
+ * input_empty_state
+ *
+ * @return void
+ */
+/**
+ * input_empty_state
+ *
+ * @return void
+ */
+/**
+ * input_empty_state
+ *
+ * @return void
+ */
+function input_empty_state()
     {
         $input = HtmlElement::input('text', 'field')
             ->setInputValue('');
@@ -703,7 +2903,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function complete_login_form()
+    public /**
+ * complete_login_form
+ *
+ * @return void
+ */
+/**
+ * complete_login_form
+ *
+ * @return void
+ */
+/**
+ * complete_login_form
+ *
+ * @return void
+ */
+/**
+ * complete_login_form
+ *
+ * @return void
+ */
+/**
+ * complete_login_form
+ *
+ * @return void
+ */
+/**
+ * complete_login_form
+ *
+ * @return void
+ */
+/**
+ * complete_login_form
+ *
+ * @return void
+ */
+/**
+ * complete_login_form
+ *
+ * @return void
+ */
+/**
+ * complete_login_form
+ *
+ * @return void
+ */
+/**
+ * complete_login_form
+ *
+ * @return void
+ */
+function complete_login_form()
     {
         $form = HtmlElement::form('POST', '/auth/login')
             ->addCSSClass('login-form')
@@ -740,7 +2990,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function form_with_all_control_types()
+    public /**
+ * form_with_all_control_types
+ *
+ * @return void
+ */
+/**
+ * form_with_all_control_types
+ *
+ * @return void
+ */
+/**
+ * form_with_all_control_types
+ *
+ * @return void
+ */
+/**
+ * form_with_all_control_types
+ *
+ * @return void
+ */
+/**
+ * form_with_all_control_types
+ *
+ * @return void
+ */
+/**
+ * form_with_all_control_types
+ *
+ * @return void
+ */
+/**
+ * form_with_all_control_types
+ *
+ * @return void
+ */
+/**
+ * form_with_all_control_types
+ *
+ * @return void
+ */
+/**
+ * form_with_all_control_types
+ *
+ * @return void
+ */
+/**
+ * form_with_all_control_types
+ *
+ * @return void
+ */
+function form_with_all_control_types()
     {
         $form = HtmlElement::form('POST', '/register')
             ->addChild(HtmlElement::input('text', 'username'))
@@ -759,7 +3059,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function form_traversal_with_introspection()
+    public /**
+ * form_traversal_with_introspection
+ *
+ * @return void
+ */
+/**
+ * form_traversal_with_introspection
+ *
+ * @return void
+ */
+/**
+ * form_traversal_with_introspection
+ *
+ * @return void
+ */
+/**
+ * form_traversal_with_introspection
+ *
+ * @return void
+ */
+/**
+ * form_traversal_with_introspection
+ *
+ * @return void
+ */
+/**
+ * form_traversal_with_introspection
+ *
+ * @return void
+ */
+/**
+ * form_traversal_with_introspection
+ *
+ * @return void
+ */
+/**
+ * form_traversal_with_introspection
+ *
+ * @return void
+ */
+/**
+ * form_traversal_with_introspection
+ *
+ * @return void
+ */
+/**
+ * form_traversal_with_introspection
+ *
+ * @return void
+ */
+function form_traversal_with_introspection()
     {
         $form = HtmlElement::form('POST', '/submit');
         $form->addChild(HtmlElement::input('text', 'field1'));
@@ -780,7 +3130,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function empty_form()
+    public /**
+ * empty_form
+ *
+ * @return void
+ */
+/**
+ * empty_form
+ *
+ * @return void
+ */
+/**
+ * empty_form
+ *
+ * @return void
+ */
+/**
+ * empty_form
+ *
+ * @return void
+ */
+/**
+ * empty_form
+ *
+ * @return void
+ */
+/**
+ * empty_form
+ *
+ * @return void
+ */
+/**
+ * empty_form
+ *
+ * @return void
+ */
+/**
+ * empty_form
+ *
+ * @return void
+ */
+/**
+ * empty_form
+ *
+ * @return void
+ */
+/**
+ * empty_form
+ *
+ * @return void
+ */
+function empty_form()
     {
         $form = HtmlElement::form();
         $this->assertEquals('form', $form->getTag());
@@ -793,7 +3193,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function input_name_with_array_notation()
+    public /**
+ * input_name_with_array_notation
+ *
+ * @return void
+ */
+/**
+ * input_name_with_array_notation
+ *
+ * @return void
+ */
+/**
+ * input_name_with_array_notation
+ *
+ * @return void
+ */
+/**
+ * input_name_with_array_notation
+ *
+ * @return void
+ */
+/**
+ * input_name_with_array_notation
+ *
+ * @return void
+ */
+/**
+ * input_name_with_array_notation
+ *
+ * @return void
+ */
+/**
+ * input_name_with_array_notation
+ *
+ * @return void
+ */
+/**
+ * input_name_with_array_notation
+ *
+ * @return void
+ */
+/**
+ * input_name_with_array_notation
+ *
+ * @return void
+ */
+/**
+ * input_name_with_array_notation
+ *
+ * @return void
+ */
+function input_name_with_array_notation()
     {
         $input = HtmlElement::input('text', 'fields[]');
         $this->assertEquals('fields[]', $input->getAttributeValue('name'));
@@ -805,7 +3255,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function special_characters_in_placeholder()
+    public /**
+ * special_characters_in_placeholder
+ *
+ * @return void
+ */
+/**
+ * special_characters_in_placeholder
+ *
+ * @return void
+ */
+/**
+ * special_characters_in_placeholder
+ *
+ * @return void
+ */
+/**
+ * special_characters_in_placeholder
+ *
+ * @return void
+ */
+/**
+ * special_characters_in_placeholder
+ *
+ * @return void
+ */
+/**
+ * special_characters_in_placeholder
+ *
+ * @return void
+ */
+/**
+ * special_characters_in_placeholder
+ *
+ * @return void
+ */
+/**
+ * special_characters_in_placeholder
+ *
+ * @return void
+ */
+/**
+ * special_characters_in_placeholder
+ *
+ * @return void
+ */
+/**
+ * special_characters_in_placeholder
+ *
+ * @return void
+ */
+function special_characters_in_placeholder()
     {
         $input = HtmlElement::input('text', 'field')
             ->setPlaceholder('Search & filter <results>');
@@ -820,7 +3320,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function very_long_maxlength()
+    public /**
+ * very_long_maxlength
+ *
+ * @return void
+ */
+/**
+ * very_long_maxlength
+ *
+ * @return void
+ */
+/**
+ * very_long_maxlength
+ *
+ * @return void
+ */
+/**
+ * very_long_maxlength
+ *
+ * @return void
+ */
+/**
+ * very_long_maxlength
+ *
+ * @return void
+ */
+/**
+ * very_long_maxlength
+ *
+ * @return void
+ */
+/**
+ * very_long_maxlength
+ *
+ * @return void
+ */
+/**
+ * very_long_maxlength
+ *
+ * @return void
+ */
+/**
+ * very_long_maxlength
+ *
+ * @return void
+ */
+/**
+ * very_long_maxlength
+ *
+ * @return void
+ */
+function very_long_maxlength()
     {
         $input = HtmlElement::input('text', 'field')
             ->setMaxLength(999999);
@@ -834,7 +3384,57 @@ class FormElementsTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function multiple_validation_states()
+    public /**
+ * multiple_validation_states
+ *
+ * @return void
+ */
+/**
+ * multiple_validation_states
+ *
+ * @return void
+ */
+/**
+ * multiple_validation_states
+ *
+ * @return void
+ */
+/**
+ * multiple_validation_states
+ *
+ * @return void
+ */
+/**
+ * multiple_validation_states
+ *
+ * @return void
+ */
+/**
+ * multiple_validation_states
+ *
+ * @return void
+ */
+/**
+ * multiple_validation_states
+ *
+ * @return void
+ */
+/**
+ * multiple_validation_states
+ *
+ * @return void
+ */
+/**
+ * multiple_validation_states
+ *
+ * @return void
+ */
+/**
+ * multiple_validation_states
+ *
+ * @return void
+ */
+function multiple_validation_states()
     {
         $input = HtmlElement::input('text', 'field')
             ->markValid();

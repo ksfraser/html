@@ -80,6 +80,12 @@ namespace Ksfraser\HTML;
  * @return void
 
  */
+/**
+ * HtmlElementInterface
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 interface HtmlElementInterface {
     /**
      * Returns HTML string representation
@@ -87,7 +93,68 @@ interface HtmlElementInterface {
      * @since 1.0.1 2026-02-16
      * @return string
      */
-    public function getHtml(): string;
+    public /**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getHtml(): string;
 
     /**
 
@@ -114,6 +181,67 @@ interface HtmlElementInterface {
      * @since 1.0.1 2026-02-16
      * @return void
      */
-    public function toHtml(): void;
+    public /**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function toHtml(): void;
 }
 ?>

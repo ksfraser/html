@@ -77,6 +77,102 @@ use Ksfraser\HTML\Json\HtmlJsonString;
  * @return void
 
  */
+/**
+ * HtmlScriptJSON
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJSON
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJSON
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJSON
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJSON
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJSON
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJSON
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJSON
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJSON
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJSON
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJSON
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJSON
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJSON
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJSON
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJSON
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJSON
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlScriptJSON extends HtmlScript
 {
 /**
@@ -86,7 +182,185 @@ class HtmlScriptJSON extends HtmlScript
  * @param HtmlJsonString $content
  * @return void
  */
-    public function __construct(HtmlJsonString $content)
+    public /**
+ * __construct
+ *
+ * @param HtmlJsonString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlJsonString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlJsonString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlJsonString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlJsonString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlJsonString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlJsonString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlJsonString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlJsonString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlJsonString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlJsonString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+function __construct(HtmlJsonString $content)
     {
         parent::__construct('application/json', $content);
     }

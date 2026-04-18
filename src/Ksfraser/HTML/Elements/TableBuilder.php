@@ -315,6 +315,102 @@ use Ksfraser\HTML\HtmlElement;
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * TableBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class TableBuilder
 {
     /**
@@ -341,6 +437,184 @@ class TableBuilder
      * @return HtmlTableRow Table row containing header cells
      */
     public static /**
+ * createHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @param array $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @param array $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @param array $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @param array $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @param array $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @param array $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @param array $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @param array $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @param array $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @param array $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @param array $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @return void
+ */
+/**
+ * createHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @return void
+ */
+/**
  * createHeaderRow
  *
  * @since v1.0.0 2026-04-14
@@ -523,6 +797,184 @@ function createHeaderRow(array $headers)
  * @param mixed $cells
  * @return void
  */
+/**
+ * createDataRow
+ *
+ * @param array $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @param array $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @param array $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @param array $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @param array $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @param array $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @param array $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @param array $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @param array $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @param array $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @param array $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @return void
+ */
+/**
+ * createDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @return void
+ */
 function createDataRow(array $cells)
     {
         $row = new HtmlTableRow(new HtmlString(''));
@@ -653,6 +1105,238 @@ function createDataRow(array $cells)
 
      */
 public /**
+ * buildHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @param array $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @param array $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @param array $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @param array $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @param array $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @param array $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @param array $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @param array $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @param array $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @param array $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @param array $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
+ * buildHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $escapeHtml
+ * @param mixed $headerClass
+ * @return void
+ */
+/**
  * buildHeaderRow
  *
  * @since v1.0.0 2026-04-14
@@ -794,6 +1478,238 @@ function buildHeaderRow(array $headers, $escapeHtml = true, $headerClass = null)
 
      */
 public /**
+ * buildDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @param array $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @param array $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @param array $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @param array $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @param array $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @param array $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @param array $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @param array $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @param array $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @param array $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @param array $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
+ * buildDataRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cells
+ * @param mixed $escapeHtml
+ * @param mixed $cellClass
+ * @return void
+ */
+/**
  * buildDataRow
  *
  * @since v1.0.0 2026-04-14
@@ -983,6 +1899,211 @@ function buildDataRow(array $cells, $escapeHtml = true, $cellClass = null)
 
      */
     public /**
+ * buildStyledHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @param array $headers
+ * @param array $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @param array $headers
+ * @param array $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @param array $headers
+ * @param array $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @param array $headers
+ * @param array $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @param array $headers
+ * @param array $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @param array $headers
+ * @param array $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @param array $headers
+ * @param array $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @param array $headers
+ * @param array $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @param array $headers
+ * @param array $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @param array $headers
+ * @param array $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @param array $headers
+ * @param array $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $cellAttrs
+ * @return void
+ */
+/**
+ * buildStyledHeaderRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $headers
+ * @param mixed $cellAttrs
+ * @return void
+ */
+/**
  * buildStyledHeaderRow
  *
  * @since v1.0.0 2026-04-14

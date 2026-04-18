@@ -26,6 +26,56 @@ class HtmlScriptTest extends TestCase {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
 function testInstance() {
         $script = new HtmlScript('console.log(1);');
         $this->assertInstanceOf(HtmlScript::/**

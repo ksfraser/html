@@ -31,6 +31,56 @@ class ModalBuilderTest extends TestCase
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testModalBuilderConstructorSetsId
+ *
+ * @return void
+ */
+/**
+ * testModalBuilderConstructorSetsId
+ *
+ * @return void
+ */
+/**
+ * testModalBuilderConstructorSetsId
+ *
+ * @return void
+ */
+/**
+ * testModalBuilderConstructorSetsId
+ *
+ * @return void
+ */
+/**
+ * testModalBuilderConstructorSetsId
+ *
+ * @return void
+ */
+/**
+ * testModalBuilderConstructorSetsId
+ *
+ * @return void
+ */
+/**
+ * testModalBuilderConstructorSetsId
+ *
+ * @return void
+ */
+/**
+ * testModalBuilderConstructorSetsId
+ *
+ * @return void
+ */
+/**
+ * testModalBuilderConstructorSetsId
+ *
+ * @return void
+ */
+/**
+ * testModalBuilderConstructorSetsId
+ *
+ * @return void
+ */
 function testModalBuilderConstructorSetsId()
     {
         $builder = new ModalBuilder('custom-modal');
@@ -52,6 +102,56 @@ function testModalBuilderConstructorSetsId()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testModalBuilderDefaultId
+ *
+ * @return void
+ */
+/**
+ * testModalBuilderDefaultId
+ *
+ * @return void
+ */
+/**
+ * testModalBuilderDefaultId
+ *
+ * @return void
+ */
+/**
+ * testModalBuilderDefaultId
+ *
+ * @return void
+ */
+/**
+ * testModalBuilderDefaultId
+ *
+ * @return void
+ */
+/**
+ * testModalBuilderDefaultId
+ *
+ * @return void
+ */
+/**
+ * testModalBuilderDefaultId
+ *
+ * @return void
+ */
+/**
+ * testModalBuilderDefaultId
+ *
+ * @return void
+ */
+/**
+ * testModalBuilderDefaultId
+ *
+ * @return void
+ */
+/**
+ * testModalBuilderDefaultId
+ *
+ * @return void
+ */
 function testModalBuilderDefaultId()
     {
         $builder = new ModalBuilder();
@@ -71,6 +171,56 @@ function testModalBuilderDefaultId()
  * testAddHeading
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testAddHeading
+ *
+ * @return void
+ */
+/**
+ * testAddHeading
+ *
+ * @return void
+ */
+/**
+ * testAddHeading
+ *
+ * @return void
+ */
+/**
+ * testAddHeading
+ *
+ * @return void
+ */
+/**
+ * testAddHeading
+ *
+ * @return void
+ */
+/**
+ * testAddHeading
+ *
+ * @return void
+ */
+/**
+ * testAddHeading
+ *
+ * @return void
+ */
+/**
+ * testAddHeading
+ *
+ * @return void
+ */
+/**
+ * testAddHeading
+ *
+ * @return void
+ */
+/**
+ * testAddHeading
+ *
  * @return void
  */
 function testAddHeading()
@@ -96,6 +246,56 @@ function testAddHeading()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testAddParagraph
+ *
+ * @return void
+ */
+/**
+ * testAddParagraph
+ *
+ * @return void
+ */
+/**
+ * testAddParagraph
+ *
+ * @return void
+ */
+/**
+ * testAddParagraph
+ *
+ * @return void
+ */
+/**
+ * testAddParagraph
+ *
+ * @return void
+ */
+/**
+ * testAddParagraph
+ *
+ * @return void
+ */
+/**
+ * testAddParagraph
+ *
+ * @return void
+ */
+/**
+ * testAddParagraph
+ *
+ * @return void
+ */
+/**
+ * testAddParagraph
+ *
+ * @return void
+ */
+/**
+ * testAddParagraph
+ *
+ * @return void
+ */
 function testAddParagraph()
     {
         $builder = new ModalBuilder();
@@ -116,6 +316,56 @@ function testAddParagraph()
  * testAddTable
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testAddTable
+ *
+ * @return void
+ */
+/**
+ * testAddTable
+ *
+ * @return void
+ */
+/**
+ * testAddTable
+ *
+ * @return void
+ */
+/**
+ * testAddTable
+ *
+ * @return void
+ */
+/**
+ * testAddTable
+ *
+ * @return void
+ */
+/**
+ * testAddTable
+ *
+ * @return void
+ */
+/**
+ * testAddTable
+ *
+ * @return void
+ */
+/**
+ * testAddTable
+ *
+ * @return void
+ */
+/**
+ * testAddTable
+ *
+ * @return void
+ */
+/**
+ * testAddTable
+ *
  * @return void
  */
 function testAddTable()
@@ -139,6 +389,56 @@ function testAddTable()
  * testAddCloseButton
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testAddCloseButton
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButton
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButton
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButton
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButton
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButton
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButton
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButton
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButton
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButton
+ *
  * @return void
  */
 function testAddCloseButton()
@@ -165,6 +465,56 @@ function testAddCloseButton()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testAddCloseButtonCustomText
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButtonCustomText
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButtonCustomText
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButtonCustomText
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButtonCustomText
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButtonCustomText
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButtonCustomText
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButtonCustomText
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButtonCustomText
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButtonCustomText
+ *
+ * @return void
+ */
 function testAddCloseButtonCustomText()
     {
         $builder = new ModalBuilder();
@@ -185,6 +535,56 @@ function testAddCloseButtonCustomText()
  * testAddCloseButtonCustomHandler
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testAddCloseButtonCustomHandler
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButtonCustomHandler
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButtonCustomHandler
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButtonCustomHandler
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButtonCustomHandler
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButtonCustomHandler
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButtonCustomHandler
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButtonCustomHandler
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButtonCustomHandler
+ *
+ * @return void
+ */
+/**
+ * testAddCloseButtonCustomHandler
+ *
  * @return void
  */
 function testAddCloseButtonCustomHandler()
@@ -209,6 +609,56 @@ function testAddCloseButtonCustomHandler()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testAddRawHtml
+ *
+ * @return void
+ */
+/**
+ * testAddRawHtml
+ *
+ * @return void
+ */
+/**
+ * testAddRawHtml
+ *
+ * @return void
+ */
+/**
+ * testAddRawHtml
+ *
+ * @return void
+ */
+/**
+ * testAddRawHtml
+ *
+ * @return void
+ */
+/**
+ * testAddRawHtml
+ *
+ * @return void
+ */
+/**
+ * testAddRawHtml
+ *
+ * @return void
+ */
+/**
+ * testAddRawHtml
+ *
+ * @return void
+ */
+/**
+ * testAddRawHtml
+ *
+ * @return void
+ */
+/**
+ * testAddRawHtml
+ *
+ * @return void
+ */
 function testAddRawHtml()
     {
         $builder = new ModalBuilder();
@@ -229,6 +679,56 @@ function testAddRawHtml()
  * testFluentInterface
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testFluentInterface
+ *
+ * @return void
+ */
+/**
+ * testFluentInterface
+ *
+ * @return void
+ */
+/**
+ * testFluentInterface
+ *
+ * @return void
+ */
+/**
+ * testFluentInterface
+ *
+ * @return void
+ */
+/**
+ * testFluentInterface
+ *
+ * @return void
+ */
+/**
+ * testFluentInterface
+ *
+ * @return void
+ */
+/**
+ * testFluentInterface
+ *
+ * @return void
+ */
+/**
+ * testFluentInterface
+ *
+ * @return void
+ */
+/**
+ * testFluentInterface
+ *
+ * @return void
+ */
+/**
+ * testFluentInterface
+ *
  * @return void
  */
 function testFluentInterface()
@@ -256,6 +756,56 @@ function testFluentInterface()
  * testGetStylesheet
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testGetStylesheet
+ *
+ * @return void
+ */
+/**
+ * testGetStylesheet
+ *
+ * @return void
+ */
+/**
+ * testGetStylesheet
+ *
+ * @return void
+ */
+/**
+ * testGetStylesheet
+ *
+ * @return void
+ */
+/**
+ * testGetStylesheet
+ *
+ * @return void
+ */
+/**
+ * testGetStylesheet
+ *
+ * @return void
+ */
+/**
+ * testGetStylesheet
+ *
+ * @return void
+ */
+/**
+ * testGetStylesheet
+ *
+ * @return void
+ */
+/**
+ * testGetStylesheet
+ *
+ * @return void
+ */
+/**
+ * testGetStylesheet
+ *
  * @return void
  */
 function testGetStylesheet()

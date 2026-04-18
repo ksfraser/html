@@ -15,6 +15,12 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * HtmlInternalCSSList
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlInternalCSSList extends HtmlStyleList 
 {
  
@@ -29,7 +35,68 @@ class HtmlInternalCSSList extends HtmlStyleList
  * @return void
  
  */
-	function getHtml()
+	/**
+ * getHtml
+ *
+ * @return void
+ */
+/**
+ * getHtml
+ *
+ * @return void
+ */
+/**
+ * getHtml
+ *
+ * @return void
+ */
+/**
+ * getHtml
+ *
+ * @return void
+ */
+/**
+ * getHtml
+ *
+ * @return void
+ */
+/**
+ * getHtml
+ *
+ * @return void
+ */
+/**
+ * getHtml
+ *
+ * @return void
+ */
+/**
+ * getHtml
+ *
+ * @return void
+ */
+/**
+ * getHtml
+ *
+ * @return void
+ */
+/**
+ * getHtml
+ *
+ * @return void
+ */
+/**
+ * getHtml
+ *
+ * @return void
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function getHtml()
 	{
 		if( count( $this->styleArray ) > 0 )
 		{

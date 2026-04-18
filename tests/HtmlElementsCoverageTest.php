@@ -13,7 +13,57 @@ class HtmlElementsCoverageTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testElementsClassesExist() {
+    public /**
+ * testElementsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testElementsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testElementsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testElementsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testElementsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testElementsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testElementsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testElementsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testElementsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testElementsClassesExist
+ *
+ * @return void
+ */
+function testElementsClassesExist() {
         $classes = [
             'Ksfraser\\HTML\\Elements\\HtmlButton',
             'Ksfraser\\HTML\\Elements\\HtmlDiv',

@@ -15,7 +15,62 @@ class CancelButtonTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testDefaultLabel() {
+    public /**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+function testDefaultLabel() {
         $btn = new CancelButton();
         $this->assertStringContainsString('Cancel', $btn->getHtml());
     }
@@ -25,7 +80,62 @@ class CancelButtonTest extends TestCase {
  * @since 1.0.4 2026-02-21
  * @return void
  */
-    public function testSetGoBack() {
+    public /**
+ * testSetGoBack
+ *
+ * @return void
+ */
+/**
+ * testSetGoBack
+ *
+ * @return void
+ */
+/**
+ * testSetGoBack
+ *
+ * @return void
+ */
+/**
+ * testSetGoBack
+ *
+ * @return void
+ */
+/**
+ * testSetGoBack
+ *
+ * @return void
+ */
+/**
+ * testSetGoBack
+ *
+ * @return void
+ */
+/**
+ * testSetGoBack
+ *
+ * @return void
+ */
+/**
+ * testSetGoBack
+ *
+ * @return void
+ */
+/**
+ * testSetGoBack
+ *
+ * @return void
+ */
+/**
+ * testSetGoBack
+ *
+ * @return void
+ */
+/**
+ * testSetGoBack
+ *
+ * @return void
+ */
+function testSetGoBack() {
         $btn = new CancelButton();
         $btn->setGoBack();
         $this->assertStringContainsString('window.history.back', $btn->getHtml());

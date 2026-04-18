@@ -357,6 +357,102 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * HtmlA
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlA
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlA
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlA
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlA
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlA
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlA
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlA
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlA
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlA
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlA
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlA
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlA
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlA
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlA
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlA
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlA extends HtmlLink
 {
 /**
@@ -367,7 +463,212 @@ class HtmlA extends HtmlLink
  * @param mixed $linkContent
  * @return void
  */
-	function __construct( string $url, $linkContent = null )
+	/**
+ * __construct
+ *
+ * @param string $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $linkContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $linkContent
+ * @return void
+ */
+function __construct( string $url, $linkContent = null )
 	{
 		// Handle different content types
 		if( $linkContent === null )

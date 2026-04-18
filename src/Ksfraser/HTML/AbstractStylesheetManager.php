@@ -212,7 +212,103 @@ use Ksfraser\HTML\Elements\Stylesheet;
  * @return void
 
  */
-abstract class AbstractStylesheetManager {
+abstract /**
+ * AbstractStylesheetManager
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AbstractStylesheetManager
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AbstractStylesheetManager
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AbstractStylesheetManager
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AbstractStylesheetManager
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AbstractStylesheetManager
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AbstractStylesheetManager
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AbstractStylesheetManager
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AbstractStylesheetManager
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AbstractStylesheetManager
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AbstractStylesheetManager
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AbstractStylesheetManager
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AbstractStylesheetManager
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AbstractStylesheetManager
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AbstractStylesheetManager
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AbstractStylesheetManager
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class AbstractStylesheetManager {
     /**
      * Cache for common stylesheets (loaded once per request)
      *
@@ -448,7 +544,158 @@ abstract class AbstractStylesheetManager {
      * @return string HTML rendering of common stylesheet link elements
     
      */
-    final public static function getCommonStylesheets(): string {
+    final public static /**
+ * getCommonStylesheets
+ *
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getCommonStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getCommonStylesheets(): string {
         // Return cached result on subsequent calls
         if (self::$commonStylesheetsCache !== null) {
             return self::$commonStylesheetsCache;
@@ -585,7 +832,185 @@ abstract class AbstractStylesheetManager {
      * @return string HTML rendering of view-specific stylesheet link elements
     
      */
-    final public static function getViewStylesheets(string $viewName): string {
+    final public static /**
+ * getViewStylesheets
+ *
+ * @param string $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @param string $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @param string $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @param string $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @param string $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @param string $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @param string $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @param string $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @param string $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @param string $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @param string $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getViewStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+function getViewStylesheets(string $viewName): string {
         if (!function_exists('asset_url')) {
             return '';
         }
@@ -694,7 +1119,185 @@ abstract class AbstractStylesheetManager {
      * @return string HTML rendering of all stylesheet link elements
     
      */
-    final public static function getStylesheets(string $viewName): string {
+    final public static /**
+ * getStylesheets
+ *
+ * @param string $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @param string $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @param string $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @param string $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @param string $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @param string $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @param string $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @param string $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @param string $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @param string $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @param string $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+/**
+ * getStylesheets
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $viewName
+ * @return string
+ */
+function getStylesheets(string $viewName): string {
         return self::getCommonStylesheets() . self::getViewStylesheets($viewName);
     }
     
@@ -799,7 +1402,185 @@ abstract class AbstractStylesheetManager {
      * @return string HTML rendering of <link rel="stylesheet"> element
     
      */
-    final protected static function buildStylesheetLink(string $sheetName): string
+    final protected static /**
+ * buildStylesheetLink
+ *
+ * @param string $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @param string $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @param string $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @param string $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @param string $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @param string $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @param string $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @param string $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @param string $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @param string $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @param string $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sheetName
+ * @return string
+ */
+/**
+ * buildStylesheetLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sheetName
+ * @return string
+ */
+function buildStylesheetLink(string $sheetName): string
     {
         $url = asset_url('css/' . $sheetName . '.css');
         
@@ -897,7 +1678,158 @@ abstract class AbstractStylesheetManager {
      * @return void
     
      */
-    final public static function clearCache(): void {
+    final public static /**
+ * clearCache
+ *
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * clearCache
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function clearCache(): void {
         self::$commonStylesheetsCache = null;
     }
     
@@ -912,7 +1844,158 @@ abstract class AbstractStylesheetManager {
      * @return array
     
      */
-    final public static function getInfo(): array {
+    final public static /**
+ * getInfo
+ *
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getInfo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+function getInfo(): array {
         return [
             'common_sheets' => static::$commonSheets,
             'view_sheets' => static::$viewSheets,

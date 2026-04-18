@@ -85,6 +85,102 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlLink extends HtmlElement
 {
 	//can have styles, title
@@ -104,7 +200,185 @@ class HtmlLink extends HtmlElement
  * @return void
 	
  */
-	function __construct( HtmlElementInterface $data )
+	/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+function __construct( HtmlElementInterface $data )
 	{
 		parent::__construct( $data );
 		$this->tag = "a";
@@ -117,7 +391,212 @@ class HtmlLink extends HtmlElement
  * @param mixed $text
  * @return void
  */
-	function addHref( $url, $text = "" )
+	/**
+ * addHref
+ *
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * addHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @param mixed $text
+ * @return void
+ */
+function addHref( $url, $text = "" )
 	{
 		if( is_object( $text ) )
 		{
@@ -150,7 +629,212 @@ class HtmlLink extends HtmlElement
  * @return void
 	
  */
-	function addParam( string $key, string $value )
+	/**
+ * addParam
+ *
+ * @param string $key
+ * @param string $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @param string $key
+ * @param string $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @param string $key
+ * @param string $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @param string $key
+ * @param string $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @param string $key
+ * @param string $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @param string $key
+ * @param string $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @param string $key
+ * @param string $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @param string $key
+ * @param string $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @param string $key
+ * @param string $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @param string $key
+ * @param string $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @param string $key
+ * @param string $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * addParam
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return void
+ */
+function addParam( string $key, string $value )
 	{
 		$this->params[$key] = $value;
 		$this->updateHrefAttribute();
@@ -265,7 +949,185 @@ class HtmlLink extends HtmlElement
 	 * @return void
 	
 	 */
-	function setParams( array $params )
+	/**
+ * setParams
+ *
+ * @param array $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @param array $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @param array $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @param array $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @param array $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @param array $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @param array $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @param array $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @param array $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @param array $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @param array $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * setParams
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $params
+ * @return void
+ */
+function setParams( array $params )
 	{
 		foreach( $params as $key => $value )
 		{
@@ -285,7 +1147,158 @@ class HtmlLink extends HtmlElement
 	 * @return void
 	
 	 */
-	protected function updateHrefAttribute()
+	protected /**
+ * updateHrefAttribute
+ *
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * updateHrefAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function updateHrefAttribute()
 	{
 		if( empty( $this->baseUrl ) )
 		{
@@ -317,7 +1330,185 @@ class HtmlLink extends HtmlElement
 	 * @return void
 	
 	 */
-	protected function removeAttributeByName( string $name )
+	protected /**
+ * removeAttributeByName
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * removeAttributeByName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+function removeAttributeByName( string $name )
 	{
 		if( isset( $this->attributes ) && is_array( $this->attributes ) )
 		{
@@ -352,7 +1543,185 @@ class HtmlLink extends HtmlElement
  * @return void
 	
  */
-	function setTarget( $target )
+	/**
+ * setTarget
+ *
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $target
+ * @return void
+ */
+/**
+ * setTarget
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $target
+ * @return void
+ */
+function setTarget( $target )
 /**
  * setTarget()
  *

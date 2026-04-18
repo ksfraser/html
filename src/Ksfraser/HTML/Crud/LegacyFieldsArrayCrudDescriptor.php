@@ -103,6 +103,102 @@ namespace Ksfraser\HTML\Crud;
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * LegacyFieldsArrayCrudDescriptor
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LegacyFieldsArrayCrudDescriptor
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LegacyFieldsArrayCrudDescriptor
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LegacyFieldsArrayCrudDescriptor
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LegacyFieldsArrayCrudDescriptor
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LegacyFieldsArrayCrudDescriptor
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LegacyFieldsArrayCrudDescriptor
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LegacyFieldsArrayCrudDescriptor
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LegacyFieldsArrayCrudDescriptor
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LegacyFieldsArrayCrudDescriptor
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LegacyFieldsArrayCrudDescriptor
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LegacyFieldsArrayCrudDescriptor
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LegacyFieldsArrayCrudDescriptor
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LegacyFieldsArrayCrudDescriptor
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LegacyFieldsArrayCrudDescriptor
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LegacyFieldsArrayCrudDescriptor
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class LegacyFieldsArrayCrudDescriptor
 {
     /**
@@ -164,6 +260,238 @@ class LegacyFieldsArrayCrudDescriptor
  * @param mixed $options
  * @return void
  */
+/**
+ * __construct
+ *
+ * @param array $tableDetails
+ * @param array $fieldsArray
+ * @param array $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param array $tableDetails
+ * @param array $fieldsArray
+ * @param array $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param array $tableDetails
+ * @param array $fieldsArray
+ * @param array $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param array $tableDetails
+ * @param array $fieldsArray
+ * @param array $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param array $tableDetails
+ * @param array $fieldsArray
+ * @param array $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param array $tableDetails
+ * @param array $fieldsArray
+ * @param array $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param array $tableDetails
+ * @param array $fieldsArray
+ * @param array $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param array $tableDetails
+ * @param array $fieldsArray
+ * @param array $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param array $tableDetails
+ * @param array $fieldsArray
+ * @param array $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param array $tableDetails
+ * @param array $fieldsArray
+ * @param array $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param array $tableDetails
+ * @param array $fieldsArray
+ * @param array $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tableDetails
+ * @param mixed $fieldsArray
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tableDetails
+ * @param mixed $fieldsArray
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tableDetails
+ * @param mixed $fieldsArray
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tableDetails
+ * @param mixed $fieldsArray
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tableDetails
+ * @param mixed $fieldsArray
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tableDetails
+ * @param mixed $fieldsArray
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tableDetails
+ * @param mixed $fieldsArray
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tableDetails
+ * @param mixed $fieldsArray
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tableDetails
+ * @param mixed $fieldsArray
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tableDetails
+ * @param mixed $fieldsArray
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tableDetails
+ * @param mixed $fieldsArray
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tableDetails
+ * @param mixed $fieldsArray
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tableDetails
+ * @param mixed $fieldsArray
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tableDetails
+ * @param mixed $fieldsArray
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tableDetails
+ * @param mixed $fieldsArray
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tableDetails
+ * @param mixed $fieldsArray
+ * @param mixed $options
+ * @return void
+ */
 function __construct(array $tableDetails, array $fieldsArray, array $options = array())
     {
         $this->tableDetails = $tableDetails;
@@ -187,6 +515,211 @@ function __construct(array $tableDetails, array $fieldsArray, array $options = a
 
      */
     public static /**
+ * fromLegacy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $legacy
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $legacy
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @param mixed $legacy
+ * @param array $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @param mixed $legacy
+ * @param array $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @param mixed $legacy
+ * @param array $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @param mixed $legacy
+ * @param array $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @param mixed $legacy
+ * @param array $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @param mixed $legacy
+ * @param array $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @param mixed $legacy
+ * @param array $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @param mixed $legacy
+ * @param array $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @param mixed $legacy
+ * @param array $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @param mixed $legacy
+ * @param array $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @param mixed $legacy
+ * @param array $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $legacy
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $legacy
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $legacy
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $legacy
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $legacy
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $legacy
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $legacy
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $legacy
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $legacy
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $legacy
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $legacy
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $legacy
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $legacy
+ * @param mixed $options
+ * @return void
+ */
+/**
+ * fromLegacy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $legacy
+ * @param mixed $options
+ * @return void
+ */
+/**
  * fromLegacy
  *
  * @since v1.0.0 2026-04-14
@@ -249,6 +782,157 @@ function fromLegacy($legacy, array $options = array())
  * @since v1.0.0 2026-04-14
  * @return string
  */
+/**
+ * getTitle
+ *
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTitle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
 function getTitle(): string
     {
         if (isset($this->options['title']) && $this->options['title'] !== '') {
@@ -275,6 +959,157 @@ function getTitle(): string
 
      */
     public /**
+ * getTableName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getTableName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
  * getTableName
  *
  * @since v1.0.0 2026-04-14
@@ -320,6 +1155,157 @@ function getTableName(): string
  * @since v1.0.0 2026-04-14
  * @return ?string
  */
+/**
+ * getPrimaryKey
+ *
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getPrimaryKey
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
 function getPrimaryKey(): ?string
     {
         if (isset($this->tableDetails['primarykey']) && $this->tableDetails['primarykey'] !== '') {
@@ -340,6 +1326,157 @@ function getPrimaryKey(): ?string
 
      */
     public /**
+ * getFields
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getFields
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
  * getFields
  *
  * @since v1.0.0 2026-04-14
@@ -407,6 +1544,184 @@ function getFields(): array
  * @param mixed $field
  * @return void
  */
+/**
+ * No description.
+ *
+ * @param CrudField $field
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param CrudField $field
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param CrudField $field
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param CrudField $field
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param CrudField $field
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param CrudField $field
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param CrudField $field
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param CrudField $field
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param CrudField $field
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param CrudField $field
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param CrudField $field
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
+/**
+ * (anonymous)
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $field
+ * @return void
+ */
 function (CrudField $field) use ($allowed) {
                 return isset($allowed[$field->name]);
             }));
@@ -427,6 +1742,157 @@ function (CrudField $field) use ($allowed) {
 
      */
     public /**
+ * getListColumns
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getListColumns
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
  * getListColumns
  *
  * @since v1.0.0 2026-04-14
@@ -506,6 +1972,211 @@ function getListColumns(): array
  * @param mixed $sqlType
  * @return string
  */
+/**
+ * inferInputType
+ *
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
+/**
+ * inferInputType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $sqlType
+ * @return string
+ */
 function inferInputType($name, $sqlType): string
     {
         $nameLower = strtolower((string) $name);
@@ -554,6 +2225,184 @@ function inferInputType($name, $sqlType): string
 
      */
     private /**
+ * isProbablyLargeText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
+ * isProbablyLargeText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sqlTypeLower
+ * @return bool
+ */
+/**
  * isProbablyLargeText
  *
  * @since v1.0.0 2026-04-14

@@ -13,7 +13,57 @@ class HtmlTraitCoverageTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testTraitsExist() {
+    public /**
+ * testTraitsExist
+ *
+ * @return void
+ */
+/**
+ * testTraitsExist
+ *
+ * @return void
+ */
+/**
+ * testTraitsExist
+ *
+ * @return void
+ */
+/**
+ * testTraitsExist
+ *
+ * @return void
+ */
+/**
+ * testTraitsExist
+ *
+ * @return void
+ */
+/**
+ * testTraitsExist
+ *
+ * @return void
+ */
+/**
+ * testTraitsExist
+ *
+ * @return void
+ */
+/**
+ * testTraitsExist
+ *
+ * @return void
+ */
+/**
+ * testTraitsExist
+ *
+ * @return void
+ */
+/**
+ * testTraitsExist
+ *
+ * @return void
+ */
+function testTraitsExist() {
         $traits = [
             'Ksfraser\\HTML\\HTMLChildrenTrait',
             'Ksfraser\\HTML\\HtmlAttributesTrait',

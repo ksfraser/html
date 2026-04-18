@@ -40,6 +40,61 @@ class AriaAttributeTraitTest extends TestCase
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
 function setUp(): void
     {
         $this->element = new /**
@@ -59,6 +114,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -83,6 +193,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetAriaLabel
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabel
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabel
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabel
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabel
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabel
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabel
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabel
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabel
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabel
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabel
+ *
+ * @return void
+ */
 function testSetAriaLabel()
     {
         $this->element->setAriaLabel('Close button');
@@ -101,6 +266,61 @@ function testSetAriaLabel()
  * testSetAriaLabelRendersInHtml
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetAriaLabelRendersInHtml
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabelRendersInHtml
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabelRendersInHtml
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabelRendersInHtml
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabelRendersInHtml
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabelRendersInHtml
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabelRendersInHtml
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabelRendersInHtml
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabelRendersInHtml
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabelRendersInHtml
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabelRendersInHtml
+ *
  * @return void
  */
 function testSetAriaLabelRendersInHtml()
@@ -123,6 +343,61 @@ function testSetAriaLabelRendersInHtml()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetRole
+ *
+ * @return void
+ */
+/**
+ * testSetRole
+ *
+ * @return void
+ */
+/**
+ * testSetRole
+ *
+ * @return void
+ */
+/**
+ * testSetRole
+ *
+ * @return void
+ */
+/**
+ * testSetRole
+ *
+ * @return void
+ */
+/**
+ * testSetRole
+ *
+ * @return void
+ */
+/**
+ * testSetRole
+ *
+ * @return void
+ */
+/**
+ * testSetRole
+ *
+ * @return void
+ */
+/**
+ * testSetRole
+ *
+ * @return void
+ */
+/**
+ * testSetRole
+ *
+ * @return void
+ */
+/**
+ * testSetRole
+ *
+ * @return void
+ */
 function testSetRole()
     {
         $this->element->setRole('button');
@@ -141,6 +416,61 @@ function testSetRole()
  * testSetRoleRendersInHtml
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetRoleRendersInHtml
+ *
+ * @return void
+ */
+/**
+ * testSetRoleRendersInHtml
+ *
+ * @return void
+ */
+/**
+ * testSetRoleRendersInHtml
+ *
+ * @return void
+ */
+/**
+ * testSetRoleRendersInHtml
+ *
+ * @return void
+ */
+/**
+ * testSetRoleRendersInHtml
+ *
+ * @return void
+ */
+/**
+ * testSetRoleRendersInHtml
+ *
+ * @return void
+ */
+/**
+ * testSetRoleRendersInHtml
+ *
+ * @return void
+ */
+/**
+ * testSetRoleRendersInHtml
+ *
+ * @return void
+ */
+/**
+ * testSetRoleRendersInHtml
+ *
+ * @return void
+ */
+/**
+ * testSetRoleRendersInHtml
+ *
+ * @return void
+ */
+/**
+ * testSetRoleRendersInHtml
+ *
  * @return void
  */
 function testSetRoleRendersInHtml()
@@ -163,6 +493,61 @@ function testSetRoleRendersInHtml()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetAriaDescribedBy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaDescribedBy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaDescribedBy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaDescribedBy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaDescribedBy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaDescribedBy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaDescribedBy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaDescribedBy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaDescribedBy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaDescribedBy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaDescribedBy
+ *
+ * @return void
+ */
 function testSetAriaDescribedBy()
     {
         $this->element->setAriaDescribedBy('help-text');
@@ -181,6 +566,61 @@ function testSetAriaDescribedBy()
  * testSetMultipleAriaAttributes
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetMultipleAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testSetMultipleAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testSetMultipleAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testSetMultipleAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testSetMultipleAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testSetMultipleAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testSetMultipleAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testSetMultipleAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testSetMultipleAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testSetMultipleAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testSetMultipleAriaAttributes
+ *
  * @return void
  */
 function testSetMultipleAriaAttributes()
@@ -206,6 +646,61 @@ function testSetMultipleAriaAttributes()
  * testGetAllAriaAttributes
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testGetAllAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllAriaAttributes
+ *
  * @return void
  */
 function testGetAllAriaAttributes()
@@ -236,6 +731,61 @@ function testGetAllAriaAttributes()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetAriaHidden
+ *
+ * @return void
+ */
+/**
+ * testSetAriaHidden
+ *
+ * @return void
+ */
+/**
+ * testSetAriaHidden
+ *
+ * @return void
+ */
+/**
+ * testSetAriaHidden
+ *
+ * @return void
+ */
+/**
+ * testSetAriaHidden
+ *
+ * @return void
+ */
+/**
+ * testSetAriaHidden
+ *
+ * @return void
+ */
+/**
+ * testSetAriaHidden
+ *
+ * @return void
+ */
+/**
+ * testSetAriaHidden
+ *
+ * @return void
+ */
+/**
+ * testSetAriaHidden
+ *
+ * @return void
+ */
+/**
+ * testSetAriaHidden
+ *
+ * @return void
+ */
+/**
+ * testSetAriaHidden
+ *
+ * @return void
+ */
 function testSetAriaHidden()
     {
         $this->element->setAriaHidden(true);
@@ -260,6 +810,61 @@ function testSetAriaHidden()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetAriaDisabled
+ *
+ * @return void
+ */
+/**
+ * testSetAriaDisabled
+ *
+ * @return void
+ */
+/**
+ * testSetAriaDisabled
+ *
+ * @return void
+ */
+/**
+ * testSetAriaDisabled
+ *
+ * @return void
+ */
+/**
+ * testSetAriaDisabled
+ *
+ * @return void
+ */
+/**
+ * testSetAriaDisabled
+ *
+ * @return void
+ */
+/**
+ * testSetAriaDisabled
+ *
+ * @return void
+ */
+/**
+ * testSetAriaDisabled
+ *
+ * @return void
+ */
+/**
+ * testSetAriaDisabled
+ *
+ * @return void
+ */
+/**
+ * testSetAriaDisabled
+ *
+ * @return void
+ */
+/**
+ * testSetAriaDisabled
+ *
+ * @return void
+ */
 function testSetAriaDisabled()
     {
         $this->element->setAriaDisabled(true);
@@ -278,6 +883,61 @@ function testSetAriaDisabled()
  * testSetAriaPressed
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetAriaPressed
+ *
+ * @return void
+ */
+/**
+ * testSetAriaPressed
+ *
+ * @return void
+ */
+/**
+ * testSetAriaPressed
+ *
+ * @return void
+ */
+/**
+ * testSetAriaPressed
+ *
+ * @return void
+ */
+/**
+ * testSetAriaPressed
+ *
+ * @return void
+ */
+/**
+ * testSetAriaPressed
+ *
+ * @return void
+ */
+/**
+ * testSetAriaPressed
+ *
+ * @return void
+ */
+/**
+ * testSetAriaPressed
+ *
+ * @return void
+ */
+/**
+ * testSetAriaPressed
+ *
+ * @return void
+ */
+/**
+ * testSetAriaPressed
+ *
+ * @return void
+ */
+/**
+ * testSetAriaPressed
+ *
  * @return void
  */
 function testSetAriaPressed()
@@ -304,6 +964,61 @@ function testSetAriaPressed()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetAriaChecked
+ *
+ * @return void
+ */
+/**
+ * testSetAriaChecked
+ *
+ * @return void
+ */
+/**
+ * testSetAriaChecked
+ *
+ * @return void
+ */
+/**
+ * testSetAriaChecked
+ *
+ * @return void
+ */
+/**
+ * testSetAriaChecked
+ *
+ * @return void
+ */
+/**
+ * testSetAriaChecked
+ *
+ * @return void
+ */
+/**
+ * testSetAriaChecked
+ *
+ * @return void
+ */
+/**
+ * testSetAriaChecked
+ *
+ * @return void
+ */
+/**
+ * testSetAriaChecked
+ *
+ * @return void
+ */
+/**
+ * testSetAriaChecked
+ *
+ * @return void
+ */
+/**
+ * testSetAriaChecked
+ *
+ * @return void
+ */
 function testSetAriaChecked()
     {
         $this->element->setAriaChecked(true);
@@ -328,6 +1043,61 @@ function testSetAriaChecked()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetAriaSelected
+ *
+ * @return void
+ */
+/**
+ * testSetAriaSelected
+ *
+ * @return void
+ */
+/**
+ * testSetAriaSelected
+ *
+ * @return void
+ */
+/**
+ * testSetAriaSelected
+ *
+ * @return void
+ */
+/**
+ * testSetAriaSelected
+ *
+ * @return void
+ */
+/**
+ * testSetAriaSelected
+ *
+ * @return void
+ */
+/**
+ * testSetAriaSelected
+ *
+ * @return void
+ */
+/**
+ * testSetAriaSelected
+ *
+ * @return void
+ */
+/**
+ * testSetAriaSelected
+ *
+ * @return void
+ */
+/**
+ * testSetAriaSelected
+ *
+ * @return void
+ */
+/**
+ * testSetAriaSelected
+ *
+ * @return void
+ */
 function testSetAriaSelected()
     {
         $this->element->setAriaSelected(true);
@@ -346,6 +1116,61 @@ function testSetAriaSelected()
  * testSetAriaExpanded
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetAriaExpanded
+ *
+ * @return void
+ */
+/**
+ * testSetAriaExpanded
+ *
+ * @return void
+ */
+/**
+ * testSetAriaExpanded
+ *
+ * @return void
+ */
+/**
+ * testSetAriaExpanded
+ *
+ * @return void
+ */
+/**
+ * testSetAriaExpanded
+ *
+ * @return void
+ */
+/**
+ * testSetAriaExpanded
+ *
+ * @return void
+ */
+/**
+ * testSetAriaExpanded
+ *
+ * @return void
+ */
+/**
+ * testSetAriaExpanded
+ *
+ * @return void
+ */
+/**
+ * testSetAriaExpanded
+ *
+ * @return void
+ */
+/**
+ * testSetAriaExpanded
+ *
+ * @return void
+ */
+/**
+ * testSetAriaExpanded
+ *
  * @return void
  */
 function testSetAriaExpanded()
@@ -372,6 +1197,61 @@ function testSetAriaExpanded()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetAriaBusy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaBusy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaBusy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaBusy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaBusy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaBusy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaBusy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaBusy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaBusy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaBusy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaBusy
+ *
+ * @return void
+ */
 function testSetAriaBusy()
     {
         $this->element->setAriaBusy(true);
@@ -390,6 +1270,61 @@ function testSetAriaBusy()
  * testSetAriaModal
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetAriaModal
+ *
+ * @return void
+ */
+/**
+ * testSetAriaModal
+ *
+ * @return void
+ */
+/**
+ * testSetAriaModal
+ *
+ * @return void
+ */
+/**
+ * testSetAriaModal
+ *
+ * @return void
+ */
+/**
+ * testSetAriaModal
+ *
+ * @return void
+ */
+/**
+ * testSetAriaModal
+ *
+ * @return void
+ */
+/**
+ * testSetAriaModal
+ *
+ * @return void
+ */
+/**
+ * testSetAriaModal
+ *
+ * @return void
+ */
+/**
+ * testSetAriaModal
+ *
+ * @return void
+ */
+/**
+ * testSetAriaModal
+ *
+ * @return void
+ */
+/**
+ * testSetAriaModal
+ *
  * @return void
  */
 function testSetAriaModal()
@@ -412,6 +1347,61 @@ function testSetAriaModal()
  * testSetAriaLive
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetAriaLive
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLive
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLive
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLive
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLive
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLive
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLive
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLive
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLive
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLive
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLive
+ *
  * @return void
  */
 function testSetAriaLive()
@@ -438,6 +1428,61 @@ function testSetAriaLive()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetAriaAtomic
+ *
+ * @return void
+ */
+/**
+ * testSetAriaAtomic
+ *
+ * @return void
+ */
+/**
+ * testSetAriaAtomic
+ *
+ * @return void
+ */
+/**
+ * testSetAriaAtomic
+ *
+ * @return void
+ */
+/**
+ * testSetAriaAtomic
+ *
+ * @return void
+ */
+/**
+ * testSetAriaAtomic
+ *
+ * @return void
+ */
+/**
+ * testSetAriaAtomic
+ *
+ * @return void
+ */
+/**
+ * testSetAriaAtomic
+ *
+ * @return void
+ */
+/**
+ * testSetAriaAtomic
+ *
+ * @return void
+ */
+/**
+ * testSetAriaAtomic
+ *
+ * @return void
+ */
+/**
+ * testSetAriaAtomic
+ *
+ * @return void
+ */
 function testSetAriaAtomic()
     {
         $this->element->setAriaAtomic(true);
@@ -456,6 +1501,61 @@ function testSetAriaAtomic()
  * testSetAriaRelevant
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetAriaRelevant
+ *
+ * @return void
+ */
+/**
+ * testSetAriaRelevant
+ *
+ * @return void
+ */
+/**
+ * testSetAriaRelevant
+ *
+ * @return void
+ */
+/**
+ * testSetAriaRelevant
+ *
+ * @return void
+ */
+/**
+ * testSetAriaRelevant
+ *
+ * @return void
+ */
+/**
+ * testSetAriaRelevant
+ *
+ * @return void
+ */
+/**
+ * testSetAriaRelevant
+ *
+ * @return void
+ */
+/**
+ * testSetAriaRelevant
+ *
+ * @return void
+ */
+/**
+ * testSetAriaRelevant
+ *
+ * @return void
+ */
+/**
+ * testSetAriaRelevant
+ *
+ * @return void
+ */
+/**
+ * testSetAriaRelevant
+ *
  * @return void
  */
 function testSetAriaRelevant()
@@ -480,6 +1580,61 @@ function testSetAriaRelevant()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetAriaLabelledBy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabelledBy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabelledBy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabelledBy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabelledBy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabelledBy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabelledBy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabelledBy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabelledBy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabelledBy
+ *
+ * @return void
+ */
+/**
+ * testSetAriaLabelledBy
+ *
+ * @return void
+ */
 function testSetAriaLabelledBy()
     {
         $this->element->setAriaLabelledBy('heading');
@@ -498,6 +1653,61 @@ function testSetAriaLabelledBy()
  * testSetAriaOwns
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetAriaOwns
+ *
+ * @return void
+ */
+/**
+ * testSetAriaOwns
+ *
+ * @return void
+ */
+/**
+ * testSetAriaOwns
+ *
+ * @return void
+ */
+/**
+ * testSetAriaOwns
+ *
+ * @return void
+ */
+/**
+ * testSetAriaOwns
+ *
+ * @return void
+ */
+/**
+ * testSetAriaOwns
+ *
+ * @return void
+ */
+/**
+ * testSetAriaOwns
+ *
+ * @return void
+ */
+/**
+ * testSetAriaOwns
+ *
+ * @return void
+ */
+/**
+ * testSetAriaOwns
+ *
+ * @return void
+ */
+/**
+ * testSetAriaOwns
+ *
+ * @return void
+ */
+/**
+ * testSetAriaOwns
+ *
  * @return void
  */
 function testSetAriaOwns()
@@ -520,6 +1730,61 @@ function testSetAriaOwns()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetAriaActivedescendant
+ *
+ * @return void
+ */
+/**
+ * testSetAriaActivedescendant
+ *
+ * @return void
+ */
+/**
+ * testSetAriaActivedescendant
+ *
+ * @return void
+ */
+/**
+ * testSetAriaActivedescendant
+ *
+ * @return void
+ */
+/**
+ * testSetAriaActivedescendant
+ *
+ * @return void
+ */
+/**
+ * testSetAriaActivedescendant
+ *
+ * @return void
+ */
+/**
+ * testSetAriaActivedescendant
+ *
+ * @return void
+ */
+/**
+ * testSetAriaActivedescendant
+ *
+ * @return void
+ */
+/**
+ * testSetAriaActivedescendant
+ *
+ * @return void
+ */
+/**
+ * testSetAriaActivedescendant
+ *
+ * @return void
+ */
+/**
+ * testSetAriaActivedescendant
+ *
+ * @return void
+ */
 function testSetAriaActivedescendant()
     {
         $this->element->setAriaActivedescendant('option-1');
@@ -538,6 +1803,61 @@ function testSetAriaActivedescendant()
  * testSetAriaFlowto
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetAriaFlowto
+ *
+ * @return void
+ */
+/**
+ * testSetAriaFlowto
+ *
+ * @return void
+ */
+/**
+ * testSetAriaFlowto
+ *
+ * @return void
+ */
+/**
+ * testSetAriaFlowto
+ *
+ * @return void
+ */
+/**
+ * testSetAriaFlowto
+ *
+ * @return void
+ */
+/**
+ * testSetAriaFlowto
+ *
+ * @return void
+ */
+/**
+ * testSetAriaFlowto
+ *
+ * @return void
+ */
+/**
+ * testSetAriaFlowto
+ *
+ * @return void
+ */
+/**
+ * testSetAriaFlowto
+ *
+ * @return void
+ */
+/**
+ * testSetAriaFlowto
+ *
+ * @return void
+ */
+/**
+ * testSetAriaFlowto
+ *
  * @return void
  */
 function testSetAriaFlowto()
@@ -562,6 +1882,61 @@ function testSetAriaFlowto()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetAriaValuemin
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuemin
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuemin
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuemin
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuemin
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuemin
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuemin
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuemin
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuemin
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuemin
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuemin
+ *
+ * @return void
+ */
 function testSetAriaValuemin()
     {
         $this->element->setAriaValuemin(0);
@@ -580,6 +1955,61 @@ function testSetAriaValuemin()
  * testSetAriaValuemax
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetAriaValuemax
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuemax
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuemax
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuemax
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuemax
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuemax
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuemax
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuemax
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuemax
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuemax
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuemax
+ *
  * @return void
  */
 function testSetAriaValuemax()
@@ -602,6 +2032,61 @@ function testSetAriaValuemax()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetAriaValuenow
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuenow
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuenow
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuenow
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuenow
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuenow
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuenow
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuenow
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuenow
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuenow
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuenow
+ *
+ * @return void
+ */
 function testSetAriaValuenow()
     {
         $this->element->setAriaValuenow(50);
@@ -620,6 +2105,61 @@ function testSetAriaValuenow()
  * testSetAriaValuetext
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetAriaValuetext
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuetext
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuetext
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuetext
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuetext
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuetext
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuetext
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuetext
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuetext
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuetext
+ *
+ * @return void
+ */
+/**
+ * testSetAriaValuetext
+ *
  * @return void
  */
 function testSetAriaValuetext()
@@ -642,6 +2182,61 @@ function testSetAriaValuetext()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetAriaPlaceholder
+ *
+ * @return void
+ */
+/**
+ * testSetAriaPlaceholder
+ *
+ * @return void
+ */
+/**
+ * testSetAriaPlaceholder
+ *
+ * @return void
+ */
+/**
+ * testSetAriaPlaceholder
+ *
+ * @return void
+ */
+/**
+ * testSetAriaPlaceholder
+ *
+ * @return void
+ */
+/**
+ * testSetAriaPlaceholder
+ *
+ * @return void
+ */
+/**
+ * testSetAriaPlaceholder
+ *
+ * @return void
+ */
+/**
+ * testSetAriaPlaceholder
+ *
+ * @return void
+ */
+/**
+ * testSetAriaPlaceholder
+ *
+ * @return void
+ */
+/**
+ * testSetAriaPlaceholder
+ *
+ * @return void
+ */
+/**
+ * testSetAriaPlaceholder
+ *
+ * @return void
+ */
 function testSetAriaPlaceholder()
     {
         $this->element->setAriaPlaceholder('Enter your name');
@@ -660,6 +2255,61 @@ function testSetAriaPlaceholder()
  * testSetAriaOrientation
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetAriaOrientation
+ *
+ * @return void
+ */
+/**
+ * testSetAriaOrientation
+ *
+ * @return void
+ */
+/**
+ * testSetAriaOrientation
+ *
+ * @return void
+ */
+/**
+ * testSetAriaOrientation
+ *
+ * @return void
+ */
+/**
+ * testSetAriaOrientation
+ *
+ * @return void
+ */
+/**
+ * testSetAriaOrientation
+ *
+ * @return void
+ */
+/**
+ * testSetAriaOrientation
+ *
+ * @return void
+ */
+/**
+ * testSetAriaOrientation
+ *
+ * @return void
+ */
+/**
+ * testSetAriaOrientation
+ *
+ * @return void
+ */
+/**
+ * testSetAriaOrientation
+ *
+ * @return void
+ */
+/**
+ * testSetAriaOrientation
+ *
  * @return void
  */
 function testSetAriaOrientation()
@@ -686,6 +2336,61 @@ function testSetAriaOrientation()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetAriaMultiline
+ *
+ * @return void
+ */
+/**
+ * testSetAriaMultiline
+ *
+ * @return void
+ */
+/**
+ * testSetAriaMultiline
+ *
+ * @return void
+ */
+/**
+ * testSetAriaMultiline
+ *
+ * @return void
+ */
+/**
+ * testSetAriaMultiline
+ *
+ * @return void
+ */
+/**
+ * testSetAriaMultiline
+ *
+ * @return void
+ */
+/**
+ * testSetAriaMultiline
+ *
+ * @return void
+ */
+/**
+ * testSetAriaMultiline
+ *
+ * @return void
+ */
+/**
+ * testSetAriaMultiline
+ *
+ * @return void
+ */
+/**
+ * testSetAriaMultiline
+ *
+ * @return void
+ */
+/**
+ * testSetAriaMultiline
+ *
+ * @return void
+ */
 function testSetAriaMultiline()
     {
         $this->element->setAriaMultiline(true);
@@ -706,6 +2411,61 @@ function testSetAriaMultiline()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetAriaReadonly
+ *
+ * @return void
+ */
+/**
+ * testSetAriaReadonly
+ *
+ * @return void
+ */
+/**
+ * testSetAriaReadonly
+ *
+ * @return void
+ */
+/**
+ * testSetAriaReadonly
+ *
+ * @return void
+ */
+/**
+ * testSetAriaReadonly
+ *
+ * @return void
+ */
+/**
+ * testSetAriaReadonly
+ *
+ * @return void
+ */
+/**
+ * testSetAriaReadonly
+ *
+ * @return void
+ */
+/**
+ * testSetAriaReadonly
+ *
+ * @return void
+ */
+/**
+ * testSetAriaReadonly
+ *
+ * @return void
+ */
+/**
+ * testSetAriaReadonly
+ *
+ * @return void
+ */
+/**
+ * testSetAriaReadonly
+ *
+ * @return void
+ */
 function testSetAriaReadonly()
     {
         $this->element->setAriaReadonly(true);
@@ -724,6 +2484,61 @@ function testSetAriaReadonly()
  * testSetAriaRequired
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetAriaRequired
+ *
+ * @return void
+ */
+/**
+ * testSetAriaRequired
+ *
+ * @return void
+ */
+/**
+ * testSetAriaRequired
+ *
+ * @return void
+ */
+/**
+ * testSetAriaRequired
+ *
+ * @return void
+ */
+/**
+ * testSetAriaRequired
+ *
+ * @return void
+ */
+/**
+ * testSetAriaRequired
+ *
+ * @return void
+ */
+/**
+ * testSetAriaRequired
+ *
+ * @return void
+ */
+/**
+ * testSetAriaRequired
+ *
+ * @return void
+ */
+/**
+ * testSetAriaRequired
+ *
+ * @return void
+ */
+/**
+ * testSetAriaRequired
+ *
+ * @return void
+ */
+/**
+ * testSetAriaRequired
+ *
  * @return void
  */
 function testSetAriaRequired()
@@ -748,6 +2563,61 @@ function testSetAriaRequired()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetAriaWithCustomName
+ *
+ * @return void
+ */
+/**
+ * testSetAriaWithCustomName
+ *
+ * @return void
+ */
+/**
+ * testSetAriaWithCustomName
+ *
+ * @return void
+ */
+/**
+ * testSetAriaWithCustomName
+ *
+ * @return void
+ */
+/**
+ * testSetAriaWithCustomName
+ *
+ * @return void
+ */
+/**
+ * testSetAriaWithCustomName
+ *
+ * @return void
+ */
+/**
+ * testSetAriaWithCustomName
+ *
+ * @return void
+ */
+/**
+ * testSetAriaWithCustomName
+ *
+ * @return void
+ */
+/**
+ * testSetAriaWithCustomName
+ *
+ * @return void
+ */
+/**
+ * testSetAriaWithCustomName
+ *
+ * @return void
+ */
+/**
+ * testSetAriaWithCustomName
+ *
+ * @return void
+ */
 function testSetAriaWithCustomName()
     {
         $this->element->setAria('custom-attribute', 'value');
@@ -768,6 +2638,61 @@ function testSetAriaWithCustomName()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testGetAriaCustomAttribute
+ *
+ * @return void
+ */
+/**
+ * testGetAriaCustomAttribute
+ *
+ * @return void
+ */
+/**
+ * testGetAriaCustomAttribute
+ *
+ * @return void
+ */
+/**
+ * testGetAriaCustomAttribute
+ *
+ * @return void
+ */
+/**
+ * testGetAriaCustomAttribute
+ *
+ * @return void
+ */
+/**
+ * testGetAriaCustomAttribute
+ *
+ * @return void
+ */
+/**
+ * testGetAriaCustomAttribute
+ *
+ * @return void
+ */
+/**
+ * testGetAriaCustomAttribute
+ *
+ * @return void
+ */
+/**
+ * testGetAriaCustomAttribute
+ *
+ * @return void
+ */
+/**
+ * testGetAriaCustomAttribute
+ *
+ * @return void
+ */
+/**
+ * testGetAriaCustomAttribute
+ *
+ * @return void
+ */
 function testGetAriaCustomAttribute()
     {
         $this->element->setAria('custom', 'value');
@@ -785,6 +2710,61 @@ function testGetAriaCustomAttribute()
  * testHasAriaCustomAttribute
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testHasAriaCustomAttribute
+ *
+ * @return void
+ */
+/**
+ * testHasAriaCustomAttribute
+ *
+ * @return void
+ */
+/**
+ * testHasAriaCustomAttribute
+ *
+ * @return void
+ */
+/**
+ * testHasAriaCustomAttribute
+ *
+ * @return void
+ */
+/**
+ * testHasAriaCustomAttribute
+ *
+ * @return void
+ */
+/**
+ * testHasAriaCustomAttribute
+ *
+ * @return void
+ */
+/**
+ * testHasAriaCustomAttribute
+ *
+ * @return void
+ */
+/**
+ * testHasAriaCustomAttribute
+ *
+ * @return void
+ */
+/**
+ * testHasAriaCustomAttribute
+ *
+ * @return void
+ */
+/**
+ * testHasAriaCustomAttribute
+ *
+ * @return void
+ */
+/**
+ * testHasAriaCustomAttribute
+ *
  * @return void
  */
 function testHasAriaCustomAttribute()
@@ -809,6 +2789,61 @@ function testHasAriaCustomAttribute()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testAriaLabelEscapesSpecialCharacters
+ *
+ * @return void
+ */
+/**
+ * testAriaLabelEscapesSpecialCharacters
+ *
+ * @return void
+ */
+/**
+ * testAriaLabelEscapesSpecialCharacters
+ *
+ * @return void
+ */
+/**
+ * testAriaLabelEscapesSpecialCharacters
+ *
+ * @return void
+ */
+/**
+ * testAriaLabelEscapesSpecialCharacters
+ *
+ * @return void
+ */
+/**
+ * testAriaLabelEscapesSpecialCharacters
+ *
+ * @return void
+ */
+/**
+ * testAriaLabelEscapesSpecialCharacters
+ *
+ * @return void
+ */
+/**
+ * testAriaLabelEscapesSpecialCharacters
+ *
+ * @return void
+ */
+/**
+ * testAriaLabelEscapesSpecialCharacters
+ *
+ * @return void
+ */
+/**
+ * testAriaLabelEscapesSpecialCharacters
+ *
+ * @return void
+ */
+/**
+ * testAriaLabelEscapesSpecialCharacters
+ *
+ * @return void
+ */
 function testAriaLabelEscapesSpecialCharacters()
     {
         $this->element->setAriaLabel('Close "dialog" & save');
@@ -828,6 +2863,61 @@ function testAriaLabelEscapesSpecialCharacters()
  * testAriaDescriptionEscapesHtmlTags
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testAriaDescriptionEscapesHtmlTags
+ *
+ * @return void
+ */
+/**
+ * testAriaDescriptionEscapesHtmlTags
+ *
+ * @return void
+ */
+/**
+ * testAriaDescriptionEscapesHtmlTags
+ *
+ * @return void
+ */
+/**
+ * testAriaDescriptionEscapesHtmlTags
+ *
+ * @return void
+ */
+/**
+ * testAriaDescriptionEscapesHtmlTags
+ *
+ * @return void
+ */
+/**
+ * testAriaDescriptionEscapesHtmlTags
+ *
+ * @return void
+ */
+/**
+ * testAriaDescriptionEscapesHtmlTags
+ *
+ * @return void
+ */
+/**
+ * testAriaDescriptionEscapesHtmlTags
+ *
+ * @return void
+ */
+/**
+ * testAriaDescriptionEscapesHtmlTags
+ *
+ * @return void
+ */
+/**
+ * testAriaDescriptionEscapesHtmlTags
+ *
+ * @return void
+ */
+/**
+ * testAriaDescriptionEscapesHtmlTags
+ *
  * @return void
  */
 function testAriaDescriptionEscapesHtmlTags()
@@ -853,6 +2943,61 @@ function testAriaDescriptionEscapesHtmlTags()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testRemoveAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveAriaAttribute
+ *
+ * @return void
+ */
 function testRemoveAriaAttribute()
     {
         $this->element->setAriaLabel('Label');
@@ -875,6 +3020,61 @@ function testRemoveAriaAttribute()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testRemoveNonExistentAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentAriaAttribute
+ *
+ * @return void
+ */
 function testRemoveNonExistentAriaAttribute()
     {
         // Should not throw exception
@@ -893,6 +3093,61 @@ function testRemoveNonExistentAriaAttribute()
  * testClearAllAriaAttributes
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testClearAllAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testClearAllAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testClearAllAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testClearAllAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testClearAllAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testClearAllAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testClearAllAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testClearAllAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testClearAllAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testClearAllAriaAttributes
+ *
+ * @return void
+ */
+/**
+ * testClearAllAriaAttributes
+ *
  * @return void
  */
 function testClearAllAriaAttributes()
@@ -923,6 +3178,61 @@ function testClearAllAriaAttributes()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testAriaMethodsReturnSelf
+ *
+ * @return void
+ */
+/**
+ * testAriaMethodsReturnSelf
+ *
+ * @return void
+ */
+/**
+ * testAriaMethodsReturnSelf
+ *
+ * @return void
+ */
+/**
+ * testAriaMethodsReturnSelf
+ *
+ * @return void
+ */
+/**
+ * testAriaMethodsReturnSelf
+ *
+ * @return void
+ */
+/**
+ * testAriaMethodsReturnSelf
+ *
+ * @return void
+ */
+/**
+ * testAriaMethodsReturnSelf
+ *
+ * @return void
+ */
+/**
+ * testAriaMethodsReturnSelf
+ *
+ * @return void
+ */
+/**
+ * testAriaMethodsReturnSelf
+ *
+ * @return void
+ */
+/**
+ * testAriaMethodsReturnSelf
+ *
+ * @return void
+ */
+/**
+ * testAriaMethodsReturnSelf
+ *
+ * @return void
+ */
 function testAriaMethodsReturnSelf()
     {
         $result = $this->element->setAriaLabel('Label');
@@ -940,6 +3250,61 @@ function testAriaMethodsReturnSelf()
  * testChainMultipleAriaMethodCalls
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testChainMultipleAriaMethodCalls
+ *
+ * @return void
+ */
+/**
+ * testChainMultipleAriaMethodCalls
+ *
+ * @return void
+ */
+/**
+ * testChainMultipleAriaMethodCalls
+ *
+ * @return void
+ */
+/**
+ * testChainMultipleAriaMethodCalls
+ *
+ * @return void
+ */
+/**
+ * testChainMultipleAriaMethodCalls
+ *
+ * @return void
+ */
+/**
+ * testChainMultipleAriaMethodCalls
+ *
+ * @return void
+ */
+/**
+ * testChainMultipleAriaMethodCalls
+ *
+ * @return void
+ */
+/**
+ * testChainMultipleAriaMethodCalls
+ *
+ * @return void
+ */
+/**
+ * testChainMultipleAriaMethodCalls
+ *
+ * @return void
+ */
+/**
+ * testChainMultipleAriaMethodCalls
+ *
+ * @return void
+ */
+/**
+ * testChainMultipleAriaMethodCalls
+ *
  * @return void
  */
 function testChainMultipleAriaMethodCalls()
@@ -968,6 +3333,61 @@ function testChainMultipleAriaMethodCalls()
  * testChainAriaWithOtherMethods
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testChainAriaWithOtherMethods
+ *
+ * @return void
+ */
+/**
+ * testChainAriaWithOtherMethods
+ *
+ * @return void
+ */
+/**
+ * testChainAriaWithOtherMethods
+ *
+ * @return void
+ */
+/**
+ * testChainAriaWithOtherMethods
+ *
+ * @return void
+ */
+/**
+ * testChainAriaWithOtherMethods
+ *
+ * @return void
+ */
+/**
+ * testChainAriaWithOtherMethods
+ *
+ * @return void
+ */
+/**
+ * testChainAriaWithOtherMethods
+ *
+ * @return void
+ */
+/**
+ * testChainAriaWithOtherMethods
+ *
+ * @return void
+ */
+/**
+ * testChainAriaWithOtherMethods
+ *
+ * @return void
+ */
+/**
+ * testChainAriaWithOtherMethods
+ *
+ * @return void
+ */
+/**
+ * testChainAriaWithOtherMethods
+ *
  * @return void
  */
 function testChainAriaWithOtherMethods()
@@ -999,6 +3419,61 @@ function testChainAriaWithOtherMethods()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testRemoveAriaReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testRemoveAriaReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testRemoveAriaReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testRemoveAriaReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testRemoveAriaReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testRemoveAriaReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testRemoveAriaReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testRemoveAriaReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testRemoveAriaReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testRemoveAriaReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testRemoveAriaReturnsSelf
+ *
+ * @return void
+ */
 function testRemoveAriaReturnsSelf()
     {
         $this->element->setAriaLabel('Label');
@@ -1017,6 +3492,61 @@ function testRemoveAriaReturnsSelf()
  * testClearAriaReturnsSelf
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testClearAriaReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testClearAriaReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testClearAriaReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testClearAriaReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testClearAriaReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testClearAriaReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testClearAriaReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testClearAriaReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testClearAriaReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testClearAriaReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testClearAriaReturnsSelf
+ *
  * @return void
  */
 function testClearAriaReturnsSelf()
@@ -1040,6 +3570,61 @@ function testClearAriaReturnsSelf()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testButtonAccessibilityPattern
+ *
+ * @return void
+ */
+/**
+ * testButtonAccessibilityPattern
+ *
+ * @return void
+ */
+/**
+ * testButtonAccessibilityPattern
+ *
+ * @return void
+ */
+/**
+ * testButtonAccessibilityPattern
+ *
+ * @return void
+ */
+/**
+ * testButtonAccessibilityPattern
+ *
+ * @return void
+ */
+/**
+ * testButtonAccessibilityPattern
+ *
+ * @return void
+ */
+/**
+ * testButtonAccessibilityPattern
+ *
+ * @return void
+ */
+/**
+ * testButtonAccessibilityPattern
+ *
+ * @return void
+ */
+/**
+ * testButtonAccessibilityPattern
+ *
+ * @return void
+ */
+/**
+ * testButtonAccessibilityPattern
+ *
+ * @return void
+ */
+/**
+ * testButtonAccessibilityPattern
+ *
+ * @return void
+ */
 function testButtonAccessibilityPattern()
     {
         $button = new /**
@@ -1059,6 +3644,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -1089,6 +3729,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testMenuAccessibilityPattern
+ *
+ * @return void
+ */
+/**
+ * testMenuAccessibilityPattern
+ *
+ * @return void
+ */
+/**
+ * testMenuAccessibilityPattern
+ *
+ * @return void
+ */
+/**
+ * testMenuAccessibilityPattern
+ *
+ * @return void
+ */
+/**
+ * testMenuAccessibilityPattern
+ *
+ * @return void
+ */
+/**
+ * testMenuAccessibilityPattern
+ *
+ * @return void
+ */
+/**
+ * testMenuAccessibilityPattern
+ *
+ * @return void
+ */
+/**
+ * testMenuAccessibilityPattern
+ *
+ * @return void
+ */
+/**
+ * testMenuAccessibilityPattern
+ *
+ * @return void
+ */
+/**
+ * testMenuAccessibilityPattern
+ *
+ * @return void
+ */
+/**
+ * testMenuAccessibilityPattern
+ *
+ * @return void
+ */
 function testMenuAccessibilityPattern()
     {
         $menu = new /**
@@ -1108,6 +3803,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -1137,6 +3887,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testProgressBarPattern
+ *
+ * @return void
+ */
+/**
+ * testProgressBarPattern
+ *
+ * @return void
+ */
+/**
+ * testProgressBarPattern
+ *
+ * @return void
+ */
+/**
+ * testProgressBarPattern
+ *
+ * @return void
+ */
+/**
+ * testProgressBarPattern
+ *
+ * @return void
+ */
+/**
+ * testProgressBarPattern
+ *
+ * @return void
+ */
+/**
+ * testProgressBarPattern
+ *
+ * @return void
+ */
+/**
+ * testProgressBarPattern
+ *
+ * @return void
+ */
+/**
+ * testProgressBarPattern
+ *
+ * @return void
+ */
+/**
+ * testProgressBarPattern
+ *
+ * @return void
+ */
+/**
+ * testProgressBarPattern
+ *
+ * @return void
+ */
 function testProgressBarPattern()
     {
         $progressBar = new /**
@@ -1156,6 +3961,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -1192,6 +4052,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testLiveRegionPattern
+ *
+ * @return void
+ */
+/**
+ * testLiveRegionPattern
+ *
+ * @return void
+ */
+/**
+ * testLiveRegionPattern
+ *
+ * @return void
+ */
+/**
+ * testLiveRegionPattern
+ *
+ * @return void
+ */
+/**
+ * testLiveRegionPattern
+ *
+ * @return void
+ */
+/**
+ * testLiveRegionPattern
+ *
+ * @return void
+ */
+/**
+ * testLiveRegionPattern
+ *
+ * @return void
+ */
+/**
+ * testLiveRegionPattern
+ *
+ * @return void
+ */
+/**
+ * testLiveRegionPattern
+ *
+ * @return void
+ */
+/**
+ * testLiveRegionPattern
+ *
+ * @return void
+ */
+/**
+ * testLiveRegionPattern
+ *
+ * @return void
+ */
 function testLiveRegionPattern()
     {
         $liveRegion = new /**
@@ -1211,6 +4126,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -1242,6 +4212,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testModalDialogPattern
+ *
+ * @return void
+ */
+/**
+ * testModalDialogPattern
+ *
+ * @return void
+ */
+/**
+ * testModalDialogPattern
+ *
+ * @return void
+ */
+/**
+ * testModalDialogPattern
+ *
+ * @return void
+ */
+/**
+ * testModalDialogPattern
+ *
+ * @return void
+ */
+/**
+ * testModalDialogPattern
+ *
+ * @return void
+ */
+/**
+ * testModalDialogPattern
+ *
+ * @return void
+ */
+/**
+ * testModalDialogPattern
+ *
+ * @return void
+ */
+/**
+ * testModalDialogPattern
+ *
+ * @return void
+ */
+/**
+ * testModalDialogPattern
+ *
+ * @return void
+ */
+/**
+ * testModalDialogPattern
+ *
+ * @return void
+ */
 function testModalDialogPattern()
     {
         $modal = new /**
@@ -1261,6 +4286,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -1296,6 +4376,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testUpdateAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testUpdateAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testUpdateAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testUpdateAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testUpdateAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testUpdateAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testUpdateAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testUpdateAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testUpdateAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testUpdateAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testUpdateAriaAttribute
+ *
+ * @return void
+ */
 function testUpdateAriaAttribute()
     {
         $this->element->setAriaLabel('Original');
@@ -1318,6 +4453,61 @@ function testUpdateAriaAttribute()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testGetNonExistentAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testGetNonExistentAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testGetNonExistentAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testGetNonExistentAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testGetNonExistentAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testGetNonExistentAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testGetNonExistentAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testGetNonExistentAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testGetNonExistentAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testGetNonExistentAriaAttribute
+ *
+ * @return void
+ */
+/**
+ * testGetNonExistentAriaAttribute
+ *
+ * @return void
+ */
 function testGetNonExistentAriaAttribute()
     {
         $result = $this->element->getAria('nonexistent');
@@ -1335,6 +4525,61 @@ function testGetNonExistentAriaAttribute()
  * testAriaAttributeWithEmptyValue
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testAriaAttributeWithEmptyValue
+ *
+ * @return void
+ */
+/**
+ * testAriaAttributeWithEmptyValue
+ *
+ * @return void
+ */
+/**
+ * testAriaAttributeWithEmptyValue
+ *
+ * @return void
+ */
+/**
+ * testAriaAttributeWithEmptyValue
+ *
+ * @return void
+ */
+/**
+ * testAriaAttributeWithEmptyValue
+ *
+ * @return void
+ */
+/**
+ * testAriaAttributeWithEmptyValue
+ *
+ * @return void
+ */
+/**
+ * testAriaAttributeWithEmptyValue
+ *
+ * @return void
+ */
+/**
+ * testAriaAttributeWithEmptyValue
+ *
+ * @return void
+ */
+/**
+ * testAriaAttributeWithEmptyValue
+ *
+ * @return void
+ */
+/**
+ * testAriaAttributeWithEmptyValue
+ *
+ * @return void
+ */
+/**
+ * testAriaAttributeWithEmptyValue
+ *
  * @return void
  */
 function testAriaAttributeWithEmptyValue()
@@ -1356,6 +4601,61 @@ function testAriaAttributeWithEmptyValue()
  * testAriaAttributeWithUnicodeValue
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testAriaAttributeWithUnicodeValue
+ *
+ * @return void
+ */
+/**
+ * testAriaAttributeWithUnicodeValue
+ *
+ * @return void
+ */
+/**
+ * testAriaAttributeWithUnicodeValue
+ *
+ * @return void
+ */
+/**
+ * testAriaAttributeWithUnicodeValue
+ *
+ * @return void
+ */
+/**
+ * testAriaAttributeWithUnicodeValue
+ *
+ * @return void
+ */
+/**
+ * testAriaAttributeWithUnicodeValue
+ *
+ * @return void
+ */
+/**
+ * testAriaAttributeWithUnicodeValue
+ *
+ * @return void
+ */
+/**
+ * testAriaAttributeWithUnicodeValue
+ *
+ * @return void
+ */
+/**
+ * testAriaAttributeWithUnicodeValue
+ *
+ * @return void
+ */
+/**
+ * testAriaAttributeWithUnicodeValue
+ *
+ * @return void
+ */
+/**
+ * testAriaAttributeWithUnicodeValue
+ *
  * @return void
  */
 function testAriaAttributeWithUnicodeValue()

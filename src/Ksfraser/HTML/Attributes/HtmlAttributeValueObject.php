@@ -157,7 +157,103 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
-abstract class HtmlAttributeValueObject implements HtmlElementInterface
+abstract /**
+ * HtmlAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class HtmlAttributeValueObject implements HtmlElementInterface
 {
     /**
      * The attribute name (e.g., 'style', 'class', 'data-*')
@@ -193,7 +289,185 @@ abstract class HtmlAttributeValueObject implements HtmlElementInterface
      * @return void
 
      */
-    public function addAttributeValueObject(object $item): void
+    public /**
+ * addAttributeValueObject
+ *
+ * @param object $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @param object $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @param object $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @param object $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @param object $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @param object $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @param object $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @param object $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @param object $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @param object $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @param object $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * addAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+function addAttributeValueObject(object $item): void
     {
         $this->attributeArray[] = $item;
     }
@@ -211,7 +485,185 @@ abstract class HtmlAttributeValueObject implements HtmlElementInterface
      * @return void
 
      */
-    public function setAttributeValueObject(object $item): void
+    public /**
+ * setAttributeValueObject
+ *
+ * @param object $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @param object $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @param object $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @param object $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @param object $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @param object $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @param object $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @param object $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @param object $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @param object $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @param object $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * setAttributeValueObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+function setAttributeValueObject(object $item): void
     {
         $name = $item->getName();
         foreach ($this->attributeArray as $idx => $existing) {
@@ -236,7 +688,185 @@ abstract class HtmlAttributeValueObject implements HtmlElementInterface
      * @return ?string
 
      */
-    public function getAttributeValue(string $name): ?string
+    public /**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+function getAttributeValue(string $name): ?string
     {
         foreach ($this->attributeArray as $existing) {
             if (method_exists($existing, 'getName') && $existing->getName() === $name) {
@@ -257,7 +887,158 @@ abstract class HtmlAttributeValueObject implements HtmlElementInterface
      * @return string
 
      */
-    public function getHtml(): string
+    public /**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getHtml(): string
     {
         $value = $this->getAttributeValueString();
         if ($value === '') {
@@ -277,7 +1058,158 @@ abstract class HtmlAttributeValueObject implements HtmlElementInterface
      * @return void
 
      */
-    public function toHtml(): void
+    public /**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function toHtml(): void
     {
         echo $this->getHtml();
     }
@@ -293,5 +1225,156 @@ abstract class HtmlAttributeValueObject implements HtmlElementInterface
      * @return string
 
      */
-    abstract protected function getAttributeValueString(): string;
+    abstract protected /**
+ * getAttributeValueString
+ *
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getAttributeValueString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getAttributeValueString(): string;
 }

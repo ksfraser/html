@@ -108,6 +108,12 @@ use Ksfraser\HTML\Elements\HtmlScript;
  * @return void
 
  */
+/**
+ * InterestFreqScriptHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class InterestFreqScriptHandler extends BaseScriptHandler {
     /**
      * Build handler scripts
@@ -115,7 +121,68 @@ class InterestFreqScriptHandler extends BaseScriptHandler {
      * @since 1.0.1 2026-02-16
      * @return array
      */
-public function build(): array {
+public /**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+function build(): array {
         return [
             // Load handler classes
             (new HtmlScript())->setAttribute('src', '/js/handlers/BaseHandler.js'),
@@ -139,7 +206,68 @@ public function build(): array {
      * @return string
 
      */
-    private function getEventListeners(): string {
+    private /**
+ * getEventListeners
+ *
+ * @return string
+ */
+/**
+ * getEventListeners
+ *
+ * @return string
+ */
+/**
+ * getEventListeners
+ *
+ * @return string
+ */
+/**
+ * getEventListeners
+ *
+ * @return string
+ */
+/**
+ * getEventListeners
+ *
+ * @return string
+ */
+/**
+ * getEventListeners
+ *
+ * @return string
+ */
+/**
+ * getEventListeners
+ *
+ * @return string
+ */
+/**
+ * getEventListeners
+ *
+ * @return string
+ */
+/**
+ * getEventListeners
+ *
+ * @return string
+ */
+/**
+ * getEventListeners
+ *
+ * @return string
+ */
+/**
+ * getEventListeners
+ *
+ * @return string
+ */
+/**
+ * getEventListeners
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getEventListeners(): string {
         return <<<'JS'
 // Event listeners for interest frequency handler responses
 document.addEventListener('interestFreqEdit', (e) => {

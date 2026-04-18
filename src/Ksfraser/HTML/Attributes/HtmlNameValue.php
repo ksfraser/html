@@ -125,6 +125,12 @@ use Ksfraser\HTML\Elements\HtmlString;
  * @return void
 
  */
+/**
+ * HtmlNameValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlNameValue extends HtmlString
 {
     /**
@@ -133,7 +139,68 @@ class HtmlNameValue extends HtmlString
      * @since 1.0.3 2026-02-21
      * @return string
      */
-    public function getName(): string
+    public /**
+ * getName
+ *
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getName(): string
     {
         return $this->string;
     }

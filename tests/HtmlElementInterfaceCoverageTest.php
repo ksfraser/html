@@ -26,6 +26,56 @@ class HtmlElementInterfaceCoverageTest extends TestCase {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testAllImplementations
+ *
+ * @return void
+ */
+/**
+ * testAllImplementations
+ *
+ * @return void
+ */
+/**
+ * testAllImplementations
+ *
+ * @return void
+ */
+/**
+ * testAllImplementations
+ *
+ * @return void
+ */
+/**
+ * testAllImplementations
+ *
+ * @return void
+ */
+/**
+ * testAllImplementations
+ *
+ * @return void
+ */
+/**
+ * testAllImplementations
+ *
+ * @return void
+ */
+/**
+ * testAllImplementations
+ *
+ * @return void
+ */
+/**
+ * testAllImplementations
+ *
+ * @return void
+ */
+/**
+ * testAllImplementations
+ *
+ * @return void
+ */
 function testAllImplementations() {
         $implementations = [
             'Ksfraser\\HTML\\HtmlElement',

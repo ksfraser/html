@@ -16,7 +16,62 @@ class ActionLinkTest extends TestCase
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testSetActionWithNoParams()
+    public /**
+ * testSetActionWithNoParams
+ *
+ * @return void
+ */
+/**
+ * testSetActionWithNoParams
+ *
+ * @return void
+ */
+/**
+ * testSetActionWithNoParams
+ *
+ * @return void
+ */
+/**
+ * testSetActionWithNoParams
+ *
+ * @return void
+ */
+/**
+ * testSetActionWithNoParams
+ *
+ * @return void
+ */
+/**
+ * testSetActionWithNoParams
+ *
+ * @return void
+ */
+/**
+ * testSetActionWithNoParams
+ *
+ * @return void
+ */
+/**
+ * testSetActionWithNoParams
+ *
+ * @return void
+ */
+/**
+ * testSetActionWithNoParams
+ *
+ * @return void
+ */
+/**
+ * testSetActionWithNoParams
+ *
+ * @return void
+ */
+/**
+ * testSetActionWithNoParams
+ *
+ * @return void
+ */
+function testSetActionWithNoParams()
     {
         $link = new ActionLink();
         $link->setAction('create');
@@ -31,7 +86,62 @@ class ActionLinkTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testSetActionWithParams()
+    public /**
+ * testSetActionWithParams
+ *
+ * @return void
+ */
+/**
+ * testSetActionWithParams
+ *
+ * @return void
+ */
+/**
+ * testSetActionWithParams
+ *
+ * @return void
+ */
+/**
+ * testSetActionWithParams
+ *
+ * @return void
+ */
+/**
+ * testSetActionWithParams
+ *
+ * @return void
+ */
+/**
+ * testSetActionWithParams
+ *
+ * @return void
+ */
+/**
+ * testSetActionWithParams
+ *
+ * @return void
+ */
+/**
+ * testSetActionWithParams
+ *
+ * @return void
+ */
+/**
+ * testSetActionWithParams
+ *
+ * @return void
+ */
+/**
+ * testSetActionWithParams
+ *
+ * @return void
+ */
+/**
+ * testSetActionWithParams
+ *
+ * @return void
+ */
+function testSetActionWithParams()
     {
         $link = new ActionLink();
         $link->setAction('edit', ['id' => 123, 'tab' => 'details']);
@@ -48,7 +158,62 @@ class ActionLinkTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testCreateStaticMethod()
+    public /**
+ * testCreateStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testCreateStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testCreateStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testCreateStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testCreateStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testCreateStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testCreateStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testCreateStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testCreateStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testCreateStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testCreateStaticMethod
+ *
+ * @return void
+ */
+function testCreateStaticMethod()
     {
         $link = ActionLink::create();
         
@@ -63,7 +228,62 @@ class ActionLinkTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testCreateWithCustomText()
+    public /**
+ * testCreateWithCustomText
+ *
+ * @return void
+ */
+/**
+ * testCreateWithCustomText
+ *
+ * @return void
+ */
+/**
+ * testCreateWithCustomText
+ *
+ * @return void
+ */
+/**
+ * testCreateWithCustomText
+ *
+ * @return void
+ */
+/**
+ * testCreateWithCustomText
+ *
+ * @return void
+ */
+/**
+ * testCreateWithCustomText
+ *
+ * @return void
+ */
+/**
+ * testCreateWithCustomText
+ *
+ * @return void
+ */
+/**
+ * testCreateWithCustomText
+ *
+ * @return void
+ */
+/**
+ * testCreateWithCustomText
+ *
+ * @return void
+ */
+/**
+ * testCreateWithCustomText
+ *
+ * @return void
+ */
+/**
+ * testCreateWithCustomText
+ *
+ * @return void
+ */
+function testCreateWithCustomText()
     {
         $link = ActionLink::create('Add New Item');
         
@@ -77,7 +297,62 @@ class ActionLinkTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testEditStaticMethod()
+    public /**
+ * testEditStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testEditStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testEditStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testEditStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testEditStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testEditStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testEditStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testEditStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testEditStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testEditStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testEditStaticMethod
+ *
+ * @return void
+ */
+function testEditStaticMethod()
     {
         $link = ActionLink::edit(456);
         
@@ -93,7 +368,62 @@ class ActionLinkTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testViewStaticMethod()
+    public /**
+ * testViewStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testViewStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testViewStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testViewStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testViewStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testViewStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testViewStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testViewStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testViewStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testViewStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testViewStaticMethod
+ *
+ * @return void
+ */
+function testViewStaticMethod()
     {
         $link = ActionLink::view(789);
         
@@ -108,7 +438,62 @@ class ActionLinkTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testDeleteStaticMethod()
+    public /**
+ * testDeleteStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testDeleteStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testDeleteStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testDeleteStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testDeleteStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testDeleteStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testDeleteStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testDeleteStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testDeleteStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testDeleteStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testDeleteStaticMethod
+ *
+ * @return void
+ */
+function testDeleteStaticMethod()
     {
         $link = ActionLink::delete(101);
         
@@ -125,7 +510,62 @@ class ActionLinkTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testListAllStaticMethod()
+    public /**
+ * testListAllStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testListAllStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testListAllStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testListAllStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testListAllStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testListAllStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testListAllStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testListAllStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testListAllStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testListAllStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testListAllStaticMethod
+ *
+ * @return void
+ */
+function testListAllStaticMethod()
     {
         $link = ActionLink::listAll();
         
@@ -139,7 +579,62 @@ class ActionLinkTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testAdminStaticMethod()
+    public /**
+ * testAdminStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testAdminStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testAdminStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testAdminStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testAdminStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testAdminStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testAdminStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testAdminStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testAdminStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testAdminStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testAdminStaticMethod
+ *
+ * @return void
+ */
+function testAdminStaticMethod()
     {
         $link = ActionLink::admin();
         
@@ -153,7 +648,62 @@ class ActionLinkTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testAdminWithSubAction()
+    public /**
+ * testAdminWithSubAction
+ *
+ * @return void
+ */
+/**
+ * testAdminWithSubAction
+ *
+ * @return void
+ */
+/**
+ * testAdminWithSubAction
+ *
+ * @return void
+ */
+/**
+ * testAdminWithSubAction
+ *
+ * @return void
+ */
+/**
+ * testAdminWithSubAction
+ *
+ * @return void
+ */
+/**
+ * testAdminWithSubAction
+ *
+ * @return void
+ */
+/**
+ * testAdminWithSubAction
+ *
+ * @return void
+ */
+/**
+ * testAdminWithSubAction
+ *
+ * @return void
+ */
+/**
+ * testAdminWithSubAction
+ *
+ * @return void
+ */
+/**
+ * testAdminWithSubAction
+ *
+ * @return void
+ */
+/**
+ * testAdminWithSubAction
+ *
+ * @return void
+ */
+function testAdminWithSubAction()
     {
         $link = ActionLink::admin('selectors');
         
@@ -167,7 +717,62 @@ class ActionLinkTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testCustomStaticMethod()
+    public /**
+ * testCustomStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testCustomStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testCustomStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testCustomStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testCustomStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testCustomStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testCustomStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testCustomStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testCustomStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testCustomStaticMethod
+ *
+ * @return void
+ */
+/**
+ * testCustomStaticMethod
+ *
+ * @return void
+ */
+function testCustomStaticMethod()
     {
         $link = ActionLink::custom('export', 'Export Data', ['format' => 'csv']);
         

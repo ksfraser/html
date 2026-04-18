@@ -278,6 +278,102 @@ use Ksfraser\HTML\HtmlAttribute;
  * @return void
 
  */
+/**
+ * DeleteButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DeleteButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DeleteButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DeleteButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DeleteButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DeleteButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DeleteButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DeleteButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DeleteButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DeleteButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DeleteButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DeleteButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DeleteButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DeleteButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DeleteButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DeleteButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class DeleteButton extends ActionButton
 {
     /**
@@ -302,7 +398,212 @@ class DeleteButton extends ActionButton
      * @return void
 
      */
-public function __construct(HtmlElementInterface $label, $actionId = '')
+public /**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @return void
+ */
+function __construct(HtmlElementInterface $label, $actionId = '')
     {
         parent::__construct('delete', $label, $actionId);
     }
@@ -318,7 +619,158 @@ public function __construct(HtmlElementInterface $label, $actionId = '')
      * @return void
 
      */
-    protected function setupActionButton()
+    protected /**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function setupActionButton()
     {
         $this->setName('delete_btn_' . $this->actionId);
         $this->setCssClass('btn btn-danger btn-sm');
@@ -340,7 +792,185 @@ public function __construct(HtmlElementInterface $label, $actionId = '')
      * @return self Fluent interface
 
      */
-public function setConfirmation($message)
+public /**
+ * setConfirmation
+ *
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @return void
+ */
+/**
+ * setConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @return void
+ */
+function setConfirmation($message)
     {
         $this->confirmationMessage = $message;
         $this->setOnclick("return confirm('" . addslashes($message) . "');");
@@ -358,7 +988,158 @@ public function setConfirmation($message)
      * @return self Fluent interface
 
      */
-    public function noConfirmation()
+    public /**
+ * noConfirmation
+ *
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * noConfirmation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function noConfirmation()
     {
         $this->confirmationMessage = '';
         $this->addAttribute(new HtmlAttribute('onclick', '')); // Clear onclick

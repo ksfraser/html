@@ -108,7 +108,13 @@ use Ksfraser\HTML\Elements\HtmlScript;
  * @return void
 
  */
-abstract class BaseScriptHandler {
+abstract /**
+ * BaseScriptHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class BaseScriptHandler {
     /**
      * Build handler script tags
      *
@@ -123,7 +129,68 @@ abstract class BaseScriptHandler {
      * @since 1.0.1 2026-02-16
      * @return array
      */
-abstract public function build(): array;
+abstract public /**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+function build(): array;
 
     /**
 
@@ -136,7 +203,68 @@ abstract public function build(): array;
      * @return string
 
      */
-    public function render(): string {
+    public /**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function render(): string {
         $html = '';
         foreach ($this->build() as $script) {
             $html .= $script->getHtml() . "\n";
@@ -155,7 +283,68 @@ abstract public function build(): array;
      * @return string
 
      */
-    public function __toString(): string {
+    public /**
+ * __toString
+ *
+ * @return string
+ */
+/**
+ * __toString
+ *
+ * @return string
+ */
+/**
+ * __toString
+ *
+ * @return string
+ */
+/**
+ * __toString
+ *
+ * @return string
+ */
+/**
+ * __toString
+ *
+ * @return string
+ */
+/**
+ * __toString
+ *
+ * @return string
+ */
+/**
+ * __toString
+ *
+ * @return string
+ */
+/**
+ * __toString
+ *
+ * @return string
+ */
+/**
+ * __toString
+ *
+ * @return string
+ */
+/**
+ * __toString
+ *
+ * @return string
+ */
+/**
+ * __toString
+ *
+ * @return string
+ */
+/**
+ * __toString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function __toString(): string {
         return $this->render();
     }
 }

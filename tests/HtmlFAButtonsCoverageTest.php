@@ -13,7 +13,57 @@ class HtmlFAButtonsCoverageTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testFAButtonsClassesExist() {
+    public /**
+ * testFAButtonsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testFAButtonsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testFAButtonsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testFAButtonsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testFAButtonsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testFAButtonsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testFAButtonsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testFAButtonsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testFAButtonsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testFAButtonsClassesExist
+ *
+ * @return void
+ */
+function testFAButtonsClassesExist() {
         $classes = [
             'Ksfraser\\HTML\\FAButtons\\ViewLoanActionButton',
             'Ksfraser\\HTML\\FAButtons\\EditTypeActionButton',

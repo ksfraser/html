@@ -15,7 +15,57 @@ class HtmlArticleTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testGetHtml() {
+    public /**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+function testGetHtml() {
         $article = new HtmlArticle(new HtmlString('Article content here'));
         $this->assertStringContainsString('<article', $article->getHtml());
         $this->assertStringContainsString('Article content here', $article->getHtml());
@@ -27,7 +77,57 @@ class HtmlArticleTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testToHtmlOutputsHtml() {
+    public /**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+function testToHtmlOutputsHtml() {
         $article = new HtmlArticle(new HtmlString('Another article'));
         ob_start();
         $article->toHtml();
@@ -42,7 +142,57 @@ class HtmlArticleTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testEdgeCasesEmptyContent() {
+    public /**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+function testEdgeCasesEmptyContent() {
         $article = new HtmlArticle(new HtmlString(''));
         $this->assertStringContainsString('<article', $article->getHtml());
     }

@@ -20,7 +20,57 @@ class HtmlPictureTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testPictureWithSourcesAndImg() {
+    public /**
+ * testPictureWithSourcesAndImg
+ *
+ * @return void
+ */
+/**
+ * testPictureWithSourcesAndImg
+ *
+ * @return void
+ */
+/**
+ * testPictureWithSourcesAndImg
+ *
+ * @return void
+ */
+/**
+ * testPictureWithSourcesAndImg
+ *
+ * @return void
+ */
+/**
+ * testPictureWithSourcesAndImg
+ *
+ * @return void
+ */
+/**
+ * testPictureWithSourcesAndImg
+ *
+ * @return void
+ */
+/**
+ * testPictureWithSourcesAndImg
+ *
+ * @return void
+ */
+/**
+ * testPictureWithSourcesAndImg
+ *
+ * @return void
+ */
+/**
+ * testPictureWithSourcesAndImg
+ *
+ * @return void
+ */
+/**
+ * testPictureWithSourcesAndImg
+ *
+ * @return void
+ */
+function testPictureWithSourcesAndImg() {
         $pic = new HtmlPicture();
         $pic->addSourceUrl('image.webp', 'image/webp')
             ->addSourceUrl('image.jpg', 'image/jpeg');

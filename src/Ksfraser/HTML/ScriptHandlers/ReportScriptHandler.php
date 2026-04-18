@@ -108,6 +108,12 @@ use Ksfraser\HTML\Elements\HtmlScript;
  * @return void
 
  */
+/**
+ * ReportScriptHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class ReportScriptHandler extends BaseScriptHandler {
     /**
      * Build handler scripts
@@ -115,7 +121,68 @@ class ReportScriptHandler extends BaseScriptHandler {
      * @since 1.0.1 2026-02-16
      * @return array
      */
-public function build(): array {
+public /**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @return array
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+function build(): array {
         return [
             // Load external report viewer script
             (new HtmlScript())->setAttribute('src', '/js/report-viewer.js')

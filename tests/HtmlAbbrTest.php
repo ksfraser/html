@@ -15,7 +15,57 @@ class HtmlAbbrTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testGetHtml() {
+    public /**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+function testGetHtml() {
     $abbr = new HtmlAbbr(new HtmlString('WHO'));
        $abbr->addAttribute('title', 'World Health Organization');
            $this->assertStringContainsString('<abbr', $abbr->getHtml());
@@ -29,7 +79,57 @@ class HtmlAbbrTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testToHtmlOutputsHtml() {
+    public /**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+function testToHtmlOutputsHtml() {
     $abbr = new HtmlAbbr(new HtmlString('HTML'));
        $abbr->addAttribute('title', 'HyperText Markup Language');
            ob_start();
@@ -45,7 +145,57 @@ class HtmlAbbrTest extends TestCase {
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testEdgeCasesEmptyContent() {
+    public /**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+function testEdgeCasesEmptyContent() {
     $abbr = new HtmlAbbr(new HtmlString(''));
        $abbr->addAttribute('title', 'Empty');
            $this->assertStringContainsString('<abbr', $abbr->getHtml());

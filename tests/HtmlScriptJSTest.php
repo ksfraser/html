@@ -17,7 +17,57 @@ class HtmlScriptJSTest extends TestCase
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testJavaScriptScriptTag()
+    public /**
+ * testJavaScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testJavaScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testJavaScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testJavaScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testJavaScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testJavaScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testJavaScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testJavaScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testJavaScriptScriptTag
+ *
+ * @return void
+ */
+/**
+ * testJavaScriptScriptTag
+ *
+ * @return void
+ */
+function testJavaScriptScriptTag()
     {
         $js = new HtmlJSString('console.log("Hello");');
         $script = new HtmlScriptJS($js);

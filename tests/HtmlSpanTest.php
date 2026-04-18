@@ -26,6 +26,56 @@ class HtmlSpanTest extends TestCase {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
 function testInstance() {
         $span = new HtmlSpan(new \Ksfraser\HTML\Elements\HtmlString('content'));
         $this->assertInstanceOf(HtmlSpan::/**
@@ -47,6 +97,56 @@ class, $span);
  * testGetHtml
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
  * @return void
  */
 function testGetHtml() {
@@ -77,6 +177,56 @@ class)->getMock();
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
 function testToHtmlOutputsHtml() {
         $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::/**
  * getMock
@@ -104,6 +254,56 @@ class)->getMock();
  * testEdgeCasesEmptyContent
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
  * @return void
  */
 function testEdgeCasesEmptyContent() {

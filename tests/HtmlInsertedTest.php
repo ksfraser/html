@@ -26,6 +26,56 @@ class HtmlInsertedTest extends TestCase {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
 function testInstance() {
         $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::/**
  * getMock
@@ -56,6 +106,56 @@ class, $ins);
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
 function testGetHtml() {
         $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::/**
  * getMock
@@ -82,6 +182,56 @@ class)->getMock();
  * testToHtmlOutputsHtml
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
  * @return void
  */
 function testToHtmlOutputsHtml() {
@@ -111,6 +261,56 @@ class)->getMock();
  * testEdgeCasesEmptyContent
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyContent
+ *
  * @return void
  */
 function testEdgeCasesEmptyContent() {

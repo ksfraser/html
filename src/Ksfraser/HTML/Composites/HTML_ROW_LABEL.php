@@ -173,6 +173,102 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * HTML_ROW_LABEL
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTML_ROW_LABEL
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTML_ROW_LABEL
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTML_ROW_LABEL
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTML_ROW_LABEL
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTML_ROW_LABEL
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTML_ROW_LABEL
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTML_ROW_LABEL
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTML_ROW_LABEL
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTML_ROW_LABEL
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTML_ROW_LABEL
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTML_ROW_LABEL
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTML_ROW_LABEL
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTML_ROW_LABEL
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTML_ROW_LABEL
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTML_ROW_LABEL
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HTML_ROW_LABEL implements HtmlElementInterface
 {
     /**
@@ -301,6 +397,265 @@ class HTML_ROW_LABEL implements HtmlElementInterface
     
      */
 public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $label
+ * @param mixed $width
+ * @param mixed $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @param string $label
+ * @param int|null $width
+ * @param string|null $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @param string $label
+ * @param int|null $width
+ * @param string|null $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @param string $label
+ * @param int|null $width
+ * @param string|null $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @param string $label
+ * @param int|null $width
+ * @param string|null $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @param string $label
+ * @param int|null $width
+ * @param string|null $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @param string $label
+ * @param int|null $width
+ * @param string|null $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @param string $label
+ * @param int|null $width
+ * @param string|null $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @param string $label
+ * @param int|null $width
+ * @param string|null $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @param string $label
+ * @param int|null $width
+ * @param string|null $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @param string $label
+ * @param int|null $width
+ * @param string|null $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @param string $label
+ * @param int|null $width
+ * @param string|null $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $label
+ * @param mixed $width
+ * @param mixed $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $label
+ * @param mixed $width
+ * @param mixed $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $label
+ * @param mixed $width
+ * @param mixed $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $label
+ * @param mixed $width
+ * @param mixed $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $label
+ * @param mixed $width
+ * @param mixed $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $label
+ * @param mixed $width
+ * @param mixed $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $label
+ * @param mixed $width
+ * @param mixed $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $label
+ * @param mixed $width
+ * @param mixed $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $label
+ * @param mixed $width
+ * @param mixed $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $label
+ * @param mixed $width
+ * @param mixed $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $label
+ * @param mixed $width
+ * @param mixed $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $label
+ * @param mixed $width
+ * @param mixed $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $label
+ * @param mixed $width
+ * @param mixed $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $label
+ * @param mixed $width
+ * @param mixed $class
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $label
+ * @param mixed $width
+ * @param mixed $class
+ * @return void
+ */
+/**
  * __construct
  *
  * @since v1.0.0 2026-04-14
@@ -449,6 +804,157 @@ function __construct($data, string $label, ?int $width = null, ?string $class = 
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 function toHtml(): void
     {
         $this->row->toHtml();
@@ -466,6 +972,157 @@ function toHtml(): void
     
      */
     public /**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
  * getHtml
  *
  * @since v1.0.0 2026-04-14

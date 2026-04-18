@@ -19,7 +19,57 @@ class HtmlSourceTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testConstructWithSrcAndType() {
+    public /**
+ * testConstructWithSrcAndType
+ *
+ * @return void
+ */
+/**
+ * testConstructWithSrcAndType
+ *
+ * @return void
+ */
+/**
+ * testConstructWithSrcAndType
+ *
+ * @return void
+ */
+/**
+ * testConstructWithSrcAndType
+ *
+ * @return void
+ */
+/**
+ * testConstructWithSrcAndType
+ *
+ * @return void
+ */
+/**
+ * testConstructWithSrcAndType
+ *
+ * @return void
+ */
+/**
+ * testConstructWithSrcAndType
+ *
+ * @return void
+ */
+/**
+ * testConstructWithSrcAndType
+ *
+ * @return void
+ */
+/**
+ * testConstructWithSrcAndType
+ *
+ * @return void
+ */
+/**
+ * testConstructWithSrcAndType
+ *
+ * @return void
+ */
+function testConstructWithSrcAndType() {
         $src = new HtmlSource('audio.mp3', 'audio/mpeg');
         $html = $src->getHtml();
         $this->assertStringContainsString('<source', $html);
@@ -33,7 +83,57 @@ class HtmlSourceTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testSetSrcAndTypeFluent() {
+    public /**
+ * testSetSrcAndTypeFluent
+ *
+ * @return void
+ */
+/**
+ * testSetSrcAndTypeFluent
+ *
+ * @return void
+ */
+/**
+ * testSetSrcAndTypeFluent
+ *
+ * @return void
+ */
+/**
+ * testSetSrcAndTypeFluent
+ *
+ * @return void
+ */
+/**
+ * testSetSrcAndTypeFluent
+ *
+ * @return void
+ */
+/**
+ * testSetSrcAndTypeFluent
+ *
+ * @return void
+ */
+/**
+ * testSetSrcAndTypeFluent
+ *
+ * @return void
+ */
+/**
+ * testSetSrcAndTypeFluent
+ *
+ * @return void
+ */
+/**
+ * testSetSrcAndTypeFluent
+ *
+ * @return void
+ */
+/**
+ * testSetSrcAndTypeFluent
+ *
+ * @return void
+ */
+function testSetSrcAndTypeFluent() {
         $s = new HtmlSource();
         $s->setSrc('video.webm')->setType('video/webm');
         $html = $s->getHtml();
@@ -47,7 +147,57 @@ class HtmlSourceTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testEmptySourceRendersTag() {
+    public /**
+ * testEmptySourceRendersTag
+ *
+ * @return void
+ */
+/**
+ * testEmptySourceRendersTag
+ *
+ * @return void
+ */
+/**
+ * testEmptySourceRendersTag
+ *
+ * @return void
+ */
+/**
+ * testEmptySourceRendersTag
+ *
+ * @return void
+ */
+/**
+ * testEmptySourceRendersTag
+ *
+ * @return void
+ */
+/**
+ * testEmptySourceRendersTag
+ *
+ * @return void
+ */
+/**
+ * testEmptySourceRendersTag
+ *
+ * @return void
+ */
+/**
+ * testEmptySourceRendersTag
+ *
+ * @return void
+ */
+/**
+ * testEmptySourceRendersTag
+ *
+ * @return void
+ */
+/**
+ * testEmptySourceRendersTag
+ *
+ * @return void
+ */
+function testEmptySourceRendersTag() {
         $s = new HtmlSource();
         $this->assertStringStartsWith('<source', $s->getHtml());
         // source is an empty/void element; ensure no closing tag is produced

@@ -27,6 +27,56 @@ class DummyElement implements HtmlElementInterface {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
 function __toString() {
         return 'dummy';
     }
@@ -43,6 +93,56 @@ function __toString() {
  * @since v1.0.0 2026-04-14
  * @return string
  */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
 function getHtml(): string {
         return 'dummy';
     }
@@ -57,6 +157,56 @@ function getHtml(): string {
  * toHtml
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
  * @return void
  */
 function toHtml(): void {
@@ -88,6 +238,56 @@ class HtmlListItemTest extends TestCase {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
 function testInstance() {
         $dummy = new DummyElement();
         $li = new HtmlListItem($dummy);
@@ -112,6 +312,56 @@ class, $li);
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testTagIsLi
+ *
+ * @return void
+ */
+/**
+ * testTagIsLi
+ *
+ * @return void
+ */
+/**
+ * testTagIsLi
+ *
+ * @return void
+ */
+/**
+ * testTagIsLi
+ *
+ * @return void
+ */
+/**
+ * testTagIsLi
+ *
+ * @return void
+ */
+/**
+ * testTagIsLi
+ *
+ * @return void
+ */
+/**
+ * testTagIsLi
+ *
+ * @return void
+ */
+/**
+ * testTagIsLi
+ *
+ * @return void
+ */
+/**
+ * testTagIsLi
+ *
+ * @return void
+ */
+/**
+ * testTagIsLi
+ *
+ * @return void
+ */
 function testTagIsLi() {
         $dummy = new DummyElement();
         $li = new HtmlListItem($dummy);
@@ -128,6 +378,56 @@ function testTagIsLi() {
  * testToStringReturnsExpectedHtml
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
  * @return void
  */
 function testToStringReturnsExpectedHtml() {
@@ -149,6 +449,56 @@ function testToStringReturnsExpectedHtml() {
  * testConstructorThrowsTypeErrorOnInvalidArgument
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testConstructorThrowsTypeErrorOnInvalidArgument
+ *
+ * @return void
+ */
+/**
+ * testConstructorThrowsTypeErrorOnInvalidArgument
+ *
+ * @return void
+ */
+/**
+ * testConstructorThrowsTypeErrorOnInvalidArgument
+ *
+ * @return void
+ */
+/**
+ * testConstructorThrowsTypeErrorOnInvalidArgument
+ *
+ * @return void
+ */
+/**
+ * testConstructorThrowsTypeErrorOnInvalidArgument
+ *
+ * @return void
+ */
+/**
+ * testConstructorThrowsTypeErrorOnInvalidArgument
+ *
+ * @return void
+ */
+/**
+ * testConstructorThrowsTypeErrorOnInvalidArgument
+ *
+ * @return void
+ */
+/**
+ * testConstructorThrowsTypeErrorOnInvalidArgument
+ *
+ * @return void
+ */
+/**
+ * testConstructorThrowsTypeErrorOnInvalidArgument
+ *
+ * @return void
+ */
+/**
+ * testConstructorThrowsTypeErrorOnInvalidArgument
+ *
  * @return void
  */
 function testConstructorThrowsTypeErrorOnInvalidArgument() {

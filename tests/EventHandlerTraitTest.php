@@ -34,7 +34,57 @@ class EventTestElement {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function __construct() {
+    public /**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+function __construct() {
         $this->attributeList = new \Ksfraser\HTML\HtmlAttributeList();
     }
     
@@ -44,7 +94,57 @@ class EventTestElement {
  * @since 1.0.5 2026-03-30
  * @return string
  */
-    public function getHtml(): string {
+    public /**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+function getHtml(): string {
         $html = '<' . $this->tag;
         $html .= ' ' . $this->attributeList->getHtml();
         $html .= $this->renderEventHandlers();
@@ -58,7 +158,57 @@ class EventTestElement {
  * @since 1.0.5 2026-03-30
  * @return string
  */
-    public function __toString(): string {
+    public /**
+ * __toString
+ *
+ * @return string
+ */
+/**
+ * __toString
+ *
+ * @return string
+ */
+/**
+ * __toString
+ *
+ * @return string
+ */
+/**
+ * __toString
+ *
+ * @return string
+ */
+/**
+ * __toString
+ *
+ * @return string
+ */
+/**
+ * __toString
+ *
+ * @return string
+ */
+/**
+ * __toString
+ *
+ * @return string
+ */
+/**
+ * __toString
+ *
+ * @return string
+ */
+/**
+ * __toString
+ *
+ * @return string
+ */
+/**
+ * __toString
+ *
+ * @return string
+ */
+function __toString(): string {
         return $this->getHtml();
     }
     
@@ -70,7 +220,77 @@ class EventTestElement {
  * @param mixed $value
  * @return self
  */
-    public function setAttribute(string $name, $value): self {
+    public /**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+function setAttribute(string $name, $value): self {
         $attr = new \Ksfraser\HTML\HtmlAttribute($name, new \Ksfraser\HTML\Elements\HtmlString($value));
         $this->attributeList->setAttribute($attr);
         return $this;
@@ -83,7 +303,67 @@ class EventTestElement {
  * @param string $name
  * @return ?string
  */
-    public function getAttributeValue(string $name): ?string {
+    public /**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+function getAttributeValue(string $name): ?string {
         return $this->attributeList->getAttributeValue($name);
     }
 }
@@ -103,7 +383,57 @@ class EventHandlerTraitTest extends TestCase
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    protected function setUp(): void
+    protected /**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+function setUp(): void
     {
         $this->element = new EventTestElement();
     }
@@ -117,7 +447,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testOnClickAddsClickHandler(): void
+    public /**
+ * testOnClickAddsClickHandler
+ *
+ * @return void
+ */
+/**
+ * testOnClickAddsClickHandler
+ *
+ * @return void
+ */
+/**
+ * testOnClickAddsClickHandler
+ *
+ * @return void
+ */
+/**
+ * testOnClickAddsClickHandler
+ *
+ * @return void
+ */
+/**
+ * testOnClickAddsClickHandler
+ *
+ * @return void
+ */
+/**
+ * testOnClickAddsClickHandler
+ *
+ * @return void
+ */
+/**
+ * testOnClickAddsClickHandler
+ *
+ * @return void
+ */
+/**
+ * testOnClickAddsClickHandler
+ *
+ * @return void
+ */
+/**
+ * testOnClickAddsClickHandler
+ *
+ * @return void
+ */
+/**
+ * testOnClickAddsClickHandler
+ *
+ * @return void
+ */
+function testOnClickAddsClickHandler(): void
     {
         $this->element->onClick("alert('clicked')");
         $html = $this->element->getHtml();
@@ -131,7 +511,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testOnClickReturnsElement(): void
+    public /**
+ * testOnClickReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testOnClickReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testOnClickReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testOnClickReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testOnClickReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testOnClickReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testOnClickReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testOnClickReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testOnClickReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testOnClickReturnsElement
+ *
+ * @return void
+ */
+function testOnClickReturnsElement(): void
     {
         $result = $this->element->onClick("alert('clicked')");
         $this->assertSame($this->element, $result);
@@ -144,7 +574,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testOnClickRendersCorrectly(): void
+    public /**
+ * testOnClickRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testOnClickRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testOnClickRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testOnClickRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testOnClickRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testOnClickRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testOnClickRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testOnClickRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testOnClickRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testOnClickRendersCorrectly
+ *
+ * @return void
+ */
+function testOnClickRendersCorrectly(): void
     {
         $this->element->onClick("handleClick()");
         $html = $this->element->getHtml();
@@ -161,7 +641,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testOnChangeAddsChangeHandler(): void
+    public /**
+ * testOnChangeAddsChangeHandler
+ *
+ * @return void
+ */
+/**
+ * testOnChangeAddsChangeHandler
+ *
+ * @return void
+ */
+/**
+ * testOnChangeAddsChangeHandler
+ *
+ * @return void
+ */
+/**
+ * testOnChangeAddsChangeHandler
+ *
+ * @return void
+ */
+/**
+ * testOnChangeAddsChangeHandler
+ *
+ * @return void
+ */
+/**
+ * testOnChangeAddsChangeHandler
+ *
+ * @return void
+ */
+/**
+ * testOnChangeAddsChangeHandler
+ *
+ * @return void
+ */
+/**
+ * testOnChangeAddsChangeHandler
+ *
+ * @return void
+ */
+/**
+ * testOnChangeAddsChangeHandler
+ *
+ * @return void
+ */
+/**
+ * testOnChangeAddsChangeHandler
+ *
+ * @return void
+ */
+function testOnChangeAddsChangeHandler(): void
     {
         $this->element->onChange("handleChange()");
         $html = $this->element->getHtml();
@@ -175,7 +705,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testOnSubmitAddsSubmitHandler(): void
+    public /**
+ * testOnSubmitAddsSubmitHandler
+ *
+ * @return void
+ */
+/**
+ * testOnSubmitAddsSubmitHandler
+ *
+ * @return void
+ */
+/**
+ * testOnSubmitAddsSubmitHandler
+ *
+ * @return void
+ */
+/**
+ * testOnSubmitAddsSubmitHandler
+ *
+ * @return void
+ */
+/**
+ * testOnSubmitAddsSubmitHandler
+ *
+ * @return void
+ */
+/**
+ * testOnSubmitAddsSubmitHandler
+ *
+ * @return void
+ */
+/**
+ * testOnSubmitAddsSubmitHandler
+ *
+ * @return void
+ */
+/**
+ * testOnSubmitAddsSubmitHandler
+ *
+ * @return void
+ */
+/**
+ * testOnSubmitAddsSubmitHandler
+ *
+ * @return void
+ */
+/**
+ * testOnSubmitAddsSubmitHandler
+ *
+ * @return void
+ */
+function testOnSubmitAddsSubmitHandler(): void
     {
         $this->element->onSubmit("handleSubmit()");
         $html = $this->element->getHtml();
@@ -189,7 +769,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testOnFocusAddsFocusHandler(): void
+    public /**
+ * testOnFocusAddsFocusHandler
+ *
+ * @return void
+ */
+/**
+ * testOnFocusAddsFocusHandler
+ *
+ * @return void
+ */
+/**
+ * testOnFocusAddsFocusHandler
+ *
+ * @return void
+ */
+/**
+ * testOnFocusAddsFocusHandler
+ *
+ * @return void
+ */
+/**
+ * testOnFocusAddsFocusHandler
+ *
+ * @return void
+ */
+/**
+ * testOnFocusAddsFocusHandler
+ *
+ * @return void
+ */
+/**
+ * testOnFocusAddsFocusHandler
+ *
+ * @return void
+ */
+/**
+ * testOnFocusAddsFocusHandler
+ *
+ * @return void
+ */
+/**
+ * testOnFocusAddsFocusHandler
+ *
+ * @return void
+ */
+/**
+ * testOnFocusAddsFocusHandler
+ *
+ * @return void
+ */
+function testOnFocusAddsFocusHandler(): void
     {
         $this->element->onFocus("handleFocus()");
         $html = $this->element->getHtml();
@@ -203,7 +833,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testOnBlurAddsBlurHandler(): void
+    public /**
+ * testOnBlurAddsBlurHandler
+ *
+ * @return void
+ */
+/**
+ * testOnBlurAddsBlurHandler
+ *
+ * @return void
+ */
+/**
+ * testOnBlurAddsBlurHandler
+ *
+ * @return void
+ */
+/**
+ * testOnBlurAddsBlurHandler
+ *
+ * @return void
+ */
+/**
+ * testOnBlurAddsBlurHandler
+ *
+ * @return void
+ */
+/**
+ * testOnBlurAddsBlurHandler
+ *
+ * @return void
+ */
+/**
+ * testOnBlurAddsBlurHandler
+ *
+ * @return void
+ */
+/**
+ * testOnBlurAddsBlurHandler
+ *
+ * @return void
+ */
+/**
+ * testOnBlurAddsBlurHandler
+ *
+ * @return void
+ */
+/**
+ * testOnBlurAddsBlurHandler
+ *
+ * @return void
+ */
+function testOnBlurAddsBlurHandler(): void
     {
         $this->element->onBlur("handleBlur()");
         $html = $this->element->getHtml();
@@ -217,7 +897,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testOnKeyPressAddsKeyPressHandler(): void
+    public /**
+ * testOnKeyPressAddsKeyPressHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyPressAddsKeyPressHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyPressAddsKeyPressHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyPressAddsKeyPressHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyPressAddsKeyPressHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyPressAddsKeyPressHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyPressAddsKeyPressHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyPressAddsKeyPressHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyPressAddsKeyPressHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyPressAddsKeyPressHandler
+ *
+ * @return void
+ */
+function testOnKeyPressAddsKeyPressHandler(): void
     {
         $this->element->onKeyPress("handleKeyPress()");
         $html = $this->element->getHtml();
@@ -231,7 +961,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testOnKeyDownAddsKeyDownHandler(): void
+    public /**
+ * testOnKeyDownAddsKeyDownHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyDownAddsKeyDownHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyDownAddsKeyDownHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyDownAddsKeyDownHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyDownAddsKeyDownHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyDownAddsKeyDownHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyDownAddsKeyDownHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyDownAddsKeyDownHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyDownAddsKeyDownHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyDownAddsKeyDownHandler
+ *
+ * @return void
+ */
+function testOnKeyDownAddsKeyDownHandler(): void
     {
         $this->element->onKeyDown("handleKeyDown()");
         $html = $this->element->getHtml();
@@ -245,7 +1025,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testOnKeyUpAddsKeyUpHandler(): void
+    public /**
+ * testOnKeyUpAddsKeyUpHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyUpAddsKeyUpHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyUpAddsKeyUpHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyUpAddsKeyUpHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyUpAddsKeyUpHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyUpAddsKeyUpHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyUpAddsKeyUpHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyUpAddsKeyUpHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyUpAddsKeyUpHandler
+ *
+ * @return void
+ */
+/**
+ * testOnKeyUpAddsKeyUpHandler
+ *
+ * @return void
+ */
+function testOnKeyUpAddsKeyUpHandler(): void
     {
         $this->element->onKeyUp("handleKeyUp()");
         $html = $this->element->getHtml();
@@ -259,7 +1089,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testOnMouseEnterAddsMouseEnterHandler(): void
+    public /**
+ * testOnMouseEnterAddsMouseEnterHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseEnterAddsMouseEnterHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseEnterAddsMouseEnterHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseEnterAddsMouseEnterHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseEnterAddsMouseEnterHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseEnterAddsMouseEnterHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseEnterAddsMouseEnterHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseEnterAddsMouseEnterHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseEnterAddsMouseEnterHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseEnterAddsMouseEnterHandler
+ *
+ * @return void
+ */
+function testOnMouseEnterAddsMouseEnterHandler(): void
     {
         $this->element->onMouseEnter("handleMouseEnter()");
         $html = $this->element->getHtml();
@@ -273,7 +1153,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testOnMouseLeaveAddsMouseLeaveHandler(): void
+    public /**
+ * testOnMouseLeaveAddsMouseLeaveHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseLeaveAddsMouseLeaveHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseLeaveAddsMouseLeaveHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseLeaveAddsMouseLeaveHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseLeaveAddsMouseLeaveHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseLeaveAddsMouseLeaveHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseLeaveAddsMouseLeaveHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseLeaveAddsMouseLeaveHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseLeaveAddsMouseLeaveHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseLeaveAddsMouseLeaveHandler
+ *
+ * @return void
+ */
+function testOnMouseLeaveAddsMouseLeaveHandler(): void
     {
         $this->element->onMouseLeave("handleMouseLeave()");
         $html = $this->element->getHtml();
@@ -287,7 +1217,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testOnMouseOverAddsMouseOverHandler(): void
+    public /**
+ * testOnMouseOverAddsMouseOverHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseOverAddsMouseOverHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseOverAddsMouseOverHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseOverAddsMouseOverHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseOverAddsMouseOverHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseOverAddsMouseOverHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseOverAddsMouseOverHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseOverAddsMouseOverHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseOverAddsMouseOverHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseOverAddsMouseOverHandler
+ *
+ * @return void
+ */
+function testOnMouseOverAddsMouseOverHandler(): void
     {
         $this->element->onMouseOver("handleMouseOver()");
         $html = $this->element->getHtml();
@@ -301,7 +1281,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testOnMouseOutAddsMouseOutHandler(): void
+    public /**
+ * testOnMouseOutAddsMouseOutHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseOutAddsMouseOutHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseOutAddsMouseOutHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseOutAddsMouseOutHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseOutAddsMouseOutHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseOutAddsMouseOutHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseOutAddsMouseOutHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseOutAddsMouseOutHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseOutAddsMouseOutHandler
+ *
+ * @return void
+ */
+/**
+ * testOnMouseOutAddsMouseOutHandler
+ *
+ * @return void
+ */
+function testOnMouseOutAddsMouseOutHandler(): void
     {
         $this->element->onMouseOut("handleMouseOut()");
         $html = $this->element->getHtml();
@@ -315,7 +1345,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testOnDoubleClickAddsDoubleClickHandler(): void
+    public /**
+ * testOnDoubleClickAddsDoubleClickHandler
+ *
+ * @return void
+ */
+/**
+ * testOnDoubleClickAddsDoubleClickHandler
+ *
+ * @return void
+ */
+/**
+ * testOnDoubleClickAddsDoubleClickHandler
+ *
+ * @return void
+ */
+/**
+ * testOnDoubleClickAddsDoubleClickHandler
+ *
+ * @return void
+ */
+/**
+ * testOnDoubleClickAddsDoubleClickHandler
+ *
+ * @return void
+ */
+/**
+ * testOnDoubleClickAddsDoubleClickHandler
+ *
+ * @return void
+ */
+/**
+ * testOnDoubleClickAddsDoubleClickHandler
+ *
+ * @return void
+ */
+/**
+ * testOnDoubleClickAddsDoubleClickHandler
+ *
+ * @return void
+ */
+/**
+ * testOnDoubleClickAddsDoubleClickHandler
+ *
+ * @return void
+ */
+/**
+ * testOnDoubleClickAddsDoubleClickHandler
+ *
+ * @return void
+ */
+function testOnDoubleClickAddsDoubleClickHandler(): void
     {
         $this->element->onDoubleClick("handleDoubleClick()");
         $html = $this->element->getHtml();
@@ -329,7 +1409,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testOnLoadAddsLoadHandler(): void
+    public /**
+ * testOnLoadAddsLoadHandler
+ *
+ * @return void
+ */
+/**
+ * testOnLoadAddsLoadHandler
+ *
+ * @return void
+ */
+/**
+ * testOnLoadAddsLoadHandler
+ *
+ * @return void
+ */
+/**
+ * testOnLoadAddsLoadHandler
+ *
+ * @return void
+ */
+/**
+ * testOnLoadAddsLoadHandler
+ *
+ * @return void
+ */
+/**
+ * testOnLoadAddsLoadHandler
+ *
+ * @return void
+ */
+/**
+ * testOnLoadAddsLoadHandler
+ *
+ * @return void
+ */
+/**
+ * testOnLoadAddsLoadHandler
+ *
+ * @return void
+ */
+/**
+ * testOnLoadAddsLoadHandler
+ *
+ * @return void
+ */
+/**
+ * testOnLoadAddsLoadHandler
+ *
+ * @return void
+ */
+function testOnLoadAddsLoadHandler(): void
     {
         $this->element->onLoad("handleLoad()");
         $html = $this->element->getHtml();
@@ -343,7 +1473,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testOnErrorAddsErrorHandler(): void
+    public /**
+ * testOnErrorAddsErrorHandler
+ *
+ * @return void
+ */
+/**
+ * testOnErrorAddsErrorHandler
+ *
+ * @return void
+ */
+/**
+ * testOnErrorAddsErrorHandler
+ *
+ * @return void
+ */
+/**
+ * testOnErrorAddsErrorHandler
+ *
+ * @return void
+ */
+/**
+ * testOnErrorAddsErrorHandler
+ *
+ * @return void
+ */
+/**
+ * testOnErrorAddsErrorHandler
+ *
+ * @return void
+ */
+/**
+ * testOnErrorAddsErrorHandler
+ *
+ * @return void
+ */
+/**
+ * testOnErrorAddsErrorHandler
+ *
+ * @return void
+ */
+/**
+ * testOnErrorAddsErrorHandler
+ *
+ * @return void
+ */
+/**
+ * testOnErrorAddsErrorHandler
+ *
+ * @return void
+ */
+function testOnErrorAddsErrorHandler(): void
     {
         $this->element->onError("handleError()");
         $html = $this->element->getHtml();
@@ -357,7 +1537,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testOnInputAddsInputHandler(): void
+    public /**
+ * testOnInputAddsInputHandler
+ *
+ * @return void
+ */
+/**
+ * testOnInputAddsInputHandler
+ *
+ * @return void
+ */
+/**
+ * testOnInputAddsInputHandler
+ *
+ * @return void
+ */
+/**
+ * testOnInputAddsInputHandler
+ *
+ * @return void
+ */
+/**
+ * testOnInputAddsInputHandler
+ *
+ * @return void
+ */
+/**
+ * testOnInputAddsInputHandler
+ *
+ * @return void
+ */
+/**
+ * testOnInputAddsInputHandler
+ *
+ * @return void
+ */
+/**
+ * testOnInputAddsInputHandler
+ *
+ * @return void
+ */
+/**
+ * testOnInputAddsInputHandler
+ *
+ * @return void
+ */
+/**
+ * testOnInputAddsInputHandler
+ *
+ * @return void
+ */
+function testOnInputAddsInputHandler(): void
     {
         $this->element->onInput("handleInput()");
         $html = $this->element->getHtml();
@@ -371,7 +1601,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testOnScrollAddsScrollHandler(): void
+    public /**
+ * testOnScrollAddsScrollHandler
+ *
+ * @return void
+ */
+/**
+ * testOnScrollAddsScrollHandler
+ *
+ * @return void
+ */
+/**
+ * testOnScrollAddsScrollHandler
+ *
+ * @return void
+ */
+/**
+ * testOnScrollAddsScrollHandler
+ *
+ * @return void
+ */
+/**
+ * testOnScrollAddsScrollHandler
+ *
+ * @return void
+ */
+/**
+ * testOnScrollAddsScrollHandler
+ *
+ * @return void
+ */
+/**
+ * testOnScrollAddsScrollHandler
+ *
+ * @return void
+ */
+/**
+ * testOnScrollAddsScrollHandler
+ *
+ * @return void
+ */
+/**
+ * testOnScrollAddsScrollHandler
+ *
+ * @return void
+ */
+/**
+ * testOnScrollAddsScrollHandler
+ *
+ * @return void
+ */
+function testOnScrollAddsScrollHandler(): void
     {
         $this->element->onScroll("handleScroll()");
         $html = $this->element->getHtml();
@@ -385,7 +1665,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testOnWheelAddsWheelHandler(): void
+    public /**
+ * testOnWheelAddsWheelHandler
+ *
+ * @return void
+ */
+/**
+ * testOnWheelAddsWheelHandler
+ *
+ * @return void
+ */
+/**
+ * testOnWheelAddsWheelHandler
+ *
+ * @return void
+ */
+/**
+ * testOnWheelAddsWheelHandler
+ *
+ * @return void
+ */
+/**
+ * testOnWheelAddsWheelHandler
+ *
+ * @return void
+ */
+/**
+ * testOnWheelAddsWheelHandler
+ *
+ * @return void
+ */
+/**
+ * testOnWheelAddsWheelHandler
+ *
+ * @return void
+ */
+/**
+ * testOnWheelAddsWheelHandler
+ *
+ * @return void
+ */
+/**
+ * testOnWheelAddsWheelHandler
+ *
+ * @return void
+ */
+/**
+ * testOnWheelAddsWheelHandler
+ *
+ * @return void
+ */
+function testOnWheelAddsWheelHandler(): void
     {
         $this->element->onWheel("handleWheel()");
         $html = $this->element->getHtml();
@@ -402,7 +1732,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testEventHandlerCodeEscapesQuotes(): void
+    public /**
+ * testEventHandlerCodeEscapesQuotes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesQuotes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesQuotes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesQuotes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesQuotes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesQuotes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesQuotes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesQuotes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesQuotes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesQuotes
+ *
+ * @return void
+ */
+function testEventHandlerCodeEscapesQuotes(): void
     {
         $this->element->onClick("alert('It\\'s working')");
         $html = $this->element->getHtml();
@@ -421,7 +1801,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testEventHandlerCodeEscapesDoubleQuotes(): void
+    public /**
+ * testEventHandlerCodeEscapesDoubleQuotes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesDoubleQuotes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesDoubleQuotes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesDoubleQuotes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesDoubleQuotes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesDoubleQuotes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesDoubleQuotes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesDoubleQuotes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesDoubleQuotes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesDoubleQuotes
+ *
+ * @return void
+ */
+function testEventHandlerCodeEscapesDoubleQuotes(): void
     {
         $code = 'alert("test")';
         $this->element->onClick($code);
@@ -439,7 +1869,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testEventHandlerCodeEscapesLessThan(): void
+    public /**
+ * testEventHandlerCodeEscapesLessThan
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesLessThan
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesLessThan
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesLessThan
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesLessThan
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesLessThan
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesLessThan
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesLessThan
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesLessThan
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesLessThan
+ *
+ * @return void
+ */
+function testEventHandlerCodeEscapesLessThan(): void
     {
         $this->element->onClick("if (x < 10) doSomething()");
         $html = $this->element->getHtml();
@@ -457,7 +1937,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testEventHandlerCodeEscapesGreaterThan(): void
+    public /**
+ * testEventHandlerCodeEscapesGreaterThan
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesGreaterThan
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesGreaterThan
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesGreaterThan
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesGreaterThan
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesGreaterThan
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesGreaterThan
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesGreaterThan
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesGreaterThan
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesGreaterThan
+ *
+ * @return void
+ */
+function testEventHandlerCodeEscapesGreaterThan(): void
     {
         $this->element->onClick("if (x > 10) doSomething()");
         $html = $this->element->getHtml();
@@ -475,7 +2005,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testEventHandlerCodeEscapesAmpersand(): void
+    public /**
+ * testEventHandlerCodeEscapesAmpersand
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesAmpersand
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesAmpersand
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesAmpersand
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesAmpersand
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesAmpersand
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesAmpersand
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesAmpersand
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesAmpersand
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerCodeEscapesAmpersand
+ *
+ * @return void
+ */
+function testEventHandlerCodeEscapesAmpersand(): void
     {
         $this->element->onClick("obj.prop && doSomething()");
         $html = $this->element->getHtml();
@@ -493,7 +2073,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testMultipleClickHandlersReplaced(): void
+    public /**
+ * testMultipleClickHandlersReplaced
+ *
+ * @return void
+ */
+/**
+ * testMultipleClickHandlersReplaced
+ *
+ * @return void
+ */
+/**
+ * testMultipleClickHandlersReplaced
+ *
+ * @return void
+ */
+/**
+ * testMultipleClickHandlersReplaced
+ *
+ * @return void
+ */
+/**
+ * testMultipleClickHandlersReplaced
+ *
+ * @return void
+ */
+/**
+ * testMultipleClickHandlersReplaced
+ *
+ * @return void
+ */
+/**
+ * testMultipleClickHandlersReplaced
+ *
+ * @return void
+ */
+/**
+ * testMultipleClickHandlersReplaced
+ *
+ * @return void
+ */
+/**
+ * testMultipleClickHandlersReplaced
+ *
+ * @return void
+ */
+/**
+ * testMultipleClickHandlersReplaced
+ *
+ * @return void
+ */
+function testMultipleClickHandlersReplaced(): void
     {
         $this->element->onClick("first()");
         $this->element->onClick("second()");
@@ -512,7 +2142,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testDifferentEventHandlers(): void
+    public /**
+ * testDifferentEventHandlers
+ *
+ * @return void
+ */
+/**
+ * testDifferentEventHandlers
+ *
+ * @return void
+ */
+/**
+ * testDifferentEventHandlers
+ *
+ * @return void
+ */
+/**
+ * testDifferentEventHandlers
+ *
+ * @return void
+ */
+/**
+ * testDifferentEventHandlers
+ *
+ * @return void
+ */
+/**
+ * testDifferentEventHandlers
+ *
+ * @return void
+ */
+/**
+ * testDifferentEventHandlers
+ *
+ * @return void
+ */
+/**
+ * testDifferentEventHandlers
+ *
+ * @return void
+ */
+/**
+ * testDifferentEventHandlers
+ *
+ * @return void
+ */
+/**
+ * testDifferentEventHandlers
+ *
+ * @return void
+ */
+function testDifferentEventHandlers(): void
     {
         $this->element->onClick("handleClick()");
         $this->element->onChange("handleChange()");
@@ -534,7 +2214,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testEventHandlersChainWithCSSClasses(): void
+    public /**
+ * testEventHandlersChainWithCSSClasses
+ *
+ * @return void
+ */
+/**
+ * testEventHandlersChainWithCSSClasses
+ *
+ * @return void
+ */
+/**
+ * testEventHandlersChainWithCSSClasses
+ *
+ * @return void
+ */
+/**
+ * testEventHandlersChainWithCSSClasses
+ *
+ * @return void
+ */
+/**
+ * testEventHandlersChainWithCSSClasses
+ *
+ * @return void
+ */
+/**
+ * testEventHandlersChainWithCSSClasses
+ *
+ * @return void
+ */
+/**
+ * testEventHandlersChainWithCSSClasses
+ *
+ * @return void
+ */
+/**
+ * testEventHandlersChainWithCSSClasses
+ *
+ * @return void
+ */
+/**
+ * testEventHandlersChainWithCSSClasses
+ *
+ * @return void
+ */
+/**
+ * testEventHandlersChainWithCSSClasses
+ *
+ * @return void
+ */
+function testEventHandlersChainWithCSSClasses(): void
     {
         $result = $this->element
             ->onClick("handleClick()")
@@ -558,7 +2288,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testEventChainMultipleHandlers(): void
+    public /**
+ * testEventChainMultipleHandlers
+ *
+ * @return void
+ */
+/**
+ * testEventChainMultipleHandlers
+ *
+ * @return void
+ */
+/**
+ * testEventChainMultipleHandlers
+ *
+ * @return void
+ */
+/**
+ * testEventChainMultipleHandlers
+ *
+ * @return void
+ */
+/**
+ * testEventChainMultipleHandlers
+ *
+ * @return void
+ */
+/**
+ * testEventChainMultipleHandlers
+ *
+ * @return void
+ */
+/**
+ * testEventChainMultipleHandlers
+ *
+ * @return void
+ */
+/**
+ * testEventChainMultipleHandlers
+ *
+ * @return void
+ */
+/**
+ * testEventChainMultipleHandlers
+ *
+ * @return void
+ */
+/**
+ * testEventChainMultipleHandlers
+ *
+ * @return void
+ */
+function testEventChainMultipleHandlers(): void
     {
         $result = $this->element
             ->onClick("first()")
@@ -582,7 +2362,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testEventChainWithAttributes(): void
+    public /**
+ * testEventChainWithAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventChainWithAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventChainWithAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventChainWithAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventChainWithAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventChainWithAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventChainWithAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventChainWithAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventChainWithAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventChainWithAttributes
+ *
+ * @return void
+ */
+function testEventChainWithAttributes(): void
     {
         $result = $this->element
             ->setAttribute('id', 'my-button')
@@ -608,7 +2438,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testEmptyEventHandlerCode(): void
+    public /**
+ * testEmptyEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testEmptyEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testEmptyEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testEmptyEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testEmptyEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testEmptyEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testEmptyEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testEmptyEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testEmptyEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testEmptyEventHandlerCode
+ *
+ * @return void
+ */
+function testEmptyEventHandlerCode(): void
     {
         $this->element->onClick("");
         $html = $this->element->getHtml();
@@ -624,7 +2504,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testWhitespaceOnlyEventHandlerCode(): void
+    public /**
+ * testWhitespaceOnlyEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testWhitespaceOnlyEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testWhitespaceOnlyEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testWhitespaceOnlyEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testWhitespaceOnlyEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testWhitespaceOnlyEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testWhitespaceOnlyEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testWhitespaceOnlyEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testWhitespaceOnlyEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testWhitespaceOnlyEventHandlerCode
+ *
+ * @return void
+ */
+function testWhitespaceOnlyEventHandlerCode(): void
     {
         $this->element->onClick("   ");
         $html = $this->element->getHtml();
@@ -640,7 +2570,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testComplexJavaScriptCode(): void
+    public /**
+ * testComplexJavaScriptCode
+ *
+ * @return void
+ */
+/**
+ * testComplexJavaScriptCode
+ *
+ * @return void
+ */
+/**
+ * testComplexJavaScriptCode
+ *
+ * @return void
+ */
+/**
+ * testComplexJavaScriptCode
+ *
+ * @return void
+ */
+/**
+ * testComplexJavaScriptCode
+ *
+ * @return void
+ */
+/**
+ * testComplexJavaScriptCode
+ *
+ * @return void
+ */
+/**
+ * testComplexJavaScriptCode
+ *
+ * @return void
+ */
+/**
+ * testComplexJavaScriptCode
+ *
+ * @return void
+ */
+/**
+ * testComplexJavaScriptCode
+ *
+ * @return void
+ */
+/**
+ * testComplexJavaScriptCode
+ *
+ * @return void
+ */
+function testComplexJavaScriptCode(): void
     {
         $code = <<<JS
         if (e.keyCode === 13) {
@@ -662,7 +2642,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testVeryLongEventHandlerCode(): void
+    public /**
+ * testVeryLongEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testVeryLongEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testVeryLongEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testVeryLongEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testVeryLongEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testVeryLongEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testVeryLongEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testVeryLongEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testVeryLongEventHandlerCode
+ *
+ * @return void
+ */
+/**
+ * testVeryLongEventHandlerCode
+ *
+ * @return void
+ */
+function testVeryLongEventHandlerCode(): void
     {
         $code = "console.log('" . str_repeat('x', 1000) . "')";
         $this->element->onClick($code);
@@ -678,7 +2708,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testEventHandlerWithNewlines(): void
+    public /**
+ * testEventHandlerWithNewlines
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithNewlines
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithNewlines
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithNewlines
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithNewlines
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithNewlines
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithNewlines
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithNewlines
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithNewlines
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithNewlines
+ *
+ * @return void
+ */
+function testEventHandlerWithNewlines(): void
     {
         $code = "first();\nsecond();\nthird();";
         $this->element->onClick($code);
@@ -696,7 +2776,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testEventHandlerWithButtonElement(): void
+    public /**
+ * testEventHandlerWithButtonElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithButtonElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithButtonElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithButtonElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithButtonElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithButtonElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithButtonElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithButtonElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithButtonElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithButtonElement
+ *
+ * @return void
+ */
+function testEventHandlerWithButtonElement(): void
     {
         $button = new EventTestElement();
         $button->tag = 'button';
@@ -722,7 +2852,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testEventHandlerWithFormElement(): void
+    public /**
+ * testEventHandlerWithFormElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithFormElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithFormElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithFormElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithFormElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithFormElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithFormElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithFormElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithFormElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithFormElement
+ *
+ * @return void
+ */
+function testEventHandlerWithFormElement(): void
     {
         $form = new EventTestElement();
         $form->tag = 'form';
@@ -745,7 +2925,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testEventHandlerWithInputElement(): void
+    public /**
+ * testEventHandlerWithInputElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithInputElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithInputElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithInputElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithInputElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithInputElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithInputElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithInputElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithInputElement
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithInputElement
+ *
+ * @return void
+ */
+function testEventHandlerWithInputElement(): void
     {
         $input = new EventTestElement();
         $input->tag = 'input';
@@ -770,7 +3000,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testEventHandlerWithMouseInteractionChain(): void
+    public /**
+ * testEventHandlerWithMouseInteractionChain
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithMouseInteractionChain
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithMouseInteractionChain
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithMouseInteractionChain
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithMouseInteractionChain
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithMouseInteractionChain
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithMouseInteractionChain
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithMouseInteractionChain
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithMouseInteractionChain
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerWithMouseInteractionChain
+ *
+ * @return void
+ */
+function testEventHandlerWithMouseInteractionChain(): void
     {
         $element = new EventTestElement();
         
@@ -795,7 +3075,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testEventHandlerPreservesOtherAttributes(): void
+    public /**
+ * testEventHandlerPreservesOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerPreservesOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerPreservesOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerPreservesOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerPreservesOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerPreservesOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerPreservesOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerPreservesOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerPreservesOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerPreservesOtherAttributes
+ *
+ * @return void
+ */
+function testEventHandlerPreservesOtherAttributes(): void
     {
         $element = new EventTestElement();
         
@@ -824,7 +3154,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testExistingSetAttributeStillWorks(): void
+    public /**
+ * testExistingSetAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingSetAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingSetAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingSetAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingSetAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingSetAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingSetAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingSetAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingSetAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingSetAttributeStillWorks
+ *
+ * @return void
+ */
+function testExistingSetAttributeStillWorks(): void
     {
         $this->element->setAttribute('onclick', "preventDefaultClickHandler()");
         $html = $this->element->getHtml();
@@ -839,7 +3219,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testEventHandlerDoesNotBreakCSSClasses(): void
+    public /**
+ * testEventHandlerDoesNotBreakCSSClasses
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerDoesNotBreakCSSClasses
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerDoesNotBreakCSSClasses
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerDoesNotBreakCSSClasses
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerDoesNotBreakCSSClasses
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerDoesNotBreakCSSClasses
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerDoesNotBreakCSSClasses
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerDoesNotBreakCSSClasses
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerDoesNotBreakCSSClasses
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerDoesNotBreakCSSClasses
+ *
+ * @return void
+ */
+function testEventHandlerDoesNotBreakCSSClasses(): void
     {
         $this->element->addCSSClass('btn');
         $this->element->onClick("handleClick()");
@@ -859,7 +3289,57 @@ class EventHandlerTraitTest extends TestCase
  * @return void
  * @since v1.0.5 2026-04-14
      */
-    public function testEventHandlerDoesNotBreakAttributes(): void
+    public /**
+ * testEventHandlerDoesNotBreakAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerDoesNotBreakAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerDoesNotBreakAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerDoesNotBreakAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerDoesNotBreakAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerDoesNotBreakAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerDoesNotBreakAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerDoesNotBreakAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerDoesNotBreakAttributes
+ *
+ * @return void
+ */
+/**
+ * testEventHandlerDoesNotBreakAttributes
+ *
+ * @return void
+ */
+function testEventHandlerDoesNotBreakAttributes(): void
     {
         $this->element->setAttribute('id', 'my-id');
         $this->element->onClick("handleClick()");

@@ -90,6 +90,102 @@ require_once(FA_ROOT . "/includes/ui/ui_controls.inc");
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * FaUiFunctions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FaUiFunctions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FaUiFunctions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FaUiFunctions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FaUiFunctions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FaUiFunctions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FaUiFunctions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FaUiFunctions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FaUiFunctions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FaUiFunctions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FaUiFunctions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FaUiFunctions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FaUiFunctions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FaUiFunctions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FaUiFunctions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FaUiFunctions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class FaUiFunctions {
     const TABLESTYLE2 = 2; // Matching FA's constant
 
@@ -111,6 +207,238 @@ class FaUiFunctions {
 
  */
     public static /**
+ * label_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * label_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $content
+ * @param mixed $params
+ * @return void
+ */
+/**
  * label_row
  *
  * @since v1.0.0 2026-04-14
@@ -152,6 +480,211 @@ function label_row($label, $content, $params="")
  * @param mixed $params
  * @return void
  */
+/**
+ * start_table
+ *
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * start_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $params
+ * @return void
+ */
 function start_table($type = self::TABLESTYLE2, $params="")
     {
         if (function_exists('\\start_table')) {
@@ -175,6 +708,184 @@ function start_table($type = self::TABLESTYLE2, $params="")
 
  */
     public static /**
+ * end_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @return void
+ */
+/**
+ * end_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @return void
+ */
+/**
  * end_table
  *
  * @since v1.0.0 2026-04-14
@@ -206,6 +917,211 @@ function end_table($breaks=0)
 
  */
     public static /**
+ * table_header
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * table_header
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @param mixed $params
+ * @return void
+ */
+/**
  * table_header
  *
  * @since v1.0.0 2026-04-14
@@ -246,6 +1162,184 @@ function table_header($labels, $params='')
  * @param mixed $param
  * @return void
  */
+/**
+ * start_row
+ *
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $param
+ * @return void
+ */
+/**
+ * start_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $param
+ * @return void
+ */
 function start_row($param="")
     {
         if (function_exists('\\start_row')) {
@@ -267,6 +1361,157 @@ function start_row($param="")
 
  */
     public static /**
+ * end_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * end_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
  * end_row
  *
  * @since v1.0.0 2026-04-14
@@ -303,6 +1548,292 @@ function end_row()
 
  */
     public static /**
+ * label_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $value
+ * @param mixed $params
+ * @param mixed $params2
+ * @param mixed $id
+ * @return void
+ */
+/**
  * label_cells
  *
  * @since v1.0.0 2026-04-14
@@ -361,6 +1892,238 @@ function label_cells($label, $value, $params="", $params2="", $id=null)
  * @param mixed $id
  * @return void
  */
+/**
+ * label_cell
+ *
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * label_cell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $params
+ * @param mixed $id
+ * @return void
+ */
 function label_cell($label, $params="", $id=null)
     {
         if (function_exists('\\label_cell')) {
@@ -401,6 +2164,319 @@ function label_cell($label, $params="", $id=null)
 
  */
     public static /**
+ * number_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
+ * number_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected
+ * @param mixed $from
+ * @param mixed $to
+ * @param mixed $no_option
+ * @return void
+ */
+/**
  * number_list_cells
  *
  * @since v1.0.0 2026-04-14
@@ -477,6 +2553,319 @@ function number_list_cells($label, $name, $selected, $from, $to, $no_option=fals
  * @param mixed $params
  * @return void
  */
+/**
+ * check_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * check_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
 function check_cells($label, $name, $value=null, $submit_on_change=false, $title=false, $params='')
     {
         if (function_exists('\\check_cells')) {
@@ -522,6 +2911,292 @@ function check_cells($label, $name, $value=null, $submit_on_change=false, $title
 
  */
     public static /**
+ * submit_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
  * submit_cells
  *
  * @since v1.0.0 2026-04-14
@@ -597,6 +3272,400 @@ function submit_cells($name, $value, $extra="", $title=false, $async=false)
  * @param mixed $inparams
  * @return void
  */
+/**
+ * text_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
+/**
+ * text_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $labparams
+ * @param mixed $post_label
+ * @param mixed $inparams
+ * @return void
+ */
 function text_cells($label, $name, $value=null, $size="", $max="", $title=false, $labparams="", $post_label="", $inparams="")
     {
         if (function_exists('\\text_cells')) {
@@ -656,6 +3725,238 @@ function text_cells($label, $name, $value=null, $size="", $max="", $title=false,
  * @param mixed $id
  * @return void
  */
+/**
+ * file_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
 function file_cells($label, $name, $id="")
     {
         if (function_exists('\\file_cells')) {
@@ -699,6 +4000,373 @@ function file_cells($label, $name, $id="")
 
  */
     public static /**
+ * amount_cells_ex
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells_ex
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
  * amount_cells_ex
  *
  * @since v1.0.0 2026-04-14
@@ -795,6 +4463,319 @@ function amount_cells_ex($label, $name, $size, $max=null, $init=null, $params=nu
  * @param mixed $dec
  * @return void
  */
+/**
+ * amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
 function amount_cells($label, $name, $init=null, $params=null, $post_label=null, $dec=null)
     {
         self::amount_cells_ex($label, $name, 15, 15, $init, $params, $post_label, $dec);
@@ -824,6 +4805,319 @@ function amount_cells($label, $name, $init=null, $params=null, $post_label=null,
 
  */
     public static /**
+ * unit_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * unit_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
  * unit_amount_cells
  *
  * @since v1.0.0 2026-04-14
@@ -888,6 +5182,373 @@ function unit_amount_cells($label, $name, $init=null, $params=null, $post_label=
  * @param mixed $post_label
  * @return void
  */
+/**
+ * text_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * text_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
 function text_row($label, $name, $value, $size, $max, $title=null, $params="", $post_label="")
     {
         if (function_exists('\\text_row')) {
@@ -925,6 +5586,319 @@ function text_row($label, $name, $value, $size, $max, $title=null, $params="", $
 
  */
     public static /**
+ * amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
  * amount_row
  *
  * @since v1.0.0 2026-04-14
@@ -978,6 +5952,400 @@ function amount_row($label, $name, $init=null, $params=null, $post_label=null, $
 
  */
     public static /**
+ * date_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
  * date_cells
  *
  * @since v1.0.0 2026-04-14
@@ -1090,6 +6458,400 @@ function date_cells($label, $name, $title = null, $check=null, $inc_days=0, $inc
  * @param mixed $submit_on_change
  * @return void
  */
+/**
+ * date_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * date_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $check
+ * @param mixed $inc_days
+ * @param mixed $inc_months
+ * @param mixed $inc_years
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @return void
+ */
 function date_row($label, $name, $title=null, $check=null, $inc_days=0, $inc_months=0, $inc_years=0, $params=null, $submit_on_change=false)
     {
         if (function_exists('\\date_row')) {
@@ -1131,6 +6893,373 @@ function date_row($label, $name, $title=null, $check=null, $inc_days=0, $inc_mon
 
  */
     public static /**
+ * email_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * email_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
  * email_row
  *
  * @since v1.0.0 2026-04-14
@@ -1199,6 +7328,373 @@ function email_row($label, $name, $value, $size, $max, $title=null, $params="", 
  * @param mixed $post_label
  * @return void
  */
+/**
+ * link_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
+/**
+ * link_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $size
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @param mixed $post_label
+ * @return void
+ */
 function link_row($label, $name, $value, $size, $max, $title=null, $params="", $post_label="")
     {
         if (function_exists('\\link_row')) {
@@ -1235,6 +7731,238 @@ function link_row($label, $name, $value, $size, $max, $title=null, $params="", $
 
  */
     public static /**
+ * password_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * password_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @return void
+ */
+/**
  * password_row
  *
  * @since v1.0.0 2026-04-14
@@ -1284,6 +8012,238 @@ function password_row($label, $name, $value)
  * @param mixed $id
  * @return void
  */
+/**
+ * file_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * file_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $id
+ * @return void
+ */
 function file_row($label, $name, $id = "")
     {
         if (function_exists('\\file_row')) {
@@ -1325,6 +8285,373 @@ function file_row($label, $name, $id = "")
 
  */
     public static /**
+ * ref_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
  * ref_cells
  *
  * @since v1.0.0 2026-04-14
@@ -1394,6 +8721,319 @@ function ref_cells($label, $name, $title=null, $init=null, $params=null, $submit
  * @param mixed $dec
  * @return void
  */
+/**
+ * small_amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
 function small_amount_cells($label, $name, $init=null, $params=null, $post_label=null, $dec=null)
     {
         if (function_exists('\\small_amount_cells')) {
@@ -1428,6 +9068,319 @@ function small_amount_cells($label, $name, $init=null, $params=null, $post_label
 
  */
     public static /**
+ * small_amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_amount_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
  * small_amount_row
  *
  * @since v1.0.0 2026-04-14
@@ -1489,6 +9442,346 @@ function small_amount_row($label, $name, $init=null, $params=null, $post_label=n
  * @param mixed $context
  * @return void
  */
+/**
+ * ref_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
+/**
+ * ref_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $title
+ * @param mixed $init
+ * @param mixed $submit_on_change
+ * @param mixed $type
+ * @param mixed $context
+ * @return void
+ */
 function ref_row($label, $name, $title=null, $init=null, $submit_on_change=false, $type=null, $context = null)
     {
         if (function_exists('\\ref_row')) {
@@ -1520,6 +9813,238 @@ function ref_row($label, $name, $title=null, $init=null, $submit_on_change=false
 
  */
     public static /**
+ * percent_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
+ * percent_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @return void
+ */
+/**
  * percent_row
  *
  * @since v1.0.0 2026-04-14
@@ -1566,6 +10091,319 @@ function percent_row($label, $name, $init=null)
 
  */
     public static /**
+ * qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
  * qty_row
  *
  * @since v1.0.0 2026-04-14
@@ -1625,6 +10463,319 @@ function qty_row($label, $name, $init=null, $params=null, $post_label=null, $dec
  * @param mixed $dec
  * @return void
  */
+/**
+ * small_qty_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
+/**
+ * small_qty_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $init
+ * @param mixed $params
+ * @param mixed $post_label
+ * @param mixed $dec
+ * @return void
+ */
 function small_qty_row($label, $name, $init=null, $params=null, $post_label=null, $dec=null)
     {
         if (function_exists('\\small_qty_row')) {
@@ -1664,6 +10815,346 @@ function small_qty_row($label, $name, $init=null, $params=null, $post_label=null
 
  */
     public static /**
+ * combo_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
+ * combo_list_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $sql
+ * @param mixed $order_by_field
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $selected_id
+ * @param mixed $none_option
+ * @param mixed $submit_on_change
+ * @return void
+ */
+/**
  * combo_list_cells
  *
  * @since v1.0.0 2026-04-14
@@ -1764,6 +11255,373 @@ function combo_list_cells($sql, $order_by_field, $label, $name, $selected_id = n
  * @param mixed $params
  * @return void
  */
+/**
+ * textarea_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_cells
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
 function textarea_cells($label, $name, $value, $cols, $rows, $max=255, $title = null, $params="")
     {
         if (function_exists('\\textarea_cells')) {
@@ -1836,6 +11694,373 @@ function textarea_cells($label, $name, $value, $cols, $rows, $max=255, $title = 
  * @param mixed $params
  * @return void
  */
+/**
+ * textarea_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * textarea_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $cols
+ * @param mixed $rows
+ * @param mixed $max
+ * @param mixed $title
+ * @param mixed $params
+ * @return void
+ */
 function textarea_row($label, $name, $value, $cols, $rows, $max=255, $title=null, $params="")
     {
         if (function_exists('\\textarea_row')) {
@@ -1871,6 +12096,292 @@ function textarea_row($label, $name, $value, $cols, $rows, $max=255, $title=null
 
  */
     public static /**
+ * check_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
+ * check_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $submit_on_change
+ * @param mixed $title
+ * @return void
+ */
+/**
  * check_row
  *
  * @since v1.0.0 2026-04-14
@@ -1929,6 +12440,319 @@ function check_row($label, $name, $value=null, $submit_on_change=false, $title=f
  * @param mixed $async
  * @return void
  */
+/**
+ * submit_row
+ *
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
+/**
+ * submit_row
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @param mixed $right
+ * @param mixed $extra
+ * @param mixed $title
+ * @param mixed $async
+ * @return void
+ */
 function submit_row($name, $value, $right=true, $extra="", $title=false, $async=false)
     {
         if (function_exists('\\submit_row')) {
@@ -1976,6 +12800,292 @@ function submit_row($name, $value, $right=true, $extra="", $title=false, $async=
  * @param mixed $br
  * @return void
  */
+/**
+ * start_outer_table
+ *
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
+/**
+ * start_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @param mixed $extra
+ * @param mixed $padding
+ * @param mixed $spacing
+ * @param mixed $br
+ * @return void
+ */
 function start_outer_table($class=false, $extra="", $padding='2', $spacing='0', $br=false)
     {
         if (function_exists('\\start_outer_table')) {
@@ -2006,6 +13116,211 @@ function start_outer_table($class=false, $extra="", $padding='2', $spacing='0', 
 
  */
     public static /**
+ * table_section
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * table_section
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $number
+ * @param mixed $width
+ * @return void
+ */
+/**
  * table_section
  *
  * @since v1.0.0 2026-04-14
@@ -2052,6 +13367,211 @@ function table_section($number=1, $width=false)
  * @param mixed $close_table
  * @return void
  */
+/**
+ * end_outer_table
+ *
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
+/**
+ * end_outer_table
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $breaks
+ * @param mixed $close_table
+ * @return void
+ */
 function end_outer_table($breaks=0, $close_table=true)
     {
         if (function_exists('\\end_outer_table')) {
@@ -2083,6 +13603,211 @@ function end_outer_table($breaks=0, $close_table=true)
 
  */
     public static /**
+ * alt_table_row_color
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
+ * alt_table_row_color
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $k
+ * @param mixed $extra_class
+ * @return void
+ */
+/**
  * alt_table_row_color
  *
  * @since v1.0.0 2026-04-14
@@ -2124,6 +13849,211 @@ function alt_table_row_color(&$k, $extra_class=null)
 
  */
     public static /**
+ * table_section_title
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
+ * table_section_title
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $msg
+ * @param mixed $colspan
+ * @return void
+ */
+/**
  * table_section_title
  *
  * @since v1.0.0 2026-04-14

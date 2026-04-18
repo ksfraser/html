@@ -13,7 +13,57 @@ class HtmlCellsCoverageTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testCellsClassesExist() {
+    public /**
+ * testCellsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCellsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCellsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCellsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCellsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCellsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCellsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCellsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCellsClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCellsClassesExist
+ *
+ * @return void
+ */
+function testCellsClassesExist() {
         $classes = [
             'Ksfraser\\HTML\\Cells\\AmountTableCell',
             'Ksfraser\\HTML\\Cells\\BaseTableCell',

@@ -95,6 +95,102 @@ namespace Ksfraser\HTML\Crud;
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * CrudField
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CrudField
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CrudField
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CrudField
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CrudField
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CrudField
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CrudField
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CrudField
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CrudField
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CrudField
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CrudField
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CrudField
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CrudField
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CrudField
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CrudField
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * CrudField
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class CrudField
 {
     /**
@@ -183,6 +279,346 @@ class CrudField
 
      */
     public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $label
+ * @param mixed $inputType
+ * @param mixed $required
+ * @param mixed $readOnly
+ * @param mixed $defaultValue
+ * @param mixed $foreignKey
+ * @return void
+ */
+/**
  * __construct
  *
  * @since v1.0.0 2026-04-14

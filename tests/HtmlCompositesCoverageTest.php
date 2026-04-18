@@ -13,7 +13,57 @@ class HtmlCompositesCoverageTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testCompositesClassesExist() {
+    public /**
+ * testCompositesClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCompositesClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCompositesClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCompositesClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCompositesClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCompositesClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCompositesClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCompositesClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCompositesClassesExist
+ *
+ * @return void
+ */
+/**
+ * testCompositesClassesExist
+ *
+ * @return void
+ */
+function testCompositesClassesExist() {
         $classes = [
             'Ksfraser\\HTML\\Composites\\HtmlLabelRow',
             'Ksfraser\\HTML\\Composites\\HTML_ROW',

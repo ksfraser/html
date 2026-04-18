@@ -15,7 +15,57 @@ class HtmlMetaTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testMetaTagRendersCorrectly() {
+    public /**
+ * testMetaTagRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testMetaTagRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testMetaTagRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testMetaTagRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testMetaTagRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testMetaTagRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testMetaTagRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testMetaTagRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testMetaTagRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testMetaTagRendersCorrectly
+ *
+ * @return void
+ */
+function testMetaTagRendersCorrectly() {
         $meta = new HtmlMeta(new HtmlString(''));
         $meta->setAttribute('charset', 'UTF-8');
         $html = $meta->getHtml();
@@ -30,7 +80,57 @@ class HtmlMetaTest extends TestCase {
  * @since 1.0.5 2026-02-22
  * @return void
  */
-    public function testMetaTagWithoutAttributes() {
+    public /**
+ * testMetaTagWithoutAttributes
+ *
+ * @return void
+ */
+/**
+ * testMetaTagWithoutAttributes
+ *
+ * @return void
+ */
+/**
+ * testMetaTagWithoutAttributes
+ *
+ * @return void
+ */
+/**
+ * testMetaTagWithoutAttributes
+ *
+ * @return void
+ */
+/**
+ * testMetaTagWithoutAttributes
+ *
+ * @return void
+ */
+/**
+ * testMetaTagWithoutAttributes
+ *
+ * @return void
+ */
+/**
+ * testMetaTagWithoutAttributes
+ *
+ * @return void
+ */
+/**
+ * testMetaTagWithoutAttributes
+ *
+ * @return void
+ */
+/**
+ * testMetaTagWithoutAttributes
+ *
+ * @return void
+ */
+/**
+ * testMetaTagWithoutAttributes
+ *
+ * @return void
+ */
+function testMetaTagWithoutAttributes() {
         $meta = new HtmlMeta(new HtmlString(''));
         $html = $meta->getHtml();
         $this->assertEquals('<meta />', $html);

@@ -33,6 +33,56 @@ class FAButtonsTest extends TestCase
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testDeleteFrequencyActionButton
+ *
+ * @return void
+ */
+/**
+ * testDeleteFrequencyActionButton
+ *
+ * @return void
+ */
+/**
+ * testDeleteFrequencyActionButton
+ *
+ * @return void
+ */
+/**
+ * testDeleteFrequencyActionButton
+ *
+ * @return void
+ */
+/**
+ * testDeleteFrequencyActionButton
+ *
+ * @return void
+ */
+/**
+ * testDeleteFrequencyActionButton
+ *
+ * @return void
+ */
+/**
+ * testDeleteFrequencyActionButton
+ *
+ * @return void
+ */
+/**
+ * testDeleteFrequencyActionButton
+ *
+ * @return void
+ */
+/**
+ * testDeleteFrequencyActionButton
+ *
+ * @return void
+ */
+/**
+ * testDeleteFrequencyActionButton
+ *
+ * @return void
+ */
 function testDeleteFrequencyActionButton()
     {
         $btn = new DeleteFrequencyActionButton();
@@ -55,6 +105,56 @@ class, $btn);
  * testDeleteTypeActionButton
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testDeleteTypeActionButton
+ *
+ * @return void
+ */
+/**
+ * testDeleteTypeActionButton
+ *
+ * @return void
+ */
+/**
+ * testDeleteTypeActionButton
+ *
+ * @return void
+ */
+/**
+ * testDeleteTypeActionButton
+ *
+ * @return void
+ */
+/**
+ * testDeleteTypeActionButton
+ *
+ * @return void
+ */
+/**
+ * testDeleteTypeActionButton
+ *
+ * @return void
+ */
+/**
+ * testDeleteTypeActionButton
+ *
+ * @return void
+ */
+/**
+ * testDeleteTypeActionButton
+ *
+ * @return void
+ */
+/**
+ * testDeleteTypeActionButton
+ *
+ * @return void
+ */
+/**
+ * testDeleteTypeActionButton
+ *
  * @return void
  */
 function testDeleteTypeActionButton()
@@ -81,6 +181,56 @@ class, $btn);
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testEditFrequencyActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditFrequencyActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditFrequencyActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditFrequencyActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditFrequencyActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditFrequencyActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditFrequencyActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditFrequencyActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditFrequencyActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditFrequencyActionButton
+ *
+ * @return void
+ */
 function testEditFrequencyActionButton()
     {
         $btn = new EditFrequencyActionButton();
@@ -103,6 +253,56 @@ class, $btn);
  * testEditLoanActionButton
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testEditLoanActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditLoanActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditLoanActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditLoanActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditLoanActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditLoanActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditLoanActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditLoanActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditLoanActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditLoanActionButton
+ *
  * @return void
  */
 function testEditLoanActionButton()
@@ -129,6 +329,56 @@ class, $btn);
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testEditTypeActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditTypeActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditTypeActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditTypeActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditTypeActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditTypeActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditTypeActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditTypeActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditTypeActionButton
+ *
+ * @return void
+ */
+/**
+ * testEditTypeActionButton
+ *
+ * @return void
+ */
 function testEditTypeActionButton()
     {
         $btn = new EditTypeActionButton();
@@ -151,6 +401,56 @@ class, $btn);
  * testViewLoanActionButton
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testViewLoanActionButton
+ *
+ * @return void
+ */
+/**
+ * testViewLoanActionButton
+ *
+ * @return void
+ */
+/**
+ * testViewLoanActionButton
+ *
+ * @return void
+ */
+/**
+ * testViewLoanActionButton
+ *
+ * @return void
+ */
+/**
+ * testViewLoanActionButton
+ *
+ * @return void
+ */
+/**
+ * testViewLoanActionButton
+ *
+ * @return void
+ */
+/**
+ * testViewLoanActionButton
+ *
+ * @return void
+ */
+/**
+ * testViewLoanActionButton
+ *
+ * @return void
+ */
+/**
+ * testViewLoanActionButton
+ *
+ * @return void
+ */
+/**
+ * testViewLoanActionButton
+ *
  * @return void
  */
 function testViewLoanActionButton()

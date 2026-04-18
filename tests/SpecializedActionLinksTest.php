@@ -33,6 +33,56 @@ class SpecializedActionLinksTest extends TestCase
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testCreateLinkMake
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkMake
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkMake
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkMake
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkMake
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkMake
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkMake
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkMake
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkMake
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkMake
+ *
+ * @return void
+ */
 function testCreateLinkMake()
     {
         $link = CreateLink::make('From Factory', ['foo' => 'bar']);
@@ -59,6 +109,56 @@ class, $link);
  * testEditLinkMake
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testEditLinkMake
+ *
+ * @return void
+ */
+/**
+ * testEditLinkMake
+ *
+ * @return void
+ */
+/**
+ * testEditLinkMake
+ *
+ * @return void
+ */
+/**
+ * testEditLinkMake
+ *
+ * @return void
+ */
+/**
+ * testEditLinkMake
+ *
+ * @return void
+ */
+/**
+ * testEditLinkMake
+ *
+ * @return void
+ */
+/**
+ * testEditLinkMake
+ *
+ * @return void
+ */
+/**
+ * testEditLinkMake
+ *
+ * @return void
+ */
+/**
+ * testEditLinkMake
+ *
+ * @return void
+ */
+/**
+ * testEditLinkMake
+ *
  * @return void
  */
 function testEditLinkMake()
@@ -90,6 +190,56 @@ class, $link);
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testDeleteLinkMake
+ *
+ * @return void
+ */
+/**
+ * testDeleteLinkMake
+ *
+ * @return void
+ */
+/**
+ * testDeleteLinkMake
+ *
+ * @return void
+ */
+/**
+ * testDeleteLinkMake
+ *
+ * @return void
+ */
+/**
+ * testDeleteLinkMake
+ *
+ * @return void
+ */
+/**
+ * testDeleteLinkMake
+ *
+ * @return void
+ */
+/**
+ * testDeleteLinkMake
+ *
+ * @return void
+ */
+/**
+ * testDeleteLinkMake
+ *
+ * @return void
+ */
+/**
+ * testDeleteLinkMake
+ *
+ * @return void
+ */
+/**
+ * testDeleteLinkMake
+ *
+ * @return void
+ */
 function testDeleteLinkMake()
     {
         $link = DeleteLink::make(99, 'Delete Factory', ['x' => 'y']);
@@ -117,6 +267,56 @@ class, $link);
  * testViewLinkMake
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testViewLinkMake
+ *
+ * @return void
+ */
+/**
+ * testViewLinkMake
+ *
+ * @return void
+ */
+/**
+ * testViewLinkMake
+ *
+ * @return void
+ */
+/**
+ * testViewLinkMake
+ *
+ * @return void
+ */
+/**
+ * testViewLinkMake
+ *
+ * @return void
+ */
+/**
+ * testViewLinkMake
+ *
+ * @return void
+ */
+/**
+ * testViewLinkMake
+ *
+ * @return void
+ */
+/**
+ * testViewLinkMake
+ *
+ * @return void
+ */
+/**
+ * testViewLinkMake
+ *
+ * @return void
+ */
+/**
+ * testViewLinkMake
+ *
  * @return void
  */
 function testViewLinkMake()
@@ -148,6 +348,56 @@ class, $link);
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testListLinkMake
+ *
+ * @return void
+ */
+/**
+ * testListLinkMake
+ *
+ * @return void
+ */
+/**
+ * testListLinkMake
+ *
+ * @return void
+ */
+/**
+ * testListLinkMake
+ *
+ * @return void
+ */
+/**
+ * testListLinkMake
+ *
+ * @return void
+ */
+/**
+ * testListLinkMake
+ *
+ * @return void
+ */
+/**
+ * testListLinkMake
+ *
+ * @return void
+ */
+/**
+ * testListLinkMake
+ *
+ * @return void
+ */
+/**
+ * testListLinkMake
+ *
+ * @return void
+ */
+/**
+ * testListLinkMake
+ *
+ * @return void
+ */
 function testListLinkMake()
     {
         $link = ListLink::make('List Factory', ['page' => 2]);
@@ -174,6 +424,56 @@ class, $link);
  * testAddLinkMake
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testAddLinkMake
+ *
+ * @return void
+ */
+/**
+ * testAddLinkMake
+ *
+ * @return void
+ */
+/**
+ * testAddLinkMake
+ *
+ * @return void
+ */
+/**
+ * testAddLinkMake
+ *
+ * @return void
+ */
+/**
+ * testAddLinkMake
+ *
+ * @return void
+ */
+/**
+ * testAddLinkMake
+ *
+ * @return void
+ */
+/**
+ * testAddLinkMake
+ *
+ * @return void
+ */
+/**
+ * testAddLinkMake
+ *
+ * @return void
+ */
+/**
+ * testAddLinkMake
+ *
+ * @return void
+ */
+/**
+ * testAddLinkMake
+ *
  * @return void
  */
 function testAddLinkMake()
@@ -203,6 +503,56 @@ class, $link);
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testCreateLinkDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkDefaultLabel
+ *
+ * @return void
+ */
 function testCreateLinkDefaultLabel()
     {
         $link = new CreateLink();
@@ -221,6 +571,56 @@ function testCreateLinkDefaultLabel()
  * testCreateLinkCustomText
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testCreateLinkCustomText
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkCustomText
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkCustomText
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkCustomText
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkCustomText
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkCustomText
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkCustomText
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkCustomText
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkCustomText
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkCustomText
+ *
  * @return void
  */
 function testCreateLinkCustomText()
@@ -242,6 +642,56 @@ function testCreateLinkCustomText()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testCreateLinkWithParams
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkWithParams
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkWithParams
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkWithParams
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkWithParams
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkWithParams
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkWithParams
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkWithParams
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkWithParams
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkWithParams
+ *
+ * @return void
+ */
 function testCreateLinkWithParams()
     {
         $link = new CreateLink(null, ['type' => 'loan']);
@@ -260,6 +710,56 @@ function testCreateLinkWithParams()
  * testCreateLinkSetLabel
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testCreateLinkSetLabel
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkSetLabel
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkSetLabel
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkSetLabel
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkSetLabel
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkSetLabel
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkSetLabel
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkSetLabel
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkSetLabel
+ *
+ * @return void
+ */
+/**
+ * testCreateLinkSetLabel
+ *
  * @return void
  */
 function testCreateLinkSetLabel()
@@ -283,6 +783,56 @@ function testCreateLinkSetLabel()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testEditLinkWithId
+ *
+ * @return void
+ */
+/**
+ * testEditLinkWithId
+ *
+ * @return void
+ */
+/**
+ * testEditLinkWithId
+ *
+ * @return void
+ */
+/**
+ * testEditLinkWithId
+ *
+ * @return void
+ */
+/**
+ * testEditLinkWithId
+ *
+ * @return void
+ */
+/**
+ * testEditLinkWithId
+ *
+ * @return void
+ */
+/**
+ * testEditLinkWithId
+ *
+ * @return void
+ */
+/**
+ * testEditLinkWithId
+ *
+ * @return void
+ */
+/**
+ * testEditLinkWithId
+ *
+ * @return void
+ */
+/**
+ * testEditLinkWithId
+ *
+ * @return void
+ */
 function testEditLinkWithId()
     {
         $link = new EditLink(123);
@@ -304,6 +854,56 @@ function testEditLinkWithId()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testEditLinkWithParams
+ *
+ * @return void
+ */
+/**
+ * testEditLinkWithParams
+ *
+ * @return void
+ */
+/**
+ * testEditLinkWithParams
+ *
+ * @return void
+ */
+/**
+ * testEditLinkWithParams
+ *
+ * @return void
+ */
+/**
+ * testEditLinkWithParams
+ *
+ * @return void
+ */
+/**
+ * testEditLinkWithParams
+ *
+ * @return void
+ */
+/**
+ * testEditLinkWithParams
+ *
+ * @return void
+ */
+/**
+ * testEditLinkWithParams
+ *
+ * @return void
+ */
+/**
+ * testEditLinkWithParams
+ *
+ * @return void
+ */
+/**
+ * testEditLinkWithParams
+ *
+ * @return void
+ */
 function testEditLinkWithParams()
     {
         $link = new EditLink(456, null, ['section' => 'details']);
@@ -322,6 +922,56 @@ function testEditLinkWithParams()
  * testDeleteLinkWithId
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testDeleteLinkWithId
+ *
+ * @return void
+ */
+/**
+ * testDeleteLinkWithId
+ *
+ * @return void
+ */
+/**
+ * testDeleteLinkWithId
+ *
+ * @return void
+ */
+/**
+ * testDeleteLinkWithId
+ *
+ * @return void
+ */
+/**
+ * testDeleteLinkWithId
+ *
+ * @return void
+ */
+/**
+ * testDeleteLinkWithId
+ *
+ * @return void
+ */
+/**
+ * testDeleteLinkWithId
+ *
+ * @return void
+ */
+/**
+ * testDeleteLinkWithId
+ *
+ * @return void
+ */
+/**
+ * testDeleteLinkWithId
+ *
+ * @return void
+ */
+/**
+ * testDeleteLinkWithId
+ *
  * @return void
  */
 function testDeleteLinkWithId()

@@ -461,6 +461,102 @@ use Ksfraser\HTML\HtmlElement;
  * @return void
 
  */
+/**
+ * PaymentFrequencyHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * PaymentFrequencyHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * PaymentFrequencyHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * PaymentFrequencyHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * PaymentFrequencyHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * PaymentFrequencyHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * PaymentFrequencyHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * PaymentFrequencyHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * PaymentFrequencyHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * PaymentFrequencyHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * PaymentFrequencyHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * PaymentFrequencyHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * PaymentFrequencyHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * PaymentFrequencyHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * PaymentFrequencyHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * PaymentFrequencyHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class PaymentFrequencyHandler extends HtmlElement
 {
     /**
@@ -528,7 +624,158 @@ class PaymentFrequencyHandler extends HtmlElement
      * @return void
 
      */
-    public function __construct()
+    public /**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __construct()
     {
         parent::__construct();
     }
@@ -546,7 +793,185 @@ class PaymentFrequencyHandler extends HtmlElement
      * @return PaymentFrequencyHandler Fluent interface
 
      */
-public function setFunctionName($name)
+public /**
+ * setFunctionName
+ *
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * setFunctionName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+function setFunctionName($name)
     {
         $this->functionName = $name;
         return $this;
@@ -565,7 +990,185 @@ public function setFunctionName($name)
      * @return PaymentFrequencyHandler Fluent interface
 
      */
-public function setSourceFieldId($id)
+public /**
+ * setSourceFieldId
+ *
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setSourceFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+function setSourceFieldId($id)
     {
         $this->sourceFieldId = $id;
         return $this;
@@ -584,7 +1187,185 @@ public function setSourceFieldId($id)
      * @return PaymentFrequencyHandler Fluent interface
 
      */
-public function setTargetFieldId($id)
+public /**
+ * setTargetFieldId
+ *
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * setTargetFieldId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+function setTargetFieldId($id)
     {
         $this->targetFieldId = $id;
         return $this;
@@ -683,7 +1464,185 @@ public function setTargetFieldId($id)
      * @return PaymentFrequencyHandler Fluent interface
 
      */
-    public function setFrequencyMap(array $map)
+    public /**
+ * setFrequencyMap
+ *
+ * @param array $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @param array $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @param array $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @param array $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @param array $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @param array $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @param array $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @param array $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @param array $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @param array $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @param array $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $map
+ * @return void
+ */
+/**
+ * setFrequencyMap
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $map
+ * @return void
+ */
+function setFrequencyMap(array $map)
     {
         $this->frequencyMap = $map;
         return $this;
@@ -704,7 +1663,212 @@ public function setTargetFieldId($id)
      * @return PaymentFrequencyHandler Fluent interface
 
      */
-public function addFrequency($frequency, $count)
+public /**
+ * addFrequency
+ *
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+/**
+ * addFrequency
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequency
+ * @param mixed $count
+ * @return void
+ */
+function addFrequency($frequency, $count)
     {
         $this->frequencyMap[$frequency] = $count;
         return $this;
@@ -721,7 +1885,158 @@ public function addFrequency($frequency, $count)
      * @return string The complete JavaScript function
 
      */
-    protected function generateJSFunction()
+    protected /**
+ * generateJSFunction
+ *
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function generateJSFunction()
     {
         $js = "function " . $this->functionName . "() {\n";
         $js .= "  var freq = document.getElementById('" . htmlspecialchars($this->sourceFieldId, ENT_QUOTES, 'UTF-8') . "').value;\n";
@@ -751,7 +2066,158 @@ public function addFrequency($frequency, $count)
      * @return string
 
      */
-    public function getHtml(): string
+    public /**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getHtml(): string
     {
         $script = new HtmlScript('text/javascript', new \Ksfraser\HTML\HtmlScriptLanguage($this->generateJSFunction()));
         return $script->getHtml();

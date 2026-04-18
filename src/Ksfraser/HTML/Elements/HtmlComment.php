@@ -357,6 +357,102 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * HtmlComment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlComment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlComment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlComment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlComment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlComment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlComment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlComment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlComment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlComment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlComment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlComment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlComment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlComment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlComment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlComment
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlComment implements HtmlElementInterface
 {
     /**
@@ -379,7 +475,185 @@ class HtmlComment implements HtmlElementInterface
      * @return void
 
      */
-    public function __construct(string $text)
+    public /**
+ * __construct
+ *
+ * @param string $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return void
+ */
+function __construct(string $text)
     {
         $this->text = $text;
     }
@@ -395,7 +669,158 @@ class HtmlComment implements HtmlElementInterface
      * @return void
 
      */
-    public function toHtml(): void
+    public /**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function toHtml(): void
     {
         echo $this->getHtml();
     }
@@ -493,7 +918,158 @@ class HtmlComment implements HtmlElementInterface
      * @return string The HTML comment
 
      */
-    public function getHtml(): string
+    public /**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getHtml(): string
     {
         return '<!-- ' . $this->text . ' -->';
     }
@@ -509,7 +1085,158 @@ class HtmlComment implements HtmlElementInterface
      * @return string The raw comment text (without <!-- -->)
 
      */
-    public function getText(): string
+    public /**
+ * getText
+ *
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getText
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getText(): string
     {
         return $this->text;
     }
@@ -527,7 +1254,185 @@ class HtmlComment implements HtmlElementInterface
      * @return self Fluent interface
 
      */
-    public function setText(string $text): self
+    public /**
+ * setText
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setText
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+function setText(string $text): self
     {
         $this->text = $text;
         return $this;

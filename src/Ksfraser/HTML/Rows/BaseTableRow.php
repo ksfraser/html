@@ -108,7 +108,103 @@ use Ksfraser\HTML\Elements\TableRow;
  * @return void
 
  */
-abstract class BaseTableRow {
+abstract /**
+ * BaseTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * BaseTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * BaseTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * BaseTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * BaseTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * BaseTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * BaseTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * BaseTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * BaseTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * BaseTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * BaseTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * BaseTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * BaseTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * BaseTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * BaseTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * BaseTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class BaseTableRow {
     /**
      *
      * @var string|null Optional row ID for cell referencing
@@ -129,7 +225,185 @@ abstract class BaseTableRow {
      * @return self
     
      */
-    public function setRowId(string $rowId): self {
+    public /**
+ * setRowId
+ *
+ * @param string $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @param string $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @param string $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @param string $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @param string $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @param string $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @param string $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @param string $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @param string $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @param string $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @param string $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rowId
+ * @return self
+ */
+/**
+ * setRowId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rowId
+ * @return self
+ */
+function setRowId(string $rowId): self {
         $this->rowId = $rowId;
         return $this;
     }
@@ -147,5 +421,183 @@ abstract class BaseTableRow {
      * @return TableRow
     
      */
-    abstract public function build(object $data): TableRow;
+    abstract public /**
+ * build
+ *
+ * @param object $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return TableRow
+ */
+function build(object $data): TableRow;
 }

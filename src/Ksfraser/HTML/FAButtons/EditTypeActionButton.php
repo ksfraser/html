@@ -108,6 +108,12 @@ use Ksfraser\HTML\Button\Button;
  * @return void
 
  */
+/**
+ * EditTypeActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class EditTypeActionButton extends Button {
     /**
      * Build edit type action button
@@ -116,7 +122,80 @@ class EditTypeActionButton extends Button {
      * @param mixed $typeId The type ID
      * @return Button
      */
-    public function build($typeId): Button {
+    public /**
+ * build
+ *
+ * @param mixed $typeId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $typeId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $typeId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $typeId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $typeId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $typeId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $typeId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $typeId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $typeId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $typeId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $typeId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $typeId
+ * @return Button
+ */
+function build($typeId): Button {
         return $this
             ->setType('button')
             ->addClass('btn-small btn-edit')

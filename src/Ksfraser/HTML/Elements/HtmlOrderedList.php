@@ -17,6 +17,12 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * HtmlOrderedList
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlOrderedList extends HtmlElement
 {
 	// Can accept array of items or HtmlElementInterface
@@ -27,7 +33,80 @@ class HtmlOrderedList extends HtmlElement
  * @param mixed $data
  * @return void
  */
-	function __construct($data)
+	/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+function __construct($data)
 	{
 		parent::__construct();
 		$this->tag = "ol";

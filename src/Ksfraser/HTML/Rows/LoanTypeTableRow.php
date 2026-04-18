@@ -115,6 +115,102 @@ use Ksfraser\HTML\FAButtons\DeleteTypeActionButton;
  * @return void
 
  */
+/**
+ * LoanTypeTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanTypeTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanTypeTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanTypeTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanTypeTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanTypeTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanTypeTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanTypeTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanTypeTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanTypeTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanTypeTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanTypeTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanTypeTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanTypeTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanTypeTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanTypeTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class LoanTypeTableRow extends BaseTableRow {
     /**
      * Build loan type row
@@ -123,7 +219,185 @@ class LoanTypeTableRow extends BaseTableRow {
      * @param object $type Loan type object with id, name, description
      * @return TableRow
      */
-    public function build(object $type): TableRow {
+    public /**
+ * build
+ *
+ * @param object $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return TableRow
+ */
+function build(object $type): TableRow {
         $row = (new TableRow())->addClass('data-row');
         
         $typeId = $type->id ?? null;

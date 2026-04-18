@@ -108,6 +108,102 @@ use Ksfraser\HTML\Elements\TableData;
  * @return void
 
  */
+/**
+ * EditableTypeDescriptionCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableTypeDescriptionCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableTypeDescriptionCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableTypeDescriptionCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableTypeDescriptionCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableTypeDescriptionCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableTypeDescriptionCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableTypeDescriptionCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableTypeDescriptionCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableTypeDescriptionCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableTypeDescriptionCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableTypeDescriptionCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableTypeDescriptionCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableTypeDescriptionCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableTypeDescriptionCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableTypeDescriptionCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class EditableTypeDescriptionCell extends DescriptionTableCell {
     /**
      * Build editable type description cell
@@ -118,7 +214,239 @@ class EditableTypeDescriptionCell extends DescriptionTableCell {
      * @param string $rowPrefix The row prefix for cell ID generation
      * @return TableData
      */
-    public function buildEditable($value, $typeId, string $rowPrefix): TableData {
+    public /**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+function buildEditable($value, $typeId, string $rowPrefix): TableData {
         $this->setId("description-cell-{$rowPrefix}")
             ->setAttribute('data-type-id', (string)$typeId)
             ->setAttribute('data-field', 'description')

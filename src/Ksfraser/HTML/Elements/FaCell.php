@@ -95,6 +95,12 @@ use Ksfraser\HTML\Elements\HtmlString;
  * @return void
 
  */
+/**
+ * FaCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class FaCell extends HtmlTd
 {
     private $extra;
@@ -114,7 +120,92 @@ class FaCell extends HtmlTd
      * @return void
 
      */
-public function __construct($content = "", $extra = "")
+public /**
+ * __construct
+ *
+ * @param mixed $content
+ * @param mixed $extra
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $content
+ * @param mixed $extra
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $content
+ * @param mixed $extra
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $content
+ * @param mixed $extra
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $content
+ * @param mixed $extra
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $content
+ * @param mixed $extra
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $content
+ * @param mixed $extra
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $content
+ * @param mixed $extra
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $content
+ * @param mixed $extra
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $content
+ * @param mixed $extra
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $content
+ * @param mixed $extra
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @param mixed $extra
+ * @return void
+ */
+function __construct($content = "", $extra = "")
     {
         parent::__construct(new HtmlString($content));
         $this->extra = $extra;
@@ -134,7 +225,68 @@ public function __construct($content = "", $extra = "")
      * @return void
 
      */
-    private function setCellAttributes()
+    private /**
+ * setCellAttributes
+ *
+ * @return void
+ */
+/**
+ * setCellAttributes
+ *
+ * @return void
+ */
+/**
+ * setCellAttributes
+ *
+ * @return void
+ */
+/**
+ * setCellAttributes
+ *
+ * @return void
+ */
+/**
+ * setCellAttributes
+ *
+ * @return void
+ */
+/**
+ * setCellAttributes
+ *
+ * @return void
+ */
+/**
+ * setCellAttributes
+ *
+ * @return void
+ */
+/**
+ * setCellAttributes
+ *
+ * @return void
+ */
+/**
+ * setCellAttributes
+ *
+ * @return void
+ */
+/**
+ * setCellAttributes
+ *
+ * @return void
+ */
+/**
+ * setCellAttributes
+ *
+ * @return void
+ */
+/**
+ * setCellAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function setCellAttributes()
     {
         if ($this->extra) {
             $this->parseExtraAttributes();
@@ -152,7 +304,68 @@ public function __construct($content = "", $extra = "")
      * @return void
 
      */
-    private function parseExtraAttributes()
+    private /**
+ * parseExtraAttributes
+ *
+ * @return void
+ */
+/**
+ * parseExtraAttributes
+ *
+ * @return void
+ */
+/**
+ * parseExtraAttributes
+ *
+ * @return void
+ */
+/**
+ * parseExtraAttributes
+ *
+ * @return void
+ */
+/**
+ * parseExtraAttributes
+ *
+ * @return void
+ */
+/**
+ * parseExtraAttributes
+ *
+ * @return void
+ */
+/**
+ * parseExtraAttributes
+ *
+ * @return void
+ */
+/**
+ * parseExtraAttributes
+ *
+ * @return void
+ */
+/**
+ * parseExtraAttributes
+ *
+ * @return void
+ */
+/**
+ * parseExtraAttributes
+ *
+ * @return void
+ */
+/**
+ * parseExtraAttributes
+ *
+ * @return void
+ */
+/**
+ * parseExtraAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function parseExtraAttributes()
     {
         // Simple parsing: assume format like "key='value' key2='value2'"
         $attrs = explode(' ', trim($this->extra));

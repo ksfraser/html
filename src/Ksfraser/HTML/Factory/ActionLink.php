@@ -146,6 +146,102 @@ use Ksfraser\HTML\Elements\HtmlA;
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * ActionLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ActionLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ActionLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ActionLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ActionLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ActionLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ActionLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ActionLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ActionLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ActionLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ActionLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ActionLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ActionLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ActionLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ActionLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ActionLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class ActionLink extends HtmlA {
 /**
  * __construct
@@ -156,6 +252,211 @@ class ActionLink extends HtmlA {
  * @return void
  */
     public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @param HtmlElementInterface $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @param HtmlElementInterface $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @param HtmlElementInterface $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @param HtmlElementInterface $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @param HtmlElementInterface $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @param HtmlElementInterface $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @param HtmlElementInterface $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @param HtmlElementInterface $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @param HtmlElementInterface $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @param HtmlElementInterface $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @param HtmlElementInterface $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $maybeContent
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $maybeContent
+ * @return void
+ */
+/**
  * __construct
  *
  * @since v1.0.0 2026-04-14
@@ -176,6 +477,211 @@ function __construct(?\Ksfraser\HTML\HtmlElementInterface $data = null, ?\Ksfras
      * @return self
      */
     public /**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @param string $action
+ * @param array $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @param string $action
+ * @param array $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @param string $action
+ * @param array $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @param string $action
+ * @param array $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @param string $action
+ * @param array $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @param string $action
+ * @param array $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @param string $action
+ * @param array $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @param string $action
+ * @param array $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @param string $action
+ * @param array $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @param string $action
+ * @param array $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @param string $action
+ * @param array $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * setAction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $params
+ * @return self
+ */
+/**
  * setAction
  *
  * @since v1.0.0 2026-04-14
@@ -210,6 +716,184 @@ function setAction(string $action, array $params = []): self {
  * @param mixed $text
  * @return self
  */
+/**
+ * create
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * create
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
 function create(string $text = 'Create'): self {
         return (new self(new \Ksfraser\HTML\Elements\HtmlString('')))
             ->setAction('create')
@@ -232,6 +916,211 @@ function create(string $text = 'Create'): self {
     
      */
 public static /**
+ * edit
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * edit
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
  * edit
  *
  * @since v1.0.0 2026-04-14
@@ -268,6 +1157,211 @@ public static /**
  * @param mixed $text
  * @return self
  */
+/**
+ * view
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * view
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
 function view($id, string $text = 'View'): self {
         return (new self(new \Ksfraser\HTML\Elements\HtmlString('')))
             ->setAction('view', ['id' => $id])
@@ -290,6 +1384,211 @@ function view($id, string $text = 'View'): self {
     
      */
 public static /**
+ * delete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @param mixed $id
+ * @param string $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * delete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @param mixed $text
+ * @return self
+ */
+/**
  * delete
  *
  * @since v1.0.0 2026-04-14
@@ -324,6 +1623,184 @@ function delete($id, string $text = 'Delete'): self {
  * @param mixed $text
  * @return self
  */
+/**
+ * listAll
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * listAll
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
 function listAll(string $text = 'List'): self {
         return (new self(new \Ksfraser\HTML\Elements\HtmlString('')))
             ->setAction('list')
@@ -346,6 +1823,211 @@ function listAll(string $text = 'List'): self {
     
      */
     public static /**
+ * admin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $subAction
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @param string $subAction
+ * @param string $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @param string $subAction
+ * @param string $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @param string $subAction
+ * @param string $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @param string $subAction
+ * @param string $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @param string $subAction
+ * @param string $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @param string $subAction
+ * @param string $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @param string $subAction
+ * @param string $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @param string $subAction
+ * @param string $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @param string $subAction
+ * @param string $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @param string $subAction
+ * @param string $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @param string $subAction
+ * @param string $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $subAction
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $subAction
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $subAction
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $subAction
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $subAction
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $subAction
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $subAction
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $subAction
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $subAction
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $subAction
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $subAction
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $subAction
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $subAction
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $subAction
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * admin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $subAction
+ * @param mixed $text
+ * @return self
+ */
+/**
  * admin
  *
  * @since v1.0.0 2026-04-14
@@ -391,6 +2073,238 @@ function admin(string $subAction = '', string $text = 'Admin'): self {
  * @param mixed $params
  * @return self
  */
+/**
+ * custom
+ *
+ * @param string $action
+ * @param string $text
+ * @param array $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @param string $action
+ * @param string $text
+ * @param array $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @param string $action
+ * @param string $text
+ * @param array $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @param string $action
+ * @param string $text
+ * @param array $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @param string $action
+ * @param string $text
+ * @param array $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @param string $action
+ * @param string $text
+ * @param array $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @param string $action
+ * @param string $text
+ * @param array $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @param string $action
+ * @param string $text
+ * @param array $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @param string $action
+ * @param string $text
+ * @param array $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @param string $action
+ * @param string $text
+ * @param array $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @param string $action
+ * @param string $text
+ * @param array $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * custom
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $action
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
 function custom(string $action, string $text, array $params = []): self {
         return (new self(new \Ksfraser\HTML\Elements\HtmlString('')))
             ->setAction($action, $params)
@@ -410,6 +2324,184 @@ function custom(string $action, string $text, array $params = []): self {
  * @param mixed $label
  * @return self
  */
+/**
+ * setLabel
+ *
+ * @param string $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @param string $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @param string $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @param string $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @param string $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @param string $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @param string $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @param string $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @param string $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @param string $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @param string $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
 function setLabel(string $label): self {
         $this->label = $label;
         $this->setText($label);
@@ -422,6 +2514,157 @@ function setLabel(string $label): self {
      * @return string
      */
     public /**
+ * getLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
  * getLabel
  *
  * @since v1.0.0 2026-04-14

@@ -16,6 +16,102 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * HtmlTbody
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTbody
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTbody
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTbody
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTbody
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTbody
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTbody
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTbody
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTbody
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTbody
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTbody
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTbody
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTbody
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTbody
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTbody
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTbody
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlTbody extends HtmlElement
 {
 /**
@@ -24,7 +120,158 @@ class HtmlTbody extends HtmlElement
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function __construct()
+    public /**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __construct()
     {
         parent::__construct();
         $this->setTag('tbody');
@@ -43,7 +290,185 @@ class HtmlTbody extends HtmlElement
  * @return self
 
  */
-    public function addRow(HtmlElementInterface $tr): self
+    public /**
+ * addRow
+ *
+ * @param HtmlElementInterface $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @param HtmlElementInterface $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @param HtmlElementInterface $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @param HtmlElementInterface $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @param HtmlElementInterface $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @param HtmlElementInterface $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @param HtmlElementInterface $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @param HtmlElementInterface $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @param HtmlElementInterface $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @param HtmlElementInterface $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @param HtmlElementInterface $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tr
+ * @return self
+ */
+/**
+ * addRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tr
+ * @return self
+ */
+function addRow(HtmlElementInterface $tr): self
     {
         $this->addNested($tr);
         return $this;

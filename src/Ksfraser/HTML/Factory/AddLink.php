@@ -115,6 +115,102 @@ use Ksfraser\HTML\Elements\HtmlA;
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * AddLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AddLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AddLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AddLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AddLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AddLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AddLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AddLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AddLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AddLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AddLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AddLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AddLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AddLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AddLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AddLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class AddLink extends ActionLink {
 /**
  * make
@@ -125,6 +221,211 @@ class AddLink extends ActionLink {
  * @return self
  */
         public static /**
+ * make
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @param string|null $text
+ * @param array $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @param string|null $text
+ * @param array $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @param string|null $text
+ * @param array $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @param string|null $text
+ * @param array $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @param string|null $text
+ * @param array $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @param string|null $text
+ * @param array $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @param string|null $text
+ * @param array $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @param string|null $text
+ * @param array $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @param string|null $text
+ * @param array $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @param string|null $text
+ * @param array $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @param string|null $text
+ * @param array $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
+ * make
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return self
+ */
+/**
  * make
  *
  * @since v1.0.0 2026-04-14
@@ -158,6 +459,211 @@ function make(?string $text = null, array $params = []): self {
     
      */
 public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|null $text
+ * @param array $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|null $text
+ * @param array $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|null $text
+ * @param array $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|null $text
+ * @param array $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|null $text
+ * @param array $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|null $text
+ * @param array $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|null $text
+ * @param array $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|null $text
+ * @param array $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|null $text
+ * @param array $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|null $text
+ * @param array $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|null $text
+ * @param array $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $params
+ * @return void
+ */
+/**
  * __construct
  *
  * @since v1.0.0 2026-04-14

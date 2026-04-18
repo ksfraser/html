@@ -203,6 +203,102 @@ namespace Ksfraser\HTML\Traits;
  * @return void
 
  */
+/**
+ * AriaAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AriaAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AriaAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AriaAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AriaAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AriaAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AriaAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AriaAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AriaAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AriaAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AriaAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AriaAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AriaAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AriaAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AriaAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * AriaAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 trait AriaAttributeTrait
 {
     /**
@@ -313,7 +409,185 @@ trait AriaAttributeTrait
      * @return self Returns $this for method chaining
 
      */
-    public function setAriaLabel(string $label): self
+    public /**
+ * setAriaLabel
+ *
+ * @param string $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @param string $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @param string $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @param string $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @param string $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @param string $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @param string $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @param string $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @param string $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @param string $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @param string $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+/**
+ * setAriaLabel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return self
+ */
+function setAriaLabel(string $label): self
     {
         return $this->setAria('label', $label);
     }
@@ -411,7 +685,185 @@ trait AriaAttributeTrait
      * @return self Returns $this for method chaining
 
      */
-    public function setRole(string $role): self
+    public /**
+ * setRole
+ *
+ * @param string $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @param string $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @param string $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @param string $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @param string $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @param string $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @param string $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @param string $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @param string $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @param string $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @param string $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $role
+ * @return self
+ */
+/**
+ * setRole
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $role
+ * @return self
+ */
+function setRole(string $role): self
     {
         return $this->setAria('role', $role);
     }
@@ -431,7 +883,212 @@ trait AriaAttributeTrait
      * @return self
 
      */
-    public function setAria(string $name, $value): self
+    public /**
+ * setAria
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+function setAria(string $name, $value): self
     {
         $this->ariaAttributes[$name] = $value;
         return $this;
@@ -450,7 +1107,185 @@ trait AriaAttributeTrait
      * @return mixed|null The attribute value or null if not set
 
      */
-    public function getAria(string $name)
+    public /**
+ * getAria
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+function getAria(string $name)
     {
         $key = strtolower($name);
         return $this->ariaAttributes[$key] ?? null;
@@ -469,7 +1304,185 @@ trait AriaAttributeTrait
      * @return bool True if attribute exists
 
      */
-    public function hasAria(string $name): bool
+    public /**
+ * hasAria
+ *
+ * @param string $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @param string $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @param string $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @param string $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @param string $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @param string $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @param string $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @param string $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @param string $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @param string $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @param string $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return bool
+ */
+/**
+ * hasAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return bool
+ */
+function hasAria(string $name): bool
     {
         $key = strtolower($name);
         return array_key_exists($key, $this->ariaAttributes);
@@ -486,7 +1499,158 @@ trait AriaAttributeTrait
      * @return array
 
      */
-    public function getAllAria(): array
+    public /**
+ * getAllAria
+ *
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+function getAllAria(): array
     {
         return $this->ariaAttributes;
     }
@@ -504,7 +1668,185 @@ trait AriaAttributeTrait
      * @return self
 
      */
-    public function removeAria(string $name): self
+    public /**
+ * removeAria
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * removeAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+function removeAria(string $name): self
     {
         $key = strtolower($name);
         if (isset($this->ariaAttributes[$key])) {
@@ -524,7 +1866,158 @@ trait AriaAttributeTrait
      * @return self
 
      */
-    public function clearAria(): self
+    public /**
+ * clearAria
+ *
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearAria
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+function clearAria(): self
     {
         $this->ariaAttributes = [];
         return $this;
@@ -541,7 +2034,158 @@ trait AriaAttributeTrait
      * @return string Rendered attributes (e.g. 'role="button" aria-hidden="true"')
 
      */
-    public function renderAriaAttributes(): string
+    public /**
+ * renderAriaAttributes
+ *
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderAriaAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function renderAriaAttributes(): string
     {
         if (empty($this->ariaAttributes)) {
             return '';
@@ -654,7 +2298,185 @@ trait AriaAttributeTrait
      * @return self
 
      */
-    public function setAriaDescribedBy(string $id): self { return $this->setAria('describedby', $id); }
+    public /**
+ * setAriaDescribedBy
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setAriaDescribedBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+function setAriaDescribedBy(string $id): self { return $this->setAria('describedby', $id); }
 /**
  * setAriaDisabled
  *
@@ -662,7 +2484,185 @@ trait AriaAttributeTrait
  * @param bool $v
  * @return self
  */
-    public function setAriaDisabled(bool $v): self { return $this->setAria('disabled', $v); }
+    public /**
+ * setAriaDisabled
+ *
+ * @param bool $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @param bool $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @param bool $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @param bool $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @param bool $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @param bool $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @param bool $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @param bool $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @param bool $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @param bool $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @param bool $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaDisabled(bool $v): self { return $this->setAria('disabled', $v); }
 /**
  * setAriaPressed
  *
@@ -670,7 +2670,185 @@ trait AriaAttributeTrait
  * @param mixed $v
  * @return self
  */
-    public function setAriaPressed($v): self { return $this->setAria('pressed', $v); }
+    public /**
+ * setAriaPressed
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPressed
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaPressed($v): self { return $this->setAria('pressed', $v); }
 /**
  * setAriaChecked
  *
@@ -678,7 +2856,185 @@ trait AriaAttributeTrait
  * @param mixed $v
  * @return self
  */
-    public function setAriaChecked($v): self { return $this->setAria('checked', $v); }
+    public /**
+ * setAriaChecked
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaChecked($v): self { return $this->setAria('checked', $v); }
 /**
  * setAriaSelected
  *
@@ -686,7 +3042,185 @@ trait AriaAttributeTrait
  * @param mixed $v
  * @return self
  */
-    public function setAriaSelected($v): self { return $this->setAria('selected', $v); }
+    public /**
+ * setAriaSelected
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaSelected
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaSelected($v): self { return $this->setAria('selected', $v); }
 /**
  * setAriaExpanded
  *
@@ -694,7 +3228,185 @@ trait AriaAttributeTrait
  * @param mixed $v
  * @return self
  */
-    public function setAriaExpanded($v): self { return $this->setAria('expanded', $v); }
+    public /**
+ * setAriaExpanded
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaExpanded
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaExpanded($v): self { return $this->setAria('expanded', $v); }
 /**
  * setAriaBusy
  *
@@ -702,7 +3414,185 @@ trait AriaAttributeTrait
  * @param mixed $v
  * @return self
  */
-    public function setAriaBusy($v): self { return $this->setAria('busy', $v); }
+    public /**
+ * setAriaBusy
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaBusy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaBusy($v): self { return $this->setAria('busy', $v); }
 /**
  * setAriaModal
  *
@@ -710,7 +3600,185 @@ trait AriaAttributeTrait
  * @param mixed $v
  * @return self
  */
-    public function setAriaModal($v): self { return $this->setAria('modal', $v); }
+    public /**
+ * setAriaModal
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaModal
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaModal($v): self { return $this->setAria('modal', $v); }
 /**
  * setAriaLive
  *
@@ -718,7 +3786,185 @@ trait AriaAttributeTrait
  * @param string $v
  * @return self
  */
-    public function setAriaLive(string $v): self { return $this->setAria('live', $v); }
+    public /**
+ * setAriaLive
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLive
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaLive(string $v): self { return $this->setAria('live', $v); }
 /**
  * setAriaAtomic
  *
@@ -726,7 +3972,185 @@ trait AriaAttributeTrait
  * @param mixed $v
  * @return self
  */
-    public function setAriaAtomic($v): self { return $this->setAria('atomic', $v); }
+    public /**
+ * setAriaAtomic
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaAtomic
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaAtomic($v): self { return $this->setAria('atomic', $v); }
 /**
  * setAriaRelevant
  *
@@ -734,7 +4158,185 @@ trait AriaAttributeTrait
  * @param string $v
  * @return self
  */
-    public function setAriaRelevant(string $v): self { return $this->setAria('relevant', $v); }
+    public /**
+ * setAriaRelevant
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRelevant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaRelevant(string $v): self { return $this->setAria('relevant', $v); }
 /**
  * setAriaLabelledBy
  *
@@ -742,7 +4344,185 @@ trait AriaAttributeTrait
  * @param string $v
  * @return self
  */
-    public function setAriaLabelledBy(string $v): self { return $this->setAria('labelledby', $v); }
+    public /**
+ * setAriaLabelledBy
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaLabelledBy
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaLabelledBy(string $v): self { return $this->setAria('labelledby', $v); }
 /**
  * setAriaOwns
  *
@@ -750,7 +4530,185 @@ trait AriaAttributeTrait
  * @param string $v
  * @return self
  */
-    public function setAriaOwns(string $v): self { return $this->setAria('owns', $v); }
+    public /**
+ * setAriaOwns
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOwns
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaOwns(string $v): self { return $this->setAria('owns', $v); }
 /**
  * setAriaActivedescendant
  *
@@ -758,7 +4716,185 @@ trait AriaAttributeTrait
  * @param string $v
  * @return self
  */
-    public function setAriaActivedescendant(string $v): self { return $this->setAria('activedescendant', $v); }
+    public /**
+ * setAriaActivedescendant
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaActivedescendant
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaActivedescendant(string $v): self { return $this->setAria('activedescendant', $v); }
 /**
  * setAriaFlowto
  *
@@ -766,7 +4902,185 @@ trait AriaAttributeTrait
  * @param string $v
  * @return self
  */
-    public function setAriaFlowto(string $v): self { return $this->setAria('flowto', $v); }
+    public /**
+ * setAriaFlowto
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaFlowto
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaFlowto(string $v): self { return $this->setAria('flowto', $v); }
 /**
  * setAriaValuemin
  *
@@ -774,7 +5088,185 @@ trait AriaAttributeTrait
  * @param mixed $v
  * @return self
  */
-    public function setAriaValuemin($v): self { return $this->setAria('valuemin', $v); }
+    public /**
+ * setAriaValuemin
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemin
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaValuemin($v): self { return $this->setAria('valuemin', $v); }
 /**
  * setAriaValuemax
  *
@@ -782,7 +5274,185 @@ trait AriaAttributeTrait
  * @param mixed $v
  * @return self
  */
-    public function setAriaValuemax($v): self { return $this->setAria('valuemax', $v); }
+    public /**
+ * setAriaValuemax
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuemax
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaValuemax($v): self { return $this->setAria('valuemax', $v); }
 /**
  * setAriaValuenow
  *
@@ -790,7 +5460,185 @@ trait AriaAttributeTrait
  * @param mixed $v
  * @return self
  */
-    public function setAriaValuenow($v): self { return $this->setAria('valuenow', $v); }
+    public /**
+ * setAriaValuenow
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuenow
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaValuenow($v): self { return $this->setAria('valuenow', $v); }
 /**
  * setAriaValuetext
  *
@@ -798,7 +5646,185 @@ trait AriaAttributeTrait
  * @param string $v
  * @return self
  */
-    public function setAriaValuetext(string $v): self { return $this->setAria('valuetext', $v); }
+    public /**
+ * setAriaValuetext
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaValuetext
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaValuetext(string $v): self { return $this->setAria('valuetext', $v); }
 /**
  * setAriaPlaceholder
  *
@@ -806,7 +5832,185 @@ trait AriaAttributeTrait
  * @param string $v
  * @return self
  */
-    public function setAriaPlaceholder(string $v): self { return $this->setAria('placeholder', $v); }
+    public /**
+ * setAriaPlaceholder
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaPlaceholder(string $v): self { return $this->setAria('placeholder', $v); }
 /**
  * setAriaOrientation
  *
@@ -814,7 +6018,185 @@ trait AriaAttributeTrait
  * @param string $v
  * @return self
  */
-    public function setAriaOrientation(string $v): self { return $this->setAria('orientation', $v); }
+    public /**
+ * setAriaOrientation
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @param string $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaOrientation
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaOrientation(string $v): self { return $this->setAria('orientation', $v); }
 /**
  * setAriaMultiline
  *
@@ -822,7 +6204,185 @@ trait AriaAttributeTrait
  * @param mixed $v
  * @return self
  */
-    public function setAriaMultiline($v): self { return $this->setAria('multiline', $v); }
+    public /**
+ * setAriaMultiline
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaMultiline
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaMultiline($v): self { return $this->setAria('multiline', $v); }
 /**
  * setAriaReadonly
  *
@@ -830,7 +6390,185 @@ trait AriaAttributeTrait
  * @param mixed $v
  * @return self
  */
-    public function setAriaReadonly($v): self { return $this->setAria('readonly', $v); }
+    public /**
+ * setAriaReadonly
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaReadonly($v): self { return $this->setAria('readonly', $v); }
 /**
  * setAriaRequired
  *
@@ -838,7 +6576,185 @@ trait AriaAttributeTrait
  * @param mixed $v
  * @return self
  */
-    public function setAriaRequired($v): self { return $this->setAria('required', $v); }
+    public /**
+ * setAriaRequired
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaRequired($v): self { return $this->setAria('required', $v); }
 /**
  * setAriaHidden
  *
@@ -846,5 +6762,183 @@ trait AriaAttributeTrait
  * @param mixed $v
  * @return self
  */
-    public function setAriaHidden($v): self { return $this->setAria('hidden', $v); }
+    public /**
+ * setAriaHidden
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+/**
+ * setAriaHidden
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $v
+ * @return self
+ */
+function setAriaHidden($v): self { return $this->setAria('hidden', $v); }
 }

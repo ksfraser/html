@@ -15,6 +15,12 @@ use Ksfraser\HTML\Elements\HtmlString;
  * @return void
 
  */
+/**
+ * CloseButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class CloseButton extends Button {
 /**
  * __construct
@@ -23,7 +29,80 @@ class CloseButton extends Button {
  * @param mixed $label
  * @return void
  */
-    public function __construct($label = null) {
+    public /**
+ * __construct
+ *
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+function __construct($label = null) {
         if ($label === null) {
             $label = new HtmlString('Close');
         }

@@ -16,7 +16,57 @@ class HtmlEmailTest extends TestCase
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testEmailHref()
+    public /**
+ * testEmailHref
+ *
+ * @return void
+ */
+/**
+ * testEmailHref
+ *
+ * @return void
+ */
+/**
+ * testEmailHref
+ *
+ * @return void
+ */
+/**
+ * testEmailHref
+ *
+ * @return void
+ */
+/**
+ * testEmailHref
+ *
+ * @return void
+ */
+/**
+ * testEmailHref
+ *
+ * @return void
+ */
+/**
+ * testEmailHref
+ *
+ * @return void
+ */
+/**
+ * testEmailHref
+ *
+ * @return void
+ */
+/**
+ * testEmailHref
+ *
+ * @return void
+ */
+/**
+ * testEmailHref
+ *
+ * @return void
+ */
+function testEmailHref()
     {
         $email = new HtmlEmail();
         $email->setHref('mailto:test@example.com')->setText('Email Me');

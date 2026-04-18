@@ -320,6 +320,102 @@ use \Ksfraser\HTML\JS\HtmlJsEventTrait;
  * @return void
 
  */
+/**
+ * HtmlInputGenericButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputGenericButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputGenericButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputGenericButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputGenericButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputGenericButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputGenericButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputGenericButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputGenericButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputGenericButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputGenericButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputGenericButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputGenericButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputGenericButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputGenericButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputGenericButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlInputGenericButton extends HtmlInputButton
 {
     /**
@@ -329,7 +425,185 @@ class HtmlInputGenericButton extends HtmlInputButton
      * @param HtmlElementInterface $label The button label (will be value attribute)
      * @return void
      */
-    public function __construct(HtmlElementInterface $label)
+    public /**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+function __construct(HtmlElementInterface $label)
     {
         // Call parent with "button" type
         parent::__construct("button", $label);
@@ -348,7 +622,185 @@ class HtmlInputGenericButton extends HtmlInputButton
      * @return self Fluent interface
 
      */
-    public function setOnclick(string $javascript): self
+    public /**
+ * setOnclick
+ *
+ * @param string $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @param string $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @param string $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @param string $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @param string $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @param string $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @param string $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @param string $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @param string $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @param string $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @param string $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $javascript
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $javascript
+ * @return self
+ */
+function setOnclick(string $javascript): self
     {
 		$this->setAttribute("onclick", $javascript);
         return $this;

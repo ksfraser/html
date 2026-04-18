@@ -286,6 +286,102 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * HtmlInputReset
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputReset
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputReset
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputReset
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputReset
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputReset
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputReset
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputReset
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputReset
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputReset
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputReset
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputReset
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputReset
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputReset
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputReset
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputReset
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlInputReset extends HtmlInputButton
 {
     /**
@@ -295,7 +391,185 @@ class HtmlInputReset extends HtmlInputButton
      * @param HtmlElementInterface $label The button label (will be value attribute)
      * @return void
      */
-    public function __construct(HtmlElementInterface $label)
+    public /**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+function __construct(HtmlElementInterface $label)
     {
         // Call parent with "reset" type
         parent::__construct("reset", $label);

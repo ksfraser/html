@@ -16,6 +16,102 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * HtmlAudio
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAudio
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAudio
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAudio
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAudio
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAudio
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAudio
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAudio
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAudio
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAudio
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAudio
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAudio
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAudio
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAudio
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAudio
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlAudio
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlAudio extends HtmlElement
 {
     /**
@@ -25,7 +121,185 @@ class HtmlAudio extends HtmlElement
      * @param mixed $data
      * @return void
      */
-    public function __construct($data = null)
+    public /**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+function __construct($data = null)
     {
         if ($data === null) {
             parent::__construct(new HtmlString(''));
@@ -53,7 +327,185 @@ class HtmlAudio extends HtmlElement
  * @return self
 
  */
-    public function setSrc(string $src): self
+    public /**
+ * setSrc
+ *
+ * @param string $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @param string $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @param string $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @param string $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @param string $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @param string $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @param string $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @param string $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @param string $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @param string $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @param string $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+function setSrc(string $src): self
     {
         $this->addAttribute('src', $src);
         return $this;
@@ -72,7 +524,185 @@ class HtmlAudio extends HtmlElement
  * @return self
 
  */
-    public function setControls(bool $enabled = true): self
+    public /**
+ * setControls
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+function setControls(bool $enabled = true): self
     {
         if ($enabled) {
             $this->addAttribute('controls', 'controls');
@@ -95,7 +725,185 @@ class HtmlAudio extends HtmlElement
  * @return self
 
  */
-    public function setAutoplay(bool $enabled = true): self
+    public /**
+ * setAutoplay
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+function setAutoplay(bool $enabled = true): self
     {
         if ($enabled) {
             $this->addAttribute('autoplay', 'autoplay');
@@ -118,7 +926,185 @@ class HtmlAudio extends HtmlElement
  * @return self
 
  */
-    public function setLoop(bool $enabled = true): self
+    public /**
+ * setLoop
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setLoop
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+function setLoop(bool $enabled = true): self
     {
         if ($enabled) {
             $this->addAttribute('loop', 'loop');
@@ -141,7 +1127,185 @@ class HtmlAudio extends HtmlElement
  * @return self
 
  */
-    public function setMuted(bool $enabled = true): self
+    public /**
+ * setMuted
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setMuted
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+function setMuted(bool $enabled = true): self
     {
         if ($enabled) {
             $this->addAttribute('muted', 'muted');
@@ -164,7 +1328,185 @@ class HtmlAudio extends HtmlElement
  * @return self
 
  */
-    public function setPreload(string $value): self
+    public /**
+ * setPreload
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setPreload
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+function setPreload(string $value): self
     {
         $this->addAttribute('preload', $value);
         return $this;
@@ -183,7 +1525,185 @@ class HtmlAudio extends HtmlElement
      * @return self
 
      */
-    public function addSourceElement(HtmlElementInterface $source): self
+    public /**
+ * addSourceElement
+ *
+ * @param HtmlElementInterface $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @param HtmlElementInterface $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @param HtmlElementInterface $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @param HtmlElementInterface $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @param HtmlElementInterface $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @param HtmlElementInterface $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @param HtmlElementInterface $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @param HtmlElementInterface $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @param HtmlElementInterface $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @param HtmlElementInterface $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @param HtmlElementInterface $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $source
+ * @return self
+ */
+/**
+ * addSourceElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $source
+ * @return self
+ */
+function addSourceElement(HtmlElementInterface $source): self
     {
         $this->addNested($source);
         return $this;
@@ -204,7 +1724,212 @@ class HtmlAudio extends HtmlElement
      * @return self
 
      */
-    public function addSourceUrl(string $src, ?string $type = null): self
+    public /**
+ * addSourceUrl
+ *
+ * @param string $src
+ * @param string|null $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @param string $src
+ * @param string|null $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @param string $src
+ * @param string|null $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @param string $src
+ * @param string|null $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @param string $src
+ * @param string|null $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @param string $src
+ * @param string|null $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @param string $src
+ * @param string|null $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @param string $src
+ * @param string|null $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @param string $src
+ * @param string|null $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @param string $src
+ * @param string|null $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @param string $src
+ * @param string|null $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+function addSourceUrl(string $src, ?string $type = null): self
     {
         $s = new HtmlElement();
         $s->setTag('source');

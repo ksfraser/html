@@ -108,6 +108,12 @@ use Ksfraser\HTML\Elements\TableData;
  * @return void
 
  */
+/**
+ * NameTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class NameTableCell extends BaseTableCell {
     /**
      * Build Name cell
@@ -116,7 +122,80 @@ class NameTableCell extends BaseTableCell {
      * @param mixed $name The name value
      * @return TableData
      */
-    public function build($name): TableData {
+    public /**
+ * build
+ *
+ * @param mixed $name
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $name
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $name
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $name
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $name
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $name
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $name
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $name
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $name
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $name
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $name
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return TableData
+ */
+function build($name): TableData {
         $cell = (new TableData())
             ->addClass('name-cell')
             ->setText(htmlspecialchars($name ?? ''));

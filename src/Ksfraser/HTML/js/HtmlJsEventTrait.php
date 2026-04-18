@@ -14,6 +14,102 @@ use Ksfraser\HTML\HtmlAttribute;
  * @return void
 
  */
+/**
+ * HtmlJsEventTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlJsEventTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlJsEventTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlJsEventTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlJsEventTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlJsEventTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlJsEventTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlJsEventTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlJsEventTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlJsEventTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlJsEventTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlJsEventTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlJsEventTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlJsEventTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlJsEventTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlJsEventTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 trait HtmlJsEventTrait {
     /**
      * Set the onclick attribute
@@ -22,7 +118,185 @@ trait HtmlJsEventTrait {
      * @param HtmlAttribute $onclick
      * @return self
      */
-    public function setOnclick(HtmlAttribute $onclick): self {
+    public /**
+ * setOnclick
+ *
+ * @param HtmlAttribute $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @param HtmlAttribute $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @param HtmlAttribute $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @param HtmlAttribute $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @param HtmlAttribute $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @param HtmlAttribute $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @param HtmlAttribute $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @param HtmlAttribute $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @param HtmlAttribute $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @param HtmlAttribute $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @param HtmlAttribute $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $onclick
+ * @return self
+ */
+/**
+ * setOnclick
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $onclick
+ * @return self
+ */
+function setOnclick(HtmlAttribute $onclick): self {
         $this->addAttributeObject(new HtmlAttribute('onclick', $onclick));
         return $this;
     }
@@ -40,7 +314,185 @@ trait HtmlJsEventTrait {
      * @return self
 
      */
-    public function setOnclickFunction(string $handler): self {
+    public /**
+ * setOnclickFunction
+ *
+ * @param string $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @param string $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @param string $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @param string $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @param string $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @param string $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @param string $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @param string $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @param string $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @param string $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @param string $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $handler
+ * @return self
+ */
+/**
+ * setOnclickFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $handler
+ * @return self
+ */
+function setOnclickFunction(string $handler): self {
         $this->addAttributeObject(new \Ksfraser\HTML\HtmlAttribute('onclick', new \Ksfraser\HTML\Elements\HtmlString($handler)));
         return $this;
     }

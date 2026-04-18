@@ -15,7 +15,62 @@ class CloseButtonTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testDefaultLabel() {
+    public /**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+function testDefaultLabel() {
         $btn = new CloseButton();
         $this->assertStringContainsString('Close', $btn->getHtml());
     }
@@ -25,7 +80,62 @@ class CloseButtonTest extends TestCase {
  * @since 1.0.4 2026-02-21
  * @return void
  */
-    public function testAddClass() {
+    public /**
+ * testAddClass
+ *
+ * @return void
+ */
+/**
+ * testAddClass
+ *
+ * @return void
+ */
+/**
+ * testAddClass
+ *
+ * @return void
+ */
+/**
+ * testAddClass
+ *
+ * @return void
+ */
+/**
+ * testAddClass
+ *
+ * @return void
+ */
+/**
+ * testAddClass
+ *
+ * @return void
+ */
+/**
+ * testAddClass
+ *
+ * @return void
+ */
+/**
+ * testAddClass
+ *
+ * @return void
+ */
+/**
+ * testAddClass
+ *
+ * @return void
+ */
+/**
+ * testAddClass
+ *
+ * @return void
+ */
+/**
+ * testAddClass
+ *
+ * @return void
+ */
+function testAddClass() {
         $btn = new CloseButton();
         $btn->addClass('extra-class');
         $this->assertStringContainsString('extra-class', $btn->getHtml());

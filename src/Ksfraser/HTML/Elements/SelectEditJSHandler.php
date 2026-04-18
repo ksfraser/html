@@ -470,6 +470,102 @@ use Ksfraser\HTML\HtmlFragment;
  * @return void
 
  */
+/**
+ * SelectEditJSHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SelectEditJSHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SelectEditJSHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SelectEditJSHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SelectEditJSHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SelectEditJSHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SelectEditJSHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SelectEditJSHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SelectEditJSHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SelectEditJSHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SelectEditJSHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SelectEditJSHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SelectEditJSHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SelectEditJSHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SelectEditJSHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SelectEditJSHandler
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class SelectEditJSHandler extends HtmlElement
 {
     /**
@@ -571,7 +667,158 @@ class SelectEditJSHandler extends HtmlElement
      * @return void
 
      */
-    public function __construct()
+    public /**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __construct()
     {
         parent::__construct(new HtmlFragment([]));
     }
@@ -589,7 +836,185 @@ class SelectEditJSHandler extends HtmlElement
      * @return SelectEditJSHandler Fluent interface
 
      */
-public function setFormIdPrefix($prefix)
+public /**
+ * setFormIdPrefix
+ *
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $prefix
+ * @return void
+ */
+/**
+ * setFormIdPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $prefix
+ * @return void
+ */
+function setFormIdPrefix($prefix)
     {
         $this->formIdPrefix = $prefix;
         return $this;
@@ -608,7 +1033,185 @@ public function setFormIdPrefix($prefix)
      * @return SelectEditJSHandler Fluent interface
 
      */
-    public function setFieldNames(array $fields)
+    public /**
+ * setFieldNames
+ *
+ * @param array $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @param array $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @param array $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @param array $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @param array $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @param array $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @param array $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @param array $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @param array $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @param array $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @param array $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $fields
+ * @return void
+ */
+/**
+ * setFieldNames
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $fields
+ * @return void
+ */
+function setFieldNames(array $fields)
     {
         $this->fieldNames = $fields;
         return $this;
@@ -629,7 +1232,212 @@ public function setFormIdPrefix($prefix)
      * @return SelectEditJSHandler Fluent interface
 
      */
-public function addField($paramName, $fieldId)
+public /**
+ * addField
+ *
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+/**
+ * addField
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $paramName
+ * @param mixed $fieldId
+ * @return void
+ */
+function addField($paramName, $fieldId)
     {
         $this->fieldNames[$paramName] = $fieldId;
         return $this;
@@ -646,7 +1454,158 @@ public function addField($paramName, $fieldId)
      * @return string The complete JavaScript function
 
      */
-    protected function generateJSFunction()
+    protected /**
+ * generateJSFunction
+ *
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * generateJSFunction
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function generateJSFunction()
     {
         $js = "function editOption(id, selector, name, value) {\n";
         
@@ -684,7 +1643,158 @@ public function addField($paramName, $fieldId)
      * @return string
 
      */
-    public function getHtml(): string
+    public /**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getHtml(): string
     {
         $script = new HtmlScript('text/javascript', $this->generateJSFunction());
         return $script->getHtml();

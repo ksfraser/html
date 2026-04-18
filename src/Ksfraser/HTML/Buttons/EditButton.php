@@ -301,6 +301,102 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * EditButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class EditButton extends ActionButton
 {
     /**
@@ -327,7 +423,239 @@ class EditButton extends ActionButton
      * @return void
 
      */
-public function __construct(HtmlElementInterface $label, $actionId = '', $onclickFunction = '')
+public /**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @param mixed $actionId
+ * @param mixed $onclickFunction
+ * @return void
+ */
+function __construct(HtmlElementInterface $label, $actionId = '', $onclickFunction = '')
     {
         $this->onclickFunction = $onclickFunction;
         parent::__construct('edit', $label, $actionId);
@@ -344,7 +672,158 @@ public function __construct(HtmlElementInterface $label, $actionId = '', $onclic
      * @return void
 
      */
-    protected function setupActionButton()
+    protected /**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function setupActionButton()
     {
         $this->setName('edit_btn_' . $this->actionId);
         

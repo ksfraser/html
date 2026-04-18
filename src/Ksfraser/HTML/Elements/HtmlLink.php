@@ -89,6 +89,102 @@ use Ksfraser\HTML\HtmlAttribute;
  * @return void
 
  */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlLink
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlLink extends HtmlElement
 {
 	/**
@@ -103,7 +199,158 @@ class HtmlLink extends HtmlElement
 	 * @since v1.0.0 2026-04-11
 	 * @return void
 	 */
-	public function __construct()
+	public /**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __construct()
 	{
 		parent::__construct(new HtmlString(''));
 		$this->tag = 'link';
@@ -123,7 +370,185 @@ class HtmlLink extends HtmlElement
 	 * @return self
 
 	 */
-	public function setHref(string $url): self
+	public /**
+ * setHref
+ *
+ * @param string $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $url
+ * @return self
+ */
+function setHref(string $url): self
 	{
 		$encodedUrl = htmlspecialchars($url, ENT_QUOTES, 'UTF-8');
 		$this->addAttributeObject(new HtmlAttribute('href', $encodedUrl));
@@ -143,7 +568,185 @@ class HtmlLink extends HtmlElement
 	 * @return self
 
 	 */
-	public function setRel(string $rel): self
+	public /**
+ * setRel
+ *
+ * @param string $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @param string $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @param string $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @param string $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @param string $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @param string $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @param string $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @param string $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @param string $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @param string $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @param string $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+/**
+ * setRel
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rel
+ * @return self
+ */
+function setRel(string $rel): self
 	{
 		$this->addAttributeObject(new HtmlAttribute('rel', $rel));
 		return $this;
@@ -162,7 +765,185 @@ class HtmlLink extends HtmlElement
 	 * @return self
 
 	 */
-	public function setType(string $type): self
+	public /**
+ * setType
+ *
+ * @param string $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @param string $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @param string $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @param string $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @param string $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @param string $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @param string $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @param string $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @param string $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @param string $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @param string $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+function setType(string $type): self
 	{
 		$this->addAttributeObject(new HtmlAttribute('type', $type));
 		return $this;
@@ -181,7 +962,185 @@ class HtmlLink extends HtmlElement
 	 * @return self
 
 	 */
-	public function setMedia(string $media): self
+	public /**
+ * setMedia
+ *
+ * @param string $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @param string $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @param string $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @param string $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @param string $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @param string $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @param string $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @param string $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @param string $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @param string $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @param string $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $media
+ * @return self
+ */
+/**
+ * setMedia
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $media
+ * @return self
+ */
+function setMedia(string $media): self
 	{
 		$this->addAttributeObject(new HtmlAttribute('media', $media));
 		return $this;

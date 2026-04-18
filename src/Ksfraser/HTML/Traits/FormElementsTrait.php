@@ -230,6 +230,102 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * FormElementsTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FormElementsTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FormElementsTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FormElementsTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FormElementsTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FormElementsTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FormElementsTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FormElementsTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FormElementsTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FormElementsTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FormElementsTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FormElementsTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FormElementsTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FormElementsTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FormElementsTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * FormElementsTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 trait FormElementsTrait
 {
     /**
@@ -249,7 +345,212 @@ trait FormElementsTrait
      * @param ?string $action
      * @return HtmlElement
      */
-    public static function form(string $method = 'POST', ?string $action = null): HtmlElement
+    public static /**
+ * form
+ *
+ * @param string $method
+ * @param string|null $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @param string $method
+ * @param string|null $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @param string $method
+ * @param string|null $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @param string $method
+ * @param string|null $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @param string $method
+ * @param string|null $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @param string $method
+ * @param string|null $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @param string $method
+ * @param string|null $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @param string $method
+ * @param string|null $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @param string $method
+ * @param string|null $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @param string $method
+ * @param string|null $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @param string $method
+ * @param string|null $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @param mixed $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @param mixed $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @param mixed $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @param mixed $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @param mixed $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @param mixed $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @param mixed $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @param mixed $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @param mixed $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @param mixed $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @param mixed $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @param mixed $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @param mixed $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @param mixed $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @param mixed $action
+ * @return HtmlElement
+ */
+/**
+ * form
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $method
+ * @param mixed $action
+ * @return HtmlElement
+ */
+function form(string $method = 'POST', ?string $action = null): HtmlElement
     {
         $form = self::element('form');
         $form->setAttribute('method', strtoupper($method));
@@ -378,7 +679,212 @@ trait FormElementsTrait
      * @return HtmlElement
 
      */
-    public static function input(string $type = 'text', string $name = ''): HtmlElement
+    public static /**
+ * input
+ *
+ * @param string $type
+ * @param string $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @param string $type
+ * @param string $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @param string $type
+ * @param string $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @param string $type
+ * @param string $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @param string $type
+ * @param string $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @param string $type
+ * @param string $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @param string $type
+ * @param string $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @param string $type
+ * @param string $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @param string $type
+ * @param string $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @param string $type
+ * @param string $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @param string $type
+ * @param string $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * input
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $name
+ * @return HtmlElement
+ */
+function input(string $type = 'text', string $name = ''): HtmlElement
     {
         $input = self::element('input');
         if (method_exists($input, 'setType')) {
@@ -507,7 +1013,212 @@ trait FormElementsTrait
      * @return HtmlElement
 
      */
-    public static function textarea(string $name = '', ?string $placeholder = null): HtmlElement
+    public static /**
+ * textarea
+ *
+ * @param string $name
+ * @param string|null $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @param string $name
+ * @param string|null $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @param string $name
+ * @param string|null $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @param string $name
+ * @param string|null $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @param string $name
+ * @param string|null $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @param string $name
+ * @param string|null $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @param string $name
+ * @param string|null $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @param string $name
+ * @param string|null $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @param string $name
+ * @param string|null $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @param string $name
+ * @param string|null $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @param string $name
+ * @param string|null $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $placeholder
+ * @return HtmlElement
+ */
+/**
+ * textarea
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $placeholder
+ * @return HtmlElement
+ */
+function textarea(string $name = '', ?string $placeholder = null): HtmlElement
     {
         $textarea = self::element('textarea');
 
@@ -647,7 +1358,185 @@ trait FormElementsTrait
      * @return HtmlElement
 
      */
-    public static function select(string $name = ''): HtmlElement
+    public static /**
+ * select
+ *
+ * @param string $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @param string $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @param string $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @param string $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @param string $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @param string $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @param string $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @param string $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @param string $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @param string $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @param string $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return HtmlElement
+ */
+/**
+ * select
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return HtmlElement
+ */
+function select(string $name = ''): HtmlElement
     {
         $select = self::element('select');
 
@@ -771,7 +1660,212 @@ trait FormElementsTrait
      * @return HtmlElement
 
      */
-    public static function label(string $text = '', ?string $for = null): HtmlElement
+    public static /**
+ * label
+ *
+ * @param string $text
+ * @param string|null $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @param string $text
+ * @param string|null $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @param string $text
+ * @param string|null $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @param string $text
+ * @param string|null $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @param string $text
+ * @param string|null $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @param string $text
+ * @param string|null $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @param string $text
+ * @param string|null $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @param string $text
+ * @param string|null $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @param string $text
+ * @param string|null $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @param string $text
+ * @param string|null $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @param string $text
+ * @param string|null $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $for
+ * @return HtmlElement
+ */
+/**
+ * label
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $for
+ * @return HtmlElement
+ */
+function label(string $text = '', ?string $for = null): HtmlElement
     {
         $label = self::element('label', $text);
 
@@ -903,7 +1997,212 @@ trait FormElementsTrait
      * @return HtmlElement
 
      */
-    public static function button(string $text = '', string $type = 'button'): HtmlElement
+    public static /**
+ * button
+ *
+ * @param string $text
+ * @param string $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @param string $text
+ * @param string $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @param string $text
+ * @param string $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @param string $text
+ * @param string $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @param string $text
+ * @param string $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @param string $text
+ * @param string $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @param string $text
+ * @param string $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @param string $text
+ * @param string $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @param string $text
+ * @param string $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @param string $text
+ * @param string $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @param string $text
+ * @param string $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $type
+ * @return HtmlElement
+ */
+/**
+ * button
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $type
+ * @return HtmlElement
+ */
+function button(string $text = '', string $type = 'button'): HtmlElement
     {
         $button = self::element('button', $text);
         if (method_exists($button, 'setType')) {
@@ -1135,7 +2434,158 @@ trait FormElementsTrait
      * @return HtmlElement
 
      */
-    public static function formGroup(): HtmlElement
+    public static /**
+ * formGroup
+ *
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * formGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function formGroup(): HtmlElement
     {
         $group = self::element('div');
         $group->addCSSClass('form-group');
@@ -1260,7 +2710,158 @@ trait FormElementsTrait
      * @return HtmlElement
 
      */
-    public static function inputGroup(): HtmlElement
+    public static /**
+ * inputGroup
+ *
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+/**
+ * inputGroup
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlElement
+ */
+function inputGroup(): HtmlElement
     {
         $group = self::element('div');
         $group->addCSSClass('input-group');
@@ -1377,7 +2978,212 @@ trait FormElementsTrait
      * @return HtmlElement
 
      */
-    public static function validationFeedback(string $message = '', bool $isInvalid = true): HtmlElement
+    public static /**
+ * validationFeedback
+ *
+ * @param string $message
+ * @param bool $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @param string $message
+ * @param bool $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @param string $message
+ * @param bool $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @param string $message
+ * @param bool $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @param string $message
+ * @param bool $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @param string $message
+ * @param bool $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @param string $message
+ * @param bool $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @param string $message
+ * @param bool $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @param string $message
+ * @param bool $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @param string $message
+ * @param bool $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @param string $message
+ * @param bool $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @param mixed $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @param mixed $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @param mixed $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @param mixed $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @param mixed $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @param mixed $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @param mixed $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @param mixed $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @param mixed $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @param mixed $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @param mixed $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @param mixed $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @param mixed $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @param mixed $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @param mixed $isInvalid
+ * @return HtmlElement
+ */
+/**
+ * validationFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $message
+ * @param mixed $isInvalid
+ * @return HtmlElement
+ */
+function validationFeedback(string $message = '', bool $isInvalid = true): HtmlElement
     {
         $feedback = self::element('div', $message);
         $class = $isInvalid ? 'invalid-feedback' : 'valid-feedback';
@@ -1492,7 +3298,185 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function setInputValue(string $value): self
+    public /**
+ * setInputValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setInputValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+function setInputValue(string $value): self
     {
         $this->setAttribute('value', $value);
         return $this;
@@ -1599,7 +3583,185 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function setPlaceholder(string $text): self
+    public /**
+ * setPlaceholder
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setPlaceholder
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+function setPlaceholder(string $text): self
     {
         $this->setAttribute('placeholder', $text);
         return $this;
@@ -1706,7 +3868,185 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function setRequired(bool $required = true): self
+    public /**
+ * setRequired
+ *
+ * @param bool $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @param bool $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @param bool $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @param bool $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @param bool $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @param bool $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @param bool $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @param bool $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @param bool $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @param bool $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @param bool $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return self
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return self
+ */
+function setRequired(bool $required = true): self
     {
         if ($required) {
             $this->setAttribute('required', 'required');
@@ -1817,7 +4157,185 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function setDisabled(bool $disabled = true): self
+    public /**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+function setDisabled(bool $disabled = true): self
     {
         if ($disabled) {
             $this->setAttribute('disabled', 'disabled');
@@ -1928,7 +4446,185 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function setReadonly(bool $readonly = true): self
+    public /**
+ * setReadonly
+ *
+ * @param bool $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @param bool $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @param bool $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @param bool $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @param bool $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @param bool $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @param bool $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @param bool $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @param bool $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @param bool $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @param bool $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $readonly
+ * @return self
+ */
+/**
+ * setReadonly
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $readonly
+ * @return self
+ */
+function setReadonly(bool $readonly = true): self
     {
         if ($readonly) {
             $this->setAttribute('readonly', 'readonly');
@@ -2039,7 +4735,185 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function setAutocomplete(string $value): self
+    public /**
+ * setAutocomplete
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAutocomplete
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+function setAutocomplete(string $value): self
     {
         $this->setAttribute('autocomplete', $value);
         return $this;
@@ -2146,7 +5020,185 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function setPattern(string $pattern): self
+    public /**
+ * setPattern
+ *
+ * @param string $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @param string $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @param string $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @param string $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @param string $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @param string $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @param string $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @param string $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @param string $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @param string $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @param string $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $pattern
+ * @return self
+ */
+/**
+ * setPattern
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $pattern
+ * @return self
+ */
+function setPattern(string $pattern): self
     {
         $this->setAttribute('pattern', $pattern);
         return $this;
@@ -2253,7 +5305,185 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function setMaxLength(int $length): self
+    public /**
+ * setMaxLength
+ *
+ * @param int $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @param int $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @param int $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @param int $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @param int $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @param int $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @param int $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @param int $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @param int $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @param int $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @param int $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMaxLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+function setMaxLength(int $length): self
     {
         $this->setAttribute('maxlength', (string)$length);
         return $this;
@@ -2360,7 +5590,185 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function setMinLength(int $length): self
+    public /**
+ * setMinLength
+ *
+ * @param int $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @param int $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @param int $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @param int $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @param int $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @param int $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @param int $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @param int $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @param int $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @param int $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @param int $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+/**
+ * setMinLength
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $length
+ * @return self
+ */
+function setMinLength(int $length): self
     {
         $this->setAttribute('minlength', (string)$length);
         return $this;
@@ -2459,7 +5867,158 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function markInvalid(): self
+    public /**
+ * markInvalid
+ *
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markInvalid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+function markInvalid(): self
     {
         $this->removeCSSClass('is-valid');
         $this->addCSSClass('is-invalid');
@@ -2559,7 +6118,158 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function markValid(): self
+    public /**
+ * markValid
+ *
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markValid
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+function markValid(): self
     {
         $this->removeCSSClass('is-invalid');
         $this->addCSSClass('is-valid');
@@ -2667,7 +6377,185 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function setRows(int $rows): self
+    public /**
+ * setRows
+ *
+ * @param int $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @param int $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @param int $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @param int $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @param int $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @param int $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @param int $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @param int $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @param int $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @param int $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @param int $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rows
+ * @return self
+ */
+/**
+ * setRows
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $rows
+ * @return self
+ */
+function setRows(int $rows): self
     {
         $this->setAttribute('rows', (string)$rows);
         return $this;
@@ -2774,7 +6662,185 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function setCols(int $cols): self
+    public /**
+ * setCols
+ *
+ * @param int $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @param int $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @param int $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @param int $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @param int $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @param int $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @param int $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @param int $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @param int $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @param int $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @param int $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cols
+ * @return self
+ */
+/**
+ * setCols
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cols
+ * @return self
+ */
+function setCols(int $cols): self
     {
         $this->setAttribute('cols', (string)$cols);
         return $this;
@@ -2897,7 +6963,239 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function addOption(string $value, string $text = '', bool $selected = false): self
+    public /**
+ * addOption
+ *
+ * @param string $value
+ * @param string $text
+ * @param bool $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @param string $value
+ * @param string $text
+ * @param bool $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @param string $value
+ * @param string $text
+ * @param bool $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @param string $value
+ * @param string $text
+ * @param bool $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @param string $value
+ * @param string $text
+ * @param bool $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @param string $value
+ * @param string $text
+ * @param bool $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @param string $value
+ * @param string $text
+ * @param bool $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @param string $value
+ * @param string $text
+ * @param bool $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @param string $value
+ * @param string $text
+ * @param bool $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @param string $value
+ * @param string $text
+ * @param bool $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @param string $value
+ * @param string $text
+ * @param bool $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+function addOption(string $value, string $text = '', bool $selected = false): self
     {
         $option = self::element('option', $text !== '' ? $text : $value);
         $option->setAttribute('value', $value);
@@ -3011,7 +7309,185 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function setSelectedValue(string $value): self
+    public /**
+ * setSelectedValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @param string $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setSelectedValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return self
+ */
+function setSelectedValue(string $value): self
     {
         $this->setAttribute('data-selected', $value);
         return $this;
@@ -3118,7 +7594,185 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function setChecked(bool $checked = true): self
+    public /**
+ * setChecked
+ *
+ * @param bool $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @param bool $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @param bool $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @param bool $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @param bool $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @param bool $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @param bool $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @param bool $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @param bool $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @param bool $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @param bool $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $checked
+ * @return self
+ */
+/**
+ * setChecked
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $checked
+ * @return self
+ */
+function setChecked(bool $checked = true): self
     {
         if ($checked) {
             $this->setAttribute('checked', 'checked');
@@ -3229,7 +7883,185 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function setLegend(string $text): self
+    public /**
+ * setLegend
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setLegend
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+function setLegend(string $text): self
     {
         $this->setAttribute('data-legend', $text);
         return $this;
@@ -3336,7 +8168,185 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function addPrefix(string $text): self
+    public /**
+ * addPrefix
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addPrefix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+function addPrefix(string $text): self
     {
         $prefix = self::element('span', $text);
         $prefix->addCSSClass('input-group-text');
@@ -3448,7 +8458,185 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function addSuffix(string $text): self
+    public /**
+ * addSuffix
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addSuffix
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+function addSuffix(string $text): self
     {
         $suffix = self::element('span', $text);
         $suffix->addCSSClass('input-group-text');
@@ -3557,7 +8745,185 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function showFeedback(bool $show = true): self
+    public /**
+ * showFeedback
+ *
+ * @param bool $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @param bool $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @param bool $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @param bool $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @param bool $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @param bool $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @param bool $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @param bool $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @param bool $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @param bool $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @param bool $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $show
+ * @return self
+ */
+/**
+ * showFeedback
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $show
+ * @return self
+ */
+function showFeedback(bool $show = true): self
     {
         if ($show) {
             $this->removeCSSClass('d-none');
@@ -3662,7 +9028,158 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function markNeedsValidation(): self
+    public /**
+ * markNeedsValidation
+ *
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * markNeedsValidation
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+function markNeedsValidation(): self
     {
         $this->addCSSClass('needs-validation');
         return $this;
@@ -3761,7 +9278,158 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function preventDefaultSubmit(): self
+    public /**
+ * preventDefaultSubmit
+ *
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * preventDefaultSubmit
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+function preventDefaultSubmit(): self
     {
         $this->addCSSClass('prevent-default');
         return $this;
@@ -3868,7 +9536,185 @@ trait FormElementsTrait
      * @return self
 
      */
-    public function addChild(HtmlElementInterface $element): self
+    public /**
+ * addChild
+ *
+ * @param HtmlElementInterface $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+function addChild(HtmlElementInterface $element): self
     {
         $this->addNested($element);
         return $this;

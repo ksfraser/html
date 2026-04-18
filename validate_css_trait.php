@@ -22,12 +22,12 @@ use Ksfraser\HTML\Elements\HtmlString;
  * @since 1.0.5 2026-03-30
  */
 class TestDiv extends HtmlElement {
-/**
- * __construct
- *
- * @since v1.0.5 2026-04-14
- * @return void
- */
+    /**
+     * __construct
+     *
+     * @since v1.0.5 2026-04-14
+     * @return void
+     */
     public function __construct() {
         parent::__construct();
         $this->tag = 'div';
@@ -40,13 +40,13 @@ class TestDiv extends HtmlElement {
  * @since 1.0.5 2026-03-30
  */
 class TestButton extends HtmlElement {
-/**
- * __construct
- *
- * @since v1.0.5 2026-04-14
- * @param mixed $content
- * @return void
- */
+    /**
+     * __construct
+     *
+     * @since v1.0.5 2026-04-14
+     * @param mixed $content
+     * @return void
+     */
     public function __construct($content = null) {
         if ($content !== null && !($content instanceof \Ksfraser\HTML\HtmlElementInterface)) {
             $content = new HtmlString($content);

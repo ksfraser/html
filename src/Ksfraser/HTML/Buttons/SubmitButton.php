@@ -246,6 +246,102 @@ use Ksfraser\HTML\Elements\HtmlString;
  * @return void
 
  */
+/**
+ * SubmitButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SubmitButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SubmitButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SubmitButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SubmitButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SubmitButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SubmitButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SubmitButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SubmitButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SubmitButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SubmitButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SubmitButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SubmitButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SubmitButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SubmitButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * SubmitButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class SubmitButton extends ActionButton
 {
     /**
@@ -255,7 +351,185 @@ class SubmitButton extends ActionButton
      * @param HtmlElementInterface $label
      * @return void
      */
-public function __construct(HtmlElementInterface $label = null)
+public /**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $label
+ * @return void
+ */
+function __construct(HtmlElementInterface $label = null)
     {
         if ($label === null) {
             $label = new HtmlString('Submit');
@@ -274,7 +548,158 @@ public function __construct(HtmlElementInterface $label = null)
      * @return void
 
      */
-    protected function setupActionButton()
+    protected /**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function setupActionButton()
     {
         $this->setName('submit_btn');
         $this->setType('submit');

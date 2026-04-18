@@ -27,6 +27,56 @@ class HtmlOptionTest extends TestCase {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
+/**
+ * testInstance
+ *
+ * @return void
+ */
 function testInstance() {
         $option = new HtmlOption(new HtmlString('value'), new HtmlString('label'));
         $this->assertInstanceOf(HtmlOption::/**
@@ -48,6 +98,56 @@ class, $option);
  * testToStringReturnsExpectedHtml
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
+ * @return void
+ */
+/**
+ * testToStringReturnsExpectedHtml
+ *
  * @return void
  */
 function testToStringReturnsExpectedHtml() {

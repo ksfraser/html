@@ -271,6 +271,102 @@ use Ksfraser\HTML\HtmlAttribute;
  * @return void
 
  */
+/**
+ * HtmlInputButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlInputButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlInputButton extends HtmlEmptyElement
 {
 	/**
@@ -309,7 +405,212 @@ class HtmlInputButton extends HtmlEmptyElement
 	 * @return void
 
 	 */
-	public function __construct( string $type, HtmlElementInterface $label )
+	public /**
+ * __construct
+ *
+ * @param string $type
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $type
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $type
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $type
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $type
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $type
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $type
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $type
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $type
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $type
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $type
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @param mixed $label
+ * @return void
+ */
+function __construct( string $type, HtmlElementInterface $label )
 	{
 		// Manual initialization to avoid parent constructor issues
 		$this->label = $label;
@@ -334,7 +635,185 @@ class HtmlInputButton extends HtmlEmptyElement
 	 * @return self
 
 	 */
-	public function setType( string $type ): self
+	public /**
+ * setType
+ *
+ * @param string $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @param string $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @param string $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @param string $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @param string $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @param string $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @param string $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @param string $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @param string $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @param string $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @param string $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * setType
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $type
+ * @return self
+ */
+function setType( string $type ): self
 	{
 		$this->buttonType = $type;
 		$this->setAttribute( 'type', $type );
@@ -354,7 +833,185 @@ class HtmlInputButton extends HtmlEmptyElement
 	 * @return self Fluent interface
 
 	 */
-	public function setName( string $name ): self
+	public /**
+ * setName
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @param string $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+/**
+ * setName
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return self
+ */
+function setName( string $name ): self
 	{
 		$this->setAttribute( "name", $name );
 		return $this;
@@ -373,7 +1030,185 @@ class HtmlInputButton extends HtmlEmptyElement
 	 * @return self Fluent interface
 
 	 */
-	public function setId( string $id ): self
+	public /**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+function setId( string $id ): self
 	{
 		$this->setAttribute( "id", $id );
 		return $this;
@@ -392,7 +1227,185 @@ class HtmlInputButton extends HtmlEmptyElement
 	 * @return self Fluent interface
 
 	 */
-	public function setClass( string $class ): self
+	public /**
+ * setClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+function setClass( string $class ): self
 	{
 		$this->setAttribute( "class", $class );
 		return $this;
@@ -411,7 +1424,185 @@ class HtmlInputButton extends HtmlEmptyElement
 	 * @return self Fluent interface
 
 	 */
-	public function setDisabled(bool $disabled = true): self
+	public /**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return self
+ */
+function setDisabled(bool $disabled = true): self
 	{
 		if ($disabled) {
 			$this->setAttribute("disabled", "disabled");
@@ -432,7 +1623,158 @@ class HtmlInputButton extends HtmlEmptyElement
 	 * @return string The complete HTML input tag
 
 	 */
-	public function getHtml(): string
+	public /**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getHtml(): string
 	{
 		// Set the value attribute from the label (already escaped by HtmlString)
 		$labelText = $this->label->getHtml();

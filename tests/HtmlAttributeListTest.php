@@ -27,6 +27,56 @@ class HtmlAttributeListTest extends TestCase {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testImplementsInterface
+ *
+ * @return void
+ */
 function testImplementsInterface() {
         $list = new HtmlAttributeList();
         $this->assertInstanceOf(HtmlElementInterface::/**
@@ -48,6 +98,56 @@ class, $list);
  * testAddAndGetAttributes
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testAddAndGetAttributes
+ *
+ * @return void
+ */
+/**
+ * testAddAndGetAttributes
+ *
+ * @return void
+ */
+/**
+ * testAddAndGetAttributes
+ *
+ * @return void
+ */
+/**
+ * testAddAndGetAttributes
+ *
+ * @return void
+ */
+/**
+ * testAddAndGetAttributes
+ *
+ * @return void
+ */
+/**
+ * testAddAndGetAttributes
+ *
+ * @return void
+ */
+/**
+ * testAddAndGetAttributes
+ *
+ * @return void
+ */
+/**
+ * testAddAndGetAttributes
+ *
+ * @return void
+ */
+/**
+ * testAddAndGetAttributes
+ *
+ * @return void
+ */
+/**
+ * testAddAndGetAttributes
+ *
  * @return void
  */
 function testAddAndGetAttributes() {
@@ -74,6 +174,56 @@ function testAddAndGetAttributes() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testGetHtmlOutputsAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlOutputsAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlOutputsAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlOutputsAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlOutputsAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlOutputsAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlOutputsAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlOutputsAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlOutputsAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlOutputsAttributes
+ *
+ * @return void
+ */
 function testGetHtmlOutputsAttributes() {
         $list = new HtmlAttributeList();
         $attr1 = new \Ksfraser\HTML\HtmlAttribute('id', 'foo');
@@ -97,6 +247,56 @@ function testGetHtmlOutputsAttributes() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testToHtmlOutputsAttributes
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsAttributes
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsAttributes
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsAttributes
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsAttributes
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsAttributes
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsAttributes
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsAttributes
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsAttributes
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsAttributes
+ *
+ * @return void
+ */
 function testToHtmlOutputsAttributes() {
         $list = new HtmlAttributeList();
         $attr = new \Ksfraser\HTML\HtmlAttribute('data-x', 'y');
@@ -117,6 +317,56 @@ function testToHtmlOutputsAttributes() {
  * testSetAttributeReplaces
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetAttributeReplaces
+ *
+ * @return void
+ */
+/**
+ * testSetAttributeReplaces
+ *
+ * @return void
+ */
+/**
+ * testSetAttributeReplaces
+ *
+ * @return void
+ */
+/**
+ * testSetAttributeReplaces
+ *
+ * @return void
+ */
+/**
+ * testSetAttributeReplaces
+ *
+ * @return void
+ */
+/**
+ * testSetAttributeReplaces
+ *
+ * @return void
+ */
+/**
+ * testSetAttributeReplaces
+ *
+ * @return void
+ */
+/**
+ * testSetAttributeReplaces
+ *
+ * @return void
+ */
+/**
+ * testSetAttributeReplaces
+ *
+ * @return void
+ */
+/**
+ * testSetAttributeReplaces
+ *
  * @return void
  */
 function testSetAttributeReplaces() {
@@ -145,6 +395,56 @@ function testSetAttributeReplaces() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testGetAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValue
+ *
+ * @return void
+ */
 function testGetAttributeValue() {
         $list = new HtmlAttributeList();
         $attr = new \Ksfraser\HTML\HtmlAttribute('data', 'val');
@@ -163,6 +463,56 @@ function testGetAttributeValue() {
  * testEdgeCasesEmptyList
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyList
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyList
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyList
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyList
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyList
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyList
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyList
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyList
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyList
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyList
+ *
  * @return void
  */
 function testEdgeCasesEmptyList() {

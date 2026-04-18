@@ -108,6 +108,12 @@ use Ksfraser\HTML\Button\Button;
  * @return void
 
  */
+/**
+ * EditFrequencyActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class EditFrequencyActionButton extends Button {
     /**
      * Build edit frequency action button
@@ -116,7 +122,80 @@ class EditFrequencyActionButton extends Button {
      * @param mixed $freqId The frequency ID
      * @return Button
      */
-    public function build($freqId): Button {
+    public /**
+ * build
+ *
+ * @param mixed $freqId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $freqId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $freqId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $freqId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $freqId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $freqId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $freqId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $freqId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $freqId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $freqId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $freqId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $freqId
+ * @return Button
+ */
+function build($freqId): Button {
         return $this
             ->setType('button')
             ->addClass('btn-small btn-edit')

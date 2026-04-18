@@ -106,6 +106,102 @@ namespace Ksfraser\HTML\Elements;
  * @return void
 
  */
+/**
+ * ModalBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ModalBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ModalBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ModalBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ModalBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ModalBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ModalBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ModalBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ModalBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ModalBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ModalBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ModalBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ModalBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ModalBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ModalBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ModalBuilder
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class ModalBuilder {
     /**
      *
@@ -138,7 +234,185 @@ class ModalBuilder {
      * @return void
     
      */
-    public function __construct(string $id = 'modal') {
+    public /**
+ * __construct
+ *
+ * @param string $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return void
+ */
+function __construct(string $id = 'modal') {
         $this->modal = new Modal($id);
         $this->content = new ModalContent();
     }
@@ -158,7 +432,212 @@ class ModalBuilder {
      * @return self
     
      */
-    public function addHeading(string $text, int $level = 2): self {
+    public /**
+ * addHeading
+ *
+ * @param string $text
+ * @param int $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @param string $text
+ * @param int $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @param string $text
+ * @param int $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @param string $text
+ * @param int $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @param string $text
+ * @param int $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @param string $text
+ * @param int $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @param string $text
+ * @param int $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @param string $text
+ * @param int $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @param string $text
+ * @param int $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @param string $text
+ * @param int $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @param string $text
+ * @param int $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $level
+ * @return self
+ */
+/**
+ * addHeading
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $level
+ * @return self
+ */
+function addHeading(string $text, int $level = 2): self {
         $heading = new Heading($level);
         $heading->setText($text);
         $this->content->append($heading);
@@ -178,7 +657,185 @@ class ModalBuilder {
      * @return self
     
      */
-    public function addParagraph(string $text): self {
+    public /**
+ * addParagraph
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @param string $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * addParagraph
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @return self
+ */
+function addParagraph(string $text): self {
         $p = new \Ksfraser\HTML\Formatting\HtmlParagraph(new HtmlString($text));
         $this->content->append($p);
         return $this;
@@ -197,7 +854,185 @@ class ModalBuilder {
      * @return self
     
      */
-    public function addTable(Table $table): self {
+    public /**
+ * addTable
+ *
+ * @param Table $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @param Table $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @param Table $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @param Table $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @param Table $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @param Table $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @param Table $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @param Table $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @param Table $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @param Table $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @param Table $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $table
+ * @return self
+ */
+/**
+ * addTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $table
+ * @return self
+ */
+function addTable(Table $table): self {
         $this->content->append($table);
         return $this;
     }
@@ -217,7 +1052,212 @@ class ModalBuilder {
      * @return self
     
      */
-    public function addCloseButton(string $text = 'Close', string $onclickHandler = 'closeModal()'): self {
+    public /**
+ * addCloseButton
+ *
+ * @param string $text
+ * @param string $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @param string $text
+ * @param string $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @param string $text
+ * @param string $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @param string $text
+ * @param string $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @param string $text
+ * @param string $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @param string $text
+ * @param string $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @param string $text
+ * @param string $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @param string $text
+ * @param string $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @param string $text
+ * @param string $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @param string $text
+ * @param string $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @param string $text
+ * @param string $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $onclickHandler
+ * @return self
+ */
+/**
+ * addCloseButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $text
+ * @param mixed $onclickHandler
+ * @return self
+ */
+function addCloseButton(string $text = 'Close', string $onclickHandler = 'closeModal()'): self {
         $button = new \Ksfraser\HTML\Button\CloseButton(new HtmlString($text));
         $button->setOnclickFunction($onclickHandler);
 		$existing = $button->getAttributeValue('class') ?? '';
@@ -239,7 +1279,185 @@ class ModalBuilder {
      * @return self
     
      */
-    public function addRawHtml(string $html): self {
+    public /**
+ * addRawHtml
+ *
+ * @param string $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @param string $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @param string $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @param string $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @param string $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @param string $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @param string $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @param string $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @param string $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @param string $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @param string $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return self
+ */
+/**
+ * addRawHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $html
+ * @return self
+ */
+function addRawHtml(string $html): self {
         $this->content->append(new HtmlString($html));
         return $this;
     }
@@ -255,7 +1473,158 @@ class ModalBuilder {
      * @return Modal
     
      */
-    public function build(): Modal {
+    public /**
+ * build
+ *
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Modal
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Modal
+ */
+function build(): Modal {
         $this->modal->setContent($this->content);
         return $this->modal;
     }
@@ -271,7 +1640,158 @@ class ModalBuilder {
      * @return Stylesheet
     
      */
-    public static function getStylesheet(): Stylesheet {
+    public static /**
+ * getStylesheet
+ *
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Stylesheet
+ */
+/**
+ * getStylesheet
+ *
+ * @since v1.0.0 2026-04-14
+ * @return Stylesheet
+ */
+function getStylesheet(): Stylesheet {
         return (new Stylesheet())
             ->setHref(Modal::getStylesheetPath())
             ->setRel('stylesheet');

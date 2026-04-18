@@ -108,6 +108,12 @@ use Ksfraser\HTML\Elements\TableData;
  * @return void
 
  */
+/**
+ * StatusTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class StatusTableCell extends BaseTableCell {
     /**
      * Build Status cell with color coding
@@ -116,7 +122,80 @@ class StatusTableCell extends BaseTableCell {
      * @param mixed $status The status value
      * @return TableData
      */
-    public function build($status): TableData {
+    public /**
+ * build
+ *
+ * @param mixed $status
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $status
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $status
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $status
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $status
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $status
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $status
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $status
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $status
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $status
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $status
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $status
+ * @return TableData
+ */
+function build($status): TableData {
         $statusText = htmlspecialchars($status ?? 'Unknown');
         $statusClass = 'status-' . strtolower(str_replace(' ', '-', $statusText));
         

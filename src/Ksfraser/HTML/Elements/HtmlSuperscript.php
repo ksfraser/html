@@ -16,6 +16,102 @@ use Ksfraser\HTML\Formatting\HtmlFormatting;
  * @return void
 
  */
+/**
+ * HtmlSuperscript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSuperscript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSuperscript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSuperscript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSuperscript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSuperscript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSuperscript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSuperscript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSuperscript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSuperscript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSuperscript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSuperscript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSuperscript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSuperscript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSuperscript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSuperscript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlSuperscript extends HtmlFormatting
 {
 /**
@@ -25,7 +121,185 @@ class HtmlSuperscript extends HtmlFormatting
  * @param ?HtmlElementInterface $data
  * @return void
  */
-		       function __construct( ?HtmlElementInterface $data = null )
+		       /**
+ * __construct
+ *
+ * @param HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+function __construct( ?HtmlElementInterface $data = null )
 		       {
 			       parent::__construct( $data );
 			       $this->tag = "sup";

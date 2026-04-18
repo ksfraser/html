@@ -13,7 +13,57 @@ class HtmlRowBuildersIntegrationTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testLoanTypeTableRowBuildAndRender() {
+    public /**
+ * testLoanTypeTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testLoanTypeTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testLoanTypeTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testLoanTypeTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testLoanTypeTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testLoanTypeTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testLoanTypeTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testLoanTypeTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testLoanTypeTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testLoanTypeTableRowBuildAndRender
+ *
+ * @return void
+ */
+function testLoanTypeTableRowBuildAndRender() {
         $rowBuilder = new \Ksfraser\HTML\Rows\LoanTypeTableRow();
         $data = (object)[
             'id' => 1,
@@ -33,7 +83,57 @@ class HtmlRowBuildersIntegrationTest extends TestCase {
  * @since 1.0.4 2026-02-21
  * @return void
  */
-    public function testLoanSummaryTableRowBuildAndRender() {
+    public /**
+ * testLoanSummaryTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testLoanSummaryTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testLoanSummaryTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testLoanSummaryTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testLoanSummaryTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testLoanSummaryTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testLoanSummaryTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testLoanSummaryTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testLoanSummaryTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testLoanSummaryTableRowBuildAndRender
+ *
+ * @return void
+ */
+function testLoanSummaryTableRowBuildAndRender() {
         $rowBuilder = new \Ksfraser\HTML\Rows\LoanSummaryTableRow();
         $data = (object)[
             'id' => 101,
@@ -54,7 +154,57 @@ class HtmlRowBuildersIntegrationTest extends TestCase {
  * @since 1.0.4 2026-02-21
  * @return void
  */
-    public function testInterestFreqTableRowBuildAndRender() {
+    public /**
+ * testInterestFreqTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testInterestFreqTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testInterestFreqTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testInterestFreqTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testInterestFreqTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testInterestFreqTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testInterestFreqTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testInterestFreqTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testInterestFreqTableRowBuildAndRender
+ *
+ * @return void
+ */
+/**
+ * testInterestFreqTableRowBuildAndRender
+ *
+ * @return void
+ */
+function testInterestFreqTableRowBuildAndRender() {
         $rowBuilder = new \Ksfraser\HTML\Rows\InterestFreqTableRow();
         $data = (object)[
             'id' => 201,

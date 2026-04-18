@@ -26,6 +26,56 @@ class HtmlJSStringTest extends TestCase {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testHtmlJSStringEscapesContent
+ *
+ * @return void
+ */
+/**
+ * testHtmlJSStringEscapesContent
+ *
+ * @return void
+ */
+/**
+ * testHtmlJSStringEscapesContent
+ *
+ * @return void
+ */
+/**
+ * testHtmlJSStringEscapesContent
+ *
+ * @return void
+ */
+/**
+ * testHtmlJSStringEscapesContent
+ *
+ * @return void
+ */
+/**
+ * testHtmlJSStringEscapesContent
+ *
+ * @return void
+ */
+/**
+ * testHtmlJSStringEscapesContent
+ *
+ * @return void
+ */
+/**
+ * testHtmlJSStringEscapesContent
+ *
+ * @return void
+ */
+/**
+ * testHtmlJSStringEscapesContent
+ *
+ * @return void
+ */
+/**
+ * testHtmlJSStringEscapesContent
+ *
+ * @return void
+ */
 function testHtmlJSStringEscapesContent() {
         $js = new HtmlJSString(new \Ksfraser\HTML\Elements\HtmlString('console.log("<script>");'));
         $html = $js->getHtml();
@@ -43,6 +93,56 @@ function testHtmlJSStringEscapesContent() {
  * testHtmlJSStringImplementsInterface
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testHtmlJSStringImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testHtmlJSStringImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testHtmlJSStringImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testHtmlJSStringImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testHtmlJSStringImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testHtmlJSStringImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testHtmlJSStringImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testHtmlJSStringImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testHtmlJSStringImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testHtmlJSStringImplementsInterface
+ *
  * @return void
  */
 function testHtmlJSStringImplementsInterface() {

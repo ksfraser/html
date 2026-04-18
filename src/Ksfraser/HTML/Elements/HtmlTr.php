@@ -16,6 +16,102 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * HtmlTr
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTr
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTr
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTr
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTr
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTr
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTr
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTr
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTr
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTr
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTr
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTr
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTr
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTr
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTr
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlTr
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlTr extends HtmlElement
 {
 /**
@@ -25,7 +121,185 @@ class HtmlTr extends HtmlElement
  * @param ?HtmlElementInterface $data
  * @return void
  */
-    public function __construct(?HtmlElementInterface $data = null)
+    public /**
+ * __construct
+ *
+ * @param HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+function __construct(?HtmlElementInterface $data = null)
     {
         parent::__construct($data);
         $this->setTag('tr');
@@ -44,7 +318,185 @@ class HtmlTr extends HtmlElement
  * @return self
 
  */
-    public function addCell(HtmlElementInterface $cell): self
+    public /**
+ * addCell
+ *
+ * @param HtmlElementInterface $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @param HtmlElementInterface $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @param HtmlElementInterface $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @param HtmlElementInterface $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @param HtmlElementInterface $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @param HtmlElementInterface $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @param HtmlElementInterface $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @param HtmlElementInterface $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @param HtmlElementInterface $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @param HtmlElementInterface $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @param HtmlElementInterface $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cell
+ * @return self
+ */
+/**
+ * addCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $cell
+ * @return self
+ */
+function addCell(HtmlElementInterface $cell): self
     {
         $this->addNested($cell);
         return $this;

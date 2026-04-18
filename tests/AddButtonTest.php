@@ -15,7 +15,62 @@ class AddButtonTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testDefaultLabel() {
+    public /**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+function testDefaultLabel() {
         $btn = new AddButton(new HtmlString('Add'));
         $this->assertStringContainsString('Add', $btn->getHtml());
     }
@@ -25,7 +80,62 @@ class AddButtonTest extends TestCase {
  * @since 1.0.4 2026-02-21
  * @return void
  */
-    public function testCssClass() {
+    public /**
+ * testCssClass
+ *
+ * @return void
+ */
+/**
+ * testCssClass
+ *
+ * @return void
+ */
+/**
+ * testCssClass
+ *
+ * @return void
+ */
+/**
+ * testCssClass
+ *
+ * @return void
+ */
+/**
+ * testCssClass
+ *
+ * @return void
+ */
+/**
+ * testCssClass
+ *
+ * @return void
+ */
+/**
+ * testCssClass
+ *
+ * @return void
+ */
+/**
+ * testCssClass
+ *
+ * @return void
+ */
+/**
+ * testCssClass
+ *
+ * @return void
+ */
+/**
+ * testCssClass
+ *
+ * @return void
+ */
+/**
+ * testCssClass
+ *
+ * @return void
+ */
+function testCssClass() {
         $btn = new AddButton(new HtmlString('Add'));
         $this->assertStringContainsString('btn-success', $btn->getHtml());
     }

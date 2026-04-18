@@ -23,6 +23,102 @@ use Ksfraser\HTML\JS\HtmlJsEventTrait;
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * HtmlButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlButton extends HtmlElement {
     use \Ksfraser\HTML\JS\HtmlJsEventTrait;
 
@@ -40,6 +136,184 @@ class HtmlButton extends HtmlElement {
 
      */
     public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
  * __construct
  *
  * @since v1.0.0 2026-04-14

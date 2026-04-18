@@ -115,6 +115,102 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlEmail extends HtmlA
 {
 /**
@@ -127,6 +223,238 @@ class HtmlEmail extends HtmlA
  * @return void
  */
 	/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $emailAddress
+ * @param mixed $linkContent
+ * @param mixed $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $emailAddress
+ * @param mixed $linkContent
+ * @param bool $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $emailAddress
+ * @param mixed $linkContent
+ * @param bool $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $emailAddress
+ * @param mixed $linkContent
+ * @param bool $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $emailAddress
+ * @param mixed $linkContent
+ * @param bool $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $emailAddress
+ * @param mixed $linkContent
+ * @param bool $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $emailAddress
+ * @param mixed $linkContent
+ * @param bool $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $emailAddress
+ * @param mixed $linkContent
+ * @param bool $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $emailAddress
+ * @param mixed $linkContent
+ * @param bool $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $emailAddress
+ * @param mixed $linkContent
+ * @param bool $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $emailAddress
+ * @param mixed $linkContent
+ * @param bool $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string $emailAddress
+ * @param mixed $linkContent
+ * @param bool $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $emailAddress
+ * @param mixed $linkContent
+ * @param mixed $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $emailAddress
+ * @param mixed $linkContent
+ * @param mixed $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $emailAddress
+ * @param mixed $linkContent
+ * @param mixed $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $emailAddress
+ * @param mixed $linkContent
+ * @param mixed $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $emailAddress
+ * @param mixed $linkContent
+ * @param mixed $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $emailAddress
+ * @param mixed $linkContent
+ * @param mixed $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $emailAddress
+ * @param mixed $linkContent
+ * @param mixed $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $emailAddress
+ * @param mixed $linkContent
+ * @param mixed $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $emailAddress
+ * @param mixed $linkContent
+ * @param mixed $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $emailAddress
+ * @param mixed $linkContent
+ * @param mixed $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $emailAddress
+ * @param mixed $linkContent
+ * @param mixed $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $emailAddress
+ * @param mixed $linkContent
+ * @param mixed $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $emailAddress
+ * @param mixed $linkContent
+ * @param mixed $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $emailAddress
+ * @param mixed $linkContent
+ * @param mixed $validateEmail
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $emailAddress
+ * @param mixed $linkContent
+ * @param mixed $validateEmail
+ * @return void
+ */
+/**
  * __construct
  *
  * @since v1.0.0 2026-04-14

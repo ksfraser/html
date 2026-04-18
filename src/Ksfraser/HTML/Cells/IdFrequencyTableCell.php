@@ -108,6 +108,102 @@ use Ksfraser\HTML\Elements\TableData;
  * @return void
 
  */
+/**
+ * IdFrequencyTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdFrequencyTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdFrequencyTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdFrequencyTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdFrequencyTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdFrequencyTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdFrequencyTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdFrequencyTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdFrequencyTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdFrequencyTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdFrequencyTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdFrequencyTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdFrequencyTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdFrequencyTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdFrequencyTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdFrequencyTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class IdFrequencyTableCell {
     /**
      * Build frequency ID cell with fixed configuration
@@ -117,7 +213,212 @@ class IdFrequencyTableCell {
      * @param string $rowPrefix The row prefix for ID generation
      * @return TableData
      */
-    public function build($frequencyId, string $rowPrefix): TableData {
+    public /**
+ * build
+ *
+ * @param mixed $frequencyId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $frequencyId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $frequencyId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $frequencyId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $frequencyId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $frequencyId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $frequencyId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $frequencyId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $frequencyId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $frequencyId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $frequencyId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequencyId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequencyId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequencyId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequencyId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequencyId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequencyId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequencyId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequencyId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequencyId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequencyId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequencyId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequencyId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequencyId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequencyId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequencyId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $frequencyId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+function build($frequencyId, string $rowPrefix): TableData {
         return (new IdTableCell())
             ->setId("id-cell-{$rowPrefix}")
             ->setAttribute('data-frequency-id', (string)$frequencyId)

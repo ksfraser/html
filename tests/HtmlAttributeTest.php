@@ -28,6 +28,56 @@ class HtmlAttributeTest extends TestCase
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testValidAttributeName
+ *
+ * @return void
+ */
+/**
+ * testValidAttributeName
+ *
+ * @return void
+ */
+/**
+ * testValidAttributeName
+ *
+ * @return void
+ */
+/**
+ * testValidAttributeName
+ *
+ * @return void
+ */
+/**
+ * testValidAttributeName
+ *
+ * @return void
+ */
+/**
+ * testValidAttributeName
+ *
+ * @return void
+ */
+/**
+ * testValidAttributeName
+ *
+ * @return void
+ */
+/**
+ * testValidAttributeName
+ *
+ * @return void
+ */
+/**
+ * testValidAttributeName
+ *
+ * @return void
+ */
+/**
+ * testValidAttributeName
+ *
+ * @return void
+ */
 function testValidAttributeName()
     {
         $attr = new HtmlAttribute('data-test', 'value');
@@ -47,6 +97,56 @@ function testValidAttributeName()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
+/**
+ * testGetHtml
+ *
+ * @return void
+ */
 function testGetHtml()
     {
         $attr = new HtmlAttribute('id', 'foo');
@@ -64,6 +164,56 @@ function testGetHtml()
  * testToHtmlOutputsHtml
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
  * @return void
  */
 function testToHtmlOutputsHtml()
@@ -87,6 +237,56 @@ function testToHtmlOutputsHtml()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testEdgeCasesEmptyValue
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyValue
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyValue
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyValue
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyValue
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyValue
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyValue
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyValue
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyValue
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyValue
+ *
+ * @return void
+ */
 function testEdgeCasesEmptyValue()
     {
         $attr = new HtmlAttribute('data-empty', '');
@@ -104,6 +304,56 @@ function testEdgeCasesEmptyValue()
  * testInvalidAttributeNameThrows
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testInvalidAttributeNameThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidAttributeNameThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidAttributeNameThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidAttributeNameThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidAttributeNameThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidAttributeNameThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidAttributeNameThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidAttributeNameThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidAttributeNameThrows
+ *
+ * @return void
+ */
+/**
+ * testInvalidAttributeNameThrows
+ *
  * @return void
  */
 function testInvalidAttributeNameThrows()

@@ -27,6 +27,56 @@ class HtmlElementTest extends TestCase {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testConstructAndImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testConstructAndImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testConstructAndImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testConstructAndImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testConstructAndImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testConstructAndImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testConstructAndImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testConstructAndImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testConstructAndImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testConstructAndImplementsInterface
+ *
+ * @return void
+ */
 function testConstructAndImplementsInterface() {
         $element = new HtmlElement();
         $this->assertInstanceOf(HtmlElementInterface::/**
@@ -50,6 +100,56 @@ class, $element);
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testAddNestedReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testAddNestedReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testAddNestedReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testAddNestedReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testAddNestedReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testAddNestedReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testAddNestedReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testAddNestedReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testAddNestedReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testAddNestedReturnsSelf
+ *
+ * @return void
+ */
 function testAddNestedReturnsSelf() {
         $element = new HtmlElement();
         $child = new HtmlElement();
@@ -67,6 +167,56 @@ function testAddNestedReturnsSelf() {
  * testSetTagAndGetHtml
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetTagAndGetHtml
+ *
+ * @return void
+ */
+/**
+ * testSetTagAndGetHtml
+ *
+ * @return void
+ */
+/**
+ * testSetTagAndGetHtml
+ *
+ * @return void
+ */
+/**
+ * testSetTagAndGetHtml
+ *
+ * @return void
+ */
+/**
+ * testSetTagAndGetHtml
+ *
+ * @return void
+ */
+/**
+ * testSetTagAndGetHtml
+ *
+ * @return void
+ */
+/**
+ * testSetTagAndGetHtml
+ *
+ * @return void
+ */
+/**
+ * testSetTagAndGetHtml
+ *
+ * @return void
+ */
+/**
+ * testSetTagAndGetHtml
+ *
+ * @return void
+ */
+/**
+ * testSetTagAndGetHtml
+ *
  * @return void
  */
 function testSetTagAndGetHtml() {
@@ -89,6 +239,56 @@ function testSetTagAndGetHtml() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetAttributeAndGetHtml
+ *
+ * @return void
+ */
+/**
+ * testSetAttributeAndGetHtml
+ *
+ * @return void
+ */
+/**
+ * testSetAttributeAndGetHtml
+ *
+ * @return void
+ */
+/**
+ * testSetAttributeAndGetHtml
+ *
+ * @return void
+ */
+/**
+ * testSetAttributeAndGetHtml
+ *
+ * @return void
+ */
+/**
+ * testSetAttributeAndGetHtml
+ *
+ * @return void
+ */
+/**
+ * testSetAttributeAndGetHtml
+ *
+ * @return void
+ */
+/**
+ * testSetAttributeAndGetHtml
+ *
+ * @return void
+ */
+/**
+ * testSetAttributeAndGetHtml
+ *
+ * @return void
+ */
+/**
+ * testSetAttributeAndGetHtml
+ *
+ * @return void
+ */
 function testSetAttributeAndGetHtml() {
         $element = new HtmlElement();
         $element->setTag('span')->setAttribute('id', 'foo');
@@ -106,6 +306,56 @@ function testSetAttributeAndGetHtml() {
  * testToHtmlOutputsHtml
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
  * @return void
  */
 function testToHtmlOutputsHtml() {
@@ -130,6 +380,56 @@ function testToHtmlOutputsHtml() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testAddNestedChildRendersHtml
+ *
+ * @return void
+ */
+/**
+ * testAddNestedChildRendersHtml
+ *
+ * @return void
+ */
+/**
+ * testAddNestedChildRendersHtml
+ *
+ * @return void
+ */
+/**
+ * testAddNestedChildRendersHtml
+ *
+ * @return void
+ */
+/**
+ * testAddNestedChildRendersHtml
+ *
+ * @return void
+ */
+/**
+ * testAddNestedChildRendersHtml
+ *
+ * @return void
+ */
+/**
+ * testAddNestedChildRendersHtml
+ *
+ * @return void
+ */
+/**
+ * testAddNestedChildRendersHtml
+ *
+ * @return void
+ */
+/**
+ * testAddNestedChildRendersHtml
+ *
+ * @return void
+ */
+/**
+ * testAddNestedChildRendersHtml
+ *
+ * @return void
+ */
 function testAddNestedChildRendersHtml() {
         $parent = new HtmlElement();
         $parent->setTag('div');
@@ -150,6 +450,56 @@ function testAddNestedChildRendersHtml() {
  * testEdgeCasesEmptyElement
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyElement
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyElement
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyElement
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyElement
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyElement
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyElement
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyElement
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyElement
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyElement
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyElement
+ *
  * @return void
  */
 function testEdgeCasesEmptyElement() {

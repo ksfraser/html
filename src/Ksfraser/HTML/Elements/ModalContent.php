@@ -106,6 +106,12 @@ namespace Ksfraser\HTML\Elements;
  * @return void
 
  */
+/**
+ * ModalContent
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class ModalContent extends Div {
     /**
      * Constructor
@@ -113,7 +119,68 @@ class ModalContent extends Div {
      * @since v1.0.0 2026-04-11
      * @return void
      */
-    public function __construct() {
+    public /**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __construct() {
         parent::__construct();
         $this->addClass('modal-content');
     }
@@ -129,7 +196,68 @@ class ModalContent extends Div {
      * @return string
     
      */
-    public static function getStylesheetPath(): string {
+    public static /**
+ * getStylesheetPath
+ *
+ * @return string
+ */
+/**
+ * getStylesheetPath
+ *
+ * @return string
+ */
+/**
+ * getStylesheetPath
+ *
+ * @return string
+ */
+/**
+ * getStylesheetPath
+ *
+ * @return string
+ */
+/**
+ * getStylesheetPath
+ *
+ * @return string
+ */
+/**
+ * getStylesheetPath
+ *
+ * @return string
+ */
+/**
+ * getStylesheetPath
+ *
+ * @return string
+ */
+/**
+ * getStylesheetPath
+ *
+ * @return string
+ */
+/**
+ * getStylesheetPath
+ *
+ * @return string
+ */
+/**
+ * getStylesheetPath
+ *
+ * @return string
+ */
+/**
+ * getStylesheetPath
+ *
+ * @return string
+ */
+/**
+ * getStylesheetPath
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getStylesheetPath(): string {
         return '/css/modal.css';
     }
 }

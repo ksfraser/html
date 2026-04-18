@@ -77,6 +77,102 @@ use Ksfraser\HTML\Javascript\HtmlJSString;
  * @return void
 
  */
+/**
+ * HtmlScriptJS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptJS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlScriptJS extends HtmlScript
 {
 /**
@@ -86,7 +182,185 @@ class HtmlScriptJS extends HtmlScript
  * @param HtmlJSString $content
  * @return void
  */
-    public function __construct(HtmlJSString $content)
+    public /**
+ * __construct
+ *
+ * @param HtmlJSString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlJSString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlJSString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlJSString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlJSString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlJSString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlJSString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlJSString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlJSString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlJSString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlJSString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+function __construct(HtmlJSString $content)
     {
         parent::__construct('text/javascript', $content);
     }

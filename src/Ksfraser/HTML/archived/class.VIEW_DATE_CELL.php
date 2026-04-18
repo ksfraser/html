@@ -15,6 +15,12 @@ use Ksfraser\Origin\origin;
  * @return void
 
  */
+/**
+ * VIEW_DATE_CELL
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class VIEW_DATE_CELL extends VIEW_CELL
 {
 	protected $date;
@@ -24,7 +30,68 @@ class VIEW_DATE_CELL extends VIEW_CELL
  * @since v1.0.0 2026-04-14
  * @return void
  */
-	function __construct()
+	/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __construct()
 	{
 		
 	}
@@ -34,7 +101,68 @@ class VIEW_DATE_CELL extends VIEW_CELL
  * @since v1.0.0 2026-04-14
  * @return void
  */
-	function __toString()	
+	/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __toString()	
 	{
 		date_cells( 
 				_($this->get( "label" ) ),
@@ -60,7 +188,80 @@ class VIEW_DATE_CELL extends VIEW_CELL
      * @return void
 
      */
-    public function set_date($date)
+    public /**
+ * set_date
+ *
+ * @param mixed $date
+ * @return void
+ */
+/**
+ * set_date
+ *
+ * @param mixed $date
+ * @return void
+ */
+/**
+ * set_date
+ *
+ * @param mixed $date
+ * @return void
+ */
+/**
+ * set_date
+ *
+ * @param mixed $date
+ * @return void
+ */
+/**
+ * set_date
+ *
+ * @param mixed $date
+ * @return void
+ */
+/**
+ * set_date
+ *
+ * @param mixed $date
+ * @return void
+ */
+/**
+ * set_date
+ *
+ * @param mixed $date
+ * @return void
+ */
+/**
+ * set_date
+ *
+ * @param mixed $date
+ * @return void
+ */
+/**
+ * set_date
+ *
+ * @param mixed $date
+ * @return void
+ */
+/**
+ * set_date
+ *
+ * @param mixed $date
+ * @return void
+ */
+/**
+ * set_date
+ *
+ * @param mixed $date
+ * @return void
+ */
+/**
+ * set_date
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $date
+ * @return void
+ */
+function set_date($date)
     {
         if (!strtotime($date)) {
             throw new InvalidArgumentException("Invalid date format.");

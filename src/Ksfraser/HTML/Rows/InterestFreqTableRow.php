@@ -115,6 +115,102 @@ use Ksfraser\HTML\FAButtons\DeleteFrequencyActionButton;
  * @return void
 
  */
+/**
+ * InterestFreqTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * InterestFreqTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * InterestFreqTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * InterestFreqTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * InterestFreqTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * InterestFreqTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * InterestFreqTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * InterestFreqTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * InterestFreqTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * InterestFreqTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * InterestFreqTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * InterestFreqTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * InterestFreqTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * InterestFreqTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * InterestFreqTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * InterestFreqTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class InterestFreqTableRow extends BaseTableRow {
     /**
      * Build interest frequency row
@@ -123,7 +219,185 @@ class InterestFreqTableRow extends BaseTableRow {
      * @param object $freq Frequency object with id, name, description
      * @return TableRow
      */
-    public function build(object $freq): TableRow {
+    public /**
+ * build
+ *
+ * @param object $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $freq
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $freq
+ * @return TableRow
+ */
+function build(object $freq): TableRow {
         $row = (new TableRow())->addClass('data-row');
         
         $freqId = $freq->id ?? null;

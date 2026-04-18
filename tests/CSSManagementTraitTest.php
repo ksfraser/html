@@ -43,6 +43,61 @@ class CSSManagementTraitTest extends TestCase
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
 function setUp(): void
     {
         $this->element = new HtmlDiv();
@@ -61,6 +116,61 @@ function setUp(): void
  * testAddSingleCSSClassReturnsElement
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testAddSingleCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testAddSingleCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testAddSingleCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testAddSingleCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testAddSingleCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testAddSingleCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testAddSingleCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testAddSingleCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testAddSingleCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testAddSingleCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testAddSingleCSSClassReturnsElement
+ *
  * @return void
  */
 function testAddSingleCSSClassReturnsElement(): void
@@ -82,6 +192,61 @@ function testAddSingleCSSClassReturnsElement(): void
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testAddSingleCSSClassRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testAddSingleCSSClassRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testAddSingleCSSClassRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testAddSingleCSSClassRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testAddSingleCSSClassRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testAddSingleCSSClassRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testAddSingleCSSClassRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testAddSingleCSSClassRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testAddSingleCSSClassRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testAddSingleCSSClassRendersCorrectly
+ *
+ * @return void
+ */
+/**
+ * testAddSingleCSSClassRendersCorrectly
+ *
+ * @return void
+ */
 function testAddSingleCSSClassRendersCorrectly(): void
     {
         $this->element->addCSSClass('btn');
@@ -99,6 +264,61 @@ function testAddSingleCSSClassRendersCorrectly(): void
  * testAddMultipleCSSClassesIndividually
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testAddMultipleCSSClassesIndividually
+ *
+ * @return void
+ */
+/**
+ * testAddMultipleCSSClassesIndividually
+ *
+ * @return void
+ */
+/**
+ * testAddMultipleCSSClassesIndividually
+ *
+ * @return void
+ */
+/**
+ * testAddMultipleCSSClassesIndividually
+ *
+ * @return void
+ */
+/**
+ * testAddMultipleCSSClassesIndividually
+ *
+ * @return void
+ */
+/**
+ * testAddMultipleCSSClassesIndividually
+ *
+ * @return void
+ */
+/**
+ * testAddMultipleCSSClassesIndividually
+ *
+ * @return void
+ */
+/**
+ * testAddMultipleCSSClassesIndividually
+ *
+ * @return void
+ */
+/**
+ * testAddMultipleCSSClassesIndividually
+ *
+ * @return void
+ */
+/**
+ * testAddMultipleCSSClassesIndividually
+ *
+ * @return void
+ */
+/**
+ * testAddMultipleCSSClassesIndividually
+ *
  * @return void
  */
 function testAddMultipleCSSClassesIndividually(): void
@@ -126,6 +346,61 @@ function testAddMultipleCSSClassesIndividually(): void
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testAddCSSClassesBatchOperation
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassesBatchOperation
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassesBatchOperation
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassesBatchOperation
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassesBatchOperation
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassesBatchOperation
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassesBatchOperation
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassesBatchOperation
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassesBatchOperation
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassesBatchOperation
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassesBatchOperation
+ *
+ * @return void
+ */
 function testAddCSSClassesBatchOperation(): void
     {
         $classes = ['btn', 'btn-primary', 'btn-lg'];
@@ -150,6 +425,61 @@ function testAddCSSClassesBatchOperation(): void
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testAddCSSClassesBatchReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassesBatchReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassesBatchReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassesBatchReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassesBatchReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassesBatchReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassesBatchReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassesBatchReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassesBatchReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassesBatchReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassesBatchReturnsElement
+ *
+ * @return void
+ */
 function testAddCSSClassesBatchReturnsElement(): void
     {
         $result = $this->element->addCSSClasses(['btn', 'primary']);
@@ -167,6 +497,61 @@ function testAddCSSClassesBatchReturnsElement(): void
  * testConditionalCSSClassWithTrueCondition
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithTrueCondition
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithTrueCondition
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithTrueCondition
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithTrueCondition
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithTrueCondition
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithTrueCondition
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithTrueCondition
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithTrueCondition
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithTrueCondition
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithTrueCondition
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithTrueCondition
+ *
  * @return void
  */
 function testConditionalCSSClassWithTrueCondition(): void
@@ -188,6 +573,61 @@ function testConditionalCSSClassWithTrueCondition(): void
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testConditionalCSSClassWithFalseCondition
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithFalseCondition
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithFalseCondition
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithFalseCondition
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithFalseCondition
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithFalseCondition
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithFalseCondition
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithFalseCondition
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithFalseCondition
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithFalseCondition
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithFalseCondition
+ *
+ * @return void
+ */
 function testConditionalCSSClassWithFalseCondition(): void
     {
         $this->element->addCSSClass('active', false);
@@ -205,6 +645,61 @@ function testConditionalCSSClassWithFalseCondition(): void
  * testConditionalCSSClassWithExpressionTrue
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithExpressionTrue
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithExpressionTrue
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithExpressionTrue
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithExpressionTrue
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithExpressionTrue
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithExpressionTrue
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithExpressionTrue
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithExpressionTrue
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithExpressionTrue
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithExpressionTrue
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithExpressionTrue
+ *
  * @return void
  */
 function testConditionalCSSClassWithExpressionTrue(): void
@@ -227,6 +722,61 @@ function testConditionalCSSClassWithExpressionTrue(): void
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testConditionalCSSClassWithExpressionFalse
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithExpressionFalse
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithExpressionFalse
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithExpressionFalse
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithExpressionFalse
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithExpressionFalse
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithExpressionFalse
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithExpressionFalse
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithExpressionFalse
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithExpressionFalse
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSClassWithExpressionFalse
+ *
+ * @return void
+ */
 function testConditionalCSSClassWithExpressionFalse(): void
     {
         $isDisabled = false;
@@ -245,6 +795,61 @@ function testConditionalCSSClassWithExpressionFalse(): void
  * testRemoveCSSClassRemovesPresent
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testRemoveCSSClassRemovesPresent
+ *
+ * @return void
+ */
+/**
+ * testRemoveCSSClassRemovesPresent
+ *
+ * @return void
+ */
+/**
+ * testRemoveCSSClassRemovesPresent
+ *
+ * @return void
+ */
+/**
+ * testRemoveCSSClassRemovesPresent
+ *
+ * @return void
+ */
+/**
+ * testRemoveCSSClassRemovesPresent
+ *
+ * @return void
+ */
+/**
+ * testRemoveCSSClassRemovesPresent
+ *
+ * @return void
+ */
+/**
+ * testRemoveCSSClassRemovesPresent
+ *
+ * @return void
+ */
+/**
+ * testRemoveCSSClassRemovesPresent
+ *
+ * @return void
+ */
+/**
+ * testRemoveCSSClassRemovesPresent
+ *
+ * @return void
+ */
+/**
+ * testRemoveCSSClassRemovesPresent
+ *
+ * @return void
+ */
+/**
+ * testRemoveCSSClassRemovesPresent
+ *
  * @return void
  */
 function testRemoveCSSClassRemovesPresent(): void
@@ -270,6 +875,61 @@ function testRemoveCSSClassRemovesPresent(): void
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testRemoveCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testRemoveCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testRemoveCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testRemoveCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testRemoveCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testRemoveCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testRemoveCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testRemoveCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testRemoveCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testRemoveCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testRemoveCSSClassReturnsElement
+ *
+ * @return void
+ */
 function testRemoveCSSClassReturnsElement(): void
     {
         $this->element->addCSSClass('btn');
@@ -288,6 +948,61 @@ function testRemoveCSSClassReturnsElement(): void
  * testRemoveNonExistentCSSClassDoesNotError
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testRemoveNonExistentCSSClassDoesNotError
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentCSSClassDoesNotError
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentCSSClassDoesNotError
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentCSSClassDoesNotError
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentCSSClassDoesNotError
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentCSSClassDoesNotError
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentCSSClassDoesNotError
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentCSSClassDoesNotError
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentCSSClassDoesNotError
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentCSSClassDoesNotError
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentCSSClassDoesNotError
+ *
  * @return void
  */
 function testRemoveNonExistentCSSClassDoesNotError(): void
@@ -310,6 +1025,61 @@ function testRemoveNonExistentCSSClassDoesNotError(): void
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testToggleCSSClassOnAdds
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassOnAdds
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassOnAdds
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassOnAdds
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassOnAdds
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassOnAdds
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassOnAdds
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassOnAdds
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassOnAdds
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassOnAdds
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassOnAdds
+ *
+ * @return void
+ */
 function testToggleCSSClassOnAdds(): void
     {
         $this->element->toggleCSSClass('active');
@@ -327,6 +1097,61 @@ function testToggleCSSClassOnAdds(): void
  * testToggleCSSClassOnRemoves
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testToggleCSSClassOnRemoves
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassOnRemoves
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassOnRemoves
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassOnRemoves
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassOnRemoves
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassOnRemoves
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassOnRemoves
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassOnRemoves
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassOnRemoves
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassOnRemoves
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassOnRemoves
+ *
  * @return void
  */
 function testToggleCSSClassOnRemoves(): void
@@ -349,6 +1174,61 @@ function testToggleCSSClassOnRemoves(): void
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testToggleCSSClassWithForceTrue
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassWithForceTrue
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassWithForceTrue
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassWithForceTrue
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassWithForceTrue
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassWithForceTrue
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassWithForceTrue
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassWithForceTrue
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassWithForceTrue
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassWithForceTrue
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassWithForceTrue
+ *
+ * @return void
+ */
 function testToggleCSSClassWithForceTrue(): void
     {
         $this->element->toggleCSSClass('active', true);
@@ -366,6 +1246,61 @@ function testToggleCSSClassWithForceTrue(): void
  * testToggleCSSClassWithForceFalse
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testToggleCSSClassWithForceFalse
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassWithForceFalse
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassWithForceFalse
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassWithForceFalse
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassWithForceFalse
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassWithForceFalse
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassWithForceFalse
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassWithForceFalse
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassWithForceFalse
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassWithForceFalse
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassWithForceFalse
+ *
  * @return void
  */
 function testToggleCSSClassWithForceFalse(): void
@@ -388,6 +1323,61 @@ function testToggleCSSClassWithForceFalse(): void
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testToggleCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassReturnsElement
+ *
+ * @return void
+ */
+/**
+ * testToggleCSSClassReturnsElement
+ *
+ * @return void
+ */
 function testToggleCSSClassReturnsElement(): void
     {
         $result = $this->element->toggleCSSClass('active');
@@ -405,6 +1395,61 @@ function testToggleCSSClassReturnsElement(): void
  * testHasCSSClassReturnsTrueWhenPresent
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testHasCSSClassReturnsTrueWhenPresent
+ *
+ * @return void
+ */
+/**
+ * testHasCSSClassReturnsTrueWhenPresent
+ *
+ * @return void
+ */
+/**
+ * testHasCSSClassReturnsTrueWhenPresent
+ *
+ * @return void
+ */
+/**
+ * testHasCSSClassReturnsTrueWhenPresent
+ *
+ * @return void
+ */
+/**
+ * testHasCSSClassReturnsTrueWhenPresent
+ *
+ * @return void
+ */
+/**
+ * testHasCSSClassReturnsTrueWhenPresent
+ *
+ * @return void
+ */
+/**
+ * testHasCSSClassReturnsTrueWhenPresent
+ *
+ * @return void
+ */
+/**
+ * testHasCSSClassReturnsTrueWhenPresent
+ *
+ * @return void
+ */
+/**
+ * testHasCSSClassReturnsTrueWhenPresent
+ *
+ * @return void
+ */
+/**
+ * testHasCSSClassReturnsTrueWhenPresent
+ *
+ * @return void
+ */
+/**
+ * testHasCSSClassReturnsTrueWhenPresent
+ *
  * @return void
  */
 function testHasCSSClassReturnsTrueWhenPresent(): void
@@ -426,6 +1471,61 @@ function testHasCSSClassReturnsTrueWhenPresent(): void
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testHasCSSClassReturnsFalseWhenAbsent
+ *
+ * @return void
+ */
+/**
+ * testHasCSSClassReturnsFalseWhenAbsent
+ *
+ * @return void
+ */
+/**
+ * testHasCSSClassReturnsFalseWhenAbsent
+ *
+ * @return void
+ */
+/**
+ * testHasCSSClassReturnsFalseWhenAbsent
+ *
+ * @return void
+ */
+/**
+ * testHasCSSClassReturnsFalseWhenAbsent
+ *
+ * @return void
+ */
+/**
+ * testHasCSSClassReturnsFalseWhenAbsent
+ *
+ * @return void
+ */
+/**
+ * testHasCSSClassReturnsFalseWhenAbsent
+ *
+ * @return void
+ */
+/**
+ * testHasCSSClassReturnsFalseWhenAbsent
+ *
+ * @return void
+ */
+/**
+ * testHasCSSClassReturnsFalseWhenAbsent
+ *
+ * @return void
+ */
+/**
+ * testHasCSSClassReturnsFalseWhenAbsent
+ *
+ * @return void
+ */
+/**
+ * testHasCSSClassReturnsFalseWhenAbsent
+ *
+ * @return void
+ */
 function testHasCSSClassReturnsFalseWhenAbsent(): void
     {
         $this->element->addCSSClass('btn');
@@ -443,6 +1543,61 @@ function testHasCSSClassReturnsFalseWhenAbsent(): void
  * testGetCSSClassesReturnsArray
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testGetCSSClassesReturnsArray
+ *
+ * @return void
+ */
+/**
+ * testGetCSSClassesReturnsArray
+ *
+ * @return void
+ */
+/**
+ * testGetCSSClassesReturnsArray
+ *
+ * @return void
+ */
+/**
+ * testGetCSSClassesReturnsArray
+ *
+ * @return void
+ */
+/**
+ * testGetCSSClassesReturnsArray
+ *
+ * @return void
+ */
+/**
+ * testGetCSSClassesReturnsArray
+ *
+ * @return void
+ */
+/**
+ * testGetCSSClassesReturnsArray
+ *
+ * @return void
+ */
+/**
+ * testGetCSSClassesReturnsArray
+ *
+ * @return void
+ */
+/**
+ * testGetCSSClassesReturnsArray
+ *
+ * @return void
+ */
+/**
+ * testGetCSSClassesReturnsArray
+ *
+ * @return void
+ */
+/**
+ * testGetCSSClassesReturnsArray
+ *
  * @return void
  */
 function testGetCSSClassesReturnsArray(): void
@@ -470,6 +1625,61 @@ function testGetCSSClassesReturnsArray(): void
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testGetCSSClassesEmpty
+ *
+ * @return void
+ */
+/**
+ * testGetCSSClassesEmpty
+ *
+ * @return void
+ */
+/**
+ * testGetCSSClassesEmpty
+ *
+ * @return void
+ */
+/**
+ * testGetCSSClassesEmpty
+ *
+ * @return void
+ */
+/**
+ * testGetCSSClassesEmpty
+ *
+ * @return void
+ */
+/**
+ * testGetCSSClassesEmpty
+ *
+ * @return void
+ */
+/**
+ * testGetCSSClassesEmpty
+ *
+ * @return void
+ */
+/**
+ * testGetCSSClassesEmpty
+ *
+ * @return void
+ */
+/**
+ * testGetCSSClassesEmpty
+ *
+ * @return void
+ */
+/**
+ * testGetCSSClassesEmpty
+ *
+ * @return void
+ */
+/**
+ * testGetCSSClassesEmpty
+ *
+ * @return void
+ */
 function testGetCSSClassesEmpty(): void
     {
         $classes = $this->element->getCSSClasses();
@@ -491,6 +1701,61 @@ function testGetCSSClassesEmpty(): void
  * testAddDuplicateCSSClassDeduplicated
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testAddDuplicateCSSClassDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testAddDuplicateCSSClassDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testAddDuplicateCSSClassDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testAddDuplicateCSSClassDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testAddDuplicateCSSClassDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testAddDuplicateCSSClassDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testAddDuplicateCSSClassDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testAddDuplicateCSSClassDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testAddDuplicateCSSClassDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testAddDuplicateCSSClassDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testAddDuplicateCSSClassDeduplicated
+ *
  * @return void
  */
 function testAddDuplicateCSSClassDeduplicated(): void
@@ -518,6 +1783,61 @@ function testAddDuplicateCSSClassDeduplicated(): void
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testBatchAddWithDuplicatesDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithDuplicatesDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithDuplicatesDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithDuplicatesDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithDuplicatesDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithDuplicatesDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithDuplicatesDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithDuplicatesDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithDuplicatesDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithDuplicatesDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithDuplicatesDeduplicated
+ *
+ * @return void
+ */
 function testBatchAddWithDuplicatesDeduplicated(): void
     {
         $this->element->addCSSClasses(['btn', 'primary', 'btn']);
@@ -540,6 +1860,61 @@ function testBatchAddWithDuplicatesDeduplicated(): void
  * testExistingAndNewClassDeduplicated
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testExistingAndNewClassDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testExistingAndNewClassDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testExistingAndNewClassDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testExistingAndNewClassDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testExistingAndNewClassDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testExistingAndNewClassDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testExistingAndNewClassDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testExistingAndNewClassDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testExistingAndNewClassDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testExistingAndNewClassDeduplicated
+ *
+ * @return void
+ */
+/**
+ * testExistingAndNewClassDeduplicated
+ *
  * @return void
  */
 function testExistingAndNewClassDeduplicated(): void
@@ -567,6 +1942,61 @@ function testExistingAndNewClassDeduplicated(): void
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testAddEmptyStringIgnored
+ *
+ * @return void
+ */
+/**
+ * testAddEmptyStringIgnored
+ *
+ * @return void
+ */
+/**
+ * testAddEmptyStringIgnored
+ *
+ * @return void
+ */
+/**
+ * testAddEmptyStringIgnored
+ *
+ * @return void
+ */
+/**
+ * testAddEmptyStringIgnored
+ *
+ * @return void
+ */
+/**
+ * testAddEmptyStringIgnored
+ *
+ * @return void
+ */
+/**
+ * testAddEmptyStringIgnored
+ *
+ * @return void
+ */
+/**
+ * testAddEmptyStringIgnored
+ *
+ * @return void
+ */
+/**
+ * testAddEmptyStringIgnored
+ *
+ * @return void
+ */
+/**
+ * testAddEmptyStringIgnored
+ *
+ * @return void
+ */
+/**
+ * testAddEmptyStringIgnored
+ *
+ * @return void
+ */
 function testAddEmptyStringIgnored(): void
     {
         $this->element->addCSSClass('');
@@ -588,6 +2018,61 @@ function testAddEmptyStringIgnored(): void
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testAddWhitespaceOnlyIgnored
+ *
+ * @return void
+ */
+/**
+ * testAddWhitespaceOnlyIgnored
+ *
+ * @return void
+ */
+/**
+ * testAddWhitespaceOnlyIgnored
+ *
+ * @return void
+ */
+/**
+ * testAddWhitespaceOnlyIgnored
+ *
+ * @return void
+ */
+/**
+ * testAddWhitespaceOnlyIgnored
+ *
+ * @return void
+ */
+/**
+ * testAddWhitespaceOnlyIgnored
+ *
+ * @return void
+ */
+/**
+ * testAddWhitespaceOnlyIgnored
+ *
+ * @return void
+ */
+/**
+ * testAddWhitespaceOnlyIgnored
+ *
+ * @return void
+ */
+/**
+ * testAddWhitespaceOnlyIgnored
+ *
+ * @return void
+ */
+/**
+ * testAddWhitespaceOnlyIgnored
+ *
+ * @return void
+ */
+/**
+ * testAddWhitespaceOnlyIgnored
+ *
+ * @return void
+ */
 function testAddWhitespaceOnlyIgnored(): void
     {
         $this->element->addCSSClass('   ');
@@ -607,6 +2092,61 @@ function testAddWhitespaceOnlyIgnored(): void
  * testAddCSSClassWithLeadingTrailingWhitespace
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testAddCSSClassWithLeadingTrailingWhitespace
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassWithLeadingTrailingWhitespace
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassWithLeadingTrailingWhitespace
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassWithLeadingTrailingWhitespace
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassWithLeadingTrailingWhitespace
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassWithLeadingTrailingWhitespace
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassWithLeadingTrailingWhitespace
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassWithLeadingTrailingWhitespace
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassWithLeadingTrailingWhitespace
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassWithLeadingTrailingWhitespace
+ *
+ * @return void
+ */
+/**
+ * testAddCSSClassWithLeadingTrailingWhitespace
+ *
  * @return void
  */
 function testAddCSSClassWithLeadingTrailingWhitespace(): void
@@ -632,6 +2172,61 @@ function testAddCSSClassWithLeadingTrailingWhitespace(): void
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testAddValidCSSClassWithHyphens
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithHyphens
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithHyphens
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithHyphens
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithHyphens
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithHyphens
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithHyphens
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithHyphens
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithHyphens
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithHyphens
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithHyphens
+ *
+ * @return void
+ */
 function testAddValidCSSClassWithHyphens(): void
     {
         $this->element->addCSSClass('btn-primary-lg');
@@ -650,6 +2245,61 @@ function testAddValidCSSClassWithHyphens(): void
  * testAddValidCSSClassWithNumbers
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithNumbers
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithNumbers
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithNumbers
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithNumbers
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithNumbers
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithNumbers
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithNumbers
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithNumbers
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithNumbers
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithNumbers
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithNumbers
+ *
  * @return void
  */
 function testAddValidCSSClassWithNumbers(): void
@@ -672,6 +2322,61 @@ function testAddValidCSSClassWithNumbers(): void
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testAddValidCSSClassWithUnderscores
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithUnderscores
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithUnderscores
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithUnderscores
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithUnderscores
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithUnderscores
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithUnderscores
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithUnderscores
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithUnderscores
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithUnderscores
+ *
+ * @return void
+ */
+/**
+ * testAddValidCSSClassWithUnderscores
+ *
+ * @return void
+ */
 function testAddValidCSSClassWithUnderscores(): void
     {
         $this->element->addCSSClass('btn_active_state');
@@ -690,6 +2395,61 @@ function testAddValidCSSClassWithUnderscores(): void
  * testBatchAddWithEmptyStrings
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testBatchAddWithEmptyStrings
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithEmptyStrings
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithEmptyStrings
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithEmptyStrings
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithEmptyStrings
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithEmptyStrings
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithEmptyStrings
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithEmptyStrings
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithEmptyStrings
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithEmptyStrings
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithEmptyStrings
+ *
  * @return void
  */
 function testBatchAddWithEmptyStrings(): void
@@ -716,6 +2476,61 @@ function testBatchAddWithEmptyStrings(): void
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testLongCSSClassNameAccepted
+ *
+ * @return void
+ */
+/**
+ * testLongCSSClassNameAccepted
+ *
+ * @return void
+ */
+/**
+ * testLongCSSClassNameAccepted
+ *
+ * @return void
+ */
+/**
+ * testLongCSSClassNameAccepted
+ *
+ * @return void
+ */
+/**
+ * testLongCSSClassNameAccepted
+ *
+ * @return void
+ */
+/**
+ * testLongCSSClassNameAccepted
+ *
+ * @return void
+ */
+/**
+ * testLongCSSClassNameAccepted
+ *
+ * @return void
+ */
+/**
+ * testLongCSSClassNameAccepted
+ *
+ * @return void
+ */
+/**
+ * testLongCSSClassNameAccepted
+ *
+ * @return void
+ */
+/**
+ * testLongCSSClassNameAccepted
+ *
+ * @return void
+ */
+/**
+ * testLongCSSClassNameAccepted
+ *
+ * @return void
+ */
 function testLongCSSClassNameAccepted(): void
     {
         $longClass = 'my-incredibly-long-class-name-that-should-still-work-' . str_repeat('x', 1000);
@@ -735,6 +2550,61 @@ function testLongCSSClassNameAccepted(): void
  * testManyClassesPerformance
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testManyClassesPerformance
+ *
+ * @return void
+ */
+/**
+ * testManyClassesPerformance
+ *
+ * @return void
+ */
+/**
+ * testManyClassesPerformance
+ *
+ * @return void
+ */
+/**
+ * testManyClassesPerformance
+ *
+ * @return void
+ */
+/**
+ * testManyClassesPerformance
+ *
+ * @return void
+ */
+/**
+ * testManyClassesPerformance
+ *
+ * @return void
+ */
+/**
+ * testManyClassesPerformance
+ *
+ * @return void
+ */
+/**
+ * testManyClassesPerformance
+ *
+ * @return void
+ */
+/**
+ * testManyClassesPerformance
+ *
+ * @return void
+ */
+/**
+ * testManyClassesPerformance
+ *
+ * @return void
+ */
+/**
+ * testManyClassesPerformance
+ *
  * @return void
  */
 function testManyClassesPerformance(): void
@@ -768,6 +2638,61 @@ function testManyClassesPerformance(): void
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testAddInvalidCSSClassWithSpaceThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSpaceThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSpaceThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSpaceThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSpaceThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSpaceThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSpaceThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSpaceThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSpaceThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSpaceThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSpaceThrowsException
+ *
+ * @return void
+ */
 function testAddInvalidCSSClassWithSpaceThrowsException(): void
     {
         $this->expectException(\InvalidArgumentException::/**
@@ -792,6 +2717,61 @@ class);
  * testAddInvalidCSSClassWithCommaThrowsException
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithCommaThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithCommaThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithCommaThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithCommaThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithCommaThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithCommaThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithCommaThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithCommaThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithCommaThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithCommaThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithCommaThrowsException
+ *
  * @return void
  */
 function testAddInvalidCSSClassWithCommaThrowsException(): void
@@ -820,6 +2800,61 @@ class);
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testAddInvalidCSSClassWithSpecialCharacterThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSpecialCharacterThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSpecialCharacterThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSpecialCharacterThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSpecialCharacterThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSpecialCharacterThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSpecialCharacterThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSpecialCharacterThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSpecialCharacterThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSpecialCharacterThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSpecialCharacterThrowsException
+ *
+ * @return void
+ */
 function testAddInvalidCSSClassWithSpecialCharacterThrowsException(): void
     {
         $this->expectException(\InvalidArgumentException::/**
@@ -846,6 +2881,61 @@ class);
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testAddInvalidCSSClassWithSemicolonThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSemicolonThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSemicolonThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSemicolonThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSemicolonThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSemicolonThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSemicolonThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSemicolonThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSemicolonThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSemicolonThrowsException
+ *
+ * @return void
+ */
+/**
+ * testAddInvalidCSSClassWithSemicolonThrowsException
+ *
+ * @return void
+ */
 function testAddInvalidCSSClassWithSemicolonThrowsException(): void
     {
         $this->expectException(\InvalidArgumentException::/**
@@ -870,6 +2960,61 @@ class);
  * testBatchAddWithInvalidClassesThrowsException
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testBatchAddWithInvalidClassesThrowsException
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithInvalidClassesThrowsException
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithInvalidClassesThrowsException
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithInvalidClassesThrowsException
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithInvalidClassesThrowsException
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithInvalidClassesThrowsException
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithInvalidClassesThrowsException
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithInvalidClassesThrowsException
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithInvalidClassesThrowsException
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithInvalidClassesThrowsException
+ *
+ * @return void
+ */
+/**
+ * testBatchAddWithInvalidClassesThrowsException
+ *
  * @return void
  */
 function testBatchAddWithInvalidClassesThrowsException(): void
@@ -900,6 +3045,61 @@ class);
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testCSSPreservedWithOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testCSSPreservedWithOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testCSSPreservedWithOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testCSSPreservedWithOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testCSSPreservedWithOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testCSSPreservedWithOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testCSSPreservedWithOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testCSSPreservedWithOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testCSSPreservedWithOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testCSSPreservedWithOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testCSSPreservedWithOtherAttributes
+ *
+ * @return void
+ */
 function testCSSPreservedWithOtherAttributes(): void
     {
         $this->element
@@ -926,6 +3126,61 @@ function testCSSPreservedWithOtherAttributes(): void
  * testMultipleCSSOperationsChained
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testMultipleCSSOperationsChained
+ *
+ * @return void
+ */
+/**
+ * testMultipleCSSOperationsChained
+ *
+ * @return void
+ */
+/**
+ * testMultipleCSSOperationsChained
+ *
+ * @return void
+ */
+/**
+ * testMultipleCSSOperationsChained
+ *
+ * @return void
+ */
+/**
+ * testMultipleCSSOperationsChained
+ *
+ * @return void
+ */
+/**
+ * testMultipleCSSOperationsChained
+ *
+ * @return void
+ */
+/**
+ * testMultipleCSSOperationsChained
+ *
+ * @return void
+ */
+/**
+ * testMultipleCSSOperationsChained
+ *
+ * @return void
+ */
+/**
+ * testMultipleCSSOperationsChained
+ *
+ * @return void
+ */
+/**
+ * testMultipleCSSOperationsChained
+ *
+ * @return void
+ */
+/**
+ * testMultipleCSSOperationsChained
+ *
  * @return void
  */
 function testMultipleCSSOperationsChained(): void
@@ -961,6 +3216,61 @@ function testMultipleCSSOperationsChained(): void
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testCSSWithNestedElements
+ *
+ * @return void
+ */
+/**
+ * testCSSWithNestedElements
+ *
+ * @return void
+ */
+/**
+ * testCSSWithNestedElements
+ *
+ * @return void
+ */
+/**
+ * testCSSWithNestedElements
+ *
+ * @return void
+ */
+/**
+ * testCSSWithNestedElements
+ *
+ * @return void
+ */
+/**
+ * testCSSWithNestedElements
+ *
+ * @return void
+ */
+/**
+ * testCSSWithNestedElements
+ *
+ * @return void
+ */
+/**
+ * testCSSWithNestedElements
+ *
+ * @return void
+ */
+/**
+ * testCSSWithNestedElements
+ *
+ * @return void
+ */
+/**
+ * testCSSWithNestedElements
+ *
+ * @return void
+ */
+/**
+ * testCSSWithNestedElements
+ *
+ * @return void
+ */
 function testCSSWithNestedElements(): void
     {
         $button = new HtmlButton('Click me');
@@ -987,6 +3297,61 @@ function testCSSWithNestedElements(): void
  * testCSSWithBootstrapPattern
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testCSSWithBootstrapPattern
+ *
+ * @return void
+ */
+/**
+ * testCSSWithBootstrapPattern
+ *
+ * @return void
+ */
+/**
+ * testCSSWithBootstrapPattern
+ *
+ * @return void
+ */
+/**
+ * testCSSWithBootstrapPattern
+ *
+ * @return void
+ */
+/**
+ * testCSSWithBootstrapPattern
+ *
+ * @return void
+ */
+/**
+ * testCSSWithBootstrapPattern
+ *
+ * @return void
+ */
+/**
+ * testCSSWithBootstrapPattern
+ *
+ * @return void
+ */
+/**
+ * testCSSWithBootstrapPattern
+ *
+ * @return void
+ */
+/**
+ * testCSSWithBootstrapPattern
+ *
+ * @return void
+ */
+/**
+ * testCSSWithBootstrapPattern
+ *
+ * @return void
+ */
+/**
+ * testCSSWithBootstrapPattern
+ *
  * @return void
  */
 function testCSSWithBootstrapPattern(): void
@@ -1016,6 +3381,61 @@ function testCSSWithBootstrapPattern(): void
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testCSSWithTailwindPattern
+ *
+ * @return void
+ */
+/**
+ * testCSSWithTailwindPattern
+ *
+ * @return void
+ */
+/**
+ * testCSSWithTailwindPattern
+ *
+ * @return void
+ */
+/**
+ * testCSSWithTailwindPattern
+ *
+ * @return void
+ */
+/**
+ * testCSSWithTailwindPattern
+ *
+ * @return void
+ */
+/**
+ * testCSSWithTailwindPattern
+ *
+ * @return void
+ */
+/**
+ * testCSSWithTailwindPattern
+ *
+ * @return void
+ */
+/**
+ * testCSSWithTailwindPattern
+ *
+ * @return void
+ */
+/**
+ * testCSSWithTailwindPattern
+ *
+ * @return void
+ */
+/**
+ * testCSSWithTailwindPattern
+ *
+ * @return void
+ */
+/**
+ * testCSSWithTailwindPattern
+ *
+ * @return void
+ */
 function testCSSWithTailwindPattern(): void
     {
         $div = new HtmlDiv();
@@ -1043,6 +3463,61 @@ function testCSSWithTailwindPattern(): void
  * testConditionalCSSInComplexScenario
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testConditionalCSSInComplexScenario
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSInComplexScenario
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSInComplexScenario
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSInComplexScenario
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSInComplexScenario
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSInComplexScenario
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSInComplexScenario
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSInComplexScenario
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSInComplexScenario
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSInComplexScenario
+ *
+ * @return void
+ */
+/**
+ * testConditionalCSSInComplexScenario
+ *
  * @return void
  */
 function testConditionalCSSInComplexScenario(): void
@@ -1080,6 +3555,61 @@ function testConditionalCSSInComplexScenario(): void
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testExistingSetAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingSetAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingSetAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingSetAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingSetAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingSetAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingSetAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingSetAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingSetAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingSetAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingSetAttributeStillWorks
+ *
+ * @return void
+ */
 function testExistingSetAttributeStillWorks(): void
     {
         $this->element->setAttribute('class', 'btn');
@@ -1098,6 +3628,61 @@ function testExistingSetAttributeStillWorks(): void
  * testExistingAddAttributeStillWorks
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testExistingAddAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingAddAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingAddAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingAddAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingAddAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingAddAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingAddAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingAddAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingAddAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingAddAttributeStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingAddAttributeStillWorks
+ *
  * @return void
  */
 function testExistingAddAttributeStillWorks(): void
@@ -1120,6 +3705,61 @@ function testExistingAddAttributeStillWorks(): void
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testExistingAddCSSClassStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingAddCSSClassStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingAddCSSClassStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingAddCSSClassStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingAddCSSClassStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingAddCSSClassStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingAddCSSClassStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingAddCSSClassStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingAddCSSClassStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingAddCSSClassStillWorks
+ *
+ * @return void
+ */
+/**
+ * testExistingAddCSSClassStillWorks
+ *
+ * @return void
+ */
 function testExistingAddCSSClassStillWorks(): void
     {
         $this->element->addCSSClass('btn');
@@ -1138,6 +3778,61 @@ function testExistingAddCSSClassStillWorks(): void
  * testBackwardCompatibilityWithSetAttributeClass
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testBackwardCompatibilityWithSetAttributeClass
+ *
+ * @return void
+ */
+/**
+ * testBackwardCompatibilityWithSetAttributeClass
+ *
+ * @return void
+ */
+/**
+ * testBackwardCompatibilityWithSetAttributeClass
+ *
+ * @return void
+ */
+/**
+ * testBackwardCompatibilityWithSetAttributeClass
+ *
+ * @return void
+ */
+/**
+ * testBackwardCompatibilityWithSetAttributeClass
+ *
+ * @return void
+ */
+/**
+ * testBackwardCompatibilityWithSetAttributeClass
+ *
+ * @return void
+ */
+/**
+ * testBackwardCompatibilityWithSetAttributeClass
+ *
+ * @return void
+ */
+/**
+ * testBackwardCompatibilityWithSetAttributeClass
+ *
+ * @return void
+ */
+/**
+ * testBackwardCompatibilityWithSetAttributeClass
+ *
+ * @return void
+ */
+/**
+ * testBackwardCompatibilityWithSetAttributeClass
+ *
+ * @return void
+ */
+/**
+ * testBackwardCompatibilityWithSetAttributeClass
+ *
  * @return void
  */
 function testBackwardCompatibilityWithSetAttributeClass(): void

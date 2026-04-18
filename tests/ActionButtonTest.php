@@ -29,6 +29,72 @@ class DummyActionButton extends ActionButton {
  * @param mixed $label
  * @return void
  */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $label
+ * @return void
+ */
 function __construct(HtmlElementInterface $label = null) {
         parent::__construct('dummy', $label);
     }
@@ -42,6 +108,61 @@ function __construct(HtmlElementInterface $label = null) {
  * setupActionButton
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
+ * @return void
+ */
+/**
+ * setupActionButton
+ *
  * @return void
  */
 function setupActionButton() {
@@ -71,6 +192,61 @@ class ActionButtonTest extends TestCase {
  * testCanInstantiate
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testCanInstantiate
+ *
+ * @return void
+ */
+/**
+ * testCanInstantiate
+ *
+ * @return void
+ */
+/**
+ * testCanInstantiate
+ *
+ * @return void
+ */
+/**
+ * testCanInstantiate
+ *
+ * @return void
+ */
+/**
+ * testCanInstantiate
+ *
+ * @return void
+ */
+/**
+ * testCanInstantiate
+ *
+ * @return void
+ */
+/**
+ * testCanInstantiate
+ *
+ * @return void
+ */
+/**
+ * testCanInstantiate
+ *
+ * @return void
+ */
+/**
+ * testCanInstantiate
+ *
+ * @return void
+ */
+/**
+ * testCanInstantiate
+ *
+ * @return void
+ */
+/**
+ * testCanInstantiate
+ *
  * @return void
  */
 function testCanInstantiate() {

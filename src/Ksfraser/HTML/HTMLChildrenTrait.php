@@ -16,6 +16,102 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * HTMLChildrenTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTMLChildrenTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTMLChildrenTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTMLChildrenTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTMLChildrenTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTMLChildrenTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTMLChildrenTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTMLChildrenTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTMLChildrenTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTMLChildrenTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTMLChildrenTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTMLChildrenTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTMLChildrenTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTMLChildrenTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTMLChildrenTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HTMLChildrenTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 trait HTMLChildrenTrait {
 	
 	/**
@@ -38,7 +134,158 @@ trait HTMLChildrenTrait {
  	 * @return HtmlElementInterface[]
 	
  	 */
- 	public function getChildren() {
+ 	public /**
+ * getChildren
+ *
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function getChildren() {
  		return $this->children;
  	}
 
@@ -55,7 +302,185 @@ trait HTMLChildrenTrait {
 	 * @return $this
 
 	 */
- 	public function setChildren(array $children) {
+ 	public /**
+ * setChildren
+ *
+ * @param array $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @param array $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @param array $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @param array $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @param array $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @param array $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @param array $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @param array $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @param array $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @param array $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @param array $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+/**
+ * setChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $children
+ * @return void
+ */
+function setChildren(array $children) {
 		foreach( $children as $child )
 		{
 			$this->addChild( $child );
@@ -76,7 +501,185 @@ trait HTMLChildrenTrait {
 	 * @return \Mouf\Html\Tags\ChildrenTrait
 	
 	 */
-	public function addChild(HtmlElementInterface $child) {
+	public /**
+ * addChild
+ *
+ * @param HtmlElementInterface $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @param HtmlElementInterface $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return void
+ */
+/**
+ * addChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return void
+ */
+function addChild(HtmlElementInterface $child) {
 		$this->children[] = $child;
 		return $this;
 	}
@@ -92,7 +695,158 @@ trait HTMLChildrenTrait {
 	 * @return string
 	
 	 */
-	protected function renderChildren() {
+	protected /**
+ * renderChildren
+ *
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function renderChildren() {
 		ob_start();
 		foreach ($this->children as $child) {
 			if ($child != null) {
@@ -107,7 +861,158 @@ trait HTMLChildrenTrait {
  * @since 1.0.1 2026-02-16
  * @return void
  */
-	protected function renderChildrenHtml()
+	protected /**
+ * renderChildrenHtml
+ *
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * renderChildrenHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function renderChildrenHtml()
 	{
 		$html = "";
 		foreach ($this->children as $child) {

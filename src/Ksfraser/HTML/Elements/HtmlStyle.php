@@ -231,6 +231,102 @@ use Ksfraser\HTML\HtmlElementInterface;
 
  */
 
+/**
+ * HtmlStyle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlStyle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlStyle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlStyle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlStyle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlStyle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlStyle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlStyle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlStyle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlStyle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlStyle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlStyle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlStyle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlStyle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlStyle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlStyle
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlStyle extends HtmlElement
 {
 	/**
@@ -240,7 +336,185 @@ class HtmlStyle extends HtmlElement
 	 * @param HtmlElementInterface $element
 	 * @return self
 	 */
-public function addNested(HtmlElementInterface $element): self
+public /**
+ * addNested
+ *
+ * @param HtmlElementInterface $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @param HtmlElementInterface $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @param HtmlElementInterface $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @param HtmlElementInterface $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @param HtmlElementInterface $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @param HtmlElementInterface $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @param HtmlElementInterface $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @param HtmlElementInterface $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @param HtmlElementInterface $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @param HtmlElementInterface $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @param HtmlElementInterface $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+/**
+ * addNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return self
+ */
+function addNested(HtmlElementInterface $element): self
 	{
 		throw new \InvalidArgumentException('HtmlStyle does not support child elements. Only raw CSS content is allowed. For attributes, use addAttributeObject.');
 	}
@@ -258,7 +532,185 @@ public function addNested(HtmlElementInterface $element): self
 	 * @return self
 
 	 */
-public function addAttributeObject(\Ksfraser\HTML\HtmlAttribute $attribute): self
+public /**
+ * addAttributeObject
+ *
+ * @param HtmlAttribute $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @param HtmlAttribute $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @param HtmlAttribute $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @param HtmlAttribute $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @param HtmlAttribute $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @param HtmlAttribute $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @param HtmlAttribute $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @param HtmlAttribute $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @param HtmlAttribute $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @param HtmlAttribute $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @param HtmlAttribute $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $attribute
+ * @return self
+ */
+/**
+ * addAttributeObject
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $attribute
+ * @return self
+ */
+function addAttributeObject(\Ksfraser\HTML\HtmlAttribute $attribute): self
 	{
 		if (!($attribute instanceof StyleAttribute)) {
 			throw new \InvalidArgumentException('HtmlStyle only accepts StyleAttribute objects as attributes.');
@@ -281,7 +733,185 @@ public function addAttributeObject(\Ksfraser\HTML\HtmlAttribute $attribute): sel
  * @return void
 
  */
-	public function __construct(HtmlString $css)
+	public /**
+ * __construct
+ *
+ * @param HtmlString $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlString $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlString $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlString $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlString $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlString $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlString $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlString $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlString $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlString $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlString $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $css
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $css
+ * @return void
+ */
+function __construct(HtmlString $css)
 	{
 		parent::__construct(); // No child element
 		$this->setTag('style');
@@ -299,7 +929,158 @@ public function addAttributeObject(\Ksfraser\HTML\HtmlAttribute $attribute): sel
  * @return string
 
  */
-	public function getHtml(): string
+	public /**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getHtml(): string
 	{
 		return '<style>' . $this->cssContent->getHtml() . '</style>';
 	}

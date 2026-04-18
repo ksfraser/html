@@ -285,6 +285,102 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * HtmlOB
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlOB
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlOB
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlOB
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlOB
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlOB
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlOB
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlOB
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlOB
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlOB
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlOB
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlOB
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlOB
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlOB
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlOB
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlOB
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlOB extends HtmlRaw
 {
 	/**
@@ -294,7 +390,185 @@ class HtmlOB extends HtmlRaw
 	 * @param callable $callback The function that echoes HTML
 	 * @return HtmlOB Instance containing the captured output
 	 */
-	public static function capture(callable $callback): HtmlOB
+	public static /**
+ * capture
+ *
+ * @param callable $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @param callable $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @param callable $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @param callable $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @param callable $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @param callable $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @param callable $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @param callable $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @param callable $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @param callable $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @param callable $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $callback
+ * @return HtmlOB
+ */
+/**
+ * capture
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $callback
+ * @return HtmlOB
+ */
+function capture(callable $callback): HtmlOB
 	{
 		return new self($callback);
 	}
@@ -312,7 +586,185 @@ class HtmlOB extends HtmlRaw
 	 * @return void
 	
 	 */
-public function __construct($input = null)
+public /**
+ * __construct
+ *
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $input
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $input
+ * @return void
+ */
+function __construct($input = null)
 	{
 		if (is_callable($input)) {
 			// Capture output from callable
@@ -406,7 +858,158 @@ public function __construct($input = null)
 	 * @return void
 	
 	 */
-	public function start(): void
+	public /**
+ * start
+ *
+ * @return void
+ */
+/**
+ * start
+ *
+ * @return void
+ */
+/**
+ * start
+ *
+ * @return void
+ */
+/**
+ * start
+ *
+ * @return void
+ */
+/**
+ * start
+ *
+ * @return void
+ */
+/**
+ * start
+ *
+ * @return void
+ */
+/**
+ * start
+ *
+ * @return void
+ */
+/**
+ * start
+ *
+ * @return void
+ */
+/**
+ * start
+ *
+ * @return void
+ */
+/**
+ * start
+ *
+ * @return void
+ */
+/**
+ * start
+ *
+ * @return void
+ */
+/**
+ * start
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * start
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * start
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * start
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * start
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * start
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * start
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * start
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * start
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * start
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * start
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * start
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * start
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * start
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * start
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * start
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function start(): void
 	{
 		ob_start();
 	}
@@ -422,7 +1025,158 @@ public function __construct($input = null)
 	 * @return string The captured HTML
 	
 	 */
-	public function end(): string
+	public /**
+ * end
+ *
+ * @return string
+ */
+/**
+ * end
+ *
+ * @return string
+ */
+/**
+ * end
+ *
+ * @return string
+ */
+/**
+ * end
+ *
+ * @return string
+ */
+/**
+ * end
+ *
+ * @return string
+ */
+/**
+ * end
+ *
+ * @return string
+ */
+/**
+ * end
+ *
+ * @return string
+ */
+/**
+ * end
+ *
+ * @return string
+ */
+/**
+ * end
+ *
+ * @return string
+ */
+/**
+ * end
+ *
+ * @return string
+ */
+/**
+ * end
+ *
+ * @return string
+ */
+/**
+ * end
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * end
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * end
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * end
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * end
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * end
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * end
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * end
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * end
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * end
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * end
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * end
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * end
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * end
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * end
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * end
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function end(): string
 	{
 		$this->html = ob_get_clean();
 		return $this->html;

@@ -173,6 +173,102 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * ElementIntrospectionTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ElementIntrospectionTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ElementIntrospectionTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ElementIntrospectionTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ElementIntrospectionTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ElementIntrospectionTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ElementIntrospectionTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ElementIntrospectionTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ElementIntrospectionTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ElementIntrospectionTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ElementIntrospectionTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ElementIntrospectionTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ElementIntrospectionTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ElementIntrospectionTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ElementIntrospectionTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * ElementIntrospectionTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 trait ElementIntrospectionTrait
 {
     /**
@@ -194,7 +290,158 @@ trait ElementIntrospectionTrait
      * @example 
      * @return array Array of
      */
-    public function getChildren(): array
+    public /**
+ * getChildren
+ *
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+function getChildren(): array
     {
         $children = [];
 
@@ -328,7 +575,158 @@ trait ElementIntrospectionTrait
      * @return array Array of all nested HtmlElement descendants
 
      */
-    public function getAllNested(): array
+    public /**
+ * getAllNested
+ *
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+function getAllNested(): array
     {
         $nested = [];
         $children = $this->getChildren();
@@ -478,7 +876,185 @@ trait ElementIntrospectionTrait
      * @return array Array of matching elements
 
      */
-    public function findByTag(string $tag): array
+    public /**
+ * findByTag
+ *
+ * @param string $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @param string $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @param string $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @param string $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @param string $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @param string $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @param string $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @param string $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @param string $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @param string $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @param string $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tag
+ * @return array
+ */
+/**
+ * findByTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $tag
+ * @return array
+ */
+function findByTag(string $tag): array
     {
         $results = [];
         $all = $this->getAllNested();
@@ -633,7 +1209,212 @@ trait ElementIntrospectionTrait
      * @return array Array of matching elements
 
      */
-    public function findByAttribute(string $name, string $value): array
+    public /**
+ * findByAttribute
+ *
+ * @param string $name
+ * @param string $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @param string $name
+ * @param string $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @param string $name
+ * @param string $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @param string $name
+ * @param string $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @param string $name
+ * @param string $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @param string $name
+ * @param string $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @param string $name
+ * @param string $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @param string $name
+ * @param string $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @param string $name
+ * @param string $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @param string $name
+ * @param string $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @param string $name
+ * @param string $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return array
+ */
+/**
+ * findByAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return array
+ */
+function findByAttribute(string $name, string $value): array
     {
         $results = [];
         $all = $this->getAllNested();
@@ -780,7 +1561,185 @@ trait ElementIntrospectionTrait
      * @return array Array of elements with the class
 
      */
-    public function findByClass(string $class): array
+    public /**
+ * findByClass
+ *
+ * @param string $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @param string $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @param string $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @param string $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @param string $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @param string $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @param string $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @param string $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @param string $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @param string $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @param string $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return array
+ */
+/**
+ * findByClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return array
+ */
+function findByClass(string $class): array
     {
         $results = [];
         $all = $this->getAllNested();
@@ -927,7 +1886,185 @@ trait ElementIntrospectionTrait
      * @return array Array of elements with the attribute
 
      */
-    public function findByAttributeExists(string $name): array
+    public /**
+ * findByAttributeExists
+ *
+ * @param string $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @param string $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @param string $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @param string $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @param string $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @param string $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @param string $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @param string $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @param string $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @param string $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @param string $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return array
+ */
+/**
+ * findByAttributeExists
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return array
+ */
+function findByAttributeExists(string $name): array
     {
         $results = [];
         $all = $this->getAllNested();
@@ -1082,7 +2219,185 @@ trait ElementIntrospectionTrait
      * @return ?HtmlElementInterface
 
      */
-public function findById(string $id): ?HtmlElementInterface
+public /**
+ * findById
+ *
+ * @param string $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @param string $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @param string $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @param string $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @param string $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @param string $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @param string $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @param string $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @param string $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @param string $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @param string $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return ?HtmlElementInterface
+ */
+/**
+ * findById
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return ?HtmlElementInterface
+ */
+function findById(string $id): ?HtmlElementInterface
     {
         $all = $this->getAllNested();
 
@@ -1228,7 +2543,185 @@ public function findById(string $id): ?HtmlElementInterface
      * @return ?string
 
      */
-public function getAttributeValue(string $name): ?string
+public /**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @param string $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+/**
+ * getAttributeValue
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return ?string
+ */
+function getAttributeValue(string $name): ?string
     {
         return $this->attributeList?->getAttributeValue($name);
     }
@@ -1374,7 +2867,185 @@ public function getAttributeValue(string $name): ?string
      * @return mixed The attribute object, or null
 
      */
-    public function getAttribute(string $name)
+    public /**
+ * getAttribute
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @param string $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * getAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+function getAttribute(string $name)
     {
         if (method_exists($this->attributeList, 'getAttribute')) {
             return $this->attributeList->getAttribute($name);
@@ -1483,7 +3154,158 @@ public function getAttributeValue(string $name): ?string
      * @return ?string
 
      */
-public function getTag(): ?string
+public /**
+ * getTag
+ *
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+/**
+ * getTag
+ *
+ * @since v1.0.0 2026-04-14
+ * @return ?string
+ */
+function getTag(): ?string
     {
         return $this->tag ?? null;
     }
@@ -1597,7 +3419,158 @@ public function getTag(): ?string
      * @return bool True if element has child elements
 
      */
-    public function hasChildren(): bool
+    public /**
+ * hasChildren
+ *
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * hasChildren
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+function hasChildren(): bool
     {
         return count($this->getChildren()) > 0;
     }
@@ -1711,7 +3684,158 @@ public function getTag(): ?string
      * @return int Number of direct children
 
      */
-    public function getChildCount(): int
+    public /**
+ * getChildCount
+ *
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getChildCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+function getChildCount(): int
     {
         return count($this->getChildren());
     }
@@ -1825,7 +3949,158 @@ public function getTag(): ?string
      * @return int Total number of nested elements
 
      */
-    public function getNestedCount(): int
+    public /**
+ * getNestedCount
+ *
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getNestedCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+function getNestedCount(): int
     {
         return count($this->getAllNested());
     }
@@ -1955,7 +4230,185 @@ public function getTag(): ?string
      * @return bool True if element is a direct child
 
      */
-    public function containsChild(HtmlElementInterface $child): bool
+    public /**
+ * containsChild
+ *
+ * @param HtmlElementInterface $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @param HtmlElementInterface $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @param HtmlElementInterface $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @param HtmlElementInterface $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @param HtmlElementInterface $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @param HtmlElementInterface $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @param HtmlElementInterface $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @param HtmlElementInterface $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @param HtmlElementInterface $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @param HtmlElementInterface $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @param HtmlElementInterface $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return bool
+ */
+/**
+ * containsChild
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $child
+ * @return bool
+ */
+function containsChild(HtmlElementInterface $child): bool
     {
         $children = $this->getChildren();
         return in_array($child, $children, true);
@@ -2086,7 +4539,185 @@ public function getTag(): ?string
      * @return bool True if element is contained anywhere in tree
 
      */
-    public function containsNested(HtmlElementInterface $element): bool
+    public /**
+ * containsNested
+ *
+ * @param HtmlElementInterface $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @param HtmlElementInterface $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @param HtmlElementInterface $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @param HtmlElementInterface $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @param HtmlElementInterface $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @param HtmlElementInterface $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @param HtmlElementInterface $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @param HtmlElementInterface $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @param HtmlElementInterface $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @param HtmlElementInterface $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @param HtmlElementInterface $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return bool
+ */
+/**
+ * containsNested
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $element
+ * @return bool
+ */
+function containsNested(HtmlElementInterface $element): bool
     {
         $nested = $this->getAllNested();
         return in_array($element, $nested, true);

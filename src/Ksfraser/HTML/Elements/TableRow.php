@@ -124,6 +124,102 @@ use Ksfraser\HTML\HtmlAttribute;
  * @return void
 
  */
+/**
+ * TableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * TableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class TableRow implements \Ksfraser\HTML\HtmlElementInterface {
     private $element;
     private $classes = [];
@@ -139,7 +235,158 @@ class TableRow implements \Ksfraser\HTML\HtmlElementInterface {
      * @return void
     
      */
-    public function __construct() {
+    public /**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __construct() {
         $this->element = new HtmlTableRow(new HtmlString(''));
         $this->element->setTag('tr');
     }
@@ -155,7 +402,158 @@ class TableRow implements \Ksfraser\HTML\HtmlElementInterface {
      * @return HtmlTableRow The wrapped HTML element
     
      */
-    public function getHtmlElement(): HtmlTableRow {
+    public /**
+ * getHtmlElement
+ *
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlTableRow
+ */
+/**
+ * getHtmlElement
+ *
+ * @since v1.0.0 2026-04-14
+ * @return HtmlTableRow
+ */
+function getHtmlElement(): HtmlTableRow {
         return $this->element;
     }
     
@@ -172,7 +570,185 @@ class TableRow implements \Ksfraser\HTML\HtmlElementInterface {
      * @return self Fluent interface
     
      */
-    public function addClass(string $class): self {
+    public /**
+ * addClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * addClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+function addClass(string $class): self {
         if (!in_array($class, $this->classes)) {
             $this->classes[] = $class;
         }
@@ -283,7 +859,185 @@ class TableRow implements \Ksfraser\HTML\HtmlElementInterface {
      * @return self Fluent interface
     
      */
-    public function addHeadersFromArray(array $labels): self {
+    public /**
+ * addHeadersFromArray
+ *
+ * @param array $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @param array $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @param array $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @param array $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @param array $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @param array $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @param array $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @param array $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @param array $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @param array $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @param array $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @return self
+ */
+/**
+ * addHeadersFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $labels
+ * @return self
+ */
+function addHeadersFromArray(array $labels): self {
         foreach ($labels as $label) {
             $header = new TableHeader();
             $header->setText($label);
@@ -305,7 +1059,185 @@ class TableRow implements \Ksfraser\HTML\HtmlElementInterface {
      * @return self Fluent interface
     
      */
-public function append(...$elements): self {
+public /**
+ * append
+ *
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+/**
+ * append
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $elements
+ * @return self
+ */
+function append(...$elements): self {
         foreach ($elements as $element) {
             if ($element instanceof HtmlElementInterface) {
                 $this->element->addNested($element);
@@ -331,7 +1263,212 @@ public function append(...$elements): self {
      * @return self Fluent interface
     
      */
-public function setAttribute(string $name, $value): self {
+public /**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @param string $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setAttribute
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @param mixed $value
+ * @return self
+ */
+function setAttribute(string $name, $value): self {
         $this->element->addAttributeObject(new HtmlAttribute($name, $value));
         return $this;
     }
@@ -347,7 +1484,158 @@ public function setAttribute(string $name, $value): self {
      * @return string The complete HTML table row element
     
      */
-    public function getHtml(): string {
+    public /**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getHtml(): string {
         return $this->element->getHtml();
     }
     
@@ -362,7 +1650,158 @@ public function setAttribute(string $name, $value): self {
      * @return string The complete HTML table row element
     
      */
-    public function render(): string {
+    public /**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * render
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function render(): string {
         return $this->getHtml();
     }
     
@@ -377,7 +1816,158 @@ public function setAttribute(string $name, $value): self {
      * @return void
     
      */
-    public function toHtml(): void {
+    public /**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function toHtml(): void {
         echo $this->getHtml();
     }
 }

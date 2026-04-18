@@ -27,6 +27,56 @@ class HtmlFragmentTest extends TestCase {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testImplementsInterface
+ *
+ * @return void
+ */
+/**
+ * testImplementsInterface
+ *
+ * @return void
+ */
 function testImplementsInterface() {
         $fragment = new HtmlFragment();
         $this->assertInstanceOf(HtmlElementInterface::/**
@@ -48,6 +98,56 @@ class, $fragment);
  * testAddChildReturnsSelf
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testAddChildReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testAddChildReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testAddChildReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testAddChildReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testAddChildReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testAddChildReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testAddChildReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testAddChildReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testAddChildReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testAddChildReturnsSelf
+ *
  * @return void
  */
 function testAddChildReturnsSelf() {
@@ -73,6 +173,56 @@ class)->getMock();
  * testGetHtmlWithChild
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testGetHtmlWithChild
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlWithChild
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlWithChild
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlWithChild
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlWithChild
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlWithChild
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlWithChild
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlWithChild
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlWithChild
+ *
+ * @return void
+ */
+/**
+ * testGetHtmlWithChild
+ *
  * @return void
  */
 function testGetHtmlWithChild() {
@@ -102,6 +252,56 @@ class)->getMock();
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
+/**
+ * testToHtmlOutputsHtml
+ *
+ * @return void
+ */
 function testToHtmlOutputsHtml() {
         $fragment = new HtmlFragment();
         $mock = $this->getMockBuilder(HtmlElementInterface::/**
@@ -129,6 +329,56 @@ class)->getMock();
  * testEdgeCasesEmptyFragment
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyFragment
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyFragment
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyFragment
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyFragment
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyFragment
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyFragment
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyFragment
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyFragment
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyFragment
+ *
+ * @return void
+ */
+/**
+ * testEdgeCasesEmptyFragment
+ *
  * @return void
  */
 function testEdgeCasesEmptyFragment() {

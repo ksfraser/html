@@ -13,7 +13,57 @@ class HtmlFactoryCoverageTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testFactoryClassesExist() {
+    public /**
+ * testFactoryClassesExist
+ *
+ * @return void
+ */
+/**
+ * testFactoryClassesExist
+ *
+ * @return void
+ */
+/**
+ * testFactoryClassesExist
+ *
+ * @return void
+ */
+/**
+ * testFactoryClassesExist
+ *
+ * @return void
+ */
+/**
+ * testFactoryClassesExist
+ *
+ * @return void
+ */
+/**
+ * testFactoryClassesExist
+ *
+ * @return void
+ */
+/**
+ * testFactoryClassesExist
+ *
+ * @return void
+ */
+/**
+ * testFactoryClassesExist
+ *
+ * @return void
+ */
+/**
+ * testFactoryClassesExist
+ *
+ * @return void
+ */
+/**
+ * testFactoryClassesExist
+ *
+ * @return void
+ */
+function testFactoryClassesExist() {
         $classes = [
             'Ksfraser\\HTML\\Factory\\ActionLink',
             'Ksfraser\\HTML\\Factory\\AddLink',

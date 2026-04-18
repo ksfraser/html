@@ -92,7 +92,13 @@ use Ksfraser\HTML\Elements\HtmlRaw;
  * @return void
 
  */
-abstract class HtmlScriptLanguage extends HtmlRaw {
+abstract /**
+ * HtmlScriptLanguage
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class HtmlScriptLanguage extends HtmlRaw {
 /**
  * __construct
  *
@@ -100,7 +106,80 @@ abstract class HtmlScriptLanguage extends HtmlRaw {
  * @param mixed $content
  * @return void
  */
-    public function __construct($content) {
+    public /**
+ * __construct
+ *
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+function __construct($content) {
         if ($content instanceof \Ksfraser\HTML\HtmlElementInterface) {
             $content = $content->getHtml();
         }

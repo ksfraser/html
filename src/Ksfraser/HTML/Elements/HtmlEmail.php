@@ -77,6 +77,102 @@ use Ksfraser\HTML\Elements\HtmlA;
  * @return void
 
  */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlEmail
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlEmail extends HtmlA
 {
     /**
@@ -85,7 +181,158 @@ class HtmlEmail extends HtmlA
      * @since v1.0.0 2026-04-13
      * @return void
      */
-    public function __construct()
+    public /**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __construct()
     {
         parent::__construct(new \Ksfraser\HTML\Elements\HtmlString(''));
     }
@@ -103,7 +350,212 @@ class HtmlEmail extends HtmlA
      * @param ?string $text
      * @return self
      */
-    public function setAddress(string $email, ?string $text = null): self
+    public /**
+ * setAddress
+ *
+ * @param string $email
+ * @param string|null $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @param string $email
+ * @param string|null $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @param string $email
+ * @param string|null $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @param string $email
+ * @param string|null $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @param string $email
+ * @param string|null $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @param string $email
+ * @param string|null $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @param string $email
+ * @param string|null $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @param string $email
+ * @param string|null $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @param string $email
+ * @param string|null $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @param string $email
+ * @param string|null $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @param string $email
+ * @param string|null $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @param mixed $text
+ * @return self
+ */
+/**
+ * setAddress
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @param mixed $text
+ * @return self
+ */
+function setAddress(string $email, ?string $text = null): self
     {
         $this->setHref($email);
         $this->setContent(new \Ksfraser\HTML\Elements\HtmlString($text ?? $email));
@@ -187,7 +639,185 @@ class HtmlEmail extends HtmlA
      * @return self
 
      */
-    public function setHref(string $email): self
+    public /**
+ * setHref
+ *
+ * @param string $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @param string $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @return self
+ */
+/**
+ * setHref
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $email
+ * @return self
+ */
+function setHref(string $email): self
     {
         $mailto = (stripos($email, 'mailto:') === 0) ? $email : 'mailto:' . $email;
         return parent::setHref($mailto);

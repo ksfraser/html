@@ -108,6 +108,12 @@ use Ksfraser\HTML\Elements\TableData;
  * @return void
 
  */
+/**
+ * BorrowerTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class BorrowerTableCell extends BaseTableCell {
     /**
      * Build Borrower cell
@@ -116,7 +122,80 @@ class BorrowerTableCell extends BaseTableCell {
      * @param mixed $borrower The borrower value
      * @return TableData
      */
-    public function build($borrower): TableData {
+    public /**
+ * build
+ *
+ * @param mixed $borrower
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $borrower
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $borrower
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $borrower
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $borrower
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $borrower
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $borrower
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $borrower
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $borrower
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $borrower
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $borrower
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $borrower
+ * @return TableData
+ */
+function build($borrower): TableData {
         $cell = (new TableData())
             ->addClass('borrower-cell')
             ->setText(htmlspecialchars($borrower ?? ''));

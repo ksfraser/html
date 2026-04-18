@@ -108,6 +108,12 @@ use Ksfraser\HTML\Button\Button;
  * @return void
 
  */
+/**
+ * EditLoanActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class EditLoanActionButton extends Button {
     /**
      * Build edit loan action button
@@ -116,7 +122,80 @@ class EditLoanActionButton extends Button {
      * @param mixed $loanId The loan ID
      * @return Button
      */
-    public function build($loanId): Button {
+    public /**
+ * build
+ *
+ * @param mixed $loanId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $loanId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $loanId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $loanId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $loanId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $loanId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $loanId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $loanId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $loanId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $loanId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $loanId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loanId
+ * @return Button
+ */
+function build($loanId): Button {
         return $this
             ->setType('button')
             ->addClass('btn-small btn-edit')

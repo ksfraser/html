@@ -108,6 +108,12 @@ use Ksfraser\HTML\Button\Button;
  * @return void
 
  */
+/**
+ * DeleteFrequencyActionButton
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class DeleteFrequencyActionButton extends Button {
     /**
      * Build delete frequency action button
@@ -116,7 +122,80 @@ class DeleteFrequencyActionButton extends Button {
      * @param mixed $freqId The frequency ID
      * @return Button
      */
-    public function build($freqId): Button {
+    public /**
+ * build
+ *
+ * @param mixed $freqId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $freqId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $freqId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $freqId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $freqId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $freqId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $freqId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $freqId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $freqId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $freqId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @param mixed $freqId
+ * @return Button
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $freqId
+ * @return Button
+ */
+function build($freqId): Button {
         return $this
             ->setType('button')
             ->addClass('btn-small btn-delete')

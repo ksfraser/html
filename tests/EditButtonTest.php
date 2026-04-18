@@ -15,7 +15,62 @@ class EditButtonTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testDefaultLabel() {
+    public /**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testDefaultLabel
+ *
+ * @return void
+ */
+function testDefaultLabel() {
         $btn = new EditButton(new HtmlString('Edit'), 'id123');
         $this->assertStringContainsString('Edit', $btn->getHtml());
     }
@@ -25,7 +80,62 @@ class EditButtonTest extends TestCase {
  * @since 1.0.4 2026-02-21
  * @return void
  */
-    public function testSetOnclickFunction() {
+    public /**
+ * testSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testSetOnclickFunction
+ *
+ * @return void
+ */
+function testSetOnclickFunction() {
         $btn = new EditButton(new HtmlString('Edit'), 'id123', 'editFn()');
         $this->assertStringContainsString('onclick', $btn->getHtml());
     }

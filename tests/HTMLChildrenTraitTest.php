@@ -27,6 +27,56 @@ class HTMLChildrenTraitTest extends TestCase {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testAddChild
+ *
+ * @return void
+ */
+/**
+ * testAddChild
+ *
+ * @return void
+ */
+/**
+ * testAddChild
+ *
+ * @return void
+ */
+/**
+ * testAddChild
+ *
+ * @return void
+ */
+/**
+ * testAddChild
+ *
+ * @return void
+ */
+/**
+ * testAddChild
+ *
+ * @return void
+ */
+/**
+ * testAddChild
+ *
+ * @return void
+ */
+/**
+ * testAddChild
+ *
+ * @return void
+ */
+/**
+ * testAddChild
+ *
+ * @return void
+ */
+/**
+ * testAddChild
+ *
+ * @return void
+ */
 function testAddChild() {
         $trait = $this->getObjectForTrait(HTMLChildrenTrait::/**
  * getMockBuilder

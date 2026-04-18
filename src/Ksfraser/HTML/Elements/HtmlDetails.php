@@ -16,6 +16,102 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * HtmlDetails
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDetails
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDetails
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDetails
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDetails
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDetails
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDetails
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDetails
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDetails
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDetails
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDetails
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDetails
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDetails
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDetails
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDetails
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlDetails
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlDetails extends HtmlElement
 {
 /**
@@ -25,7 +121,185 @@ class HtmlDetails extends HtmlElement
  * @param bool $open
  * @return void
  */
-    public function __construct(bool $open = false)
+    public /**
+ * __construct
+ *
+ * @param bool $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param bool $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param bool $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param bool $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param bool $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param bool $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param bool $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param bool $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param bool $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param bool $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param bool $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $open
+ * @return void
+ */
+function __construct(bool $open = false)
     {
         parent::__construct();
         $this->setTag('details');
@@ -47,7 +321,185 @@ class HtmlDetails extends HtmlElement
  * @return self
 
  */
-    public function addSummary(HtmlElementInterface $summary): self
+    public /**
+ * addSummary
+ *
+ * @param HtmlElementInterface $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @param HtmlElementInterface $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @param HtmlElementInterface $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @param HtmlElementInterface $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @param HtmlElementInterface $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @param HtmlElementInterface $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @param HtmlElementInterface $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @param HtmlElementInterface $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @param HtmlElementInterface $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @param HtmlElementInterface $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @param HtmlElementInterface $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $summary
+ * @return self
+ */
+/**
+ * addSummary
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $summary
+ * @return self
+ */
+function addSummary(HtmlElementInterface $summary): self
     {
         $this->addNested($summary);
         return $this;

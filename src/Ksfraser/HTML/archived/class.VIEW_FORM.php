@@ -15,6 +15,12 @@ use Ksfraser\Origin\origin;
  * @return void
 
  */
+/**
+ * VIEW_FORM
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class VIEW_FORM extends origin
 {
 	protected $form_item_array;
@@ -24,7 +30,68 @@ class VIEW_FORM extends origin
  * @since v1.0.0 2026-04-14
  * @return void
  */
-	function __construct(  )
+	/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __construct(  )
 	{
         
 		$this->form_item_array = array();
@@ -35,7 +102,68 @@ class VIEW_FORM extends origin
  * @since v1.0.0 2026-04-14
  * @return void
  */
-	function __toString()
+	/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __toString()
 	{
 		$this->start_form();
 		foreach( $this->form_item_array as $obj )
@@ -50,7 +178,68 @@ class VIEW_FORM extends origin
  * @since v1.0.0 2026-04-14
  * @return void
  */
-	function start_form()
+	/**
+ * start_form
+ *
+ * @return void
+ */
+/**
+ * start_form
+ *
+ * @return void
+ */
+/**
+ * start_form
+ *
+ * @return void
+ */
+/**
+ * start_form
+ *
+ * @return void
+ */
+/**
+ * start_form
+ *
+ * @return void
+ */
+/**
+ * start_form
+ *
+ * @return void
+ */
+/**
+ * start_form
+ *
+ * @return void
+ */
+/**
+ * start_form
+ *
+ * @return void
+ */
+/**
+ * start_form
+ *
+ * @return void
+ */
+/**
+ * start_form
+ *
+ * @return void
+ */
+/**
+ * start_form
+ *
+ * @return void
+ */
+/**
+ * start_form
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function start_form()
 	{
 		start_form();
 	}
@@ -60,7 +249,68 @@ class VIEW_FORM extends origin
  * @since v1.0.0 2026-04-14
  * @return void
  */
-	function end_form()
+	/**
+ * end_form
+ *
+ * @return void
+ */
+/**
+ * end_form
+ *
+ * @return void
+ */
+/**
+ * end_form
+ *
+ * @return void
+ */
+/**
+ * end_form
+ *
+ * @return void
+ */
+/**
+ * end_form
+ *
+ * @return void
+ */
+/**
+ * end_form
+ *
+ * @return void
+ */
+/**
+ * end_form
+ *
+ * @return void
+ */
+/**
+ * end_form
+ *
+ * @return void
+ */
+/**
+ * end_form
+ *
+ * @return void
+ */
+/**
+ * end_form
+ *
+ * @return void
+ */
+/**
+ * end_form
+ *
+ * @return void
+ */
+/**
+ * end_form
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function end_form()
 	{
 		end_form();
 	}
@@ -72,7 +322,80 @@ class VIEW_FORM extends origin
      * @param mixed $item
      * @return void
      */
-    public function add_item($item)
+    public /**
+ * add_item
+ *
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * add_item
+ *
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * add_item
+ *
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * add_item
+ *
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * add_item
+ *
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * add_item
+ *
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * add_item
+ *
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * add_item
+ *
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * add_item
+ *
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * add_item
+ *
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * add_item
+ *
+ * @param mixed $item
+ * @return void
+ */
+/**
+ * add_item
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $item
+ * @return void
+ */
+function add_item($item)
     {
         if (!is_object($item)) {
             throw new InvalidArgumentException("Item must be an object.");

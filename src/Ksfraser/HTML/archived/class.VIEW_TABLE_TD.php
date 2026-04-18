@@ -15,6 +15,12 @@ use Ksfraser\Origin\origin;
  * @return void
 
  */
+/**
+ * VIEW_TABLE_TD
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class VIEW_TABLE_TD extends origin
 {
 	protected $td_content;
@@ -27,7 +33,80 @@ class VIEW_TABLE_TD extends origin
  * @param mixed $value
  * @return void
  */
-	function __construct( $value = "" )
+	/**
+ * __construct
+ *
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $value
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return void
+ */
+function __construct( $value = "" )
 	{
 		$this->td_item = $value;
 	}
@@ -37,7 +116,68 @@ class VIEW_TABLE_TD extends origin
  * @since v1.0.0 2026-04-14
  * @return void
  */
-	function __toString()
+	/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @return void
+ */
+/**
+ * __toString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function __toString()
 	{
 		$this->start_td();
 		echo $this->td_item;
@@ -49,7 +189,68 @@ class VIEW_TABLE_TD extends origin
  * @since v1.0.0 2026-04-14
  * @return void
  */
-	function start_td()
+	/**
+ * start_td
+ *
+ * @return void
+ */
+/**
+ * start_td
+ *
+ * @return void
+ */
+/**
+ * start_td
+ *
+ * @return void
+ */
+/**
+ * start_td
+ *
+ * @return void
+ */
+/**
+ * start_td
+ *
+ * @return void
+ */
+/**
+ * start_td
+ *
+ * @return void
+ */
+/**
+ * start_td
+ *
+ * @return void
+ */
+/**
+ * start_td
+ *
+ * @return void
+ */
+/**
+ * start_td
+ *
+ * @return void
+ */
+/**
+ * start_td
+ *
+ * @return void
+ */
+/**
+ * start_td
+ *
+ * @return void
+ */
+/**
+ * start_td
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function start_td()
 	{
 		echo "<td>";
 	}
@@ -59,7 +260,68 @@ class VIEW_TABLE_TD extends origin
  * @since v1.0.0 2026-04-14
  * @return void
  */
-	function end_td()
+	/**
+ * end_td
+ *
+ * @return void
+ */
+/**
+ * end_td
+ *
+ * @return void
+ */
+/**
+ * end_td
+ *
+ * @return void
+ */
+/**
+ * end_td
+ *
+ * @return void
+ */
+/**
+ * end_td
+ *
+ * @return void
+ */
+/**
+ * end_td
+ *
+ * @return void
+ */
+/**
+ * end_td
+ *
+ * @return void
+ */
+/**
+ * end_td
+ *
+ * @return void
+ */
+/**
+ * end_td
+ *
+ * @return void
+ */
+/**
+ * end_td
+ *
+ * @return void
+ */
+/**
+ * end_td
+ *
+ * @return void
+ */
+/**
+ * end_td
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function end_td()
 	{
 		echo "</td>";
 	}
@@ -71,7 +333,80 @@ class VIEW_TABLE_TD extends origin
      * @param mixed $content
      * @return void
      */
-    public function set_content($content)
+    public /**
+ * set_content
+ *
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * set_content
+ *
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * set_content
+ *
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * set_content
+ *
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * set_content
+ *
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * set_content
+ *
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * set_content
+ *
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * set_content
+ *
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * set_content
+ *
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * set_content
+ *
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * set_content
+ *
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * set_content
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+function set_content($content)
     {
         if (!is_string($content)) {
             throw new InvalidArgumentException("Content must be a string.");

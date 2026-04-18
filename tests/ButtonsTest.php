@@ -18,7 +18,62 @@ class ButtonsTest extends TestCase
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testCloseButtonDefaultLabel()
+    public /**
+ * testCloseButtonDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonDefaultLabel
+ *
+ * @return void
+ */
+function testCloseButtonDefaultLabel()
     {
         $button = new CloseButton();
         
@@ -33,7 +88,62 @@ class ButtonsTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testCloseButtonCustomLabel()
+    public /**
+ * testCloseButtonCustomLabel
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonCustomLabel
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonCustomLabel
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonCustomLabel
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonCustomLabel
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonCustomLabel
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonCustomLabel
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonCustomLabel
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonCustomLabel
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonCustomLabel
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonCustomLabel
+ *
+ * @return void
+ */
+function testCloseButtonCustomLabel()
     {
         $button = new CloseButton(new HtmlString('Dismiss'));
         
@@ -47,7 +157,62 @@ class ButtonsTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testCloseButtonSetOnclickFunction()
+    public /**
+ * testCloseButtonSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testCloseButtonSetOnclickFunction
+ *
+ * @return void
+ */
+function testCloseButtonSetOnclickFunction()
     {
         $button = new CloseButton();
         $button->setOnclick(new \Ksfraser\HTML\HtmlAttribute('onclick', 'closeMyModal()'));
@@ -62,7 +227,62 @@ class ButtonsTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testSubmitButtonDefaultLabel()
+    public /**
+ * testSubmitButtonDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonDefaultLabel
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonDefaultLabel
+ *
+ * @return void
+ */
+function testSubmitButtonDefaultLabel()
     {
         $button = new SubmitButton();
         
@@ -78,7 +298,62 @@ class ButtonsTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testSubmitButtonCustomLabel()
+    public /**
+ * testSubmitButtonCustomLabel
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonCustomLabel
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonCustomLabel
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonCustomLabel
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonCustomLabel
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonCustomLabel
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonCustomLabel
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonCustomLabel
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonCustomLabel
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonCustomLabel
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonCustomLabel
+ *
+ * @return void
+ */
+function testSubmitButtonCustomLabel()
     {
         $button = new SubmitButton(new HtmlString('Save'));
         
@@ -92,7 +367,62 @@ class ButtonsTest extends TestCase
  * @since 1.0.1 2026-02-16
  * @return void
  */
-    public function testSubmitButtonSetOnclickFunction()
+    public /**
+ * testSubmitButtonSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonSetOnclickFunction
+ *
+ * @return void
+ */
+/**
+ * testSubmitButtonSetOnclickFunction
+ *
+ * @return void
+ */
+function testSubmitButtonSetOnclickFunction()
     {
         $button = new SubmitButton();
         $button->setOnclick(new \Ksfraser\HTML\HtmlAttribute('onclick', 'return validateForm()'));

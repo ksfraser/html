@@ -408,6 +408,102 @@ use Ksfraser\HTML\HtmlElement;
  * @return void
 
  */
+/**
+ * HtmlSelect
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSelect
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSelect
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSelect
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSelect
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSelect
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSelect
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSelect
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSelect
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSelect
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSelect
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSelect
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSelect
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSelect
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSelect
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlSelect
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlSelect extends HtmlElement
 {
     /**
@@ -448,7 +544,185 @@ class HtmlSelect extends HtmlElement
 
 
      */
-    public function __construct($name = '')
+    public /**
+ * __construct
+ *
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $name
+ * @return void
+ */
+function __construct($name = '')
     {
         parent::__construct();
         if ($name instanceof HtmlElementInterface) {
@@ -472,7 +746,158 @@ class HtmlSelect extends HtmlElement
      * @return string The select name
 
      */
-    public function getName(): string
+    public /**
+ * getName
+ *
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getName(): string
     {
         return $this->name->getHtml();
     }
@@ -494,7 +919,239 @@ class HtmlSelect extends HtmlElement
      * @return self For fluent interface
 
      */
-    public function addOption($valueOrOption, string $text = '', bool $selected = false): self
+    public /**
+ * addOption
+ *
+ * @param mixed $valueOrOption
+ * @param string $text
+ * @param bool $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @param mixed $valueOrOption
+ * @param string $text
+ * @param bool $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @param mixed $valueOrOption
+ * @param string $text
+ * @param bool $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @param mixed $valueOrOption
+ * @param string $text
+ * @param bool $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @param mixed $valueOrOption
+ * @param string $text
+ * @param bool $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @param mixed $valueOrOption
+ * @param string $text
+ * @param bool $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @param mixed $valueOrOption
+ * @param string $text
+ * @param bool $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @param mixed $valueOrOption
+ * @param string $text
+ * @param bool $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @param mixed $valueOrOption
+ * @param string $text
+ * @param bool $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @param mixed $valueOrOption
+ * @param string $text
+ * @param bool $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @param mixed $valueOrOption
+ * @param string $text
+ * @param bool $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $valueOrOption
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $valueOrOption
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $valueOrOption
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $valueOrOption
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $valueOrOption
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $valueOrOption
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $valueOrOption
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $valueOrOption
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $valueOrOption
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $valueOrOption
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $valueOrOption
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $valueOrOption
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $valueOrOption
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $valueOrOption
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $valueOrOption
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+/**
+ * addOption
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $valueOrOption
+ * @param mixed $text
+ * @param mixed $selected
+ * @return self
+ */
+function addOption($valueOrOption, string $text = '', bool $selected = false): self
     {
         if ($valueOrOption instanceof HtmlOption) {
             $option = $valueOrOption;
@@ -521,7 +1178,212 @@ class HtmlSelect extends HtmlElement
      * @return self For fluent interface
 
      */
-    public function addOptionsFromArray(array $data, ?string $selectedValue = null): self
+    public /**
+ * addOptionsFromArray
+ *
+ * @param array $data
+ * @param string|null $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @param array $data
+ * @param string|null $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @param array $data
+ * @param string|null $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @param array $data
+ * @param string|null $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @param array $data
+ * @param string|null $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @param array $data
+ * @param string|null $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @param array $data
+ * @param string|null $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @param array $data
+ * @param string|null $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @param array $data
+ * @param string|null $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @param array $data
+ * @param string|null $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @param array $data
+ * @param string|null $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $selectedValue
+ * @return self
+ */
+/**
+ * addOptionsFromArray
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @param mixed $selectedValue
+ * @return self
+ */
+function addOptionsFromArray(array $data, ?string $selectedValue = null): self
     {
         foreach ($data as $value => $label) {
             $isSelected = ($selectedValue !== null && (string)$value === $selectedValue);
@@ -541,7 +1403,158 @@ class HtmlSelect extends HtmlElement
      * @return array
 
      */
-    public function getOptions(): array
+    public /**
+ * getOptions
+ *
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getOptions
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+function getOptions(): array
     {
         return $this->options;
     }
@@ -557,7 +1570,158 @@ class HtmlSelect extends HtmlElement
      * @return int Number of options
 
      */
-    public function getOptionCount(): int
+    public /**
+ * getOptionCount
+ *
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+/**
+ * getOptionCount
+ *
+ * @since v1.0.0 2026-04-14
+ * @return int
+ */
+function getOptionCount(): int
     {
         return count($this->options);
     }
@@ -575,7 +1739,185 @@ class HtmlSelect extends HtmlElement
      * @return self For fluent interface
 
      */
-    public function setId(string $id): self
+    public /**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @param string $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+/**
+ * setId
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $id
+ * @return self
+ */
+function setId(string $id): self
     {
         $this->attributeList->addAttributeObject(new HtmlAttribute('id', $id));
         return $this;
@@ -594,7 +1936,185 @@ class HtmlSelect extends HtmlElement
      * @return self For fluent interface
 
      */
-    public function setClass(string $class): self
+    public /**
+ * setClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @param string $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+/**
+ * setClass
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $class
+ * @return self
+ */
+function setClass(string $class): self
     {
         $this->attributeList->addAttributeObject(new HtmlAttribute('class', $class));
         return $this;
@@ -613,7 +2133,185 @@ class HtmlSelect extends HtmlElement
      * @return self For fluent interface
 
      */
-    public function setMultiple(bool $multiple): self
+    public /**
+ * setMultiple
+ *
+ * @param bool $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @param bool $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @param bool $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @param bool $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @param bool $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @param bool $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @param bool $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @param bool $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @param bool $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @param bool $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @param bool $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $multiple
+ * @return self
+ */
+/**
+ * setMultiple
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $multiple
+ * @return self
+ */
+function setMultiple(bool $multiple): self
     {
         if ($multiple) {
             $this->attributeList->addAttributeObject(new HtmlAttribute('multiple', 'multiple'));
@@ -634,7 +2332,185 @@ class HtmlSelect extends HtmlElement
      * @return self For fluent interface
 
      */
-    public function setSize(int $size): self
+    public /**
+ * setSize
+ *
+ * @param int $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @param int $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @param int $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @param int $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @param int $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @param int $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @param int $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @param int $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @param int $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @param int $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @param int $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $size
+ * @return self
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $size
+ * @return self
+ */
+function setSize(int $size): self
     {
         $this->attributeList->addAttributeObject(new HtmlAttribute('size', (string)$size));
         return $this;
@@ -653,7 +2529,185 @@ class HtmlSelect extends HtmlElement
      * @return HtmlElement
 
      */
-    public function setDisabled(bool $disabled = true): HtmlElement
+    public /**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @param bool $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return HtmlElement
+ */
+/**
+ * setDisabled
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $disabled
+ * @return HtmlElement
+ */
+function setDisabled(bool $disabled = true): HtmlElement
     {
         if ($disabled) {
             $this->attributeList->addAttributeObject(new HtmlAttribute('disabled', 'disabled'));
@@ -674,7 +2728,185 @@ class HtmlSelect extends HtmlElement
      * @return HtmlElement
 
      */
-    public function setRequired(bool $required = true): HtmlElement
+    public /**
+ * setRequired
+ *
+ * @param bool $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @param bool $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @param bool $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @param bool $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @param bool $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @param bool $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @param bool $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @param bool $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @param bool $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @param bool $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @param bool $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return HtmlElement
+ */
+/**
+ * setRequired
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $required
+ * @return HtmlElement
+ */
+function setRequired(bool $required = true): HtmlElement
     {
         if ($required) {
             $this->attributeList->addAttributeObject(new HtmlAttribute('required', 'required'));
@@ -710,7 +2942,158 @@ class HtmlSelect extends HtmlElement
      * @return string The HTML <select> element with all options
 
      */
-    public function getHtml(): string
+    public /**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getHtml(): string
     {
         $escapedName = $this->name->getHtml();
 
@@ -745,7 +3128,158 @@ class HtmlSelect extends HtmlElement
      * @return void
 
      */
-    public function toHtml(): void
+    public /**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function toHtml(): void
     {
         echo $this->getHtml();
     }

@@ -77,6 +77,12 @@ use Ksfraser\HTML\CSS\CSSProviderInterface;
  * @return void
 
  */
+/**
+ * DefaultThemeProvider
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class DefaultThemeProvider implements CSSProviderInterface {
     
 /**
@@ -90,7 +96,68 @@ class DefaultThemeProvider implements CSSProviderInterface {
  * @return void
     
  */
-    public function getName() {
+    public /**
+ * getName
+ *
+ * @return void
+ */
+/**
+ * getName
+ *
+ * @return void
+ */
+/**
+ * getName
+ *
+ * @return void
+ */
+/**
+ * getName
+ *
+ * @return void
+ */
+/**
+ * getName
+ *
+ * @return void
+ */
+/**
+ * getName
+ *
+ * @return void
+ */
+/**
+ * getName
+ *
+ * @return void
+ */
+/**
+ * getName
+ *
+ * @return void
+ */
+/**
+ * getName
+ *
+ * @return void
+ */
+/**
+ * getName
+ *
+ * @return void
+ */
+/**
+ * getName
+ *
+ * @return void
+ */
+/**
+ * getName
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function getName() {
         return 'default';
     }
     
@@ -107,7 +174,80 @@ class DefaultThemeProvider implements CSSProviderInterface {
  * @return void
     
  */
-    public function supportsTheme($theme) {
+    public /**
+ * supportsTheme
+ *
+ * @param mixed $theme
+ * @return void
+ */
+/**
+ * supportsTheme
+ *
+ * @param mixed $theme
+ * @return void
+ */
+/**
+ * supportsTheme
+ *
+ * @param mixed $theme
+ * @return void
+ */
+/**
+ * supportsTheme
+ *
+ * @param mixed $theme
+ * @return void
+ */
+/**
+ * supportsTheme
+ *
+ * @param mixed $theme
+ * @return void
+ */
+/**
+ * supportsTheme
+ *
+ * @param mixed $theme
+ * @return void
+ */
+/**
+ * supportsTheme
+ *
+ * @param mixed $theme
+ * @return void
+ */
+/**
+ * supportsTheme
+ *
+ * @param mixed $theme
+ * @return void
+ */
+/**
+ * supportsTheme
+ *
+ * @param mixed $theme
+ * @return void
+ */
+/**
+ * supportsTheme
+ *
+ * @param mixed $theme
+ * @return void
+ */
+/**
+ * supportsTheme
+ *
+ * @param mixed $theme
+ * @return void
+ */
+/**
+ * supportsTheme
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $theme
+ * @return void
+ */
+function supportsTheme($theme) {
         return $theme === 'default' || $theme === 'light';
     }
     
@@ -122,7 +262,68 @@ class DefaultThemeProvider implements CSSProviderInterface {
  * @return void
     
  */
-    public function getCSS() {
+    public /**
+ * getCSS
+ *
+ * @return void
+ */
+/**
+ * getCSS
+ *
+ * @return void
+ */
+/**
+ * getCSS
+ *
+ * @return void
+ */
+/**
+ * getCSS
+ *
+ * @return void
+ */
+/**
+ * getCSS
+ *
+ * @return void
+ */
+/**
+ * getCSS
+ *
+ * @return void
+ */
+/**
+ * getCSS
+ *
+ * @return void
+ */
+/**
+ * getCSS
+ *
+ * @return void
+ */
+/**
+ * getCSS
+ *
+ * @return void
+ */
+/**
+ * getCSS
+ *
+ * @return void
+ */
+/**
+ * getCSS
+ *
+ * @return void
+ */
+/**
+ * getCSS
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function getCSS() {
         return '
         /* Default Theme Enhancements */
         .container {

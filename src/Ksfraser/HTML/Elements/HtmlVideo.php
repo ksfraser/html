@@ -23,6 +23,102 @@ use Ksfraser\HTML\Elements\HtmlString;
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * HtmlVideo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlVideo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlVideo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlVideo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlVideo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlVideo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlVideo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlVideo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlVideo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlVideo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlVideo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlVideo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlVideo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlVideo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlVideo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlVideo
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlVideo extends HtmlElement
 {
 /**
@@ -33,6 +129,184 @@ class HtmlVideo extends HtmlElement
  * @return void
  */
     public /**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param string|HtmlElementInterface|null $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
  * __construct
  *
  * @since v1.0.0 2026-04-14
@@ -75,6 +349,184 @@ function __construct(string|HtmlElementInterface|null $data = null)
  * @param mixed $src
  * @return self
  */
+/**
+ * setSrc
+ *
+ * @param string $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @param string $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @param string $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @param string $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @param string $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @param string $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @param string $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @param string $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @param string $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @param string $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @param string $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return self
+ */
 function setSrc(string $src): self
     {
         $this->addAttribute('src', $src);
@@ -95,6 +547,184 @@ function setSrc(string $src): self
 
  */
     public /**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setControls
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
  * setControls
  *
  * @since v1.0.0 2026-04-14
@@ -131,6 +761,184 @@ function setControls(bool $enabled = true): self
  * @param mixed $enabled
  * @return self
  */
+/**
+ * setAutoplay
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @param bool $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
+/**
+ * setAutoplay
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $enabled
+ * @return self
+ */
 function setAutoplay(bool $enabled = true): self
     {
         if ($enabled) {
@@ -157,6 +965,211 @@ function setAutoplay(bool $enabled = true): self
 
  */
     public /**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @param string $src
+ * @param string|null $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @param string $src
+ * @param string|null $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @param string $src
+ * @param string|null $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @param string $src
+ * @param string|null $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @param string $src
+ * @param string|null $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @param string $src
+ * @param string|null $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @param string $src
+ * @param string|null $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @param string $src
+ * @param string|null $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @param string $src
+ * @param string|null $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @param string $src
+ * @param string|null $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @param string $src
+ * @param string|null $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
+ * addSourceUrl
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @param mixed $type
+ * @return self
+ */
+/**
  * addSourceUrl
  *
  * @since v1.0.0 2026-04-14

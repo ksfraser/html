@@ -26,7 +26,57 @@ class HtmlTableElementsTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testCaptionRendersContent() {
+    public /**
+ * testCaptionRendersContent
+ *
+ * @return void
+ */
+/**
+ * testCaptionRendersContent
+ *
+ * @return void
+ */
+/**
+ * testCaptionRendersContent
+ *
+ * @return void
+ */
+/**
+ * testCaptionRendersContent
+ *
+ * @return void
+ */
+/**
+ * testCaptionRendersContent
+ *
+ * @return void
+ */
+/**
+ * testCaptionRendersContent
+ *
+ * @return void
+ */
+/**
+ * testCaptionRendersContent
+ *
+ * @return void
+ */
+/**
+ * testCaptionRendersContent
+ *
+ * @return void
+ */
+/**
+ * testCaptionRendersContent
+ *
+ * @return void
+ */
+/**
+ * testCaptionRendersContent
+ *
+ * @return void
+ */
+function testCaptionRendersContent() {
         $c = new HtmlCaption('Table title');
         $html = $c->getHtml();
         $this->assertStringContainsString('<caption', $html);
@@ -39,7 +89,57 @@ class HtmlTableElementsTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testColAndColgroupVoidAndAttributes() {
+    public /**
+ * testColAndColgroupVoidAndAttributes
+ *
+ * @return void
+ */
+/**
+ * testColAndColgroupVoidAndAttributes
+ *
+ * @return void
+ */
+/**
+ * testColAndColgroupVoidAndAttributes
+ *
+ * @return void
+ */
+/**
+ * testColAndColgroupVoidAndAttributes
+ *
+ * @return void
+ */
+/**
+ * testColAndColgroupVoidAndAttributes
+ *
+ * @return void
+ */
+/**
+ * testColAndColgroupVoidAndAttributes
+ *
+ * @return void
+ */
+/**
+ * testColAndColgroupVoidAndAttributes
+ *
+ * @return void
+ */
+/**
+ * testColAndColgroupVoidAndAttributes
+ *
+ * @return void
+ */
+/**
+ * testColAndColgroupVoidAndAttributes
+ *
+ * @return void
+ */
+/**
+ * testColAndColgroupVoidAndAttributes
+ *
+ * @return void
+ */
+function testColAndColgroupVoidAndAttributes() {
         $col = new HtmlCol();
         $col->setSpan(2);
         $this->assertStringContainsString('<col', $col->getHtml());
@@ -57,7 +157,57 @@ class HtmlTableElementsTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testTheadTbodyTfootAndTrNesting() {
+    public /**
+ * testTheadTbodyTfootAndTrNesting
+ *
+ * @return void
+ */
+/**
+ * testTheadTbodyTfootAndTrNesting
+ *
+ * @return void
+ */
+/**
+ * testTheadTbodyTfootAndTrNesting
+ *
+ * @return void
+ */
+/**
+ * testTheadTbodyTfootAndTrNesting
+ *
+ * @return void
+ */
+/**
+ * testTheadTbodyTfootAndTrNesting
+ *
+ * @return void
+ */
+/**
+ * testTheadTbodyTfootAndTrNesting
+ *
+ * @return void
+ */
+/**
+ * testTheadTbodyTfootAndTrNesting
+ *
+ * @return void
+ */
+/**
+ * testTheadTbodyTfootAndTrNesting
+ *
+ * @return void
+ */
+/**
+ * testTheadTbodyTfootAndTrNesting
+ *
+ * @return void
+ */
+/**
+ * testTheadTbodyTfootAndTrNesting
+ *
+ * @return void
+ */
+function testTheadTbodyTfootAndTrNesting() {
         $tr = new HtmlTr();
         $td = new HtmlElement();
         $td->setTag('td')->setAttribute('data-test', 'x');

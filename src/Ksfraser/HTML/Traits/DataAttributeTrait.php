@@ -163,6 +163,102 @@ namespace Ksfraser\HTML\Traits;
  * @return void
 
  */
+/**
+ * DataAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DataAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DataAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DataAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DataAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DataAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DataAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DataAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DataAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DataAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DataAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DataAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DataAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DataAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DataAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DataAttributeTrait
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 trait DataAttributeTrait
 {
     /**
@@ -345,7 +441,212 @@ trait DataAttributeTrait
      * @return self Returns $this for method chaining
 
      */
-    public function setData(string $key, mixed $value): self
+    public /**
+ * setData
+ *
+ * @param string $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @param string $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @param string $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @param string $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @param string $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @param string $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @param string $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @param string $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @param string $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @param string $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @param string $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return self
+ */
+/**
+ * setData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @param mixed $value
+ * @return self
+ */
+function setData(string $key, mixed $value): self
     {
         if (!empty($key)) {
             $this->dataAttributes[$key] = $value;
@@ -478,7 +779,185 @@ trait DataAttributeTrait
      * @return mixed The stored value, or null if not found
 
      */
-    public function getData(string $key): mixed
+    public /**
+ * getData
+ *
+ * @param string $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @param string $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @param string $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @param string $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @param string $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @param string $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @param string $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @param string $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @param string $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @param string $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @param string $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return mixed
+ */
+/**
+ * getData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return mixed
+ */
+function getData(string $key): mixed
     {
         return $this->dataAttributes[$key] ?? null;
     }
@@ -608,7 +1087,185 @@ trait DataAttributeTrait
      * @return bool True if the key exists, false otherwise
 
      */
-    public function hasData(string $key): bool
+    public /**
+ * hasData
+ *
+ * @param string $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @param string $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @param string $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @param string $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @param string $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @param string $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @param string $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @param string $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @param string $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @param string $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @param string $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return bool
+ */
+/**
+ * hasData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return bool
+ */
+function hasData(string $key): bool
     {
         return isset($this->dataAttributes[$key]);
     }
@@ -746,7 +1403,185 @@ trait DataAttributeTrait
      * @return self Returns $this for method chaining
 
      */
-    public function removeData(string $key): self
+    public /**
+ * removeData
+ *
+ * @param string $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @param string $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @param string $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @param string $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @param string $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @param string $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @param string $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @param string $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @param string $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @param string $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @param string $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return self
+ */
+/**
+ * removeData
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $key
+ * @return self
+ */
+function removeData(string $key): self
     {
         unset($this->dataAttributes[$key]);
         return $this;
@@ -845,7 +1680,158 @@ trait DataAttributeTrait
      * @return self Returns $this for method chaining
 
      */
-    public function clearData(): self
+    public /**
+ * clearData
+ *
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+/**
+ * clearData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return self
+ */
+function clearData(): self
     {
         $this->dataAttributes = [];
         return $this;
@@ -1024,7 +2010,185 @@ trait DataAttributeTrait
      * @return self Returns $this for method chaining
 
      */
-    public function setDataAttributes(array $data): self
+    public /**
+ * setDataAttributes
+ *
+ * @param array $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @param array $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @param array $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @param array $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @param array $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @param array $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @param array $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @param array $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @param array $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @param array $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @param array $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return self
+ */
+/**
+ * setDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return self
+ */
+function setDataAttributes(array $data): self
     {
         foreach ($data as $key => $value) {
             $this->setData($key, $value);
@@ -1149,7 +2313,158 @@ trait DataAttributeTrait
      * @return array Associative array of all data attributes
 
      */
-    public function getAllData(): array
+    public /**
+ * getAllData
+ *
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+/**
+ * getAllData
+ *
+ * @since v1.0.0 2026-04-14
+ * @return array
+ */
+function getAllData(): array
     {
         return $this->dataAttributes;
     }
@@ -1383,7 +2698,158 @@ trait DataAttributeTrait
      * @return string HTML attribute string, empty string if no data attributes
 
      */
-    protected function renderDataAttributes(): string
+    protected /**
+ * renderDataAttributes
+ *
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+/**
+ * renderDataAttributes
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function renderDataAttributes(): string
     {
         if (empty($this->dataAttributes)) {
             return '';
@@ -1557,7 +3023,185 @@ trait DataAttributeTrait
      * @return string The string representation
 
      */
-    private function convertDataValueToString(mixed $value): string
+    private /**
+ * convertDataValueToString
+ *
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return string
+ */
+/**
+ * convertDataValueToString
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @return string
+ */
+function convertDataValueToString(mixed $value): string
     {
         if ($value === null) {
             return '';

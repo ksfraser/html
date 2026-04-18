@@ -40,6 +40,61 @@ class ElementIntrospectionTraitTest extends TestCase
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
 function setUp(): void
     {
         $this->element = new /**
@@ -59,6 +114,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -83,6 +193,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testGetDirectChildren
+ *
+ * @return void
+ */
+/**
+ * testGetDirectChildren
+ *
+ * @return void
+ */
+/**
+ * testGetDirectChildren
+ *
+ * @return void
+ */
+/**
+ * testGetDirectChildren
+ *
+ * @return void
+ */
+/**
+ * testGetDirectChildren
+ *
+ * @return void
+ */
+/**
+ * testGetDirectChildren
+ *
+ * @return void
+ */
+/**
+ * testGetDirectChildren
+ *
+ * @return void
+ */
+/**
+ * testGetDirectChildren
+ *
+ * @return void
+ */
+/**
+ * testGetDirectChildren
+ *
+ * @return void
+ */
+/**
+ * testGetDirectChildren
+ *
+ * @return void
+ */
+/**
+ * testGetDirectChildren
+ *
+ * @return void
+ */
 function testGetDirectChildren()
     {
         $child1 = new /**
@@ -102,6 +267,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -127,6 +347,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -155,6 +430,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testGetChildrenReturnsOnlyDirect
+ *
+ * @return void
+ */
+/**
+ * testGetChildrenReturnsOnlyDirect
+ *
+ * @return void
+ */
+/**
+ * testGetChildrenReturnsOnlyDirect
+ *
+ * @return void
+ */
+/**
+ * testGetChildrenReturnsOnlyDirect
+ *
+ * @return void
+ */
+/**
+ * testGetChildrenReturnsOnlyDirect
+ *
+ * @return void
+ */
+/**
+ * testGetChildrenReturnsOnlyDirect
+ *
+ * @return void
+ */
+/**
+ * testGetChildrenReturnsOnlyDirect
+ *
+ * @return void
+ */
+/**
+ * testGetChildrenReturnsOnlyDirect
+ *
+ * @return void
+ */
+/**
+ * testGetChildrenReturnsOnlyDirect
+ *
+ * @return void
+ */
+/**
+ * testGetChildrenReturnsOnlyDirect
+ *
+ * @return void
+ */
+/**
+ * testGetChildrenReturnsOnlyDirect
+ *
+ * @return void
+ */
 function testGetChildrenReturnsOnlyDirect()
     {
         $parent = new /**
@@ -174,6 +504,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -201,6 +586,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -224,6 +664,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -253,6 +748,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testGetAllNestedElements
+ *
+ * @return void
+ */
+/**
+ * testGetAllNestedElements
+ *
+ * @return void
+ */
+/**
+ * testGetAllNestedElements
+ *
+ * @return void
+ */
+/**
+ * testGetAllNestedElements
+ *
+ * @return void
+ */
+/**
+ * testGetAllNestedElements
+ *
+ * @return void
+ */
+/**
+ * testGetAllNestedElements
+ *
+ * @return void
+ */
+/**
+ * testGetAllNestedElements
+ *
+ * @return void
+ */
+/**
+ * testGetAllNestedElements
+ *
+ * @return void
+ */
+/**
+ * testGetAllNestedElements
+ *
+ * @return void
+ */
+/**
+ * testGetAllNestedElements
+ *
+ * @return void
+ */
+/**
+ * testGetAllNestedElements
+ *
+ * @return void
+ */
 function testGetAllNestedElements()
     {
         $parent = new /**
@@ -272,6 +822,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -299,6 +904,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -324,6 +984,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                 parent::__construct();
                 $this->tag = 'span';
@@ -347,6 +1062,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -376,6 +1146,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testGetAllNestedElementsRecursiveTraversal
+ *
+ * @return void
+ */
+/**
+ * testGetAllNestedElementsRecursiveTraversal
+ *
+ * @return void
+ */
+/**
+ * testGetAllNestedElementsRecursiveTraversal
+ *
+ * @return void
+ */
+/**
+ * testGetAllNestedElementsRecursiveTraversal
+ *
+ * @return void
+ */
+/**
+ * testGetAllNestedElementsRecursiveTraversal
+ *
+ * @return void
+ */
+/**
+ * testGetAllNestedElementsRecursiveTraversal
+ *
+ * @return void
+ */
+/**
+ * testGetAllNestedElementsRecursiveTraversal
+ *
+ * @return void
+ */
+/**
+ * testGetAllNestedElementsRecursiveTraversal
+ *
+ * @return void
+ */
+/**
+ * testGetAllNestedElementsRecursiveTraversal
+ *
+ * @return void
+ */
+/**
+ * testGetAllNestedElementsRecursiveTraversal
+ *
+ * @return void
+ */
+/**
+ * testGetAllNestedElementsRecursiveTraversal
+ *
+ * @return void
+ */
 function testGetAllNestedElementsRecursiveTraversal()
     {
         $root = new /**
@@ -395,6 +1220,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -422,6 +1302,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -447,6 +1382,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -470,6 +1460,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -501,6 +1546,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testFindByTagName
+ *
+ * @return void
+ */
+/**
+ * testFindByTagName
+ *
+ * @return void
+ */
+/**
+ * testFindByTagName
+ *
+ * @return void
+ */
+/**
+ * testFindByTagName
+ *
+ * @return void
+ */
+/**
+ * testFindByTagName
+ *
+ * @return void
+ */
+/**
+ * testFindByTagName
+ *
+ * @return void
+ */
+/**
+ * testFindByTagName
+ *
+ * @return void
+ */
+/**
+ * testFindByTagName
+ *
+ * @return void
+ */
+/**
+ * testFindByTagName
+ *
+ * @return void
+ */
+/**
+ * testFindByTagName
+ *
+ * @return void
+ */
+/**
+ * testFindByTagName
+ *
+ * @return void
+ */
 function testFindByTagName()
     {
         $parent = new /**
@@ -520,6 +1620,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -547,6 +1702,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                 parent::__construct(new HtmlString('Save'));
                 $this->tag = 'button';
@@ -572,6 +1782,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                 parent::__construct(new HtmlString('Cancel'));
                 $this->tag = 'button';
@@ -595,6 +1860,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -624,6 +1944,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testFindByTagReturnsEmpty
+ *
+ * @return void
+ */
+/**
+ * testFindByTagReturnsEmpty
+ *
+ * @return void
+ */
+/**
+ * testFindByTagReturnsEmpty
+ *
+ * @return void
+ */
+/**
+ * testFindByTagReturnsEmpty
+ *
+ * @return void
+ */
+/**
+ * testFindByTagReturnsEmpty
+ *
+ * @return void
+ */
+/**
+ * testFindByTagReturnsEmpty
+ *
+ * @return void
+ */
+/**
+ * testFindByTagReturnsEmpty
+ *
+ * @return void
+ */
+/**
+ * testFindByTagReturnsEmpty
+ *
+ * @return void
+ */
+/**
+ * testFindByTagReturnsEmpty
+ *
+ * @return void
+ */
+/**
+ * testFindByTagReturnsEmpty
+ *
+ * @return void
+ */
+/**
+ * testFindByTagReturnsEmpty
+ *
+ * @return void
+ */
 function testFindByTagReturnsEmpty()
     {
         $parent = new /**
@@ -643,6 +2018,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -668,6 +2098,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -697,6 +2182,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testFindByAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testFindByAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testFindByAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testFindByAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testFindByAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testFindByAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testFindByAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testFindByAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testFindByAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testFindByAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testFindByAttributeValue
+ *
+ * @return void
+ */
 function testFindByAttributeValue()
     {
         $parent = new /**
@@ -716,6 +2256,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -743,6 +2338,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                 parent::__construct();
                 $this->tag = 'input';
@@ -768,6 +2418,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -801,6 +2506,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testFindByClass
+ *
+ * @return void
+ */
+/**
+ * testFindByClass
+ *
+ * @return void
+ */
+/**
+ * testFindByClass
+ *
+ * @return void
+ */
+/**
+ * testFindByClass
+ *
+ * @return void
+ */
+/**
+ * testFindByClass
+ *
+ * @return void
+ */
+/**
+ * testFindByClass
+ *
+ * @return void
+ */
+/**
+ * testFindByClass
+ *
+ * @return void
+ */
+/**
+ * testFindByClass
+ *
+ * @return void
+ */
+/**
+ * testFindByClass
+ *
+ * @return void
+ */
+/**
+ * testFindByClass
+ *
+ * @return void
+ */
+/**
+ * testFindByClass
+ *
+ * @return void
+ */
 function testFindByClass()
     {
         $parent = new /**
@@ -820,6 +2580,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -845,6 +2660,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -874,6 +2744,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                 parent::__construct(new HtmlString('Cancel'));
                 $this->tag = 'button';
@@ -899,6 +2824,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -932,6 +2912,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testFindByAttributeExists
+ *
+ * @return void
+ */
+/**
+ * testFindByAttributeExists
+ *
+ * @return void
+ */
+/**
+ * testFindByAttributeExists
+ *
+ * @return void
+ */
+/**
+ * testFindByAttributeExists
+ *
+ * @return void
+ */
+/**
+ * testFindByAttributeExists
+ *
+ * @return void
+ */
+/**
+ * testFindByAttributeExists
+ *
+ * @return void
+ */
+/**
+ * testFindByAttributeExists
+ *
+ * @return void
+ */
+/**
+ * testFindByAttributeExists
+ *
+ * @return void
+ */
+/**
+ * testFindByAttributeExists
+ *
+ * @return void
+ */
+/**
+ * testFindByAttributeExists
+ *
+ * @return void
+ */
+/**
+ * testFindByAttributeExists
+ *
+ * @return void
+ */
 function testFindByAttributeExists()
     {
         $parent = new /**
@@ -951,6 +2986,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -978,6 +3068,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                 parent::__construct();
                 $this->tag = 'input';
@@ -1002,6 +3147,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -1032,6 +3232,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testFindById
+ *
+ * @return void
+ */
+/**
+ * testFindById
+ *
+ * @return void
+ */
+/**
+ * testFindById
+ *
+ * @return void
+ */
+/**
+ * testFindById
+ *
+ * @return void
+ */
+/**
+ * testFindById
+ *
+ * @return void
+ */
+/**
+ * testFindById
+ *
+ * @return void
+ */
+/**
+ * testFindById
+ *
+ * @return void
+ */
+/**
+ * testFindById
+ *
+ * @return void
+ */
+/**
+ * testFindById
+ *
+ * @return void
+ */
+/**
+ * testFindById
+ *
+ * @return void
+ */
+/**
+ * testFindById
+ *
+ * @return void
+ */
 function testFindById()
     {
         $parent = new /**
@@ -1051,6 +3306,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -1078,6 +3388,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                 parent::__construct(new HtmlString('Target'));
                 $this->tag = 'p';
@@ -1102,6 +3467,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -1132,6 +3552,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testFindByIdReturnsNull
+ *
+ * @return void
+ */
+/**
+ * testFindByIdReturnsNull
+ *
+ * @return void
+ */
+/**
+ * testFindByIdReturnsNull
+ *
+ * @return void
+ */
+/**
+ * testFindByIdReturnsNull
+ *
+ * @return void
+ */
+/**
+ * testFindByIdReturnsNull
+ *
+ * @return void
+ */
+/**
+ * testFindByIdReturnsNull
+ *
+ * @return void
+ */
+/**
+ * testFindByIdReturnsNull
+ *
+ * @return void
+ */
+/**
+ * testFindByIdReturnsNull
+ *
+ * @return void
+ */
+/**
+ * testFindByIdReturnsNull
+ *
+ * @return void
+ */
+/**
+ * testFindByIdReturnsNull
+ *
+ * @return void
+ */
+/**
+ * testFindByIdReturnsNull
+ *
+ * @return void
+ */
 function testFindByIdReturnsNull()
     {
         $parent = new /**
@@ -1151,6 +3626,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -1178,6 +3708,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testGetAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValue
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValue
+ *
+ * @return void
+ */
 function testGetAttributeValue()
     {
         $this->element->setAttribute('id', 'my-div');
@@ -1202,6 +3787,61 @@ function testGetAttributeValue()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testGetAttributeValueNonExistent
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValueNonExistent
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValueNonExistent
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValueNonExistent
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValueNonExistent
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValueNonExistent
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValueNonExistent
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValueNonExistent
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValueNonExistent
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValueNonExistent
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeValueNonExistent
+ *
+ * @return void
+ */
 function testGetAttributeValueNonExistent()
     {
         $value = $this->element->getAttributeValue('nonexistent');
@@ -1219,6 +3859,61 @@ function testGetAttributeValueNonExistent()
  * testGetAttributeByName
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testGetAttributeByName
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeByName
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeByName
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeByName
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeByName
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeByName
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeByName
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeByName
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeByName
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeByName
+ *
+ * @return void
+ */
+/**
+ * testGetAttributeByName
+ *
  * @return void
  */
 function testGetAttributeByName()
@@ -1242,6 +3937,61 @@ function testGetAttributeByName()
  * testGetAllAttributes
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testGetAllAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllAttributes
+ *
  * @return void
  */
 function testGetAllAttributes()
@@ -1273,6 +4023,61 @@ function testGetAllAttributes()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testGetTagName
+ *
+ * @return void
+ */
+/**
+ * testGetTagName
+ *
+ * @return void
+ */
+/**
+ * testGetTagName
+ *
+ * @return void
+ */
+/**
+ * testGetTagName
+ *
+ * @return void
+ */
+/**
+ * testGetTagName
+ *
+ * @return void
+ */
+/**
+ * testGetTagName
+ *
+ * @return void
+ */
+/**
+ * testGetTagName
+ *
+ * @return void
+ */
+/**
+ * testGetTagName
+ *
+ * @return void
+ */
+/**
+ * testGetTagName
+ *
+ * @return void
+ */
+/**
+ * testGetTagName
+ *
+ * @return void
+ */
+/**
+ * testGetTagName
+ *
+ * @return void
+ */
 function testGetTagName()
     {
         $div = new /**
@@ -1292,6 +4097,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -1319,6 +4179,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                 parent::__construct();
                 $this->tag = 'button';
@@ -1342,6 +4257,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testHasChildren
+ *
+ * @return void
+ */
+/**
+ * testHasChildren
+ *
+ * @return void
+ */
+/**
+ * testHasChildren
+ *
+ * @return void
+ */
+/**
+ * testHasChildren
+ *
+ * @return void
+ */
+/**
+ * testHasChildren
+ *
+ * @return void
+ */
+/**
+ * testHasChildren
+ *
+ * @return void
+ */
+/**
+ * testHasChildren
+ *
+ * @return void
+ */
+/**
+ * testHasChildren
+ *
+ * @return void
+ */
+/**
+ * testHasChildren
+ *
+ * @return void
+ */
+/**
+ * testHasChildren
+ *
+ * @return void
+ */
+/**
+ * testHasChildren
+ *
+ * @return void
+ */
 function testHasChildren()
     {
         $parent = new /**
@@ -1361,6 +4331,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -1390,6 +4415,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                 parent::__construct();
                 $this->tag = 'span';
@@ -1413,6 +4493,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testGetChildCount
+ *
+ * @return void
+ */
+/**
+ * testGetChildCount
+ *
+ * @return void
+ */
+/**
+ * testGetChildCount
+ *
+ * @return void
+ */
+/**
+ * testGetChildCount
+ *
+ * @return void
+ */
+/**
+ * testGetChildCount
+ *
+ * @return void
+ */
+/**
+ * testGetChildCount
+ *
+ * @return void
+ */
+/**
+ * testGetChildCount
+ *
+ * @return void
+ */
+/**
+ * testGetChildCount
+ *
+ * @return void
+ */
+/**
+ * testGetChildCount
+ *
+ * @return void
+ */
+/**
+ * testGetChildCount
+ *
+ * @return void
+ */
+/**
+ * testGetChildCount
+ *
+ * @return void
+ */
 function testGetChildCount()
     {
         $parent = new /**
@@ -1432,6 +4567,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -1461,6 +4651,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                 parent::__construct();
                 $this->tag = 'span';
@@ -1486,6 +4731,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                 parent::__construct();
                 $this->tag = 'span';
@@ -1508,6 +4808,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testGetNestedCount
+ *
+ * @return void
+ */
+/**
+ * testGetNestedCount
+ *
+ * @return void
+ */
+/**
+ * testGetNestedCount
+ *
+ * @return void
+ */
+/**
+ * testGetNestedCount
+ *
+ * @return void
+ */
+/**
+ * testGetNestedCount
+ *
+ * @return void
+ */
+/**
+ * testGetNestedCount
+ *
+ * @return void
+ */
+/**
+ * testGetNestedCount
+ *
+ * @return void
+ */
+/**
+ * testGetNestedCount
+ *
+ * @return void
+ */
+/**
+ * testGetNestedCount
+ *
+ * @return void
+ */
+/**
+ * testGetNestedCount
+ *
+ * @return void
+ */
+/**
+ * testGetNestedCount
+ *
+ * @return void
+ */
 function testGetNestedCount()
     {
         $parent = new /**
@@ -1527,6 +4882,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -1554,6 +4964,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -1577,6 +5042,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -1606,6 +5126,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testContainsChild
+ *
+ * @return void
+ */
+/**
+ * testContainsChild
+ *
+ * @return void
+ */
+/**
+ * testContainsChild
+ *
+ * @return void
+ */
+/**
+ * testContainsChild
+ *
+ * @return void
+ */
+/**
+ * testContainsChild
+ *
+ * @return void
+ */
+/**
+ * testContainsChild
+ *
+ * @return void
+ */
+/**
+ * testContainsChild
+ *
+ * @return void
+ */
+/**
+ * testContainsChild
+ *
+ * @return void
+ */
+/**
+ * testContainsChild
+ *
+ * @return void
+ */
+/**
+ * testContainsChild
+ *
+ * @return void
+ */
+/**
+ * testContainsChild
+ *
+ * @return void
+ */
 function testContainsChild()
     {
         $parent = new /**
@@ -1625,6 +5200,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -1652,6 +5282,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                 parent::__construct();
                 $this->tag = 'span';
@@ -1675,6 +5360,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -1702,6 +5442,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testContainsNestedElement
+ *
+ * @return void
+ */
+/**
+ * testContainsNestedElement
+ *
+ * @return void
+ */
+/**
+ * testContainsNestedElement
+ *
+ * @return void
+ */
+/**
+ * testContainsNestedElement
+ *
+ * @return void
+ */
+/**
+ * testContainsNestedElement
+ *
+ * @return void
+ */
+/**
+ * testContainsNestedElement
+ *
+ * @return void
+ */
+/**
+ * testContainsNestedElement
+ *
+ * @return void
+ */
+/**
+ * testContainsNestedElement
+ *
+ * @return void
+ */
+/**
+ * testContainsNestedElement
+ *
+ * @return void
+ */
+/**
+ * testContainsNestedElement
+ *
+ * @return void
+ */
+/**
+ * testContainsNestedElement
+ *
+ * @return void
+ */
 function testContainsNestedElement()
     {
         $parent = new /**
@@ -1721,6 +5516,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -1748,6 +5598,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                 parent::__construct();
                 $this->tag = 'div';
@@ -1773,6 +5678,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                 parent::__construct();
                 $this->tag = 'span';
@@ -1796,6 +5756,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -1826,6 +5841,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testFindByTagAndClass
+ *
+ * @return void
+ */
+/**
+ * testFindByTagAndClass
+ *
+ * @return void
+ */
+/**
+ * testFindByTagAndClass
+ *
+ * @return void
+ */
+/**
+ * testFindByTagAndClass
+ *
+ * @return void
+ */
+/**
+ * testFindByTagAndClass
+ *
+ * @return void
+ */
+/**
+ * testFindByTagAndClass
+ *
+ * @return void
+ */
+/**
+ * testFindByTagAndClass
+ *
+ * @return void
+ */
+/**
+ * testFindByTagAndClass
+ *
+ * @return void
+ */
+/**
+ * testFindByTagAndClass
+ *
+ * @return void
+ */
+/**
+ * testFindByTagAndClass
+ *
+ * @return void
+ */
+/**
+ * testFindByTagAndClass
+ *
+ * @return void
+ */
 function testFindByTagAndClass()
     {
         // This tests combination of criteria
@@ -1846,6 +5916,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -1871,6 +5996,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -1899,6 +6079,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                 parent::__construct(new HtmlString('Secondary'));
                 $this->tag = 'button';
@@ -1925,6 +6160,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                 parent::__construct(new HtmlString('Link'));
                 $this->tag = 'a';
@@ -1942,6 +6232,72 @@ function __construct() {
  * (anonymous)
  *
  * @since v1.0.0 2026-04-14
+ * @param mixed $elem
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param mixed $elem
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param mixed $elem
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param mixed $elem
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param mixed $elem
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param mixed $elem
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param mixed $elem
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param mixed $elem
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param mixed $elem
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param mixed $elem
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param mixed $elem
+ * @return void
+ */
+/**
+ * No description.
+ *
  * @param mixed $elem
  * @return void
  */
@@ -1965,6 +6321,61 @@ function($elem) {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testFilterElements
+ *
+ * @return void
+ */
+/**
+ * testFilterElements
+ *
+ * @return void
+ */
+/**
+ * testFilterElements
+ *
+ * @return void
+ */
+/**
+ * testFilterElements
+ *
+ * @return void
+ */
+/**
+ * testFilterElements
+ *
+ * @return void
+ */
+/**
+ * testFilterElements
+ *
+ * @return void
+ */
+/**
+ * testFilterElements
+ *
+ * @return void
+ */
+/**
+ * testFilterElements
+ *
+ * @return void
+ */
+/**
+ * testFilterElements
+ *
+ * @return void
+ */
+/**
+ * testFilterElements
+ *
+ * @return void
+ */
+/**
+ * testFilterElements
+ *
+ * @return void
+ */
 function testFilterElements()
     {
         // Test filtering with closure
@@ -1985,6 +6396,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -2013,6 +6479,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                     parent::__construct();
                     $this->tag = 'div';
@@ -2027,6 +6548,72 @@ function __construct() {
  * (anonymous)
  *
  * @since v1.0.0 2026-04-14
+ * @param mixed $elem
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param mixed $elem
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param mixed $elem
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param mixed $elem
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param mixed $elem
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param mixed $elem
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param mixed $elem
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param mixed $elem
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param mixed $elem
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param mixed $elem
+ * @return void
+ */
+/**
+ * No description.
+ *
+ * @param mixed $elem
+ * @return void
+ */
+/**
+ * No description.
+ *
  * @param mixed $elem
  * @return void
  */
@@ -2052,6 +6639,61 @@ function($elem) {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testEmptyElementStructure
+ *
+ * @return void
+ */
+/**
+ * testEmptyElementStructure
+ *
+ * @return void
+ */
+/**
+ * testEmptyElementStructure
+ *
+ * @return void
+ */
+/**
+ * testEmptyElementStructure
+ *
+ * @return void
+ */
+/**
+ * testEmptyElementStructure
+ *
+ * @return void
+ */
+/**
+ * testEmptyElementStructure
+ *
+ * @return void
+ */
+/**
+ * testEmptyElementStructure
+ *
+ * @return void
+ */
+/**
+ * testEmptyElementStructure
+ *
+ * @return void
+ */
+/**
+ * testEmptyElementStructure
+ *
+ * @return void
+ */
+/**
+ * testEmptyElementStructure
+ *
+ * @return void
+ */
+/**
+ * testEmptyElementStructure
+ *
+ * @return void
+ */
 function testEmptyElementStructure()
     {
         $empty = new /**
@@ -2071,6 +6713,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -2097,6 +6794,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testDeeplyNestedStructure
+ *
+ * @return void
+ */
+/**
+ * testDeeplyNestedStructure
+ *
+ * @return void
+ */
+/**
+ * testDeeplyNestedStructure
+ *
+ * @return void
+ */
+/**
+ * testDeeplyNestedStructure
+ *
+ * @return void
+ */
+/**
+ * testDeeplyNestedStructure
+ *
+ * @return void
+ */
+/**
+ * testDeeplyNestedStructure
+ *
+ * @return void
+ */
+/**
+ * testDeeplyNestedStructure
+ *
+ * @return void
+ */
+/**
+ * testDeeplyNestedStructure
+ *
+ * @return void
+ */
+/**
+ * testDeeplyNestedStructure
+ *
+ * @return void
+ */
+/**
+ * testDeeplyNestedStructure
+ *
+ * @return void
+ */
+/**
+ * testDeeplyNestedStructure
+ *
+ * @return void
+ */
 function testDeeplyNestedStructure()
     {
         $root = new /**
@@ -2116,6 +6868,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -2145,6 +6952,61 @@ class extends HtmlElement {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
 function __construct() {
                     parent::__construct();
                     $this->tag = 'div';
@@ -2171,6 +7033,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testMixedContentTypes
+ *
+ * @return void
+ */
+/**
+ * testMixedContentTypes
+ *
+ * @return void
+ */
+/**
+ * testMixedContentTypes
+ *
+ * @return void
+ */
+/**
+ * testMixedContentTypes
+ *
+ * @return void
+ */
+/**
+ * testMixedContentTypes
+ *
+ * @return void
+ */
+/**
+ * testMixedContentTypes
+ *
+ * @return void
+ */
+/**
+ * testMixedContentTypes
+ *
+ * @return void
+ */
+/**
+ * testMixedContentTypes
+ *
+ * @return void
+ */
+/**
+ * testMixedContentTypes
+ *
+ * @return void
+ */
+/**
+ * testMixedContentTypes
+ *
+ * @return void
+ */
+/**
+ * testMixedContentTypes
+ *
+ * @return void
+ */
 function testMixedContentTypes()
     {
         $parent = new /**
@@ -2190,6 +7107,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -2216,6 +7188,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {

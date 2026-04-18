@@ -13,7 +13,57 @@ class HtmlAttributesCoverageTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testAttributesClassesExist() {
+    public /**
+ * testAttributesClassesExist
+ *
+ * @return void
+ */
+/**
+ * testAttributesClassesExist
+ *
+ * @return void
+ */
+/**
+ * testAttributesClassesExist
+ *
+ * @return void
+ */
+/**
+ * testAttributesClassesExist
+ *
+ * @return void
+ */
+/**
+ * testAttributesClassesExist
+ *
+ * @return void
+ */
+/**
+ * testAttributesClassesExist
+ *
+ * @return void
+ */
+/**
+ * testAttributesClassesExist
+ *
+ * @return void
+ */
+/**
+ * testAttributesClassesExist
+ *
+ * @return void
+ */
+/**
+ * testAttributesClassesExist
+ *
+ * @return void
+ */
+/**
+ * testAttributesClassesExist
+ *
+ * @return void
+ */
+function testAttributesClassesExist() {
         $classes = [
             'Ksfraser\\HTML\\Attributes\\HtmlAttributeValueObject',
             'Ksfraser\\HTML\\Attributes\\HtmlNameValue',

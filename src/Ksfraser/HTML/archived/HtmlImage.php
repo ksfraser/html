@@ -15,6 +15,102 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * HtmlImage
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlImage
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlImage
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlImage
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlImage
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlImage
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlImage
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlImage
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlImage
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlImage
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlImage
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlImage
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlImage
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlImage
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlImage
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlImage
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlImage extends HtmlElement
 {
 	//can have style, alt.  MUST HAVE src
@@ -26,7 +122,185 @@ class HtmlImage extends HtmlElement
  * @param HtmlElementInterface $data
  * @return void
  */
-	function __construct( HtmlElementInterface $data )
+	/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlElementInterface $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $data
+ * @return void
+ */
+function __construct( HtmlElementInterface $data )
 	{
 		parent::__construct( $data );
 		$this->tag = "img";
@@ -38,7 +312,185 @@ class HtmlImage extends HtmlElement
  * @param mixed $src
  * @return void
  */
-	function setSrc( $src )
+	/**
+ * setSrc
+ *
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return void
+ */
+/**
+ * setSrc
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $src
+ * @return void
+ */
+function setSrc( $src )
 	{
 		$this->addAttribute( new HtmlAttribute( "src", $src ) );
 	}
@@ -49,7 +501,185 @@ class HtmlImage extends HtmlElement
  * @param mixed $alt
  * @return void
  */
-	function setAlt( $alt )
+	/**
+ * setAlt
+ *
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $alt
+ * @return void
+ */
+/**
+ * setAlt
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $alt
+ * @return void
+ */
+function setAlt( $alt )
 	{
 		$this->addAttribute( new HtmlAttribute( "alt", $alt ) );
 	}
@@ -63,7 +693,185 @@ class HtmlImage extends HtmlElement
  * @param mixed $height
  * @return void
  */
-	function setHeight( $height )
+	/**
+ * setHeight
+ *
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setHeight
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $height
+ * @return void
+ */
+function setHeight( $height )
 	{
 		$this->addAttribute( new HtmlAttribute( "height", $height ) );
 	}
@@ -74,7 +882,185 @@ class HtmlImage extends HtmlElement
  * @param mixed $width
  * @return void
  */
-	function setWidth( $width )
+	/**
+ * setWidth
+ *
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @return void
+ */
+/**
+ * setWidth
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @return void
+ */
+function setWidth( $width )
 	{
 		$this->addAttribute( new HtmlAttribute( "width", $width ) );
 	}
@@ -86,7 +1072,212 @@ class HtmlImage extends HtmlElement
  * @param int $height
  * @return void
  */
-	function setSize( int $width, int $height )
+	/**
+ * setSize
+ *
+ * @param int $width
+ * @param int $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @param int $width
+ * @param int $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @param int $width
+ * @param int $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @param int $width
+ * @param int $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @param int $width
+ * @param int $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @param int $width
+ * @param int $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @param int $width
+ * @param int $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @param int $width
+ * @param int $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @param int $width
+ * @param int $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @param int $width
+ * @param int $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @param int $width
+ * @param int $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $height
+ * @return void
+ */
+/**
+ * setSize
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $width
+ * @param mixed $height
+ * @return void
+ */
+function setSize( int $width, int $height )
 	{
 			   $w = new HtmlStyle( "width", $width . "px" );
 			   $h = new HtmlStyle( "height", $height . "px" );

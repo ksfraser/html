@@ -108,6 +108,102 @@ use Ksfraser\HTML\Elements\TableData;
  * @return void
 
  */
+/**
+ * IdTypeTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdTypeTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdTypeTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdTypeTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdTypeTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdTypeTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdTypeTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdTypeTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdTypeTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdTypeTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdTypeTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdTypeTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdTypeTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdTypeTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdTypeTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * IdTypeTableCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class IdTypeTableCell {
     /**
      * Build type ID cell with fixed configuration
@@ -117,7 +213,212 @@ class IdTypeTableCell {
      * @param string $rowPrefix The row prefix for ID generation
      * @return TableData
      */
-    public function build($typeId, string $rowPrefix): TableData {
+    public /**
+ * build
+ *
+ * @param mixed $typeId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $typeId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $typeId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $typeId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $typeId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $typeId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $typeId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $typeId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $typeId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $typeId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @param mixed $typeId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $typeId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+function build($typeId, string $rowPrefix): TableData {
         return (new IdTableCell())
             ->setId("id-cell-{$rowPrefix}")
             ->setAttribute('data-type-id', (string)$typeId)

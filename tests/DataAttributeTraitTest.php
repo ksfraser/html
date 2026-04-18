@@ -40,6 +40,61 @@ class DataAttributeTraitTest extends TestCase
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
+/**
+ * setUp
+ *
+ * @return void
+ */
 function setUp(): void
     {
         $this->element = new /**
@@ -59,6 +114,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -83,6 +193,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetSingleDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testSetSingleDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testSetSingleDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testSetSingleDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testSetSingleDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testSetSingleDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testSetSingleDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testSetSingleDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testSetSingleDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testSetSingleDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testSetSingleDataAttribute
+ *
+ * @return void
+ */
 function testSetSingleDataAttribute()
     {
         $this->element->setData('userId', '123');
@@ -101,6 +266,61 @@ function testSetSingleDataAttribute()
  * testSetMultipleDataAttributes
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetMultipleDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testSetMultipleDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testSetMultipleDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testSetMultipleDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testSetMultipleDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testSetMultipleDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testSetMultipleDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testSetMultipleDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testSetMultipleDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testSetMultipleDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testSetMultipleDataAttributes
+ *
  * @return void
  */
 function testSetMultipleDataAttributes()
@@ -125,6 +345,61 @@ function testSetMultipleDataAttributes()
  * testSetDataAttributeWithBatch
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetDataAttributeWithBatch
+ *
+ * @return void
+ */
+/**
+ * testSetDataAttributeWithBatch
+ *
+ * @return void
+ */
+/**
+ * testSetDataAttributeWithBatch
+ *
+ * @return void
+ */
+/**
+ * testSetDataAttributeWithBatch
+ *
+ * @return void
+ */
+/**
+ * testSetDataAttributeWithBatch
+ *
+ * @return void
+ */
+/**
+ * testSetDataAttributeWithBatch
+ *
+ * @return void
+ */
+/**
+ * testSetDataAttributeWithBatch
+ *
+ * @return void
+ */
+/**
+ * testSetDataAttributeWithBatch
+ *
+ * @return void
+ */
+/**
+ * testSetDataAttributeWithBatch
+ *
+ * @return void
+ */
+/**
+ * testSetDataAttributeWithBatch
+ *
+ * @return void
+ */
+/**
+ * testSetDataAttributeWithBatch
+ *
  * @return void
  */
 function testSetDataAttributeWithBatch()
@@ -154,6 +429,61 @@ function testSetDataAttributeWithBatch()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testGetAllDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testGetAllDataAttributes
+ *
+ * @return void
+ */
 function testGetAllDataAttributes()
     {
         $this->element->setData('a', '1');
@@ -180,6 +510,61 @@ function testGetAllDataAttributes()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testDataAttributeInHtmlOutput
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeInHtmlOutput
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeInHtmlOutput
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeInHtmlOutput
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeInHtmlOutput
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeInHtmlOutput
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeInHtmlOutput
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeInHtmlOutput
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeInHtmlOutput
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeInHtmlOutput
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeInHtmlOutput
+ *
+ * @return void
+ */
 function testDataAttributeInHtmlOutput()
     {
         $this->element->setData('userId', '123');
@@ -203,6 +588,61 @@ function testDataAttributeInHtmlOutput()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetDataWithStringValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithStringValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithStringValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithStringValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithStringValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithStringValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithStringValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithStringValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithStringValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithStringValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithStringValue
+ *
+ * @return void
+ */
 function testSetDataWithStringValue()
     {
         $this->element->setData('message', 'Hello World');
@@ -220,6 +660,61 @@ function testSetDataWithStringValue()
  * testSetDataWithIntegerValue
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetDataWithIntegerValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithIntegerValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithIntegerValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithIntegerValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithIntegerValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithIntegerValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithIntegerValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithIntegerValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithIntegerValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithIntegerValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithIntegerValue
+ *
  * @return void
  */
 function testSetDataWithIntegerValue()
@@ -240,6 +735,61 @@ function testSetDataWithIntegerValue()
  * testSetDataWithBooleanValue
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetDataWithBooleanValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithBooleanValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithBooleanValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithBooleanValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithBooleanValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithBooleanValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithBooleanValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithBooleanValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithBooleanValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithBooleanValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithBooleanValue
+ *
  * @return void
  */
 function testSetDataWithBooleanValue()
@@ -265,6 +815,61 @@ function testSetDataWithBooleanValue()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetDataWithArrayValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithArrayValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithArrayValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithArrayValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithArrayValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithArrayValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithArrayValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithArrayValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithArrayValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithArrayValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithArrayValue
+ *
+ * @return void
+ */
 function testSetDataWithArrayValue()
     {
         $array = ['a', 'b', 'c'];
@@ -285,6 +890,61 @@ function testSetDataWithArrayValue()
  * testSetDataWithJsonSerializableObject
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetDataWithJsonSerializableObject
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithJsonSerializableObject
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithJsonSerializableObject
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithJsonSerializableObject
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithJsonSerializableObject
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithJsonSerializableObject
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithJsonSerializableObject
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithJsonSerializableObject
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithJsonSerializableObject
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithJsonSerializableObject
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithJsonSerializableObject
+ *
  * @return void
  */
 function testSetDataWithJsonSerializableObject()
@@ -311,6 +971,61 @@ function testSetDataWithJsonSerializableObject()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetDataWithFloatValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithFloatValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithFloatValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithFloatValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithFloatValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithFloatValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithFloatValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithFloatValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithFloatValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithFloatValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithFloatValue
+ *
+ * @return void
+ */
 function testSetDataWithFloatValue()
     {
         $this->element->setData('price', 19.99);
@@ -331,6 +1046,61 @@ function testSetDataWithFloatValue()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetDataWithEmptyString
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithEmptyString
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithEmptyString
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithEmptyString
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithEmptyString
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithEmptyString
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithEmptyString
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithEmptyString
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithEmptyString
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithEmptyString
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithEmptyString
+ *
+ * @return void
+ */
 function testSetDataWithEmptyString()
     {
         $this->element->setData('empty', '');
@@ -348,6 +1118,61 @@ function testSetDataWithEmptyString()
  * testSetDataWithNull
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetDataWithNull
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithNull
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithNull
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithNull
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithNull
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithNull
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithNull
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithNull
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithNull
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithNull
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithNull
+ *
  * @return void
  */
 function testSetDataWithNull()
@@ -373,6 +1198,61 @@ function testSetDataWithNull()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testDataAttributeEscapesDoubleQuotes
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesDoubleQuotes
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesDoubleQuotes
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesDoubleQuotes
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesDoubleQuotes
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesDoubleQuotes
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesDoubleQuotes
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesDoubleQuotes
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesDoubleQuotes
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesDoubleQuotes
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesDoubleQuotes
+ *
+ * @return void
+ */
 function testDataAttributeEscapesDoubleQuotes()
     {
         $this->element->setData('message', 'He said "hello"');
@@ -392,6 +1272,61 @@ function testDataAttributeEscapesDoubleQuotes()
  * testDataAttributeEscapesLessThan
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesLessThan
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesLessThan
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesLessThan
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesLessThan
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesLessThan
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesLessThan
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesLessThan
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesLessThan
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesLessThan
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesLessThan
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesLessThan
+ *
  * @return void
  */
 function testDataAttributeEscapesLessThan()
@@ -414,6 +1349,61 @@ function testDataAttributeEscapesLessThan()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testDataAttributeEscapesGreaterThan
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesGreaterThan
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesGreaterThan
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesGreaterThan
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesGreaterThan
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesGreaterThan
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesGreaterThan
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesGreaterThan
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesGreaterThan
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesGreaterThan
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesGreaterThan
+ *
+ * @return void
+ */
 function testDataAttributeEscapesGreaterThan()
     {
         $this->element->setData('condition', '10 > 5');
@@ -432,6 +1422,61 @@ function testDataAttributeEscapesGreaterThan()
  * testDataAttributeEscapesAmpersand
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesAmpersand
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesAmpersand
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesAmpersand
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesAmpersand
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesAmpersand
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesAmpersand
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesAmpersand
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesAmpersand
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesAmpersand
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesAmpersand
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesAmpersand
+ *
  * @return void
  */
 function testDataAttributeEscapesAmpersand()
@@ -454,6 +1499,61 @@ function testDataAttributeEscapesAmpersand()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testDataAttributeEscapesSingleQuote
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesSingleQuote
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesSingleQuote
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesSingleQuote
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesSingleQuote
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesSingleQuote
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesSingleQuote
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesSingleQuote
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesSingleQuote
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesSingleQuote
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesSingleQuote
+ *
+ * @return void
+ */
 function testDataAttributeEscapesSingleQuote()
     {
         $this->element->setData('message', "It's working");
@@ -473,6 +1573,61 @@ function testDataAttributeEscapesSingleQuote()
  * testDataAttributeEscapesJsonWithSpecialChars
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesJsonWithSpecialChars
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesJsonWithSpecialChars
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesJsonWithSpecialChars
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesJsonWithSpecialChars
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesJsonWithSpecialChars
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesJsonWithSpecialChars
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesJsonWithSpecialChars
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesJsonWithSpecialChars
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesJsonWithSpecialChars
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesJsonWithSpecialChars
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeEscapesJsonWithSpecialChars
+ *
  * @return void
  */
 function testDataAttributeEscapesJsonWithSpecialChars()
@@ -498,6 +1653,61 @@ function testDataAttributeEscapesJsonWithSpecialChars()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testRemoveDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataAttribute
+ *
+ * @return void
+ */
 function testRemoveDataAttribute()
     {
         $this->element->setData('userId', '123');
@@ -520,6 +1730,61 @@ function testRemoveDataAttribute()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testRemoveNonExistentDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testRemoveNonExistentDataAttribute
+ *
+ * @return void
+ */
 function testRemoveNonExistentDataAttribute()
     {
         // Should not throw exception
@@ -538,6 +1803,61 @@ function testRemoveNonExistentDataAttribute()
  * testClearAllDataAttributes
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testClearAllDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testClearAllDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testClearAllDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testClearAllDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testClearAllDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testClearAllDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testClearAllDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testClearAllDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testClearAllDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testClearAllDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testClearAllDataAttributes
+ *
  * @return void
  */
 function testClearAllDataAttributes()
@@ -566,6 +1886,61 @@ function testClearAllDataAttributes()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testRemoveDataRemovedFromHtml
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataRemovedFromHtml
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataRemovedFromHtml
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataRemovedFromHtml
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataRemovedFromHtml
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataRemovedFromHtml
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataRemovedFromHtml
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataRemovedFromHtml
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataRemovedFromHtml
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataRemovedFromHtml
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataRemovedFromHtml
+ *
+ * @return void
+ */
 function testRemoveDataRemovedFromHtml()
     {
         $this->element->setData('userId', '123');
@@ -590,6 +1965,61 @@ function testRemoveDataRemovedFromHtml()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testUpdateExistingDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testUpdateExistingDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testUpdateExistingDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testUpdateExistingDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testUpdateExistingDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testUpdateExistingDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testUpdateExistingDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testUpdateExistingDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testUpdateExistingDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testUpdateExistingDataAttribute
+ *
+ * @return void
+ */
+/**
+ * testUpdateExistingDataAttribute
+ *
+ * @return void
+ */
 function testUpdateExistingDataAttribute()
     {
         $this->element->setData('userId', '123');
@@ -612,6 +2042,61 @@ function testUpdateExistingDataAttribute()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testUpdateExistingDataAttributeChangeType
+ *
+ * @return void
+ */
+/**
+ * testUpdateExistingDataAttributeChangeType
+ *
+ * @return void
+ */
+/**
+ * testUpdateExistingDataAttributeChangeType
+ *
+ * @return void
+ */
+/**
+ * testUpdateExistingDataAttributeChangeType
+ *
+ * @return void
+ */
+/**
+ * testUpdateExistingDataAttributeChangeType
+ *
+ * @return void
+ */
+/**
+ * testUpdateExistingDataAttributeChangeType
+ *
+ * @return void
+ */
+/**
+ * testUpdateExistingDataAttributeChangeType
+ *
+ * @return void
+ */
+/**
+ * testUpdateExistingDataAttributeChangeType
+ *
+ * @return void
+ */
+/**
+ * testUpdateExistingDataAttributeChangeType
+ *
+ * @return void
+ */
+/**
+ * testUpdateExistingDataAttributeChangeType
+ *
+ * @return void
+ */
+/**
+ * testUpdateExistingDataAttributeChangeType
+ *
+ * @return void
+ */
 function testUpdateExistingDataAttributeChangeType()
     {
         $this->element->setData('value', 'text');
@@ -632,6 +2117,61 @@ function testUpdateExistingDataAttributeChangeType()
  * testBatchUpdateMergesWithExisting
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testBatchUpdateMergesWithExisting
+ *
+ * @return void
+ */
+/**
+ * testBatchUpdateMergesWithExisting
+ *
+ * @return void
+ */
+/**
+ * testBatchUpdateMergesWithExisting
+ *
+ * @return void
+ */
+/**
+ * testBatchUpdateMergesWithExisting
+ *
+ * @return void
+ */
+/**
+ * testBatchUpdateMergesWithExisting
+ *
+ * @return void
+ */
+/**
+ * testBatchUpdateMergesWithExisting
+ *
+ * @return void
+ */
+/**
+ * testBatchUpdateMergesWithExisting
+ *
+ * @return void
+ */
+/**
+ * testBatchUpdateMergesWithExisting
+ *
+ * @return void
+ */
+/**
+ * testBatchUpdateMergesWithExisting
+ *
+ * @return void
+ */
+/**
+ * testBatchUpdateMergesWithExisting
+ *
+ * @return void
+ */
+/**
+ * testBatchUpdateMergesWithExisting
+ *
  * @return void
  */
 function testBatchUpdateMergesWithExisting()
@@ -662,6 +2202,61 @@ function testBatchUpdateMergesWithExisting()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testBatchUpdateOverwritesExisting
+ *
+ * @return void
+ */
+/**
+ * testBatchUpdateOverwritesExisting
+ *
+ * @return void
+ */
+/**
+ * testBatchUpdateOverwritesExisting
+ *
+ * @return void
+ */
+/**
+ * testBatchUpdateOverwritesExisting
+ *
+ * @return void
+ */
+/**
+ * testBatchUpdateOverwritesExisting
+ *
+ * @return void
+ */
+/**
+ * testBatchUpdateOverwritesExisting
+ *
+ * @return void
+ */
+/**
+ * testBatchUpdateOverwritesExisting
+ *
+ * @return void
+ */
+/**
+ * testBatchUpdateOverwritesExisting
+ *
+ * @return void
+ */
+/**
+ * testBatchUpdateOverwritesExisting
+ *
+ * @return void
+ */
+/**
+ * testBatchUpdateOverwritesExisting
+ *
+ * @return void
+ */
+/**
+ * testBatchUpdateOverwritesExisting
+ *
+ * @return void
+ */
 function testBatchUpdateOverwritesExisting()
     {
         $this->element->setData('userId', '123');
@@ -685,6 +2280,61 @@ function testBatchUpdateOverwritesExisting()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testDataAttributeRendersWithDataPrefix
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeRendersWithDataPrefix
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeRendersWithDataPrefix
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeRendersWithDataPrefix
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeRendersWithDataPrefix
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeRendersWithDataPrefix
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeRendersWithDataPrefix
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeRendersWithDataPrefix
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeRendersWithDataPrefix
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeRendersWithDataPrefix
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeRendersWithDataPrefix
+ *
+ * @return void
+ */
 function testDataAttributeRendersWithDataPrefix()
     {
         $this->element->setData('userId', '123');
@@ -704,6 +2354,61 @@ function testDataAttributeRendersWithDataPrefix()
  * testDataAttributeWithCamelCaseConvertsToKebabCase
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testDataAttributeWithCamelCaseConvertsToKebabCase
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithCamelCaseConvertsToKebabCase
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithCamelCaseConvertsToKebabCase
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithCamelCaseConvertsToKebabCase
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithCamelCaseConvertsToKebabCase
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithCamelCaseConvertsToKebabCase
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithCamelCaseConvertsToKebabCase
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithCamelCaseConvertsToKebabCase
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithCamelCaseConvertsToKebabCase
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithCamelCaseConvertsToKebabCase
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithCamelCaseConvertsToKebabCase
+ *
  * @return void
  */
 function testDataAttributeWithCamelCaseConvertsToKebabCase()
@@ -729,6 +2434,61 @@ function testDataAttributeWithCamelCaseConvertsToKebabCase()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testDataAttributeWithKebabCaseFormat
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithKebabCaseFormat
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithKebabCaseFormat
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithKebabCaseFormat
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithKebabCaseFormat
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithKebabCaseFormat
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithKebabCaseFormat
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithKebabCaseFormat
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithKebabCaseFormat
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithKebabCaseFormat
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithKebabCaseFormat
+ *
+ * @return void
+ */
 function testDataAttributeWithKebabCaseFormat()
     {
         $this->element->setData('user-id', '123');
@@ -749,6 +2509,61 @@ function testDataAttributeWithKebabCaseFormat()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testDataAttributeWithComplexName
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithComplexName
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithComplexName
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithComplexName
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithComplexName
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithComplexName
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithComplexName
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithComplexName
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithComplexName
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithComplexName
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithComplexName
+ *
+ * @return void
+ */
 function testDataAttributeWithComplexName()
     {
         $this->element->setData('user-config-settings', 'value');
@@ -767,6 +2582,61 @@ function testDataAttributeWithComplexName()
  * testDataAttributeWithNumbersInName
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testDataAttributeWithNumbersInName
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithNumbersInName
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithNumbersInName
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithNumbersInName
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithNumbersInName
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithNumbersInName
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithNumbersInName
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithNumbersInName
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithNumbersInName
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithNumbersInName
+ *
+ * @return void
+ */
+/**
+ * testDataAttributeWithNumbersInName
+ *
  * @return void
  */
 function testDataAttributeWithNumbersInName()
@@ -791,6 +2661,61 @@ function testDataAttributeWithNumbersInName()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testSetDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testSetDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testSetDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testSetDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testSetDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testSetDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testSetDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testSetDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testSetDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testSetDataReturnsSelf
+ *
+ * @return void
+ */
 function testSetDataReturnsSelf()
     {
         $result = $this->element->setData('key', 'value');
@@ -808,6 +2733,61 @@ function testSetDataReturnsSelf()
  * testChainMultipleSetDataCalls
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testChainMultipleSetDataCalls
+ *
+ * @return void
+ */
+/**
+ * testChainMultipleSetDataCalls
+ *
+ * @return void
+ */
+/**
+ * testChainMultipleSetDataCalls
+ *
+ * @return void
+ */
+/**
+ * testChainMultipleSetDataCalls
+ *
+ * @return void
+ */
+/**
+ * testChainMultipleSetDataCalls
+ *
+ * @return void
+ */
+/**
+ * testChainMultipleSetDataCalls
+ *
+ * @return void
+ */
+/**
+ * testChainMultipleSetDataCalls
+ *
+ * @return void
+ */
+/**
+ * testChainMultipleSetDataCalls
+ *
+ * @return void
+ */
+/**
+ * testChainMultipleSetDataCalls
+ *
+ * @return void
+ */
+/**
+ * testChainMultipleSetDataCalls
+ *
+ * @return void
+ */
+/**
+ * testChainMultipleSetDataCalls
+ *
  * @return void
  */
 function testChainMultipleSetDataCalls()
@@ -832,6 +2812,61 @@ function testChainMultipleSetDataCalls()
  * testChainDataAttributesWithOtherMethods
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testChainDataAttributesWithOtherMethods
+ *
+ * @return void
+ */
+/**
+ * testChainDataAttributesWithOtherMethods
+ *
+ * @return void
+ */
+/**
+ * testChainDataAttributesWithOtherMethods
+ *
+ * @return void
+ */
+/**
+ * testChainDataAttributesWithOtherMethods
+ *
+ * @return void
+ */
+/**
+ * testChainDataAttributesWithOtherMethods
+ *
+ * @return void
+ */
+/**
+ * testChainDataAttributesWithOtherMethods
+ *
+ * @return void
+ */
+/**
+ * testChainDataAttributesWithOtherMethods
+ *
+ * @return void
+ */
+/**
+ * testChainDataAttributesWithOtherMethods
+ *
+ * @return void
+ */
+/**
+ * testChainDataAttributesWithOtherMethods
+ *
+ * @return void
+ */
+/**
+ * testChainDataAttributesWithOtherMethods
+ *
+ * @return void
+ */
+/**
+ * testChainDataAttributesWithOtherMethods
+ *
  * @return void
  */
 function testChainDataAttributesWithOtherMethods()
@@ -860,6 +2895,61 @@ function testChainDataAttributesWithOtherMethods()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testChainDataAttributesWithCssClasses
+ *
+ * @return void
+ */
+/**
+ * testChainDataAttributesWithCssClasses
+ *
+ * @return void
+ */
+/**
+ * testChainDataAttributesWithCssClasses
+ *
+ * @return void
+ */
+/**
+ * testChainDataAttributesWithCssClasses
+ *
+ * @return void
+ */
+/**
+ * testChainDataAttributesWithCssClasses
+ *
+ * @return void
+ */
+/**
+ * testChainDataAttributesWithCssClasses
+ *
+ * @return void
+ */
+/**
+ * testChainDataAttributesWithCssClasses
+ *
+ * @return void
+ */
+/**
+ * testChainDataAttributesWithCssClasses
+ *
+ * @return void
+ */
+/**
+ * testChainDataAttributesWithCssClasses
+ *
+ * @return void
+ */
+/**
+ * testChainDataAttributesWithCssClasses
+ *
+ * @return void
+ */
+/**
+ * testChainDataAttributesWithCssClasses
+ *
+ * @return void
+ */
 function testChainDataAttributesWithCssClasses()
     {
         $this->element
@@ -885,6 +2975,61 @@ function testChainDataAttributesWithCssClasses()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testRemoveDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testRemoveDataReturnsSelf
+ *
+ * @return void
+ */
 function testRemoveDataReturnsSelf()
     {
         $this->element->setData('key', 'value');
@@ -903,6 +3048,61 @@ function testRemoveDataReturnsSelf()
  * testClearDataReturnsSelf
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testClearDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testClearDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testClearDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testClearDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testClearDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testClearDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testClearDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testClearDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testClearDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testClearDataReturnsSelf
+ *
+ * @return void
+ */
+/**
+ * testClearDataReturnsSelf
+ *
  * @return void
  */
 function testClearDataReturnsSelf()
@@ -926,6 +3126,61 @@ function testClearDataReturnsSelf()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetDataWithVeryLongValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithVeryLongValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithVeryLongValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithVeryLongValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithVeryLongValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithVeryLongValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithVeryLongValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithVeryLongValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithVeryLongValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithVeryLongValue
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithVeryLongValue
+ *
+ * @return void
+ */
 function testSetDataWithVeryLongValue()
     {
         $longValue = str_repeat('x', 10000);
@@ -944,6 +3199,61 @@ function testSetDataWithVeryLongValue()
  * testSetDataWithUnicodeCharacters
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetDataWithUnicodeCharacters
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithUnicodeCharacters
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithUnicodeCharacters
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithUnicodeCharacters
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithUnicodeCharacters
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithUnicodeCharacters
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithUnicodeCharacters
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithUnicodeCharacters
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithUnicodeCharacters
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithUnicodeCharacters
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithUnicodeCharacters
+ *
  * @return void
  */
 function testSetDataWithUnicodeCharacters()
@@ -965,6 +3275,61 @@ function testSetDataWithUnicodeCharacters()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testSetDataWithEmojiCharacters
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithEmojiCharacters
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithEmojiCharacters
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithEmojiCharacters
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithEmojiCharacters
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithEmojiCharacters
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithEmojiCharacters
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithEmojiCharacters
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithEmojiCharacters
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithEmojiCharacters
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithEmojiCharacters
+ *
+ * @return void
+ */
 function testSetDataWithEmojiCharacters()
     {
         $this->element->setData('emoji', '😀🎉🚀');
@@ -982,6 +3347,61 @@ function testSetDataWithEmojiCharacters()
  * testGetDataNonExistentKey
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testGetDataNonExistentKey
+ *
+ * @return void
+ */
+/**
+ * testGetDataNonExistentKey
+ *
+ * @return void
+ */
+/**
+ * testGetDataNonExistentKey
+ *
+ * @return void
+ */
+/**
+ * testGetDataNonExistentKey
+ *
+ * @return void
+ */
+/**
+ * testGetDataNonExistentKey
+ *
+ * @return void
+ */
+/**
+ * testGetDataNonExistentKey
+ *
+ * @return void
+ */
+/**
+ * testGetDataNonExistentKey
+ *
+ * @return void
+ */
+/**
+ * testGetDataNonExistentKey
+ *
+ * @return void
+ */
+/**
+ * testGetDataNonExistentKey
+ *
+ * @return void
+ */
+/**
+ * testGetDataNonExistentKey
+ *
+ * @return void
+ */
+/**
+ * testGetDataNonExistentKey
+ *
  * @return void
  */
 function testGetDataNonExistentKey()
@@ -1003,6 +3423,61 @@ function testGetDataNonExistentKey()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testGetDataWithEmptyKey
+ *
+ * @return void
+ */
+/**
+ * testGetDataWithEmptyKey
+ *
+ * @return void
+ */
+/**
+ * testGetDataWithEmptyKey
+ *
+ * @return void
+ */
+/**
+ * testGetDataWithEmptyKey
+ *
+ * @return void
+ */
+/**
+ * testGetDataWithEmptyKey
+ *
+ * @return void
+ */
+/**
+ * testGetDataWithEmptyKey
+ *
+ * @return void
+ */
+/**
+ * testGetDataWithEmptyKey
+ *
+ * @return void
+ */
+/**
+ * testGetDataWithEmptyKey
+ *
+ * @return void
+ */
+/**
+ * testGetDataWithEmptyKey
+ *
+ * @return void
+ */
+/**
+ * testGetDataWithEmptyKey
+ *
+ * @return void
+ */
+/**
+ * testGetDataWithEmptyKey
+ *
+ * @return void
+ */
 function testGetDataWithEmptyKey()
     {
         $result = $this->element->getData('');
@@ -1020,6 +3495,61 @@ function testGetDataWithEmptyKey()
  * testSetDataWithSpacesInName
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testSetDataWithSpacesInName
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithSpacesInName
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithSpacesInName
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithSpacesInName
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithSpacesInName
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithSpacesInName
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithSpacesInName
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithSpacesInName
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithSpacesInName
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithSpacesInName
+ *
+ * @return void
+ */
+/**
+ * testSetDataWithSpacesInName
+ *
  * @return void
  */
 function testSetDataWithSpacesInName()
@@ -1047,6 +3577,61 @@ function testSetDataWithSpacesInName()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testGetAllDataReturnsEmptyArray
+ *
+ * @return void
+ */
+/**
+ * testGetAllDataReturnsEmptyArray
+ *
+ * @return void
+ */
+/**
+ * testGetAllDataReturnsEmptyArray
+ *
+ * @return void
+ */
+/**
+ * testGetAllDataReturnsEmptyArray
+ *
+ * @return void
+ */
+/**
+ * testGetAllDataReturnsEmptyArray
+ *
+ * @return void
+ */
+/**
+ * testGetAllDataReturnsEmptyArray
+ *
+ * @return void
+ */
+/**
+ * testGetAllDataReturnsEmptyArray
+ *
+ * @return void
+ */
+/**
+ * testGetAllDataReturnsEmptyArray
+ *
+ * @return void
+ */
+/**
+ * testGetAllDataReturnsEmptyArray
+ *
+ * @return void
+ */
+/**
+ * testGetAllDataReturnsEmptyArray
+ *
+ * @return void
+ */
+/**
+ * testGetAllDataReturnsEmptyArray
+ *
+ * @return void
+ */
 function testGetAllDataReturnsEmptyArray()
     {
         $all = $this->element->getAllData();
@@ -1069,6 +3654,61 @@ function testGetAllDataReturnsEmptyArray()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testDataAttributesWithNestedElements
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesWithNestedElements
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesWithNestedElements
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesWithNestedElements
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesWithNestedElements
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesWithNestedElements
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesWithNestedElements
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesWithNestedElements
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesWithNestedElements
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesWithNestedElements
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesWithNestedElements
+ *
+ * @return void
+ */
 function testDataAttributesWithNestedElements()
     {
         $parent = new /**
@@ -1088,6 +3728,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -1113,6 +3808,61 @@ class extends HtmlElement {
  * __construct
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @return void
+ */
+/**
+ * __construct
+ *
  * @return void
  */
 function __construct() {
@@ -1144,6 +3894,61 @@ function __construct() {
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testDataAttributesRespectOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesRespectOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesRespectOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesRespectOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesRespectOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesRespectOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesRespectOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesRespectOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesRespectOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesRespectOtherAttributes
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesRespectOtherAttributes
+ *
+ * @return void
+ */
 function testDataAttributesRespectOtherAttributes()
     {
         $this->element->setData('userId', '123');
@@ -1168,6 +3973,61 @@ function testDataAttributesRespectOtherAttributes()
  * testDataAttributesWithContent
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testDataAttributesWithContent
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesWithContent
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesWithContent
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesWithContent
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesWithContent
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesWithContent
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesWithContent
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesWithContent
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesWithContent
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesWithContent
+ *
+ * @return void
+ */
+/**
+ * testDataAttributesWithContent
+ *
  * @return void
  */
 function testDataAttributesWithContent()
@@ -1196,6 +4056,61 @@ function testDataAttributesWithContent()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testBootstrapDataAttributePattern
+ *
+ * @return void
+ */
+/**
+ * testBootstrapDataAttributePattern
+ *
+ * @return void
+ */
+/**
+ * testBootstrapDataAttributePattern
+ *
+ * @return void
+ */
+/**
+ * testBootstrapDataAttributePattern
+ *
+ * @return void
+ */
+/**
+ * testBootstrapDataAttributePattern
+ *
+ * @return void
+ */
+/**
+ * testBootstrapDataAttributePattern
+ *
+ * @return void
+ */
+/**
+ * testBootstrapDataAttributePattern
+ *
+ * @return void
+ */
+/**
+ * testBootstrapDataAttributePattern
+ *
+ * @return void
+ */
+/**
+ * testBootstrapDataAttributePattern
+ *
+ * @return void
+ */
+/**
+ * testBootstrapDataAttributePattern
+ *
+ * @return void
+ */
+/**
+ * testBootstrapDataAttributePattern
+ *
+ * @return void
+ */
 function testBootstrapDataAttributePattern()
     {
         // Bootstrap common pattern: data-bs-* attributes
@@ -1219,6 +4134,61 @@ function testBootstrapDataAttributePattern()
  * testAjaxDataAttributes
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testAjaxDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testAjaxDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testAjaxDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testAjaxDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testAjaxDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testAjaxDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testAjaxDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testAjaxDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testAjaxDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testAjaxDataAttributes
+ *
+ * @return void
+ */
+/**
+ * testAjaxDataAttributes
+ *
  * @return void
  */
 function testAjaxDataAttributes()
@@ -1245,6 +4215,61 @@ function testAjaxDataAttributes()
  * testCustomDataAttributePattern
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testCustomDataAttributePattern
+ *
+ * @return void
+ */
+/**
+ * testCustomDataAttributePattern
+ *
+ * @return void
+ */
+/**
+ * testCustomDataAttributePattern
+ *
+ * @return void
+ */
+/**
+ * testCustomDataAttributePattern
+ *
+ * @return void
+ */
+/**
+ * testCustomDataAttributePattern
+ *
+ * @return void
+ */
+/**
+ * testCustomDataAttributePattern
+ *
+ * @return void
+ */
+/**
+ * testCustomDataAttributePattern
+ *
+ * @return void
+ */
+/**
+ * testCustomDataAttributePattern
+ *
+ * @return void
+ */
+/**
+ * testCustomDataAttributePattern
+ *
+ * @return void
+ */
+/**
+ * testCustomDataAttributePattern
+ *
+ * @return void
+ */
+/**
+ * testCustomDataAttributePattern
+ *
  * @return void
  */
 function testCustomDataAttributePattern()

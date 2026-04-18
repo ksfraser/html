@@ -108,6 +108,102 @@ use Ksfraser\HTML\Elements\TableData;
  * @return void
 
  */
+/**
+ * EditableLoanAmountCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableLoanAmountCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableLoanAmountCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableLoanAmountCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableLoanAmountCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableLoanAmountCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableLoanAmountCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableLoanAmountCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableLoanAmountCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableLoanAmountCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableLoanAmountCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableLoanAmountCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableLoanAmountCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableLoanAmountCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableLoanAmountCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * EditableLoanAmountCell
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class EditableLoanAmountCell extends AmountTableCell {
     /**
      * Build editable loan amount cell
@@ -118,7 +214,239 @@ class EditableLoanAmountCell extends AmountTableCell {
      * @param string $rowPrefix The row prefix for cell ID generation
      * @return TableData
      */
-    public function buildEditable($value, $loanId, string $rowPrefix): TableData {
+    public /**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param string $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+/**
+ * buildEditable
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $value
+ * @param mixed $loanId
+ * @param mixed $rowPrefix
+ * @return TableData
+ */
+function buildEditable($value, $loanId, string $rowPrefix): TableData {
         $this->setId("amount-cell-{$rowPrefix}")
             ->setAttribute('data-loan-id', (string)$loanId)
             ->setAttribute('data-field', 'amount')

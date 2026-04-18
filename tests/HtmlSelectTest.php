@@ -17,7 +17,57 @@ class HtmlSelectTest extends TestCase
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testSelectRendersWithName()
+    public /**
+ * testSelectRendersWithName
+ *
+ * @return void
+ */
+/**
+ * testSelectRendersWithName
+ *
+ * @return void
+ */
+/**
+ * testSelectRendersWithName
+ *
+ * @return void
+ */
+/**
+ * testSelectRendersWithName
+ *
+ * @return void
+ */
+/**
+ * testSelectRendersWithName
+ *
+ * @return void
+ */
+/**
+ * testSelectRendersWithName
+ *
+ * @return void
+ */
+/**
+ * testSelectRendersWithName
+ *
+ * @return void
+ */
+/**
+ * testSelectRendersWithName
+ *
+ * @return void
+ */
+/**
+ * testSelectRendersWithName
+ *
+ * @return void
+ */
+/**
+ * testSelectRendersWithName
+ *
+ * @return void
+ */
+function testSelectRendersWithName()
     {
         $select = new HtmlSelect(new HtmlNameValue('test_select'));
         $html = $select->getName();
@@ -30,7 +80,57 @@ class HtmlSelectTest extends TestCase
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testSelectRendersOptions()
+    public /**
+ * testSelectRendersOptions
+ *
+ * @return void
+ */
+/**
+ * testSelectRendersOptions
+ *
+ * @return void
+ */
+/**
+ * testSelectRendersOptions
+ *
+ * @return void
+ */
+/**
+ * testSelectRendersOptions
+ *
+ * @return void
+ */
+/**
+ * testSelectRendersOptions
+ *
+ * @return void
+ */
+/**
+ * testSelectRendersOptions
+ *
+ * @return void
+ */
+/**
+ * testSelectRendersOptions
+ *
+ * @return void
+ */
+/**
+ * testSelectRendersOptions
+ *
+ * @return void
+ */
+/**
+ * testSelectRendersOptions
+ *
+ * @return void
+ */
+/**
+ * testSelectRendersOptions
+ *
+ * @return void
+ */
+function testSelectRendersOptions()
     {
         $select = new HtmlSelect(new HtmlNameValue('test_select'));
         $option1 = new HtmlOption('v1', 'Label 1');
@@ -47,7 +147,57 @@ class HtmlSelectTest extends TestCase
  * @since 1.0.3 2026-02-21
  * @return void
  */
-    public function testNameValueEscaping()
+    public /**
+ * testNameValueEscaping
+ *
+ * @return void
+ */
+/**
+ * testNameValueEscaping
+ *
+ * @return void
+ */
+/**
+ * testNameValueEscaping
+ *
+ * @return void
+ */
+/**
+ * testNameValueEscaping
+ *
+ * @return void
+ */
+/**
+ * testNameValueEscaping
+ *
+ * @return void
+ */
+/**
+ * testNameValueEscaping
+ *
+ * @return void
+ */
+/**
+ * testNameValueEscaping
+ *
+ * @return void
+ */
+/**
+ * testNameValueEscaping
+ *
+ * @return void
+ */
+/**
+ * testNameValueEscaping
+ *
+ * @return void
+ */
+/**
+ * testNameValueEscaping
+ *
+ * @return void
+ */
+function testNameValueEscaping()
     {
         $select = new HtmlSelect(new HtmlNameValue('bad\"name<test>'));
         $this->assertStringNotContainsString('bad"name<test>', $select->getName());

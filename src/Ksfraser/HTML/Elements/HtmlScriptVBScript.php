@@ -77,6 +77,102 @@ use Ksfraser\HTML\VBScript\HtmlVBScriptString;
  * @return void
 
  */
+/**
+ * HtmlScriptVBScript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptVBScript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptVBScript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptVBScript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptVBScript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptVBScript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptVBScript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptVBScript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptVBScript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptVBScript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptVBScript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptVBScript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptVBScript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptVBScript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptVBScript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlScriptVBScript
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlScriptVBScript extends HtmlScript
 {
 /**
@@ -86,7 +182,185 @@ class HtmlScriptVBScript extends HtmlScript
  * @param HtmlVBScriptString $content
  * @return void
  */
-    public function __construct(HtmlVBScriptString $content)
+    public /**
+ * __construct
+ *
+ * @param HtmlVBScriptString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlVBScriptString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlVBScriptString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlVBScriptString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlVBScriptString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlVBScriptString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlVBScriptString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlVBScriptString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlVBScriptString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlVBScriptString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param HtmlVBScriptString $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $content
+ * @return void
+ */
+function __construct(HtmlVBScriptString $content)
     {
         parent::__construct('text/vbscript', $content);
     }

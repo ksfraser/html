@@ -24,7 +24,57 @@ class OtherElementsTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testCiteRendersText() {
+    public /**
+ * testCiteRendersText
+ *
+ * @return void
+ */
+/**
+ * testCiteRendersText
+ *
+ * @return void
+ */
+/**
+ * testCiteRendersText
+ *
+ * @return void
+ */
+/**
+ * testCiteRendersText
+ *
+ * @return void
+ */
+/**
+ * testCiteRendersText
+ *
+ * @return void
+ */
+/**
+ * testCiteRendersText
+ *
+ * @return void
+ */
+/**
+ * testCiteRendersText
+ *
+ * @return void
+ */
+/**
+ * testCiteRendersText
+ *
+ * @return void
+ */
+/**
+ * testCiteRendersText
+ *
+ * @return void
+ */
+/**
+ * testCiteRendersText
+ *
+ * @return void
+ */
+function testCiteRendersText() {
         $c = new HtmlCite('Work Title');
         $this->assertStringContainsString('<cite', $c->getHtml());
         $this->assertStringContainsString('Work Title', $c->getHtml());
@@ -36,7 +86,57 @@ class OtherElementsTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testCodeRendersPreEscaped() {
+    public /**
+ * testCodeRendersPreEscaped
+ *
+ * @return void
+ */
+/**
+ * testCodeRendersPreEscaped
+ *
+ * @return void
+ */
+/**
+ * testCodeRendersPreEscaped
+ *
+ * @return void
+ */
+/**
+ * testCodeRendersPreEscaped
+ *
+ * @return void
+ */
+/**
+ * testCodeRendersPreEscaped
+ *
+ * @return void
+ */
+/**
+ * testCodeRendersPreEscaped
+ *
+ * @return void
+ */
+/**
+ * testCodeRendersPreEscaped
+ *
+ * @return void
+ */
+/**
+ * testCodeRendersPreEscaped
+ *
+ * @return void
+ */
+/**
+ * testCodeRendersPreEscaped
+ *
+ * @return void
+ */
+/**
+ * testCodeRendersPreEscaped
+ *
+ * @return void
+ */
+function testCodeRendersPreEscaped() {
         $code = new HtmlCode('<x>&');
         $html = $code->getHtml();
         $this->assertStringContainsString('&lt;x&gt;&amp;', $html);
@@ -48,7 +148,57 @@ class OtherElementsTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testDetailsAndSummaryBehavior() {
+    public /**
+ * testDetailsAndSummaryBehavior
+ *
+ * @return void
+ */
+/**
+ * testDetailsAndSummaryBehavior
+ *
+ * @return void
+ */
+/**
+ * testDetailsAndSummaryBehavior
+ *
+ * @return void
+ */
+/**
+ * testDetailsAndSummaryBehavior
+ *
+ * @return void
+ */
+/**
+ * testDetailsAndSummaryBehavior
+ *
+ * @return void
+ */
+/**
+ * testDetailsAndSummaryBehavior
+ *
+ * @return void
+ */
+/**
+ * testDetailsAndSummaryBehavior
+ *
+ * @return void
+ */
+/**
+ * testDetailsAndSummaryBehavior
+ *
+ * @return void
+ */
+/**
+ * testDetailsAndSummaryBehavior
+ *
+ * @return void
+ */
+/**
+ * testDetailsAndSummaryBehavior
+ *
+ * @return void
+ */
+function testDetailsAndSummaryBehavior() {
         $details = new HtmlDetails();
         $summary = new HtmlSummary('More');
         $details->addNested($summary);
@@ -64,7 +214,57 @@ class OtherElementsTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testDialogOpenAttribute() {
+    public /**
+ * testDialogOpenAttribute
+ *
+ * @return void
+ */
+/**
+ * testDialogOpenAttribute
+ *
+ * @return void
+ */
+/**
+ * testDialogOpenAttribute
+ *
+ * @return void
+ */
+/**
+ * testDialogOpenAttribute
+ *
+ * @return void
+ */
+/**
+ * testDialogOpenAttribute
+ *
+ * @return void
+ */
+/**
+ * testDialogOpenAttribute
+ *
+ * @return void
+ */
+/**
+ * testDialogOpenAttribute
+ *
+ * @return void
+ */
+/**
+ * testDialogOpenAttribute
+ *
+ * @return void
+ */
+/**
+ * testDialogOpenAttribute
+ *
+ * @return void
+ */
+/**
+ * testDialogOpenAttribute
+ *
+ * @return void
+ */
+function testDialogOpenAttribute() {
         $d = new HtmlDialog(true);
         $this->assertStringContainsString('<dialog', $d->getHtml());
         $this->assertStringContainsString('open', $d->getHtml());
@@ -76,7 +276,57 @@ class OtherElementsTest extends TestCase {
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testHtmlHAliasesRenderCorrectTag() {
+    public /**
+ * testHtmlHAliasesRenderCorrectTag
+ *
+ * @return void
+ */
+/**
+ * testHtmlHAliasesRenderCorrectTag
+ *
+ * @return void
+ */
+/**
+ * testHtmlHAliasesRenderCorrectTag
+ *
+ * @return void
+ */
+/**
+ * testHtmlHAliasesRenderCorrectTag
+ *
+ * @return void
+ */
+/**
+ * testHtmlHAliasesRenderCorrectTag
+ *
+ * @return void
+ */
+/**
+ * testHtmlHAliasesRenderCorrectTag
+ *
+ * @return void
+ */
+/**
+ * testHtmlHAliasesRenderCorrectTag
+ *
+ * @return void
+ */
+/**
+ * testHtmlHAliasesRenderCorrectTag
+ *
+ * @return void
+ */
+/**
+ * testHtmlHAliasesRenderCorrectTag
+ *
+ * @return void
+ */
+/**
+ * testHtmlHAliasesRenderCorrectTag
+ *
+ * @return void
+ */
+function testHtmlHAliasesRenderCorrectTag() {
         $h = new HtmlH(3, 'Title');
         $this->assertStringContainsString('<h3', $h->getHtml());
         $this->assertStringContainsString('Title', $h->getHtml());

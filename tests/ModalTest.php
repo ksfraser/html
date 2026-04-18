@@ -30,6 +30,56 @@ class ModalTest extends TestCase
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testModalConstructorSetsId
+ *
+ * @return void
+ */
+/**
+ * testModalConstructorSetsId
+ *
+ * @return void
+ */
+/**
+ * testModalConstructorSetsId
+ *
+ * @return void
+ */
+/**
+ * testModalConstructorSetsId
+ *
+ * @return void
+ */
+/**
+ * testModalConstructorSetsId
+ *
+ * @return void
+ */
+/**
+ * testModalConstructorSetsId
+ *
+ * @return void
+ */
+/**
+ * testModalConstructorSetsId
+ *
+ * @return void
+ */
+/**
+ * testModalConstructorSetsId
+ *
+ * @return void
+ */
+/**
+ * testModalConstructorSetsId
+ *
+ * @return void
+ */
+/**
+ * testModalConstructorSetsId
+ *
+ * @return void
+ */
 function testModalConstructorSetsId()
     {
         $modal = new Modal('test-modal');
@@ -51,6 +101,56 @@ function testModalConstructorSetsId()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testModalDefaultId
+ *
+ * @return void
+ */
+/**
+ * testModalDefaultId
+ *
+ * @return void
+ */
+/**
+ * testModalDefaultId
+ *
+ * @return void
+ */
+/**
+ * testModalDefaultId
+ *
+ * @return void
+ */
+/**
+ * testModalDefaultId
+ *
+ * @return void
+ */
+/**
+ * testModalDefaultId
+ *
+ * @return void
+ */
+/**
+ * testModalDefaultId
+ *
+ * @return void
+ */
+/**
+ * testModalDefaultId
+ *
+ * @return void
+ */
+/**
+ * testModalDefaultId
+ *
+ * @return void
+ */
+/**
+ * testModalDefaultId
+ *
+ * @return void
+ */
 function testModalDefaultId()
     {
         $modal = new Modal();
@@ -69,6 +169,56 @@ function testModalDefaultId()
  * testModalSetContent
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testModalSetContent
+ *
+ * @return void
+ */
+/**
+ * testModalSetContent
+ *
+ * @return void
+ */
+/**
+ * testModalSetContent
+ *
+ * @return void
+ */
+/**
+ * testModalSetContent
+ *
+ * @return void
+ */
+/**
+ * testModalSetContent
+ *
+ * @return void
+ */
+/**
+ * testModalSetContent
+ *
+ * @return void
+ */
+/**
+ * testModalSetContent
+ *
+ * @return void
+ */
+/**
+ * testModalSetContent
+ *
+ * @return void
+ */
+/**
+ * testModalSetContent
+ *
+ * @return void
+ */
+/**
+ * testModalSetContent
+ *
  * @return void
  */
 function testModalSetContent()
@@ -99,6 +249,56 @@ class, $retrievedContent);
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testModalRenderWithContent
+ *
+ * @return void
+ */
+/**
+ * testModalRenderWithContent
+ *
+ * @return void
+ */
+/**
+ * testModalRenderWithContent
+ *
+ * @return void
+ */
+/**
+ * testModalRenderWithContent
+ *
+ * @return void
+ */
+/**
+ * testModalRenderWithContent
+ *
+ * @return void
+ */
+/**
+ * testModalRenderWithContent
+ *
+ * @return void
+ */
+/**
+ * testModalRenderWithContent
+ *
+ * @return void
+ */
+/**
+ * testModalRenderWithContent
+ *
+ * @return void
+ */
+/**
+ * testModalRenderWithContent
+ *
+ * @return void
+ */
+/**
+ * testModalRenderWithContent
+ *
+ * @return void
+ */
 function testModalRenderWithContent()
     {
         $modal = new Modal('my-modal');
@@ -122,6 +322,56 @@ function testModalRenderWithContent()
  * @since v1.0.0 2026-04-14
  * @return void
  */
+/**
+ * testModalGetStylesheetPath
+ *
+ * @return void
+ */
+/**
+ * testModalGetStylesheetPath
+ *
+ * @return void
+ */
+/**
+ * testModalGetStylesheetPath
+ *
+ * @return void
+ */
+/**
+ * testModalGetStylesheetPath
+ *
+ * @return void
+ */
+/**
+ * testModalGetStylesheetPath
+ *
+ * @return void
+ */
+/**
+ * testModalGetStylesheetPath
+ *
+ * @return void
+ */
+/**
+ * testModalGetStylesheetPath
+ *
+ * @return void
+ */
+/**
+ * testModalGetStylesheetPath
+ *
+ * @return void
+ */
+/**
+ * testModalGetStylesheetPath
+ *
+ * @return void
+ */
+/**
+ * testModalGetStylesheetPath
+ *
+ * @return void
+ */
 function testModalGetStylesheetPath()
     {
         $path = Modal::getStylesheetPath();
@@ -139,6 +389,56 @@ function testModalGetStylesheetPath()
  * testModalContentHasCorrectClass
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testModalContentHasCorrectClass
+ *
+ * @return void
+ */
+/**
+ * testModalContentHasCorrectClass
+ *
+ * @return void
+ */
+/**
+ * testModalContentHasCorrectClass
+ *
+ * @return void
+ */
+/**
+ * testModalContentHasCorrectClass
+ *
+ * @return void
+ */
+/**
+ * testModalContentHasCorrectClass
+ *
+ * @return void
+ */
+/**
+ * testModalContentHasCorrectClass
+ *
+ * @return void
+ */
+/**
+ * testModalContentHasCorrectClass
+ *
+ * @return void
+ */
+/**
+ * testModalContentHasCorrectClass
+ *
+ * @return void
+ */
+/**
+ * testModalContentHasCorrectClass
+ *
+ * @return void
+ */
+/**
+ * testModalContentHasCorrectClass
+ *
  * @return void
  */
 function testModalContentHasCorrectClass()
@@ -159,6 +459,56 @@ function testModalContentHasCorrectClass()
  * testModalContentGetStylesheetPath
  *
  * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * testModalContentGetStylesheetPath
+ *
+ * @return void
+ */
+/**
+ * testModalContentGetStylesheetPath
+ *
+ * @return void
+ */
+/**
+ * testModalContentGetStylesheetPath
+ *
+ * @return void
+ */
+/**
+ * testModalContentGetStylesheetPath
+ *
+ * @return void
+ */
+/**
+ * testModalContentGetStylesheetPath
+ *
+ * @return void
+ */
+/**
+ * testModalContentGetStylesheetPath
+ *
+ * @return void
+ */
+/**
+ * testModalContentGetStylesheetPath
+ *
+ * @return void
+ */
+/**
+ * testModalContentGetStylesheetPath
+ *
+ * @return void
+ */
+/**
+ * testModalContentGetStylesheetPath
+ *
+ * @return void
+ */
+/**
+ * testModalContentGetStylesheetPath
+ *
  * @return void
  */
 function testModalContentGetStylesheetPath()

@@ -125,6 +125,12 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
+/**
+ * HtmlString
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlString implements HtmlElementInterface
 {
 
@@ -143,7 +149,80 @@ class HtmlString implements HtmlElementInterface
  * @return void
 
  */
-        public function __construct( $string )
+        public /**
+ * __construct
+ *
+ * @param mixed $string
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $string
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $string
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $string
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $string
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $string
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $string
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $string
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $string
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $string
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param mixed $string
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $string
+ * @return void
+ */
+function __construct( $string )
         {
                 if ($string instanceof \Ksfraser\HTML\HtmlElementInterface) {
                     $this->string = $string->getHtml();
@@ -164,7 +243,68 @@ class HtmlString implements HtmlElementInterface
          * @since v1.0.0 2026-04-13
          * @return void
          */
-        public function toHtml(): void {
+        public /**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @return void
+ */
+/**
+ * toHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+function toHtml(): void {
                 echo $this->getHtml();
         }
         
@@ -179,7 +319,68 @@ class HtmlString implements HtmlElementInterface
          * @return string HTML-escaped string
         
          */
-        public function getHtml(): string
+        public /**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @return string
+ */
+/**
+ * getHtml
+ *
+ * @since v1.0.0 2026-04-14
+ * @return string
+ */
+function getHtml(): string
         {
                 //A HTML string doesn't have tags, attributes, styles, etc.
                 //Escape the string to prevent XSS vulnerabilities.

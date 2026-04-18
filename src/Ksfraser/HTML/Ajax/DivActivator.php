@@ -15,7 +15,103 @@ namespace Ksfraser\HTML\Ajax;
  * @return void
 
  */
-final class DivActivator
+final /**
+ * DivActivator
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DivActivator
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DivActivator
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DivActivator
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DivActivator
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DivActivator
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DivActivator
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DivActivator
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DivActivator
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DivActivator
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DivActivator
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DivActivator
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DivActivator
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DivActivator
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DivActivator
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * DivActivator
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+class DivActivator
 {
     /**
      * Activate a FrontAccounting Ajax target safely.
@@ -24,7 +120,185 @@ final class DivActivator
      * @param string $divId
      * @return bool True when activation was attempted successfully.
      */
-    public static function activate(string $divId): bool
+    public static /**
+ * activate
+ *
+ * @param string $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @param string $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @param string $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @param string $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @param string $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @param string $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @param string $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @param string $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @param string $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @param string $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @param string $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $divId
+ * @return bool
+ */
+/**
+ * activate
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $divId
+ * @return bool
+ */
+function activate(string $divId): bool
     {
         if ($divId === '') {
             return false;
@@ -50,7 +324,158 @@ final class DivActivator
      * @return bool
 
      */
-    public static function activateDocTable(): bool
+    public static /**
+ * activateDocTable
+ *
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+/**
+ * activateDocTable
+ *
+ * @since v1.0.0 2026-04-14
+ * @return bool
+ */
+function activateDocTable(): bool
     {
         return self::activate('doc_tbl');
     }

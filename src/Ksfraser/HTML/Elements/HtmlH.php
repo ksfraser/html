@@ -15,6 +15,102 @@ use Ksfraser\HTML\HtmlElement;
  * @return void
 
  */
+/**
+ * HtmlH
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlH
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlH
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlH
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlH
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlH
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlH
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlH
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlH
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlH
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlH
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlH
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlH
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlH
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlH
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * HtmlH
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class HtmlH extends HtmlElement
 {
 /**
@@ -25,7 +121,212 @@ class HtmlH extends HtmlElement
  * @param string $text
  * @return void
  */
-    public function __construct(int $level = 1, string $text = '')
+    public /**
+ * __construct
+ *
+ * @param int $level
+ * @param string $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param int $level
+ * @param string $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param int $level
+ * @param string $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param int $level
+ * @param string $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param int $level
+ * @param string $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param int $level
+ * @param string $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param int $level
+ * @param string $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param int $level
+ * @param string $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param int $level
+ * @param string $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param int $level
+ * @param string $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @param int $level
+ * @param string $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $level
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $level
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $level
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $level
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $level
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $level
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $level
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $level
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $level
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $level
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $level
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $level
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $level
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $level
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $level
+ * @param mixed $text
+ * @return void
+ */
+/**
+ * __construct
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $level
+ * @param mixed $text
+ * @return void
+ */
+function __construct(int $level = 1, string $text = '')
     {
         $level = max(1, min(6, $level));
         parent::__construct();

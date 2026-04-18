@@ -17,7 +17,57 @@ class HtmlScriptJSONTest extends TestCase
  * @since v1.0.5 2026-04-14
  * @return void
  */
-    public function testJsonScriptTag()
+    public /**
+ * testJsonScriptTag
+ *
+ * @return void
+ */
+/**
+ * testJsonScriptTag
+ *
+ * @return void
+ */
+/**
+ * testJsonScriptTag
+ *
+ * @return void
+ */
+/**
+ * testJsonScriptTag
+ *
+ * @return void
+ */
+/**
+ * testJsonScriptTag
+ *
+ * @return void
+ */
+/**
+ * testJsonScriptTag
+ *
+ * @return void
+ */
+/**
+ * testJsonScriptTag
+ *
+ * @return void
+ */
+/**
+ * testJsonScriptTag
+ *
+ * @return void
+ */
+/**
+ * testJsonScriptTag
+ *
+ * @return void
+ */
+/**
+ * testJsonScriptTag
+ *
+ * @return void
+ */
+function testJsonScriptTag()
     {
         $json = new HtmlJsonString('{"key": "value"}');
         $script = new HtmlScriptJSON($json);

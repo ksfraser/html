@@ -1,0 +1,418 @@
+<?php
+// scripts/fix-docblock-warnings.php
+// Fix docblock @param/@return types to match signature hints and remove
+// extra blank lines between '*' lines inside docblocks.
+
+$root = getcwd();
+
+/**
+ * listPhpFiles
+ *
+ * @param string $path
+ * @return array
+ */
+/**
+ * listPhpFiles
+ *
+ * @param string $path
+ * @return array
+ */
+/**
+ * listPhpFiles
+ *
+ * @param string $path
+ * @return array
+ */
+/**
+ * listPhpFiles
+ *
+ * @param string $path
+ * @return array
+ */
+/**
+ * listPhpFiles
+ *
+ * @param string $path
+ * @return array
+ */
+/**
+ * listPhpFiles
+ *
+ * @param string $path
+ * @return array
+ */
+/**
+ * listPhpFiles
+ *
+ * @param string $path
+ * @return array
+ */
+/**
+ * listPhpFiles
+ *
+ * @param string $path
+ * @return array
+ */
+/**
+ * listPhpFiles
+ *
+ * @param string $path
+ * @return array
+ */
+/**
+ * listPhpFiles
+ *
+ * @param string $path
+ * @return array
+ */
+/**
+ * listPhpFiles
+ *
+ * @param string $path
+ * @return array
+ */
+function listPhpFiles(string $path): array {
+    $it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path));
+    $files = [];
+    foreach ($it as $f) {
+        if (!$f->isFile()) continue;
+        if (strtolower($f->getExtension()) !== 'php') continue;
+        $files[] = $f->getPathname();
+    }
+    return $files;
+}
+
+/**
+ * parseParamTypesFromSignature
+ *
+ * @param string $sig
+ * @return array
+ */
+/**
+ * parseParamTypesFromSignature
+ *
+ * @param string $sig
+ * @return array
+ */
+/**
+ * parseParamTypesFromSignature
+ *
+ * @param string $sig
+ * @return array
+ */
+/**
+ * parseParamTypesFromSignature
+ *
+ * @param string $sig
+ * @return array
+ */
+/**
+ * parseParamTypesFromSignature
+ *
+ * @param string $sig
+ * @return array
+ */
+/**
+ * parseParamTypesFromSignature
+ *
+ * @param string $sig
+ * @return array
+ */
+/**
+ * parseParamTypesFromSignature
+ *
+ * @param string $sig
+ * @return array
+ */
+/**
+ * parseParamTypesFromSignature
+ *
+ * @param string $sig
+ * @return array
+ */
+/**
+ * parseParamTypesFromSignature
+ *
+ * @param string $sig
+ * @return array
+ */
+/**
+ * parseParamTypesFromSignature
+ *
+ * @param string $sig
+ * @return array
+ */
+/**
+ * parseParamTypesFromSignature
+ *
+ * @param string $sig
+ * @return array
+ */
+function parseParamTypesFromSignature(string $sig): array {
+    // Very small parser: split by commas respecting brackets
+    $params = [];
+    $parts = [];
+    $len = strlen($sig); $buf = ''; $depth = 0; $inS=false; $inD=false;
+    for ($i=0;$i<$len;$i++) {
+        $c = $sig[$i];
+        if ($c === "'" && !$inD) { $inS = !$inS; $buf .= $c; continue; }
+        if ($c === '"' && !$inS) { $inD = !$inD; $buf .= $c; continue; }
+        if ($inS || $inD) { $buf .= $c; continue; }
+        if ($c === '(' || $c === '[') { $depth++; $buf .= $c; continue; }
+        if ($c === ')' || $c === ']') { if ($depth>0) $depth--; $buf .= $c; continue; }
+        if ($c === ',' && $depth === 0) { $parts[] = trim($buf); $buf = ''; continue; }
+        $buf .= $c;
+    }
+    if (trim($buf) !== '') $parts[] = trim($buf);
+
+    foreach ($parts as $p) {
+        // find variable name
+        if (!preg_match('/(\?[A-Za-z0-9_\\|]+|[A-Za-z0-9_\\|]+)?\s*(\$[A-Za-z0-9_]+)/', $p, $m)) {
+            continue;
+        }
+        $type = isset($m[1]) ? trim($m[1]) : null;
+        if ($type === '') $type = null;
+        // normalize nullable '?Type' to 'Type|null'
+        if ($type !== null && str_starts_with($type, '?')) {
+            $type = substr($type,1) . '|null';
+        }
+        $params[$m[2]] = $type;
+    }
+    return $params;
+}
+
+/**
+ * normalizeDocblockSpacing
+ *
+ * @param string $doc
+ * @return string
+ */
+/**
+ * normalizeDocblockSpacing
+ *
+ * @param string $doc
+ * @return string
+ */
+/**
+ * normalizeDocblockSpacing
+ *
+ * @param string $doc
+ * @return string
+ */
+/**
+ * normalizeDocblockSpacing
+ *
+ * @param string $doc
+ * @return string
+ */
+/**
+ * normalizeDocblockSpacing
+ *
+ * @param string $doc
+ * @return string
+ */
+/**
+ * normalizeDocblockSpacing
+ *
+ * @param string $doc
+ * @return string
+ */
+/**
+ * normalizeDocblockSpacing
+ *
+ * @param string $doc
+ * @return string
+ */
+/**
+ * normalizeDocblockSpacing
+ *
+ * @param string $doc
+ * @return string
+ */
+/**
+ * normalizeDocblockSpacing
+ *
+ * @param string $doc
+ * @return string
+ */
+/**
+ * normalizeDocblockSpacing
+ *
+ * @param string $doc
+ * @return string
+ */
+/**
+ * normalizeDocblockSpacing
+ *
+ * @param string $doc
+ * @return string
+ */
+function normalizeDocblockSpacing(string $doc): string {
+    $lines = preg_split('/\r?\n/', $doc);
+    $out = [];
+    foreach ($lines as $ln) $out[] = rtrim($ln);
+    // remove consecutive blank '*'-lines (lines that are ' *' or ' * ')
+    $res = [];
+    $prevBlank = false; $tagsStarted = false;
+    foreach ($out as $ln) {
+        $trim = preg_replace('/^\s*\*\s*/', '', $ln);
+        $isTag = preg_match('/^\s*\*\s*@/', $ln);
+        $isBlankStar = preg_match('/^\s*\*\s*$/', $ln);
+        if ($isTag) $tagsStarted = true;
+        if ($isBlankStar) {
+            if ($prevBlank) continue; // skip duplicate blank
+            // if tags started, skip blank lines between tags
+            if ($tagsStarted) continue;
+            $res[] = $ln; $prevBlank = true; continue;
+        }
+        $res[] = $ln; $prevBlank = false;
+    }
+    // ensure exactly one blank line before first tag
+    $final = [];
+    $inserted = false;
+    for ($i=0;$i<count($res);$i++) {
+        if (!$inserted && preg_match('/^\s*\*\s*@/', $res[$i])) {
+            // ensure previous line is a blank star
+            if (count($final) > 0 && !preg_match('/^\s*\*\s*$/', end($final))) {
+                $final[] = ' *';
+            }
+            $inserted = true;
+        }
+        $final[] = $res[$i];
+    }
+    return implode("\n", $final);
+}
+
+$files = listPhpFiles($root);
+$changed = 0;
+foreach ($files as $file) {
+    $src = file_get_contents($file);
+    $tokens = token_get_all($src);
+    $out = '';
+    $i=0; $n=count($tokens);
+    $lastDoc = null; $modified = false;
+    while ($i<$n) {
+        $t = $tokens[$i];
+        if (is_array($t) && $t[0] === T_DOC_COMMENT) {
+            $lastDoc = $t[1];
+            $i++; continue; // consume but delay output
+        }
+        if (is_array($t) && $t[0] === T_FUNCTION) {
+            // dump any non-doc tokens before function
+            // find name
+            $j = $i+1; $funcName = null;
+            while ($j<$n) {
+                $tt = $tokens[$j];
+                if (is_array($tt) && $tt[0] === T_STRING) { $funcName = $tt[1]; break; }
+                if (is_string($tt) && $tt === '(') break;
+                $j++;
+            }
+            // capture signature text between '(' and matching ')'
+            $k = $j; while ($k<$n && !(is_string($tokens[$k]) && $tokens[$k]==='(')) $k++;
+            $sig = '';
+            if ($k<$n && is_string($tokens[$k]) && $tokens[$k]==='(') {
+                $depth=0; $k++;
+                while ($k<$n) {
+                    $tt = $tokens[$k];
+                    if (is_string($tt)) {
+                        if ($tt==='(') $depth++; elseif ($tt===')') { if ($depth===0) break; $depth--; }
+                        $sig .= $tt;
+                    } else $sig .= $tt[1];
+                    $k++;
+                }
+            }
+            $paramTypes = parseParamTypesFromSignature($sig);
+            // detect return type after signature
+            $m = $k+1; while ($m<$n && is_array($tokens[$m]) && $tokens[$m][0]===T_WHITESPACE) $m++;
+            $retType = null;
+            if ($m<$n && is_string($tokens[$m]) && $tokens[$m] === ':') {
+                $m++; $rt='';
+                while ($m<$n) {
+                    $tt = $tokens[$m];
+                    if (is_string($tt)) { if ($tt==='{'||$tt===';') break; $rt .= $tt; }
+                    else $rt .= $tt[1];
+                    $m++;
+                }
+                $retType = trim($rt) ?: null;
+            }
+
+            // prepare docblock
+            if ($lastDoc !== null) {
+                $doc = $lastDoc;
+                // normalize spacing
+                $doc = normalizeDocblockSpacing($doc);
+                // replace @param types
+                if (preg_match_all('/@param\s+([^\s]+)\s+(\$[A-Za-z0-9_]+)/', $doc, $pm, PREG_SET_ORDER)) {
+                    foreach ($pm as $entry) {
+                        $tagType = $entry[1]; $pname = $entry[2];
+                        if (isset($paramTypes[$pname]) && $paramTypes[$pname] !== null) {
+                            $newType = $paramTypes[$pname];
+                            $doc = preg_replace('/@param\s+' . preg_quote($tagType, '/') . '\s+' . preg_quote($pname, '/') . '/', '@param ' . $newType . ' ' . $pname, $doc, 1);
+                            $modified = true;
+                        }
+                    }
+                } else {
+                    // no param tags: add them
+                    if (count($paramTypes)>0) {
+                        $insert = [];
+                        foreach ($paramTypes as $pname => $ptype) {
+                            $insert[] = ' * @param ' . ($ptype?:'mixed') . ' ' . $pname;
+                        }
+                        // insert before closing */
+                        $doc = preg_replace('/\*\//', implode("\n", $insert) . "\n */", $doc, 1);
+                        $modified = true;
+                    }
+                }
+                // ensure @return
+                if ($retType !== null) {
+                    if (!preg_match('/@return\s+/', $doc)) {
+                        $doc = preg_replace('/\*\//', ' * @return ' . $retType . "\n */", $doc, 1);
+                        $modified = true;
+                    } else {
+                        // replace existing return with retType if different
+                        $doc = preg_replace('/@return\s+[^\s]+/', '@return ' . $retType, $doc);
+                        $modified = true;
+                    }
+                } else {
+                    if (!preg_match('/@return\s+/', $doc)) {
+                        $doc = preg_replace('/\*\//', ' * @return void\n */', $doc, 1);
+                        $modified = true;
+                    }
+                }
+
+                // output doc
+                $out .= $doc;
+                $lastDoc = null;
+            } else {
+                // no doc: create minimal
+                $lines = [];
+                $lines[] = '/**';
+                $lines[] = ' * ' . ($funcName ?: 'No description.');
+                $lines[] = ' *';
+                foreach ($paramTypes as $pname => $ptype) {
+                    $lines[] = ' * @param ' . ($ptype?:'mixed') . ' ' . $pname;
+                }
+                $lines[] = ' * @return ' . ($retType ?: 'void');
+                $lines[] = ' */';
+                $out .= implode("\n", $lines) . "\n";
+                $modified = true;
+            }
+            // now output tokens up to current index
+            // write the function token itself
+            $out .= is_array($t)?$t[1]:$t;
+            $i++; continue;
+        }
+        // write any previously held doc that wasn't attached
+        if ($lastDoc !== null) { $out .= $lastDoc; $lastDoc = null; }
+        $out .= is_array($t)?$t[1]:$t;
+        $i++;
+    }
+    if ($modified) {
+        file_put_contents($file . '.bak.docblockwarn', $src);
+        file_put_contents($file, $out);
+        echo "Fixed: $file\n";
+        $changed++;
+    }
+}
+
+echo "Done. Files changed: $changed\n";

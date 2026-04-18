@@ -116,6 +116,102 @@ use Ksfraser\HTML\FAButtons\EditLoanActionButton;
  * @return void
 
  */
+/**
+ * LoanSummaryTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanSummaryTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanSummaryTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanSummaryTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanSummaryTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanSummaryTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanSummaryTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanSummaryTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanSummaryTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanSummaryTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanSummaryTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanSummaryTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanSummaryTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanSummaryTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanSummaryTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
+/**
+ * LoanSummaryTableRow
+ *
+ * @since v1.0.0 2026-04-14
+ * @return void
+ */
 class LoanSummaryTableRow extends BaseTableRow {
     /**
      * Build loan summary row
@@ -124,7 +220,185 @@ class LoanSummaryTableRow extends BaseTableRow {
      * @param object $loan Loan object with id, borrower, amount, status
      * @return TableRow
      */
-    public function build(object $loan): TableRow {
+    public /**
+ * build
+ *
+ * @param object $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @param object $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loan
+ * @return TableRow
+ */
+/**
+ * build
+ *
+ * @since v1.0.0 2026-04-14
+ * @param mixed $loan
+ * @return TableRow
+ */
+function build(object $loan): TableRow {
         $row = (new TableRow())->addClass('data-row');
         
         $loanId = $loan->id ?? null;
