@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 declare(strict_types=1);
 
@@ -16,325 +16,65 @@ use Ksfraser\HTML\HtmlElement;
 
  * 
 
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
  * Represents an HTML <option> element for use within <select> elements.
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
 
  * 
 
  * This class provides a type-safe, object-oriented way to create HTML option elements
 
- * 
-
- * 
-
- * 
-
  * with automatic HTML escaping for security. Supports the selected state and custom
-
- * 
-
- * 
-
- * 
 
  * attributes.
 
  * 
 
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
  * Security:
 
- * 
-
- * 
-
- * 
-
  * - Automatically HTML-escapes value and label to prevent XSS attacks
-
- * 
-
- * 
-
- * 
 
  * - Safe to use with user-provided data
 
  * 
 
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
  * Usage:
-
- * 
-
- * 
-
- * 
 
  * ```php
 
- * 
-
- * 
-
- * 
-
  * // Basic option
 
- * 
-
- * 
-
- * 
-
  * $option = new HtmlOption('value1', 'Label 1');
-
- * 
-
- * 
-
- * 
 
  * echo $option->getHtml(); // <option value="value1">Label 1</option>
 
  * 
 
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
  * // Selected option
 
- * 
-
- * 
-
- * 
-
  * $option = new HtmlOption('value2', 'Label 2', true);
-
- * 
-
- * 
-
- * 
 
  * echo $option->getHtml(); // <option value="value2" selected>Label 2</option>
 
  * 
 
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
  * // With custom attributes
-
- * 
-
- * 
-
- * 
 
  * $option = new HtmlOption('value3', 'Label 3');
 
- * 
-
- * 
-
- * 
-
  * $option->setAttribute('disabled', 'disabled');
-
- * 
-
- * 
-
- * 
 
  * $option->setAttribute('data-price', '99.99');
 
  * 
 
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
  * // Fluent interface
-
- * 
-
- * 
-
- * 
 
  * $option = new HtmlOption('value4', 'Label 4')
 
- * 
-
- * 
-
- * 
-
  *     ->setSelected(true)
-
- * 
-
- * 
-
- * 
 
  *     ->setAttribute('class', 'premium');
 
- * 
-
- * 
-
- * 
-
  * ```
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
 
  * 
 
@@ -350,15 +90,12 @@ use Ksfraser\HTML\HtmlElement;
 
  * @version 1.0.0
 
- * @return void
-
  */
 class HtmlOption extends HtmlElement
 {
     /**
      *
      * @var string The option value
-     * @return void
      */
     private $value;
 
@@ -367,8 +104,6 @@ class HtmlOption extends HtmlElement
      *
 
      * @var string The option label (visible text)
-
-     * @return void
 
      */
     private $label;
@@ -379,8 +114,6 @@ class HtmlOption extends HtmlElement
 
      * @var bool Whether this option is selected
 
-     * @return void
-
      */
     private $selected;
 
@@ -390,8 +123,6 @@ class HtmlOption extends HtmlElement
 
      * @var HtmlAttributeList List of HTML attributes
 
-     * @return void
-
      */
 
     /**
@@ -400,7 +131,7 @@ class HtmlOption extends HtmlElement
 
      *
 
-     * @since v0.0.1 2025-10-20
+    * @since v1.0.1 2025-10-20
 
      * @param mixed $value
 
@@ -428,7 +159,7 @@ class HtmlOption extends HtmlElement
 
      *
 
-     * @since v0.0.1 2025-10-20
+    * @since v1.0.1 2025-10-20
 
      * @return string The option value
 
@@ -444,7 +175,7 @@ class HtmlOption extends HtmlElement
 
      *
 
-     * @since v0.0.1 2025-10-20
+    * @since v1.0.1 2025-10-20
 
      * @return string The option label
 
@@ -460,7 +191,7 @@ class HtmlOption extends HtmlElement
 
      *
 
-     * @since v0.0.1 2025-10-20
+    * @since v1.0.1 2025-10-20
 
      * @return bool True if selected, false otherwise
 
@@ -476,7 +207,7 @@ class HtmlOption extends HtmlElement
 
      *
 
-     * @since v0.0.1 2025-10-20
+    * @since v1.0.1 2025-10-20
 
      * @param bool $selected Whether this option is selected
 
@@ -495,7 +226,7 @@ class HtmlOption extends HtmlElement
 
      *
 
-     * @since v0.0.1 2025-10-20
+    * @since v1.0.1 2025-10-20
 
      * @return string The HTML <option> element
 
@@ -529,7 +260,7 @@ class HtmlOption extends HtmlElement
 
      *
 
-     * @since v0.0.1 2025-10-20
+    * @since v1.0.1 2025-10-20
 
      * @return void
 

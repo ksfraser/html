@@ -16,12 +16,6 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
-/**
- * HtmlCaption
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
 class HtmlCaption extends HtmlElement
 {
 /**
@@ -31,80 +25,7 @@ class HtmlCaption extends HtmlElement
  * @param mixed $content
  * @return void
  */
-    public /**
- * __construct
- *
- * @param mixed $content
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $content
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $content
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $content
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $content
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $content
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $content
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $content
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $content
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $content
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $content
- * @return void
- */
-/**
- * __construct
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $content
- * @return void
- */
-function __construct($content = '')
+    public function __construct($content = '')
     {
         if ($content instanceof HtmlElementInterface) {
             parent::__construct($content);

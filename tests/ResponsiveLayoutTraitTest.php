@@ -1403,28 +1403,6 @@ function display_none_adds_none_class()
         $this->assertTrue($elem->hasCSSClass('d-none'));
     }
 
-    /**
-     * @test
-     * @group layout
-     * @group display
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * display_inline_adds_inline_class
- *
- * @return void
- */
-/**
- * display_inline_adds_inline_class
- *
- * @return void
- */
-/**
- * display_inline_adds_inline_class
- *
- * @return void
- */
 /**
  * @test
  * @group layout
@@ -1433,80 +1411,65 @@ function display_none_adds_none_class()
  * @return void
  */
 function display_inline_adds_inline_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyDisplay($elem, 'inline');
-        
-        $this->assertTrue($elem->hasCSSClass('d-inline'));
-    }
+{
+    $elem = HtmlElement::div();
+    $elem = HtmlElement::applyDisplay($elem, 'inline');
 
-    /**
-    /**
-     * @test
-     * @group layout
-     * @group display
-     * @since v1.0.5 2026-04-14
-     * @return void
-     */
-    function display_inline_block_adds_inline_block_class()
- *
+    $this->assertTrue($elem->hasCSSClass('d-inline'));
+}
+
+/**
+ * @test
+ * @group layout
+ * @group display
+ * @since v1.0.5 2026-04-14
  * @return void
  */
 function display_inline_block_adds_inline_block_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyDisplay($elem, 'inline-block');
-        
-        $this->assertTrue($elem->hasCSSClass('d-inline-block'));
-    }
+{
+    $elem = HtmlElement::div();
+    $elem = HtmlElement::applyDisplay($elem, 'inline-block');
 
-    /**
-    /**
-     * @test
-     * @group layout
-     * @group display
-     * @since v1.0.5 2026-04-14
-     * @return void
-     */
-    function hidden_adds_hidden_class()
- *
+    $this->assertTrue($elem->hasCSSClass('d-inline-block'));
+}
+
+/**
+ * @test
+ * @group layout
+ * @group display
+ * @since v1.0.5 2026-04-14
  * @return void
  */
 function hidden_adds_hidden_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyHidden($elem);
-        
-        $this->assertTrue($elem->hasCSSClass('d-none'));
-    }
+{
+    $elem = HtmlElement::div();
+    $elem = HtmlElement::applyHidden($elem);
 
-    /**
+    $this->assertTrue($elem->hasCSSClass('d-none'));
+}
+
+/**
+ * @test
+ * @group layout
+ * @group display
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
+function visible_removes_hidden_class()
+{
+    $elem = HtmlElement::div();
+    $elem->addCSSClass('d-none');
+    $elem = HtmlElement::applyVisible($elem);
+
+    $this->assertFalse($elem->hasCSSClass('d-none'));
+}
+
     /**
      * @test
      * @group layout
      * @group display
      * @since v1.0.5 2026-04-14
      * @return void
-     */
-    function visible_removes_hidden_class()
- *
- * @return void
- */
-function visible_removes_hidden_class()
-    {
-        $elem = HtmlElement::div();
-        $elem->addCSSClass('d-none');
-        $elem = HtmlElement::applyVisible($elem);
-        
-        $this->assertFalse($elem->hasCSSClass('d-none'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group display
- * @return void
- * @since v1.0.5 2026-04-14
      */
     public /**
  * responsive_display_adds_breakpoint_classes

@@ -215,13 +215,7 @@ use Exception;
  * @return void
 
  */
-abstract /**
- * LabelRowBase
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-class LabelRowBase implements HtmlElementInterface
+abstract class LabelRowBase implements HtmlElementInterface
 {
 	/**
 	 * The underlying row component
@@ -270,80 +264,7 @@ class LabelRowBase implements HtmlElementInterface
  * @return void
 	
  */
-	/**
- * __construct
- *
- * @param mixed $bi_lineitem
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $bi_lineitem
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $bi_lineitem
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $bi_lineitem
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $bi_lineitem
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $bi_lineitem
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $bi_lineitem
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $bi_lineitem
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $bi_lineitem
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $bi_lineitem
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $bi_lineitem
- * @return void
- */
-/**
- * __construct
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $bi_lineitem
- * @return void
- */
-function __construct( $bi_lineitem )
+	function __construct( $bi_lineitem )
 	{
 		// Check if properties are set (not just if they exist, but if they have values)
 		// Using property_exists() is more accurate than isset() for this use case
@@ -369,68 +290,7 @@ function __construct( $bi_lineitem )
  * @return string
 	
  */
-	/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @since v1.0.0 2026-04-14
- * @return string
- */
-function getHtml(): string
+	function getHtml(): string
 	{
 		return $this->row->getHtml();
 /**
@@ -534,68 +394,7 @@ function getHtml(): string
 	 * @return void
 	
 	 */
-	/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function toHtml(): void
+	function toHtml(): void
 	{
 		$this->row->toHtml();
 	}

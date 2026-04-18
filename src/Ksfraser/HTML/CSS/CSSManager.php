@@ -75,12 +75,6 @@ namespace Ksfraser\HTML\CSS;
  * @return void
 
  */
-/**
- * CSSManager
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
 class CSSManager {
     private static $currentTheme = 'default';
     private static $cssCache = [];
@@ -101,92 +95,7 @@ class CSSManager {
      * @return void
     
      */
-public static /**
- * registerProvider
- *
- * @param mixed $name
- * @param mixed $provider
- * @return void
- */
-/**
- * registerProvider
- *
- * @param mixed $name
- * @param mixed $provider
- * @return void
- */
-/**
- * registerProvider
- *
- * @param mixed $name
- * @param mixed $provider
- * @return void
- */
-/**
- * registerProvider
- *
- * @param mixed $name
- * @param mixed $provider
- * @return void
- */
-/**
- * registerProvider
- *
- * @param mixed $name
- * @param mixed $provider
- * @return void
- */
-/**
- * registerProvider
- *
- * @param mixed $name
- * @param mixed $provider
- * @return void
- */
-/**
- * registerProvider
- *
- * @param mixed $name
- * @param mixed $provider
- * @return void
- */
-/**
- * registerProvider
- *
- * @param mixed $name
- * @param mixed $provider
- * @return void
- */
-/**
- * registerProvider
- *
- * @param mixed $name
- * @param mixed $provider
- * @return void
- */
-/**
- * registerProvider
- *
- * @param mixed $name
- * @param mixed $provider
- * @return void
- */
-/**
- * registerProvider
- *
- * @param mixed $name
- * @param mixed $provider
- * @return void
- */
-/**
- * registerProvider
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $name
- * @param mixed $provider
- * @return void
- */
-function registerProvider($name, $provider) {
+public static function registerProvider($name, $provider) {
         self::$cssProviders[$name] = $provider;
     }
     
@@ -203,80 +112,7 @@ function registerProvider($name, $provider) {
      * @return void
     
      */
-public static /**
- * getProvider
- *
- * @param mixed $name
- * @return void
- */
-/**
- * getProvider
- *
- * @param mixed $name
- * @return void
- */
-/**
- * getProvider
- *
- * @param mixed $name
- * @return void
- */
-/**
- * getProvider
- *
- * @param mixed $name
- * @return void
- */
-/**
- * getProvider
- *
- * @param mixed $name
- * @return void
- */
-/**
- * getProvider
- *
- * @param mixed $name
- * @return void
- */
-/**
- * getProvider
- *
- * @param mixed $name
- * @return void
- */
-/**
- * getProvider
- *
- * @param mixed $name
- * @return void
- */
-/**
- * getProvider
- *
- * @param mixed $name
- * @return void
- */
-/**
- * getProvider
- *
- * @param mixed $name
- * @return void
- */
-/**
- * getProvider
- *
- * @param mixed $name
- * @return void
- */
-/**
- * getProvider
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $name
- * @return void
- */
-function getProvider($name) {
+public static function getProvider($name) {
         return self::$cssProviders[$name] ?? null;
     }
     
@@ -293,80 +129,7 @@ function getProvider($name) {
      * @return void
     
      */
-public static /**
- * setTheme
- *
- * @param mixed $theme
- * @return void
- */
-/**
- * setTheme
- *
- * @param mixed $theme
- * @return void
- */
-/**
- * setTheme
- *
- * @param mixed $theme
- * @return void
- */
-/**
- * setTheme
- *
- * @param mixed $theme
- * @return void
- */
-/**
- * setTheme
- *
- * @param mixed $theme
- * @return void
- */
-/**
- * setTheme
- *
- * @param mixed $theme
- * @return void
- */
-/**
- * setTheme
- *
- * @param mixed $theme
- * @return void
- */
-/**
- * setTheme
- *
- * @param mixed $theme
- * @return void
- */
-/**
- * setTheme
- *
- * @param mixed $theme
- * @return void
- */
-/**
- * setTheme
- *
- * @param mixed $theme
- * @return void
- */
-/**
- * setTheme
- *
- * @param mixed $theme
- * @return void
- */
-/**
- * setTheme
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $theme
- * @return void
- */
-function setTheme($theme = 'default') {
+public static function setTheme($theme = 'default') {
         self::$currentTheme = $theme;
         self::$cssCache = []; // Clear cache when theme changes
     }
@@ -382,68 +145,7 @@ function setTheme($theme = 'default') {
      * @return void
     
      */
-    public static /**
- * getCurrentTheme
- *
- * @return void
- */
-/**
- * getCurrentTheme
- *
- * @return void
- */
-/**
- * getCurrentTheme
- *
- * @return void
- */
-/**
- * getCurrentTheme
- *
- * @return void
- */
-/**
- * getCurrentTheme
- *
- * @return void
- */
-/**
- * getCurrentTheme
- *
- * @return void
- */
-/**
- * getCurrentTheme
- *
- * @return void
- */
-/**
- * getCurrentTheme
- *
- * @return void
- */
-/**
- * getCurrentTheme
- *
- * @return void
- */
-/**
- * getCurrentTheme
- *
- * @return void
- */
-/**
- * getCurrentTheme
- *
- * @return void
- */
-/**
- * getCurrentTheme
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function getCurrentTheme() {
+    public static function getCurrentTheme() {
         return self::$currentTheme;
     }
     
@@ -458,68 +160,7 @@ function getCurrentTheme() {
      * @return void
     
      */
-    public static /**
- * getAllCSS
- *
- * @return void
- */
-/**
- * getAllCSS
- *
- * @return void
- */
-/**
- * getAllCSS
- *
- * @return void
- */
-/**
- * getAllCSS
- *
- * @return void
- */
-/**
- * getAllCSS
- *
- * @return void
- */
-/**
- * getAllCSS
- *
- * @return void
- */
-/**
- * getAllCSS
- *
- * @return void
- */
-/**
- * getAllCSS
- *
- * @return void
- */
-/**
- * getAllCSS
- *
- * @return void
- */
-/**
- * getAllCSS
- *
- * @return void
- */
-/**
- * getAllCSS
- *
- * @return void
- */
-/**
- * getAllCSS
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function getAllCSS() {
+    public static function getAllCSS() {
         $cacheKey = 'all_css_' . self::$currentTheme;
         
         if (isset(self::$cssCache[$cacheKey])) {
@@ -564,68 +205,7 @@ function getAllCSS() {
      * @return void
     
      */
-    public static /**
- * getBaseCSS
- *
- * @return void
- */
-/**
- * getBaseCSS
- *
- * @return void
- */
-/**
- * getBaseCSS
- *
- * @return void
- */
-/**
- * getBaseCSS
- *
- * @return void
- */
-/**
- * getBaseCSS
- *
- * @return void
- */
-/**
- * getBaseCSS
- *
- * @return void
- */
-/**
- * getBaseCSS
- *
- * @return void
- */
-/**
- * getBaseCSS
- *
- * @return void
- */
-/**
- * getBaseCSS
- *
- * @return void
- */
-/**
- * getBaseCSS
- *
- * @return void
- */
-/**
- * getBaseCSS
- *
- * @return void
- */
-/**
- * getBaseCSS
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function getBaseCSS() {
+    public static function getBaseCSS() {
         return '
         /* Base Application CSS */
         * {
@@ -661,68 +241,7 @@ function getBaseCSS() {
      * @return void
     
      */
-    public static /**
- * getNavigationCSS
- *
- * @return void
- */
-/**
- * getNavigationCSS
- *
- * @return void
- */
-/**
- * getNavigationCSS
- *
- * @return void
- */
-/**
- * getNavigationCSS
- *
- * @return void
- */
-/**
- * getNavigationCSS
- *
- * @return void
- */
-/**
- * getNavigationCSS
- *
- * @return void
- */
-/**
- * getNavigationCSS
- *
- * @return void
- */
-/**
- * getNavigationCSS
- *
- * @return void
- */
-/**
- * getNavigationCSS
- *
- * @return void
- */
-/**
- * getNavigationCSS
- *
- * @return void
- */
-/**
- * getNavigationCSS
- *
- * @return void
- */
-/**
- * getNavigationCSS
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function getNavigationCSS() {
+    public static function getNavigationCSS() {
         return '
         /* Navigation CSS */
         .nav-header {
@@ -782,68 +301,7 @@ function getNavigationCSS() {
      * @return void
     
      */
-    public static /**
- * getFormCSS
- *
- * @return void
- */
-/**
- * getFormCSS
- *
- * @return void
- */
-/**
- * getFormCSS
- *
- * @return void
- */
-/**
- * getFormCSS
- *
- * @return void
- */
-/**
- * getFormCSS
- *
- * @return void
- */
-/**
- * getFormCSS
- *
- * @return void
- */
-/**
- * getFormCSS
- *
- * @return void
- */
-/**
- * getFormCSS
- *
- * @return void
- */
-/**
- * getFormCSS
- *
- * @return void
- */
-/**
- * getFormCSS
- *
- * @return void
- */
-/**
- * getFormCSS
- *
- * @return void
- */
-/**
- * getFormCSS
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function getFormCSS() {
+    public static function getFormCSS() {
         return '
         /* Form CSS */
         .form-grid {
@@ -894,68 +352,7 @@ function getFormCSS() {
      * @return void
     
      */
-    public static /**
- * getTableCSS
- *
- * @return void
- */
-/**
- * getTableCSS
- *
- * @return void
- */
-/**
- * getTableCSS
- *
- * @return void
- */
-/**
- * getTableCSS
- *
- * @return void
- */
-/**
- * getTableCSS
- *
- * @return void
- */
-/**
- * getTableCSS
- *
- * @return void
- */
-/**
- * getTableCSS
- *
- * @return void
- */
-/**
- * getTableCSS
- *
- * @return void
- */
-/**
- * getTableCSS
- *
- * @return void
- */
-/**
- * getTableCSS
- *
- * @return void
- */
-/**
- * getTableCSS
- *
- * @return void
- */
-/**
- * getTableCSS
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function getTableCSS() {
+    public static function getTableCSS() {
         return '
         /* Table CSS */
         .user-table {
@@ -993,68 +390,7 @@ function getTableCSS() {
      * @return void
     
      */
-    public static /**
- * getCardCSS
- *
- * @return void
- */
-/**
- * getCardCSS
- *
- * @return void
- */
-/**
- * getCardCSS
- *
- * @return void
- */
-/**
- * getCardCSS
- *
- * @return void
- */
-/**
- * getCardCSS
- *
- * @return void
- */
-/**
- * getCardCSS
- *
- * @return void
- */
-/**
- * getCardCSS
- *
- * @return void
- */
-/**
- * getCardCSS
- *
- * @return void
- */
-/**
- * getCardCSS
- *
- * @return void
- */
-/**
- * getCardCSS
- *
- * @return void
- */
-/**
- * getCardCSS
- *
- * @return void
- */
-/**
- * getCardCSS
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function getCardCSS() {
+    public static function getCardCSS() {
         return '
         /* Card/Section CSS */
         .management-section {
@@ -1103,68 +439,7 @@ function getCardCSS() {
      * @return void
     
      */
-    public static /**
- * getUtilityCSS
- *
- * @return void
- */
-/**
- * getUtilityCSS
- *
- * @return void
- */
-/**
- * getUtilityCSS
- *
- * @return void
- */
-/**
- * getUtilityCSS
- *
- * @return void
- */
-/**
- * getUtilityCSS
- *
- * @return void
- */
-/**
- * getUtilityCSS
- *
- * @return void
- */
-/**
- * getUtilityCSS
- *
- * @return void
- */
-/**
- * getUtilityCSS
- *
- * @return void
- */
-/**
- * getUtilityCSS
- *
- * @return void
- */
-/**
- * getUtilityCSS
- *
- * @return void
- */
-/**
- * getUtilityCSS
- *
- * @return void
- */
-/**
- * getUtilityCSS
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function getUtilityCSS() {
+    public static function getUtilityCSS() {
         return '
         /* Utility CSS */
         .btn {
@@ -1260,68 +535,7 @@ function getUtilityCSS() {
      * @return void
     
      */
-    public static /**
- * getThemeCSS
- *
- * @return void
- */
-/**
- * getThemeCSS
- *
- * @return void
- */
-/**
- * getThemeCSS
- *
- * @return void
- */
-/**
- * getThemeCSS
- *
- * @return void
- */
-/**
- * getThemeCSS
- *
- * @return void
- */
-/**
- * getThemeCSS
- *
- * @return void
- */
-/**
- * getThemeCSS
- *
- * @return void
- */
-/**
- * getThemeCSS
- *
- * @return void
- */
-/**
- * getThemeCSS
- *
- * @return void
- */
-/**
- * getThemeCSS
- *
- * @return void
- */
-/**
- * getThemeCSS
- *
- * @return void
- */
-/**
- * getThemeCSS
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function getThemeCSS() {
+    public static function getThemeCSS() {
         switch (self::$currentTheme) {
             case 'dark':
                 return self::getDarkThemeCSS();
@@ -1343,68 +557,7 @@ function getThemeCSS() {
      * @return void
     
      */
-    private static /**
- * getDarkThemeCSS
- *
- * @return void
- */
-/**
- * getDarkThemeCSS
- *
- * @return void
- */
-/**
- * getDarkThemeCSS
- *
- * @return void
- */
-/**
- * getDarkThemeCSS
- *
- * @return void
- */
-/**
- * getDarkThemeCSS
- *
- * @return void
- */
-/**
- * getDarkThemeCSS
- *
- * @return void
- */
-/**
- * getDarkThemeCSS
- *
- * @return void
- */
-/**
- * getDarkThemeCSS
- *
- * @return void
- */
-/**
- * getDarkThemeCSS
- *
- * @return void
- */
-/**
- * getDarkThemeCSS
- *
- * @return void
- */
-/**
- * getDarkThemeCSS
- *
- * @return void
- */
-/**
- * getDarkThemeCSS
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function getDarkThemeCSS() {
+    private static function getDarkThemeCSS() {
         return '
         /* Dark Theme */
         body {
@@ -1438,68 +591,7 @@ function getDarkThemeCSS() {
      * @return void
     
      */
-    private static /**
- * getLightThemeCSS
- *
- * @return void
- */
-/**
- * getLightThemeCSS
- *
- * @return void
- */
-/**
- * getLightThemeCSS
- *
- * @return void
- */
-/**
- * getLightThemeCSS
- *
- * @return void
- */
-/**
- * getLightThemeCSS
- *
- * @return void
- */
-/**
- * getLightThemeCSS
- *
- * @return void
- */
-/**
- * getLightThemeCSS
- *
- * @return void
- */
-/**
- * getLightThemeCSS
- *
- * @return void
- */
-/**
- * getLightThemeCSS
- *
- * @return void
- */
-/**
- * getLightThemeCSS
- *
- * @return void
- */
-/**
- * getLightThemeCSS
- *
- * @return void
- */
-/**
- * getLightThemeCSS
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function getLightThemeCSS() {
+    private static function getLightThemeCSS() {
         return '
         /* Light Theme (Enhanced) */
         body {
@@ -1524,68 +616,7 @@ function getLightThemeCSS() {
      * @return void
     
      */
-    public static /**
- * renderCSS
- *
- * @return void
- */
-/**
- * renderCSS
- *
- * @return void
- */
-/**
- * renderCSS
- *
- * @return void
- */
-/**
- * renderCSS
- *
- * @return void
- */
-/**
- * renderCSS
- *
- * @return void
- */
-/**
- * renderCSS
- *
- * @return void
- */
-/**
- * renderCSS
- *
- * @return void
- */
-/**
- * renderCSS
- *
- * @return void
- */
-/**
- * renderCSS
- *
- * @return void
- */
-/**
- * renderCSS
- *
- * @return void
- */
-/**
- * renderCSS
- *
- * @return void
- */
-/**
- * renderCSS
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function renderCSS() {
+    public static function renderCSS() {
         echo '<style>' . self::getAllCSS() . '</style>';
     }
     
@@ -1600,68 +631,7 @@ function renderCSS() {
      * @return void
     
      */
-    public static /**
- * getCSS
- *
- * @return void
- */
-/**
- * getCSS
- *
- * @return void
- */
-/**
- * getCSS
- *
- * @return void
- */
-/**
- * getCSS
- *
- * @return void
- */
-/**
- * getCSS
- *
- * @return void
- */
-/**
- * getCSS
- *
- * @return void
- */
-/**
- * getCSS
- *
- * @return void
- */
-/**
- * getCSS
- *
- * @return void
- */
-/**
- * getCSS
- *
- * @return void
- */
-/**
- * getCSS
- *
- * @return void
- */
-/**
- * getCSS
- *
- * @return void
- */
-/**
- * getCSS
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function getCSS() {
+    public static function getCSS() {
         return self::getAllCSS();
     }
 }

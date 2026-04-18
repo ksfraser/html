@@ -108,12 +108,6 @@ use Ksfraser\HTML\Elements\TableData;
  * @return void
 
  */
-/**
- * DescriptionTableCell
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
 class DescriptionTableCell extends BaseTableCell {
     /**
      * Build Description cell
@@ -122,80 +116,7 @@ class DescriptionTableCell extends BaseTableCell {
      * @param mixed $description The description value
      * @return TableData
      */
-    public /**
- * build
- *
- * @param mixed $description
- * @return TableData
- */
-/**
- * build
- *
- * @param mixed $description
- * @return TableData
- */
-/**
- * build
- *
- * @param mixed $description
- * @return TableData
- */
-/**
- * build
- *
- * @param mixed $description
- * @return TableData
- */
-/**
- * build
- *
- * @param mixed $description
- * @return TableData
- */
-/**
- * build
- *
- * @param mixed $description
- * @return TableData
- */
-/**
- * build
- *
- * @param mixed $description
- * @return TableData
- */
-/**
- * build
- *
- * @param mixed $description
- * @return TableData
- */
-/**
- * build
- *
- * @param mixed $description
- * @return TableData
- */
-/**
- * build
- *
- * @param mixed $description
- * @return TableData
- */
-/**
- * build
- *
- * @param mixed $description
- * @return TableData
- */
-/**
- * build
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $description
- * @return TableData
- */
-function build($description): TableData {
+    public function build($description): TableData {
         $cell = (new TableData())
             ->addClass('description-cell')
             ->setText(htmlspecialchars($description ?? ''));

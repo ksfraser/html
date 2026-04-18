@@ -22,12 +22,6 @@ use Ksfraser\HTML\HTML_ROW_LABEL;
 
 
  */
-/**
- * HTML_ROW_LABELDecorator
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
 class HTML_ROW_LABELDecorator implements HtmlElementInterface
 {
 	protected $HTML_LABEL_ROW;
@@ -51,116 +45,7 @@ class HTML_ROW_LABELDecorator implements HtmlElementInterface
  * @return void
 
  */
-	/**
- * __construct
- *
- * @param mixed $data
- * @param mixed $label
- * @param mixed $width
- * @param mixed $class
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $data
- * @param mixed $label
- * @param mixed $width
- * @param mixed $class
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $data
- * @param mixed $label
- * @param mixed $width
- * @param mixed $class
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $data
- * @param mixed $label
- * @param mixed $width
- * @param mixed $class
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $data
- * @param mixed $label
- * @param mixed $width
- * @param mixed $class
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $data
- * @param mixed $label
- * @param mixed $width
- * @param mixed $class
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $data
- * @param mixed $label
- * @param mixed $width
- * @param mixed $class
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $data
- * @param mixed $label
- * @param mixed $width
- * @param mixed $class
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $data
- * @param mixed $label
- * @param mixed $width
- * @param mixed $class
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $data
- * @param mixed $label
- * @param mixed $width
- * @param mixed $class
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $data
- * @param mixed $label
- * @param mixed $width
- * @param mixed $class
- * @return void
- */
-/**
- * __construct
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $data
- * @param mixed $label
- * @param mixed $width
- * @param mixed $class
- * @return void
- */
-function __construct( $data, $label, $width = 25, $class = 'label' )
+	function __construct( $data, $label, $width = 25, $class = 'label' )
 	{
 		$this->HTML_LABEL_ROW = new HTML_ROW_LABEL( $data, $label, $width, $class );
 	}
@@ -176,68 +61,7 @@ function __construct( $data, $label, $width = 25, $class = 'label' )
  * @return void
 
  */
-	public /**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function toHtml(): void
+	public function toHtml(): void
 	{
 		$this->HTML_LABEL_ROW->toHtml();
 	}
@@ -253,68 +77,7 @@ function toHtml(): void
  * @return string
 
  */
-	public /**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @since v1.0.0 2026-04-14
- * @return string
- */
-function getHtml(): string
+	public function getHtml(): string
 	{
 		return $this->HTML_LABEL_ROW->getHtml();
 	}

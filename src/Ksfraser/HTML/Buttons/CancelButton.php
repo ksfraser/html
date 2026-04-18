@@ -245,12 +245,6 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
-/**
- * CancelButton
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
 class CancelButton extends ActionButton
 {
     /**
@@ -265,80 +259,7 @@ class CancelButton extends ActionButton
      * @param mixed $label
      * @return void
      */
-public /**
- * __construct
- *
- * @param mixed $label
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $label
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $label
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $label
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $label
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $label
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $label
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $label
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $label
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $label
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $label
- * @return void
- */
-/**
- * __construct
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $label
- * @return void
- */
-function __construct($label = null)
+public function __construct($label = null)
     {
         if ($label === null) {
             $label = new \Ksfraser\HTML\Elements\HtmlString('Cancel');
@@ -357,68 +278,7 @@ function __construct($label = null)
      * @return void
 
      */
-    protected /**
- * setupActionButton
- *
- * @return void
- */
-/**
- * setupActionButton
- *
- * @return void
- */
-/**
- * setupActionButton
- *
- * @return void
- */
-/**
- * setupActionButton
- *
- * @return void
- */
-/**
- * setupActionButton
- *
- * @return void
- */
-/**
- * setupActionButton
- *
- * @return void
- */
-/**
- * setupActionButton
- *
- * @return void
- */
-/**
- * setupActionButton
- *
- * @return void
- */
-/**
- * setupActionButton
- *
- * @return void
- */
-/**
- * setupActionButton
- *
- * @return void
- */
-/**
- * setupActionButton
- *
- * @return void
- */
-/**
- * setupActionButton
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function setupActionButton()
+    protected function setupActionButton()
     {
         $this->setName('cancel_btn');
         $this->setCssClass('btn btn-secondary btn-sm');
@@ -441,68 +301,7 @@ function setupActionButton()
 
 
      */
-    public /**
- * setGoBack
- *
- * @return void
- */
-/**
- * setGoBack
- *
- * @return void
- */
-/**
- * setGoBack
- *
- * @return void
- */
-/**
- * setGoBack
- *
- * @return void
- */
-/**
- * setGoBack
- *
- * @return void
- */
-/**
- * setGoBack
- *
- * @return void
- */
-/**
- * setGoBack
- *
- * @return void
- */
-/**
- * setGoBack
- *
- * @return void
- */
-/**
- * setGoBack
- *
- * @return void
- */
-/**
- * setGoBack
- *
- * @return void
- */
-/**
- * setGoBack
- *
- * @return void
- */
-/**
- * setGoBack
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function setGoBack()
+    public function setGoBack()
     {
         return $this->setOnclickFunction("window.history.back();");
     }

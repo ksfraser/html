@@ -108,12 +108,6 @@ use Ksfraser\HTML\Elements\TableData;
  * @return void
 
  */
-/**
- * AmountTableCell
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
 class AmountTableCell extends BaseTableCell {
     /**
      * Build Amount cell with currency formatting
@@ -122,80 +116,7 @@ class AmountTableCell extends BaseTableCell {
      * @param mixed $amount The amount value
      * @return TableData
      */
-    public /**
- * build
- *
- * @param mixed $amount
- * @return TableData
- */
-/**
- * build
- *
- * @param mixed $amount
- * @return TableData
- */
-/**
- * build
- *
- * @param mixed $amount
- * @return TableData
- */
-/**
- * build
- *
- * @param mixed $amount
- * @return TableData
- */
-/**
- * build
- *
- * @param mixed $amount
- * @return TableData
- */
-/**
- * build
- *
- * @param mixed $amount
- * @return TableData
- */
-/**
- * build
- *
- * @param mixed $amount
- * @return TableData
- */
-/**
- * build
- *
- * @param mixed $amount
- * @return TableData
- */
-/**
- * build
- *
- * @param mixed $amount
- * @return TableData
- */
-/**
- * build
- *
- * @param mixed $amount
- * @return TableData
- */
-/**
- * build
- *
- * @param mixed $amount
- * @return TableData
- */
-/**
- * build
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $amount
- * @return TableData
- */
-function build($amount): TableData {
+    public function build($amount): TableData {
         $amountText = isset($amount) 
             ? '$' . number_format((float)$amount, 2)
             : 'N/A';

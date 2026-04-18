@@ -10,203 +10,55 @@ if (!class_exists('Ksfraser\\Origin\\origin')) {
     }
 }
 
-// If the namespaced origin class is not present, provide a minimal namespaced
-// implementation so src files that `use Ksfraser\\Origin\\origin` can compile
 if (!class_exists('Ksfraser\\Origin\\origin')) {
-    eval('namespace Ksfraser\\Origin; class origin {
-        protected $container_arr = array();
-/**
- * set
- *
- * @since v1.0.5 2026-04-14
- * @param mixed $field
- * @param mixed $value
- * @return void
- */
-        public function set($field, $value) {
-            $this->container_arr[$field] = $value;
-            return true;
-        }
-/**
- * get
- *
- * @since v1.0.5 2026-04-14
- * @param mixed $field
- */
-/**
- * get
- *
- * @since v1.0.5 2026-04-14
- * @param mixed $field
- * @return void
- */
-function get($field) {
-    return array_key_exists($field, $this->container_arr) ? $this->container_arr[$field] : null;
-}
+    // Provide a minimal namespaced implementation so code that `use`s
+    // Ksfraser\Origin\origin can operate in test environments.
+    eval(<<<'PHP'
+namespace Ksfraser\Origin;
+class origin {
+    protected $container_arr = [];
 
-/**
- * set_var
- *
- * @since v1.0.5 2026-04-14
- * @param mixed $var
- * @param mixed $value
- * @return void
- */
-function set_var($var, $value) {
-    return $this->set($var, $value);
-}
-            }
-/**
- * get
- *
- * @since v1.0.5 2026-04-14
- * @param mixed $field
- * @return void
- */
-            public /**
- * get
- *
- * @param mixed $field
- * @return void
- */
-/**
- * get
- *
- * @param mixed $field
- * @return void
- */
-/**
- * get
- *
- * @param mixed $field
- * @return void
- */
-/**
- * get
- *
- * @param mixed $field
- * @return void
- */
-/**
- * get
- *
- * @param mixed $field
- * @return void
- */
-/**
- * get
- *
- * @param mixed $field
- * @return void
- */
-/**
- * get
- *
- * @param mixed $field
- * @return void
- */
-/**
- * get
- *
- * @param mixed $field
- * @return void
- */
-/**
- * get
- *
- * @param mixed $field
- * @return void
- */
-/**
- * get
- *
- * @param mixed $field
- * @return void
- */
-function get($field) {
-                return array_key_exists($field, $this->container_arr) ? $this->container_arr[$field] : null;
-            }
-/**
- * set_var
- *
- * @since v1.0.5 2026-04-14
- * @param mixed $var
- * @param mixed $value
- * @return void
- */
-            public /**
- * set_var
- *
- * @param mixed $var
- * @param mixed $value
- * @return void
- */
-/**
- * set_var
- *
- * @param mixed $var
- * @param mixed $value
- * @return void
- */
-/**
- * set_var
- *
- * @param mixed $var
- * @param mixed $value
- * @return void
- */
-/**
- * set_var
- *
- * @param mixed $var
- * @param mixed $value
- * @return void
- */
-/**
- * set_var
- *
- * @param mixed $var
- * @param mixed $value
- * @return void
- */
-/**
- * set_var
- *
- * @param mixed $var
- * @param mixed $value
- * @return void
- */
-/**
- * set_var
- *
- * @param mixed $var
- * @param mixed $value
- * @return void
- */
-/**
- * set_var
- *
- * @param mixed $var
- * @param mixed $value
- * @return void
- */
-/**
- * set_var
- *
- * @param mixed $var
- * @param mixed $value
- * @return void
- */
-/**
- * set_var
- *
- * @param mixed $var
- * @param mixed $value
- * @return void
- */
-function set_var($var, $value) {
-                return $this->set($var, $value);
-            }
-        }
+    /**
+     * set
+     *
+     * @since v1.0.5 2026-04-14
+     * @param mixed $field
+     * @param mixed $value
+     * @return bool
+     */
+    public function set($field, $value) {
+        $this->container_arr[$field] = $value;
+        return true;
+    }
+
+    /**
+     * get
+     *
+     * @since v1.0.5 2026-04-14
+     * @param mixed $field
+     * @return mixed|null
+     */
+    public function get($field) {
+        return array_key_exists($field, $this->container_arr) ? $this->container_arr[$field] : null;
+    }
+
+    /**
+     * set_var
+     *
+     * @since v1.0.5 2026-04-14
+     * @param mixed $var
+     * @param mixed $value
+     * @return bool
+     */
+    public function set_var($var, $value) {
+        return $this->set($var, $value);
     }
 }
+PHP
+    );
+}
+// Provide a global alias `origin` for legacy code that expects a non-namespaced class.
+if (!class_exists('origin') && class_exists('Ksfraser\\Origin\\origin')) {
+    class origin extends \Ksfraser\Origin\origin {}
+}
+

@@ -16,12 +16,6 @@ use Ksfraser\HTML\HtmlElementInterface;
  * @return void
 
  */
-/**
- * HtmlCode
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
 class HtmlCode extends HtmlElement
 {
 /**
@@ -31,80 +25,7 @@ class HtmlCode extends HtmlElement
  * @param mixed $text
  * @return void
  */
-    public /**
- * __construct
- *
- * @param mixed $text
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $text
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $text
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $text
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $text
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $text
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $text
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $text
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $text
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $text
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $text
- * @return void
- */
-/**
- * __construct
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return void
- */
-function __construct($text = '')
+    public function __construct($text = '')
     {
         if ($text instanceof HtmlElementInterface) {
             parent::__construct($text);

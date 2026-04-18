@@ -95,12 +95,6 @@ use Ksfraser\HTML\Elements\HtmlString;
  * @return void
 
  */
-/**
- * FaTable
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
 class FaTable extends HtmlTable
 {
     private $faClass;
@@ -121,92 +115,7 @@ class FaTable extends HtmlTable
      * @return void
 
      */
-public /**
- * __construct
- *
- * @param mixed $class
- * @param mixed $extra
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $class
- * @param mixed $extra
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $class
- * @param mixed $extra
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $class
- * @param mixed $extra
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $class
- * @param mixed $extra
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $class
- * @param mixed $extra
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $class
- * @param mixed $extra
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $class
- * @param mixed $extra
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $class
- * @param mixed $extra
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $class
- * @param mixed $extra
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $class
- * @param mixed $extra
- * @return void
- */
-/**
- * __construct
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $class
- * @param mixed $extra
- * @return void
- */
-function __construct($class = 2, $extra = "")
+public function __construct($class = 2, $extra = "")
     {
         parent::__construct(new HtmlString("")); // Empty content initially
         $this->faClass = $class;
@@ -227,68 +136,7 @@ function __construct($class = 2, $extra = "")
      * @return void
 
      */
-    private /**
- * setTableAttributes
- *
- * @return void
- */
-/**
- * setTableAttributes
- *
- * @return void
- */
-/**
- * setTableAttributes
- *
- * @return void
- */
-/**
- * setTableAttributes
- *
- * @return void
- */
-/**
- * setTableAttributes
- *
- * @return void
- */
-/**
- * setTableAttributes
- *
- * @return void
- */
-/**
- * setTableAttributes
- *
- * @return void
- */
-/**
- * setTableAttributes
- *
- * @return void
- */
-/**
- * setTableAttributes
- *
- * @return void
- */
-/**
- * setTableAttributes
- *
- * @return void
- */
-/**
- * setTableAttributes
- *
- * @return void
- */
-/**
- * setTableAttributes
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function setTableAttributes()
+    private function setTableAttributes()
     {
         // Set class
         $className = $this->getClassName();
@@ -317,68 +165,7 @@ function setTableAttributes()
      * @return void
 
      */
-    private /**
- * getClassName
- *
- * @return void
- */
-/**
- * getClassName
- *
- * @return void
- */
-/**
- * getClassName
- *
- * @return void
- */
-/**
- * getClassName
- *
- * @return void
- */
-/**
- * getClassName
- *
- * @return void
- */
-/**
- * getClassName
- *
- * @return void
- */
-/**
- * getClassName
- *
- * @return void
- */
-/**
- * getClassName
- *
- * @return void
- */
-/**
- * getClassName
- *
- * @return void
- */
-/**
- * getClassName
- *
- * @return void
- */
-/**
- * getClassName
- *
- * @return void
- */
-/**
- * getClassName
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function getClassName()
+    private function getClassName()
     {
         switch ($this->faClass) {
             case 1: return 'tablestyle';
@@ -399,68 +186,7 @@ function getClassName()
      * @return void
 
      */
-    private /**
- * parseExtraAttributes
- *
- * @return void
- */
-/**
- * parseExtraAttributes
- *
- * @return void
- */
-/**
- * parseExtraAttributes
- *
- * @return void
- */
-/**
- * parseExtraAttributes
- *
- * @return void
- */
-/**
- * parseExtraAttributes
- *
- * @return void
- */
-/**
- * parseExtraAttributes
- *
- * @return void
- */
-/**
- * parseExtraAttributes
- *
- * @return void
- */
-/**
- * parseExtraAttributes
- *
- * @return void
- */
-/**
- * parseExtraAttributes
- *
- * @return void
- */
-/**
- * parseExtraAttributes
- *
- * @return void
- */
-/**
- * parseExtraAttributes
- *
- * @return void
- */
-/**
- * parseExtraAttributes
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function parseExtraAttributes()
+    private function parseExtraAttributes()
     {
         // Simple parsing: assume format like "key='value' key2='value2'"
         $attrs = explode(' ', trim($this->extra));
@@ -484,68 +210,7 @@ function parseExtraAttributes()
      * @return void
 
      */
-    public /**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @return void
- */
-/**
- * toHtml
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function toHtml(): void
+    public function toHtml(): void
     {
         echo "<center>";
         parent::toHtml();

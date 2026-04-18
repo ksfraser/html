@@ -4,391 +4,24 @@ namespace Ksfraser\HTML\Traits;
 
 use Ksfraser\HTML\HtmlElement;
 
-/**
 
- * SemanticElementsTrait - FR-014
 
- *
 
- * 
 
- * 
 
- * 
 
- * 
 
- * 
 
- * 
 
- * 
 
- * 
 
- * 
 
- * 
 
- * 
 
- * 
 
- * Provides factory methods for HTML5 semantic elements
 
- * 
 
- * 
 
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * Static factory methods for semantic markup:
-
- * 
-
- * 
-
- * 
-
- * - Structure: header(), nav(), main(), section(), article(), aside(), footer()
-
- * 
-
- * 
-
- * 
-
- * - Content: heading(), paragraph(), strong(), em(), mark(), code(), pre(), blockquote(), cite(), address(), time()
-
- * 
-
- * 
-
- * 
-
- * - Media: figure(), figcaption(), image(), picture(), audio(), video(), source()
-
- * 
-
- * 
-
- * 
-
- * - Interactive: details(), summary(), dialog()
-
- * 
-
- * 
-
- * 
-
- * - Progress: progress(), meter()
-
- * 
-
- * 
-
- * 
-
- * - Lists: unorderedList(), orderedList(), listItem(), definitionList(), definitionTerm(), definitionDescription()
-
- * 
-
- * 
-
- * 
-
- * - Tables: table(), tableHead(), tableBody(), tableFoot(), tableRow(), tableData(), tableHeader(), tableCaption(), tableColumn(), tableColumnGroup()
-
- * 
-
- * 
-
- * 
-
- * - Forms: fieldset(), legend()
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * Integration with previous traits:
-
- * 
-
- * 
-
- * 
-
- * - CSSManagementTrait: Bootstrap classes for semantic elements
-
- * 
-
- * 
-
- * 
-
- * - AriaAttributeTrait: ARIA attributes for accessibility
-
- * 
-
- * 
-
- * 
-
- * - DataAttributeTrait: Data attributes for JS integration
-
- * 
-
- * 
-
- * 
-
- * - EventHandlerTrait: Event binding for interactive elements
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * Usage:
-
- * 
-
- * 
-
- * 
-
- *   $article = HtmlElement::article()
-
- * 
-
- * 
-
- * 
-
- *       ->addNested(HtmlElement::heading('Article Title', 1))
-
- * 
-
- * 
-
- * 
-
- *       ->addNested(HtmlElement::paragraph('Content'));
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- *   $figure = HtmlElement::figure()
-
- * 
-
- * 
-
- * 
-
- *       ->addNested(HtmlElement::image('photo.jpg', 'Photo'))
-
- * 
-
- * 
-
- * 
-
- *       ->addNested(HtmlElement::figcaption('Caption'));
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- * 
-
- *
-
- * @since 1.0.5 2026-03-30
-
- * @package Ksfraser\HTML\Traits
-
- * @return void
-
- */
-/**
- * SemanticElementsTrait
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-/**
- * SemanticElementsTrait
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-/**
- * SemanticElementsTrait
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-/**
- * SemanticElementsTrait
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-/**
- * SemanticElementsTrait
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-/**
- * SemanticElementsTrait
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-/**
- * SemanticElementsTrait
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-/**
- * SemanticElementsTrait
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-/**
- * SemanticElementsTrait
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-/**
- * SemanticElementsTrait
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-/**
- * SemanticElementsTrait
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-/**
- * SemanticElementsTrait
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-/**
- * SemanticElementsTrait
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-/**
- * SemanticElementsTrait
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-/**
- * SemanticElementsTrait
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-/**
- * SemanticElementsTrait
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
 /**
  * SemanticElementsTrait
  *
@@ -418,217 +51,39 @@ trait SemanticElementsTrait
      * @param mixed $args
      * @return HtmlElement
      */
-    protected static /**
- * element
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $tag
- * @param mixed $args
- * @return HtmlElement
- */
+    protected static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * element
  *
+ * @since v1.0.0 2026-04-14
  * @param string $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @param string $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @param string $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @param string $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @param string $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @param string $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @param string $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @param string $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @param string $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @param string $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @param string $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $tag
- * @param mixed $args
- * @return HtmlElement
- */
-/**
- * element
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $tag
- * @param mixed $args
  * @return HtmlElement
  */
 /**
@@ -727,157 +182,34 @@ function element(string $tag, ...$args): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * header
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * header
- *
- * @return HtmlElement
- */
-/**
- * header
- *
- * @return HtmlElement
- */
-/**
- * header
- *
- * @return HtmlElement
- */
-/**
- * header
- *
- * @return HtmlElement
- */
-/**
- * header
- *
- * @return HtmlElement
- */
-/**
- * header
- *
- * @return HtmlElement
- */
-/**
- * header
- *
- * @return HtmlElement
- */
-/**
- * header
- *
- * @return HtmlElement
- */
-/**
- * header
- *
- * @return HtmlElement
- */
-/**
- * header
- *
- * @return HtmlElement
- */
-/**
- * header
- *
- * @return HtmlElement
- */
-/**
- * header
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * header
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * header
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * header
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * header
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * header
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * header
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * header
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * header
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * header
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * header
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * header
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * header
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * header
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * header
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * header
  *
@@ -906,157 +238,34 @@ function header(): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * nav
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * nav
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * nav
  *
@@ -1085,157 +294,34 @@ function nav(): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * main
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * main
- *
- * @return HtmlElement
- */
-/**
- * main
- *
- * @return HtmlElement
- */
-/**
- * main
- *
- * @return HtmlElement
- */
-/**
- * main
- *
- * @return HtmlElement
- */
-/**
- * main
- *
- * @return HtmlElement
- */
-/**
- * main
- *
- * @return HtmlElement
- */
-/**
- * main
- *
- * @return HtmlElement
- */
-/**
- * main
- *
- * @return HtmlElement
- */
-/**
- * main
- *
- * @return HtmlElement
- */
-/**
- * main
- *
- * @return HtmlElement
- */
-/**
- * main
- *
- * @return HtmlElement
- */
-/**
- * main
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * main
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * main
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * main
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * main
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * main
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * main
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * main
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * main
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * main
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * main
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * main
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * main
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * main
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * main
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * main
  *
@@ -1266,189 +352,39 @@ function main(): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * section
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $id
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * section
  *
+ * @since v1.0.0 2026-04-14
  * @param string|null $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @param string|null $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @param string|null $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @param string|null $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @param string|null $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @param string|null $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @param string|null $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @param string|null $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @param string|null $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @param string|null $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @param string|null $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $id
- * @return HtmlElement
- */
-/**
- * section
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $id
  * @return HtmlElement
  */
 /**
@@ -1482,157 +418,34 @@ function section(?string $id = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * article
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * article
- *
- * @return HtmlElement
- */
-/**
- * article
- *
- * @return HtmlElement
- */
-/**
- * article
- *
- * @return HtmlElement
- */
-/**
- * article
- *
- * @return HtmlElement
- */
-/**
- * article
- *
- * @return HtmlElement
- */
-/**
- * article
- *
- * @return HtmlElement
- */
-/**
- * article
- *
- * @return HtmlElement
- */
-/**
- * article
- *
- * @return HtmlElement
- */
-/**
- * article
- *
- * @return HtmlElement
- */
-/**
- * article
- *
- * @return HtmlElement
- */
-/**
- * article
- *
- * @return HtmlElement
- */
-/**
- * article
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * article
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * article
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * article
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * article
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * article
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * article
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * article
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * article
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * article
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * article
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * article
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * article
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * article
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * article
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * article
  *
@@ -1661,157 +474,34 @@ function article(): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * div
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * div
- *
- * @return HtmlElement
- */
-/**
- * div
- *
- * @return HtmlElement
- */
-/**
- * div
- *
- * @return HtmlElement
- */
-/**
- * div
- *
- * @return HtmlElement
- */
-/**
- * div
- *
- * @return HtmlElement
- */
-/**
- * div
- *
- * @return HtmlElement
- */
-/**
- * div
- *
- * @return HtmlElement
- */
-/**
- * div
- *
- * @return HtmlElement
- */
-/**
- * div
- *
- * @return HtmlElement
- */
-/**
- * div
- *
- * @return HtmlElement
- */
-/**
- * div
- *
- * @return HtmlElement
- */
-/**
- * div
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * div
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * div
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * div
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * div
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * div
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * div
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * div
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * div
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * div
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * div
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * div
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * div
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * div
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * div
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * div
  *
@@ -1840,157 +530,34 @@ function div(): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * aside
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * aside
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * aside
  *
@@ -2019,157 +586,34 @@ function aside(): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * footer
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * footer
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * footer
  *
@@ -2206,217 +650,40 @@ function footer(): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * heading
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $level
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * heading
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
  * @param int $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @param string $text
- * @param int $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @param string $text
- * @param int $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @param string $text
- * @param int $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @param string $text
- * @param int $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @param string $text
- * @param int $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @param string $text
- * @param int $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @param string $text
- * @param int $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @param string $text
- * @param int $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @param string $text
- * @param int $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @param string $text
- * @param int $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $level
- * @return HtmlElement
- */
-/**
- * heading
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $level
  * @return HtmlElement
  */
 /**
@@ -2446,189 +713,39 @@ function heading(string $text = '', int $level = 1): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * paragraph
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * paragraph
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * paragraph
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -2656,189 +773,39 @@ function paragraph(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * strong
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * strong
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * strong
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -2866,189 +833,39 @@ function strong(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * em
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * em
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * em
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -3076,189 +893,39 @@ function em(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * mark
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * mark
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * mark
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -3286,189 +953,39 @@ function mark(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * del
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * del
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * del
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -3496,189 +1013,39 @@ function del(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * ins
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * ins
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * ins
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -3706,189 +1073,39 @@ function ins(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * sub
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * sub
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sub
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -3916,189 +1133,39 @@ function sub(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * sup
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * sup
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * sup
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -4128,217 +1195,40 @@ function sup(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * abbr
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $title
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * abbr
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
  * @param string $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @param string $text
- * @param string $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @param string $text
- * @param string $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @param string $text
- * @param string $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @param string $text
- * @param string $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @param string $text
- * @param string $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @param string $text
- * @param string $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @param string $text
- * @param string $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @param string $text
- * @param string $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @param string $text
- * @param string $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @param string $text
- * @param string $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $title
- * @return HtmlElement
- */
-/**
- * abbr
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $title
  * @return HtmlElement
  */
 /**
@@ -4375,189 +1265,39 @@ function abbr(string $text = '', string $title = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * kbd
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * kbd
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * kbd
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -4585,189 +1325,39 @@ function kbd(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * code
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * code
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * code
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -4795,189 +1385,39 @@ function code(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * samp
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * samp
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * samp
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -5005,189 +1445,39 @@ function samp(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
  * (anonymous)
  *
  * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * No description.
- *
  * @param string $text
- * @return HtmlElement
- */
-/**
- * No description.
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * No description.
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * No description.
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * No description.
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * No description.
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * No description.
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * No description.
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * No description.
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * No description.
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * No description.
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * (anonymous)
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * (anonymous)
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * (anonymous)
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * (anonymous)
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * (anonymous)
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * (anonymous)
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * (anonymous)
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * (anonymous)
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * (anonymous)
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * (anonymous)
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * (anonymous)
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * (anonymous)
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * (anonymous)
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * (anonymous)
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * (anonymous)
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * (anonymous)
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -5208,189 +1498,39 @@ function var(string $text = ''): HtmlElement
      * @param string $text Preformatted content (optional)
      * @return HtmlElement
      */
-    public static /**
- * pre
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * pre
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * pre
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -5418,189 +1558,39 @@ function pre(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * small
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * small
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * small
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -5630,217 +1620,40 @@ function small(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * blockquote
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $cite
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * blockquote
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
  * @param string|null $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @param string $text
- * @param string|null $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @param string $text
- * @param string|null $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @param string $text
- * @param string|null $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @param string $text
- * @param string|null $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @param string $text
- * @param string|null $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @param string $text
- * @param string|null $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @param string $text
- * @param string|null $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @param string $text
- * @param string|null $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @param string $text
- * @param string|null $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @param string $text
- * @param string|null $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $cite
- * @return HtmlElement
- */
-/**
- * blockquote
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $cite
  * @return HtmlElement
  */
 /**
@@ -5877,189 +1690,39 @@ function blockquote(string $text = '', ?string $cite = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * cite
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * cite
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * cite
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -6087,189 +1750,39 @@ function cite(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * address
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * address
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * address
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -6299,217 +1812,40 @@ function address(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * time
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $datetime
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * time
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
  * @param string|null $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @param string $text
- * @param string|null $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @param string $text
- * @param string|null $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @param string $text
- * @param string|null $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @param string $text
- * @param string|null $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @param string $text
- * @param string|null $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @param string $text
- * @param string|null $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @param string $text
- * @param string|null $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @param string $text
- * @param string|null $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @param string $text
- * @param string|null $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @param string $text
- * @param string|null $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $datetime
- * @return HtmlElement
- */
-/**
- * time
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @param mixed $datetime
  * @return HtmlElement
  */
 /**
@@ -6548,157 +1884,34 @@ function time(string $text = '', ?string $datetime = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * figure
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * figure
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * figure
  *
@@ -6729,189 +1942,39 @@ function figure(): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * figcaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * figcaption
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * figcaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -6941,217 +2004,40 @@ function figcaption(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * image
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * image
  *
+ * @since v1.0.0 2026-04-14
  * @param string $src
  * @param string $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * image
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
  * @return HtmlElement
  */
 /**
@@ -7195,217 +2081,40 @@ function image(string $src, string $alt = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * imageResponsive
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * imageResponsive
  *
+ * @since v1.0.0 2026-04-14
  * @param string $src
  * @param string $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageResponsive
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
  * @return HtmlElement
  */
 /**
@@ -7438,217 +2147,40 @@ function imageResponsive(string $src, string $alt = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * imageThumbnail
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * imageThumbnail
  *
+ * @since v1.0.0 2026-04-14
  * @param string $src
  * @param string $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @param string $src
- * @param string $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
- * @return HtmlElement
- */
-/**
- * imageThumbnail
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $alt
  * @return HtmlElement
  */
 /**
@@ -7677,157 +2209,34 @@ function imageThumbnail(string $src, string $alt = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * picture
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * picture
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * picture
  *
@@ -7860,217 +2269,40 @@ function picture(): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * audio
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * audio
  *
+ * @since v1.0.0 2026-04-14
  * @param string $src
  * @param bool $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @param string $src
- * @param bool $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @param string $src
- * @param bool $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @param string $src
- * @param bool $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @param string $src
- * @param bool $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @param string $src
- * @param bool $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @param string $src
- * @param bool $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @param string $src
- * @param bool $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @param string $src
- * @param bool $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @param string $src
- * @param bool $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @param string $src
- * @param bool $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @return HtmlElement
- */
-/**
- * audio
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
  * @return HtmlElement
  */
 /**
@@ -8118,245 +2350,41 @@ function audio(string $src = '', bool $controls = false): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * video
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @param mixed $autoplay
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * video
  *
+ * @since v1.0.0 2026-04-14
  * @param string $src
  * @param bool $controls
  * @param bool $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @param string $src
- * @param bool $controls
- * @param bool $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @param string $src
- * @param bool $controls
- * @param bool $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @param string $src
- * @param bool $controls
- * @param bool $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @param string $src
- * @param bool $controls
- * @param bool $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @param string $src
- * @param bool $controls
- * @param bool $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @param string $src
- * @param bool $controls
- * @param bool $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @param string $src
- * @param bool $controls
- * @param bool $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @param string $src
- * @param bool $controls
- * @param bool $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @param string $src
- * @param bool $controls
- * @param bool $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @param string $src
- * @param bool $controls
- * @param bool $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @param mixed $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @param mixed $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @param mixed $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @param mixed $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @param mixed $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @param mixed $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @param mixed $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @param mixed $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @param mixed $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @param mixed $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @param mixed $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @param mixed $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @param mixed $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @param mixed $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @param mixed $autoplay
- * @return HtmlElement
- */
-/**
- * video
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $controls
- * @param mixed $autoplay
  * @return HtmlElement
  */
 /**
@@ -8410,217 +2438,40 @@ function video(string $src = '', bool $controls = false, bool $autoplay = false)
      * @return HtmlElement
 
      */
-    public static /**
- * source
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * source
  *
+ * @since v1.0.0 2026-04-14
  * @param string $src
  * @param string $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @param string $src
- * @param string $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @param string $src
- * @param string $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @param string $src
- * @param string $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @param string $src
- * @param string $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @param string $src
- * @param string $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @param string $src
- * @param string $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @param string $src
- * @param string $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @param string $src
- * @param string $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @param string $src
- * @param string $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @param string $src
- * @param string $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * source
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
  * @return HtmlElement
  */
 /**
@@ -8662,217 +2513,40 @@ function source(string $src, string $type): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * track
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $kind
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * track
  *
+ * @since v1.0.0 2026-04-14
  * @param string $src
  * @param string $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @param string $src
- * @param string $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @param string $src
- * @param string $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @param string $src
- * @param string $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @param string $src
- * @param string $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @param string $src
- * @param string $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @param string $src
- * @param string $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @param string $src
- * @param string $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @param string $src
- * @param string $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @param string $src
- * @param string $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @param string $src
- * @param string $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $kind
- * @return HtmlElement
- */
-/**
- * track
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $kind
  * @return HtmlElement
  */
 /**
@@ -8920,189 +2594,39 @@ function track(string $src = '', string $kind = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * details
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * details
  *
+ * @since v1.0.0 2026-04-14
  * @param bool $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @param bool $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @param bool $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @param bool $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @param bool $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @param bool $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @param bool $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @param bool $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @param bool $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @param bool $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @param bool $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * details
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
  * @return HtmlElement
  */
 /**
@@ -9138,189 +2662,39 @@ function details(bool $open = false): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * summary
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * summary
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * summary
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -9348,189 +2722,39 @@ function summary(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * dialog
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * dialog
  *
+ * @since v1.0.0 2026-04-14
  * @param bool $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @param bool $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @param bool $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @param bool $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @param bool $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @param bool $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @param bool $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @param bool $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @param bool $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @param bool $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @param bool $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
- * @return HtmlElement
- */
-/**
- * dialog
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $open
  * @return HtmlElement
  */
 /**
@@ -9566,189 +2790,39 @@ function dialog(bool $open = false): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * noscript
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * noscript
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * noscript
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -9778,217 +2852,40 @@ function noscript(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * canvas
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * canvas
  *
+ * @since v1.0.0 2026-04-14
  * @param int|null $width
  * @param int|null $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @param int|null $width
- * @param int|null $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @param int|null $width
- * @param int|null $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @param int|null $width
- * @param int|null $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @param int|null $width
- * @param int|null $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @param int|null $width
- * @param int|null $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @param int|null $width
- * @param int|null $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @param int|null $width
- * @param int|null $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @param int|null $width
- * @param int|null $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @param int|null $width
- * @param int|null $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @param int|null $width
- * @param int|null $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * canvas
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
  * @return HtmlElement
  */
 /**
@@ -10034,217 +2931,40 @@ function canvas(?int $width = null, ?int $height = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * svg
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * svg
  *
+ * @since v1.0.0 2026-04-14
  * @param int|null $width
  * @param int|null $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @param int|null $width
- * @param int|null $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @param int|null $width
- * @param int|null $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @param int|null $width
- * @param int|null $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @param int|null $width
- * @param int|null $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @param int|null $width
- * @param int|null $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @param int|null $width
- * @param int|null $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @param int|null $width
- * @param int|null $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @param int|null $width
- * @param int|null $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @param int|null $width
- * @param int|null $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @param int|null $width
- * @param int|null $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
- * @return HtmlElement
- */
-/**
- * svg
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $width
- * @param mixed $height
  * @return HtmlElement
  */
 /**
@@ -10282,189 +3002,39 @@ function svg(?int $width = null, ?int $height = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * htmlElement
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $lang
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * htmlElement
  *
+ * @since v1.0.0 2026-04-14
  * @param string|null $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @param string|null $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @param string|null $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @param string|null $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @param string|null $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @param string|null $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @param string|null $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @param string|null $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @param string|null $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @param string|null $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @param string|null $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $lang
- * @return HtmlElement
- */
-/**
- * htmlElement
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $lang
  * @return HtmlElement
  */
 /**
@@ -10498,157 +3068,34 @@ function htmlElement(?string $lang = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * head
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * head
- *
- * @return HtmlElement
- */
-/**
- * head
- *
- * @return HtmlElement
- */
-/**
- * head
- *
- * @return HtmlElement
- */
-/**
- * head
- *
- * @return HtmlElement
- */
-/**
- * head
- *
- * @return HtmlElement
- */
-/**
- * head
- *
- * @return HtmlElement
- */
-/**
- * head
- *
- * @return HtmlElement
- */
-/**
- * head
- *
- * @return HtmlElement
- */
-/**
- * head
- *
- * @return HtmlElement
- */
-/**
- * head
- *
- * @return HtmlElement
- */
-/**
- * head
- *
- * @return HtmlElement
- */
-/**
- * head
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * head
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * head
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * head
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * head
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * head
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * head
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * head
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * head
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * head
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * head
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * head
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * head
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * head
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * head
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * head
  *
@@ -10677,157 +3124,34 @@ function head(): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * body
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * body
- *
- * @return HtmlElement
- */
-/**
- * body
- *
- * @return HtmlElement
- */
-/**
- * body
- *
- * @return HtmlElement
- */
-/**
- * body
- *
- * @return HtmlElement
- */
-/**
- * body
- *
- * @return HtmlElement
- */
-/**
- * body
- *
- * @return HtmlElement
- */
-/**
- * body
- *
- * @return HtmlElement
- */
-/**
- * body
- *
- * @return HtmlElement
- */
-/**
- * body
- *
- * @return HtmlElement
- */
-/**
- * body
- *
- * @return HtmlElement
- */
-/**
- * body
- *
- * @return HtmlElement
- */
-/**
- * body
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * body
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * body
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * body
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * body
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * body
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * body
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * body
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * body
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * body
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * body
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * body
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * body
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * body
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * body
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * body
  *
@@ -10858,189 +3182,39 @@ function body(): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * title
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * title
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * title
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -11070,217 +3244,40 @@ function title(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * meta
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $name
- * @param mixed $content
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * meta
  *
+ * @since v1.0.0 2026-04-14
  * @param string $name
  * @param string $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @param string $name
- * @param string $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @param string $name
- * @param string $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @param string $name
- * @param string $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @param string $name
- * @param string $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @param string $name
- * @param string $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @param string $name
- * @param string $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @param string $name
- * @param string $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @param string $name
- * @param string $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @param string $name
- * @param string $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @param string $name
- * @param string $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $name
- * @param mixed $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $name
- * @param mixed $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $name
- * @param mixed $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $name
- * @param mixed $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $name
- * @param mixed $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $name
- * @param mixed $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $name
- * @param mixed $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $name
- * @param mixed $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $name
- * @param mixed $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $name
- * @param mixed $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $name
- * @param mixed $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $name
- * @param mixed $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $name
- * @param mixed $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $name
- * @param mixed $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $name
- * @param mixed $content
- * @return HtmlElement
- */
-/**
- * meta
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $name
- * @param mixed $content
  * @return HtmlElement
  */
 /**
@@ -11322,217 +3319,40 @@ function meta(string $name, string $content): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * link
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $rel
- * @param mixed $href
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * link
  *
+ * @since v1.0.0 2026-04-14
  * @param string $rel
  * @param string $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @param string $rel
- * @param string $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @param string $rel
- * @param string $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @param string $rel
- * @param string $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @param string $rel
- * @param string $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @param string $rel
- * @param string $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @param string $rel
- * @param string $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @param string $rel
- * @param string $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @param string $rel
- * @param string $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @param string $rel
- * @param string $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @param string $rel
- * @param string $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $rel
- * @param mixed $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $rel
- * @param mixed $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $rel
- * @param mixed $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $rel
- * @param mixed $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $rel
- * @param mixed $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $rel
- * @param mixed $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $rel
- * @param mixed $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $rel
- * @param mixed $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $rel
- * @param mixed $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $rel
- * @param mixed $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $rel
- * @param mixed $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $rel
- * @param mixed $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $rel
- * @param mixed $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $rel
- * @param mixed $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $rel
- * @param mixed $href
- * @return HtmlElement
- */
-/**
- * link
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $rel
- * @param mixed $href
  * @return HtmlElement
  */
 /**
@@ -11574,217 +3394,40 @@ function link(string $rel, string $href): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * script
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * script
  *
+ * @since v1.0.0 2026-04-14
  * @param string $src
  * @param string|null $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @param string $src
- * @param string|null $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @param string $src
- * @param string|null $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @param string $src
- * @param string|null $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @param string $src
- * @param string|null $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @param string $src
- * @param string|null $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @param string $src
- * @param string|null $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @param string $src
- * @param string|null $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @param string $src
- * @param string|null $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @param string $src
- * @param string|null $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @param string $src
- * @param string|null $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
- * @return HtmlElement
- */
-/**
- * script
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $src
- * @param mixed $type
  * @return HtmlElement
  */
 /**
@@ -11828,189 +3471,39 @@ function script(string $src = '', ?string $type = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * style
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $css
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * style
  *
+ * @since v1.0.0 2026-04-14
  * @param string $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @param string $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @param string $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @param string $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @param string $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @param string $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @param string $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @param string $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @param string $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @param string $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @param string $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $css
- * @return HtmlElement
- */
-/**
- * style
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $css
  * @return HtmlElement
  */
 /**
@@ -12044,217 +3537,40 @@ function style(string $css = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * progress
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $max
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * progress
  *
+ * @since v1.0.0 2026-04-14
  * @param int|null $value
  * @param int|null $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @param int|null $value
- * @param int|null $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @param int|null $value
- * @param int|null $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @param int|null $value
- * @param int|null $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @param int|null $value
- * @param int|null $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @param int|null $value
- * @param int|null $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @param int|null $value
- * @param int|null $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @param int|null $value
- * @param int|null $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @param int|null $value
- * @param int|null $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @param int|null $value
- * @param int|null $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @param int|null $value
- * @param int|null $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $max
- * @return HtmlElement
- */
-/**
- * progress
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $max
  * @return HtmlElement
  */
 /**
@@ -12306,301 +3622,43 @@ function progress(?int $value = null, ?int $max = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * meter
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $min
- * @param mixed $max
- * @param mixed $low
- * @param mixed $high
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * meter
  *
+ * @since v1.0.0 2026-04-14
  * @param int|null $value
  * @param int|null $min
  * @param int|null $max
  * @param int|null $low
  * @param int|null $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @param int|null $value
- * @param int|null $min
- * @param int|null $max
- * @param int|null $low
- * @param int|null $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @param int|null $value
- * @param int|null $min
- * @param int|null $max
- * @param int|null $low
- * @param int|null $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @param int|null $value
- * @param int|null $min
- * @param int|null $max
- * @param int|null $low
- * @param int|null $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @param int|null $value
- * @param int|null $min
- * @param int|null $max
- * @param int|null $low
- * @param int|null $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @param int|null $value
- * @param int|null $min
- * @param int|null $max
- * @param int|null $low
- * @param int|null $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @param int|null $value
- * @param int|null $min
- * @param int|null $max
- * @param int|null $low
- * @param int|null $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @param int|null $value
- * @param int|null $min
- * @param int|null $max
- * @param int|null $low
- * @param int|null $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @param int|null $value
- * @param int|null $min
- * @param int|null $max
- * @param int|null $low
- * @param int|null $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @param int|null $value
- * @param int|null $min
- * @param int|null $max
- * @param int|null $low
- * @param int|null $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @param int|null $value
- * @param int|null $min
- * @param int|null $max
- * @param int|null $low
- * @param int|null $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $min
- * @param mixed $max
- * @param mixed $low
- * @param mixed $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $min
- * @param mixed $max
- * @param mixed $low
- * @param mixed $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $min
- * @param mixed $max
- * @param mixed $low
- * @param mixed $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $min
- * @param mixed $max
- * @param mixed $low
- * @param mixed $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $min
- * @param mixed $max
- * @param mixed $low
- * @param mixed $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $min
- * @param mixed $max
- * @param mixed $low
- * @param mixed $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $min
- * @param mixed $max
- * @param mixed $low
- * @param mixed $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $min
- * @param mixed $max
- * @param mixed $low
- * @param mixed $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $min
- * @param mixed $max
- * @param mixed $low
- * @param mixed $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $min
- * @param mixed $max
- * @param mixed $low
- * @param mixed $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $min
- * @param mixed $max
- * @param mixed $low
- * @param mixed $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $min
- * @param mixed $max
- * @param mixed $low
- * @param mixed $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $min
- * @param mixed $max
- * @param mixed $low
- * @param mixed $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $min
- * @param mixed $max
- * @param mixed $low
- * @param mixed $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $min
- * @param mixed $max
- * @param mixed $low
- * @param mixed $high
- * @return HtmlElement
- */
-/**
- * meter
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $value
- * @param mixed $min
- * @param mixed $max
- * @param mixed $low
- * @param mixed $high
  * @return HtmlElement
  */
 /**
@@ -12670,157 +3728,34 @@ function meter(?int $value = null, ?int $min = null, ?int $max = null, ?int $low
      * @return HtmlElement
 
      */
-    public static /**
- * unorderedList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * unorderedList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * unorderedList
  *
@@ -12851,189 +3786,39 @@ function unorderedList(): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * orderedList
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $start
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * orderedList
  *
+ * @since v1.0.0 2026-04-14
  * @param int|null $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @param int|null $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @param int|null $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @param int|null $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @param int|null $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @param int|null $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @param int|null $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @param int|null $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @param int|null $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @param int|null $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @param int|null $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $start
- * @return HtmlElement
- */
-/**
- * orderedList
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $start
  * @return HtmlElement
  */
 /**
@@ -13069,189 +3854,39 @@ function orderedList(?int $start = null): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * listItem
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * listItem
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * listItem
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -13277,157 +3912,34 @@ function listItem(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * definitionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * definitionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * definitionList
  *
@@ -13458,189 +3970,39 @@ function definitionList(): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * definitionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * definitionTerm
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -13668,189 +4030,39 @@ function definitionTerm(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * definitionDescription
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * definitionDescription
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * definitionDescription
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -13876,157 +4088,34 @@ function definitionDescription(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * descriptionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * descriptionList
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * descriptionList
  *
@@ -14057,189 +4146,39 @@ function descriptionList(): HtmlElement
  * @return HtmlElement
 
  */
-    public static /**
- * descriptionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * descriptionTerm
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionTerm
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -14267,189 +4206,39 @@ function descriptionTerm(string $text = ''): HtmlElement
  * @return HtmlElement
 
  */
-    public static /**
- * descriptionDefinition
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * descriptionDefinition
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * descriptionDefinition
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -14479,157 +4268,34 @@ function descriptionDefinition(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * table
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * table
- *
- * @return HtmlElement
- */
-/**
- * table
- *
- * @return HtmlElement
- */
-/**
- * table
- *
- * @return HtmlElement
- */
-/**
- * table
- *
- * @return HtmlElement
- */
-/**
- * table
- *
- * @return HtmlElement
- */
-/**
- * table
- *
- * @return HtmlElement
- */
-/**
- * table
- *
- * @return HtmlElement
- */
-/**
- * table
- *
- * @return HtmlElement
- */
-/**
- * table
- *
- * @return HtmlElement
- */
-/**
- * table
- *
- * @return HtmlElement
- */
-/**
- * table
- *
- * @return HtmlElement
- */
-/**
- * table
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * table
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * table
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * table
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * table
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * table
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * table
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * table
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * table
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * table
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * table
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * table
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * table
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * table
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * table
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * table
  *
@@ -14658,157 +4324,34 @@ function table(): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * tableHead
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableHead
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * tableHead
  *
@@ -14837,157 +4380,34 @@ function tableHead(): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * tableBody
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableBody
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * tableBody
  *
@@ -15016,157 +4436,34 @@ function tableBody(): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * tableFoot
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableFoot
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * tableFoot
  *
@@ -15195,157 +4492,34 @@ function tableFoot(): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * tableRow
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableRow
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * tableRow
  *
@@ -15376,189 +4550,39 @@ function tableRow(): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * tableData
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * tableData
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableData
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -15586,189 +4610,39 @@ function tableData(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * tableHeader
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * tableHeader
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableHeader
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -15796,189 +4670,39 @@ function tableHeader(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * tableCaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * tableCaption
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * tableCaption
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**
@@ -16004,157 +4728,34 @@ function tableCaption(string $text = ''): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * tableColumn
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumn
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * tableColumn
  *
@@ -16183,157 +4784,34 @@ function tableColumn(): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * tableColumnGroup
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * tableColumnGroup
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * tableColumnGroup
  *
@@ -16366,157 +4844,34 @@ function tableColumnGroup(): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * fieldset
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
-/**
- * fieldset
- *
- * @since v1.0.0 2026-04-14
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * fieldset
  *
@@ -16547,189 +4902,39 @@ function fieldset(): HtmlElement
      * @return HtmlElement
 
      */
-    public static /**
- * legend
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
+    public static 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * legend
  *
+ * @since v1.0.0 2026-04-14
  * @param string $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @param string $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return HtmlElement
- */
-/**
- * legend
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
  * @return HtmlElement
  */
 /**

@@ -477,12 +477,6 @@ use Ksfraser\HTML\HtmlElement;
  * @return void
 
  */
-/**
- * AjaxSelectPopulator
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
 class AjaxSelectPopulator extends HtmlElement
 {
     /**
@@ -582,68 +576,7 @@ class AjaxSelectPopulator extends HtmlElement
      * @return void
 
      */
-    public /**
- * __construct
- *
- * @return void
- */
-/**
- * __construct
- *
- * @return void
- */
-/**
- * __construct
- *
- * @return void
- */
-/**
- * __construct
- *
- * @return void
- */
-/**
- * __construct
- *
- * @return void
- */
-/**
- * __construct
- *
- * @return void
- */
-/**
- * __construct
- *
- * @return void
- */
-/**
- * __construct
- *
- * @return void
- */
-/**
- * __construct
- *
- * @return void
- */
-/**
- * __construct
- *
- * @return void
- */
-/**
- * __construct
- *
- * @return void
- */
-/**
- * __construct
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function __construct()
+    public function __construct()
     {
         parent::__construct();
     }
@@ -661,80 +594,7 @@ function __construct()
      * @return AjaxSelectPopulator Fluent interface
 
      */
-public /**
- * setFunctionName
- *
- * @param mixed $name
- * @return void
- */
-/**
- * setFunctionName
- *
- * @param mixed $name
- * @return void
- */
-/**
- * setFunctionName
- *
- * @param mixed $name
- * @return void
- */
-/**
- * setFunctionName
- *
- * @param mixed $name
- * @return void
- */
-/**
- * setFunctionName
- *
- * @param mixed $name
- * @return void
- */
-/**
- * setFunctionName
- *
- * @param mixed $name
- * @return void
- */
-/**
- * setFunctionName
- *
- * @param mixed $name
- * @return void
- */
-/**
- * setFunctionName
- *
- * @param mixed $name
- * @return void
- */
-/**
- * setFunctionName
- *
- * @param mixed $name
- * @return void
- */
-/**
- * setFunctionName
- *
- * @param mixed $name
- * @return void
- */
-/**
- * setFunctionName
- *
- * @param mixed $name
- * @return void
- */
-/**
- * setFunctionName
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $name
- * @return void
- */
-function setFunctionName($name)
+public function setFunctionName($name)
     {
         $this->functionName = $name;
         return $this;
@@ -753,80 +613,7 @@ function setFunctionName($name)
      * @return AjaxSelectPopulator Fluent interface
 
      */
-public /**
- * setSourceFieldId
- *
- * @param mixed $id
- * @return void
- */
-/**
- * setSourceFieldId
- *
- * @param mixed $id
- * @return void
- */
-/**
- * setSourceFieldId
- *
- * @param mixed $id
- * @return void
- */
-/**
- * setSourceFieldId
- *
- * @param mixed $id
- * @return void
- */
-/**
- * setSourceFieldId
- *
- * @param mixed $id
- * @return void
- */
-/**
- * setSourceFieldId
- *
- * @param mixed $id
- * @return void
- */
-/**
- * setSourceFieldId
- *
- * @param mixed $id
- * @return void
- */
-/**
- * setSourceFieldId
- *
- * @param mixed $id
- * @return void
- */
-/**
- * setSourceFieldId
- *
- * @param mixed $id
- * @return void
- */
-/**
- * setSourceFieldId
- *
- * @param mixed $id
- * @return void
- */
-/**
- * setSourceFieldId
- *
- * @param mixed $id
- * @return void
- */
-/**
- * setSourceFieldId
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $id
- * @return void
- */
-function setSourceFieldId($id)
+public function setSourceFieldId($id)
     {
         $this->sourceFieldId = $id;
         return $this;
@@ -845,80 +632,7 @@ function setSourceFieldId($id)
      * @return AjaxSelectPopulator Fluent interface
 
      */
-public /**
- * setTargetFieldId
- *
- * @param mixed $id
- * @return void
- */
-/**
- * setTargetFieldId
- *
- * @param mixed $id
- * @return void
- */
-/**
- * setTargetFieldId
- *
- * @param mixed $id
- * @return void
- */
-/**
- * setTargetFieldId
- *
- * @param mixed $id
- * @return void
- */
-/**
- * setTargetFieldId
- *
- * @param mixed $id
- * @return void
- */
-/**
- * setTargetFieldId
- *
- * @param mixed $id
- * @return void
- */
-/**
- * setTargetFieldId
- *
- * @param mixed $id
- * @return void
- */
-/**
- * setTargetFieldId
- *
- * @param mixed $id
- * @return void
- */
-/**
- * setTargetFieldId
- *
- * @param mixed $id
- * @return void
- */
-/**
- * setTargetFieldId
- *
- * @param mixed $id
- * @return void
- */
-/**
- * setTargetFieldId
- *
- * @param mixed $id
- * @return void
- */
-/**
- * setTargetFieldId
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $id
- * @return void
- */
-function setTargetFieldId($id)
+public function setTargetFieldId($id)
     {
         $this->targetFieldId = $id;
         return $this;
@@ -937,80 +651,7 @@ function setTargetFieldId($id)
      * @return AjaxSelectPopulator Fluent interface
 
      */
-public /**
- * setEndpoint
- *
- * @param mixed $url
- * @return void
- */
-/**
- * setEndpoint
- *
- * @param mixed $url
- * @return void
- */
-/**
- * setEndpoint
- *
- * @param mixed $url
- * @return void
- */
-/**
- * setEndpoint
- *
- * @param mixed $url
- * @return void
- */
-/**
- * setEndpoint
- *
- * @param mixed $url
- * @return void
- */
-/**
- * setEndpoint
- *
- * @param mixed $url
- * @return void
- */
-/**
- * setEndpoint
- *
- * @param mixed $url
- * @return void
- */
-/**
- * setEndpoint
- *
- * @param mixed $url
- * @return void
- */
-/**
- * setEndpoint
- *
- * @param mixed $url
- * @return void
- */
-/**
- * setEndpoint
- *
- * @param mixed $url
- * @return void
- */
-/**
- * setEndpoint
- *
- * @param mixed $url
- * @return void
- */
-/**
- * setEndpoint
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $url
- * @return void
- */
-function setEndpoint($url)
+public function setEndpoint($url)
     {
         $this->endpoint = $url;
         return $this;
@@ -1029,80 +670,7 @@ function setEndpoint($url)
      * @return AjaxSelectPopulator Fluent interface
 
      */
-public /**
- * setQueryParam
- *
- * @param mixed $param
- * @return void
- */
-/**
- * setQueryParam
- *
- * @param mixed $param
- * @return void
- */
-/**
- * setQueryParam
- *
- * @param mixed $param
- * @return void
- */
-/**
- * setQueryParam
- *
- * @param mixed $param
- * @return void
- */
-/**
- * setQueryParam
- *
- * @param mixed $param
- * @return void
- */
-/**
- * setQueryParam
- *
- * @param mixed $param
- * @return void
- */
-/**
- * setQueryParam
- *
- * @param mixed $param
- * @return void
- */
-/**
- * setQueryParam
- *
- * @param mixed $param
- * @return void
- */
-/**
- * setQueryParam
- *
- * @param mixed $param
- * @return void
- */
-/**
- * setQueryParam
- *
- * @param mixed $param
- * @return void
- */
-/**
- * setQueryParam
- *
- * @param mixed $param
- * @return void
- */
-/**
- * setQueryParam
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $param
- * @return void
- */
-function setQueryParam($param)
+public function setQueryParam($param)
     {
         $this->queryParam = $param;
         return $this;
@@ -1121,80 +689,7 @@ function setQueryParam($param)
      * @return AjaxSelectPopulator Fluent interface
 
      */
-public /**
- * setPlaceholder
- *
- * @param mixed $text
- * @return void
- */
-/**
- * setPlaceholder
- *
- * @param mixed $text
- * @return void
- */
-/**
- * setPlaceholder
- *
- * @param mixed $text
- * @return void
- */
-/**
- * setPlaceholder
- *
- * @param mixed $text
- * @return void
- */
-/**
- * setPlaceholder
- *
- * @param mixed $text
- * @return void
- */
-/**
- * setPlaceholder
- *
- * @param mixed $text
- * @return void
- */
-/**
- * setPlaceholder
- *
- * @param mixed $text
- * @return void
- */
-/**
- * setPlaceholder
- *
- * @param mixed $text
- * @return void
- */
-/**
- * setPlaceholder
- *
- * @param mixed $text
- * @return void
- */
-/**
- * setPlaceholder
- *
- * @param mixed $text
- * @return void
- */
-/**
- * setPlaceholder
- *
- * @param mixed $text
- * @return void
- */
-/**
- * setPlaceholder
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $text
- * @return void
- */
-function setPlaceholder($text)
+public function setPlaceholder($text)
     {
         $this->placeholder = $text;
         return $this;
@@ -1213,80 +708,7 @@ function setPlaceholder($text)
      * @return AjaxSelectPopulator Fluent interface
 
      */
-public /**
- * setShowLoadingState
- *
- * @param mixed $show
- * @return void
- */
-/**
- * setShowLoadingState
- *
- * @param mixed $show
- * @return void
- */
-/**
- * setShowLoadingState
- *
- * @param mixed $show
- * @return void
- */
-/**
- * setShowLoadingState
- *
- * @param mixed $show
- * @return void
- */
-/**
- * setShowLoadingState
- *
- * @param mixed $show
- * @return void
- */
-/**
- * setShowLoadingState
- *
- * @param mixed $show
- * @return void
- */
-/**
- * setShowLoadingState
- *
- * @param mixed $show
- * @return void
- */
-/**
- * setShowLoadingState
- *
- * @param mixed $show
- * @return void
- */
-/**
- * setShowLoadingState
- *
- * @param mixed $show
- * @return void
- */
-/**
- * setShowLoadingState
- *
- * @param mixed $show
- * @return void
- */
-/**
- * setShowLoadingState
- *
- * @param mixed $show
- * @return void
- */
-/**
- * setShowLoadingState
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $show
- * @return void
- */
-function setShowLoadingState($show = true)
+public function setShowLoadingState($show = true)
     {
         $this->showLoadingState = $show;
         return $this;
@@ -1303,68 +725,7 @@ function setShowLoadingState($show = true)
      * @return string The complete JavaScript function
 
      */
-    protected /**
- * generateJSFunction
- *
- * @return void
- */
-/**
- * generateJSFunction
- *
- * @return void
- */
-/**
- * generateJSFunction
- *
- * @return void
- */
-/**
- * generateJSFunction
- *
- * @return void
- */
-/**
- * generateJSFunction
- *
- * @return void
- */
-/**
- * generateJSFunction
- *
- * @return void
- */
-/**
- * generateJSFunction
- *
- * @return void
- */
-/**
- * generateJSFunction
- *
- * @return void
- */
-/**
- * generateJSFunction
- *
- * @return void
- */
-/**
- * generateJSFunction
- *
- * @return void
- */
-/**
- * generateJSFunction
- *
- * @return void
- */
-/**
- * generateJSFunction
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function generateJSFunction()
+    protected function generateJSFunction()
     {
         $js = "function " . $this->functionName . "() {\n";
         $js .= "  var sourceValue = document.getElementById('" . htmlspecialchars($this->sourceFieldId, ENT_QUOTES, 'UTF-8') . "').value;\n";
@@ -1415,68 +776,7 @@ function generateJSFunction()
      * @return string
 
      */
-    public /**
- * getHtml
- *
- * @return void
- */
-/**
- * getHtml
- *
- * @return void
- */
-/**
- * getHtml
- *
- * @return void
- */
-/**
- * getHtml
- *
- * @return void
- */
-/**
- * getHtml
- *
- * @return void
- */
-/**
- * getHtml
- *
- * @return void
- */
-/**
- * getHtml
- *
- * @return void
- */
-/**
- * getHtml
- *
- * @return void
- */
-/**
- * getHtml
- *
- * @return void
- */
-/**
- * getHtml
- *
- * @return void
- */
-/**
- * getHtml
- *
- * @return void
- */
-/**
- * getHtml
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function getHtml()
+    public function getHtml()
     {
         $script = new HtmlScript('text/javascript', $this->generateJSFunction());
         return $script->getHtml();

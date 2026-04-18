@@ -145,12 +145,6 @@ use Ksfraser\HTML\Attributes\HtmlAttributeValueObject;
  * @since v1.0.0 2026-04-14
  * @return void
  */
-/**
- * HtmlStyleList
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
 class HtmlStyleList extends HtmlAttributeValueObject
 {
     /**
@@ -174,79 +168,6 @@ class HtmlStyleList extends HtmlAttributeValueObject
  * @param mixed $style
  * @return void
  */
-/**
- * __construct
- *
- * @param mixed $style
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $style
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $style
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $style
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $style
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $style
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $style
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $style
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $style
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $style
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $style
- * @return void
- */
-/**
- * __construct
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $style
- * @return void
- */
 function __construct($style = null)
     {
         $this->attributeName = 'style';
@@ -259,12 +180,6 @@ function __construct($style = null)
             foreach ($style as $s) {
                 if (is_string($s)) {
                     $this->addAttribute(new /**
- * __construct
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-/**
  * __construct
  *
  * @since v1.0.0 2026-04-14
@@ -299,79 +214,6 @@ class($s) {
  * @param mixed $s
  * @return void
  */
-/**
- * __construct
- *
- * @param mixed $s
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $s
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $s
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $s
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $s
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $s
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $s
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $s
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $s
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $s
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $s
- * @return void
- */
-/**
- * __construct
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $s
- * @return void
- */
 function __construct($s) { $this->s = $s; }
 /**
  * getHtml
@@ -391,67 +233,6 @@ function __construct($s) { $this->s = $s; }
  * @since v1.0.0 2026-04-14
  * @return string
  */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @since v1.0.0 2026-04-14
- * @return string
- */
 function getHtml(): string { return $this->s . ';'; }
                     });
                 } else {
@@ -463,12 +244,6 @@ function getHtml(): string { return $this->s . ';'; }
 
         if (is_string($style)) {
             $this->addAttribute(new /**
- * __construct
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-/**
  * __construct
  *
  * @since v1.0.0 2026-04-14
@@ -503,79 +278,6 @@ class($style) {
  * @param mixed $s
  * @return void
  */
-/**
- * __construct
- *
- * @param mixed $s
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $s
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $s
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $s
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $s
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $s
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $s
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $s
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $s
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $s
- * @return void
- */
-/**
- * __construct
- *
- * @param mixed $s
- * @return void
- */
-/**
- * __construct
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $s
- * @return void
- */
 function __construct($s) { $this->s = $s; }
 /**
  * getHtml
@@ -587,67 +289,6 @@ function __construct($s) { $this->s = $s; }
  * getHtml
  *
  * @since v1.0.0 2026-04-14
- * @return string
- */
-/**
- * getHtml
- *
- * @since v1.0.0 2026-04-14
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
- * @return string
- */
-/**
- * getHtml
- *
  * @return string
  */
 /**
@@ -691,79 +332,6 @@ function getHtml(): string { return $this->s . ';'; }
  * @param mixed $style
  * @return void
  */
-/**
- * addAttribute
- *
- * @param mixed $style
- * @return void
- */
-/**
- * addAttribute
- *
- * @param mixed $style
- * @return void
- */
-/**
- * addAttribute
- *
- * @param mixed $style
- * @return void
- */
-/**
- * addAttribute
- *
- * @param mixed $style
- * @return void
- */
-/**
- * addAttribute
- *
- * @param mixed $style
- * @return void
- */
-/**
- * addAttribute
- *
- * @param mixed $style
- * @return void
- */
-/**
- * addAttribute
- *
- * @param mixed $style
- * @return void
- */
-/**
- * addAttribute
- *
- * @param mixed $style
- * @return void
- */
-/**
- * addAttribute
- *
- * @param mixed $style
- * @return void
- */
-/**
- * addAttribute
- *
- * @param mixed $style
- * @return void
- */
-/**
- * addAttribute
- *
- * @param mixed $style
- * @return void
- */
-/**
- * addAttribute
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $style
- * @return void
- */
 function addAttribute($style): void
     {
         parent::addAttributeValueObject($style);
@@ -796,79 +364,6 @@ function addAttribute($style): void
  * @param mixed $style
  * @return void
  */
-/**
- * setAttribute
- *
- * @param mixed $style
- * @return void
- */
-/**
- * setAttribute
- *
- * @param mixed $style
- * @return void
- */
-/**
- * setAttribute
- *
- * @param mixed $style
- * @return void
- */
-/**
- * setAttribute
- *
- * @param mixed $style
- * @return void
- */
-/**
- * setAttribute
- *
- * @param mixed $style
- * @return void
- */
-/**
- * setAttribute
- *
- * @param mixed $style
- * @return void
- */
-/**
- * setAttribute
- *
- * @param mixed $style
- * @return void
- */
-/**
- * setAttribute
- *
- * @param mixed $style
- * @return void
- */
-/**
- * setAttribute
- *
- * @param mixed $style
- * @return void
- */
-/**
- * setAttribute
- *
- * @param mixed $style
- * @return void
- */
-/**
- * setAttribute
- *
- * @param mixed $style
- * @return void
- */
-/**
- * setAttribute
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $style
- * @return void
- */
 function setAttribute($style): void
     {
         $this->addAttribute($style);
@@ -889,67 +384,6 @@ function setAttribute($style): void
  * getAttributeValueString
  *
  * @since v1.0.0 2026-04-14
- * @return string
- */
-/**
- * getAttributeValueString
- *
- * @since v1.0.0 2026-04-14
- * @return string
- */
-/**
- * getAttributeValueString
- *
- * @return string
- */
-/**
- * getAttributeValueString
- *
- * @return string
- */
-/**
- * getAttributeValueString
- *
- * @return string
- */
-/**
- * getAttributeValueString
- *
- * @return string
- */
-/**
- * getAttributeValueString
- *
- * @return string
- */
-/**
- * getAttributeValueString
- *
- * @return string
- */
-/**
- * getAttributeValueString
- *
- * @return string
- */
-/**
- * getAttributeValueString
- *
- * @return string
- */
-/**
- * getAttributeValueString
- *
- * @return string
- */
-/**
- * getAttributeValueString
- *
- * @return string
- */
-/**
- * getAttributeValueString
- *
  * @return string
  */
 /**

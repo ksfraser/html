@@ -75,12 +75,6 @@ namespace Ksfraser\HTML\CSS;
  * @return void
 
  */
-/**
- * CSSProviderInterface
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
 interface CSSProviderInterface {
     /**
      * Get CSS string for this provider
@@ -88,68 +82,7 @@ interface CSSProviderInterface {
      * @since v1.0.0 2025-09-08
      * @return void
      */
-    public /**
- * getCSS
- *
- * @return void
- */
-/**
- * getCSS
- *
- * @return void
- */
-/**
- * getCSS
- *
- * @return void
- */
-/**
- * getCSS
- *
- * @return void
- */
-/**
- * getCSS
- *
- * @return void
- */
-/**
- * getCSS
- *
- * @return void
- */
-/**
- * getCSS
- *
- * @return void
- */
-/**
- * getCSS
- *
- * @return void
- */
-/**
- * getCSS
- *
- * @return void
- */
-/**
- * getCSS
- *
- * @return void
- */
-/**
- * getCSS
- *
- * @return void
- */
-/**
- * getCSS
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function getCSS();
+    public function getCSS();
     
     /**
     
@@ -162,68 +95,7 @@ function getCSS();
      * @return void
     
      */
-    public /**
- * getName
- *
- * @return void
- */
-/**
- * getName
- *
- * @return void
- */
-/**
- * getName
- *
- * @return void
- */
-/**
- * getName
- *
- * @return void
- */
-/**
- * getName
- *
- * @return void
- */
-/**
- * getName
- *
- * @return void
- */
-/**
- * getName
- *
- * @return void
- */
-/**
- * getName
- *
- * @return void
- */
-/**
- * getName
- *
- * @return void
- */
-/**
- * getName
- *
- * @return void
- */
-/**
- * getName
- *
- * @return void
- */
-/**
- * getName
- *
- * @since v1.0.0 2026-04-14
- * @return void
- */
-function getName();
+    public function getName();
     
     /**
     
@@ -238,79 +110,6 @@ function getName();
      * @return void
     
      */
-public /**
- * supportsTheme
- *
- * @param mixed $theme
- * @return void
- */
-/**
- * supportsTheme
- *
- * @param mixed $theme
- * @return void
- */
-/**
- * supportsTheme
- *
- * @param mixed $theme
- * @return void
- */
-/**
- * supportsTheme
- *
- * @param mixed $theme
- * @return void
- */
-/**
- * supportsTheme
- *
- * @param mixed $theme
- * @return void
- */
-/**
- * supportsTheme
- *
- * @param mixed $theme
- * @return void
- */
-/**
- * supportsTheme
- *
- * @param mixed $theme
- * @return void
- */
-/**
- * supportsTheme
- *
- * @param mixed $theme
- * @return void
- */
-/**
- * supportsTheme
- *
- * @param mixed $theme
- * @return void
- */
-/**
- * supportsTheme
- *
- * @param mixed $theme
- * @return void
- */
-/**
- * supportsTheme
- *
- * @param mixed $theme
- * @return void
- */
-/**
- * supportsTheme
- *
- * @since v1.0.0 2026-04-14
- * @param mixed $theme
- * @return void
- */
-function supportsTheme($theme);
+public function supportsTheme($theme);
 }
 
