@@ -59,6 +59,17 @@ trait CSSManagementTrait
             return $this;
         }
 
+        // Support space-separated multi-class strings (e.g. 'btn btn-primary btn-sm')
+        $parts = preg_split('/\s+/', trim($class));
+        if (count($parts) > 1) {
+            foreach ($parts as $part) {
+                if ($part !== '') {
+                    $this->addCSSClass($part, true);
+                }
+            }
+            return $this;
+        }
+
         // Trim the class name
         $class = trim($class);
 

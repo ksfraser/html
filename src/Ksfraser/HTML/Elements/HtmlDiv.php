@@ -9,7 +9,7 @@ use Ksfraser\HTML\HtmlElementInterface;
 class HtmlDiv extends HtmlElement
 {
 	//can have styles
-	function __construct( HtmlElementInterface $data )
+	function __construct( ?HtmlElementInterface $data = null )
 	{
 		parent::__construct( $data );
 		$this->tag = "div";

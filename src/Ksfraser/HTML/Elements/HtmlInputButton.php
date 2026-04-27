@@ -119,11 +119,16 @@ class HtmlInputButton extends HtmlEmptyElement
 	/**
 	 * Set the button as disabled
 	 *
+	 * @param bool $disabled Whether to disable the button (default true)
 	 * @return self Fluent interface
 	 */
-	public function setDisabled(): self
+	public function setDisabled(bool $disabled = true): self
 	{
-		$this->setAttribute( "disabled", "disabled" );
+		if ($disabled) {
+			$this->setAttribute("disabled", "disabled");
+		} else {
+			$this->removeAttribute("disabled");
+		}
 		return $this;
 	}
 

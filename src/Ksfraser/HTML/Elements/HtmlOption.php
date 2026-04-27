@@ -133,7 +133,7 @@ class HtmlOption extends HtmlElement
      *
      * @since 20251020
      */
-    public function setSelected(bool $selected): self
+    public function setSelected(bool $selected = true): self
     {
         $this->selected = $selected;
         return $this;

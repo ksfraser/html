@@ -7,12 +7,14 @@ use Ksfraser\HTML\HtmlElement;
 
 /**
  * ResponsiveLayoutTraitTest - FR-013
- * 
+ *
  * Comprehensive test suite for responsive design and layout utilities
  * Tests grid system, spacing, display, sizing, and responsive classes
- * 
+ *
+ *
  * @group FR-013
  * @group Layout
+ * @since 1.0.5 2026-03-30
  */
 class ResponsiveLayoutTraitTest extends TestCase
 {
@@ -24,8 +26,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group grid
+ * @return void
+ * @since 1.0.5 2026-03-30
      */
-    public function container_creates_container_div()
+    public /**
+ * container_creates_container_div
+ *
+ * @return void
+ */
+/**
+ * container_creates_container_div
+ *
+ * @return void
+ */
+/**
+ * container_creates_container_div
+ *
+ * @return void
+ */
+/**
+ * container_creates_container_div
+ *
+ * @return void
+ */
+/**
+ * container_creates_container_div
+ *
+ * @return void
+ */
+/**
+ * container_creates_container_div
+ *
+ * @return void
+ */
+/**
+ * container_creates_container_div
+ *
+ * @return void
+ */
+/**
+ * container_creates_container_div
+ *
+ * @return void
+ */
+/**
+ * container_creates_container_div
+ *
+ * @return void
+ */
+/**
+ * container_creates_container_div
+ *
+ * @return void
+ */
+function container_creates_container_div()
     {
         $container = HtmlElement::container();
         
@@ -37,8 +91,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group grid
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function container_fluid_creates_fluid_container()
+    public /**
+ * container_fluid_creates_fluid_container
+ *
+ * @return void
+ */
+/**
+ * container_fluid_creates_fluid_container
+ *
+ * @return void
+ */
+/**
+ * container_fluid_creates_fluid_container
+ *
+ * @return void
+ */
+/**
+ * container_fluid_creates_fluid_container
+ *
+ * @return void
+ */
+/**
+ * container_fluid_creates_fluid_container
+ *
+ * @return void
+ */
+/**
+ * container_fluid_creates_fluid_container
+ *
+ * @return void
+ */
+/**
+ * container_fluid_creates_fluid_container
+ *
+ * @return void
+ */
+/**
+ * container_fluid_creates_fluid_container
+ *
+ * @return void
+ */
+/**
+ * container_fluid_creates_fluid_container
+ *
+ * @return void
+ */
+/**
+ * container_fluid_creates_fluid_container
+ *
+ * @return void
+ */
+function container_fluid_creates_fluid_container()
     {
         $container = HtmlElement::containerFluid();
         
@@ -50,8 +156,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group grid
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function row_creates_row_div()
+    public /**
+ * row_creates_row_div
+ *
+ * @return void
+ */
+/**
+ * row_creates_row_div
+ *
+ * @return void
+ */
+/**
+ * row_creates_row_div
+ *
+ * @return void
+ */
+/**
+ * row_creates_row_div
+ *
+ * @return void
+ */
+/**
+ * row_creates_row_div
+ *
+ * @return void
+ */
+/**
+ * row_creates_row_div
+ *
+ * @return void
+ */
+/**
+ * row_creates_row_div
+ *
+ * @return void
+ */
+/**
+ * row_creates_row_div
+ *
+ * @return void
+ */
+/**
+ * row_creates_row_div
+ *
+ * @return void
+ */
+/**
+ * row_creates_row_div
+ *
+ * @return void
+ */
+function row_creates_row_div()
     {
         $row = HtmlElement::row();
         
@@ -63,8 +221,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group grid
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function column_creates_column_with_width()
+    public /**
+ * column_creates_column_with_width
+ *
+ * @return void
+ */
+/**
+ * column_creates_column_with_width
+ *
+ * @return void
+ */
+/**
+ * column_creates_column_with_width
+ *
+ * @return void
+ */
+/**
+ * column_creates_column_with_width
+ *
+ * @return void
+ */
+/**
+ * column_creates_column_with_width
+ *
+ * @return void
+ */
+/**
+ * column_creates_column_with_width
+ *
+ * @return void
+ */
+/**
+ * column_creates_column_with_width
+ *
+ * @return void
+ */
+/**
+ * column_creates_column_with_width
+ *
+ * @return void
+ */
+/**
+ * column_creates_column_with_width
+ *
+ * @return void
+ */
+/**
+ * column_creates_column_with_width
+ *
+ * @return void
+ */
+function column_creates_column_with_width()
     {
         $col = HtmlElement::column(6);
         
@@ -76,8 +286,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group grid
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function column_full_width_default()
+    public /**
+ * column_full_width_default
+ *
+ * @return void
+ */
+/**
+ * column_full_width_default
+ *
+ * @return void
+ */
+/**
+ * column_full_width_default
+ *
+ * @return void
+ */
+/**
+ * column_full_width_default
+ *
+ * @return void
+ */
+/**
+ * column_full_width_default
+ *
+ * @return void
+ */
+/**
+ * column_full_width_default
+ *
+ * @return void
+ */
+/**
+ * column_full_width_default
+ *
+ * @return void
+ */
+/**
+ * column_full_width_default
+ *
+ * @return void
+ */
+/**
+ * column_full_width_default
+ *
+ * @return void
+ */
+/**
+ * column_full_width_default
+ *
+ * @return void
+ */
+function column_full_width_default()
     {
         $col = HtmlElement::column();
         
@@ -88,8 +350,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group grid
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function column_responsive_creates_breakpoint_classes()
+    public /**
+ * column_responsive_creates_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * column_responsive_creates_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * column_responsive_creates_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * column_responsive_creates_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * column_responsive_creates_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * column_responsive_creates_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * column_responsive_creates_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * column_responsive_creates_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * column_responsive_creates_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * column_responsive_creates_breakpoint_classes
+ *
+ * @return void
+ */
+function column_responsive_creates_breakpoint_classes()
     {
         $col = HtmlElement::columnResponsive([
             'xs' => 12,
@@ -110,8 +424,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group grid
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function column_offset_adds_offset_class()
+    public /**
+ * column_offset_adds_offset_class
+ *
+ * @return void
+ */
+/**
+ * column_offset_adds_offset_class
+ *
+ * @return void
+ */
+/**
+ * column_offset_adds_offset_class
+ *
+ * @return void
+ */
+/**
+ * column_offset_adds_offset_class
+ *
+ * @return void
+ */
+/**
+ * column_offset_adds_offset_class
+ *
+ * @return void
+ */
+/**
+ * column_offset_adds_offset_class
+ *
+ * @return void
+ */
+/**
+ * column_offset_adds_offset_class
+ *
+ * @return void
+ */
+/**
+ * column_offset_adds_offset_class
+ *
+ * @return void
+ */
+/**
+ * column_offset_adds_offset_class
+ *
+ * @return void
+ */
+/**
+ * column_offset_adds_offset_class
+ *
+ * @return void
+ */
+function column_offset_adds_offset_class()
     {
         $col = HtmlElement::column(6, 3);
         
@@ -127,8 +493,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group spacing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function margin_all_adds_margin_class()
+    public /**
+ * margin_all_adds_margin_class
+ *
+ * @return void
+ */
+/**
+ * margin_all_adds_margin_class
+ *
+ * @return void
+ */
+/**
+ * margin_all_adds_margin_class
+ *
+ * @return void
+ */
+/**
+ * margin_all_adds_margin_class
+ *
+ * @return void
+ */
+/**
+ * margin_all_adds_margin_class
+ *
+ * @return void
+ */
+/**
+ * margin_all_adds_margin_class
+ *
+ * @return void
+ */
+/**
+ * margin_all_adds_margin_class
+ *
+ * @return void
+ */
+/**
+ * margin_all_adds_margin_class
+ *
+ * @return void
+ */
+/**
+ * margin_all_adds_margin_class
+ *
+ * @return void
+ */
+/**
+ * margin_all_adds_margin_class
+ *
+ * @return void
+ */
+function margin_all_adds_margin_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyMargin($elem, 3);
@@ -140,8 +558,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group spacing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function margin_top_adds_margin_top_class()
+    public /**
+ * margin_top_adds_margin_top_class
+ *
+ * @return void
+ */
+/**
+ * margin_top_adds_margin_top_class
+ *
+ * @return void
+ */
+/**
+ * margin_top_adds_margin_top_class
+ *
+ * @return void
+ */
+/**
+ * margin_top_adds_margin_top_class
+ *
+ * @return void
+ */
+/**
+ * margin_top_adds_margin_top_class
+ *
+ * @return void
+ */
+/**
+ * margin_top_adds_margin_top_class
+ *
+ * @return void
+ */
+/**
+ * margin_top_adds_margin_top_class
+ *
+ * @return void
+ */
+/**
+ * margin_top_adds_margin_top_class
+ *
+ * @return void
+ */
+/**
+ * margin_top_adds_margin_top_class
+ *
+ * @return void
+ */
+/**
+ * margin_top_adds_margin_top_class
+ *
+ * @return void
+ */
+function margin_top_adds_margin_top_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyMarginTop($elem, 2);
@@ -153,8 +623,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group spacing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function margin_bottom_adds_margin_bottom_class()
+    public /**
+ * margin_bottom_adds_margin_bottom_class
+ *
+ * @return void
+ */
+/**
+ * margin_bottom_adds_margin_bottom_class
+ *
+ * @return void
+ */
+/**
+ * margin_bottom_adds_margin_bottom_class
+ *
+ * @return void
+ */
+/**
+ * margin_bottom_adds_margin_bottom_class
+ *
+ * @return void
+ */
+/**
+ * margin_bottom_adds_margin_bottom_class
+ *
+ * @return void
+ */
+/**
+ * margin_bottom_adds_margin_bottom_class
+ *
+ * @return void
+ */
+/**
+ * margin_bottom_adds_margin_bottom_class
+ *
+ * @return void
+ */
+/**
+ * margin_bottom_adds_margin_bottom_class
+ *
+ * @return void
+ */
+/**
+ * margin_bottom_adds_margin_bottom_class
+ *
+ * @return void
+ */
+/**
+ * margin_bottom_adds_margin_bottom_class
+ *
+ * @return void
+ */
+function margin_bottom_adds_margin_bottom_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyMarginBottom($elem, 4);
@@ -166,8 +688,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group spacing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function margin_horizontal_adds_margin_horizontal_class()
+    public /**
+ * margin_horizontal_adds_margin_horizontal_class
+ *
+ * @return void
+ */
+/**
+ * margin_horizontal_adds_margin_horizontal_class
+ *
+ * @return void
+ */
+/**
+ * margin_horizontal_adds_margin_horizontal_class
+ *
+ * @return void
+ */
+/**
+ * margin_horizontal_adds_margin_horizontal_class
+ *
+ * @return void
+ */
+/**
+ * margin_horizontal_adds_margin_horizontal_class
+ *
+ * @return void
+ */
+/**
+ * margin_horizontal_adds_margin_horizontal_class
+ *
+ * @return void
+ */
+/**
+ * margin_horizontal_adds_margin_horizontal_class
+ *
+ * @return void
+ */
+/**
+ * margin_horizontal_adds_margin_horizontal_class
+ *
+ * @return void
+ */
+/**
+ * margin_horizontal_adds_margin_horizontal_class
+ *
+ * @return void
+ */
+/**
+ * margin_horizontal_adds_margin_horizontal_class
+ *
+ * @return void
+ */
+function margin_horizontal_adds_margin_horizontal_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyMarginHorizontal($elem, 2);
@@ -179,8 +753,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group spacing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function margin_vertical_adds_margin_vertical_class()
+    public /**
+ * margin_vertical_adds_margin_vertical_class
+ *
+ * @return void
+ */
+/**
+ * margin_vertical_adds_margin_vertical_class
+ *
+ * @return void
+ */
+/**
+ * margin_vertical_adds_margin_vertical_class
+ *
+ * @return void
+ */
+/**
+ * margin_vertical_adds_margin_vertical_class
+ *
+ * @return void
+ */
+/**
+ * margin_vertical_adds_margin_vertical_class
+ *
+ * @return void
+ */
+/**
+ * margin_vertical_adds_margin_vertical_class
+ *
+ * @return void
+ */
+/**
+ * margin_vertical_adds_margin_vertical_class
+ *
+ * @return void
+ */
+/**
+ * margin_vertical_adds_margin_vertical_class
+ *
+ * @return void
+ */
+/**
+ * margin_vertical_adds_margin_vertical_class
+ *
+ * @return void
+ */
+/**
+ * margin_vertical_adds_margin_vertical_class
+ *
+ * @return void
+ */
+function margin_vertical_adds_margin_vertical_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyMarginVertical($elem, 3);
@@ -192,8 +818,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group spacing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function padding_all_adds_padding_class()
+    public /**
+ * padding_all_adds_padding_class
+ *
+ * @return void
+ */
+/**
+ * padding_all_adds_padding_class
+ *
+ * @return void
+ */
+/**
+ * padding_all_adds_padding_class
+ *
+ * @return void
+ */
+/**
+ * padding_all_adds_padding_class
+ *
+ * @return void
+ */
+/**
+ * padding_all_adds_padding_class
+ *
+ * @return void
+ */
+/**
+ * padding_all_adds_padding_class
+ *
+ * @return void
+ */
+/**
+ * padding_all_adds_padding_class
+ *
+ * @return void
+ */
+/**
+ * padding_all_adds_padding_class
+ *
+ * @return void
+ */
+/**
+ * padding_all_adds_padding_class
+ *
+ * @return void
+ */
+/**
+ * padding_all_adds_padding_class
+ *
+ * @return void
+ */
+function padding_all_adds_padding_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyPadding($elem, 3);
@@ -205,8 +883,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group spacing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function padding_top_adds_padding_top_class()
+    public /**
+ * padding_top_adds_padding_top_class
+ *
+ * @return void
+ */
+/**
+ * padding_top_adds_padding_top_class
+ *
+ * @return void
+ */
+/**
+ * padding_top_adds_padding_top_class
+ *
+ * @return void
+ */
+/**
+ * padding_top_adds_padding_top_class
+ *
+ * @return void
+ */
+/**
+ * padding_top_adds_padding_top_class
+ *
+ * @return void
+ */
+/**
+ * padding_top_adds_padding_top_class
+ *
+ * @return void
+ */
+/**
+ * padding_top_adds_padding_top_class
+ *
+ * @return void
+ */
+/**
+ * padding_top_adds_padding_top_class
+ *
+ * @return void
+ */
+/**
+ * padding_top_adds_padding_top_class
+ *
+ * @return void
+ */
+/**
+ * padding_top_adds_padding_top_class
+ *
+ * @return void
+ */
+function padding_top_adds_padding_top_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyPaddingTop($elem, 2);
@@ -218,8 +948,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group spacing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function padding_bottom_adds_padding_bottom_class()
+    public /**
+ * padding_bottom_adds_padding_bottom_class
+ *
+ * @return void
+ */
+/**
+ * padding_bottom_adds_padding_bottom_class
+ *
+ * @return void
+ */
+/**
+ * padding_bottom_adds_padding_bottom_class
+ *
+ * @return void
+ */
+/**
+ * padding_bottom_adds_padding_bottom_class
+ *
+ * @return void
+ */
+/**
+ * padding_bottom_adds_padding_bottom_class
+ *
+ * @return void
+ */
+/**
+ * padding_bottom_adds_padding_bottom_class
+ *
+ * @return void
+ */
+/**
+ * padding_bottom_adds_padding_bottom_class
+ *
+ * @return void
+ */
+/**
+ * padding_bottom_adds_padding_bottom_class
+ *
+ * @return void
+ */
+/**
+ * padding_bottom_adds_padding_bottom_class
+ *
+ * @return void
+ */
+/**
+ * padding_bottom_adds_padding_bottom_class
+ *
+ * @return void
+ */
+function padding_bottom_adds_padding_bottom_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyPaddingBottom($elem, 4);
@@ -231,8 +1013,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group spacing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function padding_horizontal_adds_padding_horizontal_class()
+    public /**
+ * padding_horizontal_adds_padding_horizontal_class
+ *
+ * @return void
+ */
+/**
+ * padding_horizontal_adds_padding_horizontal_class
+ *
+ * @return void
+ */
+/**
+ * padding_horizontal_adds_padding_horizontal_class
+ *
+ * @return void
+ */
+/**
+ * padding_horizontal_adds_padding_horizontal_class
+ *
+ * @return void
+ */
+/**
+ * padding_horizontal_adds_padding_horizontal_class
+ *
+ * @return void
+ */
+/**
+ * padding_horizontal_adds_padding_horizontal_class
+ *
+ * @return void
+ */
+/**
+ * padding_horizontal_adds_padding_horizontal_class
+ *
+ * @return void
+ */
+/**
+ * padding_horizontal_adds_padding_horizontal_class
+ *
+ * @return void
+ */
+/**
+ * padding_horizontal_adds_padding_horizontal_class
+ *
+ * @return void
+ */
+/**
+ * padding_horizontal_adds_padding_horizontal_class
+ *
+ * @return void
+ */
+function padding_horizontal_adds_padding_horizontal_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyPaddingHorizontal($elem, 2);
@@ -244,8 +1078,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group spacing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function padding_vertical_adds_padding_vertical_class()
+    public /**
+ * padding_vertical_adds_padding_vertical_class
+ *
+ * @return void
+ */
+/**
+ * padding_vertical_adds_padding_vertical_class
+ *
+ * @return void
+ */
+/**
+ * padding_vertical_adds_padding_vertical_class
+ *
+ * @return void
+ */
+/**
+ * padding_vertical_adds_padding_vertical_class
+ *
+ * @return void
+ */
+/**
+ * padding_vertical_adds_padding_vertical_class
+ *
+ * @return void
+ */
+/**
+ * padding_vertical_adds_padding_vertical_class
+ *
+ * @return void
+ */
+/**
+ * padding_vertical_adds_padding_vertical_class
+ *
+ * @return void
+ */
+/**
+ * padding_vertical_adds_padding_vertical_class
+ *
+ * @return void
+ */
+/**
+ * padding_vertical_adds_padding_vertical_class
+ *
+ * @return void
+ */
+/**
+ * padding_vertical_adds_padding_vertical_class
+ *
+ * @return void
+ */
+function padding_vertical_adds_padding_vertical_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyPaddingVertical($elem, 3);
@@ -257,8 +1143,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group spacing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function margin_auto_centers_element_horizontally()
+    public /**
+ * margin_auto_centers_element_horizontally
+ *
+ * @return void
+ */
+/**
+ * margin_auto_centers_element_horizontally
+ *
+ * @return void
+ */
+/**
+ * margin_auto_centers_element_horizontally
+ *
+ * @return void
+ */
+/**
+ * margin_auto_centers_element_horizontally
+ *
+ * @return void
+ */
+/**
+ * margin_auto_centers_element_horizontally
+ *
+ * @return void
+ */
+/**
+ * margin_auto_centers_element_horizontally
+ *
+ * @return void
+ */
+/**
+ * margin_auto_centers_element_horizontally
+ *
+ * @return void
+ */
+/**
+ * margin_auto_centers_element_horizontally
+ *
+ * @return void
+ */
+/**
+ * margin_auto_centers_element_horizontally
+ *
+ * @return void
+ */
+/**
+ * margin_auto_centers_element_horizontally
+ *
+ * @return void
+ */
+function margin_auto_centers_element_horizontally()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyMarginAuto($elem);
@@ -274,8 +1212,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group display
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function display_flex_adds_flex_class()
+    public /**
+ * display_flex_adds_flex_class
+ *
+ * @return void
+ */
+/**
+ * display_flex_adds_flex_class
+ *
+ * @return void
+ */
+/**
+ * display_flex_adds_flex_class
+ *
+ * @return void
+ */
+/**
+ * display_flex_adds_flex_class
+ *
+ * @return void
+ */
+/**
+ * display_flex_adds_flex_class
+ *
+ * @return void
+ */
+/**
+ * display_flex_adds_flex_class
+ *
+ * @return void
+ */
+/**
+ * display_flex_adds_flex_class
+ *
+ * @return void
+ */
+/**
+ * display_flex_adds_flex_class
+ *
+ * @return void
+ */
+/**
+ * display_flex_adds_flex_class
+ *
+ * @return void
+ */
+/**
+ * display_flex_adds_flex_class
+ *
+ * @return void
+ */
+function display_flex_adds_flex_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyDisplay($elem, 'flex');
@@ -287,8 +1277,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group display
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function display_grid_adds_grid_class()
+    public /**
+ * display_grid_adds_grid_class
+ *
+ * @return void
+ */
+/**
+ * display_grid_adds_grid_class
+ *
+ * @return void
+ */
+/**
+ * display_grid_adds_grid_class
+ *
+ * @return void
+ */
+/**
+ * display_grid_adds_grid_class
+ *
+ * @return void
+ */
+/**
+ * display_grid_adds_grid_class
+ *
+ * @return void
+ */
+/**
+ * display_grid_adds_grid_class
+ *
+ * @return void
+ */
+/**
+ * display_grid_adds_grid_class
+ *
+ * @return void
+ */
+/**
+ * display_grid_adds_grid_class
+ *
+ * @return void
+ */
+/**
+ * display_grid_adds_grid_class
+ *
+ * @return void
+ */
+/**
+ * display_grid_adds_grid_class
+ *
+ * @return void
+ */
+function display_grid_adds_grid_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyDisplay($elem, 'grid');
@@ -300,8 +1342,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group display
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function display_none_adds_none_class()
+    public /**
+ * display_none_adds_none_class
+ *
+ * @return void
+ */
+/**
+ * display_none_adds_none_class
+ *
+ * @return void
+ */
+/**
+ * display_none_adds_none_class
+ *
+ * @return void
+ */
+/**
+ * display_none_adds_none_class
+ *
+ * @return void
+ */
+/**
+ * display_none_adds_none_class
+ *
+ * @return void
+ */
+/**
+ * display_none_adds_none_class
+ *
+ * @return void
+ */
+/**
+ * display_none_adds_none_class
+ *
+ * @return void
+ */
+/**
+ * display_none_adds_none_class
+ *
+ * @return void
+ */
+/**
+ * display_none_adds_none_class
+ *
+ * @return void
+ */
+/**
+ * display_none_adds_none_class
+ *
+ * @return void
+ */
+function display_none_adds_none_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyDisplay($elem, 'none');
@@ -309,65 +1403,125 @@ class ResponsiveLayoutTraitTest extends TestCase
         $this->assertTrue($elem->hasCSSClass('d-none'));
     }
 
-    /**
-     * @test
-     * @group layout
-     * @group display
-     */
-    public function display_inline_adds_inline_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyDisplay($elem, 'inline');
-        
-        $this->assertTrue($elem->hasCSSClass('d-inline'));
-    }
+/**
+ * @test
+ * @group layout
+ * @group display
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
+function display_inline_adds_inline_class()
+{
+    $elem = HtmlElement::div();
+    $elem = HtmlElement::applyDisplay($elem, 'inline');
+
+    $this->assertTrue($elem->hasCSSClass('d-inline'));
+}
+
+/**
+ * @test
+ * @group layout
+ * @group display
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
+function display_inline_block_adds_inline_block_class()
+{
+    $elem = HtmlElement::div();
+    $elem = HtmlElement::applyDisplay($elem, 'inline-block');
+
+    $this->assertTrue($elem->hasCSSClass('d-inline-block'));
+}
+
+/**
+ * @test
+ * @group layout
+ * @group display
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
+function hidden_adds_hidden_class()
+{
+    $elem = HtmlElement::div();
+    $elem = HtmlElement::applyHidden($elem);
+
+    $this->assertTrue($elem->hasCSSClass('d-none'));
+}
+
+/**
+ * @test
+ * @group layout
+ * @group display
+ * @since v1.0.5 2026-04-14
+ * @return void
+ */
+function visible_removes_hidden_class()
+{
+    $elem = HtmlElement::div();
+    $elem->addCSSClass('d-none');
+    $elem = HtmlElement::applyVisible($elem);
+
+    $this->assertFalse($elem->hasCSSClass('d-none'));
+}
 
     /**
      * @test
      * @group layout
      * @group display
+     * @since v1.0.5 2026-04-14
+     * @return void
      */
-    public function display_inline_block_adds_inline_block_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyDisplay($elem, 'inline-block');
-        
-        $this->assertTrue($elem->hasCSSClass('d-inline-block'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group display
-     */
-    public function hidden_adds_hidden_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyHidden($elem);
-        
-        $this->assertTrue($elem->hasCSSClass('d-none'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group display
-     */
-    public function visible_removes_hidden_class()
-    {
-        $elem = HtmlElement::div();
-        $elem->addCSSClass('d-none');
-        $elem = HtmlElement::applyVisible($elem);
-        
-        $this->assertFalse($elem->hasCSSClass('d-none'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group display
-     */
-    public function responsive_display_adds_breakpoint_classes()
+    public /**
+ * responsive_display_adds_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * responsive_display_adds_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * responsive_display_adds_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * responsive_display_adds_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * responsive_display_adds_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * responsive_display_adds_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * responsive_display_adds_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * responsive_display_adds_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * responsive_display_adds_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * responsive_display_adds_breakpoint_classes
+ *
+ * @return void
+ */
+function responsive_display_adds_breakpoint_classes()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyDisplayResponsive($elem, [
@@ -389,8 +1543,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group sizing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function width_100_adds_full_width_class()
+    public /**
+ * width_100_adds_full_width_class
+ *
+ * @return void
+ */
+/**
+ * width_100_adds_full_width_class
+ *
+ * @return void
+ */
+/**
+ * width_100_adds_full_width_class
+ *
+ * @return void
+ */
+/**
+ * width_100_adds_full_width_class
+ *
+ * @return void
+ */
+/**
+ * width_100_adds_full_width_class
+ *
+ * @return void
+ */
+/**
+ * width_100_adds_full_width_class
+ *
+ * @return void
+ */
+/**
+ * width_100_adds_full_width_class
+ *
+ * @return void
+ */
+/**
+ * width_100_adds_full_width_class
+ *
+ * @return void
+ */
+/**
+ * width_100_adds_full_width_class
+ *
+ * @return void
+ */
+/**
+ * width_100_adds_full_width_class
+ *
+ * @return void
+ */
+function width_100_adds_full_width_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyWidth($elem, 100);
@@ -402,8 +1608,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group sizing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function width_75_adds_width_class()
+    public /**
+ * width_75_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_75_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_75_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_75_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_75_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_75_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_75_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_75_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_75_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_75_adds_width_class
+ *
+ * @return void
+ */
+function width_75_adds_width_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyWidth($elem, 75);
@@ -415,8 +1673,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group sizing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function width_50_adds_width_class()
+    public /**
+ * width_50_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_50_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_50_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_50_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_50_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_50_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_50_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_50_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_50_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_50_adds_width_class
+ *
+ * @return void
+ */
+function width_50_adds_width_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyWidth($elem, 50);
@@ -428,8 +1738,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group sizing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function width_25_adds_width_class()
+    public /**
+ * width_25_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_25_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_25_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_25_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_25_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_25_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_25_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_25_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_25_adds_width_class
+ *
+ * @return void
+ */
+/**
+ * width_25_adds_width_class
+ *
+ * @return void
+ */
+function width_25_adds_width_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyWidth($elem, 25);
@@ -441,8 +1803,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group sizing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function height_100_adds_full_height_class()
+    public /**
+ * height_100_adds_full_height_class
+ *
+ * @return void
+ */
+/**
+ * height_100_adds_full_height_class
+ *
+ * @return void
+ */
+/**
+ * height_100_adds_full_height_class
+ *
+ * @return void
+ */
+/**
+ * height_100_adds_full_height_class
+ *
+ * @return void
+ */
+/**
+ * height_100_adds_full_height_class
+ *
+ * @return void
+ */
+/**
+ * height_100_adds_full_height_class
+ *
+ * @return void
+ */
+/**
+ * height_100_adds_full_height_class
+ *
+ * @return void
+ */
+/**
+ * height_100_adds_full_height_class
+ *
+ * @return void
+ */
+/**
+ * height_100_adds_full_height_class
+ *
+ * @return void
+ */
+/**
+ * height_100_adds_full_height_class
+ *
+ * @return void
+ */
+function height_100_adds_full_height_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyHeight($elem, 100);
@@ -454,8 +1868,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group sizing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function max_width_100_adds_max_width_class()
+    public /**
+ * max_width_100_adds_max_width_class
+ *
+ * @return void
+ */
+/**
+ * max_width_100_adds_max_width_class
+ *
+ * @return void
+ */
+/**
+ * max_width_100_adds_max_width_class
+ *
+ * @return void
+ */
+/**
+ * max_width_100_adds_max_width_class
+ *
+ * @return void
+ */
+/**
+ * max_width_100_adds_max_width_class
+ *
+ * @return void
+ */
+/**
+ * max_width_100_adds_max_width_class
+ *
+ * @return void
+ */
+/**
+ * max_width_100_adds_max_width_class
+ *
+ * @return void
+ */
+/**
+ * max_width_100_adds_max_width_class
+ *
+ * @return void
+ */
+/**
+ * max_width_100_adds_max_width_class
+ *
+ * @return void
+ */
+/**
+ * max_width_100_adds_max_width_class
+ *
+ * @return void
+ */
+function max_width_100_adds_max_width_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyMaxWidth($elem, 100);
@@ -467,8 +1933,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group sizing
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function max_height_100_adds_max_height_class()
+    public /**
+ * max_height_100_adds_max_height_class
+ *
+ * @return void
+ */
+/**
+ * max_height_100_adds_max_height_class
+ *
+ * @return void
+ */
+/**
+ * max_height_100_adds_max_height_class
+ *
+ * @return void
+ */
+/**
+ * max_height_100_adds_max_height_class
+ *
+ * @return void
+ */
+/**
+ * max_height_100_adds_max_height_class
+ *
+ * @return void
+ */
+/**
+ * max_height_100_adds_max_height_class
+ *
+ * @return void
+ */
+/**
+ * max_height_100_adds_max_height_class
+ *
+ * @return void
+ */
+/**
+ * max_height_100_adds_max_height_class
+ *
+ * @return void
+ */
+/**
+ * max_height_100_adds_max_height_class
+ *
+ * @return void
+ */
+/**
+ * max_height_100_adds_max_height_class
+ *
+ * @return void
+ */
+function max_height_100_adds_max_height_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyMaxHeight($elem, 100);
@@ -484,8 +2002,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group flexbox
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function flex_direction_column_adds_flex_column_class()
+    public /**
+ * flex_direction_column_adds_flex_column_class
+ *
+ * @return void
+ */
+/**
+ * flex_direction_column_adds_flex_column_class
+ *
+ * @return void
+ */
+/**
+ * flex_direction_column_adds_flex_column_class
+ *
+ * @return void
+ */
+/**
+ * flex_direction_column_adds_flex_column_class
+ *
+ * @return void
+ */
+/**
+ * flex_direction_column_adds_flex_column_class
+ *
+ * @return void
+ */
+/**
+ * flex_direction_column_adds_flex_column_class
+ *
+ * @return void
+ */
+/**
+ * flex_direction_column_adds_flex_column_class
+ *
+ * @return void
+ */
+/**
+ * flex_direction_column_adds_flex_column_class
+ *
+ * @return void
+ */
+/**
+ * flex_direction_column_adds_flex_column_class
+ *
+ * @return void
+ */
+/**
+ * flex_direction_column_adds_flex_column_class
+ *
+ * @return void
+ */
+function flex_direction_column_adds_flex_column_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyFlexDirection($elem, 'column');
@@ -497,8 +2067,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group flexbox
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function flex_direction_row_adds_flex_row_class()
+    public /**
+ * flex_direction_row_adds_flex_row_class
+ *
+ * @return void
+ */
+/**
+ * flex_direction_row_adds_flex_row_class
+ *
+ * @return void
+ */
+/**
+ * flex_direction_row_adds_flex_row_class
+ *
+ * @return void
+ */
+/**
+ * flex_direction_row_adds_flex_row_class
+ *
+ * @return void
+ */
+/**
+ * flex_direction_row_adds_flex_row_class
+ *
+ * @return void
+ */
+/**
+ * flex_direction_row_adds_flex_row_class
+ *
+ * @return void
+ */
+/**
+ * flex_direction_row_adds_flex_row_class
+ *
+ * @return void
+ */
+/**
+ * flex_direction_row_adds_flex_row_class
+ *
+ * @return void
+ */
+/**
+ * flex_direction_row_adds_flex_row_class
+ *
+ * @return void
+ */
+/**
+ * flex_direction_row_adds_flex_row_class
+ *
+ * @return void
+ */
+function flex_direction_row_adds_flex_row_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyFlexDirection($elem, 'row');
@@ -510,8 +2132,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group flexbox
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function flex_wrap_adds_flex_wrap_class()
+    public /**
+ * flex_wrap_adds_flex_wrap_class
+ *
+ * @return void
+ */
+/**
+ * flex_wrap_adds_flex_wrap_class
+ *
+ * @return void
+ */
+/**
+ * flex_wrap_adds_flex_wrap_class
+ *
+ * @return void
+ */
+/**
+ * flex_wrap_adds_flex_wrap_class
+ *
+ * @return void
+ */
+/**
+ * flex_wrap_adds_flex_wrap_class
+ *
+ * @return void
+ */
+/**
+ * flex_wrap_adds_flex_wrap_class
+ *
+ * @return void
+ */
+/**
+ * flex_wrap_adds_flex_wrap_class
+ *
+ * @return void
+ */
+/**
+ * flex_wrap_adds_flex_wrap_class
+ *
+ * @return void
+ */
+/**
+ * flex_wrap_adds_flex_wrap_class
+ *
+ * @return void
+ */
+/**
+ * flex_wrap_adds_flex_wrap_class
+ *
+ * @return void
+ */
+function flex_wrap_adds_flex_wrap_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyFlexWrap($elem);
@@ -523,8 +2197,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group flexbox
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function justify_content_center_adds_justify_center_class()
+    public /**
+ * justify_content_center_adds_justify_center_class
+ *
+ * @return void
+ */
+/**
+ * justify_content_center_adds_justify_center_class
+ *
+ * @return void
+ */
+/**
+ * justify_content_center_adds_justify_center_class
+ *
+ * @return void
+ */
+/**
+ * justify_content_center_adds_justify_center_class
+ *
+ * @return void
+ */
+/**
+ * justify_content_center_adds_justify_center_class
+ *
+ * @return void
+ */
+/**
+ * justify_content_center_adds_justify_center_class
+ *
+ * @return void
+ */
+/**
+ * justify_content_center_adds_justify_center_class
+ *
+ * @return void
+ */
+/**
+ * justify_content_center_adds_justify_center_class
+ *
+ * @return void
+ */
+/**
+ * justify_content_center_adds_justify_center_class
+ *
+ * @return void
+ */
+/**
+ * justify_content_center_adds_justify_center_class
+ *
+ * @return void
+ */
+function justify_content_center_adds_justify_center_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyJustifyContent($elem, 'center');
@@ -536,8 +2262,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group flexbox
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function justify_content_between_adds_justify_between_class()
+    public /**
+ * justify_content_between_adds_justify_between_class
+ *
+ * @return void
+ */
+/**
+ * justify_content_between_adds_justify_between_class
+ *
+ * @return void
+ */
+/**
+ * justify_content_between_adds_justify_between_class
+ *
+ * @return void
+ */
+/**
+ * justify_content_between_adds_justify_between_class
+ *
+ * @return void
+ */
+/**
+ * justify_content_between_adds_justify_between_class
+ *
+ * @return void
+ */
+/**
+ * justify_content_between_adds_justify_between_class
+ *
+ * @return void
+ */
+/**
+ * justify_content_between_adds_justify_between_class
+ *
+ * @return void
+ */
+/**
+ * justify_content_between_adds_justify_between_class
+ *
+ * @return void
+ */
+/**
+ * justify_content_between_adds_justify_between_class
+ *
+ * @return void
+ */
+/**
+ * justify_content_between_adds_justify_between_class
+ *
+ * @return void
+ */
+function justify_content_between_adds_justify_between_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyJustifyContent($elem, 'between');
@@ -549,8 +2327,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group flexbox
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function align_items_center_adds_align_center_class()
+    public /**
+ * align_items_center_adds_align_center_class
+ *
+ * @return void
+ */
+/**
+ * align_items_center_adds_align_center_class
+ *
+ * @return void
+ */
+/**
+ * align_items_center_adds_align_center_class
+ *
+ * @return void
+ */
+/**
+ * align_items_center_adds_align_center_class
+ *
+ * @return void
+ */
+/**
+ * align_items_center_adds_align_center_class
+ *
+ * @return void
+ */
+/**
+ * align_items_center_adds_align_center_class
+ *
+ * @return void
+ */
+/**
+ * align_items_center_adds_align_center_class
+ *
+ * @return void
+ */
+/**
+ * align_items_center_adds_align_center_class
+ *
+ * @return void
+ */
+/**
+ * align_items_center_adds_align_center_class
+ *
+ * @return void
+ */
+/**
+ * align_items_center_adds_align_center_class
+ *
+ * @return void
+ */
+function align_items_center_adds_align_center_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyAlignItems($elem, 'center');
@@ -562,8 +2392,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group flexbox
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function align_items_start_adds_align_start_class()
+    public /**
+ * align_items_start_adds_align_start_class
+ *
+ * @return void
+ */
+/**
+ * align_items_start_adds_align_start_class
+ *
+ * @return void
+ */
+/**
+ * align_items_start_adds_align_start_class
+ *
+ * @return void
+ */
+/**
+ * align_items_start_adds_align_start_class
+ *
+ * @return void
+ */
+/**
+ * align_items_start_adds_align_start_class
+ *
+ * @return void
+ */
+/**
+ * align_items_start_adds_align_start_class
+ *
+ * @return void
+ */
+/**
+ * align_items_start_adds_align_start_class
+ *
+ * @return void
+ */
+/**
+ * align_items_start_adds_align_start_class
+ *
+ * @return void
+ */
+/**
+ * align_items_start_adds_align_start_class
+ *
+ * @return void
+ */
+/**
+ * align_items_start_adds_align_start_class
+ *
+ * @return void
+ */
+function align_items_start_adds_align_start_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyAlignItems($elem, 'start');
@@ -575,8 +2457,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group flexbox
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function flex_grow_adds_flex_grow_class()
+    public /**
+ * flex_grow_adds_flex_grow_class
+ *
+ * @return void
+ */
+/**
+ * flex_grow_adds_flex_grow_class
+ *
+ * @return void
+ */
+/**
+ * flex_grow_adds_flex_grow_class
+ *
+ * @return void
+ */
+/**
+ * flex_grow_adds_flex_grow_class
+ *
+ * @return void
+ */
+/**
+ * flex_grow_adds_flex_grow_class
+ *
+ * @return void
+ */
+/**
+ * flex_grow_adds_flex_grow_class
+ *
+ * @return void
+ */
+/**
+ * flex_grow_adds_flex_grow_class
+ *
+ * @return void
+ */
+/**
+ * flex_grow_adds_flex_grow_class
+ *
+ * @return void
+ */
+/**
+ * flex_grow_adds_flex_grow_class
+ *
+ * @return void
+ */
+/**
+ * flex_grow_adds_flex_grow_class
+ *
+ * @return void
+ */
+function flex_grow_adds_flex_grow_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyFlexGrow($elem);
@@ -588,8 +2522,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group flexbox
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function flex_shrink_adds_flex_shrink_class()
+    public /**
+ * flex_shrink_adds_flex_shrink_class
+ *
+ * @return void
+ */
+/**
+ * flex_shrink_adds_flex_shrink_class
+ *
+ * @return void
+ */
+/**
+ * flex_shrink_adds_flex_shrink_class
+ *
+ * @return void
+ */
+/**
+ * flex_shrink_adds_flex_shrink_class
+ *
+ * @return void
+ */
+/**
+ * flex_shrink_adds_flex_shrink_class
+ *
+ * @return void
+ */
+/**
+ * flex_shrink_adds_flex_shrink_class
+ *
+ * @return void
+ */
+/**
+ * flex_shrink_adds_flex_shrink_class
+ *
+ * @return void
+ */
+/**
+ * flex_shrink_adds_flex_shrink_class
+ *
+ * @return void
+ */
+/**
+ * flex_shrink_adds_flex_shrink_class
+ *
+ * @return void
+ */
+/**
+ * flex_shrink_adds_flex_shrink_class
+ *
+ * @return void
+ */
+function flex_shrink_adds_flex_shrink_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyFlexShrink($elem);
@@ -605,8 +2591,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group text
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function text_align_center_adds_text_center_class()
+    public /**
+ * text_align_center_adds_text_center_class
+ *
+ * @return void
+ */
+/**
+ * text_align_center_adds_text_center_class
+ *
+ * @return void
+ */
+/**
+ * text_align_center_adds_text_center_class
+ *
+ * @return void
+ */
+/**
+ * text_align_center_adds_text_center_class
+ *
+ * @return void
+ */
+/**
+ * text_align_center_adds_text_center_class
+ *
+ * @return void
+ */
+/**
+ * text_align_center_adds_text_center_class
+ *
+ * @return void
+ */
+/**
+ * text_align_center_adds_text_center_class
+ *
+ * @return void
+ */
+/**
+ * text_align_center_adds_text_center_class
+ *
+ * @return void
+ */
+/**
+ * text_align_center_adds_text_center_class
+ *
+ * @return void
+ */
+/**
+ * text_align_center_adds_text_center_class
+ *
+ * @return void
+ */
+function text_align_center_adds_text_center_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyTextAlign($elem, 'center');
@@ -618,8 +2656,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group text
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function text_align_left_adds_text_left_class()
+    public /**
+ * text_align_left_adds_text_left_class
+ *
+ * @return void
+ */
+/**
+ * text_align_left_adds_text_left_class
+ *
+ * @return void
+ */
+/**
+ * text_align_left_adds_text_left_class
+ *
+ * @return void
+ */
+/**
+ * text_align_left_adds_text_left_class
+ *
+ * @return void
+ */
+/**
+ * text_align_left_adds_text_left_class
+ *
+ * @return void
+ */
+/**
+ * text_align_left_adds_text_left_class
+ *
+ * @return void
+ */
+/**
+ * text_align_left_adds_text_left_class
+ *
+ * @return void
+ */
+/**
+ * text_align_left_adds_text_left_class
+ *
+ * @return void
+ */
+/**
+ * text_align_left_adds_text_left_class
+ *
+ * @return void
+ */
+/**
+ * text_align_left_adds_text_left_class
+ *
+ * @return void
+ */
+function text_align_left_adds_text_left_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyTextAlign($elem, 'left');
@@ -631,8 +2721,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group text
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function text_align_right_adds_text_right_class()
+    public /**
+ * text_align_right_adds_text_right_class
+ *
+ * @return void
+ */
+/**
+ * text_align_right_adds_text_right_class
+ *
+ * @return void
+ */
+/**
+ * text_align_right_adds_text_right_class
+ *
+ * @return void
+ */
+/**
+ * text_align_right_adds_text_right_class
+ *
+ * @return void
+ */
+/**
+ * text_align_right_adds_text_right_class
+ *
+ * @return void
+ */
+/**
+ * text_align_right_adds_text_right_class
+ *
+ * @return void
+ */
+/**
+ * text_align_right_adds_text_right_class
+ *
+ * @return void
+ */
+/**
+ * text_align_right_adds_text_right_class
+ *
+ * @return void
+ */
+/**
+ * text_align_right_adds_text_right_class
+ *
+ * @return void
+ */
+/**
+ * text_align_right_adds_text_right_class
+ *
+ * @return void
+ */
+function text_align_right_adds_text_right_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyTextAlign($elem, 'right');
@@ -644,8 +2786,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group text
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function text_align_justify_adds_text_justify_class()
+    public /**
+ * text_align_justify_adds_text_justify_class
+ *
+ * @return void
+ */
+/**
+ * text_align_justify_adds_text_justify_class
+ *
+ * @return void
+ */
+/**
+ * text_align_justify_adds_text_justify_class
+ *
+ * @return void
+ */
+/**
+ * text_align_justify_adds_text_justify_class
+ *
+ * @return void
+ */
+/**
+ * text_align_justify_adds_text_justify_class
+ *
+ * @return void
+ */
+/**
+ * text_align_justify_adds_text_justify_class
+ *
+ * @return void
+ */
+/**
+ * text_align_justify_adds_text_justify_class
+ *
+ * @return void
+ */
+/**
+ * text_align_justify_adds_text_justify_class
+ *
+ * @return void
+ */
+/**
+ * text_align_justify_adds_text_justify_class
+ *
+ * @return void
+ */
+/**
+ * text_align_justify_adds_text_justify_class
+ *
+ * @return void
+ */
+function text_align_justify_adds_text_justify_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyTextAlign($elem, 'justify');
@@ -657,8 +2851,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group text
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function text_align_responsive_adds_breakpoint_classes()
+    public /**
+ * text_align_responsive_adds_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * text_align_responsive_adds_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * text_align_responsive_adds_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * text_align_responsive_adds_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * text_align_responsive_adds_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * text_align_responsive_adds_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * text_align_responsive_adds_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * text_align_responsive_adds_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * text_align_responsive_adds_breakpoint_classes
+ *
+ * @return void
+ */
+/**
+ * text_align_responsive_adds_breakpoint_classes
+ *
+ * @return void
+ */
+function text_align_responsive_adds_breakpoint_classes()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyTextAlignResponsive($elem, [
@@ -680,8 +2926,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group overflow
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function overflow_auto_adds_overflow_class()
+    public /**
+ * overflow_auto_adds_overflow_class
+ *
+ * @return void
+ */
+/**
+ * overflow_auto_adds_overflow_class
+ *
+ * @return void
+ */
+/**
+ * overflow_auto_adds_overflow_class
+ *
+ * @return void
+ */
+/**
+ * overflow_auto_adds_overflow_class
+ *
+ * @return void
+ */
+/**
+ * overflow_auto_adds_overflow_class
+ *
+ * @return void
+ */
+/**
+ * overflow_auto_adds_overflow_class
+ *
+ * @return void
+ */
+/**
+ * overflow_auto_adds_overflow_class
+ *
+ * @return void
+ */
+/**
+ * overflow_auto_adds_overflow_class
+ *
+ * @return void
+ */
+/**
+ * overflow_auto_adds_overflow_class
+ *
+ * @return void
+ */
+/**
+ * overflow_auto_adds_overflow_class
+ *
+ * @return void
+ */
+function overflow_auto_adds_overflow_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyOverflow($elem, 'auto');
@@ -693,8 +2991,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group overflow
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function overflow_hidden_adds_overflow_hidden_class()
+    public /**
+ * overflow_hidden_adds_overflow_hidden_class
+ *
+ * @return void
+ */
+/**
+ * overflow_hidden_adds_overflow_hidden_class
+ *
+ * @return void
+ */
+/**
+ * overflow_hidden_adds_overflow_hidden_class
+ *
+ * @return void
+ */
+/**
+ * overflow_hidden_adds_overflow_hidden_class
+ *
+ * @return void
+ */
+/**
+ * overflow_hidden_adds_overflow_hidden_class
+ *
+ * @return void
+ */
+/**
+ * overflow_hidden_adds_overflow_hidden_class
+ *
+ * @return void
+ */
+/**
+ * overflow_hidden_adds_overflow_hidden_class
+ *
+ * @return void
+ */
+/**
+ * overflow_hidden_adds_overflow_hidden_class
+ *
+ * @return void
+ */
+/**
+ * overflow_hidden_adds_overflow_hidden_class
+ *
+ * @return void
+ */
+/**
+ * overflow_hidden_adds_overflow_hidden_class
+ *
+ * @return void
+ */
+function overflow_hidden_adds_overflow_hidden_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyOverflow($elem, 'hidden');
@@ -706,8 +3056,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group overflow
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function text_truncate_adds_truncate_class()
+    public /**
+ * text_truncate_adds_truncate_class
+ *
+ * @return void
+ */
+/**
+ * text_truncate_adds_truncate_class
+ *
+ * @return void
+ */
+/**
+ * text_truncate_adds_truncate_class
+ *
+ * @return void
+ */
+/**
+ * text_truncate_adds_truncate_class
+ *
+ * @return void
+ */
+/**
+ * text_truncate_adds_truncate_class
+ *
+ * @return void
+ */
+/**
+ * text_truncate_adds_truncate_class
+ *
+ * @return void
+ */
+/**
+ * text_truncate_adds_truncate_class
+ *
+ * @return void
+ */
+/**
+ * text_truncate_adds_truncate_class
+ *
+ * @return void
+ */
+/**
+ * text_truncate_adds_truncate_class
+ *
+ * @return void
+ */
+/**
+ * text_truncate_adds_truncate_class
+ *
+ * @return void
+ */
+function text_truncate_adds_truncate_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyTextTruncate($elem);
@@ -723,8 +3125,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group borders
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function border_all_adds_border_class()
+    public /**
+ * border_all_adds_border_class
+ *
+ * @return void
+ */
+/**
+ * border_all_adds_border_class
+ *
+ * @return void
+ */
+/**
+ * border_all_adds_border_class
+ *
+ * @return void
+ */
+/**
+ * border_all_adds_border_class
+ *
+ * @return void
+ */
+/**
+ * border_all_adds_border_class
+ *
+ * @return void
+ */
+/**
+ * border_all_adds_border_class
+ *
+ * @return void
+ */
+/**
+ * border_all_adds_border_class
+ *
+ * @return void
+ */
+/**
+ * border_all_adds_border_class
+ *
+ * @return void
+ */
+/**
+ * border_all_adds_border_class
+ *
+ * @return void
+ */
+/**
+ * border_all_adds_border_class
+ *
+ * @return void
+ */
+function border_all_adds_border_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyBorder($elem);
@@ -736,8 +3190,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group borders
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function border_top_adds_border_top_class()
+    public /**
+ * border_top_adds_border_top_class
+ *
+ * @return void
+ */
+/**
+ * border_top_adds_border_top_class
+ *
+ * @return void
+ */
+/**
+ * border_top_adds_border_top_class
+ *
+ * @return void
+ */
+/**
+ * border_top_adds_border_top_class
+ *
+ * @return void
+ */
+/**
+ * border_top_adds_border_top_class
+ *
+ * @return void
+ */
+/**
+ * border_top_adds_border_top_class
+ *
+ * @return void
+ */
+/**
+ * border_top_adds_border_top_class
+ *
+ * @return void
+ */
+/**
+ * border_top_adds_border_top_class
+ *
+ * @return void
+ */
+/**
+ * border_top_adds_border_top_class
+ *
+ * @return void
+ */
+/**
+ * border_top_adds_border_top_class
+ *
+ * @return void
+ */
+function border_top_adds_border_top_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyBorderTop($elem);
@@ -749,8 +3255,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group borders
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function border_bottom_adds_border_bottom_class()
+    public /**
+ * border_bottom_adds_border_bottom_class
+ *
+ * @return void
+ */
+/**
+ * border_bottom_adds_border_bottom_class
+ *
+ * @return void
+ */
+/**
+ * border_bottom_adds_border_bottom_class
+ *
+ * @return void
+ */
+/**
+ * border_bottom_adds_border_bottom_class
+ *
+ * @return void
+ */
+/**
+ * border_bottom_adds_border_bottom_class
+ *
+ * @return void
+ */
+/**
+ * border_bottom_adds_border_bottom_class
+ *
+ * @return void
+ */
+/**
+ * border_bottom_adds_border_bottom_class
+ *
+ * @return void
+ */
+/**
+ * border_bottom_adds_border_bottom_class
+ *
+ * @return void
+ */
+/**
+ * border_bottom_adds_border_bottom_class
+ *
+ * @return void
+ */
+/**
+ * border_bottom_adds_border_bottom_class
+ *
+ * @return void
+ */
+function border_bottom_adds_border_bottom_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyBorderBottom($elem);
@@ -762,8 +3320,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group borders
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function border_radius_adds_rounded_class()
+    public /**
+ * border_radius_adds_rounded_class
+ *
+ * @return void
+ */
+/**
+ * border_radius_adds_rounded_class
+ *
+ * @return void
+ */
+/**
+ * border_radius_adds_rounded_class
+ *
+ * @return void
+ */
+/**
+ * border_radius_adds_rounded_class
+ *
+ * @return void
+ */
+/**
+ * border_radius_adds_rounded_class
+ *
+ * @return void
+ */
+/**
+ * border_radius_adds_rounded_class
+ *
+ * @return void
+ */
+/**
+ * border_radius_adds_rounded_class
+ *
+ * @return void
+ */
+/**
+ * border_radius_adds_rounded_class
+ *
+ * @return void
+ */
+/**
+ * border_radius_adds_rounded_class
+ *
+ * @return void
+ */
+/**
+ * border_radius_adds_rounded_class
+ *
+ * @return void
+ */
+function border_radius_adds_rounded_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyBorderRadius($elem);
@@ -775,8 +3385,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group borders
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function border_radius_circle_adds_rounded_circle_class()
+    public /**
+ * border_radius_circle_adds_rounded_circle_class
+ *
+ * @return void
+ */
+/**
+ * border_radius_circle_adds_rounded_circle_class
+ *
+ * @return void
+ */
+/**
+ * border_radius_circle_adds_rounded_circle_class
+ *
+ * @return void
+ */
+/**
+ * border_radius_circle_adds_rounded_circle_class
+ *
+ * @return void
+ */
+/**
+ * border_radius_circle_adds_rounded_circle_class
+ *
+ * @return void
+ */
+/**
+ * border_radius_circle_adds_rounded_circle_class
+ *
+ * @return void
+ */
+/**
+ * border_radius_circle_adds_rounded_circle_class
+ *
+ * @return void
+ */
+/**
+ * border_radius_circle_adds_rounded_circle_class
+ *
+ * @return void
+ */
+/**
+ * border_radius_circle_adds_rounded_circle_class
+ *
+ * @return void
+ */
+/**
+ * border_radius_circle_adds_rounded_circle_class
+ *
+ * @return void
+ */
+function border_radius_circle_adds_rounded_circle_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyBorderRadius($elem, 'circle');
@@ -788,8 +3450,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group shadow
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function shadow_adds_shadow_class()
+    public /**
+ * shadow_adds_shadow_class
+ *
+ * @return void
+ */
+/**
+ * shadow_adds_shadow_class
+ *
+ * @return void
+ */
+/**
+ * shadow_adds_shadow_class
+ *
+ * @return void
+ */
+/**
+ * shadow_adds_shadow_class
+ *
+ * @return void
+ */
+/**
+ * shadow_adds_shadow_class
+ *
+ * @return void
+ */
+/**
+ * shadow_adds_shadow_class
+ *
+ * @return void
+ */
+/**
+ * shadow_adds_shadow_class
+ *
+ * @return void
+ */
+/**
+ * shadow_adds_shadow_class
+ *
+ * @return void
+ */
+/**
+ * shadow_adds_shadow_class
+ *
+ * @return void
+ */
+/**
+ * shadow_adds_shadow_class
+ *
+ * @return void
+ */
+function shadow_adds_shadow_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyShadow($elem);
@@ -801,8 +3515,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group shadow
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function shadow_sm_adds_shadow_small_class()
+    public /**
+ * shadow_sm_adds_shadow_small_class
+ *
+ * @return void
+ */
+/**
+ * shadow_sm_adds_shadow_small_class
+ *
+ * @return void
+ */
+/**
+ * shadow_sm_adds_shadow_small_class
+ *
+ * @return void
+ */
+/**
+ * shadow_sm_adds_shadow_small_class
+ *
+ * @return void
+ */
+/**
+ * shadow_sm_adds_shadow_small_class
+ *
+ * @return void
+ */
+/**
+ * shadow_sm_adds_shadow_small_class
+ *
+ * @return void
+ */
+/**
+ * shadow_sm_adds_shadow_small_class
+ *
+ * @return void
+ */
+/**
+ * shadow_sm_adds_shadow_small_class
+ *
+ * @return void
+ */
+/**
+ * shadow_sm_adds_shadow_small_class
+ *
+ * @return void
+ */
+/**
+ * shadow_sm_adds_shadow_small_class
+ *
+ * @return void
+ */
+function shadow_sm_adds_shadow_small_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyShadow($elem, 'sm');
@@ -814,8 +3580,60 @@ class ResponsiveLayoutTraitTest extends TestCase
      * @test
      * @group layout
      * @group shadow
+ * @return void
+ * @since v1.0.5 2026-04-14
      */
-    public function shadow_lg_adds_shadow_large_class()
+    public /**
+ * shadow_lg_adds_shadow_large_class
+ *
+ * @return void
+ */
+/**
+ * shadow_lg_adds_shadow_large_class
+ *
+ * @return void
+ */
+/**
+ * shadow_lg_adds_shadow_large_class
+ *
+ * @return void
+ */
+/**
+ * shadow_lg_adds_shadow_large_class
+ *
+ * @return void
+ */
+/**
+ * shadow_lg_adds_shadow_large_class
+ *
+ * @return void
+ */
+/**
+ * shadow_lg_adds_shadow_large_class
+ *
+ * @return void
+ */
+/**
+ * shadow_lg_adds_shadow_large_class
+ *
+ * @return void
+ */
+/**
+ * shadow_lg_adds_shadow_large_class
+ *
+ * @return void
+ */
+/**
+ * shadow_lg_adds_shadow_large_class
+ *
+ * @return void
+ */
+/**
+ * shadow_lg_adds_shadow_large_class
+ *
+ * @return void
+ */
+function shadow_lg_adds_shadow_large_class()
     {
         $elem = HtmlElement::div();
         $elem = HtmlElement::applyShadow($elem, 'lg');

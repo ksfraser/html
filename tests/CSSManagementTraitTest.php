@@ -12,9 +12,9 @@
 namespace Ksfraser\HTML\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Ksfraser\HTML\HtmlDiv;
-use Ksfraser\HTML\HtmlButton;
-use Ksfraser\HTML\HtmlSpan;
+use Ksfraser\HTML\Elements\HtmlDiv;
+use Ksfraser\HTML\Button\HtmlButton;
+use Ksfraser\HTML\Elements\HtmlSpan;
 
 class CSSManagementTraitTest extends TestCase
 {
@@ -475,8 +475,10 @@ class CSSManagementTraitTest extends TestCase
      */
     public function testAddInvalidCSSClassWithSpaceThrowsException(): void
     {
+        // Space-separated class strings are now accepted (split into individual classes);
+        // test that a genuinely invalid class name (special chars) throws instead.
         $this->expectException(\InvalidArgumentException::class);
-        $this->element->addCSSClass('btn primary');
+        $this->element->addCSSClass('btn@primary');
     }
 
     /**

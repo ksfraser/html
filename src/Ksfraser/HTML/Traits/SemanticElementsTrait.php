@@ -374,9 +374,10 @@ trait SemanticElementsTrait
      *
      * @param string $src Video source
      * @param bool $controls Show video controls
+     * @param bool $autoplay Autoplay the video
      * @return HtmlElement
      */
-    public static function video(string $src = '', bool $controls = false): HtmlElement
+    public static function video(string $src = '', bool $controls = false, bool $autoplay = false): HtmlElement
     {
         $video = new self('video');
         if ($src !== '') {
@@ -384,6 +385,9 @@ trait SemanticElementsTrait
         }
         if ($controls) {
             $video->setAttribute('controls', 'controls');
+        }
+        if ($autoplay) {
+            $video->setAttribute('autoplay', 'autoplay');
         }
         return $video;
     }
@@ -681,20 +685,6 @@ trait SemanticElementsTrait
         return new self('colgroup');
     }
 
-    // ========================================================================
-    // FORM SEMANTIC ELEMENTS
-    // ========================================================================
-
-    /**
-     * Create a fieldset element
-     *
-     * @return HtmlElement
-     */
-    public static function fieldset(): HtmlElement
-    {
-        return new self('fieldset');
-    }
-
     /**
      * Create a legend element
      *
@@ -704,5 +694,342 @@ trait SemanticElementsTrait
     public static function legend(string $text = ''): HtmlElement
     {
         return new self('legend', $text);
+    }
+
+    // ========================================================================
+    // INLINE TEXT SEMANTIC ELEMENTS
+    // ========================================================================
+
+    /**
+     * Create a kbd element (keyboard input)
+     *
+     * @since 20260427
+     * @param string $text Key text
+     * @return HtmlElement
+     */
+    public static function kbd(string $text = ''): HtmlElement
+    {
+        return new self('kbd', $text);
+    }
+
+    /**
+     * Create a samp element (sample output)
+     *
+     * @since 20260427
+     * @param string $text Sample text
+     * @return HtmlElement
+     */
+    public static function samp(string $text = ''): HtmlElement
+    {
+        return new self('samp', $text);
+    }
+
+    /**
+     * Create a var element (variable)
+     *
+     * @since 20260427
+     * @param string $text Variable name/content
+     * @return HtmlElement
+     */
+    public static function var(string $text = ''): HtmlElement
+    {
+        return new self('var', $text);
+    }
+
+    /**
+     * Create a del element (deleted text)
+     *
+     * @since 20260427
+     * @param string $text Deleted text
+     * @return HtmlElement
+     */
+    public static function del(string $text = ''): HtmlElement
+    {
+        return new self('del', $text);
+    }
+
+    /**
+     * Create an ins element (inserted text)
+     *
+     * @since 20260427
+     * @param string $text Inserted text
+     * @return HtmlElement
+     */
+    public static function ins(string $text = ''): HtmlElement
+    {
+        return new self('ins', $text);
+    }
+
+    /**
+     * Create a sub element (subscript)
+     *
+     * @since 20260427
+     * @param string $text Subscript content
+     * @return HtmlElement
+     */
+    public static function sub(string $text = ''): HtmlElement
+    {
+        return new self('sub', $text);
+    }
+
+    /**
+     * Create a sup element (superscript)
+     *
+     * @since 20260427
+     * @param string $text Superscript content
+     * @return HtmlElement
+     */
+    public static function sup(string $text = ''): HtmlElement
+    {
+        return new self('sup', $text);
+    }
+
+    /**
+     * Create an abbr element (abbreviation)
+     *
+     * @since 20260427
+     * @param string $text Abbreviation text
+     * @param string $title Full form (tooltip)
+     * @return HtmlElement
+     */
+    public static function abbr(string $text = '', string $title = ''): HtmlElement
+    {
+        $abbr = new self('abbr', $text);
+        if ($title !== '') {
+            $abbr->setAttribute('title', $title);
+        }
+        return $abbr;
+    }
+
+    /**
+     * Create a track element (media text track)
+     *
+     * @since 20260427
+     * @param string $src Track source URL
+     * @param string $kind Track kind (subtitles, captions, descriptions, chapters, metadata)
+     * @return HtmlElement
+     */
+    public static function track(string $src = '', string $kind = ''): HtmlElement
+    {
+        $track = new self('track');
+        if ($src !== '') {
+            $track->setAttribute('src', $src);
+        }
+        if ($kind !== '') {
+            $track->setAttribute('kind', $kind);
+        }
+        return $track;
+    }
+
+    // ========================================================================
+    // DESCRIPTION LIST ALIASES
+    // ========================================================================
+
+    /**
+     * Create a description list element (alias for definitionList)
+     *
+     * @since 20260427
+     * @return HtmlElement
+     */
+    public static function descriptionList(): HtmlElement
+    {
+        return new self('dl');
+    }
+
+    /**
+     * Create a description term element (alias for definitionTerm)
+     *
+     * @since 20260427
+     * @param string $text Term text
+     * @return HtmlElement
+     */
+    public static function descriptionTerm(string $text = ''): HtmlElement
+    {
+        return new self('dt', $text);
+    }
+
+    /**
+     * Create a description definition element (alias for definitionDescription)
+     *
+     * @since 20260427
+     * @param string $text Definition text
+     * @return HtmlElement
+     */
+    public static function descriptionDefinition(string $text = ''): HtmlElement
+    {
+        return new self('dd', $text);
+    }
+
+    // ========================================================================
+    // SCRIPTING & EMBEDDED ELEMENTS
+    // ========================================================================
+
+    /**
+     * Create a noscript element
+     *
+     * @since 20260427
+     * @param string $text Fallback content
+     * @return HtmlElement
+     */
+    public static function noscript(string $text = ''): HtmlElement
+    {
+        return new self('noscript', $text);
+    }
+
+    /**
+     * Create a canvas element
+     *
+     * @since 20260427
+     * @param int|null $width Canvas width in pixels
+     * @param int|null $height Canvas height in pixels
+     * @return HtmlElement
+     */
+    public static function canvas(?int $width = null, ?int $height = null): HtmlElement
+    {
+        $canvas = new self('canvas');
+        if ($width !== null) {
+            $canvas->setAttribute('width', (string)$width);
+        }
+        if ($height !== null) {
+            $canvas->setAttribute('height', (string)$height);
+        }
+        return $canvas;
+    }
+
+    // ========================================================================
+    // DOCUMENT STRUCTURE ELEMENTS
+    // ========================================================================
+
+    /**
+     * Create the root html element
+     *
+     * @since 20260427
+     * @param string $lang Document language (e.g. 'en')
+     * @return HtmlElement
+     */
+    public static function htmlElement(string $lang = 'en'): HtmlElement
+    {
+        $html = new self('html');
+        $html->setAttribute('lang', $lang);
+        return $html;
+    }
+
+    /**
+     * Create a head element
+     *
+     * @since 20260427
+     * @return HtmlElement
+     */
+    public static function head(): HtmlElement
+    {
+        return new self('head');
+    }
+
+    /**
+     * Create a body element
+     *
+     * @since 20260427
+     * @return HtmlElement
+     */
+    public static function body(): HtmlElement
+    {
+        return new self('body');
+    }
+
+    /**
+     * Create a title element
+     *
+     * @since 20260427
+     * @param string $text Page title
+     * @return HtmlElement
+     */
+    public static function title(string $text = ''): HtmlElement
+    {
+        return new self('title', $text);
+    }
+
+    /**
+     * Create a meta element
+     *
+     * @since 20260427
+     * @param string $name  Meta name
+     * @param string $content Meta content
+     * @return HtmlElement
+     */
+    public static function meta(string $name = '', string $content = ''): HtmlElement
+    {
+        $meta = new self('meta');
+        if ($name !== '') {
+            $meta->setAttribute('name', $name);
+        }
+        if ($content !== '') {
+            $meta->setAttribute('content', $content);
+        }
+        return $meta;
+    }
+
+    /**
+     * Create a link element (e.g. stylesheet reference)
+     *
+     * @since 20260427
+     * @param string $rel  Relationship type (e.g. 'stylesheet')
+     * @param string $href URL of the linked resource
+     * @return HtmlElement
+     */
+    public static function link(string $rel = '', string $href = ''): HtmlElement
+    {
+        $link = new self('link');
+        if ($rel !== '') {
+            $link->setAttribute('rel', $rel);
+        }
+        if ($href !== '') {
+            $link->setAttribute('href', $href);
+        }
+        return $link;
+    }
+
+    /**
+     * Create a script element
+     *
+     * @since 20260427
+     * @param string $src Script source URL (empty for inline script)
+     * @return HtmlElement
+     */
+    public static function script(string $src = ''): HtmlElement
+    {
+        $script = new self('script');
+        if ($src !== '') {
+            $script->setAttribute('src', $src);
+        }
+        return $script;
+    }
+
+    /**
+     * Create a style element
+     *
+     * @since 20260427
+     * @param string $content Inline CSS content
+     * @return HtmlElement
+     */
+    public static function style(string $content = ''): HtmlElement
+    {
+        return new self('style', $content);
+    }
+
+    /**
+     * Create an svg element
+     *
+     * @since 20260427
+     * @param int|null $width  SVG viewport width (sets viewBox to "0 0 {width} {height}")
+     * @param int|null $height SVG viewport height
+     * @return HtmlElement
+     */
+    public static function svg(?int $width = null, ?int $height = null): HtmlElement
+    {
+        $svg = new self('svg');
+        if ($width !== null && $height !== null) {
+            $svg->setAttribute('viewBox', "0 0 {$width} {$height}");
+        }
+        return $svg;
     }
 }

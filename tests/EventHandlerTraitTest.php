@@ -48,6 +48,11 @@ class EventTestElement {
     public function getAttributeValue(string $name): ?string {
         return $this->attributeList->getAttributeValue($name);
     }
+
+    public function setTag(string $tag): self {
+        $this->tag = $tag;
+        return $this;
+    }
 }
 
 class EventHandlerTraitTest extends TestCase
@@ -319,7 +324,7 @@ class EventHandlerTraitTest extends TestCase
         // Should be properly escaped in HTML attribute
         $this->assertStringContainsString('onclick=', $html);
         // Quotes should be escaped or enclosed properly
-        $this->assertNotContainsString("It's working", $html);
+        $this->assertStringNotContainsString("It's working", $html);
     }
 
     /**
@@ -578,7 +583,7 @@ class EventHandlerTraitTest extends TestCase
     public function testEventHandlerWithButtonElement(): void
     {
         $button = new EventTestElement();
-        $button->tag = 'button';
+        $button->setTag('button');
         
         $result = $button
             ->addCSSClass('btn')
@@ -602,7 +607,7 @@ class EventHandlerTraitTest extends TestCase
     public function testEventHandlerWithFormElement(): void
     {
         $form = new EventTestElement();
-        $form->tag = 'form';
+        $form->setTag('form');
         
         $form->onSubmit("handleFormSubmit(event)");
         $form->onChange("handleFormChange()");
@@ -623,7 +628,7 @@ class EventHandlerTraitTest extends TestCase
     public function testEventHandlerWithInputElement(): void
     {
         $input = new EventTestElement();
-        $input->tag = 'input';
+        $input->setTag('input');
         
         $input->onFocus("handleFocus()")
               ->onBlur("handleBlur()")

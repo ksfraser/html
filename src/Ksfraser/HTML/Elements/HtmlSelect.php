@@ -97,17 +97,30 @@ class HtmlSelect extends HtmlElement
     }
 
     /**
-     * Add an option to the select
+     * Add an option to the select.
      *
-     * @param HtmlOption $option Option to add
+     * Accepts either a typed HtmlOption object or the string-based signature
+     * (value, text, selected) from the parent FormElementsTrait for LSP compatibility.
+     *
+     * @param HtmlOption|string $valueOrOption HtmlOption object OR the option value string
+     * @param string            $text          Option display text (used when first param is string)
+     * @param bool              $selected      Whether the option is selected (used when first param is string)
      *
      * @return self For fluent interface
      *
      * @since 20251020
      */
-    public function addOption(HtmlOption $option): self
+    public function addOption(HtmlOption|string $valueOrOption, string $text = '', bool $selected = false): self
     {
-        $this->options[] = $option;
+        if ($valueOrOption instanceof HtmlOption) {
+            $this->options[] = $valueOrOption;
+        } else {
+            $this->options[] = new HtmlOption(
+                $valueOrOption,
+                $text !== '' ? $text : $valueOrOption,
+                $selected
+            );
+        }
         return $this;
     }
 
@@ -125,7 +138,7 @@ class HtmlSelect extends HtmlElement
     {
         foreach ($data as $value => $label) {
             $isSelected = ($selectedValue !== null && (string)$value === $selectedValue);
-            $this->addOption(new HtmlOption((string)$value, $label, $isSelected));
+            $this->addOption((string)$value, (string)$label, $isSelected);
         }
         return $this;
     }
@@ -193,7 +206,7 @@ class HtmlSelect extends HtmlElement
      *
      * @since 20251020
      */
-    public function setMultiple(bool $multiple): self
+    public function setMultiple(bool $multiple = true): self
     {
         if ($multiple) {
             $this->attributeList->addAttributeObject(new HtmlAttribute('multiple', 'multiple'));
@@ -225,7 +238,7 @@ class HtmlSelect extends HtmlElement
      *
      * @since 20251020
      */
-    public function setDisabled(bool $disabled): self
+    public function setDisabled(bool $disabled = true): self
     {
         if ($disabled) {
             $this->attributeList->addAttributeObject(new HtmlAttribute('disabled', 'disabled'));
@@ -242,7 +255,7 @@ class HtmlSelect extends HtmlElement
      *
      * @since 20251020
      */
-    public function setRequired(bool $required): self
+    public function setRequired(bool $required = true): self
     {
         if ($required) {
             $this->attributeList->addAttributeObject(new HtmlAttribute('required', 'required'));

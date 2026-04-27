@@ -18,6 +18,11 @@ if (file_exists(__DIR__ . '/../vendor/autoload.php')) {
 $stubsDir = __DIR__ . '/stubs';
 set_include_path($stubsDir . PATH_SEPARATOR . get_include_path());
 
+// Explicitly load the origin stub before class.VIEW.php so that the
+// `use Ksfraser\Origin\origin` in class.VIEW.php resolves correctly.
+// The include_path alone is not enough — PHP autoloading does not use it.
+require_once __DIR__ . '/stubs/class.origin.php';
+
 // Load the main VIEW class
 require_once __DIR__ . '/../src/Ksfraser/HTML/class.VIEW.php';
 
