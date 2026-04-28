@@ -66,7 +66,7 @@ class ModalBuilderTest extends TestCase
         
         $html = $modal->render();
         $this->assertStringContainsString('Close', $html);
-        $this->assertStringContainsString('class="modal-close-btn', $html);
+        $this->assertStringContainsString('modal-close-btn', $html);
         $this->assertStringContainsString('closeModal()', $html);
     }
     

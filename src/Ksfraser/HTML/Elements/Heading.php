@@ -39,7 +39,7 @@ class Heading {
      * 
      * @return HtmlHeading The wrapped HTML element
      */
-    public function getHtmlElement(): HtmlHeading {
+    public function getHtmlElement() {
         return $this->element;
     }
     

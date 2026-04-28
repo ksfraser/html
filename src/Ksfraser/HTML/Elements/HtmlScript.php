@@ -15,11 +15,16 @@ use Ksfraser\HTML\HtmlScriptLanguage;
 abstract class HtmlScript extends HtmlElement
 {
     /**
-     * Protected constructor for script tag subclasses
+     * Constructor for script tag subclasses
+     * @param string $type The script type attribute (e.g., 'text/javascript')
+     * @param \Ksfraser\HTML\HtmlElementInterface|null $content Script content
      */
-    protected function __construct()
+    protected function __construct(string $type = '', ?\Ksfraser\HTML\HtmlElementInterface $content = null)
     {
-        parent::__construct();
+        parent::__construct($content);
         $this->tag = 'script';
+        if ($type !== '') {
+            $this->setAttribute('type', $type);
+        }
     }
 }

@@ -4,7 +4,7 @@ use PHPUnit\Framework\TestCase;
 class HtmlElementsCoverageTest extends TestCase {
     public function testElementsClassesExist() {
         $classes = [
-            'Ksfraser\\HTML\\Elements\\HtmlButton',
+            'Ksfraser\\HTML\\Button\\HtmlButton',
             'Ksfraser\\HTML\\Elements\\HtmlDiv',
             'Ksfraser\\HTML\\Elements\\HtmlA',
             'Ksfraser\\HTML\\Elements\\HtmlSpan',

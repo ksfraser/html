@@ -98,4 +98,14 @@ class Button extends HtmlButton {
         $this->setAttribute('name', $name);
         return $this;
     }
+
+    /**
+     * Set the onclick handler using a JavaScript function call string
+     * @param string $function JavaScript code to call on click
+     * @return self
+     */
+    public function setOnclickFunction(string $function): self {
+        $this->setAttribute('onclick', $function);
+        return $this;
+    }
 }

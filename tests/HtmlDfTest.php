@@ -8,9 +8,9 @@ class HtmlDfTest extends TestCase {
         $mock->method('getHtml')->willReturn('df');
         $df = new HtmlDfn($mock);
         $html = $df->getHtml();
-        $this->assertStringContainsString('<df', $html);
+        $this->assertStringContainsString('<dfn', $html);
         $this->assertStringContainsString('df', $html);
-        $this->assertStringEndsWith('</df>', $html);
+        $this->assertStringEndsWith('</dfn>', $html);
     }
 
     public function testToHtmlOutputsHtml() {
@@ -20,16 +20,16 @@ class HtmlDfTest extends TestCase {
         ob_start();
         $df->toHtml();
         $output = ob_get_clean();
-        $this->assertStringContainsString('<df', $output);
+        $this->assertStringContainsString('<dfn', $output);
         $this->assertStringContainsString('df', $output);
     }
 
     public function testEdgeCasesEmptyContent() {
         $mock = $this->getMockBuilder(\Ksfraser\HTML\HtmlElementInterface::class)->getMock();
         $mock->method('getHtml')->willReturn('');
-        $df = new HtmlDf($mock);
+        $df = new HtmlDfn($mock);
         $html = $df->getHtml();
-        $this->assertStringContainsString('<df', $html);
-        $this->assertStringEndsWith('</df>', $html);
+        $this->assertStringContainsString('<dfn', $html);
+        $this->assertStringEndsWith('</dfn>', $html);
     }
 }

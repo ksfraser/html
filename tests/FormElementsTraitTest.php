@@ -385,7 +385,7 @@ class FormElementsTraitTest extends TestCase
         $input = HtmlElement::input('text', 'search')
             ->setAriaLabel('Search products');
         
-        $this->assertEquals('Search products', $input->getAttributeValue('aria-label'));
+        $this->assertEquals('Search products', $input->getAria('label'));
     }
 
     /**
@@ -397,7 +397,7 @@ class FormElementsTraitTest extends TestCase
         $input = HtmlElement::input('email', 'email')
             ->setAriaDescribedBy('email-help');
         
-        $this->assertEquals('email-help', $input->getAttributeValue('aria-describedby'));
+        $this->assertEquals('email-help', $input->getAria('describedby'));
     }
 
     /**

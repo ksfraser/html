@@ -43,6 +43,17 @@ trait SemanticElementsTrait
     // ========================================================================
 
     /**
+     * Create a div element (generic block container)
+     *
+     * @since 20260427
+     * @return HtmlElement
+     */
+    public static function div(): HtmlElement
+    {
+        return new self('div');
+    }
+
+    /**
      * Create a header element (page or section header)
      *
      * @return HtmlElement

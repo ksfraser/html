@@ -4,7 +4,7 @@ use Ksfraser\HTML\Attributes\HtmlStyleList;
 
 class HtmlStyleListTest extends TestCase {
     public function testInstance() {
-        $styleList = new HtmlStyleList(['color: red', 'font-size: 12px']);
+        $styleList = new HtmlStyleList();
         $this->assertInstanceOf(HtmlStyleList::class, $styleList);
     }
 

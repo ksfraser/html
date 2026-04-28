@@ -18,6 +18,10 @@ namespace Ksfraser\Origin;
 class origin {
     protected $container_arr = [];
 
+    public function __construct() {
+        // Base constructor for stub
+    }
+
     /**
      * set
      *

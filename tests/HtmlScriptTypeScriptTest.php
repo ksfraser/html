@@ -9,7 +9,7 @@ class HtmlScriptTypeScriptTest extends TestCase
 {
     public function testTypeScriptScriptTag()
     {
-        $content = new HtmlTypeScriptString(new HtmlString('let x: number = 5;'));
+        $content = new HtmlTypeScriptString('let x: number = 5;');
         $script = new HtmlScriptTypeScript($content);
         $html = $script->getHtml();
         $this->assertStringContainsString('<script', $html);

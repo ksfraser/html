@@ -77,8 +77,7 @@ class ModalBuilder {
     public function addCloseButton(string $text = 'Close', string $onclickHandler = 'closeModal()'): self {
         $button = new \Ksfraser\HTML\Button\CloseButton(new HtmlString($text));
         $button->setOnclickFunction($onclickHandler);
-		$existing = $button->getAttributeValue('class') ?? '';
-		$button->setClass(trim('modal-close-btn ' . $existing));
+        $button->addCSSClass('modal-close-btn');
         $this->content->append($button);
         return $this;
     }

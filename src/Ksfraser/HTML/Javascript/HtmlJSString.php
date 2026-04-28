@@ -12,5 +12,8 @@ use Ksfraser\HTML\Elements\HtmlString;
  */
 class HtmlJSString extends HtmlString
 {
-    // Inherits getHtml() from HtmlString
+    public function getHtml(): string
+    {
+        return (string)$this->string;
+    }
 }

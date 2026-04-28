@@ -274,13 +274,15 @@ class HtmlElement implements HtmlElementInterface {
     {
         $html = '<' . $this->tag;
         $html .= $this->getAttributes();
-        $html .= '>';
-        
-        if (!$this->empty) {
+
+        if ($this->empty) {
+            $html .= ' />';
+        } else {
+            $html .= '>';
             $html .= $this->renderChildrenHtml();
             $html .= '</' . $this->tag . '>';
         }
-        
+
         return $html;
     }
     
@@ -298,7 +300,6 @@ class HtmlElement implements HtmlElementInterface {
         $html .= $this->renderEventHandlers();
         $html .= $this->renderDataAttributes();
         $html .= $this->renderAriaAttributes();
-        $html .= " ";
-        return $html;
+        return rtrim($html);
     }
 }

@@ -533,7 +533,9 @@ trait FormElementsTrait
     {
         $prefix = new self('span', $text);
         $prefix->addCSSClass('input-group-text');
-        array_unshift($this->nested ?? [], $prefix);
+        $nested = $this->nested ?? [];
+        array_unshift($nested, $prefix);
+        $this->nested = $nested;
         return $this;
     }
 

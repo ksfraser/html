@@ -39,8 +39,10 @@ class HtmlListItemTest extends TestCase {
         $this->assertStringContainsString('</li>', $html);
     }
 
-    public function testConstructorThrowsTypeErrorOnInvalidArgument() {
-        $this->expectException(\TypeError::class);
-        new HtmlListItem('not an HtmlElementInterface');
+    public function testConstructorAcceptsStringArgument() {
+        $li = new HtmlListItem('plain string content');
+        $html = (string)$li;
+        $this->assertStringContainsString('<li', $html);
+        $this->assertStringContainsString('plain string content', $html);
     }
 }

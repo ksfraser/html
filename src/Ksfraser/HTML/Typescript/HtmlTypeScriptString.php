@@ -10,5 +10,8 @@ use Ksfraser\HTML\Elements\HtmlString;
  * Extends HtmlString for clarity: use this when representing inline TypeScript content.
  */
 class HtmlTypeScriptString extends HtmlString {
-    // Inherits getHtml() from HtmlScriptLanguage
+    public function getHtml(): string
+    {
+        return (string)$this->string;
+    }
 }
