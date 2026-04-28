@@ -46,6 +46,17 @@ trait HTMLChildrenTrait {
 		$this->children[] = $child;
 		return $this;
 	}
+
+	/**
+	 * Prepends a child before all existing children on this element.
+	 *
+	 * @param HtmlElementInterface $child
+	 * @return $this
+	 */
+	public function prependChild(HtmlElementInterface $child) {
+		array_unshift($this->children, $child);
+		return $this;
+	}
 	
 	/**
 	 * Renders HTML attributes.

@@ -285,6 +285,39 @@ class HtmlElement implements HtmlElementInterface {
 
         return $html;
     }
+
+    /**
+     * Returns the opening tag and all child content (without the closing tag).
+     * Useful for wrapping template blocks between open/close calls.
+     *
+     * @return string Opening tag + children HTML
+     */
+    public function openTag(): string
+    {
+        $html = '<' . $this->tag;
+        $html .= $this->getAttributes();
+        if ($this->empty) {
+            $html .= ' />';
+            return $html;
+        }
+        $html .= '>';
+        $html .= $this->renderChildrenHtml();
+        return $html;
+    }
+
+    /**
+     * Returns the closing tag for this element.
+     * For void/empty elements, returns an empty string.
+     *
+     * @return string Closing tag or empty string
+     */
+    public function closeTag(): string
+    {
+        if ($this->empty) {
+            return '';
+        }
+        return '</' . $this->tag . '>';
+    }
     
     /**
      * Get HTML attributes as string
