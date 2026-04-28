@@ -20,10 +20,16 @@ class FaTable extends HtmlTable
     /**
      * Constructor
      *
-     * @param int $class FA table style constant (TABLESTYLE, TABLESTYLE2, etc.)
-     * @param string $extra Additional attributes
+     * Mirrors the FrontAccounting start_table() function signature: an integer
+     * style constant selects the table CSS class and an optional attribute string
+     * passes extra HTML attributes. Neither parameter is an HtmlElementInterface
+     * because this constructor configures FA-specific metadata, not child content.
+     *
+     * @param int    $class FA table style constant: 1 = tablestyle,
+     *                      2 = tablestyle2 (default), 3 = tablestyle_noborder.
+     * @param string $extra Additional HTML attribute string (e.g. "width='80%'").
      */
-    public function __construct($class = 2, $extra = "")
+    public function __construct(int $class = 2, string $extra = "")
     {
         parent::__construct(new HtmlString("")); // Empty content initially
         $this->faClass = $class;

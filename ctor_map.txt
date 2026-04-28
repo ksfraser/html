@@ -1,0 +1,331 @@
+﻿C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\AbstractStylesheetManager.php	Ksfraser\HTML	AbstractStylesheetManager	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\class.VIEW.php	Ksfraser\HTML	VIEW	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\FaUiFunctions.php	Ksfraser\HTML	FaUiFunctions	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\HtmlAttribute.php	Ksfraser\HTML	HtmlAttribute	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\HtmlAttributeList.php	Ksfraser\HTML	HtmlAttributeList	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\HTMLChildrenTrait.php	Ksfraser\HTML	that	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\HtmlDoc.php	Ksfraser\HTML	HtmlDoc	__construct(?HtmlHtml $html = null)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\HtmlElement.php	Ksfraser\HTML	for	__construct($tagOrData = null, ?string $content = null)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\HtmlElementInterface.php	Ksfraser\HTML	for	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\HtmlEmptyElement.php	Ksfraser\HTML	HtmlEmptyElement	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\HtmlFragment.php	Ksfraser\HTML	HtmlFragment	__construct(array $children = [])
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Ajax\DivActivator.php	Ksfraser\HTML\Ajax	DivActivator	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\class.VIEW_AMOUNT_CELL.php	Ksfraser\HTML	VIEW_AMOUNT_CELL	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\class.VIEW_CELL.php	Ksfraser\HTML	VIEW_CELL	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\class.VIEW_DATE_CELL.php	Ksfraser\HTML	VIEW_DATE_CELL	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\class.VIEW_DIV.php	Ksfraser\HTML	VIEW_DIV	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\class.VIEW_FORM.php	Ksfraser\HTML	VIEW_FORM	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\class.VIEW_ROW.php	Ksfraser\HTML	VIEW_ROW	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\class.VIEW_SUBMIT_CELL.php	Ksfraser\HTML	VIEW_SUBMIT_CELL	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\class.VIEW_TABLE.php	Ksfraser\HTML	VIEW_TABLE	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\class.VIEW_TABLE_TD.php	Ksfraser\HTML	VIEW_TABLE_TD	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\class.VIEW_TABLE_TH.php		VIEW_TABLE_TH	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlA.php	Ksfraser\HTML\HTMLAtomic	HtmlA	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlB.php	Ksfraser\HTML\HTMLAtomic	HtmlB	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlBody.php	Ksfraser\HTML\HTMLAtomic	HtmlBody	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlBold.php	Ksfraser\HTML\HTMLAtomic	HtmlBold	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlBr.php	Ksfraser\HTML\HTMLAtomic	HtmlBr	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlButton.php	Ksfraser\HTML\HTMLAtomic	HtmlButton	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlDd.php	Ksfraser\HTML\HTMLAtomic	HtmlDd	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlDel.php	Ksfraser\HTML\HTMLAtomic	HtmlDel	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlDeleted.php	Ksfraser\HTML\HTMLAtomic	HtmlDeleted	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlDescriptionDescription.php	Ksfraser\HTML\HTMLAtomic	HtmlDescriptionDescription	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlDescriptionList.php	Ksfraser\HTML\HTMLAtomic	HtmlDescriptionList	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlDescriptionTerm.php	Ksfraser\HTML\HTMLAtomic	HtmlDescriptionTerm	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlDiv.php	Ksfraser\HTML\HTMLAtomic	HtmlDiv	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlDl.php	Ksfraser\HTML\HTMLAtomic	HtmlDl	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlDt.php	Ksfraser\HTML\HTMLAtomic	HtmlDt	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlEm.php	Ksfraser\HTML\HTMLAtomic	HtmlEm	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlEmail.php	Ksfraser\HTML\HTMLAtomic	HtmlEmail	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlEmphasize.php	Ksfraser\HTML\HTMLAtomic	HtmlEmphasize	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlExternalCSS.php	Ksfraser\HTML\HTMLAtomic	HtmlExternalCSS	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlFormatting.php	Ksfraser\HTML\HTMLAtomic	HtmlFormatting	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlHead.php	Ksfraser\HTML\HTMLAtomic	HtmlHead	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlHeading.php	Ksfraser\HTML\HTMLAtomic	HtmlHeading	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlHeading1.php	Ksfraser\HTML\HTMLAtomic	HtmlHeading1	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlHeading2.php	Ksfraser\HTML\HTMLAtomic	HtmlHeading2	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlHeading3.php	Ksfraser\HTML\HTMLAtomic	HtmlHeading3	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlHeading4.php	Ksfraser\HTML\HTMLAtomic	HtmlHeading4	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlHeading5.php	Ksfraser\HTML\HTMLAtomic	HtmlHeading5	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlHeading6.php	Ksfraser\HTML\HTMLAtomic	HtmlHeading6	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlHr.php	Ksfraser\HTML\HTMLAtomic	HtmlHr	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlHtml.php	Ksfraser\HTML\HTMLAtomic	HtmlHtml	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlI.php	Ksfraser\HTML\HTMLAtomic	HtmlI	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlImage.php	Ksfraser\HTML\HTMLAtomic	HtmlImage	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlImg.php	Ksfraser\HTML\HTMLAtomic	HtmlImg	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlIns.php	Ksfraser\HTML\HTMLAtomic	HtmlIns	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlInserted.php	Ksfraser\HTML\HTMLAtomic	HtmlInserted	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlInternalCSS.php	Ksfraser\HTML\HTMLAtomic	HtmlInternalCSS	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlInternalCSSList.php	Ksfraser\HTML\HTMLAtomic	HtmlInternalCSSList	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlInternalCSSListList.php	Ksfraser\HTML\HTMLAtomic	HtmlInternalCSS	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlItalic.php	Ksfraser\HTML\HTMLAtomic	HtmlItalic	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlLi.php	Ksfraser\HTML\HTMLAtomic	HtmlLi	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlLink.php	Ksfraser\HTML\HTMLAtomic	HtmlLink	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlListItem.php	Ksfraser\HTML\HTMLAtomic	HtmlListItem	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlMark.php	Ksfraser\HTML\HTMLAtomic	HtmlMark	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlOl.php	Ksfraser\HTML\HTMLAtomic	HtmlOl	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlOrderedList.php	Ksfraser\HTML\HTMLAtomic	HtmlOrderedList	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlP.php	Ksfraser\HTML\HTMLAtomic	HtmlP	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlParagraph.php	Ksfraser\HTML\HTMLAtomic	HtmlParagraph	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlPre.php	Ksfraser\HTML\HTMLAtomic	HtmlPre	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlPreformatted.php	Ksfraser\HTML\HTMLAtomic	HtmlPreformatted	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlSmall.php	Ksfraser\HTML\HTMLAtomic	HtmlSmall	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlSpan.php	Ksfraser\HTML\HTMLAtomic	HtmlSpan	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlStrong.php	Ksfraser\HTML\HTMLAtomic	HtmlStrong	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlStyle.php	Ksfraser\HTML\HTMLAtomic	HtmlStyle	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlStyleList.php	Ksfraser\HTML\HTMLAtomic	HtmlStyleList	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlSub.php	Ksfraser\HTML\HTMLAtomic	HtmlSub	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlSubscript.php	Ksfraser\HTML\HTMLAtomic	HtmlSubscript	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlSup.php	Ksfraser\HTML\HTMLAtomic	HtmlSup	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlSuperscript.php	Ksfraser\HTML\HTMLAtomic	HtmlSuperscript	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlTable.php	Ksfraser\HTML\HTMLAtomic	HtmlTable	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlTableBody.php	Ksfraser\HTML\HTMLAtomic	HtmlTableBody	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlTableCaption.php	Ksfraser\HTML\HTMLAtomic	HtmlTableCaption	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlTableCol.php	Ksfraser\HTML\HTMLAtomic	HtmlTableCol	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlTableColGroup.php	Ksfraser\HTML\HTMLAtomic	HtmlTableColGroup	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlTableFoot.php	Ksfraser\HTML\HTMLAtomic	HtmlTableFoot	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlTableHead.php	Ksfraser\HTML\HTMLAtomic	HtmlTableHead	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlTableHeaderCell.php	Ksfraser\HTML\HTMLAtomic	HtmlTableHeaderCell	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlTableRow.php	Ksfraser\HTML	HtmlTableRow	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlTableRowCell.php	Ksfraser\HTML\HTMLAtomic	HtmlTableRowCell	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlTd.php	Ksfraser\HTML\HTMLAtomic	HtmlTd	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlTh.php	Ksfraser\HTML\HTMLAtomic	HtmlTh	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlTitle.php	Ksfraser\HTML\HTMLAtomic	HtmlTitle	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlUl.php	Ksfraser\HTML\HTMLAtomic	HtmlUl	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\archived\HtmlUnorderedList.php	Ksfraser\HTML\HTMLAtomic	HtmlUnorderedList	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Button\Button.php	Ksfraser\HTML\Button	Button	__construct($text = null)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Button\CloseButton.php	Ksfraser\HTML\Button	CloseButton	__construct($label = null)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Button\HtmlButton.php	Ksfraser\HTML\Button	HtmlButton	__construct(string|HtmlElementInterface|null $data = null)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Button\SubmitButton.php	Ksfraser\HTML\Button	SubmitButton	__construct($label = null)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Buttons\ActionButton.php	Ksfraser\HTML\Buttons	for	__construct($actionName, HtmlElementInterface $label, $actionId = '')
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Buttons\AddButton.php	Ksfraser\HTML\Buttons	AddButton	__construct(HtmlElementInterface $label)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Buttons\CancelButton.php	Ksfraser\HTML\Buttons	CancelButton	__construct($label = null)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Buttons\CloseButton.php	Ksfraser\HTML\Buttons	CloseButton	__construct(HtmlElementInterface $label = null)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Buttons\DeleteButton.php	Ksfraser\HTML\Buttons	DeleteButton	__construct(HtmlElementInterface $label, $actionId = '')
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Buttons\EditButton.php	Ksfraser\HTML\Buttons	configuration	__construct(HtmlElementInterface $label, $actionId = '', $onclickFunction = '')
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Buttons\SubmitButton.php	Ksfraser\HTML\Buttons	SubmitButton	__construct(HtmlElementInterface $label = null)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Cells\AmountTableCell.php	Ksfraser\HTML\Cells	AmountTableCell	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Cells\BaseTableCell.php	Ksfraser\HTML\Cells	handles	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Cells\BorrowerTableCell.php	Ksfraser\HTML\Cells	BorrowerTableCell	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Cells\DescriptionTableCell.php	Ksfraser\HTML\Cells	DescriptionTableCell	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Cells\EditableFrequencyDescriptionCell.php	Ksfraser\HTML\Cells	EditableFrequencyDescriptionCell	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Cells\EditableFrequencyNameCell.php	Ksfraser\HTML\Cells	EditableFrequencyNameCell	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Cells\EditableLoanAmountCell.php	Ksfraser\HTML\Cells	EditableLoanAmountCell	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Cells\EditableLoanBorrowerCell.php	Ksfraser\HTML\Cells	EditableLoanBorrowerCell	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Cells\EditableLoanStatusCell.php	Ksfraser\HTML\Cells	EditableLoanStatusCell	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Cells\EditableTypeDescriptionCell.php	Ksfraser\HTML\Cells	EditableTypeDescriptionCell	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Cells\EditableTypeNameCell.php	Ksfraser\HTML\Cells	EditableTypeNameCell	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Cells\IdFrequencyTableCell.php	Ksfraser\HTML\Cells	IdFrequencyTableCell	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Cells\IdLoanTableCell.php	Ksfraser\HTML\Cells	IdLoanTableCell	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Cells\IdTableCell.php	Ksfraser\HTML\Cells	IdTableCell	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Cells\IdTypeTableCell.php	Ksfraser\HTML\Cells	IdTypeTableCell	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Cells\NameTableCell.php	Ksfraser\HTML\Cells	NameTableCell	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Cells\StatusTableCell.php	Ksfraser\HTML\Cells	generation	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Composites\HtmlLabelRow.php	Ksfraser\HTML\Composites	for	__construct(HtmlElementInterface $label, HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Composites\HTML_ROW.php	Ksfraser\HTML\Composites	exists	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Composites\HTML_ROW_LABEL.php	Ksfraser\HTML\Composites	exactly	__construct($data, string $label, ?int $width = null, ?string $class = null)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Composites\HTML_ROW_LABELDecorator.php	Ksfraser\HTML\Composites	HTML_ROW_LABELDecorator	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Composites\HTML_TABLE.php	Ksfraser\HTML\Composites	provides	__construct(?int $style = null, int $width = 100)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Composites\LabelRowBase.php	Ksfraser\HTML\Composites	for	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Crud\CrudField.php	Ksfraser\HTML\Crud	CrudField	__construct($name, $label, $inputType, $required = false, $readOnly = false, $defaultValue = null, $foreignKey = null)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Crud\LegacyFieldsArrayCrudDescriptor.php	Ksfraser\HTML\Crud	LegacyFieldsArrayCrudDescriptor	__construct(array $tableDetails, array $fieldsArray, array $options = array()
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Crud\SchemaArrayCrudDescriptor.php	Ksfraser\HTML\Crud	normalizes	__construct(array $schema)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\CSS\CSSManager.php	Ksfraser\HTML\CSS	CSSManager	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\CSS\CSSProviderInterface.php	Ksfraser\HTML\CSS	for	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\CSS\Examples\test_css_manager.php		(none)	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\CSS\Themes\DefaultThemeProvider.php	Ksfraser\HTML\CSS\Themes	DefaultThemeProvider	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\AjaxSelectPopulator.php	Ksfraser\HTML\Elements	Segregation	__construct()
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\Div.php	Ksfraser\HTML\Elements	for	__construct()
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\FaCell.php	Ksfraser\HTML\Elements	FaCell	__construct($content = "", $extra = "")
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\FaTable.php	Ksfraser\HTML\Elements	FaTable	__construct($class = 2, $extra = "")
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\Form.php	Ksfraser\HTML\Elements	for	__construct()
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\Heading.php	Ksfraser\HTML\Elements	for	__construct(int $level = 2)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\Hidden.php	Ksfraser\HTML\Elements	for	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlA.php	Ksfraser\HTML\Elements	HtmlA	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlAbbr.php	Ksfraser\HTML\Elements	HtmlAbbr	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlAbbreviation.php	Ksfraser\HTML\Elements	HtmlAbbreviation	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlAddress.php	Ksfraser\HTML\Elements	HtmlAddress	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlArticle.php	Ksfraser\HTML\Elements	HtmlArticle	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlAside.php	Ksfraser\HTML\Elements	HtmlAside	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlB.php		(none)	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlBlock.php	Ksfraser\HTML\Elements	HtmlBlock	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlBlockquote.php	Ksfraser\HTML\Elements	HtmlBlockquote	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlBody.php	Ksfraser\HTML\Elements	HtmlBody	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlBold.php		(none)	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlBr.php	Ksfraser\HTML\Elements	HtmlBr	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlButton.php		(none)	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlComment.php	Ksfraser\HTML\Elements	HtmlComment	__construct(string $text)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlData.php	Ksfraser\HTML\Elements	HtmlData	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlDd.php	Ksfraser\HTML\Elements	HtmlDd	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlDel.php	Ksfraser\HTML\Elements	HtmlDel	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlDeleted.php	Ksfraser\HTML\Elements	HtmlDeleted	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlDescriptionDescription.php	Ksfraser\HTML\Elements	HtmlDescriptionDescription	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlDescriptionList.php	Ksfraser\HTML\Elements	HtmlDescriptionList	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlDescriptionTerm.php	Ksfraser\HTML\Elements	HtmlDescriptionTerm	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlDfn.php	Ksfraser\HTML\Elements	HtmlDfn	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlDiv.php	Ksfraser\HTML\Elements	HtmlDiv	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlDl.php	Ksfraser\HTML\Elements	HtmlDl	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlDoc.php		(none)	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlDt.php	Ksfraser\HTML\Elements	HtmlDt	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlEm.php	Ksfraser\HTML\Elements	HtmlEm	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlEmail.php	Ksfraser\HTML\Elements	HtmlEmail	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlEmphasize.php	Ksfraser\HTML\Elements	HtmlEmphasize	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlExternalCSS.php	Ksfraser\HTML\Elements	HtmlExternalCSS	__construct()
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlFigcaption.php	Ksfraser\HTML\Elements	HtmlFigcaption	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlFigure.php	Ksfraser\HTML\Elements	HtmlFigure	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlFooter.php	Ksfraser\HTML\Elements	HtmlFooter	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlForm.php	Ksfraser\HTML\Elements	for	__construct(HtmlElementInterface $data)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlH1.php	Ksfraser\HTML\Elements	HtmlH1	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlH2.php	Ksfraser\HTML\Elements	HtmlH2	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlH3.php	Ksfraser\HTML\Elements	HtmlH3	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlH4.php	Ksfraser\HTML\Elements	HtmlH4	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlH5.php	Ksfraser\HTML\Elements	HtmlH5	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlH6.php	Ksfraser\HTML\Elements	HtmlH6	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlHead.php	Ksfraser\HTML\Elements	HtmlHead	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlHeader.php	Ksfraser\HTML\Elements	HtmlHeader	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlHeading.php	Ksfraser\HTML\Elements	HtmlHeading	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlHeading1.php	Ksfraser\HTML\Elements	HtmlHeading1	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlHeading2.php	Ksfraser\HTML\Elements	HtmlHeading2	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlHeading3.php	Ksfraser\HTML\Elements	HtmlHeading3	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlHeading4.php	Ksfraser\HTML\Elements	HtmlHeading4	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlHeading5.php	Ksfraser\HTML\Elements	HtmlHeading5	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlHeading6.php	Ksfraser\HTML\Elements	HtmlHeading6	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlHidden.php	Ksfraser\HTML\Elements	for	__construct(?string $name = null, ?string $value = null)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlHr.php	Ksfraser\HTML\Elements	HtmlHr	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlHtml.php	Ksfraser\HTML\Elements	HtmlHtml	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlI.php	Ksfraser\HTML\Elements	HtmlI	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlImage.php	Ksfraser\HTML\Elements	HtmlImage	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlImg.php	Ksfraser\HTML\Elements	HtmlImg	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlInline.php	Ksfraser\HTML\Elements	HtmlInline	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlInput.php	Ksfraser\HTML\Elements	for	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlInputButton.php	Ksfraser\HTML\Elements	for	__construct(string $type, HtmlElementInterface $label)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlInputGenericButton.php	Ksfraser\HTML\Elements	for	__construct(HtmlElementInterface $label)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlInputReset.php	Ksfraser\HTML\Elements	for	__construct(HtmlElementInterface $label)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlIns.php	Ksfraser\HTML\Elements	HtmlIns	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlInserted.php	Ksfraser\HTML\Elements	HtmlInserted	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlInternalCSS.php	Ksfraser\HTML\Elements	HtmlInternalCSS	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlInternalCSSList.php	Ksfraser\HTML\Elements	HtmlInternalCSSList	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlInternalCSSListList.php	Ksfraser\HTML\Elements	HtmlInternalCSS	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlItalic.php	Ksfraser\HTML\Elements	HtmlItalic	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlJSString.php	Ksfraser\HTML\Elements	HtmlJSString	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlKbd.php	Ksfraser\HTML\Elements	HtmlKbd	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlLi.php	Ksfraser\HTML\Elements	HtmlLi	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlLink.php	Ksfraser\HTML\Elements	HtmlLink	__construct()
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlListItem.php	Ksfraser\HTML\Elements	HtmlListItem	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlMain.php	Ksfraser\HTML\Elements	HtmlMain	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlMark.php	Ksfraser\HTML\Elements	HtmlMark	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlMenu.php	Ksfraser\HTML\Elements	HtmlMenu	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlMeta.php	Ksfraser\HTML\Elements	HtmlMeta	__construct(?HtmlString $content = null)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlMeter.php	Ksfraser\HTML\Elements	HtmlMeter	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlNav.php	Ksfraser\HTML\Elements	HtmlNav	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlOB.php	Ksfraser\HTML\Elements	HtmlOB	__construct($input = null)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlOl.php	Ksfraser\HTML\Elements	HtmlOl	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlOption.php	Ksfraser\HTML\Elements	provides	__construct($value, $label, bool $selected = false)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlOrderedList.php	Ksfraser\HTML\Elements	HtmlOrderedList	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlOutput.php	Ksfraser\HTML\Elements	HtmlOutput	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlP.php	Ksfraser\HTML\Elements	HtmlP	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlParagraph.php		(none)	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlPre.php	Ksfraser\HTML\Elements	HtmlPre	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlPreformatted.php	Ksfraser\HTML\Elements	HtmlPreformatted	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlProgress.php	Ksfraser\HTML\Elements	HtmlProgress	__construct(\Ksfraser\HTML\HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlQ.php	Ksfraser\HTML\Elements	HtmlQ	__construct(\Ksfraser\HTML\HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlRaw.php	Ksfraser\HTML\Elements	is	__construct(string $html)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlSamp.php	Ksfraser\HTML\Elements	HtmlSamp	__construct(\Ksfraser\HTML\HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlScript.php	Ksfraser\HTML\Elements	HtmlScript	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlScriptJS.php	Ksfraser\HTML\Elements	HtmlScriptJS	__construct(HtmlJSString $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlScriptJSON.php	Ksfraser\HTML\Elements	HtmlScriptJSON	__construct(HtmlJsonString $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlScriptTypeScript.php	Ksfraser\HTML\Elements	HtmlScriptTypeScript	__construct(HtmlTypeScriptString $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlScriptVBScript.php	Ksfraser\HTML\Elements	HtmlScriptVBScript	__construct(HtmlVBScriptString $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlSection.php	Ksfraser\HTML\Elements	HtmlSection	__construct(\Ksfraser\HTML\HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlSelect.php	Ksfraser\HTML\Elements	provides	__construct(HtmlElementInterface $name)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlSmall.php	Ksfraser\HTML\Elements	HtmlSmall	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlSpan.php	Ksfraser\HTML\Elements	HtmlSpan	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlStrong.php	Ksfraser\HTML\Elements	HtmlStrong	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlStyle.php	Ksfraser\HTML\Elements	HtmlStyle	__construct(HtmlString $css)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlStyleList.php	Ksfraser\HTML\Elements	HtmlStyleList	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlSub.php	Ksfraser\HTML\Elements	HtmlSub	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlSubmit.php	Ksfraser\HTML\Elements	for	__construct(HtmlElementInterface $label)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlSubscript.php	Ksfraser\HTML\Elements	HtmlSubscript	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlSup.php	Ksfraser\HTML\Elements	HtmlSup	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlSuperscript.php	Ksfraser\HTML\Elements	HtmlSuperscript	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlTable.php	Ksfraser\HTML\Elements	HtmlTable	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlTableBody.php	Ksfraser\HTML\Elements	HtmlTableBody	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlTableCaption.php	Ksfraser\HTML\Elements	HtmlTableCaption	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlTableCol.php	Ksfraser\HTML\Elements	HtmlTableCol	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlTableColGroup.php	Ksfraser\HTML\Elements	HtmlTableColGroup	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlTableFoot.php	Ksfraser\HTML\Elements	HtmlTableFoot	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlTableHead.php	Ksfraser\HTML\Elements	HtmlTableHead	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlTableHeaderCell.php	Ksfraser\HTML\Elements	HtmlTableHeaderCell	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlTableRow.php	Ksfraser\HTML\Elements	HtmlTableRow	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlTableRowCell.php	Ksfraser\HTML\Elements	HtmlTableRowCell	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlTd.php	Ksfraser\HTML\Elements	HtmlTd	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlTh.php	Ksfraser\HTML\Elements	HtmlTh	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlTime.php	Ksfraser\HTML\Elements	HtmlTime	__construct(\Ksfraser\HTML\HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlTitle.php	Ksfraser\HTML\Elements	HtmlTitle	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlUl.php	Ksfraser\HTML\Elements	HtmlUl	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlUnorderedList.php	Ksfraser\HTML\Elements	HtmlUnorderedList	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlVar.php	Ksfraser\HTML\Elements	HtmlVar	__construct(\Ksfraser\HTML\HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\HtmlWbr.php	Ksfraser\HTML\Elements	HtmlWbr	__construct(\Ksfraser\HTML\HtmlElementInterface $content = null)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\Input.php	Ksfraser\HTML\Elements	for	__construct(string $type = '')
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\Modal.php	Ksfraser\HTML\Elements	Modal	__construct(string $id = 'modal')
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\ModalBuilder.php	Ksfraser\HTML\Elements	for	__construct(string $id = 'modal')
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\ModalContent.php	Ksfraser\HTML\Elements	ModalContent	__construct()
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\PaymentFrequencyHandler.php	Ksfraser\HTML\Elements	Segregation	__construct()
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\Select.php	Ksfraser\HTML\Elements	alias	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\SelectEditJSHandler.php	Ksfraser\HTML\Elements	Segregation	__construct()
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\StyleAttribute.php	Ksfraser\HTML\Elements	StyleAttribute	__construct(string $value)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\Stylesheet.php	Ksfraser\HTML\Elements	for	__construct()
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\Table.php	Ksfraser\HTML\Elements	for	__construct()
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\TableBuilder.php	Ksfraser\HTML\Elements	for	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\TableData.php	Ksfraser\HTML\Elements	for	__construct()
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\TableHeader.php	Ksfraser\HTML\Elements	for	__construct()
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Elements\TableRow.php	Ksfraser\HTML\Elements	for	__construct()
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\FAButtons\DeleteFrequencyActionButton.php	Ksfraser\HTML\FAButtons	DeleteFrequencyActionButton	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\FAButtons\DeleteTypeActionButton.php	Ksfraser\HTML\FAButtons	DeleteTypeActionButton	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\FAButtons\EditFrequencyActionButton.php	Ksfraser\HTML\FAButtons	EditFrequencyActionButton	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\FAButtons\EditLoanActionButton.php	Ksfraser\HTML\FAButtons	EditLoanActionButton	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\FAButtons\EditTypeActionButton.php	Ksfraser\HTML\FAButtons	EditTypeActionButton	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\FAButtons\ViewLoanActionButton.php	Ksfraser\HTML\FAButtons	ViewLoanActionButton	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Factory\ActionLink.php	Ksfraser\HTML\Factory	ActionLink	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Factory\AddLink.php	Ksfraser\HTML\Factory	AddLink	__construct(?string $text = null, array $params = [])
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Factory\CreateLink.php	Ksfraser\HTML\Factory	CreateLink	__construct(?string $text = null, array $params = [])
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Factory\DeleteLink.php	Ksfraser\HTML\Factory	DeleteLink	__construct($id, ?string $text = null, array $params = [])
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Factory\EditLink.php	Ksfraser\HTML\Factory	EditLink	__construct($id, ?string $text = null, array $params = [])
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Factory\ListLink.php	Ksfraser\HTML\Factory	ListLink	__construct(?string $text = null, array $params = [])
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Factory\ViewLink.php	Ksfraser\HTML\Factory	ViewLink	__construct($id, ?string $text = null, array $params = [])
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Formatting\HtmlB.php	Ksfraser\HTML\Formatting	HtmlB	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Formatting\HtmlBlockquote.php	Ksfraser\HTML\Formatting	HtmlBlockquote	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Formatting\HtmlBold.php	Ksfraser\HTML\Formatting	HtmlBold	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Formatting\HtmlCite.php	Ksfraser\HTML\Formatting	HtmlCite	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Formatting\HtmlCode.php	Ksfraser\HTML\Formatting	HtmlCode	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Formatting\HtmlDeleted.php	Ksfraser\HTML\Formatting	HtmlDeleted	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Formatting\HtmlEm.php	Ksfraser\HTML\Formatting	HtmlEm	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Formatting\HtmlFormatting.php	Ksfraser\HTML\Formatting	HtmlFormatting	__construct($content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Formatting\HtmlInserted.php	Ksfraser\HTML\Formatting	HtmlInserted	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Formatting\HtmlItalic.php	Ksfraser\HTML\Formatting	HtmlItalic	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Formatting\HtmlP.php	Ksfraser\HTML\Formatting	HtmlP	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Formatting\HtmlParagraph.php	Ksfraser\HTML\Formatting	HtmlParagraph	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Formatting\HtmlParagraphFormatting.php	Ksfraser\HTML\Formatting	HtmlParagraphFormatting	__construct(HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Formatting\HtmlSpanFormatting.php	Ksfraser\HTML\Formatting	HtmlSpanFormatting	__construct(\Ksfraser\HTML\HtmlElementInterface $content)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Formatting\HtmlStrong.php	Ksfraser\HTML\Formatting	HtmlStrong	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Formatting\HtmlSub.php	Ksfraser\HTML\Formatting	HtmlSub	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Formatting\HtmlSup.php	Ksfraser\HTML\Formatting	HtmlSup	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Rows\BaseTableRow.php	Ksfraser\HTML\Rows	handles	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Rows\InterestFreqTableRow.php	Ksfraser\HTML\Rows	InterestFreqTableRow	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Rows\LoanSummaryTableRow.php	Ksfraser\HTML\Rows	LoanSummaryTableRow	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Rows\LoanTypeTableRow.php	Ksfraser\HTML\Rows	LoanTypeTableRow	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\ScriptHandlers\BaseScriptHandler.php	Ksfraser\HTML\ScriptHandlers	BaseScriptHandler	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\ScriptHandlers\InterestFreqScriptHandler.php	Ksfraser\HTML\ScriptHandlers	loader	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\ScriptHandlers\LoanScriptHandler.php	Ksfraser\HTML\ScriptHandlers	loader	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\ScriptHandlers\LoanTypeScriptHandler.php	Ksfraser\HTML\ScriptHandlers	loader	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\ScriptHandlers\ReportScriptHandler.php	Ksfraser\HTML\ScriptHandlers	ReportScriptHandler	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Traits\AriaAttributeTrait.php	Ksfraser\HTML\Traits	controls	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Traits\ComponentFactoryTrait.php	Ksfraser\HTML\Traits	ComponentFactoryTrait	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Traits\CSSManagementTrait.php	Ksfraser\HTML\Traits	Management	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Traits\DataAttributeTrait.php	Ksfraser\HTML\Traits	DataAttributeTrait	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Traits\ElementIntrospectionTrait.php	Ksfraser\HTML\Traits	ElementIntrospectionTrait	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Traits\EventHandlerTrait.php	Ksfraser\HTML\Traits	for	__construct(string $event, string $code)
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Traits\FormElementsTrait.php	Ksfraser\HTML\Traits	FormElementsTrait	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Traits\HtmlAttributeTrait.php	Ksfraser\HTML\Traits	for	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Traits\ResponsiveLayoutTrait.php	Ksfraser\HTML\Traits	ResponsiveLayoutTrait	NO_CONSTRUCTOR
+C:\Users\prote\Documents\software-devel\html\src\Ksfraser\HTML\Traits\SemanticElementsTrait.php	Ksfraser\HTML\Traits	SemanticElementsTrait	NO_CONSTRUCTOR

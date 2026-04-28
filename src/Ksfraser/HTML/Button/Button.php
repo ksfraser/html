@@ -19,9 +19,11 @@ class Button extends HtmlButton {
         use \Ksfraser\HTML\JS\HtmlJsEventTrait;
     /**
      * Constructor
-     * @param string|HtmlElementInterface|null $text Optional button text/content
+     *
+     * @param string|HtmlElementInterface|null $text Button label text or wrapped element.
+     *                                                Strings are automatically wrapped in HtmlString.
      */
-    public function __construct($text = null) {
+    public function __construct(string|HtmlElementInterface|null $text = null) {
         parent::__construct();
         $this->setTag('button');
         if ($text !== null) {
@@ -34,10 +36,12 @@ class Button extends HtmlButton {
 
     /**
      * Set the text/content of the button
-     * @param string|HtmlElementInterface $text
+     *
+     * @param string|HtmlElementInterface $text New label text or wrapped element.
+     *                                            Strings are automatically wrapped in HtmlString.
      * @return self
      */
-    public function setText($text): self {
+    public function setText(string|HtmlElementInterface $text): self {
         $this->nested = [];
         if (is_string($text)) {
             $text = new HtmlString(htmlspecialchars($text));

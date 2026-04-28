@@ -19,10 +19,14 @@ class FaCell extends HtmlTd
     /**
      * Constructor
      *
-     * @param string $content Cell content
-     * @param string $extra Additional attributes
+     * Accepts a plain string (rather than HtmlElementInterface) to match the
+     * FrontAccounting label_cells() function signature, where cell content is
+     * passed as raw text. The string is wrapped in HtmlString internally.
+     *
+     * @param string $content Cell content text.
+     * @param string $extra   Additional HTML attribute string (e.g. "colspan='2'").
      */
-    public function __construct($content = "", $extra = "")
+    public function __construct(string $content = "", string $extra = "")
     {
         parent::__construct(new HtmlString($content));
         $this->extra = $extra;
