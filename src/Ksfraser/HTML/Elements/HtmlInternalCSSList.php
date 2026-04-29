@@ -7,7 +7,7 @@ use Ksfraser\HTML\HtmlElementInterface;
 class HtmlInternalCSSList extends HtmlStyleList 
 {
  
-	function getHtml()
+	public function getHtml(): string
 	{
 		if( count( $this->styleArray ) > 0 )
 		{

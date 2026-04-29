@@ -1,0 +1,113 @@
+﻿PHPUnit 9.6.34 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.4.6 with Xdebug 3.5.0
+Configuration: C:\Users\prote\Documents\software-devel\html\phpunit.xml
+
+...............................................................  63 / 948 (  6%)
+............................................................... 126 / 948 ( 13%)
+............................................................... 189 / 948 ( 19%)
+............................................................... 252 / 948 ( 26%)
+............................................................... 315 / 948 ( 33%)
+............................................................... 378 / 948 ( 39%)
+............................................................... 441 / 948 ( 46%)
+............................................................... 504 / 948 ( 53%)
+............................................................... 567 / 948 ( 59%)
+............................................................... 630 / 948 ( 66%)
+............................................................... 693 / 948 ( 73%)
+............................................................... 756 / 948 ( 79%)
+............................................................... 819 / 948 ( 86%)
+............................................................... 882 / 948 ( 93%)
+............................................................... 945 / 948 ( 99%)
+...                                                             948 / 948 (100%)
+
+Time: 00:26.483, Memory: 30.00 MB
+
+OK (948 tests, 1666 assertions)
+=== CSS Manager Example/Test ===
+
+1. Testing basic CSS components:
+Γ£ô Base CSS loaded: YES
+Γ£ô Form CSS loaded: YES
+Γ£ô Table CSS loaded: YES
+Γ£ô Card CSS loaded: YES
+Γ£ô Utility CSS loaded: YES
+
+2. Testing theme system:
+Γ£ô Current theme: default
+Γ£ô Changed to dark theme: dark
+Γ£ô Back to default theme: default
+
+3. Testing provider system:
+Γ£ô DefaultThemeProvider registered successfully
+Γ£ô Provider name: default
+Γ£ô Supports default theme: YES
+Γ£ô Supports dark theme: NO
+
+4. Testing complete CSS generation:
+Γ£ô Full CSS length: 5456 characters
+Γ£ô Contains base styles: YES
+Γ£ô Contains button styles: YES
+
+5. Example HTML output:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Manager Example</title>
+    <style>
+        /* CSS Manager Generated Styles */
+
+        /* Base Application CSS */
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -...
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="management-section">
+            <h1>CSS Manager Example</h1>
+            <p>This demonstrates the CSS Manager system.</p>
+            <button class="btn btn-primary">Primary Button</button>
+            <button class="btn btn-success">Success Button</button>
+        </div>
+    </div>
+</body>
+</html>
+
+=== All tests completed successfully! ===
+
+=== Usage Examples ===
+
+// Basic usage:
+use Ksfraser\HTML\CSS\CSSManager;
+echo '<style>' . CSSManager::getAllCSS() . '</style>';
+
+// Theme switching:
+CSSManager::setTheme('dark');
+echo CSSManager::getAllCSS();
+
+// Custom provider:
+CSSManager::registerProvider('custom', new CustomThemeProvider());
+echo CSSManager::getAllCSS();
+
+// Individual components:
+echo CSSManager::getBaseCSS();
+echo CSSManager::getFormCSS();
+echo CSSManager::getTableCSS();
+php : PHP Fatal error:  Declaration of 
+Ksfraser\HTML\Elements\AjaxSelectPopulator::setPlaceholder($text) must be 
+compatible with Ksfraser\HTML\HtmlElement::setPlaceholder(string $text): 
+Ksfraser\HTML\HtmlElement in C:\Users\prote\Documents\software-devel\html\src\K
+sfraser\HTML\Elements\AjaxSelectPopulator.php on line 187
+At line:1 char:1
++ php -d xdebug.mode=coverage vendor/bin/phpunit --coverage-text --colo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (PHP Fatal error...php on line 187 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

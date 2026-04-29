@@ -20,3 +20,21 @@ use Ksfraser\HTML\Attributes\HtmlAttributeValueObject;
 class HtmlStyleList extends HtmlAttributeValueObject
 
 {
+    public function __construct()
+    {
+        $this->attributeName = 'style';
+        $this->attributeArray = [];
+    }
+
+    protected function getAttributeValueString(): string
+    {
+        if (count($this->attributeArray) === 0) {
+            return '';
+        }
+        $value = '';
+        foreach ($this->attributeArray as $style) {
+            $value .= $style->getHtml();
+        }
+        return $value;
+    }
+}

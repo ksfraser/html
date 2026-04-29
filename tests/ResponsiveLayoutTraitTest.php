@@ -4,3640 +4,422 @@ namespace Tests;
 
 use PHPUnit\Framework\TestCase;
 use Ksfraser\HTML\HtmlElement;
+use Ksfraser\HTML\HtmlElementInterface;
 
 /**
  * ResponsiveLayoutTraitTest - FR-013
  *
- * Comprehensive test suite for responsive design and layout utilities
- * Tests grid system, spacing, display, sizing, and responsive classes
- *
+ * Comprehensive tests for responsive layout utilities:
+ * grid factories, spacing, display, sizing, flexbox, text, overflow, borders, shadows.
  *
  * @group FR-013
  * @group Layout
- * @since 1.0.5 2026-03-30
  */
 class ResponsiveLayoutTraitTest extends TestCase
 {
     // ============================================================================
-    // GRID SYSTEM TESTS
+    // GRID SYSTEM FACTORY METHODS
+    // ============================================================================
+
+    /** @test */
+    public function container_creates_div_with_container_class(): void
+    {
+        $el = HtmlElement::container();
+        $this->assertEquals('div', $el->getTag());
+        $this->assertTrue($el->hasCSSClass('container'));
+    }
+
+    /** @test */
+    public function container_fluid_creates_div_with_container_fluid_class(): void
+    {
+        $el = HtmlElement::containerFluid();
+        $this->assertEquals('div', $el->getTag());
+        $this->assertTrue($el->hasCSSClass('container-fluid'));
+    }
+
+    /** @test */
+    public function row_creates_div_with_row_class(): void
+    {
+        $el = HtmlElement::row();
+        $this->assertEquals('div', $el->getTag());
+        $this->assertTrue($el->hasCSSClass('row'));
+    }
+
+    /** @test */
+    public function column_with_no_args_creates_col_class(): void
+    {
+        $el = HtmlElement::column();
+        $this->assertTrue($el->hasCSSClass('col'));
+    }
+
+    /** @test */
+    public function column_with_width_creates_col_width_class(): void
+    {
+        $el = HtmlElement::column(6);
+        $this->assertTrue($el->hasCSSClass('col-6'));
+    }
+
+    /** @test */
+    public function column_with_offset_creates_offset_class(): void
+    {
+        $el = HtmlElement::column(4, 2);
+        $this->assertTrue($el->hasCSSClass('col-4'));
+        $this->assertTrue($el->hasCSSClass('offset-2'));
+    }
+
+    /** @test */
+    public function column_with_zero_offset_does_not_add_offset_class(): void
+    {
+        $el = HtmlElement::column(6, 0);
+        $this->assertFalse($el->hasCSSClass('offset-0'));
+    }
+
+    /** @test */
+    public function column_responsive_creates_breakpoint_classes(): void
+    {
+        $el = HtmlElement::columnResponsive(['xs' => 12, 'md' => 6, 'lg' => 4]);
+        $this->assertTrue($el->hasCSSClass('col-12'));
+        $this->assertTrue($el->hasCSSClass('col-md-6'));
+        $this->assertTrue($el->hasCSSClass('col-lg-4'));
+    }
+
+    // ============================================================================
+    // MARGIN UTILITIES  (data-provider based)
     // ============================================================================
 
     /**
      * @test
-     * @group layout
-     * @group grid
- * @return void
- * @since 1.0.5 2026-03-30
+     * @dataProvider marginMethodProvider
      */
-    public /**
- * container_creates_container_div
- *
- * @return void
- */
-/**
- * container_creates_container_div
- *
- * @return void
- */
-/**
- * container_creates_container_div
- *
- * @return void
- */
-/**
- * container_creates_container_div
- *
- * @return void
- */
-/**
- * container_creates_container_div
- *
- * @return void
- */
-/**
- * container_creates_container_div
- *
- * @return void
- */
-/**
- * container_creates_container_div
- *
- * @return void
- */
-/**
- * container_creates_container_div
- *
- * @return void
- */
-/**
- * container_creates_container_div
- *
- * @return void
- */
-/**
- * container_creates_container_div
- *
- * @return void
- */
-function container_creates_container_div()
-    {
-        $container = HtmlElement::container();
-        
-        $this->assertEquals('div', $container->getTag());
-        $this->assertTrue($container->hasCSSClass('container'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group grid
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * container_fluid_creates_fluid_container
- *
- * @return void
- */
-/**
- * container_fluid_creates_fluid_container
- *
- * @return void
- */
-/**
- * container_fluid_creates_fluid_container
- *
- * @return void
- */
-/**
- * container_fluid_creates_fluid_container
- *
- * @return void
- */
-/**
- * container_fluid_creates_fluid_container
- *
- * @return void
- */
-/**
- * container_fluid_creates_fluid_container
- *
- * @return void
- */
-/**
- * container_fluid_creates_fluid_container
- *
- * @return void
- */
-/**
- * container_fluid_creates_fluid_container
- *
- * @return void
- */
-/**
- * container_fluid_creates_fluid_container
- *
- * @return void
- */
-/**
- * container_fluid_creates_fluid_container
- *
- * @return void
- */
-function container_fluid_creates_fluid_container()
-    {
-        $container = HtmlElement::containerFluid();
-        
-        $this->assertEquals('div', $container->getTag());
-        $this->assertTrue($container->hasCSSClass('container-fluid'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group grid
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * row_creates_row_div
- *
- * @return void
- */
-/**
- * row_creates_row_div
- *
- * @return void
- */
-/**
- * row_creates_row_div
- *
- * @return void
- */
-/**
- * row_creates_row_div
- *
- * @return void
- */
-/**
- * row_creates_row_div
- *
- * @return void
- */
-/**
- * row_creates_row_div
- *
- * @return void
- */
-/**
- * row_creates_row_div
- *
- * @return void
- */
-/**
- * row_creates_row_div
- *
- * @return void
- */
-/**
- * row_creates_row_div
- *
- * @return void
- */
-/**
- * row_creates_row_div
- *
- * @return void
- */
-function row_creates_row_div()
-    {
-        $row = HtmlElement::row();
-        
-        $this->assertEquals('div', $row->getTag());
-        $this->assertTrue($row->hasCSSClass('row'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group grid
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * column_creates_column_with_width
- *
- * @return void
- */
-/**
- * column_creates_column_with_width
- *
- * @return void
- */
-/**
- * column_creates_column_with_width
- *
- * @return void
- */
-/**
- * column_creates_column_with_width
- *
- * @return void
- */
-/**
- * column_creates_column_with_width
- *
- * @return void
- */
-/**
- * column_creates_column_with_width
- *
- * @return void
- */
-/**
- * column_creates_column_with_width
- *
- * @return void
- */
-/**
- * column_creates_column_with_width
- *
- * @return void
- */
-/**
- * column_creates_column_with_width
- *
- * @return void
- */
-/**
- * column_creates_column_with_width
- *
- * @return void
- */
-function column_creates_column_with_width()
-    {
-        $col = HtmlElement::column(6);
-        
-        $this->assertEquals('div', $col->getTag());
-        $this->assertTrue($col->hasCSSClass('col-6'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group grid
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * column_full_width_default
- *
- * @return void
- */
-/**
- * column_full_width_default
- *
- * @return void
- */
-/**
- * column_full_width_default
- *
- * @return void
- */
-/**
- * column_full_width_default
- *
- * @return void
- */
-/**
- * column_full_width_default
- *
- * @return void
- */
-/**
- * column_full_width_default
- *
- * @return void
- */
-/**
- * column_full_width_default
- *
- * @return void
- */
-/**
- * column_full_width_default
- *
- * @return void
- */
-/**
- * column_full_width_default
- *
- * @return void
- */
-/**
- * column_full_width_default
- *
- * @return void
- */
-function column_full_width_default()
-    {
-        $col = HtmlElement::column();
-        
-        $this->assertTrue($col->hasCSSClass('col'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group grid
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * column_responsive_creates_breakpoint_classes
- *
- * @return void
- */
-/**
- * column_responsive_creates_breakpoint_classes
- *
- * @return void
- */
-/**
- * column_responsive_creates_breakpoint_classes
- *
- * @return void
- */
-/**
- * column_responsive_creates_breakpoint_classes
- *
- * @return void
- */
-/**
- * column_responsive_creates_breakpoint_classes
- *
- * @return void
- */
-/**
- * column_responsive_creates_breakpoint_classes
- *
- * @return void
- */
-/**
- * column_responsive_creates_breakpoint_classes
- *
- * @return void
- */
-/**
- * column_responsive_creates_breakpoint_classes
- *
- * @return void
- */
-/**
- * column_responsive_creates_breakpoint_classes
- *
- * @return void
- */
-/**
- * column_responsive_creates_breakpoint_classes
- *
- * @return void
- */
-function column_responsive_creates_breakpoint_classes()
-    {
-        $col = HtmlElement::columnResponsive([
-            'xs' => 12,
-            'sm' => 6,
-            'md' => 4,
-            'lg' => 3,
-            'xl' => 2
-        ]);
-        
-        $this->assertTrue($col->hasCSSClass('col-12'));
-        $this->assertTrue($col->hasCSSClass('col-sm-6'));
-        $this->assertTrue($col->hasCSSClass('col-md-4'));
-        $this->assertTrue($col->hasCSSClass('col-lg-3'));
-        $this->assertTrue($col->hasCSSClass('col-xl-2'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group grid
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * column_offset_adds_offset_class
- *
- * @return void
- */
-/**
- * column_offset_adds_offset_class
- *
- * @return void
- */
-/**
- * column_offset_adds_offset_class
- *
- * @return void
- */
-/**
- * column_offset_adds_offset_class
- *
- * @return void
- */
-/**
- * column_offset_adds_offset_class
- *
- * @return void
- */
-/**
- * column_offset_adds_offset_class
- *
- * @return void
- */
-/**
- * column_offset_adds_offset_class
- *
- * @return void
- */
-/**
- * column_offset_adds_offset_class
- *
- * @return void
- */
-/**
- * column_offset_adds_offset_class
- *
- * @return void
- */
-/**
- * column_offset_adds_offset_class
- *
- * @return void
- */
-function column_offset_adds_offset_class()
-    {
-        $col = HtmlElement::column(6, 3);
-        
-        $this->assertTrue($col->hasCSSClass('col-6'));
-        $this->assertTrue($col->hasCSSClass('offset-3'));
-    }
-
-    // ============================================================================
-    // SPACING UTILITY TESTS
-    // ============================================================================
-
-    /**
-     * @test
-     * @group layout
-     * @group spacing
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * margin_all_adds_margin_class
- *
- * @return void
- */
-/**
- * margin_all_adds_margin_class
- *
- * @return void
- */
-/**
- * margin_all_adds_margin_class
- *
- * @return void
- */
-/**
- * margin_all_adds_margin_class
- *
- * @return void
- */
-/**
- * margin_all_adds_margin_class
- *
- * @return void
- */
-/**
- * margin_all_adds_margin_class
- *
- * @return void
- */
-/**
- * margin_all_adds_margin_class
- *
- * @return void
- */
-/**
- * margin_all_adds_margin_class
- *
- * @return void
- */
-/**
- * margin_all_adds_margin_class
- *
- * @return void
- */
-/**
- * margin_all_adds_margin_class
- *
- * @return void
- */
-function margin_all_adds_margin_class()
+    public function margin_methods_add_correct_class(string $method, int $value, string $expectedClass): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyMargin($elem, 3);
-        
-        $this->assertTrue($elem->hasCSSClass('m-3'));
+        $result = HtmlElement::$method($elem, $value);
+        $this->assertSame($elem, $result, "$method should return the same element");
+        $this->assertTrue($elem->hasCSSClass($expectedClass), "$method should add $expectedClass");
     }
 
-    /**
-     * @test
-     * @group layout
-     * @group spacing
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * margin_top_adds_margin_top_class
- *
- * @return void
- */
-/**
- * margin_top_adds_margin_top_class
- *
- * @return void
- */
-/**
- * margin_top_adds_margin_top_class
- *
- * @return void
- */
-/**
- * margin_top_adds_margin_top_class
- *
- * @return void
- */
-/**
- * margin_top_adds_margin_top_class
- *
- * @return void
- */
-/**
- * margin_top_adds_margin_top_class
- *
- * @return void
- */
-/**
- * margin_top_adds_margin_top_class
- *
- * @return void
- */
-/**
- * margin_top_adds_margin_top_class
- *
- * @return void
- */
-/**
- * margin_top_adds_margin_top_class
- *
- * @return void
- */
-/**
- * margin_top_adds_margin_top_class
- *
- * @return void
- */
-function margin_top_adds_margin_top_class()
+    public function marginMethodProvider(): array
     {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyMarginTop($elem, 2);
-        
-        $this->assertTrue($elem->hasCSSClass('mt-2'));
+        return [
+            'margin 3'           => ['applyMargin',           3, 'm-3'],
+            'marginTop 2'        => ['applyMarginTop',        2, 'mt-2'],
+            'marginBottom 4'     => ['applyMarginBottom',     4, 'mb-4'],
+            'marginLeft 1'       => ['applyMarginLeft',       1, 'ml-1'],
+            'marginRight 0'      => ['applyMarginRight',      0, 'mr-0'],
+            'marginHorizontal 2' => ['applyMarginHorizontal', 2, 'mx-2'],
+            'marginVertical 3'   => ['applyMarginVertical',   3, 'my-3'],
+        ];
     }
 
-    /**
-     * @test
-     * @group layout
-     * @group spacing
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * margin_bottom_adds_margin_bottom_class
- *
- * @return void
- */
-/**
- * margin_bottom_adds_margin_bottom_class
- *
- * @return void
- */
-/**
- * margin_bottom_adds_margin_bottom_class
- *
- * @return void
- */
-/**
- * margin_bottom_adds_margin_bottom_class
- *
- * @return void
- */
-/**
- * margin_bottom_adds_margin_bottom_class
- *
- * @return void
- */
-/**
- * margin_bottom_adds_margin_bottom_class
- *
- * @return void
- */
-/**
- * margin_bottom_adds_margin_bottom_class
- *
- * @return void
- */
-/**
- * margin_bottom_adds_margin_bottom_class
- *
- * @return void
- */
-/**
- * margin_bottom_adds_margin_bottom_class
- *
- * @return void
- */
-/**
- * margin_bottom_adds_margin_bottom_class
- *
- * @return void
- */
-function margin_bottom_adds_margin_bottom_class()
+    /** @test */
+    public function apply_margin_auto_adds_mx_auto_class(): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyMarginBottom($elem, 4);
-        
-        $this->assertTrue($elem->hasCSSClass('mb-4'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group spacing
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * margin_horizontal_adds_margin_horizontal_class
- *
- * @return void
- */
-/**
- * margin_horizontal_adds_margin_horizontal_class
- *
- * @return void
- */
-/**
- * margin_horizontal_adds_margin_horizontal_class
- *
- * @return void
- */
-/**
- * margin_horizontal_adds_margin_horizontal_class
- *
- * @return void
- */
-/**
- * margin_horizontal_adds_margin_horizontal_class
- *
- * @return void
- */
-/**
- * margin_horizontal_adds_margin_horizontal_class
- *
- * @return void
- */
-/**
- * margin_horizontal_adds_margin_horizontal_class
- *
- * @return void
- */
-/**
- * margin_horizontal_adds_margin_horizontal_class
- *
- * @return void
- */
-/**
- * margin_horizontal_adds_margin_horizontal_class
- *
- * @return void
- */
-/**
- * margin_horizontal_adds_margin_horizontal_class
- *
- * @return void
- */
-function margin_horizontal_adds_margin_horizontal_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyMarginHorizontal($elem, 2);
-        
-        $this->assertTrue($elem->hasCSSClass('mx-2'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group spacing
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * margin_vertical_adds_margin_vertical_class
- *
- * @return void
- */
-/**
- * margin_vertical_adds_margin_vertical_class
- *
- * @return void
- */
-/**
- * margin_vertical_adds_margin_vertical_class
- *
- * @return void
- */
-/**
- * margin_vertical_adds_margin_vertical_class
- *
- * @return void
- */
-/**
- * margin_vertical_adds_margin_vertical_class
- *
- * @return void
- */
-/**
- * margin_vertical_adds_margin_vertical_class
- *
- * @return void
- */
-/**
- * margin_vertical_adds_margin_vertical_class
- *
- * @return void
- */
-/**
- * margin_vertical_adds_margin_vertical_class
- *
- * @return void
- */
-/**
- * margin_vertical_adds_margin_vertical_class
- *
- * @return void
- */
-/**
- * margin_vertical_adds_margin_vertical_class
- *
- * @return void
- */
-function margin_vertical_adds_margin_vertical_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyMarginVertical($elem, 3);
-        
-        $this->assertTrue($elem->hasCSSClass('my-3'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group spacing
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * padding_all_adds_padding_class
- *
- * @return void
- */
-/**
- * padding_all_adds_padding_class
- *
- * @return void
- */
-/**
- * padding_all_adds_padding_class
- *
- * @return void
- */
-/**
- * padding_all_adds_padding_class
- *
- * @return void
- */
-/**
- * padding_all_adds_padding_class
- *
- * @return void
- */
-/**
- * padding_all_adds_padding_class
- *
- * @return void
- */
-/**
- * padding_all_adds_padding_class
- *
- * @return void
- */
-/**
- * padding_all_adds_padding_class
- *
- * @return void
- */
-/**
- * padding_all_adds_padding_class
- *
- * @return void
- */
-/**
- * padding_all_adds_padding_class
- *
- * @return void
- */
-function padding_all_adds_padding_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyPadding($elem, 3);
-        
-        $this->assertTrue($elem->hasCSSClass('p-3'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group spacing
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * padding_top_adds_padding_top_class
- *
- * @return void
- */
-/**
- * padding_top_adds_padding_top_class
- *
- * @return void
- */
-/**
- * padding_top_adds_padding_top_class
- *
- * @return void
- */
-/**
- * padding_top_adds_padding_top_class
- *
- * @return void
- */
-/**
- * padding_top_adds_padding_top_class
- *
- * @return void
- */
-/**
- * padding_top_adds_padding_top_class
- *
- * @return void
- */
-/**
- * padding_top_adds_padding_top_class
- *
- * @return void
- */
-/**
- * padding_top_adds_padding_top_class
- *
- * @return void
- */
-/**
- * padding_top_adds_padding_top_class
- *
- * @return void
- */
-/**
- * padding_top_adds_padding_top_class
- *
- * @return void
- */
-function padding_top_adds_padding_top_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyPaddingTop($elem, 2);
-        
-        $this->assertTrue($elem->hasCSSClass('pt-2'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group spacing
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * padding_bottom_adds_padding_bottom_class
- *
- * @return void
- */
-/**
- * padding_bottom_adds_padding_bottom_class
- *
- * @return void
- */
-/**
- * padding_bottom_adds_padding_bottom_class
- *
- * @return void
- */
-/**
- * padding_bottom_adds_padding_bottom_class
- *
- * @return void
- */
-/**
- * padding_bottom_adds_padding_bottom_class
- *
- * @return void
- */
-/**
- * padding_bottom_adds_padding_bottom_class
- *
- * @return void
- */
-/**
- * padding_bottom_adds_padding_bottom_class
- *
- * @return void
- */
-/**
- * padding_bottom_adds_padding_bottom_class
- *
- * @return void
- */
-/**
- * padding_bottom_adds_padding_bottom_class
- *
- * @return void
- */
-/**
- * padding_bottom_adds_padding_bottom_class
- *
- * @return void
- */
-function padding_bottom_adds_padding_bottom_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyPaddingBottom($elem, 4);
-        
-        $this->assertTrue($elem->hasCSSClass('pb-4'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group spacing
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * padding_horizontal_adds_padding_horizontal_class
- *
- * @return void
- */
-/**
- * padding_horizontal_adds_padding_horizontal_class
- *
- * @return void
- */
-/**
- * padding_horizontal_adds_padding_horizontal_class
- *
- * @return void
- */
-/**
- * padding_horizontal_adds_padding_horizontal_class
- *
- * @return void
- */
-/**
- * padding_horizontal_adds_padding_horizontal_class
- *
- * @return void
- */
-/**
- * padding_horizontal_adds_padding_horizontal_class
- *
- * @return void
- */
-/**
- * padding_horizontal_adds_padding_horizontal_class
- *
- * @return void
- */
-/**
- * padding_horizontal_adds_padding_horizontal_class
- *
- * @return void
- */
-/**
- * padding_horizontal_adds_padding_horizontal_class
- *
- * @return void
- */
-/**
- * padding_horizontal_adds_padding_horizontal_class
- *
- * @return void
- */
-function padding_horizontal_adds_padding_horizontal_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyPaddingHorizontal($elem, 2);
-        
-        $this->assertTrue($elem->hasCSSClass('px-2'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group spacing
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * padding_vertical_adds_padding_vertical_class
- *
- * @return void
- */
-/**
- * padding_vertical_adds_padding_vertical_class
- *
- * @return void
- */
-/**
- * padding_vertical_adds_padding_vertical_class
- *
- * @return void
- */
-/**
- * padding_vertical_adds_padding_vertical_class
- *
- * @return void
- */
-/**
- * padding_vertical_adds_padding_vertical_class
- *
- * @return void
- */
-/**
- * padding_vertical_adds_padding_vertical_class
- *
- * @return void
- */
-/**
- * padding_vertical_adds_padding_vertical_class
- *
- * @return void
- */
-/**
- * padding_vertical_adds_padding_vertical_class
- *
- * @return void
- */
-/**
- * padding_vertical_adds_padding_vertical_class
- *
- * @return void
- */
-/**
- * padding_vertical_adds_padding_vertical_class
- *
- * @return void
- */
-function padding_vertical_adds_padding_vertical_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyPaddingVertical($elem, 3);
-        
-        $this->assertTrue($elem->hasCSSClass('py-3'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group spacing
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * margin_auto_centers_element_horizontally
- *
- * @return void
- */
-/**
- * margin_auto_centers_element_horizontally
- *
- * @return void
- */
-/**
- * margin_auto_centers_element_horizontally
- *
- * @return void
- */
-/**
- * margin_auto_centers_element_horizontally
- *
- * @return void
- */
-/**
- * margin_auto_centers_element_horizontally
- *
- * @return void
- */
-/**
- * margin_auto_centers_element_horizontally
- *
- * @return void
- */
-/**
- * margin_auto_centers_element_horizontally
- *
- * @return void
- */
-/**
- * margin_auto_centers_element_horizontally
- *
- * @return void
- */
-/**
- * margin_auto_centers_element_horizontally
- *
- * @return void
- */
-/**
- * margin_auto_centers_element_horizontally
- *
- * @return void
- */
-function margin_auto_centers_element_horizontally()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyMarginAuto($elem);
-        
+        $result = HtmlElement::applyMarginAuto($elem);
+        $this->assertSame($elem, $result);
         $this->assertTrue($elem->hasCSSClass('mx-auto'));
     }
 
     // ============================================================================
-    // DISPLAY AND VISIBILITY TESTS
+    // PADDING UTILITIES (data-provider based)
     // ============================================================================
 
     /**
      * @test
-     * @group layout
-     * @group display
- * @return void
- * @since v1.0.5 2026-04-14
+     * @dataProvider paddingMethodProvider
      */
-    public /**
- * display_flex_adds_flex_class
- *
- * @return void
- */
-/**
- * display_flex_adds_flex_class
- *
- * @return void
- */
-/**
- * display_flex_adds_flex_class
- *
- * @return void
- */
-/**
- * display_flex_adds_flex_class
- *
- * @return void
- */
-/**
- * display_flex_adds_flex_class
- *
- * @return void
- */
-/**
- * display_flex_adds_flex_class
- *
- * @return void
- */
-/**
- * display_flex_adds_flex_class
- *
- * @return void
- */
-/**
- * display_flex_adds_flex_class
- *
- * @return void
- */
-/**
- * display_flex_adds_flex_class
- *
- * @return void
- */
-/**
- * display_flex_adds_flex_class
- *
- * @return void
- */
-function display_flex_adds_flex_class()
+    public function padding_methods_add_correct_class(string $method, int $value, string $expectedClass): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyDisplay($elem, 'flex');
-        
+        $result = HtmlElement::$method($elem, $value);
+        $this->assertSame($elem, $result);
+        $this->assertTrue($elem->hasCSSClass($expectedClass));
+    }
+
+    public function paddingMethodProvider(): array
+    {
+        return [
+            'padding 2'           => ['applyPadding',           2, 'p-2'],
+            'paddingTop 1'        => ['applyPaddingTop',        1, 'pt-1'],
+            'paddingBottom 3'     => ['applyPaddingBottom',     3, 'pb-3'],
+            'paddingLeft 0'       => ['applyPaddingLeft',       0, 'pl-0'],
+            'paddingRight 4'      => ['applyPaddingRight',      4, 'pr-4'],
+            'paddingHorizontal 2' => ['applyPaddingHorizontal', 2, 'px-2'],
+            'paddingVertical 5'   => ['applyPaddingVertical',   5, 'py-5'],
+        ];
+    }
+
+    // ============================================================================
+    // DISPLAY UTILITIES
+    // ============================================================================
+
+    /** @test */
+    public function apply_display_adds_d_display_class(): void
+    {
+        $elem = HtmlElement::div();
+        $result = HtmlElement::applyDisplay($elem, 'flex');
+        $this->assertSame($elem, $result);
         $this->assertTrue($elem->hasCSSClass('d-flex'));
     }
 
-    /**
-     * @test
-     * @group layout
-     * @group display
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * display_grid_adds_grid_class
- *
- * @return void
- */
-/**
- * display_grid_adds_grid_class
- *
- * @return void
- */
-/**
- * display_grid_adds_grid_class
- *
- * @return void
- */
-/**
- * display_grid_adds_grid_class
- *
- * @return void
- */
-/**
- * display_grid_adds_grid_class
- *
- * @return void
- */
-/**
- * display_grid_adds_grid_class
- *
- * @return void
- */
-/**
- * display_grid_adds_grid_class
- *
- * @return void
- */
-/**
- * display_grid_adds_grid_class
- *
- * @return void
- */
-/**
- * display_grid_adds_grid_class
- *
- * @return void
- */
-/**
- * display_grid_adds_grid_class
- *
- * @return void
- */
-function display_grid_adds_grid_class()
+    /** @test */
+    public function apply_display_responsive_adds_breakpoint_classes(): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyDisplay($elem, 'grid');
-        
-        $this->assertTrue($elem->hasCSSClass('d-grid'));
+        HtmlElement::applyDisplayResponsive($elem, ['xs' => 'block', 'md' => 'flex', 'lg' => 'none']);
+        $this->assertTrue($elem->hasCSSClass('d-block'));
+        $this->assertTrue($elem->hasCSSClass('d-md-flex'));
+        $this->assertTrue($elem->hasCSSClass('d-lg-none'));
     }
 
-    /**
-     * @test
-     * @group layout
-     * @group display
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * display_none_adds_none_class
- *
- * @return void
- */
-/**
- * display_none_adds_none_class
- *
- * @return void
- */
-/**
- * display_none_adds_none_class
- *
- * @return void
- */
-/**
- * display_none_adds_none_class
- *
- * @return void
- */
-/**
- * display_none_adds_none_class
- *
- * @return void
- */
-/**
- * display_none_adds_none_class
- *
- * @return void
- */
-/**
- * display_none_adds_none_class
- *
- * @return void
- */
-/**
- * display_none_adds_none_class
- *
- * @return void
- */
-/**
- * display_none_adds_none_class
- *
- * @return void
- */
-/**
- * display_none_adds_none_class
- *
- * @return void
- */
-function display_none_adds_none_class()
+    /** @test */
+    public function apply_hidden_adds_d_none_class(): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyDisplay($elem, 'none');
-        
+        $result = HtmlElement::applyHidden($elem);
+        $this->assertSame($elem, $result);
         $this->assertTrue($elem->hasCSSClass('d-none'));
     }
 
-/**
- * @test
- * @group layout
- * @group display
- * @since v1.0.5 2026-04-14
- * @return void
- */
-function display_inline_adds_inline_class()
-{
-    $elem = HtmlElement::div();
-    $elem = HtmlElement::applyDisplay($elem, 'inline');
-
-    $this->assertTrue($elem->hasCSSClass('d-inline'));
-}
-
-/**
- * @test
- * @group layout
- * @group display
- * @since v1.0.5 2026-04-14
- * @return void
- */
-function display_inline_block_adds_inline_block_class()
-{
-    $elem = HtmlElement::div();
-    $elem = HtmlElement::applyDisplay($elem, 'inline-block');
-
-    $this->assertTrue($elem->hasCSSClass('d-inline-block'));
-}
-
-/**
- * @test
- * @group layout
- * @group display
- * @since v1.0.5 2026-04-14
- * @return void
- */
-function hidden_adds_hidden_class()
-{
-    $elem = HtmlElement::div();
-    $elem = HtmlElement::applyHidden($elem);
-
-    $this->assertTrue($elem->hasCSSClass('d-none'));
-}
-
-/**
- * @test
- * @group layout
- * @group display
- * @since v1.0.5 2026-04-14
- * @return void
- */
-function visible_removes_hidden_class()
-{
-    $elem = HtmlElement::div();
-    $elem->addCSSClass('d-none');
-    $elem = HtmlElement::applyVisible($elem);
-
-    $this->assertFalse($elem->hasCSSClass('d-none'));
-}
-
-    /**
-     * @test
-     * @group layout
-     * @group display
-     * @since v1.0.5 2026-04-14
-     * @return void
-     */
-    public /**
- * responsive_display_adds_breakpoint_classes
- *
- * @return void
- */
-/**
- * responsive_display_adds_breakpoint_classes
- *
- * @return void
- */
-/**
- * responsive_display_adds_breakpoint_classes
- *
- * @return void
- */
-/**
- * responsive_display_adds_breakpoint_classes
- *
- * @return void
- */
-/**
- * responsive_display_adds_breakpoint_classes
- *
- * @return void
- */
-/**
- * responsive_display_adds_breakpoint_classes
- *
- * @return void
- */
-/**
- * responsive_display_adds_breakpoint_classes
- *
- * @return void
- */
-/**
- * responsive_display_adds_breakpoint_classes
- *
- * @return void
- */
-/**
- * responsive_display_adds_breakpoint_classes
- *
- * @return void
- */
-/**
- * responsive_display_adds_breakpoint_classes
- *
- * @return void
- */
-function responsive_display_adds_breakpoint_classes()
+    /** @test */
+    public function apply_visible_removes_d_none_class(): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyDisplayResponsive($elem, [
-            'xs' => 'block',
-            'md' => 'none',
-            'lg' => 'flex'
-        ]);
-        
-        $this->assertTrue($elem->hasCSSClass('d-block'));
-        $this->assertTrue($elem->hasCSSClass('d-md-none'));
-        $this->assertTrue($elem->hasCSSClass('d-lg-flex'));
+        $elem->addCSSClass('d-none');
+        $result = HtmlElement::applyVisible($elem);
+        $this->assertSame($elem, $result);
+        $this->assertFalse($elem->hasCSSClass('d-none'));
     }
 
     // ============================================================================
-    // SIZING UTILITY TESTS
+    // SIZING UTILITIES (data-provider based)
     // ============================================================================
 
     /**
      * @test
-     * @group layout
-     * @group sizing
- * @return void
- * @since v1.0.5 2026-04-14
+     * @dataProvider sizingMethodProvider
      */
-    public /**
- * width_100_adds_full_width_class
- *
- * @return void
- */
-/**
- * width_100_adds_full_width_class
- *
- * @return void
- */
-/**
- * width_100_adds_full_width_class
- *
- * @return void
- */
-/**
- * width_100_adds_full_width_class
- *
- * @return void
- */
-/**
- * width_100_adds_full_width_class
- *
- * @return void
- */
-/**
- * width_100_adds_full_width_class
- *
- * @return void
- */
-/**
- * width_100_adds_full_width_class
- *
- * @return void
- */
-/**
- * width_100_adds_full_width_class
- *
- * @return void
- */
-/**
- * width_100_adds_full_width_class
- *
- * @return void
- */
-/**
- * width_100_adds_full_width_class
- *
- * @return void
- */
-function width_100_adds_full_width_class()
+    public function sizing_methods_add_correct_class(string $method, int $value, string $expectedClass): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyWidth($elem, 100);
-        
-        $this->assertTrue($elem->hasCSSClass('w-100'));
+        $result = HtmlElement::$method($elem, $value);
+        $this->assertSame($elem, $result);
+        $this->assertTrue($elem->hasCSSClass($expectedClass));
     }
 
-    /**
-     * @test
-     * @group layout
-     * @group sizing
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * width_75_adds_width_class
- *
- * @return void
- */
-/**
- * width_75_adds_width_class
- *
- * @return void
- */
-/**
- * width_75_adds_width_class
- *
- * @return void
- */
-/**
- * width_75_adds_width_class
- *
- * @return void
- */
-/**
- * width_75_adds_width_class
- *
- * @return void
- */
-/**
- * width_75_adds_width_class
- *
- * @return void
- */
-/**
- * width_75_adds_width_class
- *
- * @return void
- */
-/**
- * width_75_adds_width_class
- *
- * @return void
- */
-/**
- * width_75_adds_width_class
- *
- * @return void
- */
-/**
- * width_75_adds_width_class
- *
- * @return void
- */
-function width_75_adds_width_class()
+    public function sizingMethodProvider(): array
     {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyWidth($elem, 75);
-        
-        $this->assertTrue($elem->hasCSSClass('w-75'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group sizing
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * width_50_adds_width_class
- *
- * @return void
- */
-/**
- * width_50_adds_width_class
- *
- * @return void
- */
-/**
- * width_50_adds_width_class
- *
- * @return void
- */
-/**
- * width_50_adds_width_class
- *
- * @return void
- */
-/**
- * width_50_adds_width_class
- *
- * @return void
- */
-/**
- * width_50_adds_width_class
- *
- * @return void
- */
-/**
- * width_50_adds_width_class
- *
- * @return void
- */
-/**
- * width_50_adds_width_class
- *
- * @return void
- */
-/**
- * width_50_adds_width_class
- *
- * @return void
- */
-/**
- * width_50_adds_width_class
- *
- * @return void
- */
-function width_50_adds_width_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyWidth($elem, 50);
-        
-        $this->assertTrue($elem->hasCSSClass('w-50'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group sizing
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * width_25_adds_width_class
- *
- * @return void
- */
-/**
- * width_25_adds_width_class
- *
- * @return void
- */
-/**
- * width_25_adds_width_class
- *
- * @return void
- */
-/**
- * width_25_adds_width_class
- *
- * @return void
- */
-/**
- * width_25_adds_width_class
- *
- * @return void
- */
-/**
- * width_25_adds_width_class
- *
- * @return void
- */
-/**
- * width_25_adds_width_class
- *
- * @return void
- */
-/**
- * width_25_adds_width_class
- *
- * @return void
- */
-/**
- * width_25_adds_width_class
- *
- * @return void
- */
-/**
- * width_25_adds_width_class
- *
- * @return void
- */
-function width_25_adds_width_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyWidth($elem, 25);
-        
-        $this->assertTrue($elem->hasCSSClass('w-25'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group sizing
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * height_100_adds_full_height_class
- *
- * @return void
- */
-/**
- * height_100_adds_full_height_class
- *
- * @return void
- */
-/**
- * height_100_adds_full_height_class
- *
- * @return void
- */
-/**
- * height_100_adds_full_height_class
- *
- * @return void
- */
-/**
- * height_100_adds_full_height_class
- *
- * @return void
- */
-/**
- * height_100_adds_full_height_class
- *
- * @return void
- */
-/**
- * height_100_adds_full_height_class
- *
- * @return void
- */
-/**
- * height_100_adds_full_height_class
- *
- * @return void
- */
-/**
- * height_100_adds_full_height_class
- *
- * @return void
- */
-/**
- * height_100_adds_full_height_class
- *
- * @return void
- */
-function height_100_adds_full_height_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyHeight($elem, 100);
-        
-        $this->assertTrue($elem->hasCSSClass('h-100'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group sizing
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * max_width_100_adds_max_width_class
- *
- * @return void
- */
-/**
- * max_width_100_adds_max_width_class
- *
- * @return void
- */
-/**
- * max_width_100_adds_max_width_class
- *
- * @return void
- */
-/**
- * max_width_100_adds_max_width_class
- *
- * @return void
- */
-/**
- * max_width_100_adds_max_width_class
- *
- * @return void
- */
-/**
- * max_width_100_adds_max_width_class
- *
- * @return void
- */
-/**
- * max_width_100_adds_max_width_class
- *
- * @return void
- */
-/**
- * max_width_100_adds_max_width_class
- *
- * @return void
- */
-/**
- * max_width_100_adds_max_width_class
- *
- * @return void
- */
-/**
- * max_width_100_adds_max_width_class
- *
- * @return void
- */
-function max_width_100_adds_max_width_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyMaxWidth($elem, 100);
-        
-        $this->assertTrue($elem->hasCSSClass('mw-100'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group sizing
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * max_height_100_adds_max_height_class
- *
- * @return void
- */
-/**
- * max_height_100_adds_max_height_class
- *
- * @return void
- */
-/**
- * max_height_100_adds_max_height_class
- *
- * @return void
- */
-/**
- * max_height_100_adds_max_height_class
- *
- * @return void
- */
-/**
- * max_height_100_adds_max_height_class
- *
- * @return void
- */
-/**
- * max_height_100_adds_max_height_class
- *
- * @return void
- */
-/**
- * max_height_100_adds_max_height_class
- *
- * @return void
- */
-/**
- * max_height_100_adds_max_height_class
- *
- * @return void
- */
-/**
- * max_height_100_adds_max_height_class
- *
- * @return void
- */
-/**
- * max_height_100_adds_max_height_class
- *
- * @return void
- */
-function max_height_100_adds_max_height_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyMaxHeight($elem, 100);
-        
-        $this->assertTrue($elem->hasCSSClass('mh-100'));
+        return [
+            'width 50'      => ['applyWidth',     50,  'w-50'],
+            'height 100'    => ['applyHeight',    100, 'h-100'],
+            'maxWidth 100'  => ['applyMaxWidth',  100, 'mw-100'],
+            'maxHeight 100' => ['applyMaxHeight', 100, 'mh-100'],
+        ];
     }
 
     // ============================================================================
-    // FLEXBOX UTILITY TESTS
+    // FLEXBOX UTILITIES
     // ============================================================================
 
-    /**
-     * @test
-     * @group layout
-     * @group flexbox
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * flex_direction_column_adds_flex_column_class
- *
- * @return void
- */
-/**
- * flex_direction_column_adds_flex_column_class
- *
- * @return void
- */
-/**
- * flex_direction_column_adds_flex_column_class
- *
- * @return void
- */
-/**
- * flex_direction_column_adds_flex_column_class
- *
- * @return void
- */
-/**
- * flex_direction_column_adds_flex_column_class
- *
- * @return void
- */
-/**
- * flex_direction_column_adds_flex_column_class
- *
- * @return void
- */
-/**
- * flex_direction_column_adds_flex_column_class
- *
- * @return void
- */
-/**
- * flex_direction_column_adds_flex_column_class
- *
- * @return void
- */
-/**
- * flex_direction_column_adds_flex_column_class
- *
- * @return void
- */
-/**
- * flex_direction_column_adds_flex_column_class
- *
- * @return void
- */
-function flex_direction_column_adds_flex_column_class()
+    /** @test */
+    public function apply_flex_direction_adds_flex_direction_class(): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyFlexDirection($elem, 'column');
-        
+        HtmlElement::applyFlexDirection($elem, 'column');
         $this->assertTrue($elem->hasCSSClass('flex-column'));
     }
 
-    /**
-     * @test
-     * @group layout
-     * @group flexbox
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * flex_direction_row_adds_flex_row_class
- *
- * @return void
- */
-/**
- * flex_direction_row_adds_flex_row_class
- *
- * @return void
- */
-/**
- * flex_direction_row_adds_flex_row_class
- *
- * @return void
- */
-/**
- * flex_direction_row_adds_flex_row_class
- *
- * @return void
- */
-/**
- * flex_direction_row_adds_flex_row_class
- *
- * @return void
- */
-/**
- * flex_direction_row_adds_flex_row_class
- *
- * @return void
- */
-/**
- * flex_direction_row_adds_flex_row_class
- *
- * @return void
- */
-/**
- * flex_direction_row_adds_flex_row_class
- *
- * @return void
- */
-/**
- * flex_direction_row_adds_flex_row_class
- *
- * @return void
- */
-/**
- * flex_direction_row_adds_flex_row_class
- *
- * @return void
- */
-function flex_direction_row_adds_flex_row_class()
+    /** @test */
+    public function apply_flex_wrap_adds_flex_wrap_class(): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyFlexDirection($elem, 'row');
-        
-        $this->assertTrue($elem->hasCSSClass('flex-row'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group flexbox
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * flex_wrap_adds_flex_wrap_class
- *
- * @return void
- */
-/**
- * flex_wrap_adds_flex_wrap_class
- *
- * @return void
- */
-/**
- * flex_wrap_adds_flex_wrap_class
- *
- * @return void
- */
-/**
- * flex_wrap_adds_flex_wrap_class
- *
- * @return void
- */
-/**
- * flex_wrap_adds_flex_wrap_class
- *
- * @return void
- */
-/**
- * flex_wrap_adds_flex_wrap_class
- *
- * @return void
- */
-/**
- * flex_wrap_adds_flex_wrap_class
- *
- * @return void
- */
-/**
- * flex_wrap_adds_flex_wrap_class
- *
- * @return void
- */
-/**
- * flex_wrap_adds_flex_wrap_class
- *
- * @return void
- */
-/**
- * flex_wrap_adds_flex_wrap_class
- *
- * @return void
- */
-function flex_wrap_adds_flex_wrap_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyFlexWrap($elem);
-        
+        $result = HtmlElement::applyFlexWrap($elem);
+        $this->assertSame($elem, $result);
         $this->assertTrue($elem->hasCSSClass('flex-wrap'));
     }
 
-    /**
-     * @test
-     * @group layout
-     * @group flexbox
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * justify_content_center_adds_justify_center_class
- *
- * @return void
- */
-/**
- * justify_content_center_adds_justify_center_class
- *
- * @return void
- */
-/**
- * justify_content_center_adds_justify_center_class
- *
- * @return void
- */
-/**
- * justify_content_center_adds_justify_center_class
- *
- * @return void
- */
-/**
- * justify_content_center_adds_justify_center_class
- *
- * @return void
- */
-/**
- * justify_content_center_adds_justify_center_class
- *
- * @return void
- */
-/**
- * justify_content_center_adds_justify_center_class
- *
- * @return void
- */
-/**
- * justify_content_center_adds_justify_center_class
- *
- * @return void
- */
-/**
- * justify_content_center_adds_justify_center_class
- *
- * @return void
- */
-/**
- * justify_content_center_adds_justify_center_class
- *
- * @return void
- */
-function justify_content_center_adds_justify_center_class()
+    /** @test */
+    public function apply_justify_content_adds_class(): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyJustifyContent($elem, 'center');
-        
+        HtmlElement::applyJustifyContent($elem, 'center');
         $this->assertTrue($elem->hasCSSClass('justify-content-center'));
     }
 
-    /**
-     * @test
-     * @group layout
-     * @group flexbox
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * justify_content_between_adds_justify_between_class
- *
- * @return void
- */
-/**
- * justify_content_between_adds_justify_between_class
- *
- * @return void
- */
-/**
- * justify_content_between_adds_justify_between_class
- *
- * @return void
- */
-/**
- * justify_content_between_adds_justify_between_class
- *
- * @return void
- */
-/**
- * justify_content_between_adds_justify_between_class
- *
- * @return void
- */
-/**
- * justify_content_between_adds_justify_between_class
- *
- * @return void
- */
-/**
- * justify_content_between_adds_justify_between_class
- *
- * @return void
- */
-/**
- * justify_content_between_adds_justify_between_class
- *
- * @return void
- */
-/**
- * justify_content_between_adds_justify_between_class
- *
- * @return void
- */
-/**
- * justify_content_between_adds_justify_between_class
- *
- * @return void
- */
-function justify_content_between_adds_justify_between_class()
+    /** @test */
+    public function apply_align_items_adds_class(): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyJustifyContent($elem, 'between');
-        
-        $this->assertTrue($elem->hasCSSClass('justify-content-between'));
+        HtmlElement::applyAlignItems($elem, 'stretch');
+        $this->assertTrue($elem->hasCSSClass('align-items-stretch'));
     }
 
-    /**
-     * @test
-     * @group layout
-     * @group flexbox
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * align_items_center_adds_align_center_class
- *
- * @return void
- */
-/**
- * align_items_center_adds_align_center_class
- *
- * @return void
- */
-/**
- * align_items_center_adds_align_center_class
- *
- * @return void
- */
-/**
- * align_items_center_adds_align_center_class
- *
- * @return void
- */
-/**
- * align_items_center_adds_align_center_class
- *
- * @return void
- */
-/**
- * align_items_center_adds_align_center_class
- *
- * @return void
- */
-/**
- * align_items_center_adds_align_center_class
- *
- * @return void
- */
-/**
- * align_items_center_adds_align_center_class
- *
- * @return void
- */
-/**
- * align_items_center_adds_align_center_class
- *
- * @return void
- */
-/**
- * align_items_center_adds_align_center_class
- *
- * @return void
- */
-function align_items_center_adds_align_center_class()
+    /** @test */
+    public function apply_flex_grow_adds_flex_grow_1_class(): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyAlignItems($elem, 'center');
-        
-        $this->assertTrue($elem->hasCSSClass('align-items-center'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group flexbox
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * align_items_start_adds_align_start_class
- *
- * @return void
- */
-/**
- * align_items_start_adds_align_start_class
- *
- * @return void
- */
-/**
- * align_items_start_adds_align_start_class
- *
- * @return void
- */
-/**
- * align_items_start_adds_align_start_class
- *
- * @return void
- */
-/**
- * align_items_start_adds_align_start_class
- *
- * @return void
- */
-/**
- * align_items_start_adds_align_start_class
- *
- * @return void
- */
-/**
- * align_items_start_adds_align_start_class
- *
- * @return void
- */
-/**
- * align_items_start_adds_align_start_class
- *
- * @return void
- */
-/**
- * align_items_start_adds_align_start_class
- *
- * @return void
- */
-/**
- * align_items_start_adds_align_start_class
- *
- * @return void
- */
-function align_items_start_adds_align_start_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyAlignItems($elem, 'start');
-        
-        $this->assertTrue($elem->hasCSSClass('align-items-start'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group flexbox
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * flex_grow_adds_flex_grow_class
- *
- * @return void
- */
-/**
- * flex_grow_adds_flex_grow_class
- *
- * @return void
- */
-/**
- * flex_grow_adds_flex_grow_class
- *
- * @return void
- */
-/**
- * flex_grow_adds_flex_grow_class
- *
- * @return void
- */
-/**
- * flex_grow_adds_flex_grow_class
- *
- * @return void
- */
-/**
- * flex_grow_adds_flex_grow_class
- *
- * @return void
- */
-/**
- * flex_grow_adds_flex_grow_class
- *
- * @return void
- */
-/**
- * flex_grow_adds_flex_grow_class
- *
- * @return void
- */
-/**
- * flex_grow_adds_flex_grow_class
- *
- * @return void
- */
-/**
- * flex_grow_adds_flex_grow_class
- *
- * @return void
- */
-function flex_grow_adds_flex_grow_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyFlexGrow($elem);
-        
+        $result = HtmlElement::applyFlexGrow($elem);
+        $this->assertSame($elem, $result);
         $this->assertTrue($elem->hasCSSClass('flex-grow-1'));
     }
 
-    /**
-     * @test
-     * @group layout
-     * @group flexbox
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * flex_shrink_adds_flex_shrink_class
- *
- * @return void
- */
-/**
- * flex_shrink_adds_flex_shrink_class
- *
- * @return void
- */
-/**
- * flex_shrink_adds_flex_shrink_class
- *
- * @return void
- */
-/**
- * flex_shrink_adds_flex_shrink_class
- *
- * @return void
- */
-/**
- * flex_shrink_adds_flex_shrink_class
- *
- * @return void
- */
-/**
- * flex_shrink_adds_flex_shrink_class
- *
- * @return void
- */
-/**
- * flex_shrink_adds_flex_shrink_class
- *
- * @return void
- */
-/**
- * flex_shrink_adds_flex_shrink_class
- *
- * @return void
- */
-/**
- * flex_shrink_adds_flex_shrink_class
- *
- * @return void
- */
-/**
- * flex_shrink_adds_flex_shrink_class
- *
- * @return void
- */
-function flex_shrink_adds_flex_shrink_class()
+    /** @test */
+    public function apply_flex_shrink_adds_flex_shrink_1_class(): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyFlexShrink($elem);
-        
+        $result = HtmlElement::applyFlexShrink($elem);
+        $this->assertSame($elem, $result);
         $this->assertTrue($elem->hasCSSClass('flex-shrink-1'));
     }
 
     // ============================================================================
-    // TEXT ALIGNMENT TESTS
+    // TEXT ALIGNMENT
     // ============================================================================
 
-    /**
-     * @test
-     * @group layout
-     * @group text
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * text_align_center_adds_text_center_class
- *
- * @return void
- */
-/**
- * text_align_center_adds_text_center_class
- *
- * @return void
- */
-/**
- * text_align_center_adds_text_center_class
- *
- * @return void
- */
-/**
- * text_align_center_adds_text_center_class
- *
- * @return void
- */
-/**
- * text_align_center_adds_text_center_class
- *
- * @return void
- */
-/**
- * text_align_center_adds_text_center_class
- *
- * @return void
- */
-/**
- * text_align_center_adds_text_center_class
- *
- * @return void
- */
-/**
- * text_align_center_adds_text_center_class
- *
- * @return void
- */
-/**
- * text_align_center_adds_text_center_class
- *
- * @return void
- */
-/**
- * text_align_center_adds_text_center_class
- *
- * @return void
- */
-function text_align_center_adds_text_center_class()
+    /** @test */
+    public function apply_text_align_adds_text_alignment_class(): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyTextAlign($elem, 'center');
-        
+        HtmlElement::applyTextAlign($elem, 'center');
         $this->assertTrue($elem->hasCSSClass('text-center'));
     }
 
-    /**
-     * @test
-     * @group layout
-     * @group text
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * text_align_left_adds_text_left_class
- *
- * @return void
- */
-/**
- * text_align_left_adds_text_left_class
- *
- * @return void
- */
-/**
- * text_align_left_adds_text_left_class
- *
- * @return void
- */
-/**
- * text_align_left_adds_text_left_class
- *
- * @return void
- */
-/**
- * text_align_left_adds_text_left_class
- *
- * @return void
- */
-/**
- * text_align_left_adds_text_left_class
- *
- * @return void
- */
-/**
- * text_align_left_adds_text_left_class
- *
- * @return void
- */
-/**
- * text_align_left_adds_text_left_class
- *
- * @return void
- */
-/**
- * text_align_left_adds_text_left_class
- *
- * @return void
- */
-/**
- * text_align_left_adds_text_left_class
- *
- * @return void
- */
-function text_align_left_adds_text_left_class()
+    /** @test */
+    public function apply_text_align_responsive_adds_breakpoint_classes(): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyTextAlign($elem, 'left');
-        
-        $this->assertTrue($elem->hasCSSClass('text-left'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group text
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * text_align_right_adds_text_right_class
- *
- * @return void
- */
-/**
- * text_align_right_adds_text_right_class
- *
- * @return void
- */
-/**
- * text_align_right_adds_text_right_class
- *
- * @return void
- */
-/**
- * text_align_right_adds_text_right_class
- *
- * @return void
- */
-/**
- * text_align_right_adds_text_right_class
- *
- * @return void
- */
-/**
- * text_align_right_adds_text_right_class
- *
- * @return void
- */
-/**
- * text_align_right_adds_text_right_class
- *
- * @return void
- */
-/**
- * text_align_right_adds_text_right_class
- *
- * @return void
- */
-/**
- * text_align_right_adds_text_right_class
- *
- * @return void
- */
-/**
- * text_align_right_adds_text_right_class
- *
- * @return void
- */
-function text_align_right_adds_text_right_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyTextAlign($elem, 'right');
-        
-        $this->assertTrue($elem->hasCSSClass('text-right'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group text
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * text_align_justify_adds_text_justify_class
- *
- * @return void
- */
-/**
- * text_align_justify_adds_text_justify_class
- *
- * @return void
- */
-/**
- * text_align_justify_adds_text_justify_class
- *
- * @return void
- */
-/**
- * text_align_justify_adds_text_justify_class
- *
- * @return void
- */
-/**
- * text_align_justify_adds_text_justify_class
- *
- * @return void
- */
-/**
- * text_align_justify_adds_text_justify_class
- *
- * @return void
- */
-/**
- * text_align_justify_adds_text_justify_class
- *
- * @return void
- */
-/**
- * text_align_justify_adds_text_justify_class
- *
- * @return void
- */
-/**
- * text_align_justify_adds_text_justify_class
- *
- * @return void
- */
-/**
- * text_align_justify_adds_text_justify_class
- *
- * @return void
- */
-function text_align_justify_adds_text_justify_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyTextAlign($elem, 'justify');
-        
-        $this->assertTrue($elem->hasCSSClass('text-justify'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group text
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * text_align_responsive_adds_breakpoint_classes
- *
- * @return void
- */
-/**
- * text_align_responsive_adds_breakpoint_classes
- *
- * @return void
- */
-/**
- * text_align_responsive_adds_breakpoint_classes
- *
- * @return void
- */
-/**
- * text_align_responsive_adds_breakpoint_classes
- *
- * @return void
- */
-/**
- * text_align_responsive_adds_breakpoint_classes
- *
- * @return void
- */
-/**
- * text_align_responsive_adds_breakpoint_classes
- *
- * @return void
- */
-/**
- * text_align_responsive_adds_breakpoint_classes
- *
- * @return void
- */
-/**
- * text_align_responsive_adds_breakpoint_classes
- *
- * @return void
- */
-/**
- * text_align_responsive_adds_breakpoint_classes
- *
- * @return void
- */
-/**
- * text_align_responsive_adds_breakpoint_classes
- *
- * @return void
- */
-function text_align_responsive_adds_breakpoint_classes()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyTextAlignResponsive($elem, [
-            'xs' => 'left',
-            'md' => 'center',
-            'lg' => 'right'
-        ]);
-        
+        HtmlElement::applyTextAlignResponsive($elem, ['xs' => 'left', 'md' => 'center', 'lg' => 'right']);
         $this->assertTrue($elem->hasCSSClass('text-left'));
         $this->assertTrue($elem->hasCSSClass('text-md-center'));
         $this->assertTrue($elem->hasCSSClass('text-lg-right'));
     }
 
-    // ============================================================================
-    // OVERFLOW TESTS
-    // ============================================================================
-
-    /**
-     * @test
-     * @group layout
-     * @group overflow
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * overflow_auto_adds_overflow_class
- *
- * @return void
- */
-/**
- * overflow_auto_adds_overflow_class
- *
- * @return void
- */
-/**
- * overflow_auto_adds_overflow_class
- *
- * @return void
- */
-/**
- * overflow_auto_adds_overflow_class
- *
- * @return void
- */
-/**
- * overflow_auto_adds_overflow_class
- *
- * @return void
- */
-/**
- * overflow_auto_adds_overflow_class
- *
- * @return void
- */
-/**
- * overflow_auto_adds_overflow_class
- *
- * @return void
- */
-/**
- * overflow_auto_adds_overflow_class
- *
- * @return void
- */
-/**
- * overflow_auto_adds_overflow_class
- *
- * @return void
- */
-/**
- * overflow_auto_adds_overflow_class
- *
- * @return void
- */
-function overflow_auto_adds_overflow_class()
+    /** @test */
+    public function apply_text_truncate_adds_text_truncate_class(): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyOverflow($elem, 'auto');
-        
-        $this->assertTrue($elem->hasCSSClass('overflow-auto'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group overflow
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * overflow_hidden_adds_overflow_hidden_class
- *
- * @return void
- */
-/**
- * overflow_hidden_adds_overflow_hidden_class
- *
- * @return void
- */
-/**
- * overflow_hidden_adds_overflow_hidden_class
- *
- * @return void
- */
-/**
- * overflow_hidden_adds_overflow_hidden_class
- *
- * @return void
- */
-/**
- * overflow_hidden_adds_overflow_hidden_class
- *
- * @return void
- */
-/**
- * overflow_hidden_adds_overflow_hidden_class
- *
- * @return void
- */
-/**
- * overflow_hidden_adds_overflow_hidden_class
- *
- * @return void
- */
-/**
- * overflow_hidden_adds_overflow_hidden_class
- *
- * @return void
- */
-/**
- * overflow_hidden_adds_overflow_hidden_class
- *
- * @return void
- */
-/**
- * overflow_hidden_adds_overflow_hidden_class
- *
- * @return void
- */
-function overflow_hidden_adds_overflow_hidden_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyOverflow($elem, 'hidden');
-        
-        $this->assertTrue($elem->hasCSSClass('overflow-hidden'));
-    }
-
-    /**
-     * @test
-     * @group layout
-     * @group overflow
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * text_truncate_adds_truncate_class
- *
- * @return void
- */
-/**
- * text_truncate_adds_truncate_class
- *
- * @return void
- */
-/**
- * text_truncate_adds_truncate_class
- *
- * @return void
- */
-/**
- * text_truncate_adds_truncate_class
- *
- * @return void
- */
-/**
- * text_truncate_adds_truncate_class
- *
- * @return void
- */
-/**
- * text_truncate_adds_truncate_class
- *
- * @return void
- */
-/**
- * text_truncate_adds_truncate_class
- *
- * @return void
- */
-/**
- * text_truncate_adds_truncate_class
- *
- * @return void
- */
-/**
- * text_truncate_adds_truncate_class
- *
- * @return void
- */
-/**
- * text_truncate_adds_truncate_class
- *
- * @return void
- */
-function text_truncate_adds_truncate_class()
-    {
-        $elem = HtmlElement::div();
-        $elem = HtmlElement::applyTextTruncate($elem);
-        
+        $result = HtmlElement::applyTextTruncate($elem);
+        $this->assertSame($elem, $result);
         $this->assertTrue($elem->hasCSSClass('text-truncate'));
     }
 
     // ============================================================================
-    // BORDER AND SHADOW TESTS
+    // OVERFLOW
     // ============================================================================
 
-    /**
-     * @test
-     * @group layout
-     * @group borders
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * border_all_adds_border_class
- *
- * @return void
- */
-/**
- * border_all_adds_border_class
- *
- * @return void
- */
-/**
- * border_all_adds_border_class
- *
- * @return void
- */
-/**
- * border_all_adds_border_class
- *
- * @return void
- */
-/**
- * border_all_adds_border_class
- *
- * @return void
- */
-/**
- * border_all_adds_border_class
- *
- * @return void
- */
-/**
- * border_all_adds_border_class
- *
- * @return void
- */
-/**
- * border_all_adds_border_class
- *
- * @return void
- */
-/**
- * border_all_adds_border_class
- *
- * @return void
- */
-/**
- * border_all_adds_border_class
- *
- * @return void
- */
-function border_all_adds_border_class()
+    /** @test */
+    public function apply_overflow_adds_overflow_class(): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyBorder($elem);
-        
+        HtmlElement::applyOverflow($elem, 'hidden');
+        $this->assertTrue($elem->hasCSSClass('overflow-hidden'));
+    }
+
+    // ============================================================================
+    // BORDERS
+    // ============================================================================
+
+    /** @test */
+    public function apply_border_adds_border_class(): void
+    {
+        $elem = HtmlElement::div();
+        $result = HtmlElement::applyBorder($elem);
+        $this->assertSame($elem, $result);
         $this->assertTrue($elem->hasCSSClass('border'));
     }
 
-    /**
-     * @test
-     * @group layout
-     * @group borders
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * border_top_adds_border_top_class
- *
- * @return void
- */
-/**
- * border_top_adds_border_top_class
- *
- * @return void
- */
-/**
- * border_top_adds_border_top_class
- *
- * @return void
- */
-/**
- * border_top_adds_border_top_class
- *
- * @return void
- */
-/**
- * border_top_adds_border_top_class
- *
- * @return void
- */
-/**
- * border_top_adds_border_top_class
- *
- * @return void
- */
-/**
- * border_top_adds_border_top_class
- *
- * @return void
- */
-/**
- * border_top_adds_border_top_class
- *
- * @return void
- */
-/**
- * border_top_adds_border_top_class
- *
- * @return void
- */
-/**
- * border_top_adds_border_top_class
- *
- * @return void
- */
-function border_top_adds_border_top_class()
+    /** @test */
+    public function apply_border_top_adds_border_top_class(): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyBorderTop($elem);
-        
+        HtmlElement::applyBorderTop($elem);
         $this->assertTrue($elem->hasCSSClass('border-top'));
     }
 
-    /**
-     * @test
-     * @group layout
-     * @group borders
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * border_bottom_adds_border_bottom_class
- *
- * @return void
- */
-/**
- * border_bottom_adds_border_bottom_class
- *
- * @return void
- */
-/**
- * border_bottom_adds_border_bottom_class
- *
- * @return void
- */
-/**
- * border_bottom_adds_border_bottom_class
- *
- * @return void
- */
-/**
- * border_bottom_adds_border_bottom_class
- *
- * @return void
- */
-/**
- * border_bottom_adds_border_bottom_class
- *
- * @return void
- */
-/**
- * border_bottom_adds_border_bottom_class
- *
- * @return void
- */
-/**
- * border_bottom_adds_border_bottom_class
- *
- * @return void
- */
-/**
- * border_bottom_adds_border_bottom_class
- *
- * @return void
- */
-/**
- * border_bottom_adds_border_bottom_class
- *
- * @return void
- */
-function border_bottom_adds_border_bottom_class()
+    /** @test */
+    public function apply_border_bottom_adds_border_bottom_class(): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyBorderBottom($elem);
-        
+        HtmlElement::applyBorderBottom($elem);
         $this->assertTrue($elem->hasCSSClass('border-bottom'));
     }
 
-    /**
-     * @test
-     * @group layout
-     * @group borders
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * border_radius_adds_rounded_class
- *
- * @return void
- */
-/**
- * border_radius_adds_rounded_class
- *
- * @return void
- */
-/**
- * border_radius_adds_rounded_class
- *
- * @return void
- */
-/**
- * border_radius_adds_rounded_class
- *
- * @return void
- */
-/**
- * border_radius_adds_rounded_class
- *
- * @return void
- */
-/**
- * border_radius_adds_rounded_class
- *
- * @return void
- */
-/**
- * border_radius_adds_rounded_class
- *
- * @return void
- */
-/**
- * border_radius_adds_rounded_class
- *
- * @return void
- */
-/**
- * border_radius_adds_rounded_class
- *
- * @return void
- */
-/**
- * border_radius_adds_rounded_class
- *
- * @return void
- */
-function border_radius_adds_rounded_class()
+    /** @test */
+    public function apply_border_left_adds_border_left_class(): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyBorderRadius($elem);
-        
+        HtmlElement::applyBorderLeft($elem);
+        $this->assertTrue($elem->hasCSSClass('border-left'));
+    }
+
+    /** @test */
+    public function apply_border_right_adds_border_right_class(): void
+    {
+        $elem = HtmlElement::div();
+        HtmlElement::applyBorderRight($elem);
+        $this->assertTrue($elem->hasCSSClass('border-right'));
+    }
+
+    /** @test */
+    public function apply_border_radius_default_adds_rounded_class(): void
+    {
+        $elem = HtmlElement::div();
+        HtmlElement::applyBorderRadius($elem);
         $this->assertTrue($elem->hasCSSClass('rounded'));
     }
 
-    /**
-     * @test
-     * @group layout
-     * @group borders
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * border_radius_circle_adds_rounded_circle_class
- *
- * @return void
- */
-/**
- * border_radius_circle_adds_rounded_circle_class
- *
- * @return void
- */
-/**
- * border_radius_circle_adds_rounded_circle_class
- *
- * @return void
- */
-/**
- * border_radius_circle_adds_rounded_circle_class
- *
- * @return void
- */
-/**
- * border_radius_circle_adds_rounded_circle_class
- *
- * @return void
- */
-/**
- * border_radius_circle_adds_rounded_circle_class
- *
- * @return void
- */
-/**
- * border_radius_circle_adds_rounded_circle_class
- *
- * @return void
- */
-/**
- * border_radius_circle_adds_rounded_circle_class
- *
- * @return void
- */
-/**
- * border_radius_circle_adds_rounded_circle_class
- *
- * @return void
- */
-/**
- * border_radius_circle_adds_rounded_circle_class
- *
- * @return void
- */
-function border_radius_circle_adds_rounded_circle_class()
+    /** @test */
+    public function apply_border_radius_circle_adds_rounded_circle_class(): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyBorderRadius($elem, 'circle');
-        
+        HtmlElement::applyBorderRadius($elem, 'circle');
         $this->assertTrue($elem->hasCSSClass('rounded-circle'));
     }
 
-    /**
-     * @test
-     * @group layout
-     * @group shadow
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * shadow_adds_shadow_class
- *
- * @return void
- */
-/**
- * shadow_adds_shadow_class
- *
- * @return void
- */
-/**
- * shadow_adds_shadow_class
- *
- * @return void
- */
-/**
- * shadow_adds_shadow_class
- *
- * @return void
- */
-/**
- * shadow_adds_shadow_class
- *
- * @return void
- */
-/**
- * shadow_adds_shadow_class
- *
- * @return void
- */
-/**
- * shadow_adds_shadow_class
- *
- * @return void
- */
-/**
- * shadow_adds_shadow_class
- *
- * @return void
- */
-/**
- * shadow_adds_shadow_class
- *
- * @return void
- */
-/**
- * shadow_adds_shadow_class
- *
- * @return void
- */
-function shadow_adds_shadow_class()
+    // ============================================================================
+    // SHADOWS
+    // ============================================================================
+
+    /** @test */
+    public function apply_shadow_default_adds_shadow_class(): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyShadow($elem);
-        
+        $result = HtmlElement::applyShadow($elem);
+        $this->assertSame($elem, $result);
         $this->assertTrue($elem->hasCSSClass('shadow'));
     }
 
-    /**
-     * @test
-     * @group layout
-     * @group shadow
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * shadow_sm_adds_shadow_small_class
- *
- * @return void
- */
-/**
- * shadow_sm_adds_shadow_small_class
- *
- * @return void
- */
-/**
- * shadow_sm_adds_shadow_small_class
- *
- * @return void
- */
-/**
- * shadow_sm_adds_shadow_small_class
- *
- * @return void
- */
-/**
- * shadow_sm_adds_shadow_small_class
- *
- * @return void
- */
-/**
- * shadow_sm_adds_shadow_small_class
- *
- * @return void
- */
-/**
- * shadow_sm_adds_shadow_small_class
- *
- * @return void
- */
-/**
- * shadow_sm_adds_shadow_small_class
- *
- * @return void
- */
-/**
- * shadow_sm_adds_shadow_small_class
- *
- * @return void
- */
-/**
- * shadow_sm_adds_shadow_small_class
- *
- * @return void
- */
-function shadow_sm_adds_shadow_small_class()
+    /** @test */
+    public function apply_shadow_sm_adds_shadow_sm_class(): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyShadow($elem, 'sm');
-        
+        HtmlElement::applyShadow($elem, 'sm');
         $this->assertTrue($elem->hasCSSClass('shadow-sm'));
     }
 
-    /**
-     * @test
-     * @group layout
-     * @group shadow
- * @return void
- * @since v1.0.5 2026-04-14
-     */
-    public /**
- * shadow_lg_adds_shadow_large_class
- *
- * @return void
- */
-/**
- * shadow_lg_adds_shadow_large_class
- *
- * @return void
- */
-/**
- * shadow_lg_adds_shadow_large_class
- *
- * @return void
- */
-/**
- * shadow_lg_adds_shadow_large_class
- *
- * @return void
- */
-/**
- * shadow_lg_adds_shadow_large_class
- *
- * @return void
- */
-/**
- * shadow_lg_adds_shadow_large_class
- *
- * @return void
- */
-/**
- * shadow_lg_adds_shadow_large_class
- *
- * @return void
- */
-/**
- * shadow_lg_adds_shadow_large_class
- *
- * @return void
- */
-/**
- * shadow_lg_adds_shadow_large_class
- *
- * @return void
- */
-/**
- * shadow_lg_adds_shadow_large_class
- *
- * @return void
- */
-function shadow_lg_adds_shadow_large_class()
+    /** @test */
+    public function apply_shadow_lg_adds_shadow_lg_class(): void
     {
         $elem = HtmlElement::div();
-        $elem = HtmlElement::applyShadow($elem, 'lg');
-        
+        HtmlElement::applyShadow($elem, 'lg');
         $this->assertTrue($elem->hasCSSClass('shadow-lg'));
+    }
+
+    // ============================================================================
+    // NON-SELF ELEMENT PASSTHROUGH (branch coverage)
+    // ============================================================================
+
+    /** @test */
+    public function static_methods_return_non_self_element_unchanged(): void
+    {
+        $mock = $this->createMock(HtmlElementInterface::class);
+        $mock->expects($this->never())->method($this->anything());
+
+        $result = HtmlElement::applyMargin($mock, 3);
+        $this->assertSame($mock, $result, 'Non-self instances should be returned unchanged');
+
+        $result2 = HtmlElement::applyDisplay($mock, 'flex');
+        $this->assertSame($mock, $result2);
     }
 }

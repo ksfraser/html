@@ -123,8 +123,19 @@ class HtmlElement implements HtmlElementInterface {
     /** @var bool Whether this is an empty element (no closing tag) */
     protected $empty;
     
-    /** @var string|null Optional text content (for elements created with tag + text) */
-    protected $content;
+    /**
+     * Text content node — always stored as HtmlElementInterface so the rendering
+     * path is unified: content reaches the output via ->getHtml() exactly the
+     * same way as every other child in $nested.  Strings are auto-wrapped in
+     * HtmlString, which performs HTML-escaping on render.
+     *
+     * Keeping this separate from $nested preserves "set replaces" semantics:
+     * a second call to setTextContent() replaces the previous text node rather
+     * than appending to the child list.
+     *
+     * @var HtmlElementInterface|null
+     */
+    protected ?HtmlElementInterface $textContent = null;
     
     /** @var HtmlAttributeList List of HTML attributes */
     protected $attributeList;
@@ -138,15 +149,15 @@ class HtmlElement implements HtmlElementInterface {
     public function __construct($tagOrData = null, ?string $content = null)
     {
         $this->nested = array();
-        $this->content = null;  // Initialize content property
-        $this->tag = null;      // Initialize tag property
+        $this->textContent = null;
+        $this->tag = null;
         
         // Handle tag string parameter
         if (is_string($tagOrData)) {
             $this->setTag($tagOrData);
             // If content provided with tag, add as text
             if ($content !== null && $content !== '') {
-                $this->content = $content;
+                $this->textContent = new HtmlString($content);
             }
         } // Handle HtmlElementInterface parameter
         else if ($tagOrData !== null && $tagOrData instanceof HtmlElementInterface) {
@@ -183,14 +194,25 @@ class HtmlElement implements HtmlElementInterface {
 
     /**
      * Set the text content of the element (replaces any existing text content).
-     * The text will be HTML-escaped on render.
      *
-     * @param string $content Plain text content
+     * Accepts either a plain string or any HtmlElementInterface node.
+     * Strings are auto-wrapped in HtmlString, which HTML-escapes on render.
+     * Passing an HtmlElementInterface lets callers supply pre-built nodes
+     * (e.g. HtmlRaw for trusted markup) without a second wrapper.
+     *
+     * Internally the value is stored as HtmlElementInterface so rendering
+     * always goes through ->getHtml() — the same path used for all $nested
+     * children. No inline htmlspecialchars() call is needed here.
+     *
+     * @param string|HtmlElementInterface $content Plain text or an element node
      * @return self (Fluent interface)
      */
-    public function setTextContent(string $content): self
+    public function setTextContent(string|HtmlElementInterface $content): self
     {
-        $this->content = $content;
+        if (is_string($content)) {
+            $content = new HtmlString($content);
+        }
+        $this->textContent = $content;
         return $this;
     }
 
@@ -252,6 +274,22 @@ class HtmlElement implements HtmlElementInterface {
 
     /**
      * Append a value to an existing attribute, or set it if absent.
+     *
+     * Attributes are stored as HtmlAttribute objects inside an HtmlAttributeList
+     * (the full class-based object model).  This method:
+     *   1. Reads the current rendered value via HtmlAttributeList::getAttributeValue(),
+     *      which calls HtmlAttribute::getValue() on the stored object.
+     *   2. Concatenates the new value using $separator.
+     *   3. Writes back via setAttribute(), which wraps the result in a new
+     *      HtmlString and stores it as a fresh HtmlAttribute object.
+     *
+     * The HtmlAttribute / HtmlAttributeList object model is fully preserved;
+     * no raw string storage ever occurs outside the value objects.
+     *
+     * Typical use-cases: building up class lists, rel tokens, accept lists:
+     *   $el->appendAttribute('class', 'btn')           // class="btn"
+     *   $el->appendAttribute('class', 'btn-primary')   // class="btn btn-primary"
+     *   $el->appendAttribute('accept', 'image/png', ',') // accept="image/jpeg,image/png"
      *
      * @param string $key       Attribute name
      * @param string $value     Value to append
@@ -321,20 +359,23 @@ class HtmlElement implements HtmlElementInterface {
     }
 
     /**
-     * Renders HTML for all nested children and text content
-     * 
+     * Renders HTML for all nested children and text content.
+     *
+     * Text content (if set) is rendered first via $this->textContent->getHtml(),
+     * followed by each child in $nested.  Both paths go through HtmlElementInterface
+     * ::getHtml() — there is no inline htmlspecialchars() call here; escaping
+     * is the responsibility of the concrete element (e.g. HtmlString).
+     *
      * @return string HTML string of all nested children
      */
     protected function renderChildrenHtml(): string
     {
         $html = '';
-        
-        // Add text content first if present
-        if (!empty($this->content)) {
-            $html .= htmlspecialchars($this->content, ENT_QUOTES, 'UTF-8');
+
+        if ($this->textContent !== null) {
+            $html .= $this->textContent->getHtml();
         }
-        
-        // Then add nested element children
+
         foreach ($this->nested as $child) {
             $html .= $child->getHtml();
         }

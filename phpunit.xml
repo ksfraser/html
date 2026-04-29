@@ -16,6 +16,10 @@
         </include>
         <exclude>
             <directory suffix=".php">src/Ksfraser/HTML/archived</directory>
+            <directory suffix=".php">src/Ksfraser/HTML/CSS/Examples</directory>
+            <file>src/Ksfraser/HTML/class.VIEW.php</file>
+            <file>src/Ksfraser/HTML/FaUiFunctions.php</file>
+            <file>src/Ksfraser/HTML/Elements/HtmlInternalCSSListList.php</file>
         </exclude>
     </coverage>
 </phpunit>

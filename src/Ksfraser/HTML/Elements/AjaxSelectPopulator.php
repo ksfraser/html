@@ -179,12 +179,16 @@ class AjaxSelectPopulator extends HtmlElement
     }
 
     /**
-     * Set the placeholder/default option text
+     * Set the placeholder/default option text for the generated JS function
+     * 
+     * Overrides HtmlElement::setPlaceholder() to store the value in the
+     * internal $placeholder property used by generateJSFunction(), rather
+     * than setting an HTML attribute on a rendered element.
      * 
      * @param string $text Placeholder text
-     * @return AjaxSelectPopulator Fluent interface
+     * @return self Fluent interface
      */
-    public function setPlaceholder($text)
+    public function setPlaceholder(string $text): self
     {
         $this->placeholder = $text;
         return $this;
@@ -252,7 +256,7 @@ class AjaxSelectPopulator extends HtmlElement
      * 
      * @return string
      */
-    public function getHtml()
+    public function getHtml(): string
     {
         $script = new HtmlScript('text/javascript', $this->generateJSFunction());
         return $script->getHtml();
