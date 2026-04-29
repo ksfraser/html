@@ -326,4 +326,20 @@ trait CSSManagementTrait
      * @access public
      */
     abstract public function setAttribute(string $name, $value): self;
+
+    /**
+     * Conditionally add a CSS class.
+     * When $condition is false the call is a no-op.
+     *
+     * @param bool   $condition Apply the class only when this is true
+     * @param string $class     CSS class name to add
+     * @return self
+     */
+    public function addCSSClassIf(bool $condition, string $class): self
+    {
+        if ($condition) {
+            $this->addCSSClass($class);
+        }
+        return $this;
+    }
 }

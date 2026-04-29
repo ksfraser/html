@@ -412,6 +412,23 @@ trait AriaAttributeTrait
     }
 
     /**
+     * Conditionally set an ARIA attribute.
+     * When $condition is false the call is a no-op.
+     *
+     * @param bool   $condition Set the attribute only when this is true
+     * @param string $name      Attribute name (without 'aria-' prefix)
+     * @param string $value     Attribute value
+     * @return self
+     */
+    public function setAriaIf(bool $condition, string $name, string $value): self
+    {
+        if ($condition) {
+            $this->setAria($name, $value);
+        }
+        return $this;
+    }
+
+    /**
      * Get an ARIA attribute value
      *
      * @param string $name The attribute name (without 'aria-' prefix)

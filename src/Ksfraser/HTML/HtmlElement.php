@@ -182,6 +182,36 @@ class HtmlElement implements HtmlElementInterface {
     
 
     /**
+     * Set the text content of the element (replaces any existing text content).
+     * The text will be HTML-escaped on render.
+     *
+     * @param string $content Plain text content
+     * @return self (Fluent interface)
+     */
+    public function setTextContent(string $content): self
+    {
+        $this->content = $content;
+        return $this;
+    }
+
+    /**
+     * Conditionally set an attribute on the element.
+     * When $condition is false the call is a no-op.
+     *
+     * @param bool   $condition Set the attribute only when this is true
+     * @param string $name      Attribute name
+     * @param string $value     Attribute value
+     * @return self (Fluent interface)
+     */
+    public function setAttributeIf(bool $condition, string $name, string $value): self
+    {
+        if ($condition) {
+            $this->setAttribute($name, $value);
+        }
+        return $this;
+    }
+
+    /**
      * Get the current value of an attribute (if present)
      *
      * @param string $name

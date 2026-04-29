@@ -54,6 +54,23 @@ trait DataAttributeTrait
     }
 
     /**
+     * Conditionally set a data-* attribute.
+     * When $condition is false the call is a no-op.
+     *
+     * @param bool   $condition Set the attribute only when this is true
+     * @param string $key       Data attribute name (without 'data-' prefix)
+     * @param mixed  $value     Attribute value
+     * @return self
+     */
+    public function setDataIf(bool $condition, string $key, mixed $value): self
+    {
+        if ($condition) {
+            $this->setData($key, $value);
+        }
+        return $this;
+    }
+
+    /**
      * Get a data attribute value
      *
      * Returns the raw, unescaped value. Returns null if the key doesn't exist.

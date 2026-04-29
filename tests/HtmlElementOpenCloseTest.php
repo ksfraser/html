@@ -14,7 +14,7 @@ class HtmlElementOpenCloseTest extends TestCase
     {
         $el = new HtmlElement('div');
         if ($content !== null) {
-            $el->setContent($content);
+            $el->setTextContent($content);
         }
         return $el;
     }
