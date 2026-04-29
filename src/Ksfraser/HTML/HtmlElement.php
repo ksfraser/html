@@ -240,6 +240,63 @@ class HtmlElement implements HtmlElementInterface {
     }
 
     /**
+     * Alias for removeAttribute(). Removes an attribute by name.
+     *
+     * @param string $key Attribute name to remove
+     * @return self (Fluent interface)
+     */
+    public function forgetAttribute(string $key): self
+    {
+        return $this->removeAttribute($key);
+    }
+
+    /**
+     * Append a value to an existing attribute, or set it if absent.
+     *
+     * @param string $key       Attribute name
+     * @param string $value     Value to append
+     * @param string $separator String placed between old and new values (default: ' ')
+     * @return self (Fluent interface)
+     */
+    public function appendAttribute(string $key, string $value, string $separator = ' '): self
+    {
+        $current = $this->getAttributeValue($key);
+        if ($current === null || $current === '') {
+            return $this->setAttribute($key, $value);
+        }
+        return $this->setAttribute($key, $current . $separator . $value);
+    }
+
+    /**
+     * Conditionally add a nested child element.
+     * When $condition is false the call is a no-op.
+     *
+     * @param bool                 $condition Add the element only when this is true
+     * @param HtmlElementInterface $element   Element to nest
+     * @return self (Fluent interface)
+     */
+    public function addNestedIf(bool $condition, HtmlElementInterface $element): self
+    {
+        if ($condition) {
+            $this->addNested($element);
+        }
+        return $this;
+    }
+
+    /**
+     * Append raw (unescaped) HTML as inner content.
+     * Use with caution — only pass pre-sanitised markup.
+     *
+     * @param string $rawHtml Raw HTML to embed verbatim
+     * @return self (Fluent interface)
+     */
+    public function html(string $rawHtml): self
+    {
+        $this->addNested(new \Ksfraser\HTML\Elements\HtmlRaw($rawHtml));
+        return $this;
+    }
+
+    /**
      * Set the entire attribute list
      * 
      * @param HtmlAttributeList $list New attribute list

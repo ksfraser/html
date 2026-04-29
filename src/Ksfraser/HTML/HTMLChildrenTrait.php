@@ -57,6 +57,34 @@ trait HTMLChildrenTrait {
 		array_unshift($this->children, $child);
 		return $this;
 	}
+
+	/**
+	 * Conditionally add a child. When $condition is false, this is a no-op.
+	 *
+	 * @param bool                 $condition Add the child only when true
+	 * @param HtmlElementInterface $child
+	 * @return $this
+	 */
+	public function addChildIf(bool $condition, HtmlElementInterface $child) {
+		if ($condition) {
+			$this->addChild($child);
+		}
+		return $this;
+	}
+
+	/**
+	 * Map each item in $items through $mapper and add the result as a child.
+	 *
+	 * @param array    $items  Items to map
+	 * @param callable $mapper Callable(mixed $item): HtmlElementInterface
+	 * @return $this
+	 */
+	public function children(array $items, callable $mapper) {
+		foreach ($items as $item) {
+			$this->addChild($mapper($item));
+		}
+		return $this;
+	}
 	
 	/**
 	 * Renders HTML attributes.
