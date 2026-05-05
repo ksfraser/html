@@ -9,6 +9,11 @@ use Ksfraser\HTML\HtmlElementInterface;
 *
 * @since 20250517
 */
-/**
- */
-class HtmlHeading4 extends HtmlH4 {}
+class HtmlHeading4 extends HtmlHeading
+{
+	function __construct( HtmlElementInterface $data )
+	{
+		parent::__construct( $data );
+		$this->tag = "h4";
+	}
+}

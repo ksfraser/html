@@ -2,11 +2,7 @@
 
 namespace Ksfraser\HTML\Elements;
 
-use Ksfraser\HTML\HtmlElement;
-
 use Ksfraser\HTML\HtmlElementInterface;
-
-use Ksfraser\HTML\HtmlAttribute;
 
 /**//****************************
 * Links 
@@ -15,59 +11,43 @@ use Ksfraser\HTML\HtmlAttribute;
 */
 class HtmlLink extends HtmlElement
 {
-	/**
-	 * HtmlLink: Represents a <link> tag for external resources (CSS, icons, etc.)
-	 * Generates: <link rel="..." href="...">
-	 */
-	public function __construct()
+	//can have styles, title
+	function __construct( HtmlElementInterface $data )
 	{
-		parent::__construct(new HtmlString(''));
-		$this->tag = 'link';
-		$this->empty = true; // <link> is self-closing
+		parent::__construct( $data );
+		$this->tag = "a";
+	}
+	function addHref( $url, $text = "" )
+	{
+		if( is_object( $text ) )
+		{
+		}
+		else
+		if( is_string( $text) AND strlen( $text ) > 0 )
+		{
+			$this->data = new HtmlString( $text );
+		}
+		else
+		{
+			throw new Exception( "An invalid HREF was passed in!" );
+		}
+		$this->addAttribute( new HtmlAttribute( "href", $url ) );
+	}
+	function setTarget( $target )
+	{
+		//Target can be _self, _blank, _parent, _top
+		switch( $target )
+		{
+			case '_self':
+			case '_blank':
+			case '_parent':
+			case '_top':
+				$this->addAttribute( new HtmlAttribute( "target", $target ) );
+				break;
+			default:
+				throw new Exception( "Target type not recognized: $target" );
+		}
+		return;
 	}
 
-	/**
-	 * Set href attribute
-	 * @param string $url
-	 * @return self
-	 */
-	public function setHref(string $url): self
-	{
-		$encodedUrl = htmlspecialchars($url, ENT_QUOTES, 'UTF-8');
-		$this->addAttributeObject(new HtmlAttribute('href', $encodedUrl));
-		return $this;
-	}
-
-	/**
-	 * Set rel attribute
-	 * @param string $rel
-	 * @return self
-	 */
-	public function setRel(string $rel): self
-	{
-		$this->addAttributeObject(new HtmlAttribute('rel', $rel));
-		return $this;
-	}
-
-	/**
-	 * Set type attribute
-	 * @param string $type
-	 * @return self
-	 */
-	public function setType(string $type): self
-	{
-		$this->addAttributeObject(new HtmlAttribute('type', $type));
-		return $this;
-	}
-
-	/**
-	 * Set media attribute
-	 * @param string $media
-	 * @return self
-	 */
-	public function setMedia(string $media): self
-	{
-		$this->addAttributeObject(new HtmlAttribute('media', $media));
-		return $this;
-	}
 }

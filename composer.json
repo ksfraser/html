@@ -1,5 +1,6 @@
 {
     "name": "ksfraser/html",
+    "version": "2.0.7",
     "description": "HTML project for Ksfraser",
     "require": {
         "php": ">=7.3"

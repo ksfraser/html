@@ -2,8 +2,6 @@
 
 namespace Ksfraser\HTML\Elements;
 
-use Ksfraser\HTML\HtmlElement;
-
 use Ksfraser\HTML\HtmlElementInterface;
 
 class HtmlDescriptionTerm extends HtmlElement

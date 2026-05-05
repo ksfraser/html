@@ -1,17 +1,17 @@
 <?php
+
 namespace Ksfraser\HTML\Elements;
-
-// TODO: Create English human-readable wrappers for tags such as HtmlBreak (wraps HtmlBr), HtmlBold (wraps HtmlB), HtmlItalics (wraps HtmlI), etc. to improve semantic clarity and usability for coders unfamiliar with raw HTML tag names.
-
-use Ksfraser\HTML\HtmlEmptyElement;
 
 use Ksfraser\HTML\HtmlElementInterface;
 
 class HtmlBr extends HtmlEmptyElement
 {
-	function __construct( $data = "" )
+	function __construct( $data = null )
 	{
-		parent::__construct( "" );
-		$this->tag = "br";
+		//As BR is an empty tag, we are going to ignore the passed in data.
+		//Should we accept a string of data that should follow this tag?  ie ->string->br->string ... ?
+		//EmptyElement accepts a null
+		parent::__construct();
+		$this->tag = "br /";
 	}
 }

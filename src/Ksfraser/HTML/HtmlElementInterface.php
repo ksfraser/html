@@ -12,23 +12,16 @@ namespace Ksfraser\HTML;
  * Provides methods for both direct output and string return of HTML
  */
 interface HtmlElementInterface {
-    /**
-     * Returns HTML string representation
-     */
-    public function getHtml(): string;
-
-    /**
-     * Outputs HTML directly
-     */
-    /**
-     * Render the element as HTML.
-     *
-     * Outputs the HTML representation of this element.
-     * Implementations should emit the markup (for example using echo or print)
-     * rather than returning it.
-     *
-     * @return void
-     */
-    public function toHtml(): void;
+        /**
+         * Render the object in HTML.
+         * The Html is echoed directly into the output by echo'ing getHtml.
+         */
+	public function toHtml():void;
+        /**
+         * Render HTML.
+         * The Html is returned as a string without outputting
+         * Equivalent to __toString
+         */
+        public function getHtml():string;
 }
 ?>

@@ -1,9 +1,8 @@
 <?php
 
-
 namespace Ksfraser\HTML\Elements;
 
-use Ksfraser\HTML\Attributes\HtmlAttributeValueObject;
+use Ksfraser\HTML\HtmlElementInterface;
 
 /**//**
 * A Style is an attribute with KEY Style and value param:setting
@@ -17,24 +16,36 @@ use Ksfraser\HTML\Attributes\HtmlAttributeValueObject;
 *		font-size
 *		text-align
 */
-class HtmlStyleList extends HtmlAttributeValueObject
-
+class HtmlStyleList implements HtmlElementInterface
 {
-    public function __construct()
-    {
-        $this->attributeName = 'style';
-        $this->attributeArray = [];
-    }
-
-    protected function getAttributeValueString(): string
-    {
-        if (count($this->attributeArray) === 0) {
-            return '';
+	protected $styleArray;
+        function __constructor( HtmlStyle $style )
+        {
+                $this->addStyle( $style );
         }
-        $value = '';
-        foreach ($this->attributeArray as $style) {
-            $value .= $style->getHtml();
+        function addStyle( HtmlStyle $style )
+        {
+                $this->styleArray[] = $style;
         }
-        return $value;
-    }
+        public function toHtml() {
+                echo $this->getHtml();
+        }
+ 
+	function getHtml()
+	{
+		if( count( $this->styleArray ) > 0 )
+		{
+			$html = 'style="';
+		}
+		else
+		{
+			return "";
+		}
+		foreach( $this->styleArray as $style )
+		{
+			$html .= $style->getHtml();
+		}
+		$html .= '"';
+		return $html;
+	}
 }
