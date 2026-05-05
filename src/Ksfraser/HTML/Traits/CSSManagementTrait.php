@@ -32,10 +32,8 @@ trait CSSManagementTrait
      * Valid CSS class name pattern
      * Classes must not contain spaces, special characters, etc.
      * Pattern: valid letters, digits, hyphens, underscores
-     * 
-     * @const string
      */
-    protected const CSS_CLASS_PATTERN = '/^[a-zA-Z0-9_-]+$/';
+    protected static $cssClassPattern = '/^[a-zA-Z0-9_-]+$/';
 
     /**
      * Add a single CSS class to the element
@@ -74,7 +72,7 @@ trait CSSManagementTrait
         $class = trim($class);
 
         // Validate class name format
-        if (!preg_match(self::CSS_CLASS_PATTERN, $class)) {
+        if (!preg_match(self::$cssClassPattern, $class)) {
             throw new \InvalidArgumentException(
                 "Invalid CSS class name: '{$class}'. " .
                 "Classes must contain only letters, digits, hyphens, and underscores."
@@ -183,7 +181,7 @@ trait CSSManagementTrait
         }
 
         // Validate class name
-        if (!preg_match(self::CSS_CLASS_PATTERN, $class)) {
+        if (!preg_match(self::$cssClassPattern, $class)) {
             throw new \InvalidArgumentException(
                 "Invalid CSS class name: '{$class}'. " .
                 "Classes must contain only letters, digits, hyphens, and underscores."

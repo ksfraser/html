@@ -4,14 +4,14 @@ namespace Ksfraser\HTML\Button;
 use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlAttribute;
 use Ksfraser\HTML\HtmlElementInterface;
-use Ksfraser\HTML\JS\HtmlJsEventTrait;
+use Ksfraser\HTML\js\HtmlJsEventTrait;
 
 /**
  * HtmlButton - HTML <button> element abstraction
  * @since 20250517
  */
 class HtmlButton extends HtmlElement {
-    use \Ksfraser\HTML\JS\HtmlJsEventTrait;
+    use \Ksfraser\HTML\js\HtmlJsEventTrait;
 
     /**
      * Constructor

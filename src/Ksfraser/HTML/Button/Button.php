@@ -2,7 +2,7 @@
 namespace Ksfraser\HTML\Button;
 
 use Ksfraser\HTML\Button\HtmlButton;
-use Ksfraser\HTML\JS\HtmlJsEventTrait;
+use Ksfraser\HTML\js\HtmlJsEventTrait;
 use Ksfraser\HTML\HtmlAttribute;
 use Ksfraser\HTML\HtmlElementInterface;
 use Ksfraser\HTML\Elements\HtmlString;
@@ -16,7 +16,7 @@ use Ksfraser\HTML\Elements\HtmlString;
  * @package Ksfraser\HTML\Button
  */
 class Button extends HtmlButton {
-        use \Ksfraser\HTML\JS\HtmlJsEventTrait;
+        use \Ksfraser\HTML\js\HtmlJsEventTrait;
     /**
      * Constructor
      *

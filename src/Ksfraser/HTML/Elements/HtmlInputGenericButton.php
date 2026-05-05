@@ -5,7 +5,7 @@ namespace Ksfraser\HTML\Elements;
 use Ksfraser\HTML\Elements\HtmlInputButton;
 use Ksfraser\HTML\HtmlElementInterface;
 use Ksfraser\HTML\HtmlAttribute;
-use \Ksfraser\HTML\JS\HtmlJsEventTrait;
+use \Ksfraser\HTML\js\HtmlJsEventTrait;
 
 /**
  * HTML Generic Button Input Class
