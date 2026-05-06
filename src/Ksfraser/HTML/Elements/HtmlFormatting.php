@@ -3,6 +3,9 @@
 namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlElementInterface;
+use Ksfraser\HTML\HtmlElement;
+use Ksfraser\HTML\HtmlAttribute;
+use Ksfraser\HTML\HtmlAttributeList;
 
 /**//*********************************************
 * Formatting on Text.
@@ -16,16 +19,16 @@ class HtmlFormatting extends HtmlElement
 		parent::__construct( $data );
 		$this->tag = "";
 	}
-	function addAttribute( HtmlAttribute $attribute )
+	function addAttribute( HtmlAttribute $attribute ): void
 	{
-		throw new Exception( "Does HTML Formatting allow Attributes?" );
+		throw new \Exception( "Does HTML Formatting allow Attributes?" );
 	}
-	function setAttributeList( HtmlAttributeList $list )
+	function setAttributeList( HtmlAttributeList $list ): void
 	{
-		throw new Exception( "Does HTML Formatting allow Attributes?" );
+		throw new \Exception( "Does HTML Formatting allow Attributes?" );
 	}
-	function newAttributeList()
+	function newAttributeList(): void
 	{
-		throw new Exception( "Does HTML Formatting allow Attributes?" );
+		throw new \Exception( "Does HTML Formatting allow Attributes?" );
 	}
 }

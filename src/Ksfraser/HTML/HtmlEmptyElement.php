@@ -4,6 +4,7 @@ namespace Ksfraser\HTML;
 
 use Ksfraser\HTML\HtmlElementInterface;
 use Ksfraser\HTML\HtmlNull;
+use Ksfraser\HTML\HtmlElement;
 
 class HtmlEmptyElement extends HtmlElement
 {

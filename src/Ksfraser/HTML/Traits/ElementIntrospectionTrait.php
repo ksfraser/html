@@ -3,6 +3,8 @@
 namespace Ksfraser\HTML\Traits;
 
 use Ksfraser\HTML\HtmlElementInterface;
+use Ksfraser\HTML\HtmlAttribute;
+use Ksfraser\HTML\Elements\HtmlString;
 
 /**
  * ElementIntrospectionTrait - FR-010

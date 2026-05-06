@@ -4,6 +4,7 @@ namespace Ksfraser\HTML\Formatting;
 
 use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlElementInterface;
+use Ksfraser\HTML\Elements\HtmlString;
 
 /**
  * HtmlFormatting - Base class for inline semantic formatting elements

@@ -3,6 +3,7 @@
 namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlElementInterface;
+use Ksfraser\HTML\HtmlElement;
 
 /**//****************************
 * Headings can have 6 levels, styles.

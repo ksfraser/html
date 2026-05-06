@@ -2,6 +2,7 @@
 namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlAttribute;
+use Ksfraser\HTML\Elements\HtmlString;
 
 /**
  * TableData - Factory/convenience wrapper for HTML table data cell element

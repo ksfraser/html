@@ -2,6 +2,7 @@
 namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlAttribute;
+use Ksfraser\HTML\Elements\HtmlString;
 
 /**
  * TableRow - Factory/convenience wrapper for HTML table row elements

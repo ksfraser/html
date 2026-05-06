@@ -4,6 +4,7 @@ namespace Ksfraser\HTML\Buttons;
 
 use Ksfraser\HTML\HtmlElementInterface;
 use Ksfraser\HTML\HtmlAttribute;
+use Ksfraser\HTML\Elements\HtmlString;
 
 /**
  * Delete Action Button Class

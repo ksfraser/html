@@ -7,6 +7,7 @@ namespace Ksfraser\HTML\Elements;
 use Ksfraser\HTML\HtmlElementInterface;
 use Ksfraser\HTML\HtmlAttribute;
 use Ksfraser\HTML\HtmlElement;
+use Ksfraser\HTML\HtmlAttributeList;
 
 /**
  * HtmlOption

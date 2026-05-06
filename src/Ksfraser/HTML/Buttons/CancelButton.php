@@ -3,6 +3,7 @@
 namespace Ksfraser\HTML\Buttons;
 
 use Ksfraser\HTML\HtmlElementInterface;
+use Ksfraser\HTML\Elements\HtmlString;
 
 /**
  * Cancel Action Button Class

@@ -5,6 +5,7 @@ namespace Ksfraser\HTML\Traits;
 use Ksfraser\HTML\HtmlAttribute;
 use Ksfraser\HTML\Elements\HtmlString;
 use Ksfraser\HTML\HtmlElementInterface;
+use Ksfraser\HTML\HtmlAttributeList;
 
 /**
  * Trait for unified attribute handling (setAttribute, addAttribute)

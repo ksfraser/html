@@ -3,6 +3,7 @@ namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlAttribute;
 use Ksfraser\HTML\HtmlElementInterface;
+use Ksfraser\HTML\Elements\HtmlString;
 
 /**
  * Div - Factory/convenience wrapper for HTML div element

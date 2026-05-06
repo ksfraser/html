@@ -1,5 +1,6 @@
 <?php
 namespace Ksfraser\HTML\Elements;
+use Ksfraser\HTML\Elements\HtmlString;
 
 /**
  * ModalBuilder - Builder for modal dialogs

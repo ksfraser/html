@@ -6,6 +6,7 @@ use Ksfraser\HTML\Elements\HtmlInputButton;
 use Ksfraser\HTML\HtmlElementInterface;
 use Ksfraser\HTML\HtmlAttribute;
 use \Ksfraser\HTML\js\HtmlJsEventTrait;
+use Ksfraser\HTML\Elements\HtmlString;
 
 /**
  * HTML Generic Button Input Class

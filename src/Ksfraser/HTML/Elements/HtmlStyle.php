@@ -3,6 +3,7 @@
 namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlElementInterface;
+use Ksfraser\HTML\HtmlAttribute;
 
 /**//**
 * A Style is an attribute with KEY Style and value param:setting

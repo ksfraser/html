@@ -3,6 +3,7 @@
 namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlElementInterface;
+use Ksfraser\HTML\HtmlElement;
 
 /**//*************************************************
 * Class for generating forms
@@ -49,7 +50,7 @@ class HtmlInput extends HtmlElement
 	//can have styles
 	protected $action;	//URL
 	protected $method;	//get or post
-	function __construct( HtmlElementInterface $data )
+	function __construct( HtmlElementInterface $data = null )
 	{
 		parent::__construct( $data );
 		$this->tag = "form";

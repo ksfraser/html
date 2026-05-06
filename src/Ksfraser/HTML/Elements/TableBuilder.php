@@ -3,6 +3,7 @@
 namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlElement;
+use Ksfraser\HTML\Elements\HtmlString;
 
 /**
  * TableBuilder - Fluent Table Construction Helper

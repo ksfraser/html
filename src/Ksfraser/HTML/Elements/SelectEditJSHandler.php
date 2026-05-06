@@ -4,6 +4,7 @@ namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlElement;
 use Ksfraser\HTML\HtmlFragment;
+use Ksfraser\HTML\Elements\HtmlString;
 
 /**
  * SelectEditJSHandler - Selector Edit JavaScript Handler

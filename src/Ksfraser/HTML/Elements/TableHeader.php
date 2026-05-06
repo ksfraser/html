@@ -2,6 +2,7 @@
 namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlAttribute;
+use Ksfraser\HTML\Elements\HtmlString;
 
 /**
  * TableHeader - Factory/convenience wrapper for HTML table header cell element

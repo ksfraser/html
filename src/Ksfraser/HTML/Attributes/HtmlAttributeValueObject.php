@@ -3,6 +3,7 @@
 namespace Ksfraser\HTML\Attributes;
 
 use Ksfraser\HTML\HtmlElementInterface;
+use Ksfraser\HTML\HtmlAttribute;
 
 /**
  * Base class for complex HTML attribute value objects (e.g., style, class, data-*)

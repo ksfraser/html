@@ -2,6 +2,7 @@
 namespace Ksfraser\HTML;
 
 use Ksfraser\HTML\Elements\Stylesheet;
+use Ksfraser\HTML\HtmlElement;
 
 /**
  * AbstractStylesheetManager - Generic stylesheet loading with caching and security

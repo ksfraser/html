@@ -4,6 +4,7 @@ namespace Ksfraser\HTML;
 
 use Ksfraser\HTML\HtmlElementInterface;
 use Ksfraser\HTML\HtmlAttributeList;
+use Ksfraser\HTML\HtmlAttribute;
 //require_once( 'HtmlAttributeList.php' );
 
 /**//***************************************************************************
@@ -22,27 +23,42 @@ class HtmlElement implements HtmlElementInterface {
 	protected $empty;	//Empty elements have no DATA and no closing tag
 	protected $attributeList;	//ALL elements can have attributes
 	
-	function __construct( HtmlElementInterface $data )
+	function __construct( $data = null, $textContent = null )
 	{
 		//HTML is case insensitive.  XHTML etc requires lowercase.
 		$this->nested = array();
-		$this->addNested( $data );
+		$this->tag = "";
+		if( is_string( $data ) ) {
+			// String first arg = tag name (e.g. new HtmlElement('div'))
+			$this->tag = $data;
+			if( $textContent !== null ) {
+				$this->nested[] = (string) $textContent;
+			}
+		} elseif( $data instanceof HtmlElementInterface ) {
+			$this->nested[] = $data;
+		}
 		$this->newAttributeList();
 		$this->empty = false;
-		$this->tag = "";
 	}
 //TODO - remove once testing is complete!
 	function get( $attribute )
 	{
 		return $this->$attribute;
 	}
-	function addNested( HtmlElementInterface $element ):void
+	function addNested( $element ):void
 	{
-		$this->nested[] = $element;
+		if( $element instanceof HtmlElementInterface || is_string( $element ) ) {
+			$this->nested[] = $element;
+		}
 	}
 	function addAttribute( HtmlAttribute $attribute ):void
 	{
 		$this->attributeList->addAttribute( $attribute );
+	}
+	function setAttribute( string $name, $value ):self
+	{
+		$this->addAttribute( new HtmlAttribute( $name, $value ) );
+		return $this;
 	}
 	function setAttributeList( HtmlAttributeList $list ):void
 	{
@@ -84,7 +100,7 @@ class HtmlElement implements HtmlElementInterface {
 			{
 				foreach( $this->nested as $el )
 				{
-					$html .= $el->getHtml();
+					$html .= $el instanceof HtmlElementInterface ? $el->getHtml() : htmlspecialchars( (string) $el, ENT_QUOTES, 'UTF-8' );
 				}
 			}
 			$html .= '</' . $this->tag . '>';

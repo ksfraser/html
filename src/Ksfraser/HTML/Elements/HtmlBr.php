@@ -3,6 +3,7 @@
 namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlElementInterface;
+use Ksfraser\HTML\HtmlEmptyElement;
 
 class HtmlBr extends HtmlEmptyElement
 {
