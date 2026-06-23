@@ -4,55 +4,29 @@ namespace Ksfraser\HTML\Elements;
 
 use Ksfraser\HTML\HtmlElementInterface;
 use Ksfraser\HTML\HtmlElement;
+use Ksfraser\HTML\HtmlAttribute;
 
-/**//*************************************************
-* Class for generating forms
-*
-*	https://www.w3schools.com/tags/tag_input.asp
-*
-*
-* Forms can have the following attributes
-*	accept (FILE ONLY)
-*	alt	text
-*	autocomplete (on/off)
-*	autofocus
-*	checked (checkbox or RadioButton)
-*	dirname
-*	disabled
-*	form (form_id)
-*	formaction (submit or image - URL)
-*	formenctype (submit, image)
-*		application/x-www-form-urlencoded
-*		multipart/form-data
-*		text/plain
-*	method (dialog, get, post)
-*	name
-*	novalidate
-*	rel
-*		external
-*		help
-*		license
-*		next
-*		nofollow
-*		noopener
-*		noreferrer
-*		opener
-*		prev
-*		search
-*	target
-*		_blank
-*		_self
-*		_parent
-*		_top
-*******************************************************/
 class HtmlInput extends HtmlElement
 {
-	//can have styles
-	protected $action;	//URL
-	protected $method;	//get or post
-	function __construct( HtmlElementInterface $data = null )
+	protected $action;
+	protected $method;
+	function __construct( $data = null, $type = null )
 	{
 		parent::__construct( $data );
-		$this->tag = "form";
+		$this->tag = "input";
+		$this->empty = true;
+		if( $type !== null ) {
+			$this->addAttribute( new HtmlAttribute( "type", $type ) );
+		}
+	}
+	function setName( string $name ): self
+	{
+		$this->addAttribute( new HtmlAttribute( "name", $name ) );
+		return $this;
+	}
+	function setValue( string $value ): self
+	{
+		$this->addAttribute( new HtmlAttribute( "value", $value ) );
+		return $this;
 	}
 }

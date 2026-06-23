@@ -23,15 +23,15 @@ class HtmlString implements HtmlElementInterface
 	 * Renders the object in HTML.
 	 * The Html is echoed directly into the output.
 	 */
+	public function __toString(): string
+	{
+		return $this->getHtml();
+	}
 	public function toHtml():void {
 		echo $this->getHtml();
 	}
 	public function getHtml():string
 	{
-		//A HTML string doesn't have tags, attributes, styles, etc.
-		$html = $this->string;
-		return $html;
-		//Claude is recommending this function be:
-		//return htmlspecialchars($this->string, ENT_QUOTES, 'UTF-8');
+		return $this->string;
 	}
 }

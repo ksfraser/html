@@ -51,9 +51,21 @@ class HtmlForm extends HtmlElement
 	//can have styles
 	protected $action;	//URL
 	protected $method;	//get or post
-	function __construct( HtmlElementInterface $data )
+	function __construct( $data = null )
 	{
 		parent::__construct( $data );
 		$this->tag = "form";
+	}
+	function setAction( string $url ): self
+	{
+		return $this->setAttribute( 'action', $url );
+	}
+	function setMethod( string $method ): self
+	{
+		return $this->setAttribute( 'method', $method );
+	}
+	function setId( string $id ): self
+	{
+		return $this->setAttribute( 'id', $id );
 	}
 }

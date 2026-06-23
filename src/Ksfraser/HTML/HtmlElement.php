@@ -5,7 +5,16 @@ namespace Ksfraser\HTML;
 use Ksfraser\HTML\HtmlElementInterface;
 use Ksfraser\HTML\HtmlAttributeList;
 use Ksfraser\HTML\HtmlAttribute;
-//require_once( 'HtmlAttributeList.php' );
+use Ksfraser\HTML\Traits\ComponentFactoryTrait;
+use Ksfraser\HTML\Traits\SemanticElementsTrait;
+use Ksfraser\HTML\Traits\CSSManagementTrait;
+use Ksfraser\HTML\Traits\AriaAttributeTrait;
+use Ksfraser\HTML\Traits\DataAttributeTrait;
+use Ksfraser\HTML\Traits\ResponsiveLayoutTrait;
+use Ksfraser\HTML\Traits\FormElementsTrait;
+use Ksfraser\HTML\Traits\ElementIntrospectionTrait;
+use Ksfraser\HTML\Traits\EventHandlerTrait;
+use Ksfraser\HTML\Elements\HtmlString;
 
 /**//***************************************************************************
 * An HTML element is defined by a start tag, some content, and an end tag.
@@ -18,6 +27,16 @@ use Ksfraser\HTML\HtmlAttribute;
 *
 */
 class HtmlElement implements HtmlElementInterface {
+	use ComponentFactoryTrait,
+		SemanticElementsTrait,
+		CSSManagementTrait,
+		AriaAttributeTrait,
+		DataAttributeTrait,
+		ResponsiveLayoutTrait,
+		FormElementsTrait,
+		ElementIntrospectionTrait,
+		EventHandlerTrait;
+
 	protected $tag;
 	protected $nested;
 	protected $empty;	//Empty elements have no DATA and no closing tag
@@ -45,19 +64,91 @@ class HtmlElement implements HtmlElementInterface {
 	{
 		return $this->$attribute;
 	}
-	function addNested( $element ):void
+	function addNested( $element ): self
 	{
 		if( $element instanceof HtmlElementInterface || is_string( $element ) ) {
 			$this->nested[] = $element;
 		}
+		return $this;
 	}
 	function addAttribute( HtmlAttribute $attribute ):void
 	{
 		$this->attributeList->addAttribute( $attribute );
 	}
+	function addAttributeObject( HtmlAttribute $attribute ): self
+	{
+		$this->addAttribute( $attribute );
+		return $this;
+	}
 	function setAttribute( string $name, $value ):self
 	{
-		$this->addAttribute( new HtmlAttribute( $name, $value ) );
+		$this->attributeList->setAttribute( new HtmlAttribute( $name, $value ) );
+		return $this;
+	}
+	function removeAttribute( string $name ): self
+	{
+		$this->attributeList->removeAttributeByName( $name );
+		return $this;
+	}
+	function setTextContent( string $text ): self
+	{
+		$this->nested = array( $text );
+		return $this;
+	}
+	function setAttributeIf( bool $condition, string $name, $value ): self
+	{
+		if( $condition ) {
+			$this->setAttribute( $name, $value );
+		}
+		return $this;
+	}
+	function appendAttribute( string $name, string $value, string $separator = ' ' ): self
+	{
+		$existing = $this->attributeList->getAttributeValue( $name );
+		if( $existing !== null && $existing !== '' ) {
+			$this->setAttribute( $name, $existing . $separator . $value );
+		} else {
+			$this->setAttribute( $name, $value );
+		}
+		return $this;
+	}
+	function forgetAttribute( string $name ): self
+	{
+		$this->attributeList->removeAttributeByName( $name );
+		return $this;
+	}
+	function addNestedIf( bool $condition, $element ): self
+	{
+		if( $condition ) {
+			$this->addNested( $element );
+		}
+		return $this;
+	}
+	function openTag(): string
+	{
+		$html = '<' . $this->tag;
+		$html .= $this->getAttributes();
+		$html .= '>';
+		if( ! $this->empty )
+		{
+			if( isset( $this->nested ) )
+			{
+				foreach( $this->nested as $el )
+				{
+					$html .= $el instanceof HtmlElementInterface ? $el->getHtml() : htmlspecialchars( (string) $el, ENT_QUOTES, 'UTF-8' );
+				}
+			}
+		}
+		return $html;
+	}
+	function closeTag(): string
+	{
+		if( $this->empty ) return '';
+		return '</' . $this->tag . '>';
+	}
+	function html( string $rawHtml ): self
+	{
+		$this->nested[] = new HtmlString( $rawHtml );
 		return $this;
 	}
 	function setAttributeList( HtmlAttributeList $list ):void
@@ -76,15 +167,20 @@ class HtmlElement implements HtmlElementInterface {
 	{
 		return $this->tag;
 	}
-	function setTag( $tag ):void
+	function setTag( $tag ):self
 	{
 		$this->tag = $tag;
+		return $this;
 	}
 
 	/**
 	 * Renders the object in HTML.
 	 * The Html is echoed directly into the output.
 	 */
+	public function __toString(): string
+	{
+		return $this->getHtml();
+	}
 	public function toHtml():void 
 	{
 		echo $this->getHtml();
@@ -114,6 +210,9 @@ class HtmlElement implements HtmlElementInterface {
 	{
 		$html = "";
 		$html .= $this->attributeList->getHtml();
+		$html .= $this->renderAriaAttributes();
+		$html .= $this->renderDataAttributes();
+		$html .= $this->renderEventHandlers();
 		return $html;
 	}
 }

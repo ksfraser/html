@@ -7,10 +7,12 @@ use Ksfraser\HTML\HtmlElementInterface;
 class HtmlAttributeList implements HtmlElementInterface
 {
 	protected $attributeArray;
-	function __construct( HtmlAttribute $attribute )
+	function __construct( ?HtmlAttribute $attribute = null )
 	{
 		$this->attributeArray = array();
-		$this->addAttribute( $attribute );
+		if( $attribute !== null ) {
+			$this->addAttribute( $attribute );
+		}
 	}
 	function getAttributeArray()
 	{
@@ -19,6 +21,38 @@ class HtmlAttributeList implements HtmlElementInterface
 	function addAttribute( HtmlAttribute $attribute )
 	{
 		$this->attributeArray[] = $attribute;
+	}
+	function addAttributeObject( HtmlAttribute $attribute ): self
+	{
+		$this->addAttribute( $attribute );
+		return $this;
+	}
+	function setAttribute( HtmlAttribute $attribute ): void
+	{
+		$this->removeAttributeByName( $attribute->getName() );
+		$this->addAttribute( $attribute );
+	}
+	function getAttributeValue( string $name ): ?string
+	{
+		foreach( $this->attributeArray as $attr )
+		{
+			if( $attr->getName() === $name )
+			{
+				return $attr->getValue();
+			}
+		}
+		return null;
+	}
+	function removeAttributeByName( string $name ): void
+	{
+		foreach( $this->attributeArray as $i => $attr )
+		{
+			if( $attr->getName() === $name )
+			{
+				array_splice( $this->attributeArray, $i, 1 );
+				return;
+			}
+		}
 	}
 	public function toHtml():void
 	{

@@ -23,6 +23,10 @@ class HtmlAttribute implements HtmlElementInterface
 		$this->attribute = $attribute;
 		$this->value = $value;
 	}
+	public function __toString(): string
+	{
+		return $this->getHtml();
+	}
 	public function toHtml():void
 	{
 		echo $this->getHtml();
@@ -31,7 +35,7 @@ class HtmlAttribute implements HtmlElementInterface
 	{
 		if( strlen( $this->attribute ) > 0 )
 		{
-			$html = $this->attribute . "='" . $this->value . "'";
+			$html = $this->attribute . '="' . $this->value . '"';
 			return $html;
 		}	
 		return "";

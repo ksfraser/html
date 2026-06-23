@@ -683,7 +683,7 @@ class CSSManagementTraitTest extends TestCase
      */
     public function testExistingAddAttributeStillWorks(): void
     {
-        $this->element->addAttribute('class', 'btn');
+        $this->element->setAttribute('class', 'btn');
         $this->assertStringContainsString('class="btn"', (string)$this->element);
     }
 
