@@ -15,7 +15,7 @@ use Ksfraser\HTML\Elements\HtmlString;
 class HtmlLink extends HtmlElement
 {
 	//can have styles, title
-	function __construct( HtmlElementInterface $data )
+	function __construct( $data = null )
 	{
 		parent::__construct( $data );
 		$this->tag = "a";
@@ -28,13 +28,23 @@ class HtmlLink extends HtmlElement
 		else
 		if( is_string( $text) AND strlen( $text ) > 0 )
 		{
-			$this->data = new HtmlString( $text );
+			$this->nested[] = new HtmlString( $text );
 		}
 		else
 		{
 			throw new Exception( "An invalid HREF was passed in!" );
 		}
 		$this->addAttribute( new HtmlAttribute( "href", $url ) );
+	}
+	function setHref( string $url ): self
+	{
+		$this->addAttribute( new HtmlAttribute( "href", $url ) );
+		return $this;
+	}
+	function setText( string $text ): self
+	{
+		$this->nested[] = new HtmlString( $text );
+		return $this;
 	}
 	function setTarget( $target )
 	{
