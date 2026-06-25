@@ -121,7 +121,7 @@ trait AriaAttributeTrait
      * @param bool|string $pressed The pressed state: true, false, or 'mixed'
      * @return self Returns $this for method chaining
      */
-    public function setAriaPressed(bool|string $pressed): self
+    public function setAriaPressed($pressed): self
     {
         $value = is_bool($pressed) ? ($pressed ? 'true' : 'false') : $pressed;
         return $this->setAria('pressed', $value);
@@ -136,7 +136,7 @@ trait AriaAttributeTrait
      * @param bool|string $checked The checked state: true, false, or 'mixed'
      * @return self Returns $this for method chaining
      */
-    public function setAriaChecked(bool|string $checked): self
+    public function setAriaChecked($checked): self
     {
         $value = is_bool($checked) ? ($checked ? 'true' : 'false') : $checked;
         return $this->setAria('checked', $value);
@@ -282,7 +282,7 @@ trait AriaAttributeTrait
      * @param int|float $value The minimum value
      * @return self Returns $this for method chaining
      */
-    public function setAriaValuemin(int|float $value): self
+    public function setAriaValuemin($value): self
     {
         return $this->setAria('valuemin', (string)$value);
     }
@@ -295,7 +295,7 @@ trait AriaAttributeTrait
      * @param int|float $value The maximum value
      * @return self Returns $this for method chaining
      */
-    public function setAriaValuemax(int|float $value): self
+    public function setAriaValuemax($value): self
     {
         return $this->setAria('valuemax', (string)$value);
     }
@@ -308,7 +308,7 @@ trait AriaAttributeTrait
      * @param int|float $value The current value
      * @return self Returns $this for method chaining
      */
-    public function setAriaValuenow(int|float $value): self
+    public function setAriaValuenow($value): self
     {
         return $this->setAria('valuenow', (string)$value);
     }

@@ -17,7 +17,7 @@ class SubmitButton extends Button {
      * @param string|HtmlElementInterface|null $label Button label text or wrapped element.
      *                                                  Defaults to "Submit".
      */
-    public function __construct(string|HtmlElementInterface|null $label = null) {
+    public function __construct($label = null) {
         if ($label === null) {
             $label = new HtmlString('Submit');
         }

@@ -17,7 +17,7 @@ class HtmlButton extends HtmlElement {
      * Constructor
      * @param string|HtmlElementInterface|null $data Optional text content or nested element
      */
-    public function __construct(string|HtmlElementInterface|null $data = null) {
+    public function __construct($data = null) {
         parent::__construct($data);
         $this->setTag('button');
     }

@@ -23,7 +23,7 @@ class Button extends HtmlButton {
      * @param string|HtmlElementInterface|null $text Button label text or wrapped element.
      *                                                Strings are automatically wrapped in HtmlString.
      */
-    public function __construct(string|HtmlElementInterface|null $text = null) {
+    public function __construct($text = null) {
         parent::__construct();
         $this->setTag('button');
         if ($text !== null) {
@@ -41,7 +41,7 @@ class Button extends HtmlButton {
      *                                            Strings are automatically wrapped in HtmlString.
      * @return self
      */
-    public function setText(string|HtmlElementInterface $text): self {
+    public function setText($text): self {
         $this->nested = [];
         if (is_string($text)) {
             $text = new HtmlString(htmlspecialchars($text));

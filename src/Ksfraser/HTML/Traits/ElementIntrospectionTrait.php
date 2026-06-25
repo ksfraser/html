@@ -233,7 +233,7 @@ trait ElementIntrospectionTrait
      */
     public function getAttributeValue(string $name): ?string
     {
-        return $this->attributeList?->getAttributeValue($name);
+        return $this->attributeList !== null ? $this->attributeList->getAttributeValue($name) : null;
     }
 
     /**
