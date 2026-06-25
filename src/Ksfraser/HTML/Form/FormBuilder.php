@@ -64,7 +64,7 @@ class FormBuilder
      * @param array|\ArrayAccess $data Key-value pairs used to pre-fill form elements.
      * @return static New immutable instance with the data context set.
      */
-    public function withData($data): static
+    public function withData($data): self
     {
         $clone = clone $this;
         $clone->data = $data;
@@ -207,7 +207,7 @@ class FormBuilder
      * @param array|\ArrayAccess $data
      * @return static
      */
-    public function model($data): static
+    public function model($data): self
     {
         $clone = clone $this;
         $clone->modelStack[] = $this->data;   // save current context
@@ -223,7 +223,7 @@ class FormBuilder
      *
      * @return static
      */
-    public function endModel(): static
+    public function endModel(): self
     {
         $clone = clone $this;
         if (!empty($clone->modelStack)) {
